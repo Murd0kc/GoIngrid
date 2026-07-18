@@ -17,3 +17,20 @@ Construir una plataforma para aprender inglés desde A1 hasta C2 mediante práct
 9. Pruebas, beta y despliegue de producción.
 
 Cada fase debe tener entregables, pruebas y criterios de aceptación antes de avanzar.
+
+## Orden de ejecución
+
+1. Documentación y alcance del MVP.
+2. DNS, carpetas y aislamiento del servidor.
+3. Repositorio y frontend base.
+4. Proyecto Supabase y migraciones iniciales.
+5. Diagnóstico y perfil de habilidades.
+6. Primer módulo curricular y lecciones dinámicas.
+7. Ejercicios, respuestas, progreso y tiempo.
+8. Repasos, errores, objetivos y recomendaciones.
+9. Conversación IA, escritura y pronunciación.
+10. Panel administrativo y analítica.
+11. n8n, notificaciones, backups y observabilidad.
+12. Pruebas, staging, beta y producción.
+
+La checklist operativa se encuentra en `GOINGRID_STARTUP_CHECKLIST.md`.
