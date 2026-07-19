@@ -1,90 +1,84 @@
-# GoIngrid — Checklist de inicio
+# GoIngrid - Checklist de inicio
 
 ## Regla principal
 
-GoIngrid es independiente de English Coach. No se reutilizarán tablas, `.env`, contenedores, volúmenes, claves ni dominios entre ambos proyectos.
+GoIngrid es independiente de English Coach. No se reutilizaran tablas, variables, contenedores, volumenes, claves ni dominios entre ambos proyectos.
 
-## Orden de inicio
-
-### 1. Documentación
+## Documentacion
 
 - Leer `README.md`.
-- Leer `GOINGRID_DEVELOPMENT_PLAN.md`.
 - Leer `PRODUCT_REQUIREMENTS.md`.
-- Confirmar el alcance del MVP.
-- Confirmar la primera unidad curricular que se producirá.
+- Leer `GOINGRID_DEVELOPMENT_PLAN.md`.
+- Leer `GOINGRID_CONTENT_MASTER_PLAN.md`.
+- Leer `GOINGRID_ENGINEERING_RULES.md`.
+- Confirmar que `content/curriculum/` es la fuente unica de verdad.
 
-### 2. Repositorio local
+## Repositorio
 
 - Trabajar desde `E:\GoIngrid`.
 - Mantener cambios en Git.
-- Usar ramas para cada bloque funcional.
+- Usar ramas por bloque funcional.
 - No subir secretos, `.env` ni datos de usuarios.
 
-### 3. Infraestructura
+## Infraestructura
 
-- Crear el subdominio `goingrid.interflowx.com` en Cloudflare apuntando a `45.58.127.91`.
-- Crear carpetas independientes en `/opt/goingrid/`.
-- Crear una red Docker propia o nombres de servicio únicos.
-- Configurar Caddy sin modificar las rutas existentes.
-- Reservar un proyecto/base de datos Supabase independiente.
+- DNS de `goingrid.interflowx.com` apuntando a `45.58.127.91`.
+- Carpetas independientes en `/opt/goingrid/`.
+- Red Docker propia y nombres de servicio unicos.
+- Caddy configurado sin romper rutas existentes.
+- Supabase independiente.
 
-### 4. Aplicación base
+## Datos y contenido
 
-- Crear frontend React + Vite.
-- Añadir configuración de ESLint.
-- Añadir cliente Supabase.
-- Crear estructura modular por dominios.
-- Crear variables `.env.example` y `.gitignore`.
-- Validar `npm run lint` y `npm run build`.
+- Crear migraciones y RLS.
+- Crear el catalogo curricular A1-C2.
+- Validar duplicados, faltantes, referencias, respuestas y duracion.
+- Producir contenido completo antes de publicarlo.
+- Importar mediante un proceso idempotente.
+- Mantener estados de revision y versionado.
 
-### 5. Datos y contenido
+## Aplicacion base
 
-- Crear migraciones Supabase.
-- Crear niveles A1–C2 y habilidades.
-- Crear unidades, temas, lecciones y bloques.
-- Crear ejercicios, opciones, correcciones y evaluaciones.
-- Aplicar RLS antes de conectar usuarios reales.
+- React + Vite modular.
+- Cliente Supabase.
+- Variables `.env.example` y `.gitignore`.
+- `npm run lint` y `npm run build` funcionando.
 
-### 6. MVP del estudiante
+## MVP del estudiante
 
-- Registro e inicio de sesión.
-- Diagnóstico inicial.
+- Registro e inicio de sesion.
+- Diagnostico inicial.
 - Perfil por habilidades.
 - Ruta personalizada.
-- Lección dinámica.
+- Lecciones dinamicas.
 - Ejercicios interactivos.
-- Progreso y tiempo de estudio.
+- Progreso, errores y tiempo.
 - Repaso inteligente.
-- Objetivo semanal.
+- Objetivos flexibles.
 
-### 7. IA y pronunciación
+## IA y pronunciacion
 
-- Crear Edge Functions seguras.
-- Integrar conversación bilingüe.
-- Añadir corrección contextual.
-- Añadir práctica de escritura.
-- Añadir audio y transcripción.
-- Medir inteligibilidad y evolución, no solo una puntuación.
+- Edge Functions seguras.
+- Conversacion bilingue contextual.
+- Correccion de escritura y habla.
+- Audio, transcripcion y evaluacion de inteligibilidad.
 
-### 8. Administración y automatizaciones
+## Administracion y operaciones
 
-- Crear panel administrativo.
-- Gestionar contenido y versiones.
-- Consultar analítica pedagógica.
-- Importar workflows de n8n.
-- Configurar recordatorios y resúmenes.
+- Panel administrativo.
+- Versionado y aprobacion de contenido.
+- Analitica pedagogica.
+- Workflows n8n, recordatorios, backups y observabilidad.
 
-### 9. Validación y lanzamiento
+## Lanzamiento
 
-- Ejecutar pruebas locales.
-- Probar autenticación y RLS.
-- Probar flujos de aprendizaje.
-- Crear backup de Supabase.
-- Desplegar staging.
-- Validar `goingrid.interflowx.com`.
-- Invitar usuarios beta.
+- Pruebas locales.
+- Pruebas de autenticacion y RLS.
+- Staging.
+- Backup.
+- Validacion de `goingrid.interflowx.com`.
+- Beta controlada.
 
 ## Criterio para avanzar
 
-No se comienza una fase si la anterior no tiene documentación, pruebas y criterios de aceptación claros.
+No se comienza una fase si la anterior no tiene documentacion, pruebas y criterios de aceptacion claros.

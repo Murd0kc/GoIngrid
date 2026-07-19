@@ -1,0 +1,64 @@
+{
+  "level": "A1",
+  "title": "Acceso",
+  "target_guided_hours": {"min": 100, "max": 150},
+  "modules": [
+    {
+      "code": "A1-M1",
+      "title": "Bases fundamentales",
+      "topics": [
+        "El alfabeto y los sonidos principales",
+        "Pronombres personales",
+        "Verbo to be",
+        "Artículos a, an y the",
+        "Sustantivos y plurales",
+        "Adjetivos",
+        "Adjetivos posesivos",
+        "Demostrativos",
+        "There is y there are",
+        "Preposiciones básicas"
+      ]
+    },
+    {
+      "code": "A1-M2",
+      "title": "Construcción de oraciones",
+      "topics": [
+        "Orden correcto de las palabras",
+        "Presente simple",
+        "Auxiliares do y does",
+        "Preguntas y respuestas",
+        "Negaciones",
+        "Adverbios de frecuencia",
+        "Palabras interrogativas",
+        "Pronombres de objeto",
+        "Sustantivos contables y no contables",
+        "Some, any, much, many, few y little"
+      ]
+    },
+    {
+      "code": "A1-M3",
+      "title": "Comunicación cotidiana",
+      "topics": [
+        "Presentarse y dar información personal",
+        "Familia y relaciones",
+        "Casa y objetos cotidianos",
+        "Rutinas diarias",
+        "Comida, compras y preferencias",
+        "Hora, fechas y calendario",
+        "Lugares y direcciones",
+        "Transporte y viajes básicos",
+        "Trabajo y estudio",
+        "Situaciones de ayuda y necesidades"
+      ]
+    }
+  ],
+  "production_rules": {
+    "lessons_per_topic": {"min": 4, "max": 6},
+    "activities_per_lesson": {"min": 10, "max": 15},
+    "include_skills": ["grammar", "vocabulary", "listening", "speaking", "pronunciation", "reading", "writing", "interaction"],
+    "include_assessment": true,
+    "include_spaced_review": true,
+    "include_ai_roleplay": true,
+    "include_spanish_speaker_error_notes": true
+  }
+}
