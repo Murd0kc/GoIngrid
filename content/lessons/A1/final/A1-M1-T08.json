@@ -1,0 +1,691 @@
+{
+  "id": "A1-M1-T08",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic": "Demostrativos",
+  "title": "Demostrativos",
+  "estimated_seconds": null,
+  "communication_goal": "Usar demostrativos en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to demostrativos."
+  ],
+  "explanation_es": "Este tema desarrolla demostrativos mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M1-T08-L01",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Demostrativos",
+      "title": "This and that",
+      "objective": "Señalar objetos cercanos y lejanos con this y that.",
+      "activities": [
+        {
+          "id": "A1-M1-T08-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ is my pen. It is here.",
+          "options": [
+            "This",
+            "That",
+            "Those"
+          ],
+          "correct_answer": "This",
+          "feedback_correct": "This señala una cosa cercana.",
+          "feedback_incorrect": "El objeto está aquí: this.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ is the bus over there.",
+          "options": [
+            "This",
+            "That",
+            "These"
+          ],
+          "correct_answer": "That",
+          "feedback_correct": "That señala una cosa lejana.",
+          "feedback_incorrect": "Over there indica distancia.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / This / my / book",
+          "correct_answer": "This is my book.",
+          "feedback_correct": "This va antes de is.",
+          "feedback_incorrect": "Empieza con This.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "that",
+          "options": [
+            "eso o esa cosa",
+            "esto",
+            "estos"
+          ],
+          "correct_answer": "eso o esa cosa",
+          "feedback_correct": "That señala una cosa singular lejana.",
+          "feedback_incorrect": "This es esto; that es eso.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L01-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "That are my bag.",
+          "correct_answer": "That is my bag.",
+          "feedback_correct": "That es singular y usa is.",
+          "feedback_incorrect": "Cambia are por is.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T08-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "This is my phone.",
+          "options": [
+            "objeto cercano",
+            "objeto lejano",
+            "varios objetos"
+          ],
+          "correct_answer": "objeto cercano",
+          "feedback_correct": "This indica cercanía.",
+          "feedback_incorrect": "Escucha this.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "This is here. That is there.",
+          "evaluation_criteria": [
+            "/ð/ clear",
+            "this and that distinct",
+            "natural stress"
+          ],
+          "feedback_correct": "La distancia se entiende por la palabra.",
+          "feedback_incorrect": "Practica /ðɪs/ y /ðæt/.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T08-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "This is my cup. That is your cup on the table.",
+          "question": "Which cup is on the table?",
+          "correct_answer": "Your cup.",
+          "feedback_correct": "That señala la taza lejana.",
+          "feedback_incorrect": "Busca la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe frases.",
+          "prompt": "Write two sentences with this and two with that.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "near/far contrast",
+            "is agreement"
+          ],
+          "feedback_correct": "Distinguiste cercanía y distancia.",
+          "feedback_incorrect": "This/that son singulares y usan is.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T08-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Señala objetos.",
+          "prompt": "Point to one object near you and one far away and describe them.",
+          "role": "classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "this for near",
+            "that for far"
+          ],
+          "feedback_correct": "La IA comprueba el contexto espacial.",
+          "feedback_incorrect": "This = aquí; that = allí.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T08-L02",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Demostrativos",
+      "title": "These and those",
+      "objective": "Señalar varios objetos cercanos y lejanos.",
+      "activities": [
+        {
+          "id": "A1-M1-T08-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ are my keys. They are here.",
+          "options": [
+            "These",
+            "Those",
+            "This"
+          ],
+          "correct_answer": "These",
+          "feedback_correct": "These señala varios objetos cercanos.",
+          "feedback_incorrect": "Son varios y están aquí: these.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ are the cars over there.",
+          "options": [
+            "These",
+            "Those",
+            "That"
+          ],
+          "correct_answer": "Those",
+          "feedback_correct": "Those señala varios objetos lejanos.",
+          "feedback_incorrect": "Over there indica distancia y plural.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L02-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "are / These / my / shoes",
+          "correct_answer": "These are my shoes.",
+          "feedback_correct": "These usa are.",
+          "feedback_incorrect": "Empieza con These are.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "those",
+          "options": [
+            "aquellos o aquellas",
+            "estos",
+            "eso"
+          ],
+          "correct_answer": "aquellos o aquellas",
+          "feedback_correct": "Those es plural y lejano.",
+          "feedback_incorrect": "These es plural cercano; those lejano.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "These is my books.",
+          "correct_answer": "These are my books.",
+          "feedback_correct": "These es plural y usa are.",
+          "feedback_incorrect": "Cambia is por are.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T08-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "Those are mountains.",
+          "options": [
+            "montañas lejanas",
+            "montaña cercana",
+            "un libro"
+          ],
+          "correct_answer": "montañas lejanas",
+          "feedback_correct": "Those señala plural lejano.",
+          "feedback_incorrect": "Escucha those y mountains.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "These are here. Those are there.",
+          "evaluation_criteria": [
+            "/ðiːz/ clear",
+            "/ðoʊz/ clear",
+            "plural endings"
+          ],
+          "feedback_correct": "La diferencia entre these y those es clara.",
+          "feedback_incorrect": "Practica /iː/ y /oʊ/.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M1-T08-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "These are my books. Those are your books on the shelf.",
+          "question": "Which books are on the shelf?",
+          "correct_answer": "Your books.",
+          "feedback_correct": "Those señala los libros lejanos.",
+          "feedback_incorrect": "Busca la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe cuatro frases.",
+          "prompt": "Use these and those with familiar plural nouns.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "near/far contrast",
+            "are agreement",
+            "plural nouns"
+          ],
+          "feedback_correct": "Usaste demostrativos plurales correctamente.",
+          "feedback_incorrect": "These/those usan are y sustantivo plural.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T08-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Describe varios objetos.",
+          "prompt": "Point to two objects near you and two far away.",
+          "role": "classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "these for near plural",
+            "those for far plural"
+          ],
+          "feedback_correct": "La IA comprueba cantidad y distancia.",
+          "feedback_incorrect": "These = varios aquí; those = varios allí.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T08-L03",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Demostrativos",
+      "title": "Questions with demonstratives",
+      "objective": "Preguntar y responder sobre objetos usando this, that, these y those.",
+      "activities": [
+        {
+          "id": "A1-M1-T08-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "What is ___?",
+          "options": [
+            "this",
+            "these",
+            "those"
+          ],
+          "correct_answer": "this",
+          "feedback_correct": "What is this? pregunta por una cosa cercana.",
+          "feedback_incorrect": "Una cosa singular usa this o that.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "What are ___?",
+          "options": [
+            "these",
+            "this",
+            "that"
+          ],
+          "correct_answer": "these",
+          "feedback_correct": "What are these? pregunta por varias cosas cercanas.",
+          "feedback_incorrect": "Plural usa are y these o those.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L03-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "that / What / is",
+          "correct_answer": "What is that?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "Usa What is that?",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "What are those?",
+          "options": [
+            "¿Qué son aquellos?",
+            "¿Qué es esto?",
+            "¿De quién es eso?"
+          ],
+          "correct_answer": "¿Qué son aquellos?",
+          "feedback_correct": "Those es plural y lejano.",
+          "feedback_incorrect": "What are es plural.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T08-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "What is these?",
+          "correct_answer": "What are these?",
+          "feedback_correct": "These es plural y usa are.",
+          "feedback_incorrect": "Cambia is por are.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T08-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "What are those? Those are pictures.",
+          "question": "What are those?",
+          "correct_answer": "Pictures.",
+          "feedback_correct": "La respuesta identifica los objetos.",
+          "feedback_incorrect": "Escucha la respuesta después de those.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T08-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las preguntas.",
+          "prompt": "What is this? What is that? What are these? What are those?",
+          "evaluation_criteria": [
+            "singular/plural intonation",
+            "this/that contrast",
+            "these/those contrast"
+          ],
+          "feedback_correct": "Las preguntas se entienden claramente.",
+          "feedback_incorrect": "Usa is para singular y are para plural.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T08-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "What is this? It is a key. What are those? They are bags.",
+          "question": "What are those?",
+          "correct_answer": "Bags.",
+          "feedback_correct": "Those se refiere a bags.",
+          "feedback_incorrect": "Busca la segunda respuesta.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T08-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe cuatro preguntas y respuestas.",
+          "prompt": "Use each demonstrative once.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "four questions",
+            "is/are agreement",
+            "answers match"
+          ],
+          "feedback_correct": "Las preguntas distinguen cantidad y distancia.",
+          "feedback_incorrect": "This/that usan is; these/those usan are.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T08-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Pregunta por objetos.",
+          "prompt": "Ask the AI about four objects at different distances and answer its questions.",
+          "role": "museum guide",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "four demonstratives",
+            "correct is/are"
+          ],
+          "feedback_correct": "La interacción usa preguntas reales.",
+          "feedback_incorrect": "Mira si el objeto es singular, plural, cercano o lejano.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T08-L04",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Demostrativos",
+      "title": "Integrated pointing task",
+      "objective": "Usar demostrativos para describir una escena nueva.",
+      "activities": [
+        {
+          "id": "A1-M1-T08-L04-E01",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "This is a cup. Those are plates.",
+          "options": [
+            "una taza cercana y platos lejanos",
+            "un plato cercano",
+            "dos tazas lejanas"
+          ],
+          "correct_answer": "una taza cercana y platos lejanos",
+          "feedback_correct": "Identificaste singular y plural con distancia.",
+          "feedback_incorrect": "This es una cosa cercana; those son varias lejanas.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T08-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Several keys are here.",
+          "options": [
+            "This are keys.",
+            "These are keys.",
+            "Those is keys."
+          ],
+          "correct_answer": "These are keys.",
+          "feedback_correct": "Plural cercano usa these are.",
+          "feedback_incorrect": "Usa these con varios objetos aquí.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T08-L04-E03",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Those is my shoes.",
+          "correct_answer": "Those are my shoes.",
+          "feedback_correct": "Those es plural y usa are.",
+          "feedback_incorrect": "Cambia is por are.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T08-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "are / What / these",
+          "correct_answer": "What are these?",
+          "feedback_correct": "Pregunta plural correcta.",
+          "feedback_incorrect": "Usa What are + these.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T08-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee el diálogo.",
+          "prompt": "What is this? This is a map. What are those? Those are signs.",
+          "evaluation_criteria": [
+            "is/are contrast",
+            "demonstrative clarity",
+            "question intonation"
+          ],
+          "feedback_correct": "La escena se entiende por tus demostrativos.",
+          "feedback_incorrect": "Marca singular y plural con is/are.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T08-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "This is the entrance. Those are the exits. These are the tickets.",
+          "question": "What are the tickets?",
+          "correct_answer": "These.",
+          "feedback_correct": "These señala los tickets cercanos.",
+          "feedback_incorrect": "Busca la tercera frase.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T08-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe una escena.",
+          "prompt": "Write six sentences using all four demonstratives.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "all four forms",
+            "is/are agreement",
+            "clear distance"
+          ],
+          "feedback_correct": "La escena incluye las cuatro relaciones.",
+          "feedback_incorrect": "Usa dos singulares y dos plurales.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M1-T08-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Guía a un visitante.",
+          "prompt": "Point out objects near and far in a room and answer the AI's questions.",
+          "role": "tour guide",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses this",
+            "uses that",
+            "uses these",
+            "uses those"
+          ],
+          "feedback_correct": "La IA evalúa demostrativo, distancia y número.",
+          "feedback_incorrect": "La IA pide una reformulación de cada referencia.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        },
+        {
+          "id": "A1-M1-T08-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Describe objetos reales.",
+          "prompt": "Point to one nearby object, one distant object and two groups of objects.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "four demonstratives",
+            "is/are agreement",
+            "intelligibility"
+          ],
+          "feedback_correct": "Transferiste la regla a tu entorno.",
+          "feedback_incorrect": "Decide primero distancia y cantidad.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M1-T08-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación.",
+          "prompt": "Ask and answer about six objects using this, that, these and those.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "four forms",
+            "singular/plural agreement",
+            "distance",
+            "transfer"
+          ],
+          "feedback_correct": "Tema dominado.",
+          "feedback_incorrect": "Repasa la forma asociada a distancia y cantidad.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

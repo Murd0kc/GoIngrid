@@ -1,0 +1,700 @@
+{
+  "id": "A1-M2-T02",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Presente simple",
+  "title": "Presente simple",
+  "estimated_seconds": null,
+  "communication_goal": "Usar presente simple en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to presente simple."
+  ],
+  "explanation_es": "Este tema desarrolla presente simple mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T02-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Presente simple",
+      "title": "Daily routines",
+      "objective": "Usar el presente simple para hablar de hábitos y rutinas.",
+      "activities": [
+        {
+          "id": "A1-M2-T02-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "I ___ breakfast at seven.",
+          "options": [
+            "eat",
+            "eats",
+            "eating"
+          ],
+          "correct_answer": "eat",
+          "feedback_correct": "I usa la forma base.",
+          "feedback_incorrect": "Con I usamos eat.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "I ___ to work every day.",
+          "options": [
+            "go",
+            "goes",
+            "going"
+          ],
+          "correct_answer": "go",
+          "feedback_correct": "Go significa ir.",
+          "feedback_incorrect": "Después de I usa go.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "English / study / I / every day",
+          "correct_answer": "I study English every day.",
+          "feedback_correct": "Presente simple correcto.",
+          "feedback_incorrect": "Empieza con I y usa study.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L01-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "I studies English.",
+          "correct_answer": "I study English.",
+          "feedback_correct": "I no lleva -s.",
+          "feedback_incorrect": "Usa la forma base con I.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T02-L01-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "We ___ at home on Sundays.",
+          "options": [
+            "cook",
+            "cooks",
+            "cooking"
+          ],
+          "correct_answer": "cook",
+          "feedback_correct": "We usa la forma base.",
+          "feedback_incorrect": "Con we usa cook.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "They work every morning.",
+          "options": [
+            "trabajan cada mañana",
+            "estudian cada noche",
+            "cocinan los domingos"
+          ],
+          "correct_answer": "trabajan cada mañana",
+          "feedback_correct": "Entendiste el hábito.",
+          "feedback_incorrect": "Work significa trabajar y every morning cada mañana.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "I work. We study. They live.",
+          "evaluation_criteria": [
+            "base verb clear",
+            "final consonants",
+            "natural rhythm"
+          ],
+          "feedback_correct": "Los hábitos se entienden claramente.",
+          "feedback_incorrect": "No añadas una vocal al final del verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T02-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Ana gets up at six. She eats breakfast and goes to work.",
+          "question": "What time does Ana get up?",
+          "correct_answer": "At six.",
+          "feedback_correct": "La hora aparece en la primera frase.",
+          "feedback_incorrect": "Busca gets up at... .",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una rutina.",
+          "prompt": "Write five sentences about your daily routine.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five present simple sentences",
+            "time expressions",
+            "clear meaning"
+          ],
+          "feedback_correct": "La rutina está expresada en presente simple.",
+          "feedback_incorrect": "Usa la forma base con I, you, we o they.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T02-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla de tu rutina.",
+          "prompt": "Tell the AI five things you do every day.",
+          "role": "new classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "five present simple statements",
+            "time expression"
+          ],
+          "feedback_correct": "La rutina es comprensible.",
+          "feedback_incorrect": "Usa sujeto + verbo base + complemento.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T02-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Presente simple",
+      "title": "He, she and it",
+      "objective": "Usar la terminación de tercera persona en hábitos.",
+      "activities": [
+        {
+          "id": "A1-M2-T02-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "She ___ coffee.",
+          "options": [
+            "drink",
+            "drinks",
+            "drinking"
+          ],
+          "correct_answer": "drinks",
+          "feedback_correct": "She necesita -s en presente simple.",
+          "feedback_incorrect": "Con she usamos drinks.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "He ___ to work.",
+          "options": [
+            "go",
+            "goes",
+            "going"
+          ],
+          "correct_answer": "goes",
+          "feedback_correct": "Go cambia a goes con he.",
+          "feedback_incorrect": "He usa la forma de tercera persona.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L02-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "plays / She / tennis",
+          "correct_answer": "She plays tennis.",
+          "feedback_correct": "La frase es correcta.",
+          "feedback_incorrect": "Empieza con She y usa plays.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T02-L02-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "He work in a bank.",
+          "correct_answer": "He works in a bank.",
+          "feedback_correct": "He necesita works.",
+          "feedback_incorrect": "Añade -s a work.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T02-L02-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "The dog ___ fast.",
+          "options": [
+            "run",
+            "runs",
+            "running"
+          ],
+          "correct_answer": "runs",
+          "feedback_correct": "It y animales singulares usan -s.",
+          "feedback_incorrect": "Dog es singular: runs.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "Maria reads every night.",
+          "options": [
+            "Maria lee cada noche",
+            "Maria cocina cada noche",
+            "Maria trabaja cada mañana"
+          ],
+          "correct_answer": "Maria lee cada noche",
+          "feedback_correct": "Reads indica hábito de Maria.",
+          "feedback_incorrect": "Escucha reads y every night.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "He works. She reads. It runs.",
+          "evaluation_criteria": [
+            "final s/z clear",
+            "third person ending audible",
+            "natural rhythm"
+          ],
+          "feedback_correct": "Las terminaciones de tercera persona se oyen.",
+          "feedback_incorrect": "No elimines la terminación final.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T02-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Carlos drives to work. He starts at eight.",
+          "question": "How does Carlos go to work?",
+          "correct_answer": "He drives.",
+          "feedback_correct": "Drives responde cómo va.",
+          "feedback_incorrect": "Busca la primera frase.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T02-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe una rutina.",
+          "prompt": "Write five sentences about a fictional person's routine.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "he/she/it",
+            "third person endings",
+            "five sentences"
+          ],
+          "feedback_correct": "Usaste la tercera persona correctamente.",
+          "feedback_incorrect": "Revisa la terminación del verbo con he, she e it.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T02-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Describe a otra persona.",
+          "prompt": "Tell the AI about a friend's routine using he or she.",
+          "role": "classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "five third person statements",
+            "clear endings"
+          ],
+          "feedback_correct": "La rutina de la tercera persona es clara.",
+          "feedback_incorrect": "Añade -s o -es según el verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T02-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Presente simple",
+      "title": "Facts and habits",
+      "objective": "Usar el presente simple para hechos y hábitos frecuentes.",
+      "activities": [
+        {
+          "id": "A1-M2-T02-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "Water ___ at 100 degrees.",
+          "options": [
+            "boil",
+            "boils",
+            "boiling"
+          ],
+          "correct_answer": "boils",
+          "feedback_correct": "Water es singular y expresa un hecho.",
+          "feedback_incorrect": "Un sujeto singular usa boils.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "Birds ___.",
+          "options": [
+            "fly",
+            "flies",
+            "flying"
+          ],
+          "correct_answer": "fly",
+          "feedback_correct": "Birds es plural y usa fly.",
+          "feedback_incorrect": "Un sujeto plural usa la forma base.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L03-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "in winter / snow / It",
+          "correct_answer": "It snows in winter.",
+          "feedback_correct": "It snows describe un hecho habitual.",
+          "feedback_incorrect": "Empieza con It y usa snows.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L03-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "The sun rise in the east.",
+          "correct_answer": "The sun rises in the east.",
+          "feedback_correct": "The sun es singular: rises.",
+          "feedback_incorrect": "Añade -s a rise.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T02-L03-E05",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "A doctor ___ people.",
+          "options": [
+            "help",
+            "helps",
+            "helping"
+          ],
+          "correct_answer": "helps",
+          "feedback_correct": "Doctor es singular.",
+          "feedback_incorrect": "Con a doctor usamos helps.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T02-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "The store opens at nine.",
+          "options": [
+            "abre a las nueve",
+            "cierra a las nueve",
+            "abre a las diez"
+          ],
+          "correct_answer": "abre a las nueve",
+          "feedback_correct": "Opens at nine es el horario.",
+          "feedback_incorrect": "Escucha opens y nine.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "The sun rises. Birds fly. Water boils.",
+          "evaluation_criteria": [
+            "third person endings",
+            "plural base form",
+            "clear final sounds"
+          ],
+          "feedback_correct": "La diferencia singular/plural se oye.",
+          "feedback_incorrect": "Compara rises, fly y boils.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M2-T02-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "The library opens at eight and closes at six.",
+          "question": "When does it close?",
+          "correct_answer": "At six.",
+          "feedback_correct": "El horario está al final.",
+          "feedback_incorrect": "Busca closes at.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T02-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe hechos y hábitos.",
+          "prompt": "Write two general facts and three daily habits.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "present simple",
+            "subject agreement",
+            "five sentences"
+          ],
+          "feedback_correct": "Distingues hechos y hábitos con presente simple.",
+          "feedback_incorrect": "Usa presente simple para hechos y rutinas.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T02-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Explica horarios.",
+          "prompt": "Tell the AI three opening times and two regular facts about a place.",
+          "role": "information clerk",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "present simple",
+            "third person",
+            "time expressions"
+          ],
+          "feedback_correct": "La información es útil y clara.",
+          "feedback_incorrect": "Usa presente simple para horarios y hechos.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T02-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Presente simple",
+      "title": "Integrated routine task",
+      "objective": "Usar el presente simple en una conversación sobre rutinas.",
+      "activities": [
+        {
+          "id": "A1-M2-T02-L04-E01",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "I get up at seven, eat breakfast and go to work.",
+          "options": [
+            "rutina matutina",
+            "rutina nocturna",
+            "viaje"
+          ],
+          "correct_answer": "rutina matutina",
+          "feedback_correct": "Identificaste tres acciones de rutina.",
+          "feedback_incorrect": "Escucha get up, breakfast y work.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T02-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "She work every day.",
+            "She works every day.",
+            "She working every day."
+          ],
+          "correct_answer": "She works every day.",
+          "feedback_correct": "She necesita works.",
+          "feedback_incorrect": "Usa presente simple con tercera persona.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T02-L04-E03",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "They goes to school.",
+          "correct_answer": "They go to school.",
+          "feedback_correct": "They usa la forma base go.",
+          "feedback_incorrect": "Quita -es con they.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T02-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "usually / I / dinner / cook",
+          "correct_answer": "I usually cook dinner.",
+          "feedback_correct": "El adverbio puede ir antes del verbo principal.",
+          "feedback_incorrect": "Empieza con I y coloca usually antes de cook.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T02-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee la rutina.",
+          "prompt": "I get up early. She works downtown. They study at night.",
+          "evaluation_criteria": [
+            "base and third person contrast",
+            "rhythm",
+            "clear endings"
+          ],
+          "feedback_correct": "La rutina se entiende con naturalidad.",
+          "feedback_incorrect": "Marca works y study sin añadir vocales.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T02-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Julia gets up at six. She takes a bus and starts work at eight. She studies English at night.",
+          "question": "When does Julia study English?",
+          "correct_answer": "At night.",
+          "feedback_correct": "La información está en la última frase.",
+          "feedback_incorrect": "Busca studies English.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T02-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una rutina completa.",
+          "prompt": "Write eight sentences about your weekday routine.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "present simple",
+            "time expressions",
+            "third person where relevant"
+          ],
+          "feedback_correct": "La rutina tiene secuencia y precisión.",
+          "feedback_incorrect": "Revisa sujeto, verbo y terminación de tercera persona.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M2-T02-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Conversa con un compañero.",
+          "prompt": "Discuss your weekday routine, ask what the AI does and compare two habits.",
+          "role": "native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "statements",
+            "questions",
+            "third person",
+            "follow-up"
+          ],
+          "feedback_correct": "La IA evalúa precisión, fluidez y comprensión.",
+          "feedback_incorrect": "La IA pide una reformulación y da apoyo en español si hace falta.",
+          "difficulty": 2,
+          "estimated_seconds": 170
+        },
+        {
+          "id": "A1-M2-T02-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Habla sin leer.",
+          "prompt": "Describe your routine for one minute and mention one other person's routine.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "fluency",
+            "present simple",
+            "third person",
+            "intelligibility"
+          ],
+          "feedback_correct": "Usaste el presente simple espontáneamente.",
+          "feedback_incorrect": "Organiza: morning, afternoon, evening.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T02-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación.",
+          "prompt": "Describe your routine, ask two questions and explain one habit of another person.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "base forms",
+            "third person",
+            "questions",
+            "time",
+            "transfer"
+          ],
+          "feedback_correct": "Tema dominado.",
+          "feedback_incorrect": "Repasa la forma verbal relacionada con el error.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

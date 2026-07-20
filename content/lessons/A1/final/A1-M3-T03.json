@@ -1,0 +1,821 @@
+{
+  "id": "A1-M3-T03",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Casa y objetos cotidianos",
+  "title": "Casa y objetos cotidianos",
+  "estimated_seconds": null,
+  "communication_goal": "Usar casa y objetos cotidianos en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to casa y objetos cotidianos."
+  ],
+  "explanation_es": "Este tema desarrolla casa y objetos cotidianos mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T03-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Casa y objetos cotidianos",
+      "title": "Rooms and furniture",
+      "objective": "Nombrar habitaciones y muebles básicos de una casa y ubicarlos con frases sencillas.",
+      "activities": [
+        {
+          "id": "A1-M3-T03-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la habitación correcta.",
+          "prompt": "You cook in the ___.",
+          "options": [
+            "kitchen",
+            "bedroom",
+            "bathroom"
+          ],
+          "correct_answer": "kitchen",
+          "feedback_correct": "Kitchen es la habitación donde cocinas.",
+          "feedback_incorrect": "Busca la habitación relacionada con preparar comida.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "You sleep in a ___.",
+          "options": [
+            "bed",
+            "table",
+            "sink"
+          ],
+          "correct_answer": "bed",
+          "feedback_correct": "Bed es la cama donde duermes.",
+          "feedback_incorrect": "Elige el mueble usado para dormir.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L01-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el objeto correcto.",
+          "prompt": "You sit on a ___.",
+          "options": [
+            "chair",
+            "mirror",
+            "fridge"
+          ],
+          "correct_answer": "chair",
+          "feedback_correct": "Chair es una silla.",
+          "feedback_incorrect": "Busca el mueble para sentarse.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada palabra con la habitación.",
+          "pairs": [
+            {
+              "left": "bed",
+              "right": "bedroom"
+            },
+            {
+              "left": "shower",
+              "right": "bathroom"
+            },
+            {
+              "left": "sofa",
+              "right": "living room"
+            },
+            {
+              "left": "oven",
+              "right": "kitchen"
+            },
+            {
+              "left": "desk",
+              "right": "office"
+            }
+          ],
+          "feedback_correct": "Relacionas objetos con sus habitaciones habituales.",
+          "feedback_incorrect": "Piensa dónde se usa normalmente cada objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T03-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la frase.",
+          "prompt": "is / sofa / the / living room / in / The",
+          "correct_answer": "The sofa is in the living room.",
+          "feedback_correct": "La oración usa objeto + is + lugar.",
+          "feedback_incorrect": "Empieza con The sofa y termina con in the living room.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T03-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la descripción y responde.",
+          "prompt": "My bedroom has a bed, a desk, and a small lamp. The desk is next to the bed.",
+          "question": "What is next to the bed?",
+          "options": [
+            "The desk.",
+            "The lamp.",
+            "The door."
+          ],
+          "correct_answer": "The desk.",
+          "feedback_correct": "El audio dice the desk is next to the bed.",
+          "feedback_incorrect": "Escucha la última oración.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T03-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba la lista y la frase.",
+          "prompt": "bedroom, bathroom, kitchen, living room. The table is in the kitchen.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear room names",
+            "stress in living room",
+            "clear th in bathroom",
+            "natural sentence rhythm"
+          ],
+          "feedback_correct": "Los nombres de habitaciones se entienden con claridad.",
+          "feedback_incorrect": "Practica bathroom sin añadir una sílaba extra y marca living room como dos palabras.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T03-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la descripción y responde.",
+          "prompt": "Our apartment has two bedrooms, one bathroom, a kitchen, and a living room. The living room has a sofa and a television.",
+          "question": "What is in the living room?",
+          "options": [
+            "A sofa and a television.",
+            "A bed and a desk.",
+            "An oven and a sink."
+          ],
+          "correct_answer": "A sofa and a television.",
+          "feedback_correct": "La última oración menciona los dos objetos.",
+          "feedback_incorrect": "Busca la información después de has in the living room.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T03-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tu casa.",
+          "prompt": "Write six sentences about your home. Name at least three rooms and one object in each room.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "three rooms",
+            "three objects",
+            "correct in the room phrase",
+            "clear vocabulary"
+          ],
+          "feedback_correct": "Puedes describir habitaciones y objetos básicos.",
+          "feedback_incorrect": "Usa There is/are o The object is in the room.",
+          "difficulty": 1,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M3-T03-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Haz un recorrido por una casa.",
+          "prompt": "Give the AI a simple tour of your home. Show three rooms, name objects, and answer where-questions.",
+          "role": "native-speaking guest",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes three rooms",
+            "names at least eight objects",
+            "answers location questions",
+            "uses complete sentences",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Puedes describir tu casa y ubicar objetos básicos.",
+          "feedback_incorrect": "La IA te muestra una casa virtual y te ayuda a practicar cada habitación.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T03-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Casa y objetos cotidianos",
+      "title": "Where are the things?",
+      "objective": "Preguntar y responder dónde están los objetos usando preposiciones básicas de lugar.",
+      "activities": [
+        {
+          "id": "A1-M3-T03-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la preposición correcta.",
+          "prompt": "The keys are ___ the table.",
+          "options": [
+            "on",
+            "in",
+            "under"
+          ],
+          "correct_answer": "on",
+          "feedback_correct": "On indica que las llaves están sobre la mesa.",
+          "feedback_incorrect": "Piensa en un objeto que toca la superficie de la mesa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "The shoes are ___ the bed.",
+          "options": [
+            "under",
+            "on",
+            "between"
+          ],
+          "correct_answer": "under",
+          "feedback_correct": "Under indica que están debajo de la cama.",
+          "feedback_incorrect": "Elige la palabra para una posición inferior.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la respuesta correcta.",
+          "prompt": "Where is the lamp?",
+          "options": [
+            "It is next to the sofa.",
+            "It is a lamp.",
+            "It is big."
+          ],
+          "correct_answer": "It is next to the sofa.",
+          "feedback_correct": "Where pregunta por ubicación.",
+          "feedback_incorrect": "Elige una respuesta con un lugar o preposición.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada preposición con su significado.",
+          "pairs": [
+            {
+              "left": "on",
+              "right": "sobre"
+            },
+            {
+              "left": "under",
+              "right": "debajo de"
+            },
+            {
+              "left": "next to",
+              "right": "al lado de"
+            },
+            {
+              "left": "behind",
+              "right": "detrás de"
+            },
+            {
+              "left": "between",
+              "right": "entre"
+            }
+          ],
+          "feedback_correct": "Reconoces las posiciones básicas de los objetos.",
+          "feedback_incorrect": "Visualiza la relación entre el objeto y el lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T03-L02-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "the / where / remote / is / control",
+          "correct_answer": "Where is the remote control?",
+          "feedback_correct": "Where is pregunta por la ubicación de un objeto.",
+          "feedback_incorrect": "Empieza con Where is y añade el nombre del objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T03-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha las instrucciones y responde.",
+          "prompt": "The phone is on the desk. The glasses are next to the phone, and the notebook is under the desk.",
+          "question": "Where are the glasses?",
+          "options": [
+            "Next to the phone.",
+            "Under the desk.",
+            "On the sofa."
+          ],
+          "correct_answer": "Next to the phone.",
+          "feedback_correct": "Las gafas están al lado del teléfono.",
+          "feedback_incorrect": "Escucha la segunda oración.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T03-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las preguntas y respuestas.",
+          "prompt": "Where is the book? It is on the table. Where are the shoes? They are under the bed.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear where is and where are",
+            "correct singular/plural pronunciation",
+            "clear prepositions",
+            "natural question intonation"
+          ],
+          "feedback_correct": "Las ubicaciones se entienden con claridad.",
+          "feedback_incorrect": "Distingue Where is para uno y Where are para varios objetos.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T03-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mapa de la habitación y responde.",
+          "prompt": "The bed is next to the window. A small table is between the bed and the door. The lamp is on the table, and the backpack is under it.",
+          "question": "Where is the lamp?",
+          "options": [
+            "On the table.",
+            "Under the bed.",
+            "Between the bed and the door."
+          ],
+          "correct_answer": "On the table.",
+          "feedback_correct": "The lamp is on the table.",
+          "feedback_incorrect": "Busca la oración que empieza con The lamp.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T03-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe una habitación.",
+          "prompt": "Write eight sentences describing where objects are in one room. Use at least five different prepositions.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "five location prepositions",
+            "accurate is/are",
+            "clear objects and room",
+            "basic punctuation"
+          ],
+          "feedback_correct": "Puedes ubicar varios objetos con precisión básica.",
+          "feedback_incorrect": "Revisa singular/plural y elige la preposición según la posición.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M3-T03-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Ayuda a encontrar objetos.",
+          "prompt": "The AI cannot find five things in your home. Give location clues and answer follow-up questions until each item is found.",
+          "role": "native-speaking roommate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes five object locations",
+            "uses at least five prepositions",
+            "uses is and are correctly",
+            "answers clarification questions",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes dar instrucciones espaciales útiles en inglés.",
+          "feedback_incorrect": "La IA convierte cada error en una pista visual y te pide reformularla.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T03-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Casa y objetos cotidianos",
+      "title": "My home routine",
+      "objective": "Describir espacios de la casa, objetos de uso diario y acciones sencillas que ocurren en ellos.",
+      "activities": [
+        {
+          "id": "A1-M3-T03-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el objeto correcto.",
+          "prompt": "You wash your hands in the ___.",
+          "options": [
+            "sink",
+            "wardrobe",
+            "balcony"
+          ],
+          "correct_answer": "sink",
+          "feedback_correct": "Sink es el lavabo o fregadero.",
+          "feedback_incorrect": "Busca el objeto donde normalmente lavas tus manos.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L03-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "I keep my clothes in the ___.",
+          "options": [
+            "wardrobe",
+            "oven",
+            "shower"
+          ],
+          "correct_answer": "wardrobe",
+          "feedback_correct": "Wardrobe es el armario para la ropa.",
+          "feedback_incorrect": "Elige el mueble donde guardas prendas.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Every morning, I ___.",
+          "options": [
+            "make my bed",
+            "my bed make",
+            "make bed my"
+          ],
+          "correct_answer": "make my bed",
+          "feedback_correct": "El orden es sujeto + verbo + posesivo + objeto.",
+          "feedback_incorrect": "Coloca make antes de my bed.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T03-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la acción con el lugar u objeto.",
+          "pairs": [
+            {
+              "left": "cook",
+              "right": "kitchen"
+            },
+            {
+              "left": "take a shower",
+              "right": "bathroom"
+            },
+            {
+              "left": "watch TV",
+              "right": "living room"
+            },
+            {
+              "left": "park the car",
+              "right": "garage"
+            },
+            {
+              "left": "sleep",
+              "right": "bedroom"
+            }
+          ],
+          "feedback_correct": "Relacionas acciones cotidianas con espacios de la casa.",
+          "feedback_incorrect": "Imagina dónde realizas cada actividad.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T03-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la frase.",
+          "prompt": "I make the breakfast in bedroom.",
+          "correct_answer": "I make breakfast in the kitchen.",
+          "feedback_correct": "Breakfast se prepara normalmente en the kitchen.",
+          "feedback_incorrect": "Cambia la habitación y evita the antes de breakfast en este contexto.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T03-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la rutina y responde.",
+          "prompt": "In the morning, I make my bed, take a shower, and have breakfast in the kitchen. Then I leave the house.",
+          "question": "Where does the speaker have breakfast?",
+          "options": [
+            "In the kitchen.",
+            "In the bedroom.",
+            "In the bathroom."
+          ],
+          "correct_answer": "In the kitchen.",
+          "feedback_correct": "El audio dice have breakfast in the kitchen.",
+          "feedback_incorrect": "Escucha la acción después de take a shower.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T03-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba la rutina de la mañana.",
+          "prompt": "I make my bed. I take a shower. I have breakfast in the kitchen. I leave the house.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear routine verbs",
+            "natural linking in make my",
+            "clear kitchen and shower",
+            "steady sentence rhythm"
+          ],
+          "feedback_correct": "Tu rutina se entiende y las acciones están bien conectadas.",
+          "feedback_incorrect": "Practica las frases como grupos, no palabra por palabra.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T03-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la descripción y responde.",
+          "prompt": "Luis lives in a small apartment. The kitchen is next to the living room. His desk is in the bedroom, beside the window. He studies there every evening.",
+          "question": "Where does Luis study?",
+          "options": [
+            "At his desk in the bedroom.",
+            "In the kitchen.",
+            "Beside the living room sofa."
+          ],
+          "correct_answer": "At his desk in the bedroom.",
+          "feedback_correct": "El texto relaciona el escritorio y la habitación.",
+          "feedback_incorrect": "Busca la oración con studies there.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T03-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tu rutina en casa.",
+          "prompt": "Write eight sentences about what you do in different rooms at home. Include five objects and three location phrases.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "five household objects",
+            "three room phrases",
+            "clear present simple verbs",
+            "understandable sequence"
+          ],
+          "feedback_correct": "Conectas habitaciones, objetos y acciones cotidianas.",
+          "feedback_incorrect": "Usa in the, on the o next to the para ubicar cada acción u objeto.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T03-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Pide ayuda a tu compañero de casa.",
+          "prompt": "You are sharing a house with the AI. Explain your morning routine, ask where household items are, and solve one small problem together.",
+          "role": "native-speaking roommate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes four home actions",
+            "uses five room or object words",
+            "asks where-questions",
+            "gives three location answers",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes hablar de actividades domésticas y pedir información útil.",
+          "feedback_incorrect": "La IA usa un plano sencillo de la casa y practica las frases que necesites.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T03-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Casa y objetos cotidianos",
+      "title": "Describe and find a home",
+      "objective": "Integrar vocabulario de la casa, ubicaciones y rutinas para describir una vivienda y resolver situaciones prácticas.",
+      "activities": [
+        {
+          "id": "A1-M3-T03-L04-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la habitación adecuada.",
+          "prompt": "You wash clothes in the ___.",
+          "options": [
+            "laundry room",
+            "bedroom",
+            "dining room"
+          ],
+          "correct_answer": "laundry room",
+          "feedback_correct": "Laundry room es el cuarto donde lavas la ropa.",
+          "feedback_incorrect": "Busca la habitación relacionada con lavar ropa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "The keys are ___ the drawer.",
+          "options": [
+            "in",
+            "on",
+            "between"
+          ],
+          "correct_answer": "in",
+          "feedback_correct": "In indica que las llaves están dentro del cajón.",
+          "feedback_incorrect": "Elige la preposición para algo que está dentro de un espacio.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T03-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "There is a lamp on the desk.",
+            "There are a lamp on the desk.",
+            "There is lamp the desk."
+          ],
+          "correct_answer": "There is a lamp on the desk.",
+          "feedback_correct": "Lamp es singular y la ubicación usa on the desk.",
+          "feedback_incorrect": "Usa There is para un objeto singular y añade la preposición.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T03-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la descripción.",
+          "prompt": "is / the / bathroom / next to / kitchen / The",
+          "correct_answer": "The bathroom is next to the kitchen.",
+          "feedback_correct": "La estructura es sujeto + is + preposición + lugar.",
+          "feedback_incorrect": "Empieza con The bathroom y termina con the kitchen.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T03-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada problema con la pregunta útil.",
+          "pairs": [
+            {
+              "left": "No encuentro mis llaves.",
+              "right": "Where are my keys?"
+            },
+            {
+              "left": "Quiero cocinar.",
+              "right": "Where is the kitchen?"
+            },
+            {
+              "left": "Necesito lavar ropa.",
+              "right": "Where is the laundry room?"
+            },
+            {
+              "left": "Quiero sentarme.",
+              "right": "Where is the sofa?"
+            }
+          ],
+          "feedback_correct": "Relacionas necesidades reales con preguntas de ubicación.",
+          "feedback_incorrect": "Piensa qué objeto o habitación necesitas encontrar.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T03-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el recorrido y responde.",
+          "prompt": "First, you enter the living room. The sofa is opposite the television. The kitchen is behind the living room, and the bathroom is next to the bedroom.",
+          "question": "Where is the bathroom?",
+          "options": [
+            "Next to the bedroom.",
+            "Behind the television.",
+            "Opposite the kitchen."
+          ],
+          "correct_answer": "Next to the bedroom.",
+          "feedback_correct": "El audio dice the bathroom is next to the bedroom.",
+          "feedback_incorrect": "Escucha la última parte de la descripción.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T03-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba el recorrido completo.",
+          "prompt": "This is my home. The sofa is in the living room. The kitchen is behind it. The bathroom is next to the bedroom.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear room names",
+            "clear prepositions",
+            "natural linking",
+            "understandable it and the"
+          ],
+          "feedback_correct": "Tu recorrido es claro y fácil de seguir.",
+          "feedback_incorrect": "Haz una pausa breve entre habitaciones y marca las preposiciones importantes.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M3-T03-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el anuncio y responde.",
+          "prompt": "This house has three bedrooms, two bathrooms, a large kitchen, and a living room. There is a garden behind the house and a garage next to it.",
+          "question": "Where is the garage?",
+          "options": [
+            "Next to the house.",
+            "Behind the house.",
+            "Inside the kitchen."
+          ],
+          "correct_answer": "Next to the house.",
+          "feedback_correct": "El anuncio dice the garage next to it; it se refiere a the house.",
+          "feedback_incorrect": "Busca la última relación de ubicación del texto.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T03-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea un anuncio de vivienda.",
+          "prompt": "Write a ten-sentence description of a house or apartment. Include rooms, furniture, five locations, and one daily activity in each of three rooms.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "ten complete sentences",
+            "at least five rooms or objects",
+            "five location phrases",
+            "three daily activities",
+            "clear organization"
+          ],
+          "feedback_correct": "Tu descripción permite imaginar y entender la vivienda.",
+          "feedback_incorrect": "Revisa is/are, there is/are y las preposiciones de lugar.",
+          "difficulty": 2,
+          "estimated_seconds": 170
+        },
+        {
+          "id": "A1-M3-T03-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Busca una vivienda con la IA.",
+          "prompt": "You are visiting an apartment. Ask the AI where rooms and objects are, describe what you need, and decide if the apartment is suitable.",
+          "role": "native-speaking real-estate agent",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks at least six location questions",
+            "understands room descriptions",
+            "uses at least eight home words",
+            "gives a preference or decision",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes explorar una vivienda y tomar una decisión en inglés.",
+          "feedback_incorrect": "La IA muestra un plano y convierte cada error en una pista contextual.",
+          "difficulty": 2,
+          "estimated_seconds": 220
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T02-L03",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Presente simple",
+  "title":"Facts and habits",
+  "objective":"Usar el presente simple para hechos y hábitos frecuentes.",
+  "activities":[
+    {"id":"A1-M2-T02-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"Water ___ at 100 degrees.","options":["boil","boils","boiling"],"correct_answer":"boils","feedback_correct":"Water es singular y expresa un hecho.","feedback_incorrect":"Un sujeto singular usa boils.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"Birds ___.","options":["fly","flies","flying"],"correct_answer":"fly","feedback_correct":"Birds es plural y usa fly.","feedback_incorrect":"Un sujeto plural usa la forma base.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"in winter / snow / It","correct_answer":"It snows in winter.","feedback_correct":"It snows describe un hecho habitual.","feedback_incorrect":"Empieza con It y usa snows.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T02-L03-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"The sun rise in the east.","correct_answer":"The sun rises in the east.","feedback_correct":"The sun es singular: rises.","feedback_incorrect":"Añade -s a rise.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T02-L03-E05","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"A doctor ___ people.","options":["help","helps","helping"],"correct_answer":"helps","feedback_correct":"Doctor es singular.","feedback_incorrect":"Con a doctor usamos helps.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"The store opens at nine.","options":["abre a las nueve","cierra a las nueve","abre a las diez"],"correct_answer":"abre a las nueve","feedback_correct":"Opens at nine es el horario.","feedback_incorrect":"Escucha opens y nine.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T02-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"The sun rises. Birds fly. Water boils.","evaluation_criteria":["third person endings","plural base form","clear final sounds"],"feedback_correct":"La diferencia singular/plural se oye.","feedback_incorrect":"Compara rises, fly y boils.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M2-T02-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"The library opens at eight and closes at six.","question":"When does it close?","correct_answer":"At six.","feedback_correct":"El horario está al final.","feedback_incorrect":"Busca closes at.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T02-L03-E09","type":"writing","skill":"writing","instruction":"Escribe hechos y hábitos.","prompt":"Write two general facts and three daily habits.","response_type":"open","evaluation_criteria":["present simple","subject agreement","five sentences"],"feedback_correct":"Distingues hechos y hábitos con presente simple.","feedback_incorrect":"Usa presente simple para hechos y rutinas.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T02-L03-E10","type":"roleplay","skill":"interaction","instruction":"Explica horarios.","prompt":"Tell the AI three opening times and two regular facts about a place.","role":"information clerk","response_type":"open_speaking","success_criteria":["present simple","third person","time expressions"],"feedback_correct":"La información es útil y clara.","feedback_incorrect":"Usa presente simple para horarios y hechos.","difficulty":2,"estimated_seconds":120}
+  ]
+}

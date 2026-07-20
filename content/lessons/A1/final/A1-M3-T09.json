@@ -1,0 +1,822 @@
+{
+  "id": "A1-M3-T09",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Trabajo y estudio",
+  "title": "Trabajo y estudio",
+  "estimated_seconds": null,
+  "communication_goal": "Usar trabajo y estudio en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to trabajo y estudio."
+  ],
+  "explanation_es": "Este tema desarrolla trabajo y estudio mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T09-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Trabajo y estudio",
+      "title": "What do you do?",
+      "objective": "Hablar de ocupaciones, estudios y lugares básicos de trabajo o aprendizaje.",
+      "activities": [
+        {
+          "id": "A1-M3-T09-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la ocupación correcta.",
+          "prompt": "A person who teaches students is a ___.",
+          "options": [
+            "teacher",
+            "driver",
+            "chef"
+          ],
+          "correct_answer": "teacher",
+          "feedback_correct": "Teacher es profesor o profesora.",
+          "feedback_incorrect": "Busca la ocupación relacionada con enseñar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "I study at a ___.",
+          "options": [
+            "university",
+            "hospital",
+            "restaurant"
+          ],
+          "correct_answer": "university",
+          "feedback_correct": "University es una institución de estudios superiores.",
+          "feedback_incorrect": "Elige un lugar donde estudias.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la pregunta correcta.",
+          "prompt": "You want to ask about someone's job.",
+          "options": [
+            "What do you do?",
+            "Where are you from?",
+            "What time is it?"
+          ],
+          "correct_answer": "What do you do?",
+          "feedback_correct": "What do you do? pregunta por ocupación o actividad principal.",
+          "feedback_incorrect": "Elige la pregunta relacionada con trabajo o estudios.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la ocupación con el lugar probable.",
+          "pairs": [
+            {
+              "left": "doctor",
+              "right": "hospital"
+            },
+            {
+              "left": "teacher",
+              "right": "school"
+            },
+            {
+              "left": "chef",
+              "right": "restaurant"
+            },
+            {
+              "left": "engineer",
+              "right": "office"
+            },
+            {
+              "left": "student",
+              "right": "university"
+            }
+          ],
+          "feedback_correct": "Relacionas profesiones, estudios y lugares.",
+          "feedback_incorrect": "Piensa dónde realiza normalmente su actividad cada persona.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T09-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la respuesta.",
+          "prompt": "a / am / I / student",
+          "correct_answer": "I am a student.",
+          "feedback_correct": "Usamos I am a/an para decir ocupación o identidad.",
+          "feedback_incorrect": "Empieza con I am y coloca a antes de student.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T09-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el perfil y responde.",
+          "prompt": "My name is Helen. I am a nurse, and I work at a hospital. My brother is a student at a university.",
+          "question": "Where does Helen work?",
+          "options": [
+            "At a hospital.",
+            "At a university.",
+            "At a school."
+          ],
+          "correct_answer": "At a hospital.",
+          "feedback_correct": "Helen dice I work at a hospital.",
+          "feedback_incorrect": "Escucha la información relacionada con Helen, no con su hermano.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T09-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba tu información.",
+          "prompt": "I am a ___. I work at ___. I study ___. I like my work or studies because ___.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear occupation",
+            "clear workplace or school",
+            "natural I am and I work",
+            "understandable reason"
+          ],
+          "feedback_correct": "Tu información sobre trabajo o estudios se entiende claramente.",
+          "feedback_incorrect": "Practica I am a, I work at y I study como frases completas.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T09-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee los perfiles y responde.",
+          "prompt": "Rosa is a teacher at a primary school. David is an engineer in a small office. Nina studies biology at college.",
+          "question": "Who studies biology?",
+          "options": [
+            "Rosa.",
+            "David.",
+            "Nina."
+          ],
+          "correct_answer": "Nina.",
+          "feedback_correct": "El perfil dice Nina studies biology.",
+          "feedback_incorrect": "Busca la oración que contiene studies.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T09-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe tu perfil académico o laboral.",
+          "prompt": "Write eight sentences about your job or studies, workplace or school, schedule, tasks, and one thing you like.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "occupation or study field",
+            "place",
+            "three activities",
+            "one preference",
+            "correct present simple"
+          ],
+          "feedback_correct": "Puedes explicar tu situación laboral o académica básica.",
+          "feedback_incorrect": "Usa I am, I work, I study y I like con información concreta.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T09-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Conoce a un compañero nuevo.",
+          "prompt": "Meet the AI at work or school. Introduce yourself, ask what it does, compare schedules, and discuss one shared task.",
+          "role": "native-speaking coworker or classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "shares occupation or studies",
+            "asks three work/study questions",
+            "describes two activities",
+            "compares schedules",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes iniciar una conversación sobre trabajo o estudios.",
+          "feedback_incorrect": "La IA adapta el contexto a trabajo o escuela y refuerza el vocabulario necesario.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T09-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Trabajo y estudio",
+      "title": "Tasks and schedules",
+      "objective": "Describir tareas habituales, horarios y responsabilidades de trabajo o estudio.",
+      "activities": [
+        {
+          "id": "A1-M3-T09-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la acción correcta.",
+          "prompt": "A student ___ notes in class.",
+          "options": [
+            "takes",
+            "makes",
+            "does"
+          ],
+          "correct_answer": "takes",
+          "feedback_correct": "Take notes es la expresión natural.",
+          "feedback_incorrect": "Usa el verbo que forma take notes.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "I ___ emails at work.",
+          "options": [
+            "answer",
+            "go",
+            "study"
+          ],
+          "correct_answer": "answer",
+          "feedback_correct": "Answer emails significa responder correos.",
+          "feedback_incorrect": "Elige una tarea de oficina relacionada con emails.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la forma correcta.",
+          "prompt": "She ___ meetings on Mondays.",
+          "options": [
+            "have",
+            "has",
+            "having"
+          ],
+          "correct_answer": "has",
+          "feedback_correct": "Con she, have cambia a has.",
+          "feedback_incorrect": "Revisa la tercera persona singular de have.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T09-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la actividad con el lugar.",
+          "pairs": [
+            {
+              "left": "take notes",
+              "right": "class"
+            },
+            {
+              "left": "answer emails",
+              "right": "office"
+            },
+            {
+              "left": "serve customers",
+              "right": "store"
+            },
+            {
+              "left": "read a book",
+              "right": "library"
+            },
+            {
+              "left": "do homework",
+              "right": "home"
+            }
+          ],
+          "feedback_correct": "Relacionas tareas con contextos cotidianos.",
+          "feedback_incorrect": "Piensa dónde ocurre normalmente cada actividad.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T09-L02-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la frase.",
+          "prompt": "at nine / starts / my class",
+          "correct_answer": "My class starts at nine.",
+          "feedback_correct": "La frase usa sujeto, verbo y hora.",
+          "feedback_incorrect": "Coloca My class al principio y starts antes de at nine.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T09-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el horario y responde.",
+          "prompt": "I start work at eight. I answer emails in the morning, have a meeting at ten, and help customers in the afternoon.",
+          "question": "When does the speaker help customers?",
+          "options": [
+            "In the morning.",
+            "At ten.",
+            "In the afternoon."
+          ],
+          "correct_answer": "In the afternoon.",
+          "feedback_correct": "La tarea ocurre in the afternoon.",
+          "feedback_incorrect": "Escucha la parte final de la descripción.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T09-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba tu horario de tareas.",
+          "prompt": "I start at ___. I answer emails in the morning. I have a meeting at ___. I finish at ___.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear times",
+            "clear task vocabulary",
+            "natural sentence rhythm",
+            "understandable finish"
+          ],
+          "feedback_correct": "Tu horario de tareas se entiende con claridad.",
+          "feedback_incorrect": "Practica answer emails y have a meeting como grupos completos.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T09-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el horario y responde.",
+          "prompt": "Leo studies from nine to one. He attends English class, takes notes, and asks questions. In the afternoon, he does homework at the library.",
+          "question": "Where does Leo do homework?",
+          "options": [
+            "At home.",
+            "At the library.",
+            "In class."
+          ],
+          "correct_answer": "At the library.",
+          "feedback_correct": "El texto dice at the library.",
+          "feedback_incorrect": "Busca la actividad de la tarde.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T09-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tus tareas.",
+          "prompt": "Write eight sentences about your work or study day. Include six tasks and the time for three of them.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "six tasks",
+            "three times",
+            "clear sequence",
+            "correct present simple"
+          ],
+          "feedback_correct": "Puedes describir responsabilidades y horarios.",
+          "feedback_incorrect": "Usa start, finish, have, do y answer con el sujeto correcto.",
+          "difficulty": 2,
+          "estimated_seconds": 135
+        },
+        {
+          "id": "A1-M3-T09-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Explica tus tareas a la IA.",
+          "prompt": "Tell the AI about your daily tasks, compare responsibilities, and agree on who will do one shared task.",
+          "role": "native-speaking coworker or classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes six tasks",
+            "gives three schedule details",
+            "asks about another person's tasks",
+            "agrees on one responsibility",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes hablar de tareas y coordinar responsabilidades básicas.",
+          "feedback_incorrect": "La IA convierte tus actividades en un horario y practica los verbos necesarios.",
+          "difficulty": 2,
+          "estimated_seconds": 185
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T09-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Trabajo y estudio",
+      "title": "Ask for help and information",
+      "objective": "Pedir ayuda, instrucciones e información básica en un entorno de trabajo o estudio.",
+      "activities": [
+        {
+          "id": "A1-M3-T09-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la petición correcta.",
+          "prompt": "You do not understand the task.",
+          "options": [
+            "Could you help me, please?",
+            "What is your birthday?",
+            "I am from school."
+          ],
+          "correct_answer": "Could you help me, please?",
+          "feedback_correct": "Es una petición cortés de ayuda.",
+          "feedback_incorrect": "Elige la frase relacionada con una tarea difícil.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T09-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "___ I use this computer?",
+          "options": [
+            "Can",
+            "Do",
+            "Am"
+          ],
+          "correct_answer": "Can",
+          "feedback_correct": "Can I...? pregunta si tienes permiso o posibilidad.",
+          "feedback_incorrect": "Usa Can para pedir permiso de forma sencilla.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L03-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta natural.",
+          "prompt": "Where is the meeting room?",
+          "options": [
+            "It is next to the office.",
+            "I am a teacher.",
+            "At nine years old."
+          ],
+          "correct_answer": "It is next to the office.",
+          "feedback_correct": "La pregunta pide una ubicación.",
+          "feedback_incorrect": "Elige una respuesta con un lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la frase con su función.",
+          "pairs": [
+            {
+              "left": "Could you help me?",
+              "right": "pedir ayuda"
+            },
+            {
+              "left": "Can I use this?",
+              "right": "pedir permiso"
+            },
+            {
+              "left": "What does this mean?",
+              "right": "preguntar significado"
+            },
+            {
+              "left": "Could you repeat that?",
+              "right": "pedir repetición"
+            },
+            {
+              "left": "Where is the classroom?",
+              "right": "preguntar ubicación"
+            }
+          ],
+          "feedback_correct": "Reconoces estrategias útiles para aprender y trabajar.",
+          "feedback_incorrect": "Identifica qué información necesitas en cada situación.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T09-L03-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la petición.",
+          "prompt": "you / Could / explain / this / please",
+          "correct_answer": "Could you explain this, please?",
+          "feedback_correct": "Could you...? forma una petición cortés.",
+          "feedback_incorrect": "Empieza con Could you y coloca please al final.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T09-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el diálogo y responde.",
+          "prompt": "Student: Excuse me, could you explain this question? Teacher: Sure. Read the first sentence and underline the verb.",
+          "question": "What should the student underline?",
+          "options": [
+            "The first sentence.",
+            "The verb.",
+            "The question mark."
+          ],
+          "correct_answer": "The verb.",
+          "feedback_correct": "El profesor dice underline the verb.",
+          "feedback_incorrect": "Escucha la instrucción después de Read the first sentence.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T09-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba peticiones corteses.",
+          "prompt": "Could you help me, please? Can I ask a question? Could you repeat that? Thank you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "polite intonation",
+            "clear could and can",
+            "understandable question endings",
+            "natural thank you"
+          ],
+          "feedback_correct": "Tus peticiones son claras y educadas.",
+          "feedback_incorrect": "Sube ligeramente la entonación en las preguntas y no pronuncies could como good.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M3-T09-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el correo y responde.",
+          "prompt": "Hi Ana, Could you send me the homework, please? I do not understand exercise three. Can you explain it tomorrow? Thanks, Luis.",
+          "question": "What does Luis not understand?",
+          "options": [
+            "The homework.",
+            "Exercise three.",
+            "Tomorrow."
+          ],
+          "correct_answer": "Exercise three.",
+          "feedback_correct": "Luis dice I do not understand exercise three.",
+          "feedback_incorrect": "Busca la frase después de understand.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T09-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe peticiones útiles.",
+          "prompt": "Write six polite requests for work or study. Include help, repetition, permission, location, meaning, and an explanation.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six requests",
+            "Could you and Can I",
+            "six different purposes",
+            "polite punctuation",
+            "clear vocabulary"
+          ],
+          "feedback_correct": "Puedes pedir información y ayuda de forma adecuada.",
+          "feedback_incorrect": "Usa Could you...? para pedir ayuda o repetición y Can I...? para permiso.",
+          "difficulty": 2,
+          "estimated_seconds": 135
+        },
+        {
+          "id": "A1-M3-T09-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve una tarea con la IA.",
+          "prompt": "You are new at work or school. Ask the AI for help, permission, repetition, and an explanation until you can complete the task.",
+          "role": "native-speaking supervisor or teacher",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses four polite requests",
+            "asks for repetition once",
+            "asks permission once",
+            "explains what is difficult",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes pedir ayuda y mantener la comunicación cuando algo no está claro.",
+          "feedback_incorrect": "La IA ajusta su explicación y practica la petición que necesites.",
+          "difficulty": 2,
+          "estimated_seconds": 215
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T09-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Trabajo y estudio",
+      "title": "A productive day",
+      "objective": "Integrar ocupaciones, tareas, horarios y peticiones para desenvolverse en una situación de trabajo o estudio.",
+      "activities": [
+        {
+          "id": "A1-M3-T09-L04-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "She starts work at eight.",
+            "She start work at eight.",
+            "She is start work at eight."
+          ],
+          "correct_answer": "She starts work at eight.",
+          "feedback_correct": "Con she usamos starts en presente simple.",
+          "feedback_incorrect": "Revisa la forma de tercera persona singular.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T09-L04-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la petición adecuada.",
+          "prompt": "You need more time for a task.",
+          "options": [
+            "Could I have more time, please?",
+            "Where is more time?",
+            "I am more time."
+          ],
+          "correct_answer": "Could I have more time, please?",
+          "feedback_correct": "Es una petición cortés para solicitar tiempo.",
+          "feedback_incorrect": "Elige una pregunta que pida algo de forma educada.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T09-L04-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "I work ___ an office.",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "correct_answer": "in",
+          "feedback_correct": "Decimos work in an office.",
+          "feedback_incorrect": "Elige la preposición natural con office.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T09-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena el resumen.",
+          "prompt": "usually / I / finish / at five / work",
+          "correct_answer": "I usually finish work at five.",
+          "feedback_correct": "Usually va antes del verbo finish.",
+          "feedback_incorrect": "Coloca I primero, usually antes de finish y la hora al final.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T09-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une el problema con la solución comunicativa.",
+          "pairs": [
+            {
+              "left": "No entiendes una instrucción.",
+              "right": "Could you explain it, please?"
+            },
+            {
+              "left": "Necesitas una computadora.",
+              "right": "Can I use this computer?"
+            },
+            {
+              "left": "No sabes la hora de una reunión.",
+              "right": "What time is the meeting?"
+            },
+            {
+              "left": "No conoces el lugar.",
+              "right": "Where is the meeting room?"
+            }
+          ],
+          "feedback_correct": "Eliges una estrategia funcional para cada problema.",
+          "feedback_incorrect": "Piensa si necesitas explicación, permiso, hora o ubicación.",
+          "difficulty": 2,
+          "estimated_seconds": 85
+        },
+        {
+          "id": "A1-M3-T09-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el plan de trabajo y responde.",
+          "prompt": "Maria starts work at nine. First, she checks her emails. At ten, she has a meeting. After lunch, she helps customers. She finishes at five.",
+          "question": "What does Maria do after lunch?",
+          "options": [
+            "Checks emails.",
+            "Has a meeting.",
+            "Helps customers."
+          ],
+          "correct_answer": "Helps customers.",
+          "feedback_correct": "Después de lunch, she helps customers.",
+          "feedback_incorrect": "Escucha la acción después de After lunch.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T09-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba tu presentación profesional o académica.",
+          "prompt": "I am a ___. I work or study at ___. I start at ___. I usually ___. Could you help me with ___, please?",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear occupation or study",
+            "clear schedule",
+            "natural usually",
+            "polite request intonation",
+            "understandable task"
+          ],
+          "feedback_correct": "Presentas tu situación y haces una petición clara.",
+          "feedback_incorrect": "Practica I usually y Could you...? con pausas naturales.",
+          "difficulty": 2,
+          "estimated_seconds": 105
+        },
+        {
+          "id": "A1-M3-T09-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "Jorge works in a hotel. He starts at seven, checks reservations, and helps guests. At noon, he has lunch. In the afternoon, he answers emails and finishes at three.",
+          "question": "What does Jorge check?",
+          "options": [
+            "Guests.",
+            "Reservations.",
+            "Emails."
+          ],
+          "correct_answer": "Reservations.",
+          "feedback_correct": "El texto dice checks reservations.",
+          "feedback_incorrect": "Busca la primera tarea después de starts at seven.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T09-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea un plan productivo.",
+          "prompt": "Write a twelve-sentence work or study plan with occupation, location, schedule, tasks, breaks, one difficulty, and two polite requests.",
+          "response_type": "open",
+          "estimated_seconds": 190,
+          "evaluation_criteria": [
+            "twelve sentences",
+            "occupation and location",
+            "schedule and tasks",
+            "two polite requests",
+            "clear sequence",
+            "correct present simple"
+          ]
+        },
+        {
+          "id": "A1-M3-T09-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Completa tu primer día con la IA.",
+          "prompt": "It is your first day at a new job or school. Introduce yourself, ask about the schedule and tasks, request help, and summarize your plan at the end.",
+          "role": "native-speaking supervisor or teacher",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "introduces role and background",
+            "asks five practical questions",
+            "describes a schedule",
+            "makes two polite requests",
+            "summarizes the plan",
+            "maintains fourteen turns"
+          ],
+          "feedback_correct": "Puedes desenvolverte en una situación inicial de trabajo o estudio.",
+          "feedback_incorrect": "La IA adapta las instrucciones y te ayuda a repetir los puntos débiles.",
+          "difficulty": 2,
+          "estimated_seconds": 240
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

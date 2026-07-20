@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T06-L02",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Adjetivos",
+  "title":"Colors, size and qualities",
+  "objective":"Combinar adjetivos básicos para describir objetos y personas.",
+  "activities":[
+    {"id":"A1-M1-T06-L02-E01","type":"multiple_choice","skill":"vocabulary","instruction":"Elige el color.","prompt":"The sky is usually ___ .","options":["blue","tall","young"],"correct_answer":"blue","feedback_correct":"Blue es azul.","feedback_incorrect":"La frase describe un color.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L02-E02","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"old","options":["viejo","pequeño","rápido"],"correct_answer":"viejo","feedback_correct":"Old describe edad.","feedback_incorrect":"Old significa viejo o antiguo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"a / black / small / bag","correct_answer":"a small black bag","feedback_correct":"El tamaño suele ir antes del color.","feedback_incorrect":"Usa a + size + color + noun.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M1-T06-L02-E04","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"He is a ___ man.","options":["tall","tally","tallness"],"correct_answer":"tall","feedback_correct":"Tall es un adjetivo.","feedback_incorrect":"Necesitamos la forma adjetiva tall.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"a red big car","correct_answer":"a big red car","feedback_correct":"El tamaño va antes del color.","feedback_incorrect":"Mueve big antes de red.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M1-T06-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"a large green room","options":["a large green room","a small blue room","a green large room"],"correct_answer":"a large green room","feedback_correct":"Escuchaste tamaño, color y objeto.","feedback_incorrect":"El orden es large green room.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M1-T06-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba las frases.","prompt":"a big black box; a small white cup","evaluation_criteria":["clear adjective endings","natural linking"],"feedback_correct":"Los adjetivos se oyen antes de los sustantivos.","feedback_incorrect":"Haz una pausa mínima entre descripción y objeto.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M1-T06-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Maria has a small yellow phone.","question":"What color is the phone?","correct_answer":"Yellow","feedback_correct":"Yellow es amarillo.","feedback_incorrect":"Busca el adjetivo de color.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T06-L02-E09","type":"writing","skill":"writing","instruction":"Describe objetos.","prompt":"Write four phrases using size and color.","response_type":"open","evaluation_criteria":["size before color","color before noun"],"feedback_correct":"El orden de los adjetivos es claro.","feedback_incorrect":"Usa: a big red car.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M1-T06-L02-E10","type":"roleplay","skill":"interaction","instruction":"Ayuda a encontrar un objeto.","prompt":"Describe a missing bag using size, color and object.","role":"lost and found clerk","response_type":"open_speaking","success_criteria":["size","color","noun"],"feedback_correct":"La descripción permite identificar el objeto.","feedback_incorrect":"Incluye tamaño y color antes del sustantivo.","difficulty":2,"estimated_seconds":100}
+  ]
+}

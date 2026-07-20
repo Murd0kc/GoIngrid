@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T04-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Preguntas y respuestas",
+  "title":"Who and when",
+  "objective":"Preguntar por personas y momentos.",
+  "activities":[
+    {"id":"A1-M2-T04-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ is your teacher?","options":["Who","What","Where"],"correct_answer":"Who","feedback_correct":"Who pregunta por una persona.","feedback_incorrect":"La respuesta es una persona.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ do you work?","options":["When","Who","What"],"correct_answer":"When","feedback_correct":"When pregunta por tiempo.","feedback_incorrect":"La respuesta es una hora o momento.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / Who / she?","correct_answer":"Who is she?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Usa Who is she?","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T04-L02-E04","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"When?","options":["¿Cuándo?","¿Quién?","¿Dónde?"],"correct_answer":"¿Cuándo?","feedback_correct":"When pregunta por tiempo.","feedback_incorrect":"Who es quién; where es dónde.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Who does is your friend?","correct_answer":"Who is your friend?","feedback_correct":"La pregunta usa be, no does.","feedback_incorrect":"Quita does y coloca is después de Who.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Who is that? That is my brother.","question":"Who is that?","correct_answer":"The speaker's brother.","feedback_correct":"Identificaste la relación.","feedback_incorrect":"Escucha la respuesta después de that.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Who is she? When do you work?","evaluation_criteria":["who /huː/","when /wen/","question rhythm"],"feedback_correct":"Las preguntas se distinguen.","feedback_incorrect":"Practica who y when por separado.","difficulty":2,"estimated_seconds":65},
+    {"id":"A1-M2-T04-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Who is your manager? Ana is my manager. When does she work? She works in the morning.","question":"When does Ana work?","correct_answer":"In the morning.","feedback_correct":"La respuesta indica el momento.","feedback_incorrect":"Busca works in the morning.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T04-L02-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas.","prompt":"Write four Who questions and four When questions.","response_type":"open","evaluation_criteria":["eight questions","person/time distinction"],"feedback_correct":"Distingues persona y tiempo.","feedback_incorrect":"Who = persona; when = momento.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T04-L02-E10","type":"roleplay","skill":"interaction","instruction":"Entrevista a un compañero.","prompt":"Ask who people are and when they work or study.","role":"class reporter","response_type":"open_speaking","success_criteria":["Who questions","When questions","clear answers"],"feedback_correct":"La entrevista es clara.","feedback_incorrect":"Usa Who para personas y When para horarios.","difficulty":2,"estimated_seconds":120}
+  ]
+}

@@ -1,0 +1,795 @@
+{
+  "id": "A1-M3-T01",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Presentarse y dar información personal",
+  "title": "Presentarse y dar información personal",
+  "estimated_seconds": null,
+  "communication_goal": "Usar presentarse y dar información personal en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to presentarse y dar información personal."
+  ],
+  "explanation_es": "Este tema desarrolla presentarse y dar información personal mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T01-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Presentarse y dar información personal",
+      "title": "Hello, my name is...",
+      "objective": "Presentarse, decir el nombre y preguntar información personal básica en inglés.",
+      "activities": [
+        {
+          "id": "A1-M3-T01-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta adecuada.",
+          "prompt": "What is your name?",
+          "options": [
+            "My name is Laura.",
+            "I am from Peru.",
+            "I am thirty."
+          ],
+          "correct_answer": "My name is Laura.",
+          "feedback_correct": "La pregunta pide tu nombre.",
+          "feedback_incorrect": "Elige una respuesta que diga cómo te llamas.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la presentación.",
+          "prompt": "Hi, ___ name is Daniel.",
+          "options": [
+            "my",
+            "me",
+            "I"
+          ],
+          "correct_answer": "my",
+          "feedback_correct": "My name is la estructura para decir tu nombre.",
+          "feedback_incorrect": "Antes de name usamos el adjetivo posesivo my.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la respuesta correcta.",
+          "prompt": "Where are you from?",
+          "options": [
+            "I am from Chile.",
+            "My name is Ana.",
+            "I am a student."
+          ],
+          "correct_answer": "I am from Chile.",
+          "feedback_correct": "Where are you from? pide país o ciudad de origen.",
+          "feedback_incorrect": "Busca una respuesta con from y un lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L01-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la presentación.",
+          "prompt": "am / I / from / Mexico",
+          "correct_answer": "I am from Mexico.",
+          "feedback_correct": "El orden es sujeto + verbo to be + from + lugar.",
+          "feedback_incorrect": "Coloca I al principio y am después.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T01-L01-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada pregunta con su respuesta.",
+          "pairs": [
+            {
+              "left": "What is your name?",
+              "right": "My name is Sofia."
+            },
+            {
+              "left": "Where are you from?",
+              "right": "I am from Ecuador."
+            },
+            {
+              "left": "What do you do?",
+              "right": "I am a student."
+            },
+            {
+              "left": "How old are you?",
+              "right": "I am twenty."
+            }
+          ],
+          "feedback_correct": "Relacionaste cada pregunta con la información adecuada.",
+          "feedback_incorrect": "Identifica si la pregunta pide nombre, origen, ocupación o edad.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T01-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la presentación y responde.",
+          "prompt": "Hello, my name is Alex. I am from Canada, and I am a teacher.",
+          "question": "Where is Alex from?",
+          "options": [
+            "Canada.",
+            "The United States.",
+            "England."
+          ],
+          "correct_answer": "Canada.",
+          "feedback_correct": "Alex dice I am from Canada.",
+          "feedback_incorrect": "Escucha la información después de I am from.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T01-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba tu presentación.",
+          "prompt": "Hello. My name is ___. I am from ___. Nice to meet you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear name",
+            "understandable place name",
+            "natural greeting rhythm",
+            "clear final sounds"
+          ],
+          "feedback_correct": "Tu presentación es clara y fácil de entender.",
+          "feedback_incorrect": "Habla despacio, separa las frases y repite el nombre del lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T01-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "My name is Elena. I am from Spain. I am a university student. I speak Spanish and a little English.",
+          "question": "What does Elena do?",
+          "correct_answer": "She is a university student.",
+          "feedback_correct": "El perfil dice que es estudiante.",
+          "feedback_incorrect": "Busca la oración con I am y su ocupación.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T01-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe tu perfil básico.",
+          "prompt": "Write four sentences: your name, where you are from, what you do, and one language you speak.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "four complete sentences",
+            "correct use of I am",
+            "place with from",
+            "clear occupation or study",
+            "basic punctuation"
+          ],
+          "feedback_correct": "Tu perfil comunica información personal básica.",
+          "feedback_incorrect": "Usa I am para identidad, origen y ocupación.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T01-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Conoce a una persona nueva.",
+          "prompt": "Meet the AI at an English class. Say hello, introduce yourself, ask the other person's name and origin, and respond politely.",
+          "role": "friendly native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "greets naturally",
+            "gives name and origin",
+            "asks two personal questions",
+            "uses Nice to meet you",
+            "completes six turns"
+          ],
+          "feedback_correct": "Puedes iniciar una conversación real con información básica.",
+          "feedback_incorrect": "La IA ofrece una frase corta y te pide repetirla en el contexto correcto.",
+          "difficulty": 1,
+          "estimated_seconds": 140
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T01-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Presentarse y dar información personal",
+      "title": "More about me",
+      "objective": "Dar y pedir edad, ocupación, idiomas y datos personales básicos con oraciones completas.",
+      "activities": [
+        {
+          "id": "A1-M3-T01-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la respuesta correcta.",
+          "prompt": "How old are you?",
+          "options": [
+            "I am twenty-two.",
+            "I am from Brazil.",
+            "I am a nurse."
+          ],
+          "correct_answer": "I am twenty-two.",
+          "feedback_correct": "How old are you? pregunta la edad.",
+          "feedback_incorrect": "Elige una respuesta con un número y I am.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "I ___ English and Spanish.",
+          "options": [
+            "speak",
+            "am",
+            "from"
+          ],
+          "correct_answer": "speak",
+          "feedback_correct": "Speak se usa para decir qué idiomas hablas.",
+          "feedback_incorrect": "Necesitas un verbo para hablar de idiomas.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la ocupación correcta.",
+          "prompt": "I work in a hospital. I am a ___.",
+          "options": [
+            "nurse",
+            "city",
+            "language"
+          ],
+          "correct_answer": "nurse",
+          "feedback_correct": "Nurse es una ocupación en un hospital.",
+          "feedback_incorrect": "Elige una profesión, no un lugar ni un idioma.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L02-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "old / how / are / you",
+          "correct_answer": "How old are you?",
+          "feedback_correct": "La pregunta de edad empieza con How old.",
+          "feedback_incorrect": "Coloca How old al principio y are antes de you.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T01-L02-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la pregunta con el dato.",
+          "pairs": [
+            {
+              "left": "How old are you?",
+              "right": "I am thirty."
+            },
+            {
+              "left": "What do you do?",
+              "right": "I am an engineer."
+            },
+            {
+              "left": "What languages do you speak?",
+              "right": "I speak Spanish."
+            },
+            {
+              "left": "Where do you work?",
+              "right": "I work at a hotel."
+            }
+          ],
+          "feedback_correct": "Identificaste el tipo de información que pide cada pregunta.",
+          "feedback_incorrect": "Observa si la pregunta pide edad, ocupación, idioma o lugar de trabajo.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T01-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el perfil y responde.",
+          "prompt": "My name is Omar. I am twenty-five. I work at a hotel, and I speak Arabic and English.",
+          "question": "Where does Omar work?",
+          "options": [
+            "At a hotel.",
+            "At a school.",
+            "At a hospital."
+          ],
+          "correct_answer": "At a hotel.",
+          "feedback_correct": "Omar dice I work at a hotel.",
+          "feedback_incorrect": "Escucha la frase que empieza con I work.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T01-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba preguntas y respuestas.",
+          "prompt": "How old are you? I am ___. What do you do? I am a ___. What languages do you speak? I speak ___.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear question intonation",
+            "understandable numbers",
+            "clear occupation",
+            "language names pronounced clearly"
+          ],
+          "feedback_correct": "Tus datos personales se entienden con claridad.",
+          "feedback_incorrect": "Practica cada pregunta y deja una pequeña pausa antes de responder.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T01-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la ficha y responde.",
+          "prompt": "Name: Lucia. Age: 28. Job: designer. City: Miami. Languages: Spanish and English.",
+          "question": "What is Lucia's job?",
+          "correct_answer": "She is a designer.",
+          "feedback_correct": "La ficha indica designer como ocupación.",
+          "feedback_incorrect": "Busca el dato junto a Job.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T01-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Completa tu ficha personal.",
+          "prompt": "Write a short profile with your name, age, city, job or studies, and languages.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five information points",
+            "complete sentences",
+            "correct I am and I speak",
+            "clear place and occupation",
+            "basic punctuation"
+          ],
+          "feedback_correct": "Tu ficha comunica los datos principales.",
+          "feedback_incorrect": "Usa I am para edad y ocupación; usa I speak para idiomas.",
+          "difficulty": 1,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M3-T01-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Completa una entrevista personal.",
+          "prompt": "The AI is a new colleague. Answer questions about your age, city, work or studies, and languages. Ask the same questions back politely.",
+          "role": "native-speaking colleague",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "answers four personal questions",
+            "asks at least two questions back",
+            "uses complete sentences",
+            "uses polite conversational phrases",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Puedes intercambiar información personal básica.",
+          "feedback_incorrect": "La IA ofrece respuestas modelo y te ayuda a reformular una frase a la vez.",
+          "difficulty": 1,
+          "estimated_seconds": 155
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T01-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Presentarse y dar información personal",
+      "title": "Formal and casual introductions",
+      "objective": "Elegir saludos y expresiones de presentación adecuados para situaciones formales e informales.",
+      "activities": [
+        {
+          "id": "A1-M3-T01-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el saludo más adecuado.",
+          "prompt": "You meet a manager for the first time at work.",
+          "options": [
+            "Good morning. It is nice to meet you.",
+            "Hey! What's up?",
+            "See ya, buddy!"
+          ],
+          "correct_answer": "Good morning. It is nice to meet you.",
+          "feedback_correct": "Es un saludo cortés y apropiado para el trabajo.",
+          "feedback_incorrect": "En un primer encuentro profesional usa una expresión formal.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T01-L03-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta natural.",
+          "prompt": "Hi, I am Carlos. Nice to meet you.",
+          "options": [
+            "Nice to meet you, too.",
+            "I am from too.",
+            "How old too."
+          ],
+          "correct_answer": "Nice to meet you, too.",
+          "feedback_correct": "Too muestra que el sentimiento es mutuo.",
+          "feedback_incorrect": "Responde a Nice to meet you con la expresión equivalente.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L03-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la despedida adecuada.",
+          "prompt": "You need to leave a meeting politely.",
+          "options": [
+            "It was nice meeting you. Goodbye.",
+            "Later, dude!",
+            "Yo!"
+          ],
+          "correct_answer": "It was nice meeting you. Goodbye.",
+          "feedback_correct": "Es una despedida educada para una reunión.",
+          "feedback_incorrect": "Escoge una expresión apropiada para un contexto profesional.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T01-L03-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena el diálogo.",
+          "prompt": "meet / to / Nice / you / too",
+          "correct_answer": "Nice to meet you, too.",
+          "feedback_correct": "La expresión completa es Nice to meet you, too.",
+          "feedback_incorrect": "Empieza con Nice y termina con too.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T01-L03-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona la situación con la expresión.",
+          "pairs": [
+            {
+              "left": "Primer día en una oficina",
+              "right": "Good morning. I am Ana."
+            },
+            {
+              "left": "Nuevo compañero de clase",
+              "right": "Hi, I am Leo."
+            },
+            {
+              "left": "Despedida profesional",
+              "right": "It was nice meeting you."
+            },
+            {
+              "left": "Amigo en una cafetería",
+              "right": "Hey, how are you?"
+            }
+          ],
+          "feedback_correct": "Adaptas el lenguaje al contexto.",
+          "feedback_incorrect": "Piensa si la situación es profesional, académica o casual.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T01-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la conversación y responde.",
+          "prompt": "Good afternoon. My name is Mr. Brown. I am the new supervisor. Nice to meet you. Nice to meet you, too.",
+          "question": "What is Mr. Brown's role?",
+          "options": [
+            "He is the new supervisor.",
+            "He is a student.",
+            "He is a customer."
+          ],
+          "correct_answer": "He is the new supervisor.",
+          "feedback_correct": "La conversación presenta su puesto.",
+          "feedback_incorrect": "Escucha la frase después de My name is Mr. Brown.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T01-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba dos presentaciones.",
+          "prompt": "Formal: Good morning. My name is ___. It is nice to meet you. Casual: Hi, I am ___. Nice to meet you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear greeting",
+            "appropriate rhythm",
+            "polite final phrase",
+            "understandable name"
+          ],
+          "feedback_correct": "Diferencias el tono formal y casual con claridad.",
+          "feedback_incorrect": "Practica primero la versión formal y después acorta el saludo casual.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T01-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee los mensajes y responde.",
+          "prompt": "Message 1: Good evening, Dr. Lee. My name is Paula. Message 2: Hey Mike! I am Sam. How are you?",
+          "question": "Which message is more formal?",
+          "options": [
+            "Message 1.",
+            "Message 2.",
+            "Both are identical."
+          ],
+          "correct_answer": "Message 1.",
+          "feedback_correct": "Good evening y Dr. Lee crean un contexto formal.",
+          "feedback_incorrect": "Observa el título y el saludo de cada mensaje.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T01-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe dos versiones.",
+          "prompt": "Write a formal introduction for a new manager and a casual introduction for a new classmate.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "two distinct introductions",
+            "formal greeting and polite phrase",
+            "casual greeting",
+            "name and basic information",
+            "correct punctuation"
+          ],
+          "feedback_correct": "Ajustas tu presentación a cada situación.",
+          "feedback_incorrect": "Usa Good morning/It is nice to meet you en la versión formal y Hi/Hey en la casual.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M3-T01-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Practica dos encuentros.",
+          "prompt": "First meet the AI at a job interview, then meet the same AI as a classmate. Change your greeting, tone, and questions for each context.",
+          "role": "native-speaking interviewer and classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses formal greeting in first scenario",
+            "uses casual greeting in second scenario",
+            "introduces self twice",
+            "asks appropriate questions",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes presentarte con el tono adecuado según la situación.",
+          "feedback_incorrect": "La IA compara tus dos versiones y propone una frase más natural.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T01-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Presentarse y dar información personal",
+      "title": "Meet and connect",
+      "objective": "Mantener una conversación inicial completa con saludos, información personal y preguntas de seguimiento.",
+      "activities": [
+        {
+          "id": "A1-M3-T01-L04-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta adecuada.",
+          "prompt": "What do you say after someone introduces themselves?",
+          "options": [
+            "Nice to meet you.",
+            "I am twenty.",
+            "I live at work."
+          ],
+          "correct_answer": "Nice to meet you.",
+          "feedback_correct": "Es una respuesta natural al conocer a alguien.",
+          "feedback_incorrect": "Elige una expresión de cortesía para el primer encuentro.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "Where ___ you live?",
+          "options": [
+            "are",
+            "do",
+            "is"
+          ],
+          "correct_answer": "do",
+          "feedback_correct": "Where do you live? usa do con el verbo live.",
+          "feedback_incorrect": "Live es un verbo principal; la pregunta necesita do.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T01-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "I am from Peru and I work in a bank.",
+            "I from am Peru and work I bank.",
+            "I am Peru from and bank work."
+          ],
+          "correct_answer": "I am from Peru and I work in a bank.",
+          "feedback_correct": "La oración combina origen y ocupación con orden correcto.",
+          "feedback_incorrect": "Usa I am from para origen y I work in para el lugar de trabajo.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T01-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta y la respuesta.",
+          "prompt": "you / what / do / do / ? — a / am / I / teacher",
+          "correct_answer": "What do you do? — I am a teacher.",
+          "feedback_correct": "La pregunta pide ocupación y la respuesta usa I am a/an.",
+          "feedback_incorrect": "Coloca What do you do? primero y después I am a teacher.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T01-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona cada frase con su función.",
+          "pairs": [
+            {
+              "left": "Hello, I am Rosa.",
+              "right": "presentarse"
+            },
+            {
+              "left": "Where are you from?",
+              "right": "preguntar origen"
+            },
+            {
+              "left": "I work at a clinic.",
+              "right": "dar ocupación y lugar"
+            },
+            {
+              "left": "See you tomorrow.",
+              "right": "despedirse"
+            }
+          ],
+          "feedback_correct": "Reconoces las funciones de una conversación inicial.",
+          "feedback_incorrect": "Identifica si la frase inicia, pregunta, informa o termina la conversación.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T01-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la conversación y responde.",
+          "prompt": "A: Hi, I am Nina. What is your name? B: I am Robert. I am from Ireland. A: Nice to meet you. What do you do? B: I am a chef.",
+          "question": "What is Robert's job?",
+          "options": [
+            "He is a chef.",
+            "He is from Ireland.",
+            "He is a student."
+          ],
+          "correct_answer": "He is a chef.",
+          "feedback_correct": "Robert responde I am a chef.",
+          "feedback_incorrect": "Escucha la respuesta a What do you do?",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T01-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba una conversación de presentación.",
+          "prompt": "Hi, I am ___. What is your name? Where are you from? What do you do? Nice to meet you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear greetings",
+            "question intonation",
+            "understandable personal details",
+            "natural pauses",
+            "clear final phrase"
+          ],
+          "feedback_correct": "Tu presentación y tus preguntas se entienden con naturalidad.",
+          "feedback_incorrect": "Divide la conversación en frases cortas y sube la entonación en las preguntas.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M3-T01-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "This is Mateo. He is from Argentina, but he lives in New York. He is a graphic designer and speaks Spanish and English. He is twenty-nine.",
+          "question": "Where does Mateo live now?",
+          "correct_answer": "He lives in New York.",
+          "feedback_correct": "El texto contrasta su origen con su ciudad actual.",
+          "feedback_incorrect": "Busca la información después de but.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T01-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un perfil y preguntas.",
+          "prompt": "Write a profile of yourself with six facts, then write four questions for a new classmate.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six personal facts",
+            "four correctly formed questions",
+            "appropriate vocabulary",
+            "complete sentences",
+            "clear punctuation"
+          ],
+          "feedback_correct": "Puedes presentarte y mantener abierta la conversación.",
+          "feedback_incorrect": "Revisa do/are en las preguntas y usa información personal concreta.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T01-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Haz una conversación completa.",
+          "prompt": "Meet the AI at an international language exchange. Introduce yourself, ask five questions, answer follow-ups, and end politely.",
+          "role": "native-speaking language exchange partner",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "greets and introduces self",
+            "shares at least six facts",
+            "asks five appropriate questions",
+            "responds to follow-ups",
+            "ends politely after ten turns"
+          ],
+          "feedback_correct": "Puedes iniciar, mantener y cerrar una conversación personal básica.",
+          "feedback_incorrect": "La IA adapta la conversación a tu nivel y practica el punto que necesite refuerzo.",
+          "difficulty": 2,
+          "estimated_seconds": 210
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

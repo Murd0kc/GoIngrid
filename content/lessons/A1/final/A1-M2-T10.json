@@ -1,0 +1,742 @@
+{
+  "id": "A1-M2-T10",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Some, any, much, many, few y little",
+  "title": "Some, any, much, many, few y little",
+  "estimated_seconds": null,
+  "communication_goal": "Usar some, any, much, many, few y little en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to some, any, much, many, few y little."
+  ],
+  "explanation_es": "Este tema desarrolla some, any, much, many, few y little mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T10-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Some, any, much, many, few y little",
+      "title": "Some and any",
+      "objective": "Usar some y any en afirmaciones, preguntas y negaciones con sustantivos contables y no contables.",
+      "activities": [
+        {
+          "id": "A1-M2-T10-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la afirmación.",
+          "prompt": "There are ___ apples on the table.",
+          "options": [
+            "some",
+            "any",
+            "much"
+          ],
+          "correct_answer": "some",
+          "feedback_correct": "Some se usa normalmente en afirmaciones.",
+          "feedback_incorrect": "Esta es una oración afirmativa con un plural contable.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "Do you have ___ questions?",
+          "options": [
+            "some",
+            "any",
+            "much"
+          ],
+          "correct_answer": "any",
+          "feedback_correct": "Any es frecuente en preguntas.",
+          "feedback_incorrect": "En una pregunta general usamos any.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la negación.",
+          "prompt": "We don't have ___ milk.",
+          "options": [
+            "some",
+            "any",
+            "many"
+          ],
+          "correct_answer": "any",
+          "feedback_correct": "Any se usa en negaciones con milk.",
+          "feedback_incorrect": "La oración es negativa y milk es no contable.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L01-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción correcta.",
+          "prompt": "Would you like ___ tea?",
+          "options": [
+            "some",
+            "any",
+            "many"
+          ],
+          "correct_answer": "some",
+          "feedback_correct": "En ofrecimientos amables usamos some.",
+          "feedback_incorrect": "Es un ofrecimiento, no una pregunta de existencia.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T10-L01-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la oración.",
+          "prompt": "There isn't some coffee.",
+          "correct_answer": "There isn't any coffee.",
+          "feedback_correct": "Usamos any en una negación.",
+          "feedback_incorrect": "Cambia some por any porque la oración contiene isn't.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T10-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "I have some sandwiches, but I don't have any fruit. Do you have any fruit?",
+          "question": "What does the speaker not have?",
+          "options": [
+            "Sandwiches.",
+            "Fruit.",
+            "Drinks."
+          ],
+          "correct_answer": "Fruit.",
+          "feedback_correct": "I don't have any fruit indica ausencia de fruta.",
+          "feedback_incorrect": "Escucha la frase negativa después de but.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T10-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Repite el mini diálogo.",
+          "prompt": "I have some bread. Do you have any cheese? No, I don't have any cheese.",
+          "evaluation_criteria": [
+            "clear some and any",
+            "natural question intonation",
+            "clear negative contraction",
+            "smooth connected speech"
+          ],
+          "feedback_correct": "Distingues some en afirmaciones y any en preguntas y negaciones.",
+          "feedback_incorrect": "No conviertas any en una sílaba fuerte; mantén el ritmo de la frase.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M2-T10-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mensaje y responde.",
+          "prompt": "Hi! There are some snacks in the kitchen, but there isn't any juice. Are there any cups? Yes, there are some cups beside the plates.",
+          "question": "What is not in the kitchen?",
+          "correct_answer": "There isn't any juice.",
+          "feedback_correct": "Identificaste la negación con any.",
+          "feedback_incorrect": "Busca la oración que empieza con there isn't.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T10-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tu cocina.",
+          "prompt": "Write six sentences about what there is and isn't in your kitchen. Use some at least twice and any at least twice.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "some in affirmative contexts",
+            "any in questions or negatives",
+            "countable and uncountable nouns",
+            "clear punctuation"
+          ],
+          "feedback_correct": "Usaste some y any en contextos adecuados.",
+          "feedback_incorrect": "Revisa si la oración es afirmativa, negativa o interrogativa.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M2-T10-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Prepara una merienda con la IA.",
+          "prompt": "Ask the AI what food is available, say what you have, what you don't have, and offer some items to a guest.",
+          "role": "native-speaking house guest",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses some in offers and affirmations",
+            "uses any in questions and negatives",
+            "mentions six items",
+            "asks follow-up questions",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Usas some y any de forma funcional en una conversación.",
+          "feedback_incorrect": "La IA te da una situación y corrige el cuantificador dentro de la frase.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T10-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Some, any, much, many, few y little",
+      "title": "Much, many, and a lot of",
+      "objective": "Elegir much, many o a lot of para hablar de cantidades grandes en contextos cotidianos.",
+      "activities": [
+        {
+          "id": "A1-M2-T10-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "How ___ people are in the room?",
+          "options": [
+            "much",
+            "many",
+            "little"
+          ],
+          "correct_answer": "many",
+          "feedback_correct": "People es contable plural; usamos How many.",
+          "feedback_incorrect": "People puede contarse, así que usa many.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "How ___ time do you have?",
+          "options": [
+            "many",
+            "much",
+            "few"
+          ],
+          "correct_answer": "much",
+          "feedback_correct": "Time es no contable en esta expresión.",
+          "feedback_incorrect": "Time no se cuenta directamente; usa How much.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción natural.",
+          "prompt": "She has ___ work today.",
+          "options": [
+            "many",
+            "a lot of",
+            "a few"
+          ],
+          "correct_answer": "a lot of",
+          "feedback_correct": "A lot of funciona con work en una afirmación.",
+          "feedback_incorrect": "Work es no contable y la frase es afirmativa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L02-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la negación.",
+          "prompt": "There isn't ___ traffic today.",
+          "options": [
+            "many",
+            "much",
+            "a few"
+          ],
+          "correct_answer": "much",
+          "feedback_correct": "Much se usa con traffic en una negación.",
+          "feedback_incorrect": "Traffic es no contable en este contexto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la pregunta.",
+          "prompt": "How much students are in your class?",
+          "correct_answer": "How many students are in your class?",
+          "feedback_correct": "Students es un plural contable.",
+          "feedback_incorrect": "Cambia much por many porque students puede contarse.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T10-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el informe y responde.",
+          "prompt": "There are many shops downtown, but there isn't much parking. The area has a lot of restaurants too.",
+          "question": "What is difficult to find downtown?",
+          "options": [
+            "Shops.",
+            "Parking.",
+            "Restaurants."
+          ],
+          "correct_answer": "Parking.",
+          "feedback_correct": "There isn't much parking indica que hay poco estacionamiento.",
+          "feedback_incorrect": "Busca la información después de but.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T10-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Repite las preguntas y respuestas.",
+          "prompt": "How many books? How much time? I have a lot of books. I don't have much time.",
+          "evaluation_criteria": [
+            "clear contrast many and much",
+            "natural question intonation",
+            "pronounces lot of smoothly",
+            "understandable answers"
+          ],
+          "feedback_correct": "La diferencia entre contables y no contables se escucha con claridad.",
+          "feedback_incorrect": "Practica many con plural y much con sustantivos no contables.",
+          "difficulty": 2,
+          "estimated_seconds": 85
+        },
+        {
+          "id": "A1-M2-T10-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "David has a lot of friends and many books. He has much homework this week, so he doesn't have much free time.",
+          "question": "What does David have little time for?",
+          "correct_answer": "Free time.",
+          "feedback_correct": "La última parte explica que tiene poco tiempo libre.",
+          "feedback_incorrect": "Busca la expresión relacionada con time.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T10-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Compara dos lugares.",
+          "prompt": "Write six sentences comparing two places. Use many with countable nouns, much with uncountable nouns, and a lot of in affirmative sentences.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "many with countable plurals",
+            "much with uncountable nouns",
+            "a lot of in affirmative context",
+            "clear comparison"
+          ],
+          "feedback_correct": "Elegiste los cuantificadores según el sustantivo y el tipo de oración.",
+          "feedback_incorrect": "Primero identifica si el sustantivo es contable y si la oración es afirmativa, negativa o interrogativa.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T10-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Elige una ciudad para vivir.",
+          "prompt": "Compare two cities with the AI. Discuss how many people, shops, parks, and how much traffic, noise, and free time there are.",
+          "role": "native-speaking relocation adviser",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks quantity questions",
+            "uses many with countable nouns",
+            "uses much with uncountable nouns",
+            "uses a lot of in affirmations",
+            "makes a clear choice",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Comparas lugares con cantidades de manera natural.",
+          "feedback_incorrect": "La IA te pide reformular la frase según el tipo de sustantivo.",
+          "difficulty": 2,
+          "estimated_seconds": 170
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T10-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Some, any, much, many, few y little",
+      "title": "Few and little",
+      "objective": "Expresar cantidades pequeñas y distinguir few, a few, little y a little.",
+      "activities": [
+        {
+          "id": "A1-M2-T10-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "I have ___ friends in this city, but I am happy.",
+          "options": [
+            "a few",
+            "a little",
+            "much"
+          ],
+          "correct_answer": "a few",
+          "feedback_correct": "A few se usa con amigos contables y significa algunos.",
+          "feedback_incorrect": "Friends es contable plural; usa a few.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción correcta.",
+          "prompt": "There is ___ water in the bottle, so we need more.",
+          "options": [
+            "a few",
+            "a little",
+            "many"
+          ],
+          "correct_answer": "a little",
+          "feedback_correct": "A little se usa con water y expresa una pequeña cantidad.",
+          "feedback_incorrect": "Water es no contable; usa a little.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "Few students arrived early; the room is almost empty.",
+          "options": [
+            "Few",
+            "A little",
+            "Much"
+          ],
+          "correct_answer": "Few",
+          "feedback_correct": "Few con sustantivo contable indica muy pocos.",
+          "feedback_incorrect": "Students es contable plural y la idea es una cantidad insuficiente.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T10-L03-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige el significado más adecuado.",
+          "prompt": "I have a little time. I can help you.",
+          "options": [
+            "Tengo algo de tiempo.",
+            "No tengo tiempo.",
+            "Tengo muchas horas."
+          ],
+          "correct_answer": "Tengo algo de tiempo.",
+          "feedback_correct": "A little expresa una cantidad pequeña pero suficiente.",
+          "feedback_incorrect": "La frase dice que sí puede ayudar.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T10-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la oración.",
+          "prompt": "I have a little books.",
+          "correct_answer": "I have a few books.",
+          "feedback_correct": "Books es contable plural, por eso usamos a few.",
+          "feedback_incorrect": "Cambia little por few cuando el sustantivo es contable plural.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T10-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "We have a few chairs, but few people are here. There is a little coffee, but little sugar.",
+          "question": "What is almost finished?",
+          "options": [
+            "The chairs.",
+            "The coffee.",
+            "The sugar."
+          ],
+          "correct_answer": "The sugar.",
+          "feedback_correct": "Little sugar indica una cantidad muy pequeña.",
+          "feedback_incorrect": "Escucha la última parte del mensaje.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M2-T10-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Repite el contraste.",
+          "prompt": "A few books. A little time. Few people. Little money.",
+          "evaluation_criteria": [
+            "clear few and little",
+            "appropriate stress for meaning",
+            "final plural sounds",
+            "smooth short phrases"
+          ],
+          "feedback_correct": "Distingues cantidades pequeñas contables y no contables.",
+          "feedback_incorrect": "Few va con plurales contables; little va con sustantivos no contables.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M2-T10-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la situación y responde.",
+          "prompt": "Only a few tickets are left, but there is still a little time to buy them. Few seats are near the stage, and little information is available online.",
+          "question": "What is available to buy?",
+          "correct_answer": "A few tickets.",
+          "feedback_correct": "A few tickets significa que quedan algunos.",
+          "feedback_incorrect": "Busca la primera información sobre lo que queda.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T10-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe recursos limitados.",
+          "prompt": "Write eight sentences about a busy day. Use few, a few, little, and a little at least twice each.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "few with countable plurals",
+            "a few with a positive or sufficient meaning",
+            "little with uncountable nouns",
+            "a little with a small but useful amount"
+          ],
+          "feedback_correct": "Expresas cantidades pequeñas y sus matices correctamente.",
+          "feedback_incorrect": "Comprueba si la cantidad es suficiente (a few/a little) o insuficiente (few/little).",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M2-T10-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve un problema de recursos.",
+          "prompt": "Plan an event with limited supplies. Tell the AI what you have few, a few, little, or a little of, and decide what to buy.",
+          "role": "native-speaking event coordinator",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses all four expressions",
+            "distinguishes countable and uncountable nouns",
+            "explains what is insufficient",
+            "makes a purchase plan",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Comunicas cantidades pequeñas y tomas decisiones prácticas.",
+          "feedback_incorrect": "La IA muestra si la cantidad es suficiente o insuficiente y te ayuda a reformular.",
+          "difficulty": 2,
+          "estimated_seconds": 175
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T10-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Some, any, much, many, few y little",
+      "title": "The complete quantity challenge",
+      "objective": "Integrar los cuantificadores principales en compras, planificación y conversaciones cotidianas.",
+      "activities": [
+        {
+          "id": "A1-M2-T10-L04-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción correcta.",
+          "prompt": "There are ___ people at the party.",
+          "options": [
+            "much",
+            "many",
+            "a little"
+          ],
+          "correct_answer": "many",
+          "feedback_correct": "People es contable plural.",
+          "feedback_incorrect": "Usa many con sustantivos contables plurales.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "We don't have ___ time before the train.",
+          "options": [
+            "many",
+            "much",
+            "a few"
+          ],
+          "correct_answer": "much",
+          "feedback_correct": "Time es no contable y la oración es negativa.",
+          "feedback_incorrect": "Elige much para un sustantivo no contable.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige el cuantificador natural.",
+          "prompt": "Would you like ___ cookies?",
+          "options": [
+            "some",
+            "much",
+            "little"
+          ],
+          "correct_answer": "some",
+          "feedback_correct": "Some se usa en ofrecimientos.",
+          "feedback_incorrect": "Es un ofrecimiento afirmativo con un plural contable.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T10-L04-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la oración.",
+          "prompt": "There are ___ chairs, so everyone can sit.",
+          "options": [
+            "a few",
+            "a little",
+            "much"
+          ],
+          "correct_answer": "a few",
+          "feedback_correct": "A few indica algunos y suficientes chairs.",
+          "feedback_incorrect": "Chairs es contable plural y la cantidad es suficiente.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T10-L04-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige el mensaje.",
+          "prompt": "Do we have much plates? No, we have few plates.",
+          "correct_answer": "Do we have many plates? No, we have few plates.",
+          "feedback_correct": "Plates es contable plural; usamos many en la pregunta.",
+          "feedback_incorrect": "Cambia much por many porque plates puede contarse.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T10-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el inventario y responde.",
+          "prompt": "We have some bread, a little cheese, many apples, and only a few bottles of water. We don't have any juice.",
+          "question": "What do we have only a few of?",
+          "options": [
+            "Apples.",
+            "Bottles of water.",
+            "Bottles of juice."
+          ],
+          "correct_answer": "Bottles of water.",
+          "feedback_correct": "Only a few bottles of water expresa una cantidad pequeña.",
+          "feedback_incorrect": "Escucha la expresión only a few.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M2-T10-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba el intercambio completo.",
+          "prompt": "How many guests are coming? A few. How much food do we need? A lot of food, but only a little juice.",
+          "evaluation_criteria": [
+            "clear many and much",
+            "natural short answer A few",
+            "clear quantity expressions",
+            "appropriate question intonation"
+          ],
+          "feedback_correct": "Las cantidades se entienden y el ritmo es natural.",
+          "feedback_incorrect": "Practica primero las preguntas y después responde con cantidades breves.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M2-T10-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el plan y responde.",
+          "prompt": "For the class picnic, we need some sandwiches, many cups, a lot of fruit, a few plates, and a little juice. We don't need any coffee.",
+          "question": "What do we not need?",
+          "correct_answer": "Any coffee.",
+          "feedback_correct": "La negación uses any coffee.",
+          "feedback_incorrect": "Busca la última oración del plan.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T10-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea una lista completa.",
+          "prompt": "Write a shopping list for a picnic using some, any, much, many, a lot of, few, a few, little, and a little. Add one question about quantity.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "all target quantifiers used appropriately",
+            "countable and uncountable nouns distinguished",
+            "one quantity question",
+            "clear list",
+            "correct spelling"
+          ],
+          "feedback_correct": "Usaste todos los cuantificadores en un contexto útil.",
+          "feedback_incorrect": "Revisa el tipo de sustantivo y si la frase es afirmativa, negativa o interrogativa.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        },
+        {
+          "id": "A1-M2-T10-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Planifica una fiesta con la IA.",
+          "prompt": "Plan a party for ten people. Check supplies, ask how much and how many you need, explain shortages, offer items, and finalize the shopping list.",
+          "role": "native-speaking party planner",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses all target quantifiers naturally",
+            "asks at least four quantity questions",
+            "distinguishes countable and uncountable nouns",
+            "explains sufficient and insufficient amounts",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes manejar cantidades y tomar decisiones en una conversación completa.",
+          "feedback_incorrect": "La IA adapta las cantidades y te ofrece una reformulación breve para cada error.",
+          "difficulty": 2,
+          "estimated_seconds": 200
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

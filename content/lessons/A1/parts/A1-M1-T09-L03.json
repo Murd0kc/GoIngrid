@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T09-L03",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"There is y there are",
+  "title":"Questions and negatives",
+  "objective":"Preguntar y negar la existencia de objetos.",
+  "activities":[
+    {"id":"A1-M1-T09-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ there a bathroom?","options":["Is","Are","Am"],"correct_answer":"Is","feedback_correct":"Is there se usa con singular.","feedback_incorrect":"Bathroom es singular.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ there any chairs?","options":["Is","Are","Am"],"correct_answer":"Are","feedback_correct":"Are there se usa con plural.","feedback_incorrect":"Chairs es plural.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"there / Is / a / kitchen?","correct_answer":"Is there a kitchen?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Empieza con Is there.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T09-L03-E04","type":"multiple_choice","skill":"grammar","instruction":"Elige la negación.","prompt":"There ___ a garage.","options":["isn't","aren't","don't"],"correct_answer":"isn't","feedback_correct":"Garage es singular.","feedback_incorrect":"Usa isn't con singular.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Are there a bed?","correct_answer":"Is there a bed?","feedback_correct":"Bed es singular.","feedback_incorrect":"Cambia Are por Is.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T09-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Is there a bank? Yes, there is.","question":"Is there a bank?","correct_answer":"Yes, there is.","feedback_correct":"Respuesta singular correcta.","feedback_incorrect":"Repite la respuesta después de Yes.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T09-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Is there a shop? Are there any buses?","evaluation_criteria":["question intonation","is/are contrast","there clear"],"feedback_correct":"Las preguntas se entienden.","feedback_incorrect":"Sube ligeramente la entonación al final.","difficulty":2,"estimated_seconds":65},
+    {"id":"A1-M1-T09-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"There isn't a lift, but there are stairs.","question":"What is there?","correct_answer":"Stairs.","feedback_correct":"Hay escaleras, no ascensor.","feedback_incorrect":"Busca después de but.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M1-T09-L03-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas y respuestas.","prompt":"Write one singular question, one plural question and their answers.","response_type":"open","evaluation_criteria":["Is there","Are there","correct answers"],"feedback_correct":"Las preguntas distinguen singular y plural.","feedback_incorrect":"Singular: Is there; plural: Are there.","difficulty":2,"estimated_seconds":80},
+    {"id":"A1-M1-T09-L03-E10","type":"roleplay","skill":"interaction","instruction":"Pregunta por instalaciones.","prompt":"Ask the hotel AI about a bathroom, elevator and stairs.","role":"hotel receptionist","response_type":"open_speaking","success_criteria":["singular question","plural question","negative answer"],"feedback_correct":"La conversación resuelve una necesidad real.","feedback_incorrect":"Elige Is there o Are there según el sustantivo.","difficulty":2,"estimated_seconds":110}
+  ]
+}

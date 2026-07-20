@@ -1,0 +1,821 @@
+{
+  "id": "A1-M3-T07",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Lugares y direcciones",
+  "title": "Lugares y direcciones",
+  "estimated_seconds": null,
+  "communication_goal": "Usar lugares y direcciones en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to lugares y direcciones."
+  ],
+  "explanation_es": "Este tema desarrolla lugares y direcciones mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T07-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Lugares y direcciones",
+      "title": "Places around town",
+      "objective": "Nombrar lugares comunes de una ciudad y preguntar dónde están.",
+      "activities": [
+        {
+          "id": "A1-M3-T07-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el lugar correcto.",
+          "prompt": "You borrow books at the ___.",
+          "options": [
+            "library",
+            "hospital",
+            "bakery"
+          ],
+          "correct_answer": "library",
+          "feedback_correct": "Library es la biblioteca.",
+          "feedback_incorrect": "Busca el lugar donde se prestan libros.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "You see a doctor at the ___.",
+          "options": [
+            "hospital",
+            "bank",
+            "park"
+          ],
+          "correct_answer": "hospital",
+          "feedback_correct": "Hospital es el lugar donde atiende un doctor.",
+          "feedback_incorrect": "Elige el lugar relacionado con salud y médicos.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L01-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la pregunta correcta.",
+          "prompt": "You want to find the bank.",
+          "options": [
+            "Where is the bank?",
+            "Who is the bank?",
+            "What is the bank from?"
+          ],
+          "correct_answer": "Where is the bank?",
+          "feedback_correct": "Where is pregunta por la ubicación.",
+          "feedback_incorrect": "Usa Where is para preguntar dónde está un lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une el lugar con su función.",
+          "pairs": [
+            {
+              "left": "bank",
+              "right": "get money or use an account"
+            },
+            {
+              "left": "pharmacy",
+              "right": "buy medicine"
+            },
+            {
+              "left": "supermarket",
+              "right": "buy food"
+            },
+            {
+              "left": "post office",
+              "right": "send letters"
+            },
+            {
+              "left": "park",
+              "right": "walk or relax"
+            }
+          ],
+          "feedback_correct": "Reconoces lugares y sus usos cotidianos.",
+          "feedback_incorrect": "Piensa qué actividad realizas normalmente en cada lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T07-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "the / where / pharmacy / is",
+          "correct_answer": "Where is the pharmacy?",
+          "feedback_correct": "La pregunta empieza con Where is.",
+          "feedback_incorrect": "Coloca Where is antes del nombre del lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T07-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la descripción y responde.",
+          "prompt": "The supermarket is next to the bank. The pharmacy is across from the hospital.",
+          "question": "What is next to the bank?",
+          "options": [
+            "The pharmacy.",
+            "The supermarket.",
+            "The hospital."
+          ],
+          "correct_answer": "The supermarket.",
+          "feedback_correct": "El audio dice the supermarket is next to the bank.",
+          "feedback_incorrect": "Escucha la primera oración.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T07-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba preguntas y respuestas.",
+          "prompt": "Where is the library? It is next to the bank. Where is the pharmacy? It is across from the hospital.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear place names",
+            "clear where is",
+            "understandable next to and across from",
+            "natural question intonation"
+          ],
+          "feedback_correct": "Las preguntas y ubicaciones se entienden con claridad.",
+          "feedback_incorrect": "Practica los nombres largos como pharmacy y library lentamente.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T07-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mapa y responde.",
+          "prompt": "The city center has a library, a bank, and a café. The library is beside the café. The bank is across from the library.",
+          "question": "What is across from the library?",
+          "options": [
+            "The bank.",
+            "The café.",
+            "The park."
+          ],
+          "correct_answer": "The bank.",
+          "feedback_correct": "El texto dice the bank is across from the library.",
+          "feedback_incorrect": "Busca la oración con across from.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T07-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tu barrio.",
+          "prompt": "Write eight sentences about places near your home. Name six places and say where two of them are.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six place words",
+            "eight sentences",
+            "two location phrases",
+            "correct Where is or There is/are",
+            "clear punctuation"
+          ],
+          "feedback_correct": "Puedes hablar de lugares cercanos y sus ubicaciones.",
+          "feedback_incorrect": "Usa There is/are para presentar lugares y Where is para preguntar por ellos.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M3-T07-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Explora una ciudad con la IA.",
+          "prompt": "You are new in town. Ask the AI where six places are and explain which place you need first.",
+          "role": "native-speaking local resident",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks six where-questions",
+            "uses six place words",
+            "understands location answers",
+            "explains a need",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes orientarte preguntando por lugares básicos.",
+          "feedback_incorrect": "La IA muestra un mapa sencillo y repite las ubicaciones difíciles.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T07-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Lugares y direcciones",
+      "title": "Go straight and turn left",
+      "objective": "Dar y comprender instrucciones básicas usando go straight, turn left, turn right y cruces.",
+      "activities": [
+        {
+          "id": "A1-M3-T07-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la instrucción correcta.",
+          "prompt": "Continue in the same direction.",
+          "options": [
+            "Go straight.",
+            "Turn left.",
+            "Stop here."
+          ],
+          "correct_answer": "Go straight.",
+          "feedback_correct": "Go straight significa continuar recto.",
+          "feedback_incorrect": "Busca la instrucción para seguir en la misma dirección.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la indicación.",
+          "prompt": "At the corner, ___ right.",
+          "options": [
+            "turn",
+            "go",
+            "cross"
+          ],
+          "correct_answer": "turn",
+          "feedback_correct": "Turn right significa girar a la derecha.",
+          "feedback_incorrect": "Usa turn antes de left o right.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L02-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la palabra correcta.",
+          "prompt": "A place where two streets meet is an ___.",
+          "options": [
+            "intersection",
+            "airport",
+            "entrance"
+          ],
+          "correct_answer": "intersection",
+          "feedback_correct": "Intersection es una intersección.",
+          "feedback_incorrect": "Busca el término para el cruce de calles.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T07-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la instrucción con su significado.",
+          "pairs": [
+            {
+              "left": "go straight",
+              "right": "seguir recto"
+            },
+            {
+              "left": "turn left",
+              "right": "girar a la izquierda"
+            },
+            {
+              "left": "turn right",
+              "right": "girar a la derecha"
+            },
+            {
+              "left": "cross the street",
+              "right": "cruzar la calle"
+            },
+            {
+              "left": "at the corner",
+              "right": "en la esquina"
+            }
+          ],
+          "feedback_correct": "Reconoces instrucciones de dirección básicas.",
+          "feedback_incorrect": "Imagina una ruta y relaciona cada expresión con el movimiento.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T07-L02-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la ruta.",
+          "prompt": "straight / go / and / turn / left",
+          "correct_answer": "Go straight and turn left.",
+          "feedback_correct": "La ruta combina dos instrucciones con and.",
+          "feedback_incorrect": "Empieza con Go straight y añade la segunda instrucción.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T07-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha las direcciones y responde.",
+          "prompt": "Go straight for two blocks. Turn right at the bank. The library is on your left.",
+          "question": "Where is the library?",
+          "options": [
+            "On your left.",
+            "On your right.",
+            "Behind the bank."
+          ],
+          "correct_answer": "On your left.",
+          "feedback_correct": "La instrucción final dice on your left.",
+          "feedback_incorrect": "Escucha la última oración.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T07-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las instrucciones.",
+          "prompt": "Go straight. Turn left at the corner. Cross the street. The bank is on your right.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear left and right",
+            "clear street and straight contrast",
+            "natural imperative rhythm",
+            "understandable location phrase"
+          ],
+          "feedback_correct": "Tus instrucciones son claras y fáciles de seguir.",
+          "feedback_incorrect": "Distingue straight de street y marca left/right con claridad.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M3-T07-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la ruta y responde.",
+          "prompt": "From the station, go straight for one block. Turn left at the café. Walk past the park. The museum is next to the post office.",
+          "question": "What is the museum next to?",
+          "options": [
+            "The station.",
+            "The café.",
+            "The post office."
+          ],
+          "correct_answer": "The post office.",
+          "feedback_correct": "El museo está al lado de la oficina de correos.",
+          "feedback_incorrect": "Busca la última relación de ubicación.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T07-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una ruta.",
+          "prompt": "Write directions from your home to a nearby place. Use at least five instruction phrases and two landmarks.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five direction phrases",
+            "two landmarks",
+            "clear sequence",
+            "correct left/right",
+            "understandable destination"
+          ],
+          "feedback_correct": "Tu ruta contiene pasos claros y referencias útiles.",
+          "feedback_incorrect": "Ordena los pasos con first, then y finally.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T07-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Da direcciones a la IA.",
+          "prompt": "The AI is lost near your neighborhood. Ask where it is, give a complete route to a place, and check that it understood.",
+          "role": "native-speaking visitor",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks or identifies starting point",
+            "gives six route steps",
+            "uses left and right",
+            "mentions two landmarks",
+            "checks understanding",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes guiar a una persona por una ruta sencilla.",
+          "feedback_incorrect": "La IA usa un mapa y te pide repetir solo el paso que no entendió.",
+          "difficulty": 2,
+          "estimated_seconds": 210
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T07-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Lugares y direcciones",
+      "title": "Clarify the way",
+      "objective": "Pedir aclaraciones, confirmar instrucciones y corregir una ruta cuando no se entiende.",
+      "activities": [
+        {
+          "id": "A1-M3-T07-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la pregunta adecuada.",
+          "prompt": "You do not understand the direction. What do you say?",
+          "options": [
+            "Could you repeat that, please?",
+            "What is your job?",
+            "How old is the street?"
+          ],
+          "correct_answer": "Could you repeat that, please?",
+          "feedback_correct": "Es una petición cortés para repetir una instrucción.",
+          "feedback_incorrect": "Elige la frase para pedir que repitan algo.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T07-L03-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la confirmación.",
+          "prompt": "So I turn left at the bank, ___?",
+          "options": [
+            "right",
+            "straight",
+            "there"
+          ],
+          "correct_answer": "right",
+          "feedback_correct": "Right? confirma que entendiste correctamente.",
+          "feedback_incorrect": "Usa una palabra para comprobar la información.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L03-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la pregunta correcta.",
+          "prompt": "You want to know how far the museum is.",
+          "options": [
+            "How far is the museum?",
+            "How old is the museum?",
+            "How many is the museum?"
+          ],
+          "correct_answer": "How far is the museum?",
+          "feedback_correct": "How far pregunta por la distancia.",
+          "feedback_incorrect": "Elige la pregunta para saber la distancia.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T07-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la frase con su función.",
+          "pairs": [
+            {
+              "left": "Could you say that again?",
+              "right": "pedir repetición"
+            },
+            {
+              "left": "Do I turn left here?",
+              "right": "confirmar un giro"
+            },
+            {
+              "left": "How far is it?",
+              "right": "preguntar distancia"
+            },
+            {
+              "left": "Is it near here?",
+              "right": "preguntar si está cerca"
+            },
+            {
+              "left": "I understand.",
+              "right": "confirmar comprensión"
+            }
+          ],
+          "feedback_correct": "Puedes gestionar una conversación cuando necesitas ayuda.",
+          "feedback_incorrect": "Identifica si la frase repite, confirma o pregunta por distancia.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T07-L03-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la confirmación.",
+          "prompt": "the / right / Is / bank / here",
+          "correct_answer": "Is the bank right here?",
+          "feedback_correct": "La pregunta confirma si el lugar está exactamente aquí.",
+          "feedback_incorrect": "Empieza con Is y coloca right here al final.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T07-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "Go past the school and turn right at the second street. The café is about five minutes from there.",
+          "question": "How far is the café from the second street?",
+          "options": [
+            "About five minutes.",
+            "Two blocks to the left.",
+            "Across from the school."
+          ],
+          "correct_answer": "About five minutes.",
+          "feedback_correct": "La distancia es about five minutes.",
+          "feedback_incorrect": "Escucha la última oración.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T07-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba el diálogo de aclaración.",
+          "prompt": "Excuse me, could you repeat that, please? Do I turn right at the bank? Is it far? Thank you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "polite intonation",
+            "clear repeat and right",
+            "understandable questions",
+            "natural pauses"
+          ],
+          "feedback_correct": "Pides ayuda y confirmas la ruta con claridad.",
+          "feedback_incorrect": "Usa una entonación amable y enfatiza la palabra que quieres confirmar.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M3-T07-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el diálogo y responde.",
+          "prompt": "A: Go straight and turn left after the bridge. B: Do I turn left at the bridge? A: No, go past the bridge and turn left at the school. B: Okay, I understand.",
+          "question": "Where should B turn left?",
+          "options": [
+            "At the bridge.",
+            "At the school.",
+            "At the station."
+          ],
+          "correct_answer": "At the school.",
+          "feedback_correct": "A corrige la primera interpretación y dice at the school.",
+          "feedback_incorrect": "Busca la segunda instrucción de A.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T07-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un diálogo de ayuda.",
+          "prompt": "Write a six-line dialogue between a lost visitor and a local person. Include a request for repetition, two directions, one distance question, and a confirmation.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six lines",
+            "polite clarification",
+            "two direction phrases",
+            "distance question",
+            "confirmation",
+            "clear punctuation"
+          ],
+          "feedback_correct": "Tu diálogo resuelve una dificultad real de orientación.",
+          "feedback_incorrect": "Incluye Could you repeat...? y una pregunta con Is it...?",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M3-T07-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve una ruta difícil con la IA.",
+          "prompt": "The AI gives you directions to a new place. Ask for clarification twice, confirm each key step, and correct the AI once if the route changes.",
+          "role": "native-speaking local resident",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks two clarification questions",
+            "confirms three route details",
+            "asks about distance",
+            "handles a correction",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes mantener el control de una conversación de direcciones aunque no entiendas todo al principio.",
+          "feedback_incorrect": "La IA varía la ruta y te permite practicar estrategias de reparación.",
+          "difficulty": 2,
+          "estimated_seconds": 220
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T07-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Lugares y direcciones",
+      "title": "Navigate the city",
+      "objective": "Integrar lugares, rutas, distancias y estrategias de aclaración para desplazarse por una ciudad.",
+      "activities": [
+        {
+          "id": "A1-M3-T07-L04-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la instrucción correcta.",
+          "prompt": "The museum is on the other side of the street.",
+          "options": [
+            "Cross the street.",
+            "Go to sleep.",
+            "Take the elevator."
+          ],
+          "correct_answer": "Cross the street.",
+          "feedback_correct": "Cross the street indica que debes pasar al otro lado.",
+          "feedback_incorrect": "Elige la acción relacionada con cruzar una calle.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "___ is the bus station from here?",
+          "options": [
+            "How far",
+            "How many",
+            "How old"
+          ],
+          "correct_answer": "How far",
+          "feedback_correct": "How far pregunta por la distancia.",
+          "feedback_incorrect": "Elige la expresión para medir distancia.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T07-L04-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta natural.",
+          "prompt": "Could you show me the way to the station?",
+          "options": [
+            "Sure. Go straight and turn left.",
+            "It is a station.",
+            "I am twenty."
+          ],
+          "correct_answer": "Sure. Go straight and turn left.",
+          "feedback_correct": "Es una respuesta útil con instrucciones.",
+          "feedback_incorrect": "Elige una ruta, no una definición ni un dato personal.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T07-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la ruta completa.",
+          "prompt": "straight / go / past / the / bank / and / turn / right",
+          "correct_answer": "Go straight past the bank and turn right.",
+          "feedback_correct": "La ruta combina go straight, past y turn right.",
+          "feedback_incorrect": "Empieza con Go straight y coloca turn right al final.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T07-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada necesidad con la estrategia adecuada.",
+          "pairs": [
+            {
+              "left": "No entendí el giro.",
+              "right": "Could you repeat that, please?"
+            },
+            {
+              "left": "Quiero saber la distancia.",
+              "right": "How far is it?"
+            },
+            {
+              "left": "Creo que entendí la ruta.",
+              "right": "So I go straight, right?"
+            },
+            {
+              "left": "Llegué al lugar.",
+              "right": "Is this the station?"
+            }
+          ],
+          "feedback_correct": "Usas la estrategia apropiada para cada momento de la ruta.",
+          "feedback_incorrect": "Distingue repetir, preguntar distancia, confirmar y comprobar destino.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T07-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la ruta y responde.",
+          "prompt": "Start at the hotel. Go straight for two blocks, turn left at the bank, and cross the street. The museum is behind the library, next to the park.",
+          "question": "Where is the museum?",
+          "options": [
+            "Behind the library and next to the park.",
+            "Inside the hotel.",
+            "Across from the bank only."
+          ],
+          "correct_answer": "Behind the library and next to the park.",
+          "feedback_correct": "La ubicación final contiene dos referencias.",
+          "feedback_incorrect": "Escucha la descripción después de The museum is.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T07-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba una ruta para un visitante.",
+          "prompt": "Go straight for two blocks. Turn left at the bank. Cross the street. The museum is behind the library, next to the park.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear direction verbs",
+            "clear straight/street contrast",
+            "natural sequence rhythm",
+            "understandable landmarks"
+          ],
+          "feedback_correct": "Tu ruta es comprensible y contiene referencias útiles.",
+          "feedback_incorrect": "Practica straight y street por separado y después vuelve a unir la ruta.",
+          "difficulty": 2,
+          "estimated_seconds": 105
+        },
+        {
+          "id": "A1-M3-T07-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mapa textual y responde.",
+          "prompt": "The visitor center is opposite the train station. The hotel is two blocks behind the station. The museum is between the hotel and the park. The pharmacy is next to the visitor center.",
+          "question": "What is between the hotel and the park?",
+          "options": [
+            "The museum.",
+            "The pharmacy.",
+            "The train station."
+          ],
+          "correct_answer": "The museum.",
+          "feedback_correct": "El texto dice the museum is between the hotel and the park.",
+          "feedback_incorrect": "Busca la oración con between.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T07-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una guía de ciudad.",
+          "prompt": "Write a twelve-step walking route from a hotel to three places. Include landmarks, distance, turns, one clarification question, and one confirmation.",
+          "response_type": "open",
+          "estimated_seconds": 190,
+          "evaluation_criteria": [
+            "twelve clear steps",
+            "three destinations",
+            "landmarks and distance",
+            "direction vocabulary",
+            "clarification and confirmation phrases"
+          ]
+        },
+        {
+          "id": "A1-M3-T07-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Ayuda a un turista con la IA.",
+          "prompt": "The AI is a tourist with three destinations and limited time. Give routes, answer questions, handle a misunderstanding, and help choose the best order.",
+          "role": "native-speaking tourist",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "gives routes to three places",
+            "uses landmarks and distances",
+            "asks or answers clarification",
+            "repairs a misunderstanding",
+            "helps choose an order",
+            "maintains fourteen turns"
+          ],
+          "feedback_correct": "Puedes orientar a alguien y resolver problemas durante el trayecto.",
+          "feedback_incorrect": "La IA presenta un mapa cambiante y practica las partes de la ruta que cuestan más.",
+          "difficulty": 2,
+          "estimated_seconds": 240
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T06-L01",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Adverbios de frecuencia",
+  "title":"Always, usually and sometimes",
+  "objective":"Describir con qué frecuencia ocurren acciones habituales.",
+  "activities":[
+    {"id":"A1-M2-T06-L01-E01","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"I ___ drink coffee: every day.","options":["always","never","rarely"],"correct_answer":"always","feedback_correct":"Always significa siempre.","feedback_incorrect":"Every day indica always.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L01-E02","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"I go to the cinema two times a month.","options":["sometimes","never","always"],"correct_answer":"sometimes","feedback_correct":"Sometimes significa a veces.","feedback_incorrect":"No ocurre siempre ni nunca.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L01-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"usually / I / walk / to work","correct_answer":"I usually walk to work.","feedback_correct":"El adverbio va antes del verbo principal.","feedback_incorrect":"Usa subject + adverb + verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T06-L01-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"She goes always by bus.","correct_answer":"She always goes by bus.","feedback_correct":"Always va antes del verbo principal.","feedback_incorrect":"Mueve always antes de goes.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T06-L01-E05","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"usually","options":["normalmente","nunca","raramente"],"correct_answer":"normalmente","feedback_correct":"Usually indica frecuencia habitual.","feedback_incorrect":"Usually significa normalmente.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"He sometimes cooks dinner.","options":["a veces cocina","siempre cocina","nunca cocina"],"correct_answer":"a veces cocina","feedback_correct":"Sometimes significa a veces.","feedback_incorrect":"Escucha sometimes.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"I always study. She usually cooks. They sometimes walk.","evaluation_criteria":["adverb stress","clear verb","natural rhythm"],"feedback_correct":"La frecuencia se entiende.","feedback_incorrect":"Marca la sílaba fuerte del adverbio.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T06-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Maria usually works at home. She sometimes works in an office.","question":"Where does Maria usually work?","correct_answer":"At home.","feedback_correct":"Usually indica su lugar habitual.","feedback_incorrect":"Busca usually works.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L01-E09","type":"writing","skill":"writing","instruction":"Escribe hábitos.","prompt":"Write five sentences using always, usually and sometimes.","response_type":"open","evaluation_criteria":["five sentences","adverb position","clear frequency"],"feedback_correct":"Las frecuencias están bien expresadas.","feedback_incorrect":"Pon el adverbio antes del verbo principal.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T06-L01-E10","type":"roleplay","skill":"interaction","instruction":"Habla de hábitos.","prompt":"Tell the AI how often you do five daily activities.","role":"new friend","response_type":"open_speaking","success_criteria":["three frequency adverbs","five habits"],"feedback_correct":"La conversación expresa frecuencia real.","feedback_incorrect":"Usa always, usually o sometimes antes del verbo.","difficulty":2,"estimated_seconds":120}
+  ]
+}

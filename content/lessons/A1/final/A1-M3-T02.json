@@ -1,0 +1,803 @@
+{
+  "id": "A1-M3-T02",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Familia y relaciones",
+  "title": "Familia y relaciones",
+  "estimated_seconds": null,
+  "communication_goal": "Usar familia y relaciones en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to familia y relaciones."
+  ],
+  "explanation_es": "Este tema desarrolla familia y relaciones mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T02-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Familia y relaciones",
+      "title": "My family",
+      "objective": "Nombrar familiares y describir relaciones básicas usando my, your, his y her.",
+      "activities": [
+        {
+          "id": "A1-M3-T02-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la palabra correcta.",
+          "prompt": "My mother's son is my ___.",
+          "options": [
+            "brother",
+            "uncle",
+            "cousin"
+          ],
+          "correct_answer": "brother",
+          "feedback_correct": "El hijo de tu madre puede ser tu hermano.",
+          "feedback_incorrect": "Piensa en un hombre de tu misma familia inmediata.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la frase.",
+          "prompt": "My father's daughter is my ___.",
+          "options": [
+            "sister",
+            "grandmother",
+            "aunt"
+          ],
+          "correct_answer": "sister",
+          "feedback_correct": "La hija de tu padre es tu hermana.",
+          "feedback_incorrect": "Busca la palabra para una mujer de tu familia inmediata.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige el posesivo correcto.",
+          "prompt": "This is Ana. ___ mother is a doctor.",
+          "options": [
+            "His",
+            "Her",
+            "Their"
+          ],
+          "correct_answer": "Her",
+          "feedback_correct": "Ana es mujer; usamos her para hablar de su madre.",
+          "feedback_incorrect": "Elige el posesivo correspondiente a Ana.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada familiar con su significado.",
+          "pairs": [
+            {
+              "left": "mother",
+              "right": "madre"
+            },
+            {
+              "left": "father",
+              "right": "padre"
+            },
+            {
+              "left": "sister",
+              "right": "hermana"
+            },
+            {
+              "left": "brother",
+              "right": "hermano"
+            },
+            {
+              "left": "grandmother",
+              "right": "abuela"
+            }
+          ],
+          "feedback_correct": "Reconoces familiares básicos en inglés.",
+          "feedback_incorrect": "Relaciona cada palabra con la persona correcta de la familia.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T02-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la frase.",
+          "prompt": "is / my / This / sister",
+          "correct_answer": "This is my sister.",
+          "feedback_correct": "This is presenta a una persona y my indica relación.",
+          "feedback_incorrect": "Empieza con This is y coloca my antes de sister.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T02-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la descripción y responde.",
+          "prompt": "This is my family. My mother is Maria, my father is Luis, and my brother is Diego.",
+          "question": "What is the brother's name?",
+          "options": [
+            "Luis.",
+            "Maria.",
+            "Diego."
+          ],
+          "correct_answer": "Diego.",
+          "feedback_correct": "Diego es el hermano mencionado al final.",
+          "feedback_incorrect": "Escucha la frase después de my brother is.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T02-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las palabras y frases.",
+          "prompt": "mother, father, sister, brother. This is my mother. This is my brother.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear th in mother and father",
+            "clear final sounds",
+            "understandable family words",
+            "natural phrase rhythm"
+          ],
+          "feedback_correct": "Los nombres familiares se entienden con claridad.",
+          "feedback_incorrect": "Practica el sonido th sin convertirlo en t o d y termina claramente brother.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T02-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "Sofia has one brother and two sisters. Her brother is fifteen. Her sisters are ten and twelve.",
+          "question": "How many sisters does Sofia have?",
+          "correct_answer": "Two sisters.",
+          "feedback_correct": "El texto dice two sisters.",
+          "feedback_incorrect": "Busca el número junto a sisters.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T02-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe tu familia.",
+          "prompt": "Write five sentences about your family. Use family words and at least three possessive adjectives.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five sentences",
+            "family vocabulary",
+            "three correct possessives",
+            "clear relationships",
+            "basic punctuation"
+          ],
+          "feedback_correct": "Describes familiares y relaciones con claridad.",
+          "feedback_incorrect": "Revisa si usas my, your, his, her o their según la persona.",
+          "difficulty": 1,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M3-T02-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla de tu familia con la IA.",
+          "prompt": "Show the AI a fictional family photo. Name four people, explain their relationships, and answer follow-up questions.",
+          "role": "friendly native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "names four family members",
+            "uses at least four family words",
+            "uses possessive adjectives",
+            "answers three follow-up questions",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Puedes explicar relaciones familiares básicas en conversación.",
+          "feedback_incorrect": "La IA te ofrece un árbol familiar y corrige una relación cada vez.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T02-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Familia y relaciones",
+      "title": "Family members and ages",
+      "objective": "Describir quién es cada familiar y dar información básica sobre edades y convivencia.",
+      "activities": [
+        {
+          "id": "A1-M3-T02-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la palabra correcta.",
+          "prompt": "My mother's sister is my ___.",
+          "options": [
+            "aunt",
+            "niece",
+            "daughter"
+          ],
+          "correct_answer": "aunt",
+          "feedback_correct": "La hermana de tu madre es tu tía.",
+          "feedback_incorrect": "Busca la palabra para la hermana de uno de tus padres.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la relación.",
+          "prompt": "My sister's son is my ___.",
+          "options": [
+            "nephew",
+            "grandfather",
+            "uncle"
+          ],
+          "correct_answer": "nephew",
+          "feedback_correct": "El hijo de tu hermana es tu sobrino.",
+          "feedback_incorrect": "Es un niño relacionado con tu hermana; busca la palabra nephew.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T02-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Tom is my brother. ___ is twenty years old.",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "correct_answer": "He",
+          "feedback_correct": "Usamos he para Tom.",
+          "feedback_incorrect": "Tom es un hombre; elige el pronombre masculino.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L02-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "My grandparents ___ in a small town.",
+          "options": [
+            "live",
+            "lives",
+            "living"
+          ],
+          "correct_answer": "live",
+          "feedback_correct": "Grandparents es plural y usa live.",
+          "feedback_incorrect": "Con un sujeto plural usamos la forma base live.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T02-L02-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la relación con su definición.",
+          "pairs": [
+            {
+              "left": "aunt",
+              "right": "sister of your mother or father"
+            },
+            {
+              "left": "uncle",
+              "right": "brother of your mother or father"
+            },
+            {
+              "left": "cousin",
+              "right": "child of your aunt or uncle"
+            },
+            {
+              "left": "nephew",
+              "right": "son of your brother or sister"
+            }
+          ],
+          "feedback_correct": "Comprendes relaciones familiares ampliadas.",
+          "feedback_incorrect": "Piensa en quién es el padre o hermano de la persona descrita.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T02-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la descripción y responde.",
+          "prompt": "My aunt lives with her husband and their two children. Their daughter is eight, and their son is six.",
+          "question": "How many children do they have?",
+          "options": [
+            "One.",
+            "Two.",
+            "Three."
+          ],
+          "correct_answer": "Two.",
+          "feedback_correct": "La descripción dice their two children.",
+          "feedback_incorrect": "Escucha el número antes de children.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T02-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las frases.",
+          "prompt": "My aunt is forty. My uncle is forty-two. Their daughter is eight, and their son is six.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear aunt and uncle",
+            "understandable numbers",
+            "clear their",
+            "natural sentence rhythm"
+          ],
+          "feedback_correct": "Las relaciones y edades se entienden bien.",
+          "feedback_incorrect": "Practica aunt sin añadir una vocal final y pronuncia claramente their.",
+          "difficulty": 2,
+          "estimated_seconds": 85
+        },
+        {
+          "id": "A1-M3-T02-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el árbol familiar y responde.",
+          "prompt": "Emma has a large family. Her aunt lives next door. Her aunt has two children: a boy named Leo and a girl named Mia. Leo is Emma's cousin.",
+          "question": "Who is Leo?",
+          "correct_answer": "He is Emma's cousin.",
+          "feedback_correct": "El texto identifica la relación entre Leo y Emma.",
+          "feedback_incorrect": "Busca la última oración del texto.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T02-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe dos familiares.",
+          "prompt": "Write six sentences about two family members. Include their relationship to you, age, city, and one activity they like.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "two relationships",
+            "ages and places",
+            "possessive adjectives",
+            "clear present simple sentences"
+          ],
+          "feedback_correct": "Describes familiares con información concreta.",
+          "feedback_incorrect": "Usa my/his/her/their y revisa que cada frase tenga sujeto y verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M3-T02-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Explica tu árbol familiar.",
+          "prompt": "The AI asks about your family tree. Explain who three relatives are, where they live, and how old they are.",
+          "role": "curious native-speaking friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes three relatives",
+            "uses aunt, uncle, cousin, nephew, or grandparents",
+            "gives ages and locations",
+            "answers follow-up questions",
+            "completes eight turns"
+          ],
+          "feedback_correct": "Puedes explicar relaciones familiares más allá de la familia inmediata.",
+          "feedback_incorrect": "La IA muestra un árbol sencillo y te ayuda a elegir la relación correcta.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T02-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Familia y relaciones",
+      "title": "What my family likes",
+      "objective": "Hablar de gustos, actividades y características básicas de familiares usando presente simple y adjetivos sencillos.",
+      "activities": [
+        {
+          "id": "A1-M3-T02-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el adjetivo correcto.",
+          "prompt": "My brother loves meeting people. He is ___.",
+          "options": [
+            "friendly",
+            "quiet",
+            "old"
+          ],
+          "correct_answer": "friendly",
+          "feedback_correct": "Friendly describe a una persona amable y sociable.",
+          "feedback_incorrect": "Busca el adjetivo relacionado con tratar bien a otras personas.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "My sister ___ cooking on Sundays.",
+          "options": [
+            "like",
+            "likes",
+            "liking"
+          ],
+          "correct_answer": "likes",
+          "feedback_correct": "Con she usamos likes en presente simple.",
+          "feedback_incorrect": "Sister es tercera persona singular; añade s al verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T02-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la forma correcta.",
+          "prompt": "My parents ___ soccer.",
+          "options": [
+            "enjoy",
+            "enjoys",
+            "enjoying"
+          ],
+          "correct_answer": "enjoy",
+          "feedback_correct": "Parents es plural y usa la forma base enjoy.",
+          "feedback_incorrect": "Con un sujeto plural no añadas s al verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T02-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une el adjetivo con su significado.",
+          "pairs": [
+            {
+              "left": "friendly",
+              "right": "amable y sociable"
+            },
+            {
+              "left": "quiet",
+              "right": "tranquilo y poco hablador"
+            },
+            {
+              "left": "funny",
+              "right": "divertido"
+            },
+            {
+              "left": "kind",
+              "right": "bondadoso"
+            }
+          ],
+          "feedback_correct": "Reconoces adjetivos básicos para describir personas.",
+          "feedback_incorrect": "Relaciona cada palabra con la característica que describe.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T02-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la frase.",
+          "prompt": "My cousin like reading and she play tennis.",
+          "correct_answer": "My cousin likes reading and she plays tennis.",
+          "feedback_correct": "Con cousin y she usamos likes y plays.",
+          "feedback_incorrect": "Revisa la tercera persona singular en presente simple.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T02-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "My father is very funny. He likes telling stories, and he plays the guitar at family parties.",
+          "question": "What does the father like doing?",
+          "options": [
+            "Telling stories.",
+            "Cooking dinner.",
+            "Playing soccer."
+          ],
+          "correct_answer": "Telling stories.",
+          "feedback_correct": "El audio dice he likes telling stories.",
+          "feedback_incorrect": "Escucha la actividad después de likes.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T02-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba las descripciones.",
+          "prompt": "My mother is kind. She likes gardening. My brother is funny. He plays the guitar.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear final s in likes and plays",
+            "understandable adjectives",
+            "clear he and she",
+            "natural sentence rhythm"
+          ],
+          "feedback_correct": "Las descripciones y acciones se entienden con claridad.",
+          "feedback_incorrect": "Marca suavemente la s final de likes y plays sin separar el verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T02-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "My grandmother is very kind and funny. She likes gardening and watching old movies. She does not like loud music.",
+          "question": "What does she not like?",
+          "options": [
+            "Gardening.",
+            "Old movies.",
+            "Loud music."
+          ],
+          "correct_answer": "Loud music.",
+          "feedback_correct": "La negación aparece antes de like.",
+          "feedback_incorrect": "Busca la oración con does not like.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M3-T02-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe los gustos familiares.",
+          "prompt": "Write eight sentences about three relatives. Include one adjective and one activity or preference for each person.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "three relatives",
+            "three adjectives",
+            "present simple with correct third-person s",
+            "clear preferences"
+          ],
+          "feedback_correct": "Describes personas y gustos con oraciones comprensibles.",
+          "feedback_incorrect": "Comprueba la s de likes, plays, reads o watches con he/she.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T02-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Presenta a tu familia a la IA.",
+          "prompt": "Tell the AI about three relatives. Describe their personalities and what they like or do. Ask the AI about its fictional family too.",
+          "role": "native-speaking friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes three people",
+            "uses at least four adjectives",
+            "uses likes and does not like",
+            "asks two follow-up questions",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes describir a tu familia más allá de los nombres y relaciones.",
+          "feedback_incorrect": "La IA te ayuda a corregir el verbo y a elegir un adjetivo más preciso.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T02-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Familia y relaciones",
+      "title": "A family conversation",
+      "objective": "Mantener una conversación completa sobre familiares, relaciones, edades, lugares y gustos.",
+      "activities": [
+        {
+          "id": "A1-M3-T02-L04-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la relación correcta.",
+          "prompt": "My father's brother is my ___.",
+          "options": [
+            "uncle",
+            "cousin",
+            "nephew"
+          ],
+          "correct_answer": "uncle",
+          "feedback_correct": "El hermano de tu padre es tu tío.",
+          "feedback_incorrect": "Busca la palabra para el hermano de uno de tus padres.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "My cousins ___ in Canada.",
+          "options": [
+            "live",
+            "lives",
+            "living"
+          ],
+          "correct_answer": "live",
+          "feedback_correct": "Cousins es plural y usa live.",
+          "feedback_incorrect": "Con un sujeto plural usa la forma base del verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T02-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la forma correcta.",
+          "prompt": "My aunt ___ cooking, but she ___ like shopping.",
+          "options": [
+            "likes / doesn't",
+            "like / don't",
+            "likes / don't"
+          ],
+          "correct_answer": "likes / doesn't",
+          "feedback_correct": "Con she usamos likes y doesn't like.",
+          "feedback_incorrect": "Revisa la tercera persona singular en afirmación y negación.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T02-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la descripción.",
+          "prompt": "my / lives / cousin / in / Madrid",
+          "correct_answer": "My cousin lives in Madrid.",
+          "feedback_correct": "La oración usa sujeto, verbo, lugar y preposición correctamente.",
+          "feedback_incorrect": "Coloca My cousin al principio y lives antes de in Madrid.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T02-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada pregunta con la respuesta adecuada.",
+          "pairs": [
+            {
+              "left": "Who is she?",
+              "right": "She is my aunt."
+            },
+            {
+              "left": "Where does he live?",
+              "right": "He lives in Quito."
+            },
+            {
+              "left": "What does she like?",
+              "right": "She likes music."
+            },
+            {
+              "left": "How old is your brother?",
+              "right": "He is sixteen."
+            }
+          ],
+          "feedback_correct": "Puedes obtener distintos datos sobre un familiar.",
+          "feedback_incorrect": "Identifica si la pregunta pide persona, lugar, gusto o edad.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T02-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la conversación y responde.",
+          "prompt": "A: Tell me about your sister. B: Her name is Julia. She is twenty-four and lives in Lima. She works at a school and likes dancing.",
+          "question": "Where does Julia work?",
+          "options": [
+            "At a school.",
+            "At a hospital.",
+            "At a restaurant."
+          ],
+          "correct_answer": "At a school.",
+          "feedback_correct": "Julia works at a school.",
+          "feedback_incorrect": "Escucha la información después de lives in Lima.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T02-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba la conversación modelo.",
+          "prompt": "This is my cousin. Her name is Ana. She lives in Bogotá and likes music. She is very friendly.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear family relationship",
+            "clear possessive her",
+            "third-person verb endings",
+            "natural description rhythm"
+          ],
+          "feedback_correct": "La descripción es clara y natural.",
+          "feedback_incorrect": "Practica her y la s final de lives y likes.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T02-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el texto y responde.",
+          "prompt": "The Rivera family is large. Carlos and Elena are married and have two children, Pablo and Sara. Pablo is twelve and likes soccer. Sara is nine and likes drawing. Their grandmother lives with them.",
+          "question": "Who lives with the family?",
+          "correct_answer": "Their grandmother.",
+          "feedback_correct": "La última oración identifica a la persona que vive con ellos.",
+          "feedback_incorrect": "Busca la oración con lives with them.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T02-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un perfil familiar.",
+          "prompt": "Write a short family profile with ten sentences. Include relationships, names, ages, places, occupations or studies, and likes.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "ten complete sentences",
+            "at least five family words",
+            "possessive adjectives",
+            "present simple agreement",
+            "clear personal details"
+          ],
+          "feedback_correct": "Tu perfil comunica una imagen completa de una familia.",
+          "feedback_incorrect": "Revisa los verbos con he/she y los posesivos antes de cada familiar.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        },
+        {
+          "id": "A1-M3-T02-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Conversa sobre tu familia.",
+          "prompt": "The AI is a new friend. Answer questions about your family, describe two relatives, compare their interests, and ask about the AI's fictional family.",
+          "role": "native-speaking new friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "describes at least four relatives",
+            "gives relationships and ages",
+            "mentions places and activities",
+            "uses at least five possessives",
+            "maintains twelve turns"
+          ],
+          "feedback_correct": "Puedes conversar sobre familia y relaciones con información suficiente.",
+          "feedback_incorrect": "La IA adapta sus preguntas y refuerza las estructuras que todavía confundes.",
+          "difficulty": 2,
+          "estimated_seconds": 210
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

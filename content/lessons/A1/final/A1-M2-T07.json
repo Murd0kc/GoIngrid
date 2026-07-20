@@ -1,0 +1,718 @@
+{
+  "id": "A1-M2-T07",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Palabras interrogativas",
+  "title": "Palabras interrogativas",
+  "estimated_seconds": null,
+  "communication_goal": "Usar palabras interrogativas en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to palabras interrogativas."
+  ],
+  "explanation_es": "Este tema desarrolla palabras interrogativas mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T07-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Palabras interrogativas",
+      "title": "Choosing the question word",
+      "objective": "Elegir what, where, who, when, why o how según la información buscada.",
+      "activities": [
+        {
+          "id": "A1-M2-T07-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ is your favorite color?",
+          "options": [
+            "What",
+            "Where",
+            "Who"
+          ],
+          "correct_answer": "What",
+          "feedback_correct": "What pregunta por información o cosas.",
+          "feedback_incorrect": "La respuesta es un color.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ do you live?",
+          "options": [
+            "Where",
+            "When",
+            "Why"
+          ],
+          "correct_answer": "Where",
+          "feedback_correct": "Where pregunta por lugar.",
+          "feedback_incorrect": "La respuesta es una ciudad o lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ is your teacher?",
+          "options": [
+            "Who",
+            "What",
+            "How"
+          ],
+          "correct_answer": "Who",
+          "feedback_correct": "Who pregunta por persona.",
+          "feedback_incorrect": "La respuesta es una persona.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ do you go to bed?",
+          "options": [
+            "When",
+            "Who",
+            "What"
+          ],
+          "correct_answer": "When",
+          "feedback_correct": "When pregunta por tiempo.",
+          "feedback_incorrect": "La respuesta es una hora o momento.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ are you learning English?",
+          "options": [
+            "Why",
+            "Where",
+            "Who"
+          ],
+          "correct_answer": "Why",
+          "feedback_correct": "Why pregunta por razón.",
+          "feedback_incorrect": "La respuesta explica un motivo.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E06",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ do you travel to work?",
+          "options": [
+            "How",
+            "Who",
+            "When"
+          ],
+          "correct_answer": "How",
+          "feedback_correct": "How pregunta por manera.",
+          "feedback_incorrect": "La respuesta puede ser by bus.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E07",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "you / What / eat / do?",
+          "correct_answer": "What do you eat?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "What + do + subject + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T07-L01-E08",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "Why?",
+          "options": [
+            "¿Por qué?",
+            "¿Dónde?",
+            "¿Cómo?"
+          ],
+          "correct_answer": "¿Por qué?",
+          "feedback_correct": "Why pregunta por una razón.",
+          "feedback_incorrect": "Where es dónde; how es cómo.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L01-E09",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Where does Ana work? She works at a school.",
+          "question": "Which question asks for the place?",
+          "correct_answer": "Where does Ana work?",
+          "feedback_correct": "Where pide el lugar.",
+          "feedback_incorrect": "La respuesta es at a school.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T07-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Haz una entrevista inicial.",
+          "prompt": "Ask the AI one question with each question word.",
+          "role": "new classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "six question words",
+            "correct meaning"
+          ],
+          "feedback_correct": "Elegiste cada palabra según la información.",
+          "feedback_incorrect": "La IA te da el tipo de respuesta esperado.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T07-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Palabras interrogativas",
+      "title": "Building wh-questions",
+      "objective": "Formar preguntas completas con palabras interrogativas y auxiliares.",
+      "activities": [
+        {
+          "id": "A1-M2-T07-L02-E01",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "where / do / you / work?",
+          "correct_answer": "Where do you work?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "Where + do + subject + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T07-L02-E02",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "does / what / she / study?",
+          "correct_answer": "What does she study?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "What + does + she + base verb.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T07-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "Why ___ they walk?",
+          "options": [
+            "do",
+            "does",
+            "are"
+          ],
+          "correct_answer": "do",
+          "feedback_correct": "They usa do.",
+          "feedback_incorrect": "El sujeto plural usa do.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L02-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "When ___ he arrive?",
+          "options": [
+            "do",
+            "does",
+            "is"
+          ],
+          "correct_answer": "does",
+          "feedback_correct": "He usa does.",
+          "feedback_incorrect": "El sujeto he usa does.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Where you do live?",
+          "correct_answer": "Where do you live?",
+          "feedback_correct": "Do va después del wh-word.",
+          "feedback_incorrect": "Ordena Where + do + you + live.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T07-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "How does she travel? She travels by train.",
+          "question": "How does she travel?",
+          "correct_answer": "By train.",
+          "feedback_correct": "Identificaste el modo de transporte.",
+          "feedback_incorrect": "Busca la respuesta con by.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T07-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "Where do you live? What does he do? Why do they study?",
+          "evaluation_criteria": [
+            "wh-word stress",
+            "do/does clear",
+            "question intonation"
+          ],
+          "feedback_correct": "Las preguntas son claras.",
+          "feedback_incorrect": "Marca la palabra interrogativa al inicio.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M2-T07-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "What does Leo eat? He eats rice. Where does he eat? At home.",
+          "question": "Where does Leo eat?",
+          "correct_answer": "At home.",
+          "feedback_correct": "La respuesta aparece en la segunda pregunta.",
+          "feedback_incorrect": "Busca where y la respuesta posterior.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T07-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe preguntas.",
+          "prompt": "Write six questions about a fictional person's routine.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six wh-questions",
+            "do/does",
+            "base verbs"
+          ],
+          "feedback_correct": "Las preguntas están bien construidas.",
+          "feedback_incorrect": "Revisa el auxiliar según el sujeto.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T07-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Entrevista a la IA.",
+          "prompt": "Ask six wh-questions about work, home, food, time, reason and transport.",
+          "role": "native-speaking neighbor",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "six questions",
+            "correct auxiliaries",
+            "follow-up"
+          ],
+          "feedback_correct": "La entrevista obtiene información variada.",
+          "feedback_incorrect": "Elige wh-word y auxiliar antes de hablar.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T07-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Palabras interrogativas",
+      "title": "Answering wh-questions",
+      "objective": "Responder con información completa y adecuada.",
+      "activities": [
+        {
+          "id": "A1-M2-T07-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Responde.",
+          "prompt": "Where do you live?",
+          "options": [
+            "In Lima.",
+            "At seven.",
+            "Because I work."
+          ],
+          "correct_answer": "In Lima.",
+          "feedback_correct": "Where pide un lugar.",
+          "feedback_incorrect": "Elige una respuesta de lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Responde.",
+          "prompt": "When do you study?",
+          "options": [
+            "At night.",
+            "In Mexico.",
+            "Because I like it."
+          ],
+          "correct_answer": "At night.",
+          "feedback_correct": "When pide un tiempo.",
+          "feedback_incorrect": "Elige una hora o momento.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Responde.",
+          "prompt": "Why do you learn English?",
+          "options": [
+            "Because I need it.",
+            "At home.",
+            "By bus."
+          ],
+          "correct_answer": "Because I need it.",
+          "feedback_correct": "Why pide una razón.",
+          "feedback_incorrect": "Usa Because para explicar el motivo.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L03-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Responde.",
+          "prompt": "How do you travel?",
+          "options": [
+            "By bus.",
+            "On Monday.",
+            "My sister."
+          ],
+          "correct_answer": "By bus.",
+          "feedback_correct": "How pide una manera.",
+          "feedback_incorrect": "Elige un medio o forma.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la respuesta.",
+          "prompt": "Where do you work? At eight.",
+          "correct_answer": "Where do you work? At a hospital.",
+          "feedback_correct": "Where necesita un lugar.",
+          "feedback_incorrect": "Cambia la hora por un lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T07-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y relaciona.",
+          "prompt": "Who is he? My brother. When does he work? In the morning.",
+          "question": "Who is he?",
+          "correct_answer": "My brother.",
+          "feedback_correct": "Who pide una persona.",
+          "feedback_incorrect": "Escucha la primera respuesta.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T07-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba preguntas y respuestas.",
+          "prompt": "Where do you live? I live in Lima. Why do you study? Because I enjoy it.",
+          "evaluation_criteria": [
+            "question-answer rhythm",
+            "clear wh-word",
+            "natural response"
+          ],
+          "feedback_correct": "Las respuestas corresponden a cada pregunta.",
+          "feedback_incorrect": "Practica pregunta y respuesta como una unidad.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M2-T07-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "What does Sara eat? She eats fruit. How does she get to work? By train.",
+          "question": "How does Sara get to work?",
+          "correct_answer": "By train.",
+          "feedback_correct": "Identificaste la respuesta de manera.",
+          "feedback_incorrect": "Busca la pregunta How.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T07-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Responde preguntas.",
+          "prompt": "Answer six wh-questions about yourself in complete sentences.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six answers",
+            "information matches question",
+            "complete sentences"
+          ],
+          "feedback_correct": "Cada respuesta corresponde a la pregunta.",
+          "feedback_incorrect": "Comprueba si pide persona, lugar, tiempo, razón o manera.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T07-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Responde a una entrevista.",
+          "prompt": "Answer the AI's six questions and ask one clarification question.",
+          "role": "native-speaking interviewer",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "appropriate answers",
+            "clarification",
+            "complete sentences"
+          ],
+          "feedback_correct": "La conversación mantiene el sentido.",
+          "feedback_incorrect": "La IA te indica qué tipo de información falta.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T07-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Palabras interrogativas",
+      "title": "Wh-questions in real life",
+      "objective": "Usar palabras interrogativas para obtener y compartir información básica.",
+      "activities": [
+        {
+          "id": "A1-M2-T07-L04-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la pregunta correcta.",
+          "prompt": "___ is your email address?",
+          "options": [
+            "What",
+            "Where",
+            "When"
+          ],
+          "correct_answer": "What",
+          "feedback_correct": "What pregunta por información o datos.",
+          "feedback_incorrect": "Para un dato usa What.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la pregunta.",
+          "prompt": "___ do you go to school?",
+          "options": [
+            "How",
+            "Who",
+            "Why"
+          ],
+          "correct_answer": "How",
+          "feedback_correct": "How pregunta por la manera o el medio.",
+          "feedback_incorrect": "Si preguntas por el medio de transporte, usa How.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Relaciona la pregunta con su respuesta.",
+          "prompt": "Why are you tired?",
+          "options": [
+            "Because I worked late.",
+            "At home.",
+            "My teacher."
+          ],
+          "correct_answer": "Because I worked late.",
+          "feedback_correct": "Why se responde normalmente con Because.",
+          "feedback_incorrect": "Busca una razón, no un lugar ni una persona.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T07-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena las palabras.",
+          "prompt": "you / where / do / live",
+          "correct_answer": "Where do you live?",
+          "feedback_correct": "La estructura es Wh-word + do/does + subject + verb.",
+          "feedback_incorrect": "Coloca Where al principio y do antes de you.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T07-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada palabra con su función.",
+          "pairs": [
+            {
+              "left": "Who",
+              "right": "persona"
+            },
+            {
+              "left": "Where",
+              "right": "lugar"
+            },
+            {
+              "left": "When",
+              "right": "tiempo"
+            },
+            {
+              "left": "Why",
+              "right": "razón"
+            },
+            {
+              "left": "How",
+              "right": "manera"
+            }
+          ],
+          "feedback_correct": "Reconoces la información que busca cada palabra.",
+          "feedback_incorrect": "Piensa qué tipo de respuesta esperas.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T07-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el diálogo y selecciona la respuesta.",
+          "prompt": "What is Tom's job? He is a nurse. Where does he work? At a clinic.",
+          "question": "Where does Tom work?",
+          "options": [
+            "At a clinic.",
+            "He is a nurse.",
+            "On Tuesday."
+          ],
+          "correct_answer": "At a clinic.",
+          "feedback_correct": "Where se responde con el lugar.",
+          "feedback_incorrect": "Escucha la respuesta después de Where.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T07-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba una mini entrevista.",
+          "prompt": "What is your name? Where do you live? What do you do? Why do you study English?",
+          "evaluation_criteria": [
+            "clear wh sounds",
+            "rising intonation in questions",
+            "understandable answers",
+            "natural pauses"
+          ],
+          "feedback_correct": "Tus preguntas son claras y mantienen una entonación natural.",
+          "feedback_incorrect": "Repite una pregunta a la vez y marca claramente la palabra interrogativa.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T07-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el perfil y responde.",
+          "prompt": "Maria is from Colombia. She lives in Boston. She works in a bakery. She studies English on Saturdays because she wants to speak with customers.",
+          "question": "Why does Maria study English?",
+          "correct_answer": "Because she wants to speak with customers.",
+          "feedback_correct": "Encontraste la razón en el texto.",
+          "feedback_incorrect": "Busca la información introducida por because.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T07-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una entrevista y sus respuestas.",
+          "prompt": "Write five wh-questions and answer them about yourself.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five different wh-words where appropriate",
+            "correct word order",
+            "complete answers",
+            "basic spelling"
+          ],
+          "feedback_correct": "Tus preguntas y respuestas forman una entrevista comprensible.",
+          "feedback_incorrect": "Revisa el orden de do/does y que cada respuesta corresponda a la pregunta.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T07-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Completa una conversación con la IA.",
+          "prompt": "You meet a new classmate. Ask about their name, city, job or studies, routine, and reason for learning English. Answer the AI's questions too.",
+          "role": "friendly native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks at least five appropriate wh-questions",
+            "answers with understandable details",
+            "uses clarification when needed",
+            "keeps the exchange for six turns"
+          ],
+          "feedback_correct": "La conversación obtiene información real y se mantiene activa.",
+          "feedback_incorrect": "La IA te ayuda a reformular cada pregunta y practicar la respuesta.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

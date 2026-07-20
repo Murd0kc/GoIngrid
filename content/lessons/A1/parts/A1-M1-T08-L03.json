@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T08-L03",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Demostrativos",
+  "title":"Questions with demonstratives",
+  "objective":"Preguntar y responder sobre objetos usando this, that, these y those.",
+  "activities":[
+    {"id":"A1-M1-T08-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"What is ___?","options":["this","these","those"],"correct_answer":"this","feedback_correct":"What is this? pregunta por una cosa cercana.","feedback_incorrect":"Una cosa singular usa this o that.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T08-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"What are ___?","options":["these","this","that"],"correct_answer":"these","feedback_correct":"What are these? pregunta por varias cosas cercanas.","feedback_incorrect":"Plural usa are y these o those.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T08-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"that / What / is","correct_answer":"What is that?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Usa What is that?","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T08-L03-E04","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"What are those?","options":["¿Qué son aquellos?","¿Qué es esto?","¿De quién es eso?"],"correct_answer":"¿Qué son aquellos?","feedback_correct":"Those es plural y lejano.","feedback_incorrect":"What are es plural.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T08-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"What is these?","correct_answer":"What are these?","feedback_correct":"These es plural y usa are.","feedback_incorrect":"Cambia is por are.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T08-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"What are those? Those are pictures.","question":"What are those?","correct_answer":"Pictures.","feedback_correct":"La respuesta identifica los objetos.","feedback_incorrect":"Escucha la respuesta después de those.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T08-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba las preguntas.","prompt":"What is this? What is that? What are these? What are those?","evaluation_criteria":["singular/plural intonation","this/that contrast","these/those contrast"],"feedback_correct":"Las preguntas se entienden claramente.","feedback_incorrect":"Usa is para singular y are para plural.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M1-T08-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"What is this? It is a key. What are those? They are bags.","question":"What are those?","correct_answer":"Bags.","feedback_correct":"Those se refiere a bags.","feedback_incorrect":"Busca la segunda respuesta.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T08-L03-E09","type":"writing","skill":"writing","instruction":"Escribe cuatro preguntas y respuestas.","prompt":"Use each demonstrative once.","response_type":"open","evaluation_criteria":["four questions","is/are agreement","answers match"],"feedback_correct":"Las preguntas distinguen cantidad y distancia.","feedback_incorrect":"This/that usan is; these/those usan are.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M1-T08-L03-E10","type":"roleplay","skill":"interaction","instruction":"Pregunta por objetos.","prompt":"Ask the AI about four objects at different distances and answer its questions.","role":"museum guide","response_type":"open_speaking","success_criteria":["four demonstratives","correct is/are"],"feedback_correct":"La interacción usa preguntas reales.","feedback_incorrect":"Mira si el objeto es singular, plural, cercano o lejano.","difficulty":2,"estimated_seconds":110}
+  ]
+}

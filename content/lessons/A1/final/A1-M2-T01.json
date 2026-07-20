@@ -1,0 +1,686 @@
+{
+  "id": "A1-M2-T01",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Orden correcto de las palabras",
+  "title": "Orden correcto de las palabras",
+  "estimated_seconds": null,
+  "communication_goal": "Usar orden correcto de las palabras en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to orden correcto de las palabras."
+  ],
+  "explanation_es": "Este tema desarrolla orden correcto de las palabras mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T01-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Orden correcto de las palabras",
+      "title": "Basic English word order",
+      "objective": "Formar frases afirmativas simples con sujeto, verbo y complemento.",
+      "activities": [
+        {
+          "id": "A1-M2-T01-L01-E01",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "like / I / coffee",
+          "correct_answer": "I like coffee.",
+          "feedback_correct": "El sujeto va antes del verbo.",
+          "feedback_incorrect": "Usa subject + verb + object.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "___ live in Miami.",
+          "options": [
+            "I",
+            "Live I",
+            "In Miami I"
+          ],
+          "correct_answer": "I",
+          "feedback_correct": "I es el sujeto inicial.",
+          "feedback_incorrect": "Empieza con el sujeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "English / study / We",
+          "correct_answer": "We study English.",
+          "feedback_correct": "Frase correcta.",
+          "feedback_incorrect": "Empieza con We.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L01-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Coffee I like.",
+          "correct_answer": "I like coffee.",
+          "feedback_correct": "El orden neutral es sujeto + verbo + objeto.",
+          "feedback_incorrect": "Mueve I al inicio.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T01-L01-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "She ___ music.",
+          "options": [
+            "likes",
+            "music likes",
+            "like she"
+          ],
+          "correct_answer": "likes",
+          "feedback_correct": "El verbo va después del sujeto.",
+          "feedback_incorrect": "La frase empieza She y luego verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "They play soccer.",
+          "options": [
+            "Ellos juegan fútbol",
+            "Ellos estudian inglés",
+            "Ellos comen arroz"
+          ],
+          "correct_answer": "Ellos juegan fútbol",
+          "feedback_correct": "Entendiste sujeto, verbo y objeto.",
+          "feedback_incorrect": "Play soccer significa jugar fútbol.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee.",
+          "prompt": "I like coffee. We study English. She plays music.",
+          "evaluation_criteria": [
+            "subject clear",
+            "verb clear",
+            "natural rhythm"
+          ],
+          "feedback_correct": "El orden se entiende al hablar.",
+          "feedback_incorrect": "Haz una pausa breve entre grupos de palabras.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T01-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Carlos reads books. He studies at home.",
+          "question": "What does Carlos read?",
+          "correct_answer": "Books.",
+          "feedback_correct": "Books es el objeto de reads.",
+          "feedback_incorrect": "Busca el primer verbo y lo que sigue.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe cinco frases.",
+          "prompt": "Write five subject + verb + object sentences.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five sentences",
+            "correct word order",
+            "clear meaning"
+          ],
+          "feedback_correct": "El orden de las frases es claro.",
+          "feedback_incorrect": "Usa sujeto, verbo y complemento.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T01-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla de actividades.",
+          "prompt": "Tell the AI five things you do or like using basic word order.",
+          "role": "new classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "five statements",
+            "subject before verb",
+            "clear objects"
+          ],
+          "feedback_correct": "La conversación es comprensible.",
+          "feedback_incorrect": "Reformula cada frase con subject + verb + object.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T01-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Orden correcto de las palabras",
+      "title": "Place and time in sentences",
+      "objective": "Añadir lugar y tiempo a frases sencillas.",
+      "activities": [
+        {
+          "id": "A1-M2-T01-L02-E01",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "at home / I / study",
+          "correct_answer": "I study at home.",
+          "feedback_correct": "El lugar puede ir después del verbo y objeto.",
+          "feedback_incorrect": "Empieza con I study.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "We work ___ an office.",
+          "options": [
+            "in",
+            "work in",
+            "office in"
+          ],
+          "correct_answer": "in",
+          "feedback_correct": "La preposición introduce el lugar.",
+          "feedback_incorrect": "Usa in antes del lugar.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L02-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "every day / English / study / They",
+          "correct_answer": "They study English every day.",
+          "feedback_correct": "El tiempo puede cerrar la frase.",
+          "feedback_incorrect": "Usa sujeto + verbo + objeto + tiempo.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L02-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "At school study I English.",
+          "correct_answer": "I study English at school.",
+          "feedback_correct": "El orden natural es I study English at school.",
+          "feedback_incorrect": "Pon el sujeto al inicio.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L02-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "She reads books ___ night.",
+          "options": [
+            "at",
+            "reads at",
+            "night at"
+          ],
+          "correct_answer": "at",
+          "feedback_correct": "Usamos at night.",
+          "feedback_incorrect": "La expresión es at night.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "He eats breakfast at home.",
+          "options": [
+            "Come desayuno en casa",
+            "Compra desayuno",
+            "Cocina en la escuela"
+          ],
+          "correct_answer": "Come desayuno en casa",
+          "feedback_correct": "Entendiste acción y lugar.",
+          "feedback_incorrect": "At home significa en casa.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee.",
+          "prompt": "I study English at home every day.",
+          "evaluation_criteria": [
+            "word groups",
+            "place clear",
+            "time clear"
+          ],
+          "feedback_correct": "La frase fluye con claridad.",
+          "feedback_incorrect": "Agrupa: I study English / at home / every day.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T01-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Maria works in a hospital every morning.",
+          "question": "Where does Maria work?",
+          "correct_answer": "In a hospital.",
+          "feedback_correct": "El lugar aparece después de works.",
+          "feedback_incorrect": "Busca la frase in a hospital.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe frases.",
+          "prompt": "Write four sentences with a place and a time expression.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "four sentences",
+            "place",
+            "time",
+            "clear order"
+          ],
+          "feedback_correct": "Las frases incluyen lugar y tiempo.",
+          "feedback_incorrect": "Usa sujeto + verbo + complemento + lugar + tiempo.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T01-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Describe tu rutina.",
+          "prompt": "Tell the AI what you do, where and when.",
+          "role": "classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "four statements",
+            "place",
+            "time"
+          ],
+          "feedback_correct": "La información está organizada.",
+          "feedback_incorrect": "Empieza cada frase con el sujeto.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T01-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Orden correcto de las palabras",
+      "title": "Questions and short answers",
+      "objective": "Reconocer el orden básico de preguntas y respuestas cortas.",
+      "activities": [
+        {
+          "id": "A1-M2-T01-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la pregunta correcta.",
+          "prompt": "___ you like coffee?",
+          "options": [
+            "Do",
+            "You do",
+            "Like you"
+          ],
+          "correct_answer": "Do",
+          "feedback_correct": "Do inicia la pregunta del presente simple.",
+          "feedback_incorrect": "La pregunta empieza con Do.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L03-E02",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "you / Do / English / study?",
+          "correct_answer": "Do you study English?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "Usa Do + subject + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Responde.",
+          "prompt": "Do you work?",
+          "options": [
+            "Yes, I do.",
+            "Yes, work I.",
+            "I yes do."
+          ],
+          "correct_answer": "Yes, I do.",
+          "feedback_correct": "Respuesta corta correcta.",
+          "feedback_incorrect": "Usa Yes, I do.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T01-L03-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Where you live?",
+          "correct_answer": "Where do you live?",
+          "feedback_correct": "Añadimos do después de where.",
+          "feedback_incorrect": "Usa Where do you live?",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L03-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "What ___ you eat?",
+          "options": [
+            "do",
+            "you do",
+            "eat do"
+          ],
+          "correct_answer": "do",
+          "feedback_correct": "What do you eat?",
+          "feedback_incorrect": "Do va después de What.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T01-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "Do you study English? Yes, I do.",
+          "question": "Does the person study English?",
+          "correct_answer": "Yes.",
+          "feedback_correct": "La respuesta confirma la acción.",
+          "feedback_incorrect": "Escucha Yes, I do.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee preguntas.",
+          "prompt": "Do you work? Where do you live? What do you eat?",
+          "evaluation_criteria": [
+            "question intonation",
+            "do audible",
+            "clear wh-word"
+          ],
+          "feedback_correct": "Las preguntas se entienden.",
+          "feedback_incorrect": "Mantén do audible y sube la entonación cuando corresponda.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M2-T01-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Do you live in Lima? Yes, I do. Do you work there? No, I don't.",
+          "question": "Does the person work in Lima?",
+          "correct_answer": "No.",
+          "feedback_correct": "No, I don't lo indica.",
+          "feedback_incorrect": "Busca la segunda respuesta.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un mini diálogo.",
+          "prompt": "Write three questions and short answers about daily life.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "question order",
+            "short answers",
+            "clear meaning"
+          ],
+          "feedback_correct": "El diálogo tiene preguntas y respuestas correctas.",
+          "feedback_incorrect": "Usa Do + subject + verb y Yes/No + subject + do.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T01-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Entrevista a la IA.",
+          "prompt": "Ask the AI three questions about work, study and food, then answer its questions.",
+          "role": "new friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "three questions",
+            "short answers",
+            "word order"
+          ],
+          "feedback_correct": "La interacción es natural y clara.",
+          "feedback_incorrect": "Reformula con Do you...?, Where do you...? o What do you...?",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T01-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Orden correcto de las palabras",
+      "title": "Integrated sentence task",
+      "objective": "Usar el orden de palabras en una conversación nueva.",
+      "activities": [
+        {
+          "id": "A1-M2-T01-L04-E01",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "I study English at night because I work during the day.",
+          "options": [
+            "estudia inglés por la noche",
+            "trabaja por la noche",
+            "estudia durante el día"
+          ],
+          "correct_answer": "estudia inglés por la noche",
+          "feedback_correct": "Entendiste acción y tiempo.",
+          "feedback_incorrect": "Escucha study English at night.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T01-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "At home I coffee drink.",
+            "I drink coffee at home.",
+            "Coffee at home drink I."
+          ],
+          "correct_answer": "I drink coffee at home.",
+          "feedback_correct": "Orden natural sujeto + verbo + objeto + lugar.",
+          "feedback_incorrect": "Empieza con I drink.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L04-E03",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Every day English study we.",
+          "correct_answer": "We study English every day.",
+          "feedback_correct": "El sujeto va primero.",
+          "feedback_incorrect": "Reordena a We study English every day.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T01-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "do / Where / work / you?",
+          "correct_answer": "Where do you work?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "Where + do + subject + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T01-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee el diálogo.",
+          "prompt": "Where do you work? I work at home. What do you study? I study English.",
+          "evaluation_criteria": [
+            "question order",
+            "clear do",
+            "natural answers"
+          ],
+          "feedback_correct": "La conversación fluye con orden claro.",
+          "feedback_incorrect": "Practica preguntas y respuestas por separado.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M2-T01-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Luis works at a hotel. He studies English at night. He drinks coffee in the morning.",
+          "question": "When does Luis study English?",
+          "correct_answer": "At night.",
+          "feedback_correct": "La respuesta está en la segunda frase.",
+          "feedback_incorrect": "Busca la expresión de tiempo.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T01-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una rutina.",
+          "prompt": "Write six sentences with actions, objects, places and times.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "basic word order",
+            "place/time"
+          ],
+          "feedback_correct": "La rutina está organizada.",
+          "feedback_incorrect": "Revisa sujeto + verbo + complemento.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T01-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Habla con un compañero nuevo.",
+          "prompt": "Answer questions about your routine and ask three questions back.",
+          "role": "native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "clear statements",
+            "three questions",
+            "natural order"
+          ],
+          "feedback_correct": "La IA evalúa comunicación y orden.",
+          "feedback_incorrect": "Reformula una frase a la vez.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        },
+        {
+          "id": "A1-M2-T01-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Describe tu día.",
+          "prompt": "Give a one-minute description of what you do, where and when.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "sequence",
+            "place",
+            "time",
+            "intelligibility"
+          ],
+          "feedback_correct": "Transferiste el orden a una producción libre.",
+          "feedback_incorrect": "Usa conectores simples: and, then, every day.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T01-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación.",
+          "prompt": "Describe your routine, ask two questions and answer one follow-up question.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "statement order",
+            "question order",
+            "place/time",
+            "transfer"
+          ],
+          "feedback_correct": "Tema dominado.",
+          "feedback_incorrect": "Repasa la parte del orden que causó dificultad.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T10-L01",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Preposiciones básicas",
+  "title":"In, on and under",
+  "objective":"Ubicar objetos con in, on y under.",
+  "activities":[
+    {"id":"A1-M1-T10-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The keys are ___ the bag.","options":["in","on","under"],"correct_answer":"in","feedback_correct":"In indica dentro de.","feedback_incorrect":"Las llaves están dentro del bolso.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L01-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The book is ___ the table.","options":["in","on","under"],"correct_answer":"on","feedback_correct":"On indica sobre una superficie.","feedback_incorrect":"El libro está sobre la mesa.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L01-E03","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The cat is ___ the chair.","options":["under","on","in"],"correct_answer":"under","feedback_correct":"Under indica debajo de.","feedback_incorrect":"El gato está debajo de la silla.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L01-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / The / bag / under / table / the","correct_answer":"The bag is under the table.","feedback_correct":"La ubicación está bien expresada.","feedback_incorrect":"Usa noun + is + preposition + place.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T10-L01-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"The phone is in the table.","correct_answer":"The phone is on the table.","feedback_correct":"El teléfono está sobre la superficie.","feedback_incorrect":"Para una superficie usa on.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"The pen is in the box.","options":["dentro de la caja","sobre la caja","debajo de la caja"],"correct_answer":"dentro de la caja","feedback_correct":"In significa dentro de.","feedback_incorrect":"Escucha in the box.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"in the bag, on the table, under the chair","evaluation_criteria":["prepositions clear","connected speech","final consonants"],"feedback_correct":"Las relaciones espaciales se entienden.","feedback_incorrect":"Practica cada grupo lentamente.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M1-T10-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"The wallet is on the desk. The keys are in the drawer.","question":"Where are the keys?","correct_answer":"In the drawer.","feedback_correct":"Las llaves están dentro del cajón.","feedback_incorrect":"Busca la segunda frase.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L01-E09","type":"writing","skill":"writing","instruction":"Ubica objetos.","prompt":"Write six sentences using in, on and under.","response_type":"open","evaluation_criteria":["six locations","correct prepositions"],"feedback_correct":"Las ubicaciones son claras.","feedback_incorrect":"Clasifica dentro, superficie y debajo.","difficulty":1,"estimated_seconds":85},
+    {"id":"A1-M1-T10-L01-E10","type":"roleplay","skill":"interaction","instruction":"Ayuda a encontrar objetos.","prompt":"Tell the AI where three objects are in a room.","role":"friend","response_type":"open_speaking","success_criteria":["uses in","uses on","uses under"],"feedback_correct":"La información permite encontrar los objetos.","feedback_incorrect":"Usa in, on o under según la posición.","difficulty":2,"estimated_seconds":110}
+  ]
+}

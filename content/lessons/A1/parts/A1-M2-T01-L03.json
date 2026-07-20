@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T01-L03",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Orden correcto de las palabras",
+  "title":"Questions and short answers",
+  "objective":"Reconocer el orden básico de preguntas y respuestas cortas.",
+  "activities":[
+    {"id":"A1-M2-T01-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Elige la pregunta correcta.","prompt":"___ you like coffee?","options":["Do","You do","Like you"],"correct_answer":"Do","feedback_correct":"Do inicia la pregunta del presente simple.","feedback_incorrect":"La pregunta empieza con Do.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T01-L03-E02","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"you / Do / English / study?","correct_answer":"Do you study English?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Usa Do + subject + verb.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T01-L03-E03","type":"multiple_choice","skill":"grammar","instruction":"Responde.","prompt":"Do you work?","options":["Yes, I do.","Yes, work I.","I yes do."],"correct_answer":"Yes, I do.","feedback_correct":"Respuesta corta correcta.","feedback_incorrect":"Usa Yes, I do.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M2-T01-L03-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Where you live?","correct_answer":"Where do you live?","feedback_correct":"Añadimos do después de where.","feedback_incorrect":"Usa Where do you live?","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T01-L03-E05","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"What ___ you eat?","options":["do","you do","eat do"],"correct_answer":"do","feedback_correct":"What do you eat?","feedback_incorrect":"Do va después de What.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T01-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Do you study English? Yes, I do.","question":"Does the person study English?","correct_answer":"Yes.","feedback_correct":"La respuesta confirma la acción.","feedback_incorrect":"Escucha Yes, I do.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T01-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Lee preguntas.","prompt":"Do you work? Where do you live? What do you eat?","evaluation_criteria":["question intonation","do audible","clear wh-word"],"feedback_correct":"Las preguntas se entienden.","feedback_incorrect":"Mantén do audible y sube la entonación cuando corresponda.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M2-T01-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Do you live in Lima? Yes, I do. Do you work there? No, I don't.","question":"Does the person work in Lima?","correct_answer":"No.","feedback_correct":"No, I don't lo indica.","feedback_incorrect":"Busca la segunda respuesta.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T01-L03-E09","type":"writing","skill":"writing","instruction":"Escribe un mini diálogo.","prompt":"Write three questions and short answers about daily life.","response_type":"open","evaluation_criteria":["question order","short answers","clear meaning"],"feedback_correct":"El diálogo tiene preguntas y respuestas correctas.","feedback_incorrect":"Usa Do + subject + verb y Yes/No + subject + do.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T01-L03-E10","type":"roleplay","skill":"interaction","instruction":"Entrevista a la IA.","prompt":"Ask the AI three questions about work, study and food, then answer its questions.","role":"new friend","response_type":"open_speaking","success_criteria":["three questions","short answers","word order"],"feedback_correct":"La interacción es natural y clara.","feedback_incorrect":"Reformula con Do you...?, Where do you...? o What do you...?","difficulty":2,"estimated_seconds":120}
+  ]
+}

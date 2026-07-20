@@ -1,0 +1,820 @@
+{
+  "id": "A1-M3-T06",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Hora, fechas y calendario",
+  "title": "Hora, fechas y calendario",
+  "estimated_seconds": null,
+  "communication_goal": "Usar hora, fechas y calendario en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to hora, fechas y calendario."
+  ],
+  "explanation_es": "Este tema desarrolla hora, fechas y calendario mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T06-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Hora, fechas y calendario",
+      "title": "What time is it?",
+      "objective": "Preguntar y decir la hora en situaciones cotidianas usando expresiones básicas.",
+      "activities": [
+        {
+          "id": "A1-M3-T06-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la hora correcta.",
+          "prompt": "7:00",
+          "options": [
+            "Seven o'clock.",
+            "Seven thirty.",
+            "Quarter past seven."
+          ],
+          "correct_answer": "Seven o'clock.",
+          "feedback_correct": "En punto se expresa con o'clock.",
+          "feedback_incorrect": "La hora no tiene minutos.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la expresión correcta.",
+          "prompt": "3:30",
+          "options": [
+            "Half past three.",
+            "Quarter past three.",
+            "Three o'clock."
+          ],
+          "correct_answer": "Half past three.",
+          "feedback_correct": "Half past indica treinta minutos después de la hora.",
+          "feedback_incorrect": "Busca la expresión para :30.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L01-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la hora.",
+          "prompt": "9:15 = quarter ___ nine",
+          "options": [
+            "past",
+            "to",
+            "at"
+          ],
+          "correct_answer": "past",
+          "feedback_correct": "Quarter past nine es 9:15.",
+          "feedback_incorrect": "A los quince minutos usamos past.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la hora digital con su expresión.",
+          "pairs": [
+            {
+              "left": "2:00",
+              "right": "two o'clock"
+            },
+            {
+              "left": "4:15",
+              "right": "quarter past four"
+            },
+            {
+              "left": "6:30",
+              "right": "half past six"
+            },
+            {
+              "left": "8:45",
+              "right": "quarter to nine"
+            },
+            {
+              "left": "10:05",
+              "right": "five past ten"
+            }
+          ],
+          "feedback_correct": "Puedes leer horas frecuentes en inglés.",
+          "feedback_incorrect": "Observa si los minutos son past o to la siguiente hora.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T06-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "time / what / is / it",
+          "correct_answer": "What time is it?",
+          "feedback_correct": "Es la pregunta básica para saber la hora.",
+          "feedback_incorrect": "Empieza con What time y termina con it.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T06-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "The meeting starts at quarter past nine and ends at half past ten.",
+          "question": "What time does the meeting start?",
+          "options": [
+            "At 9:00.",
+            "At 9:15.",
+            "At 10:30."
+          ],
+          "correct_answer": "At 9:15.",
+          "feedback_correct": "Quarter past nine es 9:15.",
+          "feedback_incorrect": "Convierte quarter past nine en hora digital.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T06-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba cinco horas.",
+          "prompt": "It is seven o'clock. It is half past nine. It is quarter past two. It is quarter to five. It is five past ten.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear numbers",
+            "clear past and to",
+            "natural time rhythm",
+            "understandable o'clock"
+          ],
+          "feedback_correct": "Las horas se entienden con claridad.",
+          "feedback_incorrect": "Practica past y to con una pausa mínima antes de la hora.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T06-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el horario y responde.",
+          "prompt": "The library opens at 8:30 and closes at 6:00. The English class starts at 10:15. The computer room closes at quarter to five.",
+          "question": "When does the English class start?",
+          "options": [
+            "At 8:30.",
+            "At 10:15.",
+            "At 4:45."
+          ],
+          "correct_answer": "At 10:15.",
+          "feedback_correct": "La clase empieza a quarter past ten.",
+          "feedback_incorrect": "Busca la hora junto a English class starts.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T06-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea tu horario diario.",
+          "prompt": "Write six activities and the time for each one. Use at least four different ways to say the time.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six activities",
+            "six times",
+            "four time expressions",
+            "correct at",
+            "clear organization"
+          ],
+          "feedback_correct": "Puedes comunicar horarios diarios de forma clara.",
+          "feedback_incorrect": "Revisa o'clock, half past, quarter past y quarter to.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M3-T06-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Coordina una cita con la IA.",
+          "prompt": "Ask the AI what time several activities happen and arrange a meeting at a convenient time.",
+          "role": "native-speaking receptionist",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks What time questions",
+            "understands five time expressions",
+            "suggests a meeting time",
+            "confirms the final time",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes preguntar, entender y confirmar horas en inglés.",
+          "feedback_incorrect": "La IA muestra relojes visuales y ajusta la dificultad de las horas.",
+          "difficulty": 2,
+          "estimated_seconds": 175
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T06-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Hora, fechas y calendario",
+      "title": "Days, months, and dates",
+      "objective": "Decir y comprender días, meses y fechas básicas en situaciones cotidianas.",
+      "activities": [
+        {
+          "id": "A1-M3-T06-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el día correcto.",
+          "prompt": "What day comes after Monday?",
+          "options": [
+            "Tuesday",
+            "Sunday",
+            "Friday"
+          ],
+          "correct_answer": "Tuesday",
+          "feedback_correct": "Tuesday viene después de Monday.",
+          "feedback_incorrect": "Recuerda el orden de los días de la semana.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa el mes.",
+          "prompt": "The month after June is ___.",
+          "options": [
+            "July",
+            "May",
+            "August"
+          ],
+          "correct_answer": "July",
+          "feedback_correct": "July viene después de June.",
+          "feedback_incorrect": "Piensa en el orden de los meses.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L02-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la fecha correcta.",
+          "prompt": "March 12",
+          "options": [
+            "March twelfth",
+            "March twelve o'clock",
+            "The twelve Marching"
+          ],
+          "correct_answer": "March twelfth",
+          "feedback_correct": "Usamos el número ordinal para la fecha.",
+          "feedback_incorrect": "Las fechas necesitan un ordinal como twelfth.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T06-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la expresión con su significado.",
+          "pairs": [
+            {
+              "left": "today",
+              "right": "hoy"
+            },
+            {
+              "left": "tomorrow",
+              "right": "mañana"
+            },
+            {
+              "left": "yesterday",
+              "right": "ayer"
+            },
+            {
+              "left": "next week",
+              "right": "la próxima semana"
+            },
+            {
+              "left": "last month",
+              "right": "el mes pasado"
+            }
+          ],
+          "feedback_correct": "Reconoces expresiones básicas de calendario.",
+          "feedback_incorrect": "Relaciona cada expresión con su referencia temporal.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T06-L02-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "your / when / birthday / is",
+          "correct_answer": "When is your birthday?",
+          "feedback_correct": "Es la pregunta natural para preguntar por un cumpleaños.",
+          "feedback_incorrect": "Empieza con When is y coloca your antes de birthday.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T06-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la información y responde.",
+          "prompt": "My birthday is on October twenty-third. This year, it is on a Monday.",
+          "question": "When is the birthday?",
+          "options": [
+            "October 3rd.",
+            "October 13th.",
+            "October 23rd."
+          ],
+          "correct_answer": "October 23rd.",
+          "feedback_correct": "Twenty-third corresponde a 23rd.",
+          "feedback_incorrect": "Escucha el ordinal después de October.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T06-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba fechas y días.",
+          "prompt": "Today is Monday. My birthday is on April fifteenth. The meeting is on September twenty-second.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear ordinal endings",
+            "clear month names",
+            "natural date rhythm",
+            "understandable days"
+          ],
+          "feedback_correct": "Las fechas se entienden con claridad.",
+          "feedback_incorrect": "Practica los ordinales y evita pronunciar el número cardinal directamente.",
+          "difficulty": 2,
+          "estimated_seconds": 95
+        },
+        {
+          "id": "A1-M3-T06-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el calendario y responde.",
+          "prompt": "The course starts on Tuesday, September 3rd. There is no class on Monday, September 9th. The final test is on Friday, September 27th.",
+          "question": "When is the final test?",
+          "options": [
+            "September 3rd.",
+            "September 9th.",
+            "September 27th."
+          ],
+          "correct_answer": "September 27th.",
+          "feedback_correct": "La prueba final es el viernes 27.",
+          "feedback_incorrect": "Busca la fecha junto a final test.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T06-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe tus fechas importantes.",
+          "prompt": "Write six sentences about important dates: birthday, holidays, appointments, or study days. Include days and months.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "days and months",
+            "three ordinal dates",
+            "correct on for dates",
+            "clear time references"
+          ],
+          "feedback_correct": "Puedes comunicar fechas personales y de calendario.",
+          "feedback_incorrect": "Usa on antes de una fecha y practica los ordinales.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M3-T06-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Organiza una cita con la IA.",
+          "prompt": "You need to schedule an appointment. Ask about available days and dates, propose one, and confirm it with the AI.",
+          "role": "native-speaking clinic receptionist",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks about days and dates",
+            "understands at least four options",
+            "proposes a date",
+            "confirms day and date",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes coordinar una cita usando fechas reales.",
+          "feedback_incorrect": "La IA muestra un calendario y repite las fechas que necesitan práctica.",
+          "difficulty": 2,
+          "estimated_seconds": 185
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T06-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Hora, fechas y calendario",
+      "title": "Plans and appointments",
+      "objective": "Hablar de planes, eventos y disponibilidad usando fechas, horas y expresiones de calendario.",
+      "activities": [
+        {
+          "id": "A1-M3-T06-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "You want to ask about availability.",
+          "options": [
+            "Are you free on Saturday?",
+            "Are you from Saturday?",
+            "Do you free at Saturday?"
+          ],
+          "correct_answer": "Are you free on Saturday?",
+          "feedback_correct": "Are you free...? pregunta si alguien tiene disponibilidad.",
+          "feedback_incorrect": "Usa be + free y on con un día.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T06-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la respuesta.",
+          "prompt": "What time is the appointment? It is ___ 2:30.",
+          "options": [
+            "at",
+            "on",
+            "in"
+          ],
+          "correct_answer": "at",
+          "feedback_correct": "At se usa con una hora específica.",
+          "feedback_incorrect": "Elige la preposición para horas.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la fecha.",
+          "prompt": "The event is ___ Friday, May 10th.",
+          "options": [
+            "on",
+            "at",
+            "in"
+          ],
+          "correct_answer": "on",
+          "feedback_correct": "On se usa con días y fechas.",
+          "feedback_incorrect": "La expresión incluye un día y una fecha.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L03-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la propuesta.",
+          "prompt": "meet / can / we / on / Tuesday",
+          "correct_answer": "Can we meet on Tuesday?",
+          "feedback_correct": "Can we...? propone una actividad y on acompaña al día.",
+          "feedback_incorrect": "Empieza con Can we y coloca on Tuesday al final.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T06-L03-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la frase con la función.",
+          "pairs": [
+            {
+              "left": "Are you free?",
+              "right": "preguntar disponibilidad"
+            },
+            {
+              "left": "Can we meet at six?",
+              "right": "proponer hora"
+            },
+            {
+              "left": "I have an appointment.",
+              "right": "informar de una cita"
+            },
+            {
+              "left": "That works for me.",
+              "right": "aceptar una propuesta"
+            },
+            {
+              "left": "I'm busy then.",
+              "right": "rechazar por falta de disponibilidad"
+            }
+          ],
+          "feedback_correct": "Reconoces frases para organizar planes.",
+          "feedback_incorrect": "Identifica si la frase pregunta, propone, acepta o rechaza.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T06-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el calendario y responde.",
+          "prompt": "I am busy on Monday, but I am free on Wednesday afternoon. Can we meet at three?",
+          "question": "When is the speaker free?",
+          "options": [
+            "Monday morning.",
+            "Wednesday afternoon.",
+            "Friday evening."
+          ],
+          "correct_answer": "Wednesday afternoon.",
+          "feedback_correct": "La persona dice I am free on Wednesday afternoon.",
+          "feedback_incorrect": "Escucha la frase después de but.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T06-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba una propuesta.",
+          "prompt": "Are you free on Thursday? Can we meet at four? That works for me. See you then.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear free and meet",
+            "natural question intonation",
+            "clear day and time",
+            "polite confirmation"
+          ],
+          "feedback_correct": "Tu propuesta de cita suena natural y clara.",
+          "feedback_incorrect": "Sube la entonación en las preguntas y marca at four con claridad.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T06-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el calendario y responde.",
+          "prompt": "Monday: busy all day. Tuesday: free after 5:00. Wednesday: English class at 6:00. Thursday: free in the morning. Friday: dentist appointment at 2:00.",
+          "question": "When is the person free in the morning?",
+          "options": [
+            "Tuesday.",
+            "Thursday.",
+            "Friday."
+          ],
+          "correct_answer": "Thursday.",
+          "feedback_correct": "El calendario dice free in the morning el jueves.",
+          "feedback_incorrect": "Busca la palabra morning.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T06-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea tu calendario semanal.",
+          "prompt": "Write a weekly schedule with five events, their dates or days, and times. Add two sentences about when you are free or busy.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five events",
+            "days or dates",
+            "five times",
+            "free/busy statements",
+            "correct at/on"
+          ],
+          "feedback_correct": "Puedes comunicar tu disponibilidad y compromisos.",
+          "feedback_incorrect": "Usa at con horas y on con días o fechas.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        },
+        {
+          "id": "A1-M3-T06-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Organiza una reunión con la IA.",
+          "prompt": "Arrange a meeting with the AI. Discuss three possible days and times, explain one conflict, agree on a final appointment, and repeat the details.",
+          "role": "native-speaking coworker",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "discusses three options",
+            "uses at and on correctly",
+            "explains one busy time",
+            "confirms final day and time",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes negociar y confirmar una cita con datos precisos.",
+          "feedback_incorrect": "La IA muestra el calendario y repite la confirmación final para practicar comprensión.",
+          "difficulty": 2,
+          "estimated_seconds": 210
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T06-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Hora, fechas y calendario",
+      "title": "Manage your calendar",
+      "objective": "Integrar horas, fechas, disponibilidad y confirmaciones para gestionar compromisos reales.",
+      "activities": [
+        {
+          "id": "A1-M3-T06-L04-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la preposición correcta.",
+          "prompt": "The appointment is ___ Monday at 10:00.",
+          "options": [
+            "on",
+            "at",
+            "in"
+          ],
+          "correct_answer": "on",
+          "feedback_correct": "On acompaña al día; at acompaña a la hora.",
+          "feedback_incorrect": "La respuesta se refiere primero al día de la cita.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T06-L04-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la confirmación correcta.",
+          "prompt": "So, we meet on June 14th at 3:30, right?",
+          "options": [
+            "Yes, that's right.",
+            "Yes, I am from June.",
+            "Right is a day."
+          ],
+          "correct_answer": "Yes, that's right.",
+          "feedback_correct": "Confirmas que los detalles son correctos.",
+          "feedback_incorrect": "Elige una respuesta para confirmar una cita.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T06-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "I am busy ___ the morning, but free ___ Friday afternoon.",
+          "options": [
+            "in / on",
+            "at / in",
+            "on / at"
+          ],
+          "correct_answer": "in / on",
+          "feedback_correct": "In se usa con partes del día y on con días.",
+          "feedback_incorrect": "Morning es una parte del día; Friday es un día.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T06-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la confirmación.",
+          "prompt": "Friday / see / you / at / five / on",
+          "correct_answer": "See you on Friday at five.",
+          "feedback_correct": "On acompaña al día y at a la hora.",
+          "feedback_incorrect": "Coloca See you al inicio, después el día y finalmente la hora.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M3-T06-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada mensaje con la acción necesaria.",
+          "pairs": [
+            {
+              "left": "I forgot the date.",
+              "right": "Ask: What date is it?"
+            },
+            {
+              "left": "I forgot the time.",
+              "right": "Ask: What time is it?"
+            },
+            {
+              "left": "I need to change the appointment.",
+              "right": "Suggest another day or time."
+            },
+            {
+              "left": "I want to check the details.",
+              "right": "Repeat and confirm the date and time."
+            }
+          ],
+          "feedback_correct": "Identificas qué decir ante problemas de calendario.",
+          "feedback_incorrect": "Piensa si necesitas preguntar, cambiar o confirmar.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T06-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la confirmación y responde.",
+          "prompt": "Your appointment is on Thursday, November 21st, at quarter past two in the afternoon. Please arrive ten minutes early.",
+          "question": "What time should you arrive?",
+          "options": [
+            "At 2:15.",
+            "At 2:05.",
+            "At 2:25."
+          ],
+          "correct_answer": "At 2:05.",
+          "feedback_correct": "Diez minutos antes de 2:15 es 2:05.",
+          "feedback_incorrect": "Resta diez minutos a quarter past two.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M3-T06-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba la confirmación completa.",
+          "prompt": "My appointment is on Thursday, November twenty-first, at quarter past two. I will arrive at two o'clock.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear date ordinal",
+            "clear time expressions",
+            "natural confirmation rhythm",
+            "understandable at and on"
+          ],
+          "feedback_correct": "Confirmas fecha y hora con precisión.",
+          "feedback_incorrect": "Practica el ordinal y separa la fecha de la hora con una pausa breve.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M3-T06-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la agenda y responde.",
+          "prompt": "Monday, May 6th: dentist at 9:00. Wednesday, May 8th: English test at half past six. Saturday, May 11th: family lunch at one.",
+          "question": "When is the English test?",
+          "options": [
+            "Monday at nine.",
+            "Wednesday at 6:30.",
+            "Saturday at one."
+          ],
+          "correct_answer": "Wednesday at 6:30.",
+          "feedback_correct": "Half past six es 6:30 el miércoles.",
+          "feedback_incorrect": "Busca la línea de Wednesday y convierte half past six.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T06-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una agenda semanal.",
+          "prompt": "Create a weekly calendar with eight commitments. Write the day/date, time, activity, and two free periods. Add a confirmation message for one event.",
+          "response_type": "open",
+          "estimated_seconds": 190,
+          "evaluation_criteria": [
+            "eight commitments",
+            "days or dates",
+            "eight times",
+            "two free periods",
+            "one clear confirmation",
+            "correct prepositions"
+          ]
+        },
+        {
+          "id": "A1-M3-T06-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Gestiona una agenda con la IA.",
+          "prompt": "You are an assistant managing a busy calendar. Schedule three appointments, handle a conflict, reschedule one event, and confirm every final detail.",
+          "role": "native-speaking office assistant",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses days, dates, and times",
+            "asks and answers availability questions",
+            "handles one conflict",
+            "reschedules an event",
+            "confirms three appointments",
+            "maintains fourteen turns"
+          ],
+          "feedback_correct": "Puedes gestionar compromisos y confirmar detalles con precisión.",
+          "feedback_incorrect": "La IA usa un calendario visual y repite únicamente la información que necesites reforzar.",
+          "difficulty": 2,
+          "estimated_seconds": 240
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

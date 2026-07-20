@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T06-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Adverbios de frecuencia",
+  "title":"Often, rarely and never",
+  "objective":"Expresar frecuencias altas, bajas y ausencia de hábito.",
+  "activities":[
+    {"id":"A1-M2-T06-L02-E01","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"I ___ eat breakfast. I eat it every morning.","options":["always","rarely","never"],"correct_answer":"always","feedback_correct":"Every morning indica siempre.","feedback_incorrect":"La acción ocurre cada mañana.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L02-E02","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"He goes to the beach once every five years.","options":["rarely","often","always"],"correct_answer":"rarely","feedback_correct":"Rarely significa raramente.","feedback_incorrect":"La frecuencia es muy baja.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L02-E03","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"They ___ smoke. They do not smoke at all.","options":["never","often","usually"],"correct_answer":"never","feedback_correct":"Never significa nunca.","feedback_incorrect":"La acción no ocurre en ningún momento.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L02-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"often / We / visit / them","correct_answer":"We often visit them.","feedback_correct":"Often va antes del verbo principal.","feedback_incorrect":"Usa subject + often + verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T06-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"She never is late.","correct_answer":"She is never late.","feedback_correct":"Con be, el adverbio va después de be.","feedback_incorrect":"Mueve never después de is.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"We often meet on Fridays.","options":["a menudo nos reunimos","nunca nos reunimos","raramente nos reunimos"],"correct_answer":"a menudo nos reunimos","feedback_correct":"Often significa a menudo.","feedback_incorrect":"Escucha often meet.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"often, rarely, never","evaluation_criteria":["stressed syllables","final consonants","clear vowels"],"feedback_correct":"Las frecuencias se distinguen.","feedback_incorrect":"Practica often, rarely y never por separado.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T06-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Sara rarely eats out. She often cooks at home.","question":"Where does Sara often eat?","correct_answer":"At home.","feedback_correct":"Often cooks at home lo indica.","feedback_incorrect":"Busca la segunda frase.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L02-E09","type":"writing","skill":"writing","instruction":"Escribe una escala de hábitos.","prompt":"Write five sentences from often to never.","response_type":"open","evaluation_criteria":["frequency range","correct placement","clear habits"],"feedback_correct":"La escala expresa frecuencias variadas.","feedback_incorrect":"Ordena mentalmente de mayor a menor frecuencia.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T06-L02-E10","type":"roleplay","skill":"interaction","instruction":"Compara hábitos.","prompt":"Tell the AI what you often, rarely and never do.","role":"health coach","response_type":"open_speaking","success_criteria":["often","rarely","never","three habits"],"feedback_correct":"La conversación comunica frecuencia y límites.","feedback_incorrect":"Con be el adverbio va después; con otros verbos antes.","difficulty":2,"estimated_seconds":120}
+  ]
+}

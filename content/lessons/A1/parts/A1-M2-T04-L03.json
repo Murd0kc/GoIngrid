@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T04-L03",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Preguntas y respuestas",
+  "title":"Why and how",
+  "objective":"Preguntar por razones y maneras.",
+  "activities":[
+    {"id":"A1-M2-T04-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ are you late?","options":["Why","How","Who"],"correct_answer":"Why","feedback_correct":"Why pregunta por una razón.","feedback_incorrect":"La respuesta explica el motivo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ do you go to work?","options":["How","Why","Who"],"correct_answer":"How","feedback_correct":"How pregunta por la manera.","feedback_incorrect":"La respuesta puede ser by bus.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"you / Why / study / English / do?","correct_answer":"Why do you study English?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Why + do + subject + verb.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L03-E04","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"How?","options":["¿Cómo?","¿Por qué?","¿Quién?"],"correct_answer":"¿Cómo?","feedback_correct":"How pregunta por manera o estado.","feedback_incorrect":"Why es por qué; who es quién.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Why you are tired?","correct_answer":"Why are you tired?","feedback_correct":"Con be no usamos do.","feedback_incorrect":"Mueve are antes de you.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Why do you walk? Because I like exercise.","question":"Why does the person walk?","correct_answer":"Because they like exercise.","feedback_correct":"Because introduce la razón.","feedback_incorrect":"Escucha la respuesta después de Because.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T04-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Why do you study? How do you travel?","evaluation_criteria":["why /waɪ/","how /haʊ/","question intonation"],"feedback_correct":"Las dos preguntas se distinguen.","feedback_incorrect":"Practica los diptongos /aɪ/ y /aʊ/.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T04-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Why does Ben take the bus? Because he lives far from work.","question":"Why does Ben take the bus?","correct_answer":"Because he lives far from work.","feedback_correct":"La razón está completa.","feedback_incorrect":"Busca la frase con Because.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T04-L03-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas y respuestas.","prompt":"Write four Why questions with Because answers and four How questions.","response_type":"open","evaluation_criteria":["reasons","ways","correct order"],"feedback_correct":"Las preguntas producen información útil.","feedback_incorrect":"Why pide razón; How pide manera.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T04-L03-E10","type":"roleplay","skill":"interaction","instruction":"Resuelve una entrevista.","prompt":"Ask the AI why it studies and how it travels, then answer the same questions.","role":"native-speaking classmate","response_type":"open_speaking","success_criteria":["Why question","How question","answers"],"feedback_correct":"La conversación incluye razones y maneras.","feedback_incorrect":"Usa Because para responder Why.","difficulty":2,"estimated_seconds":120}
+  ]
+}

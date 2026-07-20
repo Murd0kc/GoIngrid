@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T07-L01",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Adjetivos posesivos",
+  "title":"My, your, his and her",
+  "objective":"Expresar pertenencia básica con my, your, his y her.",
+  "activities":[
+    {"id":"A1-M1-T07-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"This is ___ book. I own it.","options":["my","your","her"],"correct_answer":"my","feedback_correct":"My significa mi o mío.","feedback_incorrect":"El hablante habla de algo que le pertenece.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T07-L01-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"Is this ___ phone?","options":["your","my","his"],"correct_answer":"your","feedback_correct":"Your se usa para la persona a quien hablamos.","feedback_incorrect":"La pregunta se dirige a you.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T07-L01-E03","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"her bag","options":["su bolso de ella","su bolso de él","mi bolso"],"correct_answer":"su bolso de ella","feedback_correct":"Her indica pertenencia de una mujer o niña.","feedback_incorrect":"Her se relaciona con she.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T07-L01-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / This / his / car","correct_answer":"This is his car.","feedback_correct":"El posesivo va antes del sustantivo.","feedback_incorrect":"Usa This is his car.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T07-L01-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"She is my sister. This is her book.","correct_answer":"She is my sister. This is her book.","feedback_correct":"La frase ya es correcta.","feedback_incorrect":"Revisa: her se refiere a she.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T07-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"This is his jacket.","options":["la chaqueta de él","la chaqueta de ella","mi chaqueta"],"correct_answer":"la chaqueta de él","feedback_correct":"His indica pertenencia masculina.","feedback_incorrect":"His se relaciona con he.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T07-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"my, your, his, her","evaluation_criteria":["clear vowel contrasts","his and her distinct"],"feedback_correct":"Los posesivos se entienden claramente.","feedback_incorrect":"Practica my /maɪ/ y your /jʊr/.","difficulty":1,"estimated_seconds":60},
+    {"id":"A1-M1-T07-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Ana has a bag. Her bag is blue. Carlos has a phone. His phone is new.","question":"Whose bag is blue?","correct_answer":"Ana's bag.","feedback_correct":"Her se refiere a Ana.","feedback_incorrect":"Busca la frase con Her.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T07-L01-E09","type":"writing","skill":"writing","instruction":"Escribe cuatro frases.","prompt":"Describe four belongings using my, your, his and her.","response_type":"open","evaluation_criteria":["four possessives","possessive before noun"],"feedback_correct":"Usaste los posesivos con sustantivos.","feedback_incorrect":"Pon my, your, his o her antes del objeto.","difficulty":2,"estimated_seconds":80},
+    {"id":"A1-M1-T07-L01-E10","type":"roleplay","skill":"interaction","instruction":"Identifica pertenencias.","prompt":"Ask the AI about a bag, phone and jacket, then say whose they are.","role":"classmate","response_type":"open_speaking","success_criteria":["uses my","uses your","uses his or her"],"feedback_correct":"La conversación expresa pertenencia con claridad.","feedback_incorrect":"Recuerda: my para I, your para you, his para he, her para she.","difficulty":2,"estimated_seconds":110}
+  ]
+}

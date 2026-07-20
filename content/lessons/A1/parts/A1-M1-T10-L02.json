@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T10-L02",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Preposiciones básicas",
+  "title":"Next to, behind and in front of",
+  "objective":"Describir posiciones relativas entre objetos.",
+  "activities":[
+    {"id":"A1-M1-T10-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The chair is ___ the desk.","options":["next to","in","under"],"correct_answer":"next to","feedback_correct":"Next to significa al lado de.","feedback_incorrect":"La silla está al lado del escritorio.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The garden is ___ the house.","options":["behind","on","in"],"correct_answer":"behind","feedback_correct":"Behind significa detrás de.","feedback_incorrect":"El jardín está detrás de la casa.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L02-E03","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The car is ___ the house.","options":["in front of","under","in"],"correct_answer":"in front of","feedback_correct":"In front of significa delante de.","feedback_incorrect":"El carro está delante de la casa.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L02-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / The / bank / next to / library / the","correct_answer":"The bank is next to the library.","feedback_correct":"Frase correcta.","feedback_incorrect":"Usa noun + is + next to + place.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T10-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"The school is behind of the park.","correct_answer":"The school is behind the park.","feedback_correct":"Behind no necesita of.","feedback_incorrect":"Quita of después de behind.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"The bus is in front of the hotel.","options":["delante del hotel","detrás del hotel","dentro del hotel"],"correct_answer":"delante del hotel","feedback_correct":"In front of indica posición delantera.","feedback_incorrect":"Escucha in front of.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M1-T10-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"next to, behind the house, in front of the store","evaluation_criteria":["multiword prepositions clear","final consonants","natural rhythm"],"feedback_correct":"Las posiciones se entienden.","feedback_incorrect":"Practica cada grupo antes de unirlo.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M1-T10-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"The cafe is next to the bank. The hotel is behind the bank.","question":"Where is the hotel?","correct_answer":"Behind the bank.","feedback_correct":"El hotel está detrás del banco.","feedback_incorrect":"Busca la segunda frase.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L02-E09","type":"writing","skill":"writing","instruction":"Describe un mapa.","prompt":"Write six sentences using next to, behind and in front of.","response_type":"open","evaluation_criteria":["six locations","correct multiword prepositions"],"feedback_correct":"El mapa está descrito claramente.","feedback_incorrect":"Usa la preposición completa.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M1-T10-L02-E10","type":"roleplay","skill":"interaction","instruction":"Explica un recorrido.","prompt":"Tell the AI where three places are relative to each other.","role":"tourist information agent","response_type":"open_speaking","success_criteria":["next to","behind","in front of"],"feedback_correct":"Las indicaciones son útiles.","feedback_incorrect":"Describe cada lugar con respecto a otro.","difficulty":2,"estimated_seconds":110}
+  ]
+}

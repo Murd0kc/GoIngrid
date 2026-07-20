@@ -1,0 +1,82 @@
+{
+  "id": "A1-M1-T03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic": "Verbo to be",
+  "title": "Am, is and are",
+  "estimated_seconds": 3600,
+  "communication_goal": "Usar am, is y are para describir identidad, estado y ubicación.",
+  "cefr_objectives": ["Can give basic personal information.", "Can describe people and places with short sentences."],
+  "explanation_es": "El verbo to be cambia según el sujeto: I am, he/she/it is, you/we/they are. En inglés el sujeto debe aparecer explícitamente.",
+  "key_language": ["I am tired.", "You are ready.", "She is a doctor.", "We are at home.", "They are happy."],
+  "spanish_speaker_notes": ["No omitas el sujeto.", "No uses is con I.", "No uses am con he, she o they.", "Are se usa con you, we y they."],
+  "pronunciation_targets": [
+    {"text":"I am","ipa":"/aɪ æm/","error":"omitir am"},
+    {"text":"he is","ipa":"/hi ɪz/","error":"pronunciar is como una sola vocal"},
+    {"text":"we are","ipa":"/wi ɑr/","error":"confundir we con be"}
+  ],
+  "lessons": [
+    {
+      "id":"A1-M1-T03-L01","title":"I am","objective":"Usar I am para identidad y estados.","estimated_seconds":900,
+      "activities":[
+        {"id":"A1-M1-T03-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"I ___ a student.","options":["am","is","are"],"correct_answer":"am","feedback_correct":"I usa am.","feedback_incorrect":"Recuerda I am.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L01-E02","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"am / I / ready","correct_answer":"I am ready.","feedback_correct":"Sujeto y verbo están en orden.","feedback_incorrect":"Empieza con I.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L01-E03","type":"multiple_choice","skill":"vocabulary","instruction":"Elige el significado.","prompt":"I am tired.","options":["Estoy cansado.","Soy alto.","Estoy en casa."],"correct_answer":"Estoy cansado.","feedback_correct":"Tired significa cansado.","feedback_incorrect":"Busca el significado de tired.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L01-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Am happy.","correct_answer":"I am happy.","feedback_correct":"El sujeto I es obligatorio.","feedback_incorrect":"Añade I al inicio.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L01-E05","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"I am from Mexico.","options":["I am","He is","They are"],"correct_answer":"I am","feedback_correct":"Escuchaste I am.","feedback_incorrect":"La frase empieza con I am.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L01-E06","type":"pronunciation","skill":"pronunciation","instruction":"Graba tres frases.","prompt":"I am Ana. I am ready. I am tired.","evaluation_criteria":["I audible","am audible","clear final consonants"],"feedback_correct":"Mantén am audible, incluso en velocidad natural.","feedback_incorrect":"Practica I-am en dos golpes de voz.","difficulty":1,"estimated_seconds":65},
+        {"id":"A1-M1-T03-L01-E07","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"I am Omar. I am from Lima.","question":"Where is Omar from?","correct_answer":"Lima","feedback_correct":"La ciudad aparece después de from.","feedback_incorrect":"Busca la segunda frase.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L01-E08","type":"writing","skill":"writing","instruction":"Escribe tres frases.","prompt":"Write your name, country and current feeling with I am.","response_type":"open","evaluation_criteria":["three I am sentences"],"feedback_correct":"Usaste I am en tres contextos.","feedback_incorrect":"Cada frase debe empezar con I am.","difficulty":1,"estimated_seconds":70},
+        {"id":"A1-M1-T03-L01-E09","type":"roleplay","skill":"interaction","instruction":"Preséntate.","prompt":"Say your name, country and feeling to the AI.","role":"new classmate","response_type":"open_speaking","success_criteria":["three I am statements"],"feedback_correct":"La IA confirma la información.","feedback_incorrect":"Usa I am para cada dato.","difficulty":1,"estimated_seconds":90},
+        {"id":"A1-M1-T03-L01-E10","type":"review","skill":"review","instruction":"Completa.","prompt":"I ___ at home.","options":["am","is","are"],"correct_answer":"am","feedback_correct":"I am.","feedback_incorrect":"I nunca usa is o are.","difficulty":1,"estimated_seconds":30}
+      ]
+    },
+    {
+      "id":"A1-M1-T03-L02","title":"He, she and it is","objective":"Usar is con personas y objetos.","estimated_seconds":900,
+      "activities":[
+        {"id":"A1-M1-T03-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"She ___ a teacher.","options":["am","is","are"],"correct_answer":"is","feedback_correct":"She usa is.","feedback_incorrect":"She is.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"It ___ cold.","options":["am","is","are"],"correct_answer":"is","feedback_correct":"It usa is.","feedback_incorrect":"It is.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / He / my / brother","correct_answer":"He is my brother.","feedback_correct":"He is está correcto.","feedback_incorrect":"Empieza con He.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L02-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"She are happy.","correct_answer":"She is happy.","feedback_correct":"She usa is.","feedback_incorrect":"Cambia are por is.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L02-E05","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"He is at work.","options":["He is","She is","It is"],"correct_answer":"He is","feedback_correct":"Escuchaste he is.","feedback_incorrect":"La frase empieza con He.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L02-E06","type":"pronunciation","skill":"pronunciation","instruction":"Graba he is, she is e it is.","prompt":"He is here. She is here. It is here.","evaluation_criteria":["/h/ audible","/ʃ/ distinct","it short vowel"],"feedback_correct":"Distingue he, she e it.","feedback_incorrect":"Practica cada pronombre separado.","difficulty":2,"estimated_seconds":70},
+        {"id":"A1-M1-T03-L02-E07","type":"reading","skill":"reading","instruction":"Lee.","prompt":"This is Rosa. She is a nurse. This is her bag. It is blue.","question":"What is blue?","correct_answer":"Her bag.","feedback_correct":"It representa the bag.","feedback_incorrect":"Busca la frase con It.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L02-E08","type":"writing","skill":"writing","instruction":"Describe una persona y un objeto.","prompt":"Write one sentence with he or she and one with it.","response_type":"open","evaluation_criteria":["is with person","is with object"],"feedback_correct":"Distinguiste personas y objetos.","feedback_incorrect":"Usa is en ambas frases.","difficulty":2,"estimated_seconds":70},
+        {"id":"A1-M1-T03-L02-E09","type":"roleplay","skill":"interaction","instruction":"Describe una foto.","prompt":"Tell the AI who one person is and describe one object.","role":"friend","response_type":"open_speaking","success_criteria":["uses he or she","uses it"],"feedback_correct":"La IA verifica los referentes.","feedback_incorrect":"Persona: he/she. Objeto: it.","difficulty":2,"estimated_seconds":100},
+        {"id":"A1-M1-T03-L02-E10","type":"review","skill":"review","instruction":"Elige la frase correcta.","prompt":"Which sentence is correct?","options":["He are here.","She is here.","It am here."],"correct_answer":"She is here.","feedback_correct":"She is.","feedback_incorrect":"He, she e it usan is.","difficulty":1,"estimated_seconds":35}
+      ]
+    },
+    {
+      "id":"A1-M1-T03-L03","title":"You, we and they are","objective":"Usar are con personas y grupos.","estimated_seconds":900,
+      "activities":[
+        {"id":"A1-M1-T03-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"You ___ my friend.","options":["am","is","are"],"correct_answer":"are","feedback_correct":"You usa are.","feedback_incorrect":"You are.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"We ___ ready.","options":["am","is","are"],"correct_answer":"are","feedback_correct":"We usa are.","feedback_incorrect":"We are.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L03-E03","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"They ___ at home.","options":["am","is","are"],"correct_answer":"are","feedback_correct":"They usa are.","feedback_incorrect":"They are.","difficulty":1,"estimated_seconds":30},
+        {"id":"A1-M1-T03-L03-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"are / We / students","correct_answer":"We are students.","feedback_correct":"We are está correcto.","feedback_incorrect":"Empieza con We.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"They is friends.","correct_answer":"They are friends.","feedback_correct":"They usa are.","feedback_incorrect":"Cambia is por are.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y selecciona.","prompt":"We are from Chile.","options":["We are","They are","You are"],"correct_answer":"We are","feedback_correct":"Escuchaste We are.","feedback_incorrect":"La primera palabra es We.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba las frases.","prompt":"We are ready. They are happy. You are early.","evaluation_criteria":["we /wiː/","they /ðeɪ/","are audible"],"feedback_correct":"Mantén /w/ y /ð/ claros.","feedback_incorrect":"No conviertas we en be ni they en day.","difficulty":2,"estimated_seconds":70},
+        {"id":"A1-M1-T03-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"We are a family. They are our neighbors.","question":"Who are the neighbors?","correct_answer":"They.","feedback_correct":"They representa a los vecinos.","feedback_incorrect":"La respuesta está en la segunda frase.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L03-E09","type":"writing","skill":"writing","instruction":"Escribe dos frases.","prompt":"Write one sentence with we and one with they.","response_type":"open","evaluation_criteria":["we are","they are"],"feedback_correct":"Usaste are con ambos sujetos.","feedback_incorrect":"Recuerda we are y they are.","difficulty":2,"estimated_seconds":65},
+        {"id":"A1-M1-T03-L03-E10","type":"roleplay","skill":"interaction","instruction":"Habla de dos grupos.","prompt":"Tell the AI who you are with and who another group is.","role":"neighbor","response_type":"open_speaking","success_criteria":["we are","they are"],"feedback_correct":"La diferencia entre we y they está clara.","feedback_incorrect":"We incluye al hablante; they no.","difficulty":2,"estimated_seconds":100}
+      ]
+    },
+    {
+      "id":"A1-M1-T03-L04","title":"To be in real situations","objective":"Elegir am, is o are en situaciones nuevas.","estimated_seconds":900,
+      "activities":[
+        {"id":"A1-M1-T03-L04-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"I ___ at school and they ___ at work.","options":["am / are","is / am","are / is"],"correct_answer":"am / are","feedback_correct":"I am; they are.","feedback_incorrect":"Combina I con am y they con are.","difficulty":2,"estimated_seconds":45},
+        {"id":"A1-M1-T03-L04-E02","type":"listening","skill":"listening","instruction":"Escucha y elige el lugar.","prompt":"We are at the airport.","options":["airport","office","home"],"correct_answer":"airport","feedback_correct":"Entendiste el lugar.","feedback_incorrect":"Escucha la palabra final.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L04-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"are / They / from / Peru","correct_answer":"They are from Peru.","feedback_correct":"Frase correcta.","feedback_incorrect":"They va antes de are.","difficulty":1,"estimated_seconds":40},
+        {"id":"A1-M1-T03-L04-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"I is tired.","correct_answer":"I am tired.","feedback_correct":"I siempre usa am.","feedback_incorrect":"Cambia is por am.","difficulty":1,"estimated_seconds":35},
+        {"id":"A1-M1-T03-L04-E05","type":"pronunciation","skill":"pronunciation","instruction":"Lee el diálogo.","prompt":"I am new here. You are my guide. We are ready.","evaluation_criteria":["am/is/are clear","sentence rhythm","understandable vowels"],"feedback_correct":"La forma del verbo se entiende en frases conectadas.","feedback_incorrect":"Marca ligeramente am, is o are.","difficulty":2,"estimated_seconds":90},
+        {"id":"A1-M1-T03-L04-E06","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"I am at the station. She is my friend. We are early. They are at the cafe.","question":"Who is early?","correct_answer":"We.","feedback_correct":"La respuesta es We.","feedback_incorrect":"Busca la tercera frase.","difficulty":2,"estimated_seconds":45},
+        {"id":"A1-M1-T03-L04-E07","type":"writing","skill":"writing","instruction":"Escribe una descripción breve.","prompt":"Write four sentences about a fictional group using am, is and are.","response_type":"open","evaluation_criteria":["uses all three forms","subjects agree","meaning is clear"],"feedback_correct":"Usaste las tres formas correctamente.","feedback_incorrect":"Revisa: I am; he/she/it is; you/we/they are.","difficulty":2,"estimated_seconds":100},
+        {"id":"A1-M1-T03-L04-E08","type":"ai_roleplay","skill":"interaction","instruction":"Conversa con la IA en una recepción.","prompt":"Say who you are, who is with you, where you are and how you feel.","role":"hotel receptionist","response_type":"open_speaking","success_criteria":["uses am","uses is or are","gives location","gives feeling"],"feedback_correct":"La IA evalúa precisión y claridad.","feedback_incorrect":"La IA ofrece una corrección y pide repetir.","difficulty":2,"estimated_seconds":150},
+        {"id":"A1-M1-T03-L04-E09","type":"transfer","skill":"speaking","instruction":"Describe lo que ves.","prompt":"Say three sentences about people and objects around you.","response_type":"open_speaking","evaluation_criteria":["three subjects","correct am/is/are","clear references"],"feedback_correct":"Aplicaste to be a una escena nueva.","feedback_incorrect":"Decide primero quién o qué es el sujeto.","difficulty":2,"estimated_seconds":90},
+        {"id":"A1-M1-T03-L04-E10","type":"mastery_assessment","skill":"assessment","instruction":"Completa la evaluación.","prompt":"Introduce yourself, describe one person, one object and one group, and say where they are.","response_type":"open_speaking_and_writing","evaluation_criteria":["am/is/are accuracy","subject present","intelligibility","transfer"],"feedback_correct":"Tema dominado: eliges correctamente am, is y are.","feedback_incorrect":"Repasa la forma asociada al sujeto que causó dificultad.","difficulty":2,"estimated_seconds":180}
+      ]
+    }
+  ],
+  "review_schedule":[1,3,7,14,30],
+  "mastery_criteria":{"minimum_score":0.8,"transfer_required":true,"pronunciation_is_intelligibility_first":true}
+}

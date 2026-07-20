@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T06-L03",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Adjetivos",
+  "title":"People and feelings",
+  "objective":"Describir personas y estados con adjetivos básicos.",
+  "activities":[
+    {"id":"A1-M1-T06-L03-E01","type":"multiple_choice","skill":"vocabulary","instruction":"Completa.","prompt":"She is ___ because she won.","options":["happy","heavy","short"],"correct_answer":"happy","feedback_correct":"Happy describe un estado positivo.","feedback_incorrect":"La victoria causa felicidad.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L03-E02","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"tired","options":["cansado","enojado","joven"],"correct_answer":"cansado","feedback_correct":"Tired significa cansado.","feedback_incorrect":"Tired describe energía o descanso.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / kind / He","correct_answer":"He is kind.","feedback_correct":"El adjetivo va después de be.","feedback_incorrect":"Usa He is + adjective.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T06-L03-E04","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"They are ___ today.","options":["busy","busily","business"],"correct_answer":"busy","feedback_correct":"Busy es adjetivo.","feedback_incorrect":"Después de are usamos un adjetivo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T06-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"She is kindness.","correct_answer":"She is kind.","feedback_correct":"Kind es el adjetivo; kindness es un sustantivo.","feedback_incorrect":"Usa kind después de is.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M1-T06-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"He is nervous.","options":["nervous","happy","old"],"correct_answer":"nervous","feedback_correct":"Nervous significa nervioso.","feedback_incorrect":"Escucha la palabra después de is.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T06-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"happy, tired, nervous, friendly","evaluation_criteria":["clear stressed syllable","final consonants"],"feedback_correct":"Los estados se entienden claramente.","feedback_incorrect":"Marca la sílaba fuerte y no añadas vocal final.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M1-T06-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Tom is tall and friendly. Ana is short and quiet.","question":"Who is quiet?","correct_answer":"Ana","feedback_correct":"Ana es quiet.","feedback_incorrect":"Busca la segunda frase.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T06-L03-E09","type":"writing","skill":"writing","instruction":"Describe una persona.","prompt":"Write four sentences using appearance and personality adjectives.","response_type":"open","evaluation_criteria":["four adjectives","clear subject and be"],"feedback_correct":"La descripción combina apariencia y personalidad.","feedback_incorrect":"Usa sujeto + am/is/are + adjetivo.","difficulty":2,"estimated_seconds":85},
+    {"id":"A1-M1-T06-L03-E10","type":"roleplay","skill":"interaction","instruction":"Describe a un compañero.","prompt":"Tell the AI how a fictional classmate looks and feels today.","role":"new friend","response_type":"open_speaking","success_criteria":["appearance adjective","personality adjective","feeling adjective"],"feedback_correct":"La descripción es específica y comprensible.","feedback_incorrect":"Incluye un adjetivo de cada tipo.","difficulty":2,"estimated_seconds":110}
+  ]
+}

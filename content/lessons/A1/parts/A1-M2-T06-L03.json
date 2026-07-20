@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T06-L03",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Adverbios de frecuencia",
+  "title":"Frequency with be and questions",
+  "objective":"Colocar adverbios con be y responder preguntas sobre frecuencia.",
+  "activities":[
+    {"id":"A1-M2-T06-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"She is ___ late.","options":["always","late always","alwaysly"],"correct_answer":"always","feedback_correct":"Con be, el adverbio va después de is.","feedback_incorrect":"Usa She is always late.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"They are ___ tired after work.","options":["often","oftenly","tired often"],"correct_answer":"often","feedback_correct":"Often va después de are.","feedback_incorrect":"Con are coloca often después.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"usually / Is / he / busy?","correct_answer":"Is he usually busy?","feedback_correct":"La pregunta está bien formada.","feedback_incorrect":"Is va antes de he; usually después.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T06-L03-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Is always she happy?","correct_answer":"Is she always happy?","feedback_correct":"El sujeto va después de is.","feedback_incorrect":"Ordena Is + subject + adverb + adjective.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M2-T06-L03-E05","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"How often ___ you exercise?","options":["do","does","are"],"correct_answer":"do","feedback_correct":"You usa do.","feedback_incorrect":"La pregunta usa do con you.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T06-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"How often do you read? I usually read at night.","question":"When does the person usually read?","correct_answer":"At night.","feedback_correct":"Identificaste la frecuencia y el momento.","feedback_incorrect":"Escucha usually read at night.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T06-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"I usually read. She is often tired. How often do you exercise?","evaluation_criteria":["adverb placement audible","question intonation","clear stress"],"feedback_correct":"Las estructuras se entienden.","feedback_incorrect":"Haz énfasis en el adverbio.","difficulty":2,"estimated_seconds":80},
+    {"id":"A1-M2-T06-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"How often is Paul late? He is rarely late. He usually arrives early.","question":"Is Paul often late?","correct_answer":"No, he is rarely late.","feedback_correct":"Rarely expresa una frecuencia baja.","feedback_incorrect":"Busca la respuesta sobre late.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T06-L03-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas y respuestas.","prompt":"Write five How often questions with answers.","response_type":"open","evaluation_criteria":["five questions","frequency adverbs","correct placement"],"feedback_correct":"Las preguntas y respuestas son claras.","feedback_incorrect":"Usa How often do/does...?.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T06-L03-E10","type":"roleplay","skill":"interaction","instruction":"Haz una encuesta de hábitos.","prompt":"Ask the AI how often it does five activities and answer the same questions.","role":"health coach","response_type":"open_speaking","success_criteria":["How often questions","frequency answers","be placement"],"feedback_correct":"La encuesta usa frecuencia real.","feedback_incorrect":"La IA pide una reformulación si el adverbio está mal colocado.","difficulty":2,"estimated_seconds":130}
+  ]
+}

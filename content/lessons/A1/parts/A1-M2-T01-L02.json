@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T01-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Orden correcto de las palabras",
+  "title":"Place and time in sentences",
+  "objective":"Añadir lugar y tiempo a frases sencillas.",
+  "activities":[
+    {"id":"A1-M2-T01-L02-E01","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"at home / I / study","correct_answer":"I study at home.","feedback_correct":"El lugar puede ir después del verbo y objeto.","feedback_incorrect":"Empieza con I study.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T01-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"We work ___ an office.","options":["in","work in","office in"],"correct_answer":"in","feedback_correct":"La preposición introduce el lugar.","feedback_incorrect":"Usa in antes del lugar.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T01-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"every day / English / study / They","correct_answer":"They study English every day.","feedback_correct":"El tiempo puede cerrar la frase.","feedback_incorrect":"Usa sujeto + verbo + objeto + tiempo.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T01-L02-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"At school study I English.","correct_answer":"I study English at school.","feedback_correct":"El orden natural es I study English at school.","feedback_incorrect":"Pon el sujeto al inicio.","difficulty":2,"estimated_seconds":40},
+    {"id":"A1-M2-T01-L02-E05","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"She reads books ___ night.","options":["at","reads at","night at"],"correct_answer":"at","feedback_correct":"Usamos at night.","feedback_incorrect":"La expresión es at night.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T01-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"He eats breakfast at home.","options":["Come desayuno en casa","Compra desayuno","Cocina en la escuela"],"correct_answer":"Come desayuno en casa","feedback_correct":"Entendiste acción y lugar.","feedback_incorrect":"At home significa en casa.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T01-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Lee.","prompt":"I study English at home every day.","evaluation_criteria":["word groups","place clear","time clear"],"feedback_correct":"La frase fluye con claridad.","feedback_incorrect":"Agrupa: I study English / at home / every day.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T01-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Maria works in a hospital every morning.","question":"Where does Maria work?","correct_answer":"In a hospital.","feedback_correct":"El lugar aparece después de works.","feedback_incorrect":"Busca la frase in a hospital.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T01-L02-E09","type":"writing","skill":"writing","instruction":"Escribe frases.","prompt":"Write four sentences with a place and a time expression.","response_type":"open","evaluation_criteria":["four sentences","place","time","clear order"],"feedback_correct":"Las frases incluyen lugar y tiempo.","feedback_incorrect":"Usa sujeto + verbo + complemento + lugar + tiempo.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T01-L02-E10","type":"roleplay","skill":"interaction","instruction":"Describe tu rutina.","prompt":"Tell the AI what you do, where and when.","role":"classmate","response_type":"open_speaking","success_criteria":["four statements","place","time"],"feedback_correct":"La información está organizada.","feedback_incorrect":"Empieza cada frase con el sujeto.","difficulty":2,"estimated_seconds":110}
+  ]
+}

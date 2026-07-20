@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T07-L01",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Palabras interrogativas",
+  "title":"Choosing the question word",
+  "objective":"Elegir what, where, who, when, why o how según la información buscada.",
+  "activities":[
+    {"id":"A1-M2-T07-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ is your favorite color?","options":["What","Where","Who"],"correct_answer":"What","feedback_correct":"What pregunta por información o cosas.","feedback_incorrect":"La respuesta es un color.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E02","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ do you live?","options":["Where","When","Why"],"correct_answer":"Where","feedback_correct":"Where pregunta por lugar.","feedback_incorrect":"La respuesta es una ciudad o lugar.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E03","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ is your teacher?","options":["Who","What","How"],"correct_answer":"Who","feedback_correct":"Who pregunta por persona.","feedback_incorrect":"La respuesta es una persona.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E04","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ do you go to bed?","options":["When","Who","What"],"correct_answer":"When","feedback_correct":"When pregunta por tiempo.","feedback_incorrect":"La respuesta es una hora o momento.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E05","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ are you learning English?","options":["Why","Where","Who"],"correct_answer":"Why","feedback_correct":"Why pregunta por razón.","feedback_incorrect":"La respuesta explica un motivo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E06","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"___ do you travel to work?","options":["How","Who","When"],"correct_answer":"How","feedback_correct":"How pregunta por manera.","feedback_incorrect":"La respuesta puede ser by bus.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E07","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"you / What / eat / do?","correct_answer":"What do you eat?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"What + do + subject + verb.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T07-L01-E08","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"Why?","options":["¿Por qué?","¿Dónde?","¿Cómo?"],"correct_answer":"¿Por qué?","feedback_correct":"Why pregunta por una razón.","feedback_incorrect":"Where es dónde; how es cómo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L01-E09","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Where does Ana work? She works at a school.","question":"Which question asks for the place?","correct_answer":"Where does Ana work?","feedback_correct":"Where pide el lugar.","feedback_incorrect":"La respuesta es at a school.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T07-L01-E10","type":"roleplay","skill":"interaction","instruction":"Haz una entrevista inicial.","prompt":"Ask the AI one question with each question word.","role":"new classmate","response_type":"open_speaking","success_criteria":["six question words","correct meaning"],"feedback_correct":"Elegiste cada palabra según la información.","feedback_incorrect":"La IA te da el tipo de respuesta esperado.","difficulty":2,"estimated_seconds":120}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T09-L02",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"There is y there are",
+  "title":"There are",
+  "objective":"Decir que existen varias cosas en un lugar.",
+  "activities":[
+    {"id":"A1-M1-T09-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ two books on the desk.","options":["There is","There are","It is"],"correct_answer":"There are","feedback_correct":"There are se usa con plural.","feedback_incorrect":"Books es plural.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"There are ___ chairs.","options":["three","a","an"],"correct_answer":"three","feedback_correct":"Three acompaña al sustantivo plural.","feedback_incorrect":"Usa un número con chairs.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"are / There / four / windows","correct_answer":"There are four windows.","feedback_correct":"Frase plural correcta.","feedback_incorrect":"Empieza con There are.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T09-L02-E04","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"There are","options":["hay varias cosas","hay una cosa","es una cosa"],"correct_answer":"hay varias cosas","feedback_correct":"There are introduce plural.","feedback_incorrect":"There is es singular.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T09-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"There is two bags.","correct_answer":"There are two bags.","feedback_correct":"Two bags es plural.","feedback_incorrect":"Cambia is por are.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T09-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"There are five students.","options":["cinco estudiantes","un estudiante","cinco profesores"],"correct_answer":"cinco estudiantes","feedback_correct":"Escuchaste número y plural.","feedback_incorrect":"Students significa estudiantes.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T09-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"There are three books. There are two tables.","evaluation_criteria":["there are clear","plural endings","numbers clear"],"feedback_correct":"La cantidad se entiende.","feedback_incorrect":"Marca are y las terminaciones plurales.","difficulty":2,"estimated_seconds":65},
+    {"id":"A1-M1-T09-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"There are six pictures on the wall.","question":"How many pictures?","correct_answer":"Six.","feedback_correct":"Hay seis imágenes.","feedback_incorrect":"Busca el número.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M1-T09-L02-E09","type":"writing","skill":"writing","instruction":"Describe un lugar.","prompt":"Write four sentences with There are and plural objects.","response_type":"open","evaluation_criteria":["four plural sentences","numbers","clear nouns"],"feedback_correct":"Usaste there are con plural.","feedback_incorrect":"Usa There are + number + plural noun.","difficulty":1,"estimated_seconds":75},
+    {"id":"A1-M1-T09-L02-E10","type":"roleplay","skill":"interaction","instruction":"Haz un inventario.","prompt":"Tell the AI how many objects are in a classroom.","role":"class assistant","response_type":"open_speaking","success_criteria":["four there are sentences","plural agreement"],"feedback_correct":"El inventario es comprensible.","feedback_incorrect":"Comprueba que cada sustantivo sea plural.","difficulty":2,"estimated_seconds":100}
+  ]
+}

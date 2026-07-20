@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T07-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Palabras interrogativas",
+  "title":"Building wh-questions",
+  "objective":"Formar preguntas completas con palabras interrogativas y auxiliares.",
+  "activities":[
+    {"id":"A1-M2-T07-L02-E01","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"where / do / you / work?","correct_answer":"Where do you work?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Where + do + subject + verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T07-L02-E02","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"does / what / she / study?","correct_answer":"What does she study?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"What + does + she + base verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T07-L02-E03","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"Why ___ they walk?","options":["do","does","are"],"correct_answer":"do","feedback_correct":"They usa do.","feedback_incorrect":"El sujeto plural usa do.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L02-E04","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"When ___ he arrive?","options":["do","does","is"],"correct_answer":"does","feedback_correct":"He usa does.","feedback_incorrect":"El sujeto he usa does.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T07-L02-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Where you do live?","correct_answer":"Where do you live?","feedback_correct":"Do va después del wh-word.","feedback_incorrect":"Ordena Where + do + you + live.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T07-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"How does she travel? She travels by train.","question":"How does she travel?","correct_answer":"By train.","feedback_correct":"Identificaste el modo de transporte.","feedback_incorrect":"Busca la respuesta con by.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T07-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Where do you live? What does he do? Why do they study?","evaluation_criteria":["wh-word stress","do/does clear","question intonation"],"feedback_correct":"Las preguntas son claras.","feedback_incorrect":"Marca la palabra interrogativa al inicio.","difficulty":2,"estimated_seconds":75},
+    {"id":"A1-M2-T07-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"What does Leo eat? He eats rice. Where does he eat? At home.","question":"Where does Leo eat?","correct_answer":"At home.","feedback_correct":"La respuesta aparece en la segunda pregunta.","feedback_incorrect":"Busca where y la respuesta posterior.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T07-L02-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas.","prompt":"Write six questions about a fictional person's routine.","response_type":"open","evaluation_criteria":["six wh-questions","do/does","base verbs"],"feedback_correct":"Las preguntas están bien construidas.","feedback_incorrect":"Revisa el auxiliar según el sujeto.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T07-L02-E10","type":"roleplay","skill":"interaction","instruction":"Entrevista a la IA.","prompt":"Ask six wh-questions about work, home, food, time, reason and transport.","role":"native-speaking neighbor","response_type":"open_speaking","success_criteria":["six questions","correct auxiliaries","follow-up"],"feedback_correct":"La entrevista obtiene información variada.","feedback_incorrect":"Elige wh-word y auxiliar antes de hablar.","difficulty":2,"estimated_seconds":130}
+  ]
+}

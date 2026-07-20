@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T03-L03",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Auxiliares do y does",
+  "title":"Short answers and emphasis",
+  "objective":"Responder preguntas con do y does y mantener el verbo base.",
+  "activities":[
+    {"id":"A1-M2-T03-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Elige la respuesta.","prompt":"Do you work?","options":["Yes, I do.","Yes, I work do.","Yes, do I."],"correct_answer":"Yes, I do.","feedback_correct":"Respuesta corta con do.","feedback_incorrect":"Usa Yes, subject, do.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"Does he drive?","options":["No, he doesn't.","No, he don't.","No, doesn't he."],"correct_answer":"No, he doesn't.","feedback_correct":"He usa doesn't.","feedback_incorrect":"La respuesta corta usa doesn't.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L03-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"does / Yes / she","correct_answer":"Yes, she does.","feedback_correct":"Respuesta correcta.","feedback_incorrect":"Ordena Yes + subject + does.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T03-L03-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"No, she don't.","correct_answer":"No, she doesn't.","feedback_correct":"She usa doesn't.","feedback_incorrect":"Cambia don't por doesn't.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M2-T03-L03-E05","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"Does she ___ English?","options":["study","studies","studying"],"correct_answer":"study","feedback_correct":"Does lleva el verbo base.","feedback_incorrect":"Quita la terminación de tercera persona después de does.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Do they live here? No, they don't.","question":"Do they live here?","correct_answer":"No.","feedback_correct":"No, they don't lo confirma.","feedback_incorrect":"Escucha la respuesta negativa.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T03-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Yes, I do. No, I don't. Yes, she does. No, she doesn't.","evaluation_criteria":["do/does audible","negative contraction clear","natural rhythm"],"feedback_correct":"Las respuestas se distinguen.","feedback_incorrect":"Practica do, does, don't y doesn't por pares.","difficulty":2,"estimated_seconds":80},
+    {"id":"A1-M2-T03-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Does Leo cook? Yes, he does. Does he cook every day? No, he doesn't.","question":"Does Leo cook every day?","correct_answer":"No.","feedback_correct":"La segunda respuesta es negativa.","feedback_incorrect":"Busca la pregunta con every day.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T03-L03-E09","type":"writing","skill":"writing","instruction":"Escribe un diálogo.","prompt":"Write five questions with five short answers: three yes and two no.","response_type":"open","evaluation_criteria":["do/does agreement","short answers","base verbs"],"feedback_correct":"El diálogo mantiene la estructura.","feedback_incorrect":"Revisa el sujeto de cada pregunta y respuesta.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T03-L03-E10","type":"roleplay","skill":"interaction","instruction":"Juega a veinte preguntas.","prompt":"Ask the AI questions about habits and answer its questions with short answers.","role":"guessing game partner","response_type":"open_speaking","success_criteria":["do/does","yes/no answers","repair"],"feedback_correct":"La actividad mezcla preguntas y respuestas reales.","feedback_incorrect":"La IA te pide reformular una respuesta.","difficulty":2,"estimated_seconds":130}
+  ]
+}

@@ -1,0 +1,695 @@
+{
+  "id": "A1-M2-T06",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Adverbios de frecuencia",
+  "title": "Adverbios de frecuencia",
+  "estimated_seconds": null,
+  "communication_goal": "Usar adverbios de frecuencia en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to adverbios de frecuencia."
+  ],
+  "explanation_es": "Este tema desarrolla adverbios de frecuencia mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T06-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Adverbios de frecuencia",
+      "title": "Always, usually and sometimes",
+      "objective": "Describir con qué frecuencia ocurren acciones habituales.",
+      "activities": [
+        {
+          "id": "A1-M2-T06-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "I ___ drink coffee: every day.",
+          "options": [
+            "always",
+            "never",
+            "rarely"
+          ],
+          "correct_answer": "always",
+          "feedback_correct": "Always significa siempre.",
+          "feedback_incorrect": "Every day indica always.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "I go to the cinema two times a month.",
+          "options": [
+            "sometimes",
+            "never",
+            "always"
+          ],
+          "correct_answer": "sometimes",
+          "feedback_correct": "Sometimes significa a veces.",
+          "feedback_incorrect": "No ocurre siempre ni nunca.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "usually / I / walk / to work",
+          "correct_answer": "I usually walk to work.",
+          "feedback_correct": "El adverbio va antes del verbo principal.",
+          "feedback_incorrect": "Usa subject + adverb + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T06-L01-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "She goes always by bus.",
+          "correct_answer": "She always goes by bus.",
+          "feedback_correct": "Always va antes del verbo principal.",
+          "feedback_incorrect": "Mueve always antes de goes.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T06-L01-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "usually",
+          "options": [
+            "normalmente",
+            "nunca",
+            "raramente"
+          ],
+          "correct_answer": "normalmente",
+          "feedback_correct": "Usually indica frecuencia habitual.",
+          "feedback_incorrect": "Usually significa normalmente.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "He sometimes cooks dinner.",
+          "options": [
+            "a veces cocina",
+            "siempre cocina",
+            "nunca cocina"
+          ],
+          "correct_answer": "a veces cocina",
+          "feedback_correct": "Sometimes significa a veces.",
+          "feedback_incorrect": "Escucha sometimes.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "I always study. She usually cooks. They sometimes walk.",
+          "evaluation_criteria": [
+            "adverb stress",
+            "clear verb",
+            "natural rhythm"
+          ],
+          "feedback_correct": "La frecuencia se entiende.",
+          "feedback_incorrect": "Marca la sílaba fuerte del adverbio.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T06-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Maria usually works at home. She sometimes works in an office.",
+          "question": "Where does Maria usually work?",
+          "correct_answer": "At home.",
+          "feedback_correct": "Usually indica su lugar habitual.",
+          "feedback_incorrect": "Busca usually works.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe hábitos.",
+          "prompt": "Write five sentences using always, usually and sometimes.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five sentences",
+            "adverb position",
+            "clear frequency"
+          ],
+          "feedback_correct": "Las frecuencias están bien expresadas.",
+          "feedback_incorrect": "Pon el adverbio antes del verbo principal.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T06-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla de hábitos.",
+          "prompt": "Tell the AI how often you do five daily activities.",
+          "role": "new friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "three frequency adverbs",
+            "five habits"
+          ],
+          "feedback_correct": "La conversación expresa frecuencia real.",
+          "feedback_incorrect": "Usa always, usually o sometimes antes del verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T06-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Adverbios de frecuencia",
+      "title": "Often, rarely and never",
+      "objective": "Expresar frecuencias altas, bajas y ausencia de hábito.",
+      "activities": [
+        {
+          "id": "A1-M2-T06-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "I ___ eat breakfast. I eat it every morning.",
+          "options": [
+            "always",
+            "rarely",
+            "never"
+          ],
+          "correct_answer": "always",
+          "feedback_correct": "Every morning indica siempre.",
+          "feedback_incorrect": "La acción ocurre cada mañana.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "He goes to the beach once every five years.",
+          "options": [
+            "rarely",
+            "often",
+            "always"
+          ],
+          "correct_answer": "rarely",
+          "feedback_correct": "Rarely significa raramente.",
+          "feedback_incorrect": "La frecuencia es muy baja.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L02-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige.",
+          "prompt": "They ___ smoke. They do not smoke at all.",
+          "options": [
+            "never",
+            "often",
+            "usually"
+          ],
+          "correct_answer": "never",
+          "feedback_correct": "Never significa nunca.",
+          "feedback_incorrect": "La acción no ocurre en ningún momento.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L02-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "often / We / visit / them",
+          "correct_answer": "We often visit them.",
+          "feedback_correct": "Often va antes del verbo principal.",
+          "feedback_incorrect": "Usa subject + often + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T06-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "She never is late.",
+          "correct_answer": "She is never late.",
+          "feedback_correct": "Con be, el adverbio va después de be.",
+          "feedback_incorrect": "Mueve never después de is.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "We often meet on Fridays.",
+          "options": [
+            "a menudo nos reunimos",
+            "nunca nos reunimos",
+            "raramente nos reunimos"
+          ],
+          "correct_answer": "a menudo nos reunimos",
+          "feedback_correct": "Often significa a menudo.",
+          "feedback_incorrect": "Escucha often meet.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "often, rarely, never",
+          "evaluation_criteria": [
+            "stressed syllables",
+            "final consonants",
+            "clear vowels"
+          ],
+          "feedback_correct": "Las frecuencias se distinguen.",
+          "feedback_incorrect": "Practica often, rarely y never por separado.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T06-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Sara rarely eats out. She often cooks at home.",
+          "question": "Where does Sara often eat?",
+          "correct_answer": "At home.",
+          "feedback_correct": "Often cooks at home lo indica.",
+          "feedback_incorrect": "Busca la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una escala de hábitos.",
+          "prompt": "Write five sentences from often to never.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "frequency range",
+            "correct placement",
+            "clear habits"
+          ],
+          "feedback_correct": "La escala expresa frecuencias variadas.",
+          "feedback_incorrect": "Ordena mentalmente de mayor a menor frecuencia.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T06-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Compara hábitos.",
+          "prompt": "Tell the AI what you often, rarely and never do.",
+          "role": "health coach",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "often",
+            "rarely",
+            "never",
+            "three habits"
+          ],
+          "feedback_correct": "La conversación comunica frecuencia y límites.",
+          "feedback_incorrect": "Con be el adverbio va después; con otros verbos antes.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T06-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Adverbios de frecuencia",
+      "title": "Frequency with be and questions",
+      "objective": "Colocar adverbios con be y responder preguntas sobre frecuencia.",
+      "activities": [
+        {
+          "id": "A1-M2-T06-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "She is ___ late.",
+          "options": [
+            "always",
+            "late always",
+            "alwaysly"
+          ],
+          "correct_answer": "always",
+          "feedback_correct": "Con be, el adverbio va después de is.",
+          "feedback_incorrect": "Usa She is always late.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "They are ___ tired after work.",
+          "options": [
+            "often",
+            "oftenly",
+            "tired often"
+          ],
+          "correct_answer": "often",
+          "feedback_correct": "Often va después de are.",
+          "feedback_incorrect": "Con are coloca often después.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L03-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "usually / Is / he / busy?",
+          "correct_answer": "Is he usually busy?",
+          "feedback_correct": "La pregunta está bien formada.",
+          "feedback_incorrect": "Is va antes de he; usually después.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L03-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "Is always she happy?",
+          "correct_answer": "Is she always happy?",
+          "feedback_correct": "El sujeto va después de is.",
+          "feedback_incorrect": "Ordena Is + subject + adverb + adjective.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T06-L03-E05",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "How often ___ you exercise?",
+          "options": [
+            "do",
+            "does",
+            "are"
+          ],
+          "correct_answer": "do",
+          "feedback_correct": "You usa do.",
+          "feedback_incorrect": "La pregunta usa do con you.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T06-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "How often do you read? I usually read at night.",
+          "question": "When does the person usually read?",
+          "correct_answer": "At night.",
+          "feedback_correct": "Identificaste la frecuencia y el momento.",
+          "feedback_incorrect": "Escucha usually read at night.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T06-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "I usually read. She is often tired. How often do you exercise?",
+          "evaluation_criteria": [
+            "adverb placement audible",
+            "question intonation",
+            "clear stress"
+          ],
+          "feedback_correct": "Las estructuras se entienden.",
+          "feedback_incorrect": "Haz énfasis en el adverbio.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M2-T06-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "How often is Paul late? He is rarely late. He usually arrives early.",
+          "question": "Is Paul often late?",
+          "correct_answer": "No, he is rarely late.",
+          "feedback_correct": "Rarely expresa una frecuencia baja.",
+          "feedback_incorrect": "Busca la respuesta sobre late.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T06-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe preguntas y respuestas.",
+          "prompt": "Write five How often questions with answers.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five questions",
+            "frequency adverbs",
+            "correct placement"
+          ],
+          "feedback_correct": "Las preguntas y respuestas son claras.",
+          "feedback_incorrect": "Usa How often do/does...?.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T06-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Haz una encuesta de hábitos.",
+          "prompt": "Ask the AI how often it does five activities and answer the same questions.",
+          "role": "health coach",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "How often questions",
+            "frequency answers",
+            "be placement"
+          ],
+          "feedback_correct": "La encuesta usa frecuencia real.",
+          "feedback_incorrect": "La IA pide una reformulación si el adverbio está mal colocado.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T06-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Adverbios de frecuencia",
+      "title": "Integrated habits task",
+      "objective": "Describir y comparar hábitos usando adverbios de frecuencia.",
+      "activities": [
+        {
+          "id": "A1-M2-T06-L04-E01",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "I always walk, but my brother rarely walks. He usually takes the bus.",
+          "options": [
+            "hábitos de transporte",
+            "comida",
+            "horarios de clase"
+          ],
+          "correct_answer": "hábitos de transporte",
+          "feedback_correct": "El audio compara tres frecuencias.",
+          "feedback_incorrect": "Escucha walk, bus y rarely.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T06-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige.",
+          "prompt": "Which sentence is correct?",
+          "options": [
+            "I always am tired.",
+            "I am always tired.",
+            "I always tired."
+          ],
+          "correct_answer": "I am always tired.",
+          "feedback_correct": "Con be, el adverbio va después.",
+          "feedback_incorrect": "Usa I am always tired.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M2-T06-L04-E03",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "She drinks usually tea.",
+          "correct_answer": "She usually drinks tea.",
+          "feedback_correct": "Usually va antes del verbo principal.",
+          "feedback_incorrect": "Mueve usually antes de drinks.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T06-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "often / do / How / exercise / you?",
+          "correct_answer": "How often do you exercise?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "How often + do + subject + verb.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T06-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee la comparación.",
+          "prompt": "I always cook. He sometimes cooks. They never cook.",
+          "evaluation_criteria": [
+            "frequency stress",
+            "third person ending",
+            "natural contrast"
+          ],
+          "feedback_correct": "La comparación se entiende.",
+          "feedback_incorrect": "Marca los adverbios y la terminación de cooks.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T06-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Lena always studies in the morning. She sometimes studies at night. Her brother never studies at night.",
+          "question": "Who never studies at night?",
+          "correct_answer": "Her brother.",
+          "feedback_correct": "La última frase responde.",
+          "feedback_incorrect": "Busca never studies.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T06-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe una comparación.",
+          "prompt": "Compare your habits with another person's using eight sentences.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "eight sentences",
+            "five frequency adverbs",
+            "correct placement"
+          ],
+          "feedback_correct": "La comparación muestra diferencias de frecuencia.",
+          "feedback_incorrect": "Revisa adverbio con verbo principal y con be.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M2-T06-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Conversa sobre hábitos.",
+          "prompt": "Discuss exercise, food, study and sleep frequency with the AI.",
+          "role": "native-speaking friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "How often questions",
+            "frequency answers",
+            "comparison"
+          ],
+          "feedback_correct": "La IA evalúa precisión y naturalidad.",
+          "feedback_incorrect": "La IA corrige una prioridad por turno.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        },
+        {
+          "id": "A1-M2-T06-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Habla durante un minuto.",
+          "prompt": "Describe five habits and how often you do them without reading.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "fluency",
+            "frequency variety",
+            "placement",
+            "intelligibility"
+          ],
+          "feedback_correct": "Usaste los adverbios espontáneamente.",
+          "feedback_incorrect": "Organiza la respuesta desde always hasta never.",
+          "difficulty": 2,
+          "estimated_seconds": 120
+        },
+        {
+          "id": "A1-M2-T06-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación.",
+          "prompt": "Ask three How often questions, describe five habits and compare one person.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "frequency adverbs",
+            "be placement",
+            "question order",
+            "transfer"
+          ],
+          "feedback_correct": "Tema dominado.",
+          "feedback_incorrect": "Repasa posición y significado del adverbio que causó dificultad.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "id": "A1-M1-T02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic": "Pronombres personales",
+  "title": "Subject pronouns",
+  "estimated_seconds": 3600,
+  "communication_goal": "Identificar personas y cosas y formar frases básicas con I, you, he, she, it, we y they.",
+  "cefr_objectives": [
+    "Can introduce people simply.",
+    "Can identify people and things.",
+    "Can use subject pronouns in short statements."
+  ],
+  "explanation_es": "Los pronombres personales sustituyen a nombres. En inglés el sujeto normalmente aparece antes del verbo: I am, she is, they are. It se usa para objetos, animales o situaciones cuando no hablamos de una persona.",
+  "key_language": [
+    "I am Carlos.",
+    "You are my friend.",
+    "He is my brother.",
+    "She is Ana.",
+    "It is a book.",
+    "We are students.",
+    "They are at home."
+  ],
+  "spanish_speaker_notes": [
+    "No omitas el sujeto como en español: I am tired, no am tired.",
+    "He es él y she es ella.",
+    "You puede significar tú, usted, ustedes o vosotros según el contexto.",
+    "It no se usa normalmente para personas."
+  ],
+  "vocabulary": [
+    {
+      "term": "person",
+      "meaning_es": "persona"
+    },
+    {
+      "term": "friend",
+      "meaning_es": "amigo o amiga"
+    },
+    {
+      "term": "brother",
+      "meaning_es": "hermano"
+    },
+    {
+      "term": "sister",
+      "meaning_es": "hermana"
+    },
+    {
+      "term": "student",
+      "meaning_es": "estudiante"
+    },
+    {
+      "term": "teacher",
+      "meaning_es": "profesor o profesora"
+    },
+    {
+      "term": "thing",
+      "meaning_es": "cosa"
+    }
+  ],
+  "pronunciation_targets": [
+    {
+      "text": "I",
+      "ipa": "/aɪ/",
+      "error": "pronunciarla como una i española"
+    },
+    {
+      "text": "he",
+      "ipa": "/hiː/",
+      "error": "no producir la h"
+    },
+    {
+      "text": "she",
+      "ipa": "/ʃiː/",
+      "error": "confundir /ʃ/ con /tʃ/"
+    },
+    {
+      "text": "we",
+      "ipa": "/wiː/",
+      "error": "confundir /w/ con /b/"
+    },
+    {
+      "text": "they",
+      "ipa": "/ðeɪ/",
+      "error": "sustituir /ð/ por /d/"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "A1-M1-T02-L01",
+      "title": "I, you and introductions",
+      "objective": "Usar I y you para presentarse y preguntar el nombre.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T02-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "___ am Maria.",
+          "options": [
+            "I",
+            "You",
+            "They"
+          ],
+          "correct_answer": "I",
+          "feedback_correct": "I significa yo.",
+          "feedback_incorrect": "La persona habla de sí misma: I.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige el pronombre correcto.",
+          "prompt": "___ are my friend.",
+          "options": [
+            "I",
+            "You",
+            "It"
+          ],
+          "correct_answer": "You",
+          "feedback_correct": "You se refiere a la persona con quien hablas.",
+          "feedback_incorrect": "La frase habla directamente con otra persona.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la frase.",
+          "prompt": "am / I / Ana",
+          "correct_answer": "I am Ana.",
+          "feedback_correct": "El sujeto va antes de am.",
+          "feedback_incorrect": "Empieza con I.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "I",
+          "options": [
+            "yo",
+            "tú",
+            "ellos"
+          ],
+          "correct_answer": "yo",
+          "feedback_correct": "I significa yo.",
+          "feedback_incorrect": "You significa tú; I significa yo.",
+          "difficulty": 1,
+          "estimated_seconds": 25
+        },
+        {
+          "id": "A1-M1-T02-L01-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la frase.",
+          "prompt": "Am Carlos.",
+          "correct_answer": "I am Carlos.",
+          "feedback_correct": "En inglés necesitamos el sujeto I.",
+          "feedback_incorrect": "Añade I antes de am.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T02-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y selecciona.",
+          "prompt": "I am David.",
+          "options": [
+            "I",
+            "You",
+            "He"
+          ],
+          "correct_answer": "I",
+          "feedback_correct": "La voz habla de sí misma.",
+          "feedback_incorrect": "Escucha la palabra inicial.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba I am y You are.",
+          "prompt": "I am. You are.",
+          "evaluation_criteria": [
+            "I /aɪ/ clear",
+            "you /juː/ clear"
+          ],
+          "feedback_correct": "Mantén clara la diferencia entre I y you.",
+          "feedback_incorrect": "Escucha el modelo y repite lentamente.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T02-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "I am Leo. You are my teacher.",
+          "question": "Who is the teacher?",
+          "correct_answer": "You",
+          "feedback_correct": "You representa a la persona a quien Leo habla.",
+          "feedback_incorrect": "La respuesta está en la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T02-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe dos frases reales.",
+          "prompt": "Write your name and say who you are speaking to.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "uses I",
+            "uses you or a greeting"
+          ],
+          "feedback_correct": "Usaste el pronombre del hablante.",
+          "feedback_incorrect": "Empieza con I am... .",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T02-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Preséntate ante la IA.",
+          "prompt": "Say your name and ask: What is your name?",
+          "role": "new classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses I",
+            "asks a question with you"
+          ],
+          "feedback_correct": "La conversación inicia correctamente.",
+          "feedback_incorrect": "Usa I am... y What is your name?",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T02-L02",
+      "title": "He, she and it",
+      "objective": "Identificar personas y objetos con he, she e it.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T02-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ is my sister.",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "correct_answer": "She",
+          "feedback_correct": "She se usa para una mujer o niña.",
+          "feedback_incorrect": "Sister es una mujer o niña: she.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ is my brother.",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "correct_answer": "He",
+          "feedback_correct": "He se usa para un hombre o niño.",
+          "feedback_incorrect": "Brother es un hombre o niño: he.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ is a book.",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "correct_answer": "It",
+          "feedback_correct": "It se usa para una cosa.",
+          "feedback_incorrect": "Book es un objeto: it.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L02-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / She / my / friend",
+          "correct_answer": "She is my friend.",
+          "feedback_correct": "She va antes de is.",
+          "feedback_incorrect": "Empieza con She.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "It is my mother.",
+          "correct_answer": "She is my mother.",
+          "feedback_correct": "Para una persona usamos she.",
+          "feedback_incorrect": "Mother es una persona, no una cosa.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "She is a teacher.",
+          "options": [
+            "he",
+            "she",
+            "it"
+          ],
+          "correct_answer": "she",
+          "feedback_correct": "Escuchaste she.",
+          "feedback_incorrect": "La palabra tiene el sonido /ʃ/.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba he, she e it.",
+          "prompt": "He is here. She is here. It is here.",
+          "evaluation_criteria": [
+            "he /hiː/",
+            "she /ʃiː/",
+            "it /ɪt/"
+          ],
+          "feedback_correct": "Distingue she de he y el sonido corto de it.",
+          "feedback_incorrect": "Practica el contraste /h/ y /ʃ/.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T02-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee.",
+          "prompt": "This is Emma. She is my sister. This is a phone. It is new.",
+          "question": "What is new?",
+          "correct_answer": "The phone.",
+          "feedback_correct": "It representa the phone.",
+          "feedback_incorrect": "Busca la frase con It.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe una persona y un objeto.",
+          "prompt": "Write one sentence with he or she and one with it.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "person pronoun",
+            "object pronoun",
+            "to be"
+          ],
+          "feedback_correct": "Distinguiste persona y objeto.",
+          "feedback_incorrect": "Usa he/she para personas e it para objetos.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T02-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Describe personas y objetos en una foto imaginaria.",
+          "prompt": "Tell the AI who two people are and identify one object.",
+          "role": "friend looking at a photo",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses he or she twice",
+            "uses it once"
+          ],
+          "feedback_correct": "La IA comprueba el pronombre según el referente.",
+          "feedback_incorrect": "Primero decide: persona o cosa.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T02-L03",
+      "title": "We and they",
+      "objective": "Hablar de grupos usando we y they.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T02-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ are students.",
+          "options": [
+            "We",
+            "He",
+            "It"
+          ],
+          "correct_answer": "We",
+          "feedback_correct": "We significa nosotros o nosotras.",
+          "feedback_incorrect": "La frase habla de un grupo que incluye al hablante.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "___ are my parents.",
+          "options": [
+            "They",
+            "It",
+            "I"
+          ],
+          "correct_answer": "They",
+          "feedback_correct": "They significa ellos o ellas.",
+          "feedback_incorrect": "Parents es un grupo de personas: they.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T02-L03-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "are / We / friends",
+          "correct_answer": "We are friends.",
+          "feedback_correct": "We va antes de are.",
+          "feedback_incorrect": "Empieza con We.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Relaciona.",
+          "prompt": "they",
+          "options": [
+            "nosotros",
+            "ellos o ellas",
+            "ella"
+          ],
+          "correct_answer": "ellos o ellas",
+          "feedback_correct": "They se refiere a otras personas o cosas.",
+          "feedback_incorrect": "We es nosotros; they es ellos o ellas.",
+          "difficulty": 1,
+          "estimated_seconds": 25
+        },
+        {
+          "id": "A1-M1-T02-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "They is my friends.",
+          "correct_answer": "They are my friends.",
+          "feedback_correct": "They usa are, no is.",
+          "feedback_incorrect": "Con they usamos are.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "We are at home.",
+          "options": [
+            "we",
+            "he",
+            "they"
+          ],
+          "correct_answer": "we",
+          "feedback_correct": "El hablante se incluye en el grupo.",
+          "feedback_incorrect": "Escucha el primer pronombre.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba we y they.",
+          "prompt": "We are ready. They are ready.",
+          "evaluation_criteria": [
+            "/wiː/ clear",
+            "/ðeɪ/ clear",
+            "final vowel movement"
+          ],
+          "feedback_correct": "Mantén la /w/ de we y la fricción suave de they.",
+          "feedback_incorrect": "No conviertas we en be ni they en day.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T02-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "We are a family. They are our neighbors.",
+          "question": "Who are the neighbors?",
+          "correct_answer": "They",
+          "feedback_correct": "They representa a los vecinos.",
+          "feedback_incorrect": "Mira la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T02-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe sobre dos grupos.",
+          "prompt": "Write one sentence with we and one with they.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "uses we",
+            "uses they",
+            "uses are"
+          ],
+          "feedback_correct": "Las dos perspectivas están claras.",
+          "feedback_incorrect": "Recuerda we are y they are.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T02-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla de tu grupo y de otro grupo.",
+          "prompt": "Tell the AI who you are with and who another group is.",
+          "role": "new neighbor",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses we",
+            "uses they",
+            "gives two understandable statements"
+          ],
+          "feedback_correct": "Usaste we y they con referentes claros.",
+          "feedback_incorrect": "We incluye al hablante; they no lo incluye.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T02-L04",
+      "title": "Pronouns in real conversation",
+      "objective": "Usar todos los pronombres en una conversación y transferirlos a información nueva.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T02-L04-E01",
+          "type": "listening_global",
+          "skill": "listening",
+          "instruction": "Escucha y elige el tema.",
+          "prompt": "I am Luis. She is my sister. We are from Peru. They are our friends.",
+          "options": [
+            "familia y amigos",
+            "comida",
+            "transporte"
+          ],
+          "correct_answer": "familia y amigos",
+          "feedback_correct": "El audio identifica personas y grupos.",
+          "feedback_incorrect": "Escucha sister, we y friends.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T02-L04-E02",
+          "type": "listening_detail",
+          "skill": "listening",
+          "instruction": "Responde.",
+          "prompt": "He is my teacher. She is my classmate. They are students.",
+          "question": "Who is the teacher?",
+          "correct_answer": "He",
+          "feedback_correct": "He es el profesor.",
+          "feedback_incorrect": "La primera frase da la respuesta.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T02-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "A phone is on the table.",
+          "options": [
+            "He is on the table.",
+            "It is on the table.",
+            "They are on the table."
+          ],
+          "correct_answer": "It is on the table.",
+          "feedback_correct": "It representa phone.",
+          "feedback_incorrect": "Phone es una cosa: it.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T02-L04-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige el diálogo.",
+          "prompt": "A: Who is Ana? B: It is my sister.",
+          "correct_answer": "She is my sister.",
+          "feedback_correct": "Una hermana es una persona: she.",
+          "feedback_incorrect": "Sister necesita she.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T02-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee el diálogo con ritmo natural.",
+          "prompt": "I am Luis. She is my sister. We are friends. They are teachers.",
+          "evaluation_criteria": [
+            "clear pronouns",
+            "to be forms audible",
+            "understandable rhythm"
+          ],
+          "feedback_correct": "La meta es mantener el pronombre claro en frases conectadas.",
+          "feedback_incorrect": "Haz énfasis ligero en cada pronombre al practicar.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T02-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y resume.",
+          "prompt": "I am Nina. He is my brother. She is my friend. We are at school. They are our teachers.",
+          "question": "How many relationships or groups are mentioned?",
+          "correct_answer": "Four: brother, friend, we and teachers.",
+          "feedback_correct": "Identificaste varias referencias.",
+          "feedback_incorrect": "Cuenta brother, friend, we y teachers.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T02-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe cinco frases sobre una imagen imaginaria.",
+          "prompt": "Use I, he, she, it, we or they at least once.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five sentences",
+            "pronouns match references",
+            "uses am/is/are"
+          ],
+          "feedback_correct": "Las frases conectan pronombres y referentes.",
+          "feedback_incorrect": "Comprueba cada sujeto con am, is o are.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M1-T02-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Conversa con la IA sobre tu clase.",
+          "prompt": "Introduce yourself, identify one classmate, one teacher, one object and your group.",
+          "role": "native-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses I, he or she, it and we or they",
+            "answers follow-up questions"
+          ],
+          "feedback_correct": "La IA corrige solo el error más importante por turno.",
+          "feedback_incorrect": "La IA ofrece opciones en español y pide reformulación.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        },
+        {
+          "id": "A1-M1-T02-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Describe una escena nueva.",
+          "prompt": "Look around you and say who or what is present using three different pronouns.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "three pronouns",
+            "clear references",
+            "understandable speech"
+          ],
+          "feedback_correct": "Usaste el contenido fuera de las frases memorizadas.",
+          "feedback_incorrect": "Señala una persona, otra persona o grupo y un objeto.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T02-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación del tema.",
+          "prompt": "Introduce yourself, describe two people, one object and one group, then answer one question from the AI.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "pronoun accuracy",
+            "am/is/are agreement",
+            "intelligibility",
+            "transfer"
+          ],
+          "feedback_correct": "Tema dominado: puedes elegir pronombres según el referente.",
+          "feedback_incorrect": "Repite la lección relacionada con el pronombre que causó dificultad.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  },
+  "activity_count": 40,
+  "lesson_count": 4
+}

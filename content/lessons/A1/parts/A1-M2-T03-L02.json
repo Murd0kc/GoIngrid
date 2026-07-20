@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T03-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Auxiliares do y does",
+  "title":"Does in questions",
+  "objective":"Usar does para preguntas con he, she e it.",
+  "activities":[
+    {"id":"A1-M2-T03-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ he work here?","options":["Do","Does","Is"],"correct_answer":"Does","feedback_correct":"He usa does.","feedback_incorrect":"Con he usamos Does.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ she like music?","options":["Do","Does","Are"],"correct_answer":"Does","feedback_correct":"She usa does.","feedback_incorrect":"Con she usamos Does.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"does / Where / live / he?","correct_answer":"Where does he live?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Where + does + subject + base verb.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T03-L02-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"Does she likes coffee?","correct_answer":"Does she like coffee?","feedback_correct":"Después de does usamos la forma base.","feedback_incorrect":"Quita la -s de likes.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T03-L02-E05","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"Does it ___ every day?","options":["rain","rains","raining"],"correct_answer":"rain","feedback_correct":"Does lleva el verbo base.","feedback_incorrect":"No uses rains después de does.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T03-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Does Maria study at night? Yes, she does.","question":"Does Maria study at night?","correct_answer":"Yes.","feedback_correct":"Yes, she does confirma.","feedback_incorrect":"Escucha la respuesta corta.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T03-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"Does he work? Does she study?","evaluation_criteria":["does clear","base verb after does","question intonation"],"feedback_correct":"Las preguntas se entienden.","feedback_incorrect":"No añadas -s al verbo después de does.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T03-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Does Ana drive? No, she doesn't. Does she take the bus? Yes, she does.","question":"How does Ana travel?","correct_answer":"By bus.","feedback_correct":"Take the bus indica cómo viaja.","feedback_incorrect":"Busca la segunda pregunta.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T03-L02-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas.","prompt":"Write five Does questions about a person's routine.","response_type":"open","evaluation_criteria":["five Does questions","base verbs","he/she/it"],"feedback_correct":"Las preguntas usan Does correctamente.","feedback_incorrect":"Usa Does + he/she/it + base verb.","difficulty":2,"estimated_seconds":95},
+    {"id":"A1-M2-T03-L02-E10","type":"roleplay","skill":"interaction","instruction":"Entrevista sobre una tercera persona.","prompt":"Ask the AI five questions about a fictional person's routine.","role":"classmate","response_type":"open_speaking","success_criteria":["five Does questions","short answers","base verbs"],"feedback_correct":"La entrevista tiene buena estructura.","feedback_incorrect":"Recuerda Does para he, she e it.","difficulty":2,"estimated_seconds":120}
+  ]
+}

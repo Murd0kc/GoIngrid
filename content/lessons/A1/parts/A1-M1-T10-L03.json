@@ -1,0 +1,20 @@
+{
+  "id":"A1-M1-T10-L03",
+  "level":"A1",
+  "module_code":"A1-M1",
+  "topic":"Preposiciones básicas",
+  "title":"Between, near and far from",
+  "objective":"Ubicar lugares y objetos con relaciones espaciales adicionales.",
+  "activities":[
+    {"id":"A1-M1-T10-L03-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The cafe is ___ the bank and the hotel.","options":["between","under","on"],"correct_answer":"between","feedback_correct":"Between se usa entre dos lugares.","feedback_incorrect":"Hay dos referencias: bank y hotel.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L03-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The school is ___ the station.","options":["near","in","under"],"correct_answer":"near","feedback_correct":"Near significa cerca de.","feedback_incorrect":"La escuela está cerca de la estación.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L03-E03","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"The village is far ___ the city.","options":["from","on","at"],"correct_answer":"from","feedback_correct":"La expresión es far from.","feedback_incorrect":"Usa far from para distancia.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M1-T10-L03-E04","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"is / The / shop / between / bank / the / and / cafe / the","correct_answer":"The shop is between the bank and the cafe.","feedback_correct":"Frase correcta.","feedback_incorrect":"Between conecta dos lugares con and.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M1-T10-L03-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"The park is between the school.","correct_answer":"The park is between the school and the bank.","feedback_correct":"Between necesita dos referencias.","feedback_incorrect":"Añade una segunda referencia y and.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M1-T10-L03-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"The museum is near the station.","options":["cerca de la estación","lejos de la estación","dentro de la estación"],"correct_answer":"cerca de la estación","feedback_correct":"Near significa cerca.","feedback_incorrect":"Escucha near.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M1-T10-L03-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"between the bank and the cafe; far from the city","evaluation_criteria":["between clear","and connected","far from final consonants"],"feedback_correct":"Las relaciones espaciales se comprenden.","feedback_incorrect":"Marca between y from.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M1-T10-L03-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"The hotel is near the airport but far from the city center.","question":"What is far from the hotel?","correct_answer":"The city center.","feedback_correct":"La respuesta está después de far from.","feedback_incorrect":"Busca la segunda relación.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M1-T10-L03-E09","type":"writing","skill":"writing","instruction":"Describe un mapa.","prompt":"Write five sentences using between, near and far from.","response_type":"open","evaluation_criteria":["five locations","two references with between","clear relations"],"feedback_correct":"El mapa tiene relaciones claras.","feedback_incorrect":"Between debe tener dos lugares.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M1-T10-L03-E10","type":"roleplay","skill":"interaction","instruction":"Da indicaciones espaciales.","prompt":"Explain where a cafe, station and hotel are using near, between and far from.","role":"visitor","response_type":"open_speaking","success_criteria":["three prepositions","clear references"],"feedback_correct":"La explicación ayuda al visitante.","feedback_incorrect":"Usa cada preposición con su estructura completa.","difficulty":2,"estimated_seconds":110}
+  ]
+}

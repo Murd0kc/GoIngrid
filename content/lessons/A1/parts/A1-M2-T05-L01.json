@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T05-L01",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Negaciones",
+  "title":"Do not and does not",
+  "objective":"Formar negaciones en presente simple.",
+  "activities":[
+    {"id":"A1-M2-T05-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"I ___ like coffee.","options":["don't","doesn't","am not"],"correct_answer":"don't","feedback_correct":"I usa don't.","feedback_incorrect":"Con I usamos don't.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L01-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"She ___ work on Sundays.","options":["don't","doesn't","isn't"],"correct_answer":"doesn't","feedback_correct":"She usa doesn't.","feedback_incorrect":"Con she usamos doesn't.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L01-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"don't / We / meat / eat","correct_answer":"We don't eat meat.","feedback_correct":"Do not va antes del verbo base.","feedback_incorrect":"Usa subject + don't + base verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T05-L01-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"He doesn't likes tea.","correct_answer":"He doesn't like tea.","feedback_correct":"Después de doesn't usamos la forma base.","feedback_incorrect":"Quita la -s de likes.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T05-L01-E05","type":"multiple_choice","skill":"grammar","instruction":"Elige.","prompt":"They ___ live here.","options":["don't","doesn't","aren't"],"correct_answer":"don't","feedback_correct":"They usa don't.","feedback_incorrect":"Un sujeto plural usa don't.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"I don't work at night.","question":"Does the person work at night?","correct_answer":"No.","feedback_correct":"Don't expresa negación.","feedback_incorrect":"Escucha don't work.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T05-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"I don't work. She doesn't drive.","evaluation_criteria":["don't clear","doesn't clear","base verbs"],"feedback_correct":"Las negaciones se oyen claramente.","feedback_incorrect":"No elimines la contracción.","difficulty":2,"estimated_seconds":70},
+    {"id":"A1-M2-T05-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Marco doesn't cook. He doesn't eat meat.","question":"What doesn't Marco do?","correct_answer":"He doesn't cook.","feedback_correct":"La primera negación responde.","feedback_incorrect":"Busca doesn't cook.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T05-L01-E09","type":"writing","skill":"writing","instruction":"Escribe negaciones.","prompt":"Write five things you do not do or like.","response_type":"open","evaluation_criteria":["five negative sentences","don't/doesn't","base verbs"],"feedback_correct":"Las negaciones están bien formadas.","feedback_incorrect":"Usa don't con I/you/we/they y doesn't con he/she/it.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T05-L01-E10","type":"roleplay","skill":"interaction","instruction":"Habla de preferencias.","prompt":"Tell the AI five things you do not like or do not do.","role":"new friend","response_type":"open_speaking","success_criteria":["five negatives","correct auxiliary","clear meaning"],"feedback_correct":"La conversación expresa límites y preferencias.","feedback_incorrect":"Revisa el sujeto y el auxiliar.","difficulty":2,"estimated_seconds":120}
+  ]
+}

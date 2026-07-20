@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T05-L02",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Negaciones",
+  "title":"Affirmative and negative contrast",
+  "objective":"Contrastar lo que alguien hace y no hace.",
+  "activities":[
+    {"id":"A1-M2-T05-L02-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"I work, but I ___ study there.","options":["don't","doesn't","not"],"correct_answer":"don't","feedback_correct":"I usa don't.","feedback_incorrect":"Usa don't antes de study.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L02-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"She likes tea, but she ___ like coffee.","options":["don't","doesn't","isn't"],"correct_answer":"doesn't","feedback_correct":"She usa doesn't.","feedback_incorrect":"Usa doesn't con she.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L02-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"doesn't / He / drive / at night","correct_answer":"He doesn't drive at night.","feedback_correct":"Negación correcta.","feedback_incorrect":"Usa He doesn't + base verb.","difficulty":1,"estimated_seconds":40},
+    {"id":"A1-M2-T05-L02-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"They doesn't eat fish.","correct_answer":"They don't eat fish.","feedback_correct":"They usa don't.","feedback_incorrect":"Cambia doesn't por don't.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M2-T05-L02-E05","type":"matching","skill":"grammar","instruction":"Relaciona.","prompt":"She doesn't","options":["works","work","working"],"correct_answer":"work","feedback_correct":"Después de doesn't va la forma base.","feedback_incorrect":"Quita la -s.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T05-L02-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"He plays tennis, but he doesn't play soccer.","options":["juega tenis, no fútbol","no juega ningún deporte","juega fútbol, no tenis"],"correct_answer":"juega tenis, no fútbol","feedback_correct":"Entendiste el contraste.","feedback_incorrect":"Escucha plays y doesn't play.","difficulty":2,"estimated_seconds":50},
+    {"id":"A1-M2-T05-L02-E07","type":"pronunciation","skill":"pronunciation","instruction":"Lee.","prompt":"I work, but I don't study. She cooks, but she doesn't eat meat.","evaluation_criteria":["contrast stress","don't/doesn't audible","base verb"],"feedback_correct":"El contraste se entiende.","feedback_incorrect":"Marca but y la negación.","difficulty":2,"estimated_seconds":80},
+    {"id":"A1-M2-T05-L02-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Luis works in an office, but he doesn't live near it. He takes the bus.","question":"Does Luis live near the office?","correct_answer":"No.","feedback_correct":"He doesn't live near it.","feedback_incorrect":"Busca la negación.","difficulty":2,"estimated_seconds":45},
+    {"id":"A1-M2-T05-L02-E09","type":"writing","skill":"writing","instruction":"Escribe contrastes.","prompt":"Write five pairs: one thing a person does and one thing the person doesn't do.","response_type":"open","evaluation_criteria":["five contrasts","does/doesn't","base verbs"],"feedback_correct":"Los contrastes son claros.","feedback_incorrect":"Usa but para conectar afirmación y negación.","difficulty":2,"estimated_seconds":100},
+    {"id":"A1-M2-T05-L02-E10","type":"roleplay","skill":"interaction","instruction":"Compara hábitos.","prompt":"Tell the AI what you do and do not do on weekdays.","role":"coworker","response_type":"open_speaking","success_criteria":["affirmatives","negatives","but contrasts"],"feedback_correct":"La comparación es natural.","feedback_incorrect":"Usa I do... but I don't... .","difficulty":2,"estimated_seconds":120}
+  ]
+}

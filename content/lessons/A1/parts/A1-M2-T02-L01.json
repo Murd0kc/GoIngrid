@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T02-L01",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Presente simple",
+  "title":"Daily routines",
+  "objective":"Usar el presente simple para hablar de hábitos y rutinas.",
+  "activities":[
+    {"id":"A1-M2-T02-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"I ___ breakfast at seven.","options":["eat","eats","eating"],"correct_answer":"eat","feedback_correct":"I usa la forma base.","feedback_incorrect":"Con I usamos eat.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L01-E02","type":"multiple_choice","skill":"vocabulary","instruction":"Elige.","prompt":"I ___ to work every day.","options":["go","goes","going"],"correct_answer":"go","feedback_correct":"Go significa ir.","feedback_incorrect":"Después de I usa go.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L01-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"English / study / I / every day","correct_answer":"I study English every day.","feedback_correct":"Presente simple correcto.","feedback_incorrect":"Empieza con I y usa study.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T02-L01-E04","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"I studies English.","correct_answer":"I study English.","feedback_correct":"I no lleva -s.","feedback_incorrect":"Usa la forma base con I.","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M2-T02-L01-E05","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"We ___ at home on Sundays.","options":["cook","cooks","cooking"],"correct_answer":"cook","feedback_correct":"We usa la forma base.","feedback_incorrect":"Con we usa cook.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T02-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y elige.","prompt":"They work every morning.","options":["trabajan cada mañana","estudian cada noche","cocinan los domingos"],"correct_answer":"trabajan cada mañana","feedback_correct":"Entendiste el hábito.","feedback_incorrect":"Work significa trabajar y every morning cada mañana.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T02-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"I work. We study. They live.","evaluation_criteria":["base verb clear","final consonants","natural rhythm"],"feedback_correct":"Los hábitos se entienden claramente.","feedback_incorrect":"No añadas una vocal al final del verbo.","difficulty":1,"estimated_seconds":70},
+    {"id":"A1-M2-T02-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"Ana gets up at six. She eats breakfast and goes to work.","question":"What time does Ana get up?","correct_answer":"At six.","feedback_correct":"La hora aparece en la primera frase.","feedback_incorrect":"Busca gets up at... .","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T02-L01-E09","type":"writing","skill":"writing","instruction":"Escribe una rutina.","prompt":"Write five sentences about your daily routine.","response_type":"open","evaluation_criteria":["five present simple sentences","time expressions","clear meaning"],"feedback_correct":"La rutina está expresada en presente simple.","feedback_incorrect":"Usa la forma base con I, you, we o they.","difficulty":1,"estimated_seconds":90},
+    {"id":"A1-M2-T02-L01-E10","type":"roleplay","skill":"interaction","instruction":"Habla de tu rutina.","prompt":"Tell the AI five things you do every day.","role":"new classmate","response_type":"open_speaking","success_criteria":["five present simple statements","time expression"],"feedback_correct":"La rutina es comprensible.","feedback_incorrect":"Usa sujeto + verbo base + complemento.","difficulty":2,"estimated_seconds":120}
+  ]
+}

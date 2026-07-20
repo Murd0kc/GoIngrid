@@ -1,0 +1,796 @@
+{
+  "id": "A1-M2-T08",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic": "Pronombres de objeto",
+  "title": "Pronombres de objeto",
+  "estimated_seconds": null,
+  "communication_goal": "Usar pronombres de objeto en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to pronombres de objeto."
+  ],
+  "explanation_es": "Este tema desarrolla pronombres de objeto mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M2-T08-L01",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Pronombres de objeto",
+      "title": "Who receives the action?",
+      "objective": "Reconocer y usar me, you, him, her, it, us y them después de un verbo o una preposición.",
+      "activities": [
+        {
+          "id": "A1-M2-T08-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige el pronombre correcto.",
+          "prompt": "She calls ___.",
+          "options": [
+            "I",
+            "me",
+            "my"
+          ],
+          "correct_answer": "me",
+          "feedback_correct": "Después del verbo usamos el pronombre de objeto me.",
+          "feedback_incorrect": "La persona recibe la acción de calls: usa me.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la oración.",
+          "prompt": "I see ___. (he)",
+          "options": [
+            "he",
+            "him",
+            "his"
+          ],
+          "correct_answer": "him",
+          "feedback_correct": "He cambia a him cuando recibe la acción.",
+          "feedback_incorrect": "Después de see necesitamos la forma de objeto de he.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la oración.",
+          "prompt": "We help ___. (they)",
+          "options": [
+            "they",
+            "their",
+            "them"
+          ],
+          "correct_answer": "them",
+          "feedback_correct": "Them es la forma de objeto de they.",
+          "feedback_incorrect": "La acción de help recae en ellos: usa them.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une cada pronombre sujeto con su pronombre de objeto.",
+          "pairs": [
+            {
+              "left": "I",
+              "right": "me"
+            },
+            {
+              "left": "he",
+              "right": "him"
+            },
+            {
+              "left": "she",
+              "right": "her"
+            },
+            {
+              "left": "we",
+              "right": "us"
+            },
+            {
+              "left": "they",
+              "right": "them"
+            }
+          ],
+          "feedback_correct": "Reconoces las parejas sujeto-objeto.",
+          "feedback_incorrect": "Recuerda que la forma cambia después del verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T08-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la oración.",
+          "prompt": "likes / Maria / him",
+          "correct_answer": "Maria likes him.",
+          "feedback_correct": "El orden básico es sujeto + verbo + objeto.",
+          "feedback_incorrect": "Coloca a Maria primero y el pronombre después del verbo.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T08-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige a quién ayuda Ana.",
+          "prompt": "Ana helps us every morning.",
+          "question": "Who does Ana help?",
+          "options": [
+            "We.",
+            "Us.",
+            "They."
+          ],
+          "correct_answer": "Us.",
+          "feedback_correct": "Us recibe la acción de help.",
+          "feedback_incorrect": "Escucha la palabra que aparece después de helps.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T08-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Repite las oraciones.",
+          "prompt": "I see him. She helps me. We know them.",
+          "evaluation_criteria": [
+            "clear final consonants",
+            "pronounces him and them distinctly",
+            "keeps subject-verb-object rhythm"
+          ],
+          "feedback_correct": "Los pronombres finales se entienden con claridad.",
+          "feedback_incorrect": "Marca suavemente la consonante final de him y them.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M2-T08-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Leo has a new teacher. He likes her because she explains English clearly. She also helps him after class.",
+          "question": "Who helps Leo?",
+          "correct_answer": "His teacher helps him.",
+          "feedback_correct": "Her se refiere a la profesora y him a Leo.",
+          "feedback_incorrect": "Busca quién realiza la acción de helps.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T08-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe cinco oraciones.",
+          "prompt": "Write five sentences using me, you, him, her, it, us, or them after a verb.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "object pronoun after verb",
+            "clear subject and verb",
+            "meaning is understandable",
+            "basic spelling"
+          ],
+          "feedback_correct": "Usaste pronombres de objeto en oraciones completas.",
+          "feedback_incorrect": "Comprueba que el pronombre aparece después del verbo, no antes como sujeto.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T08-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Habla con la IA sobre personas conocidas.",
+          "prompt": "Tell the AI who you help, call, visit, or know. The AI asks follow-up questions using object pronouns.",
+          "role": "friendly English-speaking classmate",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses at least four object pronouns",
+            "places pronouns after verbs or prepositions",
+            "understands follow-up questions",
+            "speaks for six turns"
+          ],
+          "feedback_correct": "Describes relationships and actions using object pronouns naturally.",
+          "feedback_incorrect": "La IA reformula tus frases y te pide repetir solo la parte necesaria.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T08-L02",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Pronombres de objeto",
+      "title": "Object pronouns after prepositions",
+      "objective": "Usar pronombres de objeto después de preposiciones y en expresiones cotidianas.",
+      "activities": [
+        {
+          "id": "A1-M2-T08-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la forma correcta.",
+          "prompt": "This gift is for ___. (she)",
+          "options": [
+            "she",
+            "her",
+            "hers"
+          ],
+          "correct_answer": "her",
+          "feedback_correct": "Después de for usamos her.",
+          "feedback_incorrect": "Después de una preposición necesitamos un pronombre de objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la oración.",
+          "prompt": "Come with ___. (we)",
+          "options": [
+            "we",
+            "our",
+            "us"
+          ],
+          "correct_answer": "us",
+          "feedback_correct": "With va seguido de us.",
+          "feedback_incorrect": "Us es la forma de objeto de we.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la oración.",
+          "prompt": "I am talking to ___. (they)",
+          "options": [
+            "they",
+            "them",
+            "their"
+          ],
+          "correct_answer": "them",
+          "feedback_correct": "To se combina con them cuando ellos reciben la acción.",
+          "feedback_incorrect": "Usa la forma de objeto de they después de to.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L02-E04",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige el error.",
+          "prompt": "Please sit next to I.",
+          "correct_answer": "Please sit next to me.",
+          "feedback_correct": "Next to es una preposición y debe ir seguida de me.",
+          "feedback_incorrect": "Después de next to no usamos I; usamos me.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T08-L02-E05",
+          "type": "matching",
+          "skill": "grammar",
+          "instruction": "Une la expresión con el pronombre correcto.",
+          "pairs": [
+            {
+              "left": "for",
+              "right": "him"
+            },
+            {
+              "left": "with",
+              "right": "us"
+            },
+            {
+              "left": "to",
+              "right": "her"
+            },
+            {
+              "left": "from",
+              "right": "them"
+            },
+            {
+              "left": "about",
+              "right": "me"
+            }
+          ],
+          "feedback_correct": "Las preposiciones llevan pronombres de objeto.",
+          "feedback_incorrect": "No uses I, he, she, we o they después de una preposición.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T08-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y selecciona la persona correcta.",
+          "prompt": "Can you come with me? Yes, I can come with you.",
+          "question": "Who can come with the speaker?",
+          "options": [
+            "Me.",
+            "You.",
+            "Her."
+          ],
+          "correct_answer": "You.",
+          "feedback_correct": "You es el pronombre de objeto de la segunda persona.",
+          "feedback_incorrect": "Escucha la segunda parte: with you.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T08-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Repite las frases con ritmo natural.",
+          "prompt": "Come with me. This is for you. Talk to her. Sit near us.",
+          "evaluation_criteria": [
+            "clear weak forms",
+            "pronounces me, you, her, us distinctly",
+            "smooth phrase rhythm"
+          ],
+          "feedback_correct": "Los pronombres se escuchan claros después de las preposiciones.",
+          "feedback_incorrect": "No acentúes todas las palabras; mantén la frase fluida y marca el pronombre final.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M2-T08-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mensaje y responde.",
+          "prompt": "Hi, Sam. Please bring the book for me. You can sit with Anna and talk to her about the class. See you later!",
+          "question": "Who should Sam talk to?",
+          "correct_answer": "Anna.",
+          "feedback_correct": "Her se refiere a Anna.",
+          "feedback_incorrect": "Busca el nombre relacionado con talk to her.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T08-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Completa frases sobre tus relaciones.",
+          "prompt": "Write six sentences using for, with, to, from, about, or near plus an object pronoun.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "preposition plus object pronoun",
+            "six complete sentences",
+            "correct spelling",
+            "understandable meaning"
+          ],
+          "feedback_correct": "Usaste correctamente los pronombres después de preposiciones.",
+          "feedback_incorrect": "Revisa que escribiste me, you, him, her, it, us o them después de la preposición.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M2-T08-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Organiza un encuentro con la IA.",
+          "prompt": "Invite a friend to meet. Say who the invitation is for, who can come with you, and who you want to talk to.",
+          "role": "friendly English-speaking friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses at least five preposition-object combinations",
+            "responds to invitations",
+            "asks one follow-up question",
+            "speaks for six turns"
+          ],
+          "feedback_correct": "Usas los pronombres de objeto en una situación real.",
+          "feedback_incorrect": "La IA te corrige una combinación cada vez y te pide repetirla en contexto.",
+          "difficulty": 2,
+          "estimated_seconds": 140
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T08-L03",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Pronombres de objeto",
+      "title": "Subject or object?",
+      "objective": "Distinguir pronombres de sujeto y objeto y usarlos correctamente en oraciones cotidianas.",
+      "activities": [
+        {
+          "id": "A1-M2-T08-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción correcta.",
+          "prompt": "___ likes music. (She / Her)",
+          "options": [
+            "She",
+            "Her"
+          ],
+          "correct_answer": "She",
+          "feedback_correct": "She realiza la acción, por eso es sujeto.",
+          "feedback_incorrect": "Antes del verbo usamos el pronombre de sujeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la opción correcta.",
+          "prompt": "I like ___. (she / her)",
+          "options": [
+            "she",
+            "her"
+          ],
+          "correct_answer": "her",
+          "feedback_correct": "Her recibe la acción de like.",
+          "feedback_incorrect": "Después del verbo usamos la forma de objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa el diálogo.",
+          "prompt": "Who is at the door? ___ is my brother. I can see ___.",
+          "options": [
+            "He / him",
+            "Him / he",
+            "He / he"
+          ],
+          "correct_answer": "He / him",
+          "feedback_correct": "He es sujeto y him es objeto.",
+          "feedback_incorrect": "El primer pronombre hace la acción; el segundo recibe la acción.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M2-T08-L03-E04",
+          "type": "sorting",
+          "skill": "grammar",
+          "instruction": "Clasifica los pronombres.",
+          "items": [
+            "I",
+            "me",
+            "he",
+            "him",
+            "she",
+            "her",
+            "we",
+            "us",
+            "they",
+            "them"
+          ],
+          "groups": {
+            "subject": [
+              "I",
+              "he",
+              "she",
+              "we",
+              "they"
+            ],
+            "object": [
+              "me",
+              "him",
+              "her",
+              "us",
+              "them"
+            ]
+          },
+          "feedback_correct": "Separaste correctamente las formas de sujeto y objeto.",
+          "feedback_incorrect": "El sujeto suele ir antes del verbo; el objeto después del verbo o preposición.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T08-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la oración.",
+          "prompt": "Me and Carlos study English.",
+          "correct_answer": "Carlos and I study English.",
+          "feedback_correct": "I es sujeto porque realiza la acción de study.",
+          "feedback_incorrect": "La oración necesita un pronombre de sujeto antes del verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M2-T08-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y completa la respuesta.",
+          "prompt": "Who helps you at work? My manager helps me. Who does your manager help? She helps us.",
+          "question": "Who does the manager help?",
+          "options": [
+            "We.",
+            "Us.",
+            "Our."
+          ],
+          "correct_answer": "Us.",
+          "feedback_correct": "Us recibe la acción de helps.",
+          "feedback_incorrect": "Escucha la palabra final de la respuesta.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T08-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba los pares de frases.",
+          "prompt": "I know her. She knows me. They help us. We help them.",
+          "evaluation_criteria": [
+            "clear contrast between subject and object",
+            "final sounds are audible",
+            "natural sentence stress"
+          ],
+          "feedback_correct": "Se entiende quién realiza y quién recibe cada acción.",
+          "feedback_incorrect": "Enfatiza ligeramente el pronombre importante sin separar demasiado las palabras.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M2-T08-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Ben and I work together. He often helps me, and I help him with Spanish. Our friends visit us on Fridays, and we invite them for dinner.",
+          "question": "Who does Ben help?",
+          "correct_answer": "He helps me.",
+          "feedback_correct": "Me se refiere a la persona que habla.",
+          "feedback_incorrect": "Busca la oración con helps y observa quién aparece después del verbo.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M2-T08-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Transforma las oraciones.",
+          "prompt": "Rewrite four sentences by replacing the repeated noun with an object pronoun: I call Maria; We visit our friends; She helps Carlos; They invite my sister.",
+          "response_type": "open",
+          "expected_answers": [
+            "I call her.",
+            "We visit them.",
+            "She helps him.",
+            "They invite her."
+          ],
+          "evaluation_criteria": [
+            "correct object pronoun",
+            "meaning preserved",
+            "correct punctuation"
+          ],
+          "feedback_correct": "Sustituiste los nombres por pronombres de objeto adecuados.",
+          "feedback_incorrect": "Identifica si el nombre recibe la acción y elige me, him, her, it, us o them.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T08-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Describe una red de ayuda.",
+          "prompt": "Tell the AI who helps you and whom you help at home, work, or school. Correct the AI if it uses a subject pronoun after a verb.",
+          "role": "supportive English tutor",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses subject pronouns before verbs",
+            "uses object pronouns after verbs",
+            "gives at least four examples",
+            "speaks for six turns"
+          ],
+          "feedback_correct": "Distingues sujeto y objeto mientras conversas.",
+          "feedback_incorrect": "La IA muestra el contraste y te pide reformular la frase completa.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        }
+      ]
+    },
+    {
+      "id": "A1-M2-T08-L04",
+      "level": "A1",
+      "module_code": "A1-M2",
+      "topic": "Pronombres de objeto",
+      "title": "Object pronouns review",
+      "objective": "Integrar los pronombres de objeto en situaciones de comunicación cotidiana.",
+      "activities": [
+        {
+          "id": "A1-M2-T08-L04-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la respuesta correcta.",
+          "prompt": "Can you help ___?",
+          "options": [
+            "I",
+            "me",
+            "my"
+          ],
+          "correct_answer": "me",
+          "feedback_correct": "Help recibe un pronombre de objeto: me.",
+          "feedback_incorrect": "Después del verbo help usa la forma de objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa el diálogo.",
+          "prompt": "I know Anna. Do you know ___?",
+          "options": [
+            "she",
+            "her",
+            "hers"
+          ],
+          "correct_answer": "her",
+          "feedback_correct": "Her recibe la acción de know.",
+          "feedback_incorrect": "Después de know usa el pronombre de objeto de she.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la forma correcta.",
+          "prompt": "My friends are here. I want to talk to ___.",
+          "options": [
+            "they",
+            "them",
+            "their"
+          ],
+          "correct_answer": "them",
+          "feedback_correct": "Después de to usamos them.",
+          "feedback_incorrect": "Talk to necesita la forma de objeto de they.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M2-T08-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la oración.",
+          "prompt": "every day / calls / me / my mother",
+          "correct_answer": "My mother calls me every day.",
+          "feedback_correct": "Sujeto + verbo + objeto + tiempo.",
+          "feedback_incorrect": "Coloca My mother antes del verbo y me después de calls.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M2-T08-L04-E05",
+          "type": "matching",
+          "skill": "grammar",
+          "instruction": "Relaciona cada situación con la frase correcta.",
+          "pairs": [
+            {
+              "left": "Tu amigo te ayuda",
+              "right": "He helps me."
+            },
+            {
+              "left": "Tú ayudas a tu amiga",
+              "right": "I help her."
+            },
+            {
+              "left": "Ellos nos visitan",
+              "right": "They visit us."
+            },
+            {
+              "left": "Nosotros los conocemos",
+              "right": "We know them."
+            }
+          ],
+          "feedback_correct": "Elegiste el pronombre según quién recibe la acción.",
+          "feedback_incorrect": "Pregunta: ¿quién recibe la acción del verbo?",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M2-T08-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el diálogo y responde.",
+          "prompt": "I invited Julia and Mark. I will meet them at six. Can you come with us? Yes, I can join you.",
+          "question": "Who will the speaker meet?",
+          "options": [
+            "Julia and Mark.",
+            "The listener only.",
+            "The speaker's teacher."
+          ],
+          "correct_answer": "Julia and Mark.",
+          "feedback_correct": "Them se refiere a Julia y Mark.",
+          "feedback_incorrect": "Identifica a quién se refiere them en la primera oración.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T08-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba el diálogo completo.",
+          "prompt": "A: Can you help me? B: Yes, I can help you. A: Please call her. B: I will call her now.",
+          "evaluation_criteria": [
+            "clear object pronouns",
+            "understandable connected speech",
+            "appropriate dialogue rhythm",
+            "final sounds are not omitted"
+          ],
+          "feedback_correct": "Los pronombres se entienden dentro del diálogo.",
+          "feedback_incorrect": "Practica cada línea y después une las respuestas sin pausas excesivas.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M2-T08-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el chat y responde.",
+          "prompt": "Nina: I have two tickets for you and me. Carlos: Great! Can I bring my sister? Nina: Yes, bring her. I know your friends too, so invite them.",
+          "question": "Who can Carlos bring?",
+          "correct_answer": "His sister.",
+          "feedback_correct": "Her se refiere a la hermana de Carlos.",
+          "feedback_incorrect": "Busca la frase después de Can I bring.",
+          "difficulty": 2,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M2-T08-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un mensaje breve.",
+          "prompt": "Write a six-sentence message inviting a friend. Use at least six object pronouns and include one preposition-object combination.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six sentences",
+            "six object pronouns",
+            "one preposition plus object pronoun",
+            "clear invitation",
+            "basic punctuation"
+          ],
+          "feedback_correct": "El mensaje usa los pronombres de forma funcional y comprensible.",
+          "feedback_incorrect": "Revisa cada verbo y preposición: la persona que recibe la acción necesita una forma de objeto.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M2-T08-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve un plan con la IA.",
+          "prompt": "Plan a small dinner with the AI. Invite people, say who can come with you, ask who the food is for, and explain whom you will call.",
+          "role": "native-speaking friend planning dinner",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses at least eight object pronouns",
+            "uses pronouns after verbs and prepositions",
+            "asks and answers follow-up questions",
+            "maintains eight turns"
+          ],
+          "feedback_correct": "Usas los pronombres para organizar una conversación auténtica.",
+          "feedback_incorrect": "La IA corrige el pronombre dentro de la frase y te permite repetirla con naturalidad.",
+          "difficulty": 2,
+          "estimated_seconds": 170
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

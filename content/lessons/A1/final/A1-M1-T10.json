@@ -1,0 +1,696 @@
+{
+  "id": "A1-M1-T10",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic": "Preposiciones básicas",
+  "title": "Preposiciones básicas",
+  "estimated_seconds": null,
+  "communication_goal": "Usar preposiciones básicas en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to preposiciones básicas."
+  ],
+  "explanation_es": "Este tema desarrolla preposiciones básicas mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M1-T10-L01",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Preposiciones básicas",
+      "title": "In, on and under",
+      "objective": "Ubicar objetos con in, on y under.",
+      "activities": [
+        {
+          "id": "A1-M1-T10-L01-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The keys are ___ the bag.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "correct_answer": "in",
+          "feedback_correct": "In indica dentro de.",
+          "feedback_incorrect": "Las llaves están dentro del bolso.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L01-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The book is ___ the table.",
+          "options": [
+            "in",
+            "on",
+            "under"
+          ],
+          "correct_answer": "on",
+          "feedback_correct": "On indica sobre una superficie.",
+          "feedback_incorrect": "El libro está sobre la mesa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L01-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The cat is ___ the chair.",
+          "options": [
+            "under",
+            "on",
+            "in"
+          ],
+          "correct_answer": "under",
+          "feedback_correct": "Under indica debajo de.",
+          "feedback_incorrect": "El gato está debajo de la silla.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L01-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / The / bag / under / table / the",
+          "correct_answer": "The bag is under the table.",
+          "feedback_correct": "La ubicación está bien expresada.",
+          "feedback_incorrect": "Usa noun + is + preposition + place.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L01-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "The phone is in the table.",
+          "correct_answer": "The phone is on the table.",
+          "feedback_correct": "El teléfono está sobre la superficie.",
+          "feedback_incorrect": "Para una superficie usa on.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "The pen is in the box.",
+          "options": [
+            "dentro de la caja",
+            "sobre la caja",
+            "debajo de la caja"
+          ],
+          "correct_answer": "dentro de la caja",
+          "feedback_correct": "In significa dentro de.",
+          "feedback_incorrect": "Escucha in the box.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "in the bag, on the table, under the chair",
+          "evaluation_criteria": [
+            "prepositions clear",
+            "connected speech",
+            "final consonants"
+          ],
+          "feedback_correct": "Las relaciones espaciales se entienden.",
+          "feedback_incorrect": "Practica cada grupo lentamente.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T10-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "The wallet is on the desk. The keys are in the drawer.",
+          "question": "Where are the keys?",
+          "correct_answer": "In the drawer.",
+          "feedback_correct": "Las llaves están dentro del cajón.",
+          "feedback_incorrect": "Busca la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Ubica objetos.",
+          "prompt": "Write six sentences using in, on and under.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six locations",
+            "correct prepositions"
+          ],
+          "feedback_correct": "Las ubicaciones son claras.",
+          "feedback_incorrect": "Clasifica dentro, superficie y debajo.",
+          "difficulty": 1,
+          "estimated_seconds": 85
+        },
+        {
+          "id": "A1-M1-T10-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Ayuda a encontrar objetos.",
+          "prompt": "Tell the AI where three objects are in a room.",
+          "role": "friend",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "uses in",
+            "uses on",
+            "uses under"
+          ],
+          "feedback_correct": "La información permite encontrar los objetos.",
+          "feedback_incorrect": "Usa in, on o under según la posición.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T10-L02",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Preposiciones básicas",
+      "title": "Next to, behind and in front of",
+      "objective": "Describir posiciones relativas entre objetos.",
+      "activities": [
+        {
+          "id": "A1-M1-T10-L02-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The chair is ___ the desk.",
+          "options": [
+            "next to",
+            "in",
+            "under"
+          ],
+          "correct_answer": "next to",
+          "feedback_correct": "Next to significa al lado de.",
+          "feedback_incorrect": "La silla está al lado del escritorio.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L02-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The garden is ___ the house.",
+          "options": [
+            "behind",
+            "on",
+            "in"
+          ],
+          "correct_answer": "behind",
+          "feedback_correct": "Behind significa detrás de.",
+          "feedback_incorrect": "El jardín está detrás de la casa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L02-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The car is ___ the house.",
+          "options": [
+            "in front of",
+            "under",
+            "in"
+          ],
+          "correct_answer": "in front of",
+          "feedback_correct": "In front of significa delante de.",
+          "feedback_incorrect": "El carro está delante de la casa.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L02-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / The / bank / next to / library / the",
+          "correct_answer": "The bank is next to the library.",
+          "feedback_correct": "Frase correcta.",
+          "feedback_incorrect": "Usa noun + is + next to + place.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "The school is behind of the park.",
+          "correct_answer": "The school is behind the park.",
+          "feedback_correct": "Behind no necesita of.",
+          "feedback_incorrect": "Quita of después de behind.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "The bus is in front of the hotel.",
+          "options": [
+            "delante del hotel",
+            "detrás del hotel",
+            "dentro del hotel"
+          ],
+          "correct_answer": "delante del hotel",
+          "feedback_correct": "In front of indica posición delantera.",
+          "feedback_incorrect": "Escucha in front of.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "next to, behind the house, in front of the store",
+          "evaluation_criteria": [
+            "multiword prepositions clear",
+            "final consonants",
+            "natural rhythm"
+          ],
+          "feedback_correct": "Las posiciones se entienden.",
+          "feedback_incorrect": "Practica cada grupo antes de unirlo.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T10-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "The cafe is next to the bank. The hotel is behind the bank.",
+          "question": "Where is the hotel?",
+          "correct_answer": "Behind the bank.",
+          "feedback_correct": "El hotel está detrás del banco.",
+          "feedback_incorrect": "Busca la segunda frase.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe un mapa.",
+          "prompt": "Write six sentences using next to, behind and in front of.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six locations",
+            "correct multiword prepositions"
+          ],
+          "feedback_correct": "El mapa está descrito claramente.",
+          "feedback_incorrect": "Usa la preposición completa.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T10-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Explica un recorrido.",
+          "prompt": "Tell the AI where three places are relative to each other.",
+          "role": "tourist information agent",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "next to",
+            "behind",
+            "in front of"
+          ],
+          "feedback_correct": "Las indicaciones son útiles.",
+          "feedback_incorrect": "Describe cada lugar con respecto a otro.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T10-L03",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Preposiciones básicas",
+      "title": "Between, near and far from",
+      "objective": "Ubicar lugares y objetos con relaciones espaciales adicionales.",
+      "activities": [
+        {
+          "id": "A1-M1-T10-L03-E01",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The cafe is ___ the bank and the hotel.",
+          "options": [
+            "between",
+            "under",
+            "on"
+          ],
+          "correct_answer": "between",
+          "feedback_correct": "Between se usa entre dos lugares.",
+          "feedback_incorrect": "Hay dos referencias: bank y hotel.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L03-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The school is ___ the station.",
+          "options": [
+            "near",
+            "in",
+            "under"
+          ],
+          "correct_answer": "near",
+          "feedback_correct": "Near significa cerca de.",
+          "feedback_incorrect": "La escuela está cerca de la estación.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L03-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The village is far ___ the city.",
+          "options": [
+            "from",
+            "on",
+            "at"
+          ],
+          "correct_answer": "from",
+          "feedback_correct": "La expresión es far from.",
+          "feedback_incorrect": "Usa far from para distancia.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L03-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / The / shop / between / bank / the / and / cafe / the",
+          "correct_answer": "The shop is between the bank and the cafe.",
+          "feedback_correct": "Frase correcta.",
+          "feedback_incorrect": "Between conecta dos lugares con and.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T10-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "The park is between the school.",
+          "correct_answer": "The park is between the school and the bank.",
+          "feedback_correct": "Between necesita dos referencias.",
+          "feedback_incorrect": "Añade una segunda referencia y and.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "The museum is near the station.",
+          "options": [
+            "cerca de la estación",
+            "lejos de la estación",
+            "dentro de la estación"
+          ],
+          "correct_answer": "cerca de la estación",
+          "feedback_correct": "Near significa cerca.",
+          "feedback_incorrect": "Escucha near.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T10-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba.",
+          "prompt": "between the bank and the cafe; far from the city",
+          "evaluation_criteria": [
+            "between clear",
+            "and connected",
+            "far from final consonants"
+          ],
+          "feedback_correct": "Las relaciones espaciales se comprenden.",
+          "feedback_incorrect": "Marca between y from.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T10-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "The hotel is near the airport but far from the city center.",
+          "question": "What is far from the hotel?",
+          "correct_answer": "The city center.",
+          "feedback_correct": "La respuesta está después de far from.",
+          "feedback_incorrect": "Busca la segunda relación.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Describe un mapa.",
+          "prompt": "Write five sentences using between, near and far from.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "five locations",
+            "two references with between",
+            "clear relations"
+          ],
+          "feedback_correct": "El mapa tiene relaciones claras.",
+          "feedback_incorrect": "Between debe tener dos lugares.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T10-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Da indicaciones espaciales.",
+          "prompt": "Explain where a cafe, station and hotel are using near, between and far from.",
+          "role": "visitor",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "three prepositions",
+            "clear references"
+          ],
+          "feedback_correct": "La explicación ayuda al visitante.",
+          "feedback_incorrect": "Usa cada preposición con su estructura completa.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T10-L04",
+      "level": "A1",
+      "module_code": "A1-M1",
+      "topic": "Preposiciones básicas",
+      "title": "Integrated location task",
+      "objective": "Describir un lugar y dar indicaciones con preposiciones básicas.",
+      "activities": [
+        {
+          "id": "A1-M1-T10-L04-E01",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y elige.",
+          "prompt": "The bank is next to the cafe, behind the hotel and near the station.",
+          "options": [
+            "relaciones de ubicación",
+            "una receta",
+            "una presentación"
+          ],
+          "correct_answer": "relaciones de ubicación",
+          "feedback_correct": "El audio describe un mapa.",
+          "feedback_incorrect": "Escucha next to, behind y near.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T10-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa.",
+          "prompt": "The library is ___ the school and the bank.",
+          "options": [
+            "between",
+            "under",
+            "on"
+          ],
+          "correct_answer": "between",
+          "feedback_correct": "Between conecta dos lugares.",
+          "feedback_incorrect": "Aparecen dos referencias.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T10-L04-E03",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige.",
+          "prompt": "The store is next the bank.",
+          "correct_answer": "The store is next to the bank.",
+          "feedback_correct": "La expresión completa es next to.",
+          "feedback_incorrect": "Añade to.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T10-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena.",
+          "prompt": "is / The / station / near / airport / the",
+          "correct_answer": "The station is near the airport.",
+          "feedback_correct": "Frase correcta.",
+          "feedback_incorrect": "Usa subject + is + near + place.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T10-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee las indicaciones.",
+          "prompt": "The cafe is next to the bank. The hotel is behind the station.",
+          "evaluation_criteria": [
+            "prepositions clear",
+            "natural rhythm",
+            "final consonants"
+          ],
+          "feedback_correct": "Las indicaciones son comprensibles.",
+          "feedback_incorrect": "Practica cada bloque de ubicación.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T10-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "The museum is between the bank and the park. It is near the station.",
+          "question": "Where is the museum?",
+          "correct_answer": "Between the bank and the park, near the station.",
+          "feedback_correct": "Identificaste dos relaciones.",
+          "feedback_incorrect": "Busca between y near.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M1-T10-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe indicaciones.",
+          "prompt": "Describe a small neighborhood with at least seven prepositions.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "seven relations",
+            "variety",
+            "clear references"
+          ],
+          "feedback_correct": "El mapa está bien explicado.",
+          "feedback_incorrect": "Combina in, on, under, next to, behind, between y near.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M1-T10-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Ayuda a un turista.",
+          "prompt": "Give directions from a hotel to a station, cafe and museum using basic prepositions.",
+          "role": "tourist asking for directions",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "four prepositions",
+            "clear sequence",
+            "repair if misunderstood"
+          ],
+          "feedback_correct": "La IA evalúa precisión y utilidad.",
+          "feedback_incorrect": "La IA pide aclarar una ubicación.",
+          "difficulty": 2,
+          "estimated_seconds": 160
+        },
+        {
+          "id": "A1-M1-T10-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Describe tu entorno.",
+          "prompt": "Explain where five real objects or places are around you.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "five prepositions",
+            "clear objects",
+            "intelligibility"
+          ],
+          "feedback_correct": "Aplicaste las preposiciones a tu entorno.",
+          "feedback_incorrect": "Observa primero y elige la relación correcta.",
+          "difficulty": 2,
+          "estimated_seconds": 110
+        },
+        {
+          "id": "A1-M1-T10-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación.",
+          "prompt": "Describe a map, answer three location questions and give directions to one place.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "variety",
+            "accuracy",
+            "clear references",
+            "transfer",
+            "intelligibility"
+          ],
+          "feedback_correct": "Tema dominado.",
+          "feedback_incorrect": "Repasa la preposición relacionada con el error.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

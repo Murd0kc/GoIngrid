@@ -1,0 +1,740 @@
+{
+  "id": "A1-M1-T01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic": "El alfabeto y los sonidos principales",
+  "title": "Letters, names and sounds",
+  "estimated_seconds": 3600,
+  "communication_goal": "Deletrear nombres y palabras básicas y pedir aclaración.",
+  "cefr_objectives": [
+    "Can recognize and name familiar letters.",
+    "Can spell a name or simple word.",
+    "Can ask for repetition or clarification."
+  ],
+  "explanation_es": "El alfabeto inglés tiene 26 letras. El nombre de una letra y el sonido dentro de una palabra pueden ser diferentes. En este tema primero aprendemos a reconocer, decir y deletrear letras.",
+  "key_language": [
+    "How do you spell your name?",
+    "It's A-N-A.",
+    "Could you repeat that, please?",
+    "Is that B or V?"
+  ],
+  "spanish_speaker_notes": [
+    "B /biː/ y V /viː/ deben distinguirse.",
+    "W se pronuncia /ˈdʌbəljuː/.",
+    "H se llama /eɪtʃ/.",
+    "No añadas una vocal después de una consonante al deletrear."
+  ],
+  "pronunciation_targets": [
+    {
+      "text": "A",
+      "ipa": "/eɪ/",
+      "error": "pronunciarla como la a española"
+    },
+    {
+      "text": "E",
+      "ipa": "/iː/",
+      "error": "confundirla con I"
+    },
+    {
+      "text": "B",
+      "ipa": "/biː/",
+      "error": "confundirla con V"
+    },
+    {
+      "text": "V",
+      "ipa": "/viː/",
+      "error": "pronunciarla como B"
+    },
+    {
+      "text": "W",
+      "ipa": "/ˈdʌbəljuː/",
+      "error": "reducirla a una sílaba"
+    }
+  ],
+  "vocabulary": [
+    {
+      "term": "letter",
+      "meaning_es": "letra"
+    },
+    {
+      "term": "alphabet",
+      "meaning_es": "alfabeto"
+    },
+    {
+      "term": "spell",
+      "meaning_es": "deletrear"
+    },
+    {
+      "term": "first letter",
+      "meaning_es": "primera letra"
+    },
+    {
+      "term": "last letter",
+      "meaning_es": "última letra"
+    },
+    {
+      "term": "repeat",
+      "meaning_es": "repetir"
+    },
+    {
+      "term": "email address",
+      "meaning_es": "dirección de correo"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "A1-M1-T01-L01",
+      "title": "The alphabet",
+      "objective": "Reconocer y producir nombres de letras.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T01-L01-E01",
+          "type": "multiple_choice",
+          "skill": "listening",
+          "instruction": "Escucha /biː/ y elige la letra.",
+          "prompt": "/biː/",
+          "options": [
+            "B",
+            "V",
+            "D"
+          ],
+          "correct_answer": "B",
+          "feedback_correct": "B se llama /biː/.",
+          "feedback_incorrect": "V es /viː/; B es /biː/.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L01-E02",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Elige la palabra para letra.",
+          "prompt": "letra",
+          "options": [
+            "letter",
+            "later",
+            "little"
+          ],
+          "correct_answer": "letter",
+          "feedback_correct": "Letter significa letra.",
+          "feedback_incorrect": "La palabra correcta es letter.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T01-L01-E03",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "spell / your / name / How / do / you?",
+          "correct_answer": "How do you spell your name?",
+          "feedback_correct": "La pregunta está bien formada.",
+          "feedback_incorrect": "Empieza con How do you.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T01-L01-E04",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la frase.",
+          "prompt": "How do you ___ your name?",
+          "options": [
+            "spell",
+            "spells",
+            "spelling"
+          ],
+          "correct_answer": "spell",
+          "feedback_correct": "Después de do you usamos el verbo base.",
+          "feedback_incorrect": "Usa el verbo base después de do you.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L01-E05",
+          "type": "dictation",
+          "skill": "listening",
+          "instruction": "Escribe las letras.",
+          "prompt": "A-N-A",
+          "correct_answer": "ANA",
+          "feedback_correct": "Correcto.",
+          "feedback_incorrect": "Escribe A, N y A.",
+          "difficulty": 1,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T01-L01-E06",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba A, E e I.",
+          "prompt": "A, E, I",
+          "evaluation_criteria": [
+            "distingue /eɪ/ de /iː/"
+          ],
+          "feedback_correct": "Compara A /eɪ/ y E /iː/.",
+          "feedback_incorrect": "Repite una letra cada vez con el modelo.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T01-L01-E07",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "My name is Leo. L-E-O.",
+          "question": "How does Leo spell his name?",
+          "correct_answer": "L-E-O",
+          "feedback_correct": "Encontraste las letras.",
+          "feedback_incorrect": "Mira lo que aparece después de spell.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L01-E08",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe tu nombre y deletrealo.",
+          "prompt": "Write your first name and spell it.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "nombre",
+            "letras separadas"
+          ],
+          "feedback_correct": "Tu respuesta tiene nombre y deletreo.",
+          "feedback_incorrect": "Escribe: Ana. A-N-A.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M1-T01-L01-E09",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Responde al administrador.",
+          "prompt": "How do you spell your first name?",
+          "role": "class administrator",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "spells name clearly"
+          ],
+          "feedback_correct": "La persona puede registrar tu nombre.",
+          "feedback_incorrect": "Usa: It's... y di cada letra.",
+          "difficulty": 1,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T01-L01-E10",
+          "type": "review",
+          "skill": "review",
+          "instruction": "Traduce la pregunta.",
+          "prompt": "¿Cómo deletreas tu nombre?",
+          "correct_answer": "How do you spell your name?",
+          "feedback_correct": "Frase recuperada.",
+          "feedback_incorrect": "Recuerda How do you spell...?.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T01-L02",
+      "title": "B, V, W and H",
+      "objective": "Distinguir letras que suelen confundirse.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T01-L02-E01",
+          "type": "minimal_pair",
+          "skill": "listening",
+          "instruction": "Escucha /viː/.",
+          "prompt": "/viː/",
+          "options": [
+            "B",
+            "V"
+          ],
+          "correct_answer": "V",
+          "feedback_correct": "V es /viː/.",
+          "feedback_incorrect": "B es /biː/ y V es /viː/.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L02-E02",
+          "type": "multiple_choice",
+          "skill": "pronunciation",
+          "instruction": "Elige el nombre de W.",
+          "prompt": "W",
+          "options": [
+            "double you",
+            "wee",
+            "dabel"
+          ],
+          "correct_answer": "double you",
+          "feedback_correct": "W tiene varias sílabas.",
+          "feedback_incorrect": "El nombre completo es double you.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L02-E03",
+          "type": "multiple_choice",
+          "skill": "pronunciation",
+          "instruction": "Elige el nombre de H.",
+          "prompt": "H",
+          "options": [
+            "aitch",
+            "ha",
+            "eich"
+          ],
+          "correct_answer": "aitch",
+          "feedback_correct": "H se llama aitch.",
+          "feedback_incorrect": "Aitch termina con /tʃ/.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L02-E04",
+          "type": "ordering",
+          "skill": "listening",
+          "instruction": "Ordena las letras.",
+          "prompt": "C - A - T",
+          "correct_answer": "C-A-T",
+          "feedback_correct": "Orden correcto.",
+          "feedback_incorrect": "Escucha cada letra.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T01-L02-E05",
+          "type": "error_correction",
+          "skill": "pronunciation",
+          "instruction": "Corrige la afirmación.",
+          "prompt": "B and V have the same English letter name.",
+          "correct_answer": "B and V have different English letter names.",
+          "feedback_correct": "B es /biː/ y V es /viː/.",
+          "feedback_incorrect": "Cambia same por different.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T01-L02-E06",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba B, V, W y H.",
+          "prompt": "B, V, W, H",
+          "evaluation_criteria": [
+            "contraste B/V",
+            "W con varias sílabas",
+            "H con /tʃ/"
+          ],
+          "feedback_correct": "La claridad es más importante que la velocidad.",
+          "feedback_incorrect": "Practica cada letra por separado.",
+          "difficulty": 2,
+          "estimated_seconds": 75
+        },
+        {
+          "id": "A1-M1-T01-L02-E07",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y responde.",
+          "prompt": "Last name: Brown",
+          "question": "What is the first letter?",
+          "correct_answer": "B",
+          "feedback_correct": "Brown comienza con B.",
+          "feedback_incorrect": "Mira el inicio de Brown.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L02-E08",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea un correo ficticio y deletrea su parte principal.",
+          "prompt": "Create a simple fictional email.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "usa @",
+            "usa un punto",
+            "deletrea el nombre"
+          ],
+          "feedback_correct": "El formato es comprensible.",
+          "feedback_incorrect": "Incluye @ y un dominio.",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T01-L02-E09",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Pide aclaración durante una llamada.",
+          "prompt": "Ask: Is that B or V?",
+          "role": "phone support agent",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks clarification clearly"
+          ],
+          "feedback_correct": "La pregunta evita una confusión real.",
+          "feedback_incorrect": "Usa exactamente: Is that B or V?",
+          "difficulty": 2,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M1-T01-L02-E10",
+          "type": "review",
+          "skill": "review",
+          "instruction": "Elige la afirmación correcta.",
+          "prompt": "Which statement is correct?",
+          "options": [
+            "B and V are identical.",
+            "B is /biː/ and V is /viː/.",
+            "W is one syllable."
+          ],
+          "correct_answer": "B is /biː/ and V is /viː/.",
+          "feedback_correct": "Correcto.",
+          "feedback_incorrect": "Compara el primer sonido de B y V.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T01-L03",
+      "title": "Spelling names and places",
+      "objective": "Deletrear información personal con claridad.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T01-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la expresión correcta.",
+          "prompt": "la primera letra",
+          "options": [
+            "the first letter",
+            "the letter first",
+            "first the letter"
+          ],
+          "correct_answer": "the first letter",
+          "feedback_correct": "Orden correcto.",
+          "feedback_incorrect": "Usa the first letter.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L03-E02",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la pregunta.",
+          "prompt": "last / What / the / is / letter?",
+          "correct_answer": "What is the last letter?",
+          "feedback_correct": "Pregunta correcta.",
+          "feedback_incorrect": "Empieza con What is.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T01-L03-E03",
+          "type": "dictation",
+          "skill": "listening",
+          "instruction": "Escribe el apellido escuchado.",
+          "prompt": "G-A-R-C-I-A",
+          "correct_answer": "GARCIA",
+          "feedback_correct": "Correcto.",
+          "feedback_incorrect": "Son seis letras.",
+          "difficulty": 1,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M1-T01-L03-E04",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige el significado.",
+          "prompt": "last name",
+          "options": [
+            "apellido",
+            "nombre",
+            "ciudad"
+          ],
+          "correct_answer": "apellido",
+          "feedback_correct": "Last name significa apellido.",
+          "feedback_incorrect": "First name es nombre; last name es apellido.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M1-T01-L03-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la pregunta.",
+          "prompt": "How you spell your name?",
+          "correct_answer": "How do you spell your name?",
+          "feedback_correct": "Añadimos do.",
+          "feedback_incorrect": "Usa How do you spell...?.",
+          "difficulty": 2,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M1-T01-L03-E06",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Deletrea tu apellido lentamente.",
+          "prompt": "Your last name",
+          "evaluation_criteria": [
+            "letras separadas",
+            "consonantes claras",
+            "ritmo comprensible"
+          ],
+          "feedback_correct": "La meta es que otra persona pueda escribirlo.",
+          "feedback_incorrect": "Haz pausas pequeñas entre letras.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M1-T01-L03-E07",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la ficha.",
+          "prompt": "Name: Sofia Martinez\\nCity: Miami\\nCountry: Mexico",
+          "question": "What is the city?",
+          "correct_answer": "Miami",
+          "feedback_correct": "La ciudad es Miami.",
+          "feedback_incorrect": "Busca City.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T01-L03-E08",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Completa una ficha ficticia.",
+          "prompt": "Write a first name, last name and city, then spell them.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "tres campos",
+            "letras separadas",
+            "etiquetas claras"
+          ],
+          "feedback_correct": "La ficha está completa.",
+          "feedback_incorrect": "Usa First name, Last name y City.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T01-L03-E09",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Confirma una reserva.",
+          "prompt": "Give a fictional name and email. Ask the agent to repeat the last letter.",
+          "role": "hotel receptionist",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "gives details",
+            "spells one word",
+            "asks repetition"
+          ],
+          "feedback_correct": "Usaste el idioma para resolver una situación real.",
+          "feedback_incorrect": "Usa Could you repeat the last letter, please?",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M1-T01-L03-E10",
+          "type": "review",
+          "skill": "review",
+          "instruction": "Completa la petición.",
+          "prompt": "Could you ___ that, please?",
+          "options": [
+            "repeat",
+            "repeats",
+            "repeating"
+          ],
+          "correct_answer": "repeat",
+          "feedback_correct": "Could va seguido del verbo base.",
+          "feedback_incorrect": "Usa repeat después de could you.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        }
+      ]
+    },
+    {
+      "id": "A1-M1-T01-L04",
+      "title": "Integrated spelling task",
+      "objective": "Usar deletreo y aclaración en una interacción nueva.",
+      "estimated_seconds": 900,
+      "activities": [
+        {
+          "id": "A1-M1-T01-L04-E01",
+          "type": "listening_global",
+          "skill": "listening",
+          "instruction": "Escucha y elige el propósito.",
+          "prompt": "How do you spell your name? J-O-S-E. Could you repeat the last letter?",
+          "options": [
+            "pedir comida",
+            "registrar un nombre",
+            "dar direcciones"
+          ],
+          "correct_answer": "registrar un nombre",
+          "feedback_correct": "Se registra y confirma un nombre.",
+          "feedback_incorrect": "Busca spell y last letter.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T01-L04-E02",
+          "type": "listening_detail",
+          "skill": "listening",
+          "instruction": "Responde.",
+          "prompt": "My email is luis.green@example.com. Is the first letter L? Yes.",
+          "question": "What is the first letter?",
+          "correct_answer": "L",
+          "feedback_correct": "La primera letra es L.",
+          "feedback_incorrect": "La conversación confirma L.",
+          "difficulty": 2,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M1-T01-L04-E03",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Elige la petición correcta.",
+          "prompt": "___ repeat that, please?",
+          "options": [
+            "Could you",
+            "You could",
+            "Could repeat you"
+          ],
+          "correct_answer": "Could you",
+          "feedback_correct": "Es una petición cortés.",
+          "feedback_incorrect": "La estructura es Could you repeat...?.",
+          "difficulty": 2,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M1-T01-L04-E04",
+          "type": "error_correction",
+          "skill": "pronunciation",
+          "instruction": "Corrige el problema.",
+          "prompt": "The learner says B and V with the same /b/ sound.",
+          "correct_answer": "Use /b/ for B and /v/ for V.",
+          "feedback_correct": "El contraste hace comprensible la letra.",
+          "feedback_incorrect": "V necesita el sonido /v/.",
+          "difficulty": 2,
+          "estimated_seconds": 50
+        },
+        {
+          "id": "A1-M1-T01-L04-E05",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Lee el diálogo.",
+          "prompt": "How do you spell your name? It's A-N-A. Could you repeat that, please?",
+          "evaluation_criteria": [
+            "nombres de letras claros",
+            "pausas",
+            "entonación de pregunta"
+          ],
+          "feedback_correct": "La meta es que otra persona pueda escribir tus letras.",
+          "feedback_incorrect": "Reduce velocidad y marca cada letra.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M1-T01-L04-E06",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee y resume.",
+          "prompt": "Hi, I'm Elena Ruiz. My email is elena.ruiz@example.com. Ruiz is R-U-I-Z.",
+          "question": "What information does Elena give?",
+          "correct_answer": "Her name, email and the spelling of Ruiz.",
+          "feedback_correct": "Identificaste las tres partes.",
+          "feedback_incorrect": "Busca nombre, email y apellido.",
+          "difficulty": 2,
+          "estimated_seconds": 55
+        },
+        {
+          "id": "A1-M1-T01-L04-E07",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un mensaje de confirmación.",
+          "prompt": "Write your name, email and one polite request to repeat a letter.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "nombre",
+            "email",
+            "petición cortés"
+          ],
+          "feedback_correct": "El mensaje cumple la tarea.",
+          "feedback_incorrect": "Incluye Could you repeat...?, please?.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M1-T01-L04-E08",
+          "type": "ai_roleplay",
+          "skill": "interaction",
+          "instruction": "Completa una inscripción hablando con la IA.",
+          "prompt": "Register for an English class. Give a fictional first name, last name, city and email. The AI may ask you to repeat one letter.",
+          "role": "class administrator",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "four details",
+            "two spelled words",
+            "clarification"
+          ],
+          "feedback_correct": "La IA evalúa claridad y reparación de confusiones.",
+          "feedback_incorrect": "La IA ofrece apoyo y repite una letra lentamente.",
+          "difficulty": 2,
+          "estimated_seconds": 150
+        },
+        {
+          "id": "A1-M1-T01-L04-E09",
+          "type": "transfer",
+          "skill": "speaking",
+          "instruction": "Deletrea una palabra nueva.",
+          "prompt": "Choose a short object around you and spell its English word.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "word selected",
+            "letters in order",
+            "understandable pacing"
+          ],
+          "feedback_correct": "Demuestra transferencia a una palabra nueva.",
+          "feedback_incorrect": "Mira la palabra, divídela y vuelve a grabar.",
+          "difficulty": 2,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M1-T01-L04-E10",
+          "type": "mastery_assessment",
+          "skill": "assessment",
+          "instruction": "Completa la evaluación del tema.",
+          "prompt": "Spell a fictional full name and email, distinguish B/V, and ask for repetition.",
+          "response_type": "open_speaking_and_writing",
+          "evaluation_criteria": [
+            "accurate spelling",
+            "B/V distinction",
+            "polite clarification",
+            "understandable delivery"
+          ],
+          "feedback_correct": "Tema dominado: puedes deletrear y reparar una confusión básica.",
+          "feedback_incorrect": "Repite la parte relacionada con el error detectado.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    }
+  ],
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  },
+  "activity_count": 40,
+  "lesson_count": 4
+}

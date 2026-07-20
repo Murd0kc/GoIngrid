@@ -1,0 +1,805 @@
+{
+  "id": "A1-M3-T10",
+  "level": "A1",
+  "module_code": "A1-M3",
+  "topic": "Situaciones de ayuda y necesidades",
+  "title": "Situaciones de ayuda y necesidades",
+  "estimated_seconds": null,
+  "communication_goal": "Usar situaciones de ayuda y necesidades en situaciones cotidianas.",
+  "cefr_objectives": [
+    "Can use basic language related to situaciones de ayuda y necesidades."
+  ],
+  "explanation_es": "Este tema desarrolla situaciones de ayuda y necesidades mediante práctica guiada y comunicación contextual.",
+  "key_language": [],
+  "spanish_speaker_notes": [],
+  "pronunciation_targets": [],
+  "vocabulary": [],
+  "lessons": [
+    {
+      "id": "A1-M3-T10-L01",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Situaciones de ayuda y necesidades",
+      "title": "I need help",
+      "objective": "Expresar necesidades básicas y pedir ayuda de forma clara y cortés.",
+      "activities": [
+        {
+          "id": "A1-M3-T10-L01-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "You cannot find your passport.",
+          "options": [
+            "I need help finding my passport.",
+            "I am a passport.",
+            "Where do I sleep passport?"
+          ],
+          "correct_answer": "I need help finding my passport.",
+          "feedback_correct": "Es una forma clara de pedir ayuda.",
+          "feedback_incorrect": "Elige una frase con need help y el objeto perdido.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L01-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la petición.",
+          "prompt": "Could you ___ me, please?",
+          "options": [
+            "help",
+            "helps",
+            "helping"
+          ],
+          "correct_answer": "help",
+          "feedback_correct": "Después de Could you usamos la forma base help.",
+          "feedback_incorrect": "Could you va seguido del verbo base.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L01-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta adecuada.",
+          "prompt": "Are you okay?",
+          "options": [
+            "Yes, but I need some water.",
+            "I am from Mexico.",
+            "It is next to the door."
+          ],
+          "correct_answer": "Yes, but I need some water.",
+          "feedback_correct": "La respuesta expresa una necesidad real.",
+          "feedback_incorrect": "Elige una respuesta que comunique cómo te sientes o qué necesitas.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L01-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la necesidad con la petición.",
+          "pairs": [
+            {
+              "left": "sed",
+              "right": "Can I have some water?"
+            },
+            {
+              "left": "dirección",
+              "right": "Could you show me the way?"
+            },
+            {
+              "left": "objeto perdido",
+              "right": "Can you help me find it?"
+            },
+            {
+              "left": "problema de idioma",
+              "right": "Could you speak slowly?"
+            }
+          ],
+          "feedback_correct": "Relacionas necesidades con peticiones útiles.",
+          "feedback_incorrect": "Piensa qué frase resuelve cada necesidad.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T10-L01-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena la petición.",
+          "prompt": "me / Could / help / you / please",
+          "correct_answer": "Could you help me, please?",
+          "feedback_correct": "Es una petición cortés y completa.",
+          "feedback_incorrect": "Empieza con Could you y termina con please.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T10-L01-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha y responde.",
+          "prompt": "Excuse me, I need help. I lost my wallet near the station. Could you call the information desk?",
+          "question": "What did the speaker lose?",
+          "options": [
+            "A passport.",
+            "A wallet.",
+            "A phone."
+          ],
+          "correct_answer": "A wallet.",
+          "feedback_correct": "El audio dice I lost my wallet.",
+          "feedback_incorrect": "Escucha el objeto después de lost my.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T10-L01-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba peticiones básicas.",
+          "prompt": "Excuse me. I need help, please. Could you help me find my phone? Could you speak slowly?",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear excuse me",
+            "polite intonation",
+            "understandable help and phone",
+            "natural slow request"
+          ],
+          "feedback_correct": "Tus necesidades y peticiones se entienden claramente.",
+          "feedback_incorrect": "Usa una voz amable y marca help me sin separar demasiado las palabras.",
+          "difficulty": 1,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T10-L01-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mensaje y responde.",
+          "prompt": "Tom is at the airport. He needs help because he cannot find Gate 12. A staff member shows him the way and speaks slowly.",
+          "question": "Why does Tom need help?",
+          "options": [
+            "He lost his wallet.",
+            "He cannot find Gate 12.",
+            "He needs a hotel room."
+          ],
+          "correct_answer": "He cannot find Gate 12.",
+          "feedback_correct": "El texto explica el problema con la puerta de embarque.",
+          "feedback_incorrect": "Busca la razón después de needs help.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T10-L01-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe peticiones de ayuda.",
+          "prompt": "Write six short situations in which you need help and one polite request for each situation.",
+          "response_type": "open",
+          "evaluation_criteria": [
+            "six situations",
+            "six requests",
+            "Could you or Can you",
+            "clear needs",
+            "basic punctuation"
+          ],
+          "feedback_correct": "Puedes explicar problemas y pedir ayuda con cortesía.",
+          "feedback_incorrect": "Describe primero el problema y después formula la petición.",
+          "difficulty": 2,
+          "estimated_seconds": 130
+        },
+        {
+          "id": "A1-M3-T10-L01-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Pide ayuda a la IA.",
+          "prompt": "You are in a busy public place and have three small problems. Explain each problem, ask for help, and confirm the solution.",
+          "role": "native-speaking information desk worker",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "explains three needs",
+            "uses three polite requests",
+            "answers follow-up questions",
+            "confirms each solution",
+            "completes ten turns"
+          ],
+          "feedback_correct": "Puedes pedir ayuda y resolver necesidades básicas.",
+          "feedback_incorrect": "La IA adapta el contexto y te da frases modelo solo cuando las necesitas.",
+          "difficulty": 2,
+          "estimated_seconds": 180
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T10-L02",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Situaciones de ayuda y necesidades",
+      "title": "Problems and solutions",
+      "objective": "Describir problemas cotidianos sencillos y responder con soluciones prácticas.",
+      "activities": [
+        {
+          "id": "A1-M3-T10-L02-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "Your phone has no battery.",
+          "options": [
+            "My phone is dead.",
+            "My phone is hungry.",
+            "My phone is from dead."
+          ],
+          "correct_answer": "My phone is dead.",
+          "feedback_correct": "My phone is dead significa que no tiene batería.",
+          "feedback_incorrect": "Elige la expresión común para un teléfono sin batería.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L02-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa el problema.",
+          "prompt": "I cannot ___ my room key.",
+          "options": [
+            "find",
+            "finds",
+            "finding"
+          ],
+          "correct_answer": "find",
+          "feedback_correct": "Después de cannot usamos find.",
+          "feedback_incorrect": "Cannot va seguido del verbo base.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L02-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la solución.",
+          "prompt": "I am cold.",
+          "options": [
+            "Can I have a blanket?",
+            "Can I have a map?",
+            "Can I have a ticket?"
+          ],
+          "correct_answer": "Can I have a blanket?",
+          "feedback_correct": "Una manta ayuda cuando tienes frío.",
+          "feedback_incorrect": "Elige el objeto relacionado con la temperatura.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L02-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une el problema con la solución.",
+          "pairs": [
+            {
+              "left": "The room is cold.",
+              "right": "Turn on the heater."
+            },
+            {
+              "left": "I am lost.",
+              "right": "Ask for directions."
+            },
+            {
+              "left": "The light does not work.",
+              "right": "Call maintenance."
+            },
+            {
+              "left": "I do not understand.",
+              "right": "Ask the person to speak slowly."
+            }
+          ],
+          "feedback_correct": "Relacionas problemas comunes con soluciones.",
+          "feedback_incorrect": "Piensa qué acción puede resolver cada situación.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T10-L02-E05",
+          "type": "error_correction",
+          "skill": "grammar",
+          "instruction": "Corrige la frase.",
+          "prompt": "I can't to find my bag.",
+          "correct_answer": "I can't find my bag.",
+          "feedback_correct": "Después de can't usamos el verbo base sin to.",
+          "feedback_incorrect": "Elimina to después de can't.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T10-L02-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el problema y responde.",
+          "prompt": "The room is dark, and the light does not work. I need a lamp or someone to fix it.",
+          "question": "What is wrong?",
+          "options": [
+            "The door is locked.",
+            "The light does not work.",
+            "The room is noisy."
+          ],
+          "correct_answer": "The light does not work.",
+          "feedback_correct": "El problema es la luz.",
+          "feedback_incorrect": "Escucha la primera oración.",
+          "difficulty": 1,
+          "estimated_seconds": 60
+        },
+        {
+          "id": "A1-M3-T10-L02-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba problemas y soluciones.",
+          "prompt": "I cannot find my bag. Could you help me? The light does not work. Could someone fix it, please?",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear cannot and does not",
+            "understandable problem nouns",
+            "polite requests",
+            "natural problem-solution rhythm"
+          ],
+          "feedback_correct": "Describes problemas y pides soluciones con claridad.",
+          "feedback_incorrect": "Practica cannot find y does not work como grupos completos.",
+          "difficulty": 2,
+          "estimated_seconds": 100
+        },
+        {
+          "id": "A1-M3-T10-L02-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el reporte y responde.",
+          "prompt": "The classroom is too hot. The fan does not work, so the students open the windows. The teacher calls the office for help.",
+          "question": "What do the students do?",
+          "options": [
+            "They open the windows.",
+            "They leave the school.",
+            "They turn on the fan."
+          ],
+          "correct_answer": "They open the windows.",
+          "feedback_correct": "El texto dice que abren las ventanas.",
+          "feedback_incorrect": "Busca la acción después de so.",
+          "difficulty": 2,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T10-L02-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Crea una tabla de problemas.",
+          "prompt": "Write eight problem-solution pairs for home, work, travel, or study. Use cannot, does not work, or need in at least four pairs.",
+          "response_type": "open",
+          "estimated_seconds": 150,
+          "evaluation_criteria": [
+            "eight problems",
+            "eight solutions",
+            "four target structures",
+            "practical vocabulary",
+            "clear sentence pairs"
+          ]
+        },
+        {
+          "id": "A1-M3-T10-L02-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve problemas con la IA.",
+          "prompt": "The AI is a hotel or office worker. Report three different problems, understand the proposed solutions, and say whether each solution works.",
+          "role": "native-speaking support worker",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "reports three problems",
+            "asks for practical solutions",
+            "uses cannot or does not work",
+            "confirms whether solutions work",
+            "completes twelve turns"
+          ],
+          "feedback_correct": "Puedes describir un problema y colaborar para resolverlo.",
+          "feedback_incorrect": "La IA ofrece soluciones visuales y practica las estructuras más difíciles.",
+          "difficulty": 2,
+          "estimated_seconds": 220
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T10-L03",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Situaciones de ayuda y necesidades",
+      "title": "Emergency and safety basics",
+      "objective": "Comunicar necesidades urgentes y datos básicos de seguridad sin entrar en vocabulario técnico avanzado.",
+      "activities": [
+        {
+          "id": "A1-M3-T10-L03-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la frase correcta.",
+          "prompt": "You need immediate help.",
+          "options": [
+            "Please call an ambulance.",
+            "I like an ambulance.",
+            "The ambulance is a family."
+          ],
+          "correct_answer": "Please call an ambulance.",
+          "feedback_correct": "Es una petición clara de ayuda médica urgente.",
+          "feedback_incorrect": "Elige una petición con call y ambulance.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L03-E02",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Completa la información.",
+          "prompt": "My name is Ana and I am at the ___ station.",
+          "options": [
+            "police",
+            "food",
+            "sleep"
+          ],
+          "correct_answer": "police",
+          "feedback_correct": "Police station es la comisaría.",
+          "feedback_incorrect": "Elige la palabra que forma police station.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L03-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la pregunta adecuada.",
+          "prompt": "You need to give your location.",
+          "options": [
+            "Where are you?",
+            "What do you like?",
+            "When is your birthday?"
+          ],
+          "correct_answer": "Where are you?",
+          "feedback_correct": "La pregunta pide tu ubicación.",
+          "feedback_incorrect": "Elige la pregunta sobre el lugar donde estás.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L03-E04",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la frase con su función.",
+          "pairs": [
+            {
+              "left": "I need a doctor.",
+              "right": "pedir ayuda médica"
+            },
+            {
+              "left": "Please call the police.",
+              "right": "pedir ayuda de seguridad"
+            },
+            {
+              "left": "I am at the station.",
+              "right": "decir ubicación"
+            },
+            {
+              "left": "My friend is hurt.",
+              "right": "describir una situación"
+            },
+            {
+              "left": "Stay here, please.",
+              "right": "dar una instrucción básica"
+            }
+          ],
+          "feedback_correct": "Reconoces frases esenciales de seguridad.",
+          "feedback_incorrect": "Identifica si la frase pide ayuda, informa o indica una acción.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T10-L03-E05",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena el mensaje.",
+          "prompt": "help / need / I / please",
+          "correct_answer": "I need help, please.",
+          "feedback_correct": "Es un mensaje corto y claro.",
+          "feedback_incorrect": "Empieza con I need y termina con help, please.",
+          "difficulty": 1,
+          "estimated_seconds": 40
+        },
+        {
+          "id": "A1-M3-T10-L03-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha la llamada y responde.",
+          "prompt": "Hello, I need help. My friend is hurt. We are at the train station, near the main entrance.",
+          "question": "Where are they?",
+          "options": [
+            "At a hotel.",
+            "At the train station.",
+            "At the hospital."
+          ],
+          "correct_answer": "At the train station.",
+          "feedback_correct": "La ubicación aparece al final del mensaje.",
+          "feedback_incorrect": "Escucha la frase con We are at.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T10-L03-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba un mensaje claro.",
+          "prompt": "I need help, please. My friend is hurt. We are at the train station near the main entrance.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear urgent tone without shouting",
+            "understandable location",
+            "clear hurt and station",
+            "short pauses between facts"
+          ],
+          "feedback_correct": "El mensaje comunica la necesidad y la ubicación claramente.",
+          "feedback_incorrect": "Habla con calma, separa los datos y enfatiza el lugar.",
+          "difficulty": 2,
+          "estimated_seconds": 90
+        },
+        {
+          "id": "A1-M3-T10-L03-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee el mensaje y responde.",
+          "prompt": "Call the front desk if you need help. Say your name, room number, and location. Speak slowly and give one fact at a time.",
+          "question": "What information should you give?",
+          "options": [
+            "Your name, room number, and location.",
+            "Your favorite food.",
+            "Your school subjects."
+          ],
+          "correct_answer": "Your name, room number, and location.",
+          "feedback_correct": "El mensaje enumera esos tres datos.",
+          "feedback_incorrect": "Busca la lista después de Say.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T10-L03-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe tres mensajes claros.",
+          "prompt": "Write three short safety messages: one asking for a doctor, one giving your location, and one explaining a simple problem.",
+          "response_type": "open",
+          "estimated_seconds": 110,
+          "evaluation_criteria": [
+            "three messages",
+            "clear need",
+            "location in one message",
+            "simple problem in one message",
+            "concise language"
+          ]
+        },
+        {
+          "id": "A1-M3-T10-L03-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Comunica una situación urgente con la IA.",
+          "prompt": "The AI is an emergency information worker. Give your name, location, simple problem, and immediate need. Answer short follow-up questions calmly.",
+          "role": "native-speaking emergency information worker",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "states name and location",
+            "explains one simple problem",
+            "asks for appropriate help",
+            "answers three follow-up questions",
+            "uses short clear sentences"
+          ],
+          "feedback_correct": "Puedes comunicar información básica de seguridad de forma clara.",
+          "feedback_incorrect": "La IA mantiene el lenguaje simple y practica un dato cada vez.",
+          "difficulty": 2,
+          "estimated_seconds": 190
+        }
+      ]
+    },
+    {
+      "id": "A1-M3-T10-L04",
+      "level": "A1",
+      "module_code": "A1-M3",
+      "topic": "Situaciones de ayuda y necesidades",
+      "title": "Handle everyday situations",
+      "objective": "Integrar peticiones, problemas, ubicaciones y soluciones en situaciones prácticas de la vida diaria.",
+      "activities": [
+        {
+          "id": "A1-M3-T10-L04-E01",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la frase más útil.",
+          "prompt": "You are lost and your phone is dead.",
+          "options": [
+            "Could you show me the way, please?",
+            "I like my phone.",
+            "The way is hungry."
+          ],
+          "correct_answer": "Could you show me the way, please?",
+          "feedback_correct": "Pides direcciones de forma cortés.",
+          "feedback_incorrect": "Elige una frase que resuelva estar perdido.",
+          "difficulty": 1,
+          "estimated_seconds": 35
+        },
+        {
+          "id": "A1-M3-T10-L04-E02",
+          "type": "multiple_choice",
+          "skill": "grammar",
+          "instruction": "Completa la petición.",
+          "prompt": "Can I ___ your phone?",
+          "options": [
+            "use",
+            "uses",
+            "using"
+          ],
+          "correct_answer": "use",
+          "feedback_correct": "Después de Can I usamos el verbo base use.",
+          "feedback_incorrect": "Can va seguido de la forma base.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L04-E03",
+          "type": "multiple_choice",
+          "skill": "vocabulary",
+          "instruction": "Elige la respuesta correcta.",
+          "prompt": "What do you need?",
+          "options": [
+            "I need a taxi, please.",
+            "I am from Peru.",
+            "It is Monday."
+          ],
+          "correct_answer": "I need a taxi, please.",
+          "feedback_correct": "La respuesta expresa una necesidad concreta.",
+          "feedback_incorrect": "Elige una frase con I need y un servicio u objeto.",
+          "difficulty": 1,
+          "estimated_seconds": 30
+        },
+        {
+          "id": "A1-M3-T10-L04-E04",
+          "type": "ordering",
+          "skill": "grammar",
+          "instruction": "Ordena el mensaje completo.",
+          "prompt": "cannot / I / find / my / hotel",
+          "correct_answer": "I cannot find my hotel.",
+          "feedback_correct": "La frase comunica claramente el problema.",
+          "feedback_incorrect": "Coloca I cannot antes del verbo find.",
+          "difficulty": 1,
+          "estimated_seconds": 45
+        },
+        {
+          "id": "A1-M3-T10-L04-E05",
+          "type": "matching",
+          "skill": "vocabulary",
+          "instruction": "Une la situación con la solución.",
+          "pairs": [
+            {
+              "left": "No tienes transporte.",
+              "right": "I need a taxi, please."
+            },
+            {
+              "left": "No entiendes a la persona.",
+              "right": "Could you speak slowly?"
+            },
+            {
+              "left": "Perdiste un objeto.",
+              "right": "Can you help me find it?"
+            },
+            {
+              "left": "No sabes dónde estás.",
+              "right": "Where am I?"
+            }
+          ],
+          "feedback_correct": "Puedes elegir una solución comunicativa para cada problema.",
+          "feedback_incorrect": "Relaciona la necesidad con la petición que la resuelve.",
+          "difficulty": 1,
+          "estimated_seconds": 80
+        },
+        {
+          "id": "A1-M3-T10-L04-E06",
+          "type": "listening",
+          "skill": "listening",
+          "instruction": "Escucha el diálogo y responde.",
+          "prompt": "A: Excuse me, I cannot find the hotel. B: It is near the station. Go straight and turn left. A: Thank you. B: You are welcome.",
+          "question": "What should the traveler do first?",
+          "options": [
+            "Go straight.",
+            "Call a doctor.",
+            "Take a train."
+          ],
+          "correct_answer": "Go straight.",
+          "feedback_correct": "La primera instrucción es Go straight.",
+          "feedback_incorrect": "Escucha la ruta después de It is near the station.",
+          "difficulty": 1,
+          "estimated_seconds": 70
+        },
+        {
+          "id": "A1-M3-T10-L04-E07",
+          "type": "pronunciation",
+          "skill": "pronunciation",
+          "instruction": "Graba una conversación de ayuda.",
+          "prompt": "Excuse me, I need help. I cannot find my hotel. Could you show me the way, please? Thank you very much.",
+          "response_type": "open_speaking",
+          "evaluation_criteria": [
+            "clear problem statement",
+            "polite request",
+            "understandable hotel and way",
+            "natural closing"
+          ],
+          "feedback_correct": "Tu mensaje completo es claro, cortés y útil.",
+          "feedback_incorrect": "Divide problema, petición y agradecimiento en tres grupos de voz.",
+          "difficulty": 2,
+          "estimated_seconds": 105
+        },
+        {
+          "id": "A1-M3-T10-L04-E08",
+          "type": "reading",
+          "skill": "reading",
+          "instruction": "Lee la situación y responde.",
+          "prompt": "Lina is at a bus station. She cannot find her bus. She asks a worker, who tells her the bus leaves from platform six. Lina checks her ticket and thanks the worker.",
+          "question": "Where does the bus leave from?",
+          "options": [
+            "Platform five.",
+            "Platform six.",
+            "The hotel."
+          ],
+          "correct_answer": "Platform six.",
+          "feedback_correct": "El trabajador indica platform six.",
+          "feedback_incorrect": "Busca la información sobre la salida del bus.",
+          "difficulty": 1,
+          "estimated_seconds": 65
+        },
+        {
+          "id": "A1-M3-T10-L04-E09",
+          "type": "writing",
+          "skill": "writing",
+          "instruction": "Escribe un manual de frases útiles.",
+          "prompt": "Write ten useful A1 sentences for asking help in travel, home, work, study, and public places. Add a Spanish meaning for each.",
+          "response_type": "open",
+          "estimated_seconds": 170,
+          "evaluation_criteria": [
+            "ten useful sentences",
+            "five contexts",
+            "polite requests",
+            "clear needs or problems",
+            "accurate Spanish meanings"
+          ]
+        },
+        {
+          "id": "A1-M3-T10-L04-E10",
+          "type": "roleplay",
+          "skill": "interaction",
+          "instruction": "Resuelve una misión con la IA.",
+          "prompt": "Complete a city mission: find a place, use public transport, solve a lost-item problem, ask for help, and confirm the final solution.",
+          "role": "native-speaking city helper",
+          "response_type": "open_speaking",
+          "success_criteria": [
+            "asks for directions",
+            "uses transport language",
+            "describes a problem",
+            "makes two polite requests",
+            "confirms solutions",
+            "maintains sixteen turns"
+          ],
+          "feedback_correct": "Puedes combinar las estrategias esenciales de ayuda en una situación real.",
+          "feedback_incorrect": "La IA adapta la misión y repite únicamente las estructuras que necesites reforzar.",
+          "difficulty": 2,
+          "estimated_seconds": 260
+        }
+      ]
+    }
+  ],
+  "activity_count": 40,
+  "lesson_count": 4,
+  "review_schedule": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}

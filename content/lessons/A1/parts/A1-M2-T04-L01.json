@@ -1,0 +1,20 @@
+{
+  "id":"A1-M2-T04-L01",
+  "level":"A1",
+  "module_code":"A1-M2",
+  "topic":"Preguntas y respuestas",
+  "title":"What and where",
+  "objective":"Preguntar por información básica con what y where.",
+  "activities":[
+    {"id":"A1-M2-T04-L01-E01","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ is your name?","options":["What","Where","When"],"correct_answer":"What","feedback_correct":"What pregunta por información o cosas.","feedback_incorrect":"La respuesta es un nombre.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L01-E02","type":"multiple_choice","skill":"grammar","instruction":"Completa.","prompt":"___ do you live?","options":["What","Where","Who"],"correct_answer":"Where","feedback_correct":"Where pregunta por lugar.","feedback_incorrect":"La respuesta es una ciudad o lugar.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L01-E03","type":"ordering","skill":"grammar","instruction":"Ordena.","prompt":"you / Where / live / do?","correct_answer":"Where do you live?","feedback_correct":"Pregunta correcta.","feedback_incorrect":"Where + do + subject + verb.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L01-E04","type":"matching","skill":"vocabulary","instruction":"Relaciona.","prompt":"Where?","options":["¿Dónde?","¿Qué?","¿Cuándo?"],"correct_answer":"¿Dónde?","feedback_correct":"Where pregunta por lugar.","feedback_incorrect":"What es qué; when es cuándo.","difficulty":1,"estimated_seconds":30},
+    {"id":"A1-M2-T04-L01-E05","type":"error_correction","skill":"grammar","instruction":"Corrige.","prompt":"What you eat?","correct_answer":"What do you eat?","feedback_correct":"Añadimos do.","feedback_incorrect":"Usa What do you eat?","difficulty":1,"estimated_seconds":35},
+    {"id":"A1-M2-T04-L01-E06","type":"listening","skill":"listening","instruction":"Escucha y responde.","prompt":"Where do you work? I work at a hospital.","question":"Where does the person work?","correct_answer":"At a hospital.","feedback_correct":"Identificaste el lugar.","feedback_incorrect":"Escucha la respuesta después de the question.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L01-E07","type":"pronunciation","skill":"pronunciation","instruction":"Graba.","prompt":"What do you do? Where do you live?","evaluation_criteria":["wh-word clear","do audible","question intonation"],"feedback_correct":"Las preguntas se entienden.","feedback_incorrect":"Marca What y Where al inicio.","difficulty":2,"estimated_seconds":65},
+    {"id":"A1-M2-T04-L01-E08","type":"reading","skill":"reading","instruction":"Lee y responde.","prompt":"What is her name? Her name is Sofia. Where does she live? She lives in Lima.","question":"Where does Sofia live?","correct_answer":"In Lima.","feedback_correct":"La respuesta aparece en la última frase.","feedback_incorrect":"Busca lives in.","difficulty":1,"estimated_seconds":45},
+    {"id":"A1-M2-T04-L01-E09","type":"writing","skill":"writing","instruction":"Escribe preguntas.","prompt":"Write four What and four Where questions.","response_type":"open","evaluation_criteria":["eight questions","correct do placement"],"feedback_correct":"Las preguntas están bien formadas.","feedback_incorrect":"Usa What/Where + do + subject + verb.","difficulty":2,"estimated_seconds":90},
+    {"id":"A1-M2-T04-L01-E10","type":"roleplay","skill":"interaction","instruction":"Conoce a una persona.","prompt":"Ask the AI about its name, city, work and favorite object.","role":"new friend","response_type":"open_speaking","success_criteria":["What questions","Where questions","follow-up"],"feedback_correct":"La conversación obtiene información real.","feedback_incorrect":"Elige What para datos y Where para lugares.","difficulty":2,"estimated_seconds":120}
+  ]
+}
