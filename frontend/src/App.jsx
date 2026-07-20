@@ -2,6 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { supabase } from './lib/supabase'
 
 export function App() {
+  const [session, setSession] = useState(null)
+  const [authLoading, setAuthLoading] = useState(true)
+  const [authMode, setAuthMode] = useState('signin')
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [authMessage, setAuthMessage] = useState('')
   const [modules, setModules] = useState([])
   const [selectedModule, setSelectedModule] = useState(null)
   const [topics, setTopics] = useState([])
@@ -11,6 +17,22 @@ export function App() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    supabase.auth.getSession().then(({ data }) => {
+      setSession(data.session)
+      setAuthLoading(false)
+    })
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+      setSession(nextSession)
+      setAuthLoading(false)
+    })
+    return () => listener.subscription.unsubscribe()
+  }, [])
+
+  useEffect(() => {
+    if (!session) {
+      setLoading(false)
+      return
+    }
     async function loadModules() {
       const { data, error: queryError } = await supabase
         .from('modules')
@@ -26,7 +48,7 @@ export function App() {
       setLoading(false)
     }
     loadModules()
-  }, [])
+  }, [session])
 
   useEffect(() => {
     if (!selectedModule) return
@@ -57,9 +79,42 @@ export function App() {
     }
   }
 
+  async function handleAuth(event) {
+    event.preventDefault()
+    setAuthMessage('')
+    const result = authMode === 'signin'
+      ? await supabase.auth.signInWithPassword({ email, password })
+      : await supabase.auth.signUp({ email, password })
+    if (result.error) setAuthMessage(result.error.message)
+    else if (authMode === 'signup') setAuthMessage('Cuenta creada. Revisa tu correo si la confirmación está activada.')
+  }
+
+  if (authLoading) return <main className="auth-shell"><p>Cargando GoIngrid...</p></main>
+
+  if (!session) return (
+    <main className="auth-shell">
+      <section className="auth-card">
+        <p className="eyebrow">INGLÉS PARA LA VIDA REAL</p>
+        <h1>GoIngrid</h1>
+        <p className="hero-copy">Aprende con contexto, práctica guiada y conversaciones que se adaptan a ti.</p>
+        <h2>{authMode === 'signin' ? 'Inicia sesión' : 'Crea tu cuenta'}</h2>
+        <form onSubmit={handleAuth}>
+          <label>Correo<input type="email" value={email} onChange={(event) => setEmail(event.target.value)} required /></label>
+          <label>Contraseña<input type="password" minLength="6" value={password} onChange={(event) => setPassword(event.target.value)} required /></label>
+          <button className="primary-button" type="submit">{authMode === 'signin' ? 'Entrar' : 'Crear cuenta'}</button>
+        </form>
+        {authMessage && <p className="auth-message">{authMessage}</p>}
+        <button className="link-button" onClick={() => { setAuthMode(authMode === 'signin' ? 'signup' : 'signin'); setAuthMessage('') }}>
+          {authMode === 'signin' ? 'Crear una cuenta nueva' : 'Ya tengo una cuenta'}
+        </button>
+      </section>
+    </main>
+  )
+
   return (
     <main className="app-shell">
       <header className="hero">
+        <button className="signout-button" onClick={() => supabase.auth.signOut()}>Cerrar sesión</button>
         <p className="eyebrow">INGLÉS PARA LA VIDA REAL</p>
         <h1>GoIngrid</h1>
         <p className="hero-copy">Aprende con contexto, práctica guiada y conversaciones que se adaptan a ti.</p>
