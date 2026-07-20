@@ -1,0 +1,14 @@
+services:
+  goingrid-frontend:
+    build:
+      context: .
+    container_name: goingrid-frontend
+    restart: unless-stopped
+    env_file:
+      - .env
+    networks:
+      - web
+
+networks:
+  web:
+    external: true
