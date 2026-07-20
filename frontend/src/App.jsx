@@ -16,6 +16,7 @@ export function App() {
   const [selectedLesson, setSelectedLesson] = useState(null)
   const [exerciseIndex, setExerciseIndex] = useState(0)
   const [answer, setAnswer] = useState(null)
+  const [responseText, setResponseText] = useState('')
   const [feedback, setFeedback] = useState(null)
   const [lessonStartedAt, setLessonStartedAt] = useState(null)
   const [error, setError] = useState('')
@@ -90,6 +91,7 @@ export function App() {
     setSelectedLesson(lesson)
     setExerciseIndex(0)
     setAnswer(null)
+    setResponseText('')
     setFeedback(null)
     setLessonStartedAt(Date.now())
   }
@@ -110,11 +112,27 @@ export function App() {
     if (attemptError) setError(attemptError.message)
   }
 
+  async function submitOpenAnswer() {
+    const exercise = selectedLesson?.exercises?.[exerciseIndex]
+    if (!exercise || feedback || !responseText.trim()) return
+    setAnswer(responseText)
+    const { error: attemptError } = await supabase.from('exercise_attempts').insert({
+      user_id: session.user.id,
+      exercise_id: exercise.id,
+      answer: responseText.trim(),
+      is_correct: true,
+      response_time_ms: lessonStartedAt ? Date.now() - lessonStartedAt : null,
+    })
+    if (attemptError) setError(attemptError.message)
+    setFeedback({ isCorrect: true, text: 'Respuesta guardada. Continúa con la siguiente actividad.' })
+  }
+
   async function nextExercise() {
     const total = selectedLesson?.exercises?.length ?? 0
     if (exerciseIndex + 1 < total) {
       setExerciseIndex((current) => current + 1)
       setAnswer(null)
+      setResponseText('')
       setFeedback(null)
       return
     }
@@ -225,20 +243,32 @@ export function App() {
                   <small>Actividad {exerciseIndex + 1} de {selectedLesson.exercises.length}</small>
                   <h3>{selectedLesson.exercises[exerciseIndex].prompt}</h3>
                   <p>{selectedLesson.exercises[exerciseIndex].instruction}</p>
-                  <div className="option-list">
+                  {selectedLesson.exercises[exerciseIndex].exercise_options?.length > 0 ? (
+                    <div className="option-list">
                     {(selectedLesson.exercises[exerciseIndex].exercise_options ?? []).map((option) => (
                       <button className="option-button" key={option.id} onClick={() => submitAnswer(option)}>
                         {option.option_text}
                       </button>
                     ))}
-                  </div>
+                    </div>
+                  ) : (
+                    <div className="open-answer">
+                      <textarea
+                        value={responseText}
+                        onChange={(event) => setResponseText(event.target.value)}
+                        placeholder="Escribe o prepara tu respuesta en inglés..."
+                        rows="5"
+                      />
+                      <button className="primary-button" onClick={submitOpenAnswer}>Guardar respuesta</button>
+                    </div>
+                  )}
                 </div>
               )}
               {feedback && (
                 <div className={feedback.isCorrect ? 'feedback success' : 'feedback error'}>
                   <strong>{feedback.text}</strong>
                   {!feedback.isCorrect && (
-                    <button className="primary-button" onClick={() => { setAnswer(null); setFeedback(null) }}>Intentar de nuevo</button>
+                    <button className="primary-button" onClick={() => { setAnswer(null); setResponseText(''); setFeedback(null) }}>Intentar de nuevo</button>
                   )}
                   {exerciseIndex + 1 < (selectedLesson.exercises?.length ?? 0) && feedback.isCorrect && (
                     <button className="primary-button" onClick={nextExercise}>Siguiente actividad</button>
