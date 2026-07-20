@@ -13,6 +13,11 @@ export function App() {
   const [topics, setTopics] = useState([])
   const [lessons, setLessons] = useState([])
   const [exercises, setExercises] = useState([])
+  const [selectedLesson, setSelectedLesson] = useState(null)
+  const [exerciseIndex, setExerciseIndex] = useState(0)
+  const [answer, setAnswer] = useState(null)
+  const [feedback, setFeedback] = useState(null)
+  const [lessonStartedAt, setLessonStartedAt] = useState(null)
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(true)
 
@@ -76,7 +81,56 @@ export function App() {
       const nextLessons = data ?? []
       setLessons(nextLessons)
       setExercises(nextLessons.flatMap((lesson) => lesson.exercises ?? []))
+      setSelectedLesson(null)
+      setFeedback(null)
     }
+  }
+
+  function openLesson(lesson) {
+    setSelectedLesson(lesson)
+    setExerciseIndex(0)
+    setAnswer(null)
+    setFeedback(null)
+    setLessonStartedAt(Date.now())
+  }
+
+  async function submitAnswer(option) {
+    const exercise = selectedLesson?.exercises?.[exerciseIndex]
+    if (!exercise || feedback) return
+    const isCorrect = option.is_correct === true
+    setAnswer(option.id)
+    setFeedback({ isCorrect, text: isCorrect ? '¡Correcto! Muy bien.' : (exercise.explanation || 'Revisa la explicación y vuelve a intentarlo.') })
+    const { error: attemptError } = await supabase.from('exercise_attempts').insert({
+      user_id: session.user.id,
+      exercise_id: exercise.id,
+      answer: option.option_text,
+      is_correct: isCorrect,
+      response_time_ms: lessonStartedAt ? Date.now() - lessonStartedAt : null,
+    })
+    if (attemptError) setError(attemptError.message)
+  }
+
+  async function nextExercise() {
+    const total = selectedLesson?.exercises?.length ?? 0
+    if (exerciseIndex + 1 < total) {
+      setExerciseIndex((current) => current + 1)
+      setAnswer(null)
+      setFeedback(null)
+      return
+    }
+    const completedAt = Date.now()
+    const duration = lessonStartedAt ? Math.round((completedAt - lessonStartedAt) / 1000) : 0
+    const completed = await supabase.from('user_progress').upsert({
+      user_id: session.user.id,
+      lesson_id: selectedLesson.id,
+      status: 'completed',
+      completion_percent: 100,
+      last_score: null,
+      time_spent_seconds: duration,
+      last_activity_at: new Date().toISOString(),
+    }, { onConflict: 'user_id,lesson_id' })
+    if (completed.error) setError(completed.error.message)
+    else setFeedback({ isCorrect: true, text: 'Lección completada. Tu progreso ya está guardado.' })
   }
 
   async function handleAuth(event) {
@@ -156,6 +210,47 @@ export function App() {
             ))}
           </div>
 
+          {selectedLesson && (
+            <section className="lesson-player">
+              <div className="panel-heading compact">
+                <div>
+                  <p className="section-label">Lección activa</p>
+                  <h2>{selectedLesson.title}</h2>
+                </div>
+                <button className="link-button" onClick={() => setSelectedLesson(null)}>Volver a lecciones</button>
+              </div>
+              <p className="lesson-objective">{selectedLesson.objective}</p>
+              {selectedLesson.exercises?.[exerciseIndex] && !feedback && (
+                <div className="exercise-card">
+                  <small>Actividad {exerciseIndex + 1} de {selectedLesson.exercises.length}</small>
+                  <h3>{selectedLesson.exercises[exerciseIndex].prompt}</h3>
+                  <p>{selectedLesson.exercises[exerciseIndex].instruction}</p>
+                  <div className="option-list">
+                    {(selectedLesson.exercises[exerciseIndex].exercise_options ?? []).map((option) => (
+                      <button className="option-button" key={option.id} onClick={() => submitAnswer(option)}>
+                        {option.option_text}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {feedback && (
+                <div className={feedback.isCorrect ? 'feedback success' : 'feedback error'}>
+                  <strong>{feedback.text}</strong>
+                  {!feedback.isCorrect && (
+                    <button className="primary-button" onClick={() => { setAnswer(null); setFeedback(null) }}>Intentar de nuevo</button>
+                  )}
+                  {exerciseIndex + 1 < (selectedLesson.exercises?.length ?? 0) && feedback.isCorrect && (
+                    <button className="primary-button" onClick={nextExercise}>Siguiente actividad</button>
+                  )}
+                  {exerciseIndex + 1 === (selectedLesson.exercises?.length ?? 0) && (
+                    <button className="primary-button" onClick={() => { setSelectedLesson(null); setFeedback(null) }}>Volver al tema</button>
+                  )}
+                </div>
+              )}
+            </section>
+          )}
+
           {lessons.length > 0 && (
             <div className="lesson-panel">
               <div className="panel-heading compact">
@@ -172,6 +267,7 @@ export function App() {
                     <h3>{lesson.title}</h3>
                     <p>{lesson.objective}</p>
                     <small>{lesson.exercises?.length ?? 0} actividades · {lesson.estimated_minutes} min</small>
+                    <button className="primary-button lesson-button" onClick={() => openLesson(lesson)}>Comenzar lección</button>
                   </article>
                 ))}
               </div>
