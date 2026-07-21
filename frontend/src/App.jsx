@@ -74,7 +74,7 @@ export function App() {
     setError('')
     const { data, error: queryError } = await supabase
       .from('lessons')
-      .select('id, title, objective, estimated_minutes, sort_order, exercises(id, exercise_type, prompt, explanation, difficulty, sort_order, exercise_options(id, option_text, is_correct, sort_order))')
+      .select('id, title, objective, estimated_minutes, sort_order, lesson_sections(id, section_type, title, content, sort_order), exercises(id, exercise_type, prompt, explanation, difficulty, sort_order, exercise_options(id, option_text, is_correct, sort_order))')
       .eq('topic_id', topic.id)
       .order('sort_order')
     if (queryError) setError(queryError.message)
@@ -238,6 +238,27 @@ export function App() {
                 <button className="link-button" onClick={() => setSelectedLesson(null)}>Volver a lecciones</button>
               </div>
               <p className="lesson-objective">{selectedLesson.objective}</p>
+              <div className="section-list">
+                {(selectedLesson.lesson_sections ?? []).sort((a, b) => a.sort_order - b.sort_order).map((section) => (
+                  <article className="teaching-section" key={section.id}>
+                    <p className="section-label">{section.title}</p>
+                    {section.section_type === 'explanation' && <p>{section.content?.text}</p>}
+                    {section.section_type === 'examples' && (
+                      <div>
+                        <p>{(section.content?.phrases ?? []).join(' · ')}</p>
+                        <small>{(section.content?.vocabulary ?? []).map((item) => item.term).join(' · ')}</small>
+                      </div>
+                    )}
+                    {section.section_type === 'pronunciation' && (
+                      <div>
+                        <p>{(section.content?.notes ?? []).join(' ')}</p>
+                        <small>{(section.content?.targets ?? []).map((target) => target.text + ' ' + target.ipa).join(' · ')}</small>
+                      </div>
+                    )}
+                    {section.section_type === 'review' && <p>Repasa en los días: {(section.content?.review_schedule ?? []).join(', ')}. Dominio mínimo: {Math.round((section.content?.mastery?.minimum_score ?? 0.8) * 100)}%.</p>}
+                  </article>
+                ))}
+              </div>
               {selectedLesson.exercises?.[exerciseIndex] && !feedback && (
                 <div className="exercise-card">
                   <small>Actividad {exerciseIndex + 1} de {selectedLesson.exercises.length}</small>
