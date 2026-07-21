@@ -17,6 +17,9 @@ export function App() {
   const [exerciseIndex, setExerciseIndex] = useState(0)
   const [answer, setAnswer] = useState(null)
   const [responseText, setResponseText] = useState('')
+  const [isRecording, setIsRecording] = useState(false)
+  const [audioUrl, setAudioUrl] = useState('')
+  const [mediaRecorder, setMediaRecorder] = useState(null)
   const [feedback, setFeedback] = useState(null)
   const [lessonStartedAt, setLessonStartedAt] = useState(null)
   const [error, setError] = useState('')
@@ -92,6 +95,8 @@ export function App() {
     setExerciseIndex(0)
     setAnswer(null)
     setResponseText('')
+    setAudioUrl('')
+    setIsRecording(false)
     setFeedback(null)
     setLessonStartedAt(Date.now())
   }
@@ -127,6 +132,45 @@ export function App() {
     })
     if (attemptError) setError(attemptError.message)
     setFeedback({ isCorrect: true, pending: true, text: 'Respuesta guardada. Se evaluará con los criterios de esta actividad.' })
+  }
+
+  async function toggleRecording() {
+    if (isRecording && mediaRecorder) {
+      mediaRecorder.stop()
+      setIsRecording(false)
+      return
+    }
+    if (!navigator.mediaDevices?.getUserMedia) {
+      setError('Este navegador no permite grabar audio.')
+      return
+    }
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
+    const recorder = new MediaRecorder(stream)
+    const chunks = []
+    recorder.ondataavailable = (event) => chunks.push(event.data)
+    recorder.onstop = () => {
+      const blob = new Blob(chunks, { type: 'audio/webm' })
+      setAudioUrl(URL.createObjectURL(blob))
+      stream.getTracks().forEach((track) => track.stop())
+    }
+    recorder.start()
+    setMediaRecorder(recorder)
+    setIsRecording(true)
+  }
+
+  async function submitPronunciation() {
+    const exercise = selectedLesson?.exercises?.[exerciseIndex]
+    if (!exercise || !audioUrl || feedback) return
+    const { error: attemptError } = await supabase.from('exercise_attempts').insert({
+      user_id: session.user.id,
+      exercise_id: exercise.id,
+      answer: { type: 'audio_recording', target: exercise.prompt },
+      is_correct: null,
+      evaluation_status: 'pending',
+      response_time_ms: lessonStartedAt ? Date.now() - lessonStartedAt : null,
+    })
+    if (attemptError) setError(attemptError.message)
+    setFeedback({ isCorrect: true, pending: true, text: 'Grabación guardada. La pronunciación queda pendiente de evaluación.' })
   }
 
   async function nextExercise() {
@@ -274,6 +318,13 @@ export function App() {
                       </button>
                     ))}
                     </div>
+                  ) : selectedLesson.exercises[exerciseIndex].exercise_type === 'pronunciation' ? (
+                    <div className="recording-box">
+                      <button className="primary-button" onClick={toggleRecording}>{isRecording ? 'Detener grabación' : 'Grabar pronunciación'}</button>
+                      {isRecording && <span className="recording-status">● Grabando...</span>}
+                      {audioUrl && <audio controls src={audioUrl} />}
+                      {audioUrl && <button className="primary-button" onClick={submitPronunciation}>Enviar grabación</button>}
+                    </div>
                   ) : (
                     <div className="open-answer">
                       <textarea
@@ -291,7 +342,7 @@ export function App() {
                 <div className={feedback.isCorrect ? 'feedback success' : 'feedback error'}>
                   <strong>{feedback.text}</strong>
                   {!feedback.isCorrect && (
-                    <button className="primary-button" onClick={() => { setAnswer(null); setResponseText(''); setFeedback(null) }}>Intentar de nuevo</button>
+                    <button className="primary-button" onClick={() => { setAnswer(null); setResponseText(''); setAudioUrl(''); setFeedback(null) }}>Intentar de nuevo</button>
                   )}
                   {exerciseIndex + 1 < (selectedLesson.exercises?.length ?? 0) && feedback.isCorrect && (
                     <button className="primary-button" onClick={nextExercise}>Siguiente actividad</button>
