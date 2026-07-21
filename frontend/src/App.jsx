@@ -107,6 +107,7 @@ export function App() {
       exercise_id: exercise.id,
       answer: option.option_text,
       is_correct: isCorrect,
+      evaluation_status: 'graded',
       response_time_ms: lessonStartedAt ? Date.now() - lessonStartedAt : null,
     })
     if (attemptError) setError(attemptError.message)
@@ -120,11 +121,12 @@ export function App() {
       user_id: session.user.id,
       exercise_id: exercise.id,
       answer: responseText.trim(),
-      is_correct: true,
+      is_correct: null,
+      evaluation_status: 'pending',
       response_time_ms: lessonStartedAt ? Date.now() - lessonStartedAt : null,
     })
     if (attemptError) setError(attemptError.message)
-    setFeedback({ isCorrect: true, text: 'Respuesta guardada. Continúa con la siguiente actividad.' })
+    setFeedback({ isCorrect: true, pending: true, text: 'Respuesta guardada. Se evaluará con los criterios de esta actividad.' })
   }
 
   async function nextExercise() {
