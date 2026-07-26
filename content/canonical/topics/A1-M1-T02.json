@@ -1,0 +1,61 @@
+{
+  "id": "A1-M1-T02",
+  "level": "A1",
+  "module_code": "M1",
+  "topic_code": "T02",
+  "title": "Pronombres personales",
+  "communication_goal": "Elegir el pronombre correcto para hablar de uno mismo, otras personas, objetos y grupos.",
+  "explanation_es": "En inglés el pronombre de sujeto normalmente aparece antes del verbo. I significa yo; you, tú, usted o ustedes; he, él; she, ella; it, eso o ello para cosas, animales o situaciones; we, nosotros; y they, ellos, ellas o varias cosas. El pronombre se elige según quién o qué realiza la acción y debe concordar con el verbo.",
+  "learning_outcomes": [
+    "Reconocer y traducir I, you, he, she, it, we y they según el contexto.",
+    "No omitir el sujeto en frases inglesas básicas.",
+    "Distinguir he, she e it según el referente.",
+    "Distinguir we, que incluye al hablante, de they, que lo excluye.",
+    "Usar los pronombres con am, is y are en frases propias.",
+    "Presentar personas, describir objetos y hablar de grupos en una conversación breve."
+  ],
+  "key_language": [
+    "I am Carlos.", "You are my friend.", "He is my brother.",
+    "She is Ana.", "It is a book.", "We are students.",
+    "They are at home.", "Who is she?", "What is it?"
+  ],
+  "vocabulary": [
+    {"term":"person","meaning_es":"persona","example":"She is a person."},
+    {"term":"friend","meaning_es":"amigo o amiga","example":"You are my friend."},
+    {"term":"brother","meaning_es":"hermano","example":"He is my brother."},
+    {"term":"sister","meaning_es":"hermana","example":"She is my sister."},
+    {"term":"teacher","meaning_es":"profesor o profesora","example":"He is my teacher."},
+    {"term":"student","meaning_es":"estudiante","example":"We are students."},
+    {"term":"thing","meaning_es":"cosa","example":"It is a useful thing."},
+    {"term":"neighbor","meaning_es":"vecino o vecina","example":"They are our neighbors."}
+  ],
+  "pronunciation_targets": [
+    {"text":"I","ipa":"/aɪ/","error":"No pronunciarla como la i española; es un diptongo."},
+    {"text":"you","ipa":"/juː/","error":"No convertir /j/ en /b/ ni añadir una vocal final."},
+    {"text":"he","ipa":"/hiː/","error":"Mantener la h aspirada y no decir simplemente i."},
+    {"text":"she","ipa":"/ʃiː/","error":"No confundir /ʃ/ con la ch de español."},
+    {"text":"it","ipa":"/ɪt/","error":"Usar la vocal corta /ɪ/, no la i larga de he."},
+    {"text":"we","ipa":"/wiː/","error":"Redondear los labios para /w/; no decir be."},
+    {"text":"they","ipa":"/ðeɪ/","error":"El sonido /ð/ es suave y se produce con la lengua entre los dientes."}
+  ],
+  "spanish_speaker_notes": [
+    "En español podemos omitir el sujeto: Estoy cansado. En inglés básico se dice I am tired, no am tired.",
+    "He y she dependen del género de la persona; it no es la traducción automática de él o ella.",
+    "You puede ser singular o plural; el contexto indica si significa tú, usted o ustedes.",
+    "We incluye al hablante; they habla de otras personas o cosas sin incluirlo.",
+    "El pronombre debe concordar con to be: I am, he/she/it is, you/we/they are."
+  ],
+  "lessons": [
+    {"id":"A1-M1-T02-L01","title":"I and you: meeting someone","focus":"presentarse, preguntar el nombre y reconocer al hablante y al oyente"},
+    {"id":"A1-M1-T02-L02","title":"He, she and it: people and things","focus":"identificar personas y objetos con referentes claros"},
+    {"id":"A1-M1-T02-L03","title":"We and they: groups","focus":"incluir o excluir al hablante al hablar de grupos"},
+    {"id":"A1-M1-T02-L04","title":"Pronouns in real conversation","focus":"transferir todos los pronombres a una escena nueva"}
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "all_seven_pronouns_required": true,
+    "am_is_are_agreement_required": true,
+    "transfer_required": true,
+    "pronunciation_is_intelligibility_first": true
+  }
+}
