@@ -65,7 +65,7 @@ export function App() {
     async function loadTopics() {
       const { data, error: queryError } = await supabase
         .from('topics')
-        .select('id, title, description, sort_order')
+        .select('id, title, description, sort_order, learning_overview')
         .eq('module_id', selectedModule.id)
         .order('sort_order')
       if (queryError) setError(queryError.message)
@@ -370,6 +370,9 @@ export function App() {
                   <p className="section-label">Introducción del tema</p>
                   <h2>{selectedTopic.title}</h2>
                   <p>{selectedTopic.description || 'En este tema aprenderás a comprender y usar el inglés en situaciones cotidianas.'}</p>
+                  {selectedTopic.learning_overview?.explanation_es && <p>{selectedTopic.learning_overview.explanation_es}</p>}
+                  {selectedTopic.learning_overview?.learning_outcomes?.length > 0 && <div><strong>Qué lograrás</strong><ul>{selectedTopic.learning_overview.learning_outcomes.map((outcome, index) => <li key={index}>{outcome}</li>)}</ul></div>}
+                  {selectedTopic.learning_overview?.key_language?.length > 0 && <p><strong>Lenguaje clave:</strong> {selectedTopic.learning_overview.key_language.join(' · ')}</p>}
                   <div className="topic-intro-grid">
                     <div><strong>Objetivo</strong><span>Comprender la idea, practicarla y usarla en una situación real.</span></div>
                     <div><strong>Ruta de aprendizaje</strong><span>Explicación → escucha → práctica → conversación → repaso.</span></div>
