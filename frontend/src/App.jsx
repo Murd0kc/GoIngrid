@@ -288,7 +288,13 @@ export function App() {
                 {(selectedLesson.lesson_sections ?? []).sort((a, b) => a.sort_order - b.sort_order).map((section) => (
                   <article className="teaching-section" key={section.id}>
                     <p className="section-label">{section.title}</p>
-                    {section.section_type === 'explanation' && <p>{section.content?.text}</p>}
+                    {section.section_type === 'explanation' && <div><p>{section.content?.explanation_es || section.content?.text}</p>{section.content?.communication_goal && <small>Objetivo: {section.content.communication_goal}</small>}{section.content?.language_focus?.length > 0 && <p>Lenguaje clave: {section.content.language_focus.join(' · ')}</p>}</div>}
+                    {section.section_type === 'examples' && section.content?.examples?.map((example, index) => <p key={index}><strong>{example.english}</strong>{example.meaning_es ? ` — ${example.meaning_es}` : ''}</p>)}
+                    {section.section_type === 'examples' && section.content?.dialogue?.map((turn, index) => <p key={`dialogue-${index}`}><strong>{turn.speaker}:</strong> {turn.english}{turn.spanish ? ` — ${turn.spanish}` : ''}</p>)}
+                    {section.section_type === 'pronunciation' && section.content?.tip_es && <p>{section.content.tip_es}</p>}
+                    {section.section_type === 'listening' && section.content?.dialogue?.map((turn, index) => <p key={`listen-${index}`}><strong>{turn.speaker}:</strong> {turn.english}</p>)}
+                    {section.section_type === 'conversation' && <div><p>{section.content?.situation}</p><small>Objetivo: {section.content?.communication_goal}</small></div>}
+                    {section.section_type === 'review' && <p>{section.content?.mastery_criteria || 'Repasa las frases y comprueba que puedes usarlas en una situación real.'}</p>}
                     {section.section_type === 'examples' && (
                       <div>
                         <p>{(section.content?.phrases ?? []).join(' · ')}</p>
