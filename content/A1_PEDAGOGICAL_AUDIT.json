@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-07-26T20:16:58.449Z",
+  "standard": "GOINGRID_PEDAGOGICAL_DEPTH_STANDARD.md",
+  "topics": [
+    {
+      "file": "A1-M1-T01.json",
+      "id": "A1-M1-T01",
+      "title": "El alfabeto y los sonidos principales",
+      "lesson_count": 4,
+      "activity_count": 40,
+      "skills": [
+        "assessment",
+        "grammar",
+        "interaction",
+        "listening",
+        "pronunciation",
+        "reading",
+        "review",
+        "speaking",
+        "vocabulary",
+        "writing"
+      ],
+      "activity_types": [
+        "ai_roleplay",
+        "dictation",
+        "error_correction",
+        "listening_detail",
+        "listening_global",
+        "mastery_assessment",
+        "matching",
+        "minimal_pair",
+        "multiple_choice",
+        "ordering",
+        "pronunciation",
+        "reading",
+        "review",
+        "roleplay",
+        "transfer",
+        "writing"
+      ],
+      "concerns": [
+        "alphabet_coverage_0_of_26"
+      ]
+    },
+    {
+      "file": "A1-M1-T02.json",
+      "id": "A1-M1-T02",
+      "title": "Pronombres personales",
+      "lesson_count": 4,
+      "activity_count": 40,
+      "skills": [
+        "assessment",
+        "grammar",
+        "interaction",
+        "listening",
+        "pronunciation",
+        "reading",
+        "speaking",
+        "vocabulary",
+        "writing"
+      ],
+      "activity_types": [
+        "ai_roleplay",
+        "error_correction",
+        "listening",
+        "listening_detail",
+        "listening_global",
+        "mastery_assessment",
+        "matching",
+        "multiple_choice",
+        "ordering",
+        "pronunciation",
+        "reading",
+        "roleplay",
+        "transfer",
+        "writing"
+      ],
+      "concerns": []
+    },
+    {
+      "file": "A1-M1-T03.json",
+      "id": "A1-M1-T03",
+      "title": "Verbo to be",
+      "lesson_count": 4,
+      "activity_count": 40,
+      "skills": [
+        "assessment",
+        "grammar",
+        "interaction",
+        "listening",
+        "pronunciation",
+        "reading",
+        "review",
+        "speaking",
+        "vocabulary",
+        "writing"
+      ],
+      "activity_types": [
+        "ai_roleplay",
+        "error_correction",
+        "listening",
+        "mastery_assessment",
+        "multiple_choice",
+        "ordering",
+        "pronunciation",
+        "reading",
+        "review",
+        "roleplay",
+        "transfer",
+        "writing"
+      ],
+      "concerns": [
+        "insufficient_topic_vocabulary"
+      ]
+    },
+    {
+      "file": "A1-M1-T04.json",
+      "id": "A1-M1-T04",
+      "title": "Artículos a, an y the",
+      "lesson_count": 4,
+      "activity_count": 40,
+      "skills": [
+        "assessment",
+        "grammar",
+        "interaction",
+        "listening",
+        "pronunciation",
+        "reading",
+        "review",
+        "speaking",
+        "vocabulary",
+        "writing"
+      ],
+      "activity_types": [
+        "ai_roleplay",
+        "error_correction",
+        "listening",
+        "mastery_assessment",
+        "matching",
+        "multiple_choice",
+        "ordering",
+        "pronunciation",
+        "reading",
+        "review",
+        "roleplay",
+        "transfer",
+        "writing"
+      ],
+      "concerns": []
+    },
+    {
+      "file": "A1-M1-T05.json",
+      "id": "A1-M1-T05",
+      "title": "Sustantivos y plurales",
+      "lesson_count": 4,
+      "activity_count": 40,
+      "skills": [
+        "assessment",
+        "grammar",
+        "interaction",
+        "listening",
+        "pronunciation",
+        "reading",
+        "review",
+        "speaking",
+        "vocabulary",
+        "writing"
+      ],
+      "activity_types": [
+        "ai_roleplay",
+        "error_correction",
+        "listening",
+        "mastery_assessment",
+        "matching",
+        "multiple_choice",
+        "ordering",
+        "pronunciation",
+        "reading",
+        "review",
+        "roleplay",
+        "transfer",
+        "writing"
+      ],
+      "concerns": []
+    }
+  ],
+  "summary": {
+    "topic_files": 5,
+    "topics_with_concerns": 2,
+    "total_concerns": 2,
+    "topics_without_concerns": 3
+  }
+}

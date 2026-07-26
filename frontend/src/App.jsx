@@ -373,6 +373,21 @@ export function App() {
                   {selectedTopic.learning_overview?.explanation_es && <p>{selectedTopic.learning_overview.explanation_es}</p>}
                   {selectedTopic.learning_overview?.learning_outcomes?.length > 0 && <div><strong>Qué lograrás</strong><ul>{selectedTopic.learning_overview.learning_outcomes.map((outcome, index) => <li key={index}>{outcome}</li>)}</ul></div>}
                   {selectedTopic.learning_overview?.key_language?.length > 0 && <p><strong>Lenguaje clave:</strong> {selectedTopic.learning_overview.key_language.join(' · ')}</p>}
+                  {selectedTopic.learning_overview?.letters?.length > 0 && (
+                    <div className="alphabet-reference">
+                      <strong>Alfabeto y pronunciación</strong>
+                      <div className="alphabet-grid">
+                        {selectedTopic.learning_overview.letters.map((item) => (
+                          <div className="alphabet-card" key={item.letter}>
+                            <b>{item.letter} {item.lowercase}</b>
+                            <span>{item.name}</span>
+                            <small>{item.ipa}</small>
+                            <em>{item.example}</em>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                   <div className="topic-intro-grid">
                     <div><strong>Objetivo</strong><span>Comprender la idea, practicarla y usarla en una situación real.</span></div>
                     <div><strong>Ruta de aprendizaje</strong><span>Explicación → escucha → práctica → conversación → repaso.</span></div>
