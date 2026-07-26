@@ -11,6 +11,7 @@ export function App() {
   const [modules, setModules] = useState([])
   const [selectedModule, setSelectedModule] = useState(null)
   const [topics, setTopics] = useState([])
+  const [selectedTopic, setSelectedTopic] = useState(null)
   const [lessons, setLessons] = useState([])
   const [exercises, setExercises] = useState([])
   const [selectedLesson, setSelectedLesson] = useState(null)
@@ -75,6 +76,7 @@ export function App() {
 
   async function openTopic(topic) {
     setError('')
+    setSelectedTopic(topic)
     const { data, error: queryError } = await supabase
       .from('lessons')
       .select('id, title, objective, estimated_minutes, sort_order, lesson_sections(id, section_type, title, content, sort_order), exercises(id, exercise_type, prompt, explanation, difficulty, sort_order, exercise_options(id, option_text, is_correct, sort_order))')
@@ -363,6 +365,18 @@ export function App() {
 
           {lessons.length > 0 && (
             <div className="lesson-panel">
+              {selectedTopic && (
+                <section className="topic-intro">
+                  <p className="section-label">Introducción del tema</p>
+                  <h2>{selectedTopic.title}</h2>
+                  <p>{selectedTopic.description || 'En este tema aprenderás a comprender y usar el inglés en situaciones cotidianas.'}</p>
+                  <div className="topic-intro-grid">
+                    <div><strong>Objetivo</strong><span>Comprender la idea, practicarla y usarla en una situación real.</span></div>
+                    <div><strong>Ruta de aprendizaje</strong><span>Explicación → escucha → práctica → conversación → repaso.</span></div>
+                    <div><strong>Lecciones</strong><span>{lessons.length} lecciones · {exercises.length} actividades guiadas.</span></div>
+                  </div>
+                </section>
+              )}
               <div className="panel-heading compact">
                 <div>
                   <p className="section-label">Tema seleccionado</p>
