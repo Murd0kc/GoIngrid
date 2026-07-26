@@ -1,0 +1,420 @@
+{
+  "id": "A1-M2-T02-L01",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T02",
+  "title": "Talk about your routine",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede hablar de hábitos y rutinas usando el presente simple con I, you, we y they.",
+  "situation": "Contar una rutina diaria y preguntar por los hábitos de otra persona.",
+  "language_focus": [
+    "I get up at seven.",
+    "I have breakfast.",
+    "We work every day.",
+    "They study at night.",
+    "Do you work on Saturdays?"
+  ],
+  "vocabulary": [
+    {
+      "term": "get up",
+      "meaning_es": "levantarse",
+      "example": "I get up at seven."
+    },
+    {
+      "term": "have breakfast",
+      "meaning_es": "desayunar",
+      "example": "I have breakfast at home."
+    },
+    {
+      "term": "go to work",
+      "meaning_es": "ir al trabajo",
+      "example": "We go to work by bus."
+    },
+    {
+      "term": "every day",
+      "meaning_es": "todos los días",
+      "example": "I work every day."
+    },
+    {
+      "term": "on Saturdays",
+      "meaning_es": "los sábados",
+      "example": "They study on Saturdays."
+    },
+    {
+      "term": "routine",
+      "meaning_es": "rutina",
+      "example": "Tell me about your routine."
+    }
+  ],
+  "context": {
+    "before": "Two coworkers compare their morning routines.",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "text": "What time do you get up?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "I get up at seven. I have breakfast at home."
+      },
+      {
+        "speaker": "Maya",
+        "text": "Do you go to work by bus?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "Yes, I do. I work every day except Sunday."
+      },
+      {
+        "speaker": "Maya",
+        "text": "We have a similar routine."
+      }
+    ]
+  },
+  "explanation_es": "El presente simple describe hábitos y rutinas. Con I, you, we y they usamos la forma base: I work, they study. En preguntas usamos do: Do you work?",
+  "spanish_speaker_notes": [
+    "No uses el gerundio para todos los hábitos: I work every day, no I am working every day en este objetivo.",
+    "Después de do usamos el verbo base: Do you work?, no Do you works?.",
+    "Los bloques de rutina se aprenden como unidades: get up, have breakfast, go to work."
+  ],
+  "pronunciation": {
+    "target": "Producir rutinas con ritmo claro y reconocer do you en preguntas.",
+    "models": [
+      {
+        "text": "I get up at seven.",
+        "stress": [
+          "get up",
+          "seven"
+        ]
+      },
+      {
+        "text": "I have breakfast at home.",
+        "stress": [
+          "breakfast",
+          "home"
+        ]
+      },
+      {
+        "text": "Do you work every day?",
+        "stress": [
+          "work",
+          "every day"
+        ],
+        "intonation": "rising"
+      }
+    ],
+    "student_feedback": "El verbo principal y el momento del día deben ser fáciles de identificar."
+  },
+  "reading": {
+    "title": "A weekday routine",
+    "text": "Luis gets up at seven on weekdays. He has breakfast at home and goes to work by bus. He works every day except Sunday. On Saturdays, he studies English in the afternoon.",
+    "interactive_vocabulary": [
+      "weekday",
+      "by bus",
+      "except",
+      "afternoon",
+      "studies"
+    ],
+    "questions": [
+      {
+        "prompt": "How does Luis go to work?",
+        "options": [
+          "By bus",
+          "By train",
+          "On foot"
+        ],
+        "answer": "By bus"
+      },
+      {
+        "prompt": "When does he study English?",
+        "options": [
+          "On Saturdays",
+          "Every morning",
+          "Only Sunday"
+        ],
+        "answer": "On Saturdays"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T02-L01-E01",
+      "type": "routine_sequence",
+      "skill": "vocabulary",
+      "instruction": "Ordena las acciones de la mañana.",
+      "items": [
+        "get up",
+        "have breakfast",
+        "go to work"
+      ],
+      "correct_answer": "get up, have breakfast, go to work",
+      "feedback_correct": "Organizaste una rutina real.",
+      "feedback_incorrect": "Primero te levantas, después desayunas y luego vas al trabajo.",
+      "estimated_seconds": 60,
+      "prompt": "Ordena las acciones de la mañana.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "get up, have breakfast, go to work"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E02",
+      "type": "listening_routine",
+      "skill": "listening",
+      "instruction": "Escucha y elige cuándo se levanta Luis.",
+      "prompt": "I get up at seven.",
+      "options": [
+        "At seven",
+        "At eight",
+        "At night"
+      ],
+      "correct_answer": "At seven",
+      "feedback_correct": "Reconociste la hora de la rutina.",
+      "feedback_incorrect": "Escucha at seven al final de la frase.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "At seven"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E03",
+      "type": "present_simple_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase con I.",
+      "prompt": "I ___ breakfast at home.",
+      "options": [
+        "have",
+        "has",
+        "having"
+      ],
+      "correct_answer": "have",
+      "feedback_correct": "Con I usamos la forma base have.",
+      "feedback_incorrect": "Después de I usamos have, no has.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "have"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E04",
+      "type": "question_builder",
+      "skill": "grammar",
+      "instruction": "Ordena la pregunta sobre una rutina.",
+      "tokens": [
+        "Do",
+        "you",
+        "work",
+        "every",
+        "day?"
+      ],
+      "correct_answer": "Do you work every day?",
+      "feedback_correct": "Do inicia la pregunta con you.",
+      "feedback_incorrect": "Usa Do + you + verbo base.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena la pregunta sobre una rutina.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Do you work every day?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta.",
+      "prompt": "Do you works on Saturdays?",
+      "correct_answer": "Do you work on Saturdays?",
+      "feedback_correct": "Después de do usamos el verbo base.",
+      "feedback_incorrect": "Quita la s de works después de do.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Do you work on Saturdays?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba tres frases de tu rutina.",
+      "prompt": "I get up at ____. I have breakfast ____. I go to work ____.",
+      "evaluation": {
+        "0": "routine chunks",
+        "1": "verb clarity",
+        "2": "time/place clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Tu rutina se entiende y las acciones están conectadas.",
+      "feedback_incorrect": "Practica cada bloque verbal antes de unir la frase.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la rutina y completa una línea de tiempo.",
+      "reading_ref": "A1-M2-T02-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 4 routine facts",
+      "feedback_correct": "Extrajiste acciones, horarios y frecuencia.",
+      "feedback_incorrect": "Busca gets up, breakfast, work y studies.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la rutina y completa una línea de tiempo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 routine facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es un compañero. Pregunta por su rutina y responde sobre la tuya.",
+      "role": "coworker",
+      "student_goal": "Ask and answer two routine questions using present simple.",
+      "allowed_support": [
+        "routine cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks Do you...?",
+        "answers with a routine verb",
+        "gives time or frequency"
+      ],
+      "feedback_correct": "Conversaste sobre hábitos usando el presente simple.",
+      "feedback_incorrect": "Usa Do you + verbo base? y responde I + verbo.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es un compañero. Pregunta por su rutina y responde sobre la tuya.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Graba un audio de tu rutina de mañana y haz una pregunta al oyente.",
+      "prompt": "I get up ____. I have breakfast ____. I go to ____. Do you ____?",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three routine verbs",
+        "includes time/place",
+        "asks one Do question"
+      ],
+      "feedback_correct": "Usaste el presente simple para hablar de tu vida.",
+      "feedback_incorrect": "Construye tres afirmaciones y termina con Do you + verbo base?.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    },
+    {
+      "id": "A1-M2-T02-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "I ___ up at seven.",
+        "I ___ breakfast.",
+        "___ you work every day?"
+      ],
+      "correct_answers": [
+        "get",
+        "have",
+        "Do"
+      ],
+      "feedback_correct": "Recuperaste verbos y pregunta de rutina.",
+      "feedback_incorrect": "get up, have breakfast y Do you...?.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "get",
+          "have",
+          "Do"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T02-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

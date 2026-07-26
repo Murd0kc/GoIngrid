@@ -1,0 +1,407 @@
+{
+  "id": "A1-M2-T09-L01",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T09",
+  "title": "¿Se puede contar?",
+  "estimated_seconds": 930,
+  "communication_goal": "Distinguir sustantivos contables y no contables en situaciones cotidianas.",
+  "situation": "Preparas una lista de compras y decides qué puedes contar directamente.",
+  "language_focus": {
+    "grammar": [
+      "a/an + singular countable",
+      "plural countable nouns",
+      "uncountable nouns without a/an"
+    ],
+    "function": "classifying nouns"
+  },
+  "vocabulary": [
+    {
+      "word": "apple",
+      "meaning_es": "manzana",
+      "example": "I need an apple."
+    },
+    {
+      "word": "egg",
+      "meaning_es": "huevo",
+      "example": "We need three eggs."
+    },
+    {
+      "word": "rice",
+      "meaning_es": "arroz",
+      "example": "We need some rice."
+    },
+    {
+      "word": "water",
+      "meaning_es": "agua",
+      "example": "There is some water."
+    },
+    {
+      "word": "bread",
+      "meaning_es": "pan",
+      "example": "I buy bread."
+    },
+    {
+      "word": "bottle",
+      "meaning_es": "botella",
+      "example": "I need two bottles."
+    }
+  ],
+  "context": {
+    "title": "The shopping list",
+    "dialogue": [
+      {
+        "speaker": "Mia",
+        "english": "What do we need for dinner?",
+        "spanish": "¿Qué necesitamos para la cena?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "We need three apples, two eggs and some rice.",
+        "spanish": "Necesitamos tres manzanas, dos huevos y arroz."
+      },
+      {
+        "speaker": "Mia",
+        "english": "Do we have water?",
+        "spanish": "¿Tenemos agua?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "Yes, we have some water, but we need a bottle of milk.",
+        "spanish": "Sí, tenemos agua, pero necesitamos una botella de leche."
+      },
+      {
+        "speaker": "Mia",
+        "english": "Great. I can buy the bread.",
+        "spanish": "Perfecto. Puedo comprar el pan."
+      }
+    ]
+  },
+  "explanation_es": "Los sustantivos contables pueden tener un número: one apple, two apples. Tienen singular y plural y pueden usar a/an en singular. Los no contables se consideran una cantidad o sustancia: rice, water, bread, milk. No decimos a rice o two waters cuando hablamos de la sustancia; usamos some rice o a bottle of water.",
+  "spanish_speaker_notes": [
+    "Que algo sea contable en español no garantiza que lo sea en inglés: advice, information y bread suelen ser no contables.",
+    "Usa a/an solo con un sustantivo contable singular: an apple, a bottle.",
+    "Para contar un no contable necesitas un recipiente o unidad: a bottle of water.",
+    "No agregues s a water, rice o bread cuando hablas de la sustancia."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "three apples",
+        "focus": "plural /z/ o /s/ en apples"
+      },
+      {
+        "text": "some rice",
+        "focus": "rice sin plural"
+      },
+      {
+        "text": "a bottle of water",
+        "focus": "enlace bottle of water"
+      }
+    ],
+    "tip_es": "Escucha si el número cambia el sustantivo o si necesitas una unidad como bottle."
+  },
+  "reading": {
+    "title": "A simple shopping list",
+    "text": "Mia and Leo prepare dinner. They need three apples, two eggs, some rice and a bottle of water. They already have bread at home. They do not need more bread today.",
+    "glossary": [
+      {
+        "term": "shopping list",
+        "meaning_es": "lista de compras"
+      },
+      {
+        "term": "prepare dinner",
+        "meaning_es": "preparar la cena"
+      },
+      {
+        "term": "already",
+        "meaning_es": "ya"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "noun_classify",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada sustantivo como contable o no contable.",
+      "items": [
+        {
+          "word": "apple",
+          "category": "countable"
+        },
+        {
+          "word": "egg",
+          "category": "countable"
+        },
+        {
+          "word": "rice",
+          "category": "uncountable"
+        },
+        {
+          "word": "water",
+          "category": "uncountable"
+        },
+        {
+          "word": "bottle",
+          "category": "countable"
+        }
+      ],
+      "prompt": "Clasifica cada sustantivo como contable o no contable.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "item=countable",
+          "item=countable",
+          "item=uncountable",
+          "item=uncountable",
+          "item=countable"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: three apples. Elige la imagen o idea correcta.",
+      "audio_text": "three apples",
+      "options": [
+        "Una manzana",
+        "Tres manzanas",
+        "Arroz"
+      ],
+      "correct": "Tres manzanas",
+      "feedback": "Apple es contable y toma plural después de three.",
+      "prompt": "Escucha: three apples. Elige la imagen o idea correcta.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Tres manzanas"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Apple es contable y toma plural después de three.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: We need ___ rice.",
+      "options": [
+        "a",
+        "some",
+        "an"
+      ],
+      "correct": "some",
+      "feedback": "Rice es no contable en este contexto.",
+      "prompt": "Completa: We need ___ rice.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "some"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Rice es no contable en este contexto.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: a / need / bottle / water / of / I / .",
+      "answer": "I need a bottle of water.",
+      "feedback": "Bottle es la unidad contable; water es la sustancia.",
+      "prompt": "Ordena: a / need / bottle / water / of / I / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need a bottle of water."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Bottle es la unidad contable; water es la sustancia.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I need two breads.",
+      "answer": "I need two loaves of bread.",
+      "feedback": "Para contar pan usamos una unidad como loaves; bread es no contable.",
+      "prompt": "Corrige: I need two breads.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need two loaves of bread."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Para contar pan usamos una unidad como loaves; bread es no contable.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Lee la lista: three apples, two eggs, some rice and a bottle of water.",
+      "target": "Three apples, two eggs, some rice and a bottle of water.",
+      "evaluation": {
+        "0": "números claros",
+        "1": "plurales audibles",
+        "2": "sustantivos no contables sin s",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Three apples, two eggs, some rice and a bottle of water.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Simple Shopping List y responde: How many apples do they need?",
+      "text_reference": "reading",
+      "answer": "They need three apples.",
+      "feedback": "La cantidad está al inicio del texto.",
+      "prompt": "Lee A Simple Shopping List y responde: How many apples do they need?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They need three apples."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La cantidad está al inicio del texto.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero preparando una lista de compras. Decide qué objetos se cuentan y qué productos necesitan una unidad.",
+      "scenario": "Planning dinner and shopping for ingredients.",
+      "ai_language": "English with short Spanish explanation of countable choices",
+      "prompt": "La IA será un compañero preparando una lista de compras. Decide qué objetos se cuentan y qué productos necesitan una unidad.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea una lista de diez productos: cinco contables y cinco no contables. Escribe una frase de compra para cada uno.",
+      "success_criteria": [
+        "clasifica correctamente",
+        "usa a/an o números con contables",
+        "usa some o una unidad con no contables"
+      ],
+      "prompt": "Crea una lista de diez productos: cinco contables y cinco no contables. Escribe una frase de compra para cada uno.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: two ___ (apple); some ___ (rice); a bottle of ___ (water).",
+      "answers": [
+        "apples",
+        "rice",
+        "water"
+      ],
+      "prompt": "Completa: two ___ (apple); some ___ (rice); a bottle of ___ (water).",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "apples",
+          "rice",
+          "water"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "distinguir contables y no contables",
+      "formar plurales contables",
+      "usar unidades con sustancias"
+    ],
+    "retry": "Si dudas, pregunta: ¿puedo poner un número directamente? Si no, añade some o una unidad como bottle."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T09-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

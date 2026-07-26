@@ -8,6 +8,7 @@ La infraestructura inicial y el esquema de datos estan desplegados en el servido
 
 ## Documentos de referencia
 
+- `GOINGRID_MASTER_SPECIFICATION.md`: coordinación, jerarquía y fuentes de verdad.
 - `PRODUCT_REQUIREMENTS.md`: requisitos del producto.
 - `GOINGRID_DEVELOPMENT_PLAN.md`: fases y orden de implementacion.
 - `GOINGRID_CONTENT_MASTER_PLAN.md`: metodologia y especificacion del contenido.
@@ -16,4 +17,4 @@ La infraestructura inicial y el esquema de datos estan desplegados en el servido
 
 ## Fuente curricular
 
-Los archivos dentro de `content/curriculum/` son la fuente de verdad del curriculo. La base de datos se sincroniza desde esos archivos mediante importadores validados.
+Los archivos finales reconstruidos dentro de `content/rebuild/` son actualmente la fuente de verdad del contenido A1. El contenido antiguo permanece congelado y no publicable. La base de datos se sincroniza mediante importadores validados.

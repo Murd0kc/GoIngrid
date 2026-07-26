@@ -1,0 +1,423 @@
+{
+  "id": "A1-M3-T03-L02",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T03",
+  "title": "Muebles y objetos",
+  "estimated_seconds": 930,
+  "communication_goal": "Nombrar muebles y objetos cotidianos y decir dónde están.",
+  "situation": "Buscas un objeto en una habitación o describes lo que hay en ella.",
+  "language_focus": {
+    "grammar": [
+      "There is a...",
+      "There are...",
+      "The ... is on/in/under...",
+      "Where is my...?",
+      "I can't find..."
+    ],
+    "function": "household objects and locations"
+  },
+  "vocabulary": [
+    {
+      "word": "table",
+      "meaning_es": "mesa",
+      "example": "The book is on the table."
+    },
+    {
+      "word": "chair",
+      "meaning_es": "silla",
+      "example": "There are four chairs."
+    },
+    {
+      "word": "sofa",
+      "meaning_es": "sofá",
+      "example": "The keys are on the sofa."
+    },
+    {
+      "word": "lamp",
+      "meaning_es": "lámpara",
+      "example": "The lamp is next to the bed."
+    },
+    {
+      "word": "mirror",
+      "meaning_es": "espejo",
+      "example": "The mirror is in the bathroom."
+    },
+    {
+      "word": "keys",
+      "meaning_es": "llaves",
+      "example": "I can't find my keys."
+    }
+  ],
+  "context": {
+    "title": "Where are my keys?",
+    "dialogue": [
+      {
+        "speaker": "Nora",
+        "english": "Where are my keys? I can't find them.",
+        "spanish": "¿Dónde están mis llaves? No las encuentro."
+      },
+      {
+        "speaker": "Luis",
+        "english": "Are they on the table?",
+        "spanish": "¿Están sobre la mesa?"
+      },
+      {
+        "speaker": "Nora",
+        "english": "No, they aren't. There is a book on the table.",
+        "spanish": "No. Hay un libro sobre la mesa."
+      },
+      {
+        "speaker": "Luis",
+        "english": "Are they under the sofa?",
+        "spanish": "¿Están debajo del sofá?"
+      },
+      {
+        "speaker": "Nora",
+        "english": "Yes, they are! Thank you.",
+        "spanish": "¡Sí! Gracias."
+      }
+    ]
+  },
+  "explanation_es": "Para decir que un objeto está en un lugar usa the + objeto + is/are + preposición: The book is on the table. Usa there is para un objeto singular y there are para varios. Las preguntas Where is my...? y Where are my...? cambian según el número. I can't find... expresa que no encuentras algo.",
+  "spanish_speaker_notes": [
+    "Keys es plural aunque sea un solo juego de llaves: Where are my keys?.",
+    "No confundas there is con their; there is presenta existencia y their indica posesión.",
+    "On = sobre una superficie; under = debajo; next to = al lado.",
+    "The book is on the table describe un objeto concreto; There is a book presenta uno nuevo."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Where are my keys?",
+        "focus": "where are y keys"
+      },
+      {
+        "text": "I can't find them.",
+        "focus": "can't y them"
+      },
+      {
+        "text": "They are under the sofa.",
+        "focus": "under the sofa"
+      }
+    ],
+    "tip_es": "Practica primero la pregunta y después responde con una ubicación completa."
+  },
+  "reading": {
+    "title": "Looking for a phone",
+    "text": "Nora cannot find her phone. She looks in the living room. There is a phone on the sofa, but it is not her phone. Then she finds her phone under a book on the table.",
+    "glossary": [
+      {
+        "term": "look for",
+        "meaning_es": "buscar"
+      },
+      {
+        "term": "phone",
+        "meaning_es": "teléfono"
+      },
+      {
+        "term": "under a book",
+        "meaning_es": "debajo de un libro"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "object_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada objeto con el lugar donde suele estar.",
+      "pairs": [
+        {
+          "english": "lamp",
+          "spanish": "next to a bed"
+        },
+        {
+          "english": "mirror",
+          "spanish": "in a bathroom"
+        },
+        {
+          "english": "book",
+          "spanish": "on a table"
+        },
+        {
+          "english": "keys",
+          "spanish": "in a bag"
+        }
+      ],
+      "prompt": "Relaciona cada objeto con el lugar donde suele estar.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "lamp=next to a bed",
+          "mirror=in a bathroom",
+          "book=on a table",
+          "keys=in a bag"
+        ],
+        "expected_pairs": [
+          {
+            "english": "lamp",
+            "spanish": "next to a bed"
+          },
+          {
+            "english": "mirror",
+            "spanish": "in a bathroom"
+          },
+          {
+            "english": "book",
+            "spanish": "on a table"
+          },
+          {
+            "english": "keys",
+            "spanish": "in a bag"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: The keys are under the sofa. Elige la ubicación.",
+      "audio_text": "The keys are under the sofa.",
+      "options": [
+        "Debajo del sofá",
+        "Sobre la mesa",
+        "Al lado de la cama"
+      ],
+      "correct": "Debajo del sofá",
+      "feedback": "Under indica debajo de.",
+      "prompt": "Escucha: The keys are under the sofa. Elige la ubicación.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Debajo del sofá"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Under indica debajo de.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: There ___ four chairs.",
+      "options": [
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "are",
+      "feedback": "Four chairs es plural y necesita there are.",
+      "prompt": "Completa: There ___ four chairs.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Four chairs es plural y necesita there are.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: on / is / the table / the book / .",
+      "answer": "The book is on the table.",
+      "feedback": "Objeto + is + ubicación.",
+      "prompt": "Ordena: on / is / the table / the book / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The book is on the table."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Objeto + is + ubicación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: Where is my keys?",
+      "answer": "Where are my keys?",
+      "feedback": "Keys es plural y necesita are.",
+      "prompt": "Corrige: Where is my keys?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Where are my keys?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Keys es plural y necesita are.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Pregunta y responde: Where are my keys? They are under the sofa.",
+      "target": "Where are my keys? They are under the sofa.",
+      "evaluation": {
+        "0": "keys claro",
+        "1": "are/they reconocibles",
+        "2": "under the sofa fluido",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Where are my keys? They are under the sofa.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Looking for a Phone y responde: Where does Nora find her phone?",
+      "text_reference": "reading",
+      "answer": "She finds it under a book on the table.",
+      "feedback": "La ubicación aparece al final del texto.",
+      "prompt": "Lee Looking for a Phone y responde: Where does Nora find her phone?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She finds it under a book on the table."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La ubicación aparece al final del texto.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será alguien que busca objetos. Da pistas usando on, in, under y next to hasta que encuentre el objeto.",
+      "scenario": "Helping someone find keys, a phone and a book.",
+      "ai_language": "English; ask for one location at a time",
+      "prompt": "La IA será alguien que busca objetos. Da pistas usando on, in, under y next to hasta que encuentre el objeto.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Describe cinco objetos de una habitación y sus ubicaciones. Después haz que otra persona adivine dónde está uno.",
+      "success_criteria": [
+        "usa there is/are",
+        "usa cuatro preposiciones",
+        "distingue singular y plural",
+        "las pistas son claras"
+      ],
+      "prompt": "Describe cinco objetos de una habitación y sus ubicaciones. Después haz que otra persona adivine dónde está uno.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: una silla = There ___ a chair. cuatro sillas = There ___ four chairs. llaves = Where ___ my keys?",
+      "answers": [
+        "is",
+        "are",
+        "are"
+      ],
+      "prompt": "Completa: una silla = There ___ a chair. cuatro sillas = There ___ four chairs. llaves = Where ___ my keys?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "is",
+          "are",
+          "are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "nombrar objetos cotidianos",
+      "describir ubicaciones",
+      "distinguir is/are en there y preguntas"
+    ],
+    "retry": "Si confundes is y are, cuenta el objeto antes de construir la frase."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T03-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,424 @@
+{
+  "id": "A1-M3-T10-L01",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T10",
+  "title": "Pedir ayuda",
+  "estimated_seconds": 900,
+  "communication_goal": "Pedir ayuda y explicar una necesidad básica con cortesía.",
+  "situation": "No encuentras algo, necesitas información o no puedes resolver una tarea.",
+  "language_focus": {
+    "grammar": [
+      "Excuse me",
+      "Can you help me?",
+      "Could you help me?",
+      "I need help with...",
+      "Where can I...?",
+      "Thank you"
+    ],
+    "function": "asking for help"
+  },
+  "vocabulary": [
+    {
+      "word": "help",
+      "meaning_es": "ayuda/ayudar",
+      "example": "Can you help me?"
+    },
+    {
+      "word": "find",
+      "meaning_es": "encontrar",
+      "example": "I need help finding my bag."
+    },
+    {
+      "word": "understand",
+      "meaning_es": "entender",
+      "example": "I don't understand."
+    },
+    {
+      "word": "information",
+      "meaning_es": "información",
+      "example": "I need some information."
+    },
+    {
+      "word": "explain",
+      "meaning_es": "explicar",
+      "example": "Could you explain this?"
+    },
+    {
+      "word": "problem",
+      "meaning_es": "problema",
+      "example": "I have a problem."
+    }
+  ],
+  "context": {
+    "title": "At the help desk",
+    "dialogue": [
+      {
+        "speaker": "Visitor",
+        "english": "Excuse me. Can you help me?",
+        "spanish": "Disculpe. ¿Puede ayudarme?"
+      },
+      {
+        "speaker": "Staff",
+        "english": "Sure. What do you need?",
+        "spanish": "Claro. ¿Qué necesita?"
+      },
+      {
+        "speaker": "Visitor",
+        "english": "I need some information. Where can I find room four?",
+        "spanish": "Necesito información. ¿Dónde puedo encontrar la sala cuatro?"
+      },
+      {
+        "speaker": "Staff",
+        "english": "Go upstairs and turn left.",
+        "spanish": "Suba y gire a la izquierda."
+      },
+      {
+        "speaker": "Visitor",
+        "english": "Thank you for your help.",
+        "spanish": "Gracias por su ayuda."
+      }
+    ]
+  },
+  "explanation_es": "Comienza con Excuse me y pide ayuda con Can you help me? o Could you help me?. Explica la necesidad con I need help with + cosa o actividad. Para buscar un lugar pregunta Where can I find...? y cierra con Thank you for your help. Could suena más cortés; Can es muy común y directo.",
+  "spanish_speaker_notes": [
+    "Help me no necesita to: Can you help me?, no Can you help to me?.",
+    "Information es no contable: some information, no an information.",
+    "Where can I...? usa can + verbo base.",
+    "Excuse me sirve para llamar la atención; sorry sirve para disculparse o corregir."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Excuse me. Can you help me?",
+        "focus": "excuse me y help me"
+      },
+      {
+        "text": "I need some information.",
+        "focus": "need some information"
+      },
+      {
+        "text": "Thank you for your help.",
+        "focus": "thank you for your help"
+      }
+    ],
+    "tip_es": "La cortesía incluye palabras y tono; una petición clara y amable facilita que te ayuden."
+  },
+  "reading": {
+    "title": "Finding a room",
+    "text": "A visitor cannot find room four. She goes to the help desk and asks for information. The staff member tells her to go upstairs and turn left. She thanks the staff member for the help.",
+    "glossary": [
+      {
+        "term": "help desk",
+        "meaning_es": "mostrador de ayuda"
+      },
+      {
+        "term": "staff member",
+        "meaning_es": "miembro del personal"
+      },
+      {
+        "term": "upstairs",
+        "meaning_es": "arriba"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "help_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada necesidad con una petición.",
+      "pairs": [
+        {
+          "need": "no encuentro una bolsa",
+          "expression": "Can you help me find my bag?"
+        },
+        {
+          "need": "necesito información",
+          "expression": "I need some information."
+        },
+        {
+          "need": "no entiendo",
+          "expression": "Could you explain this?"
+        },
+        {
+          "need": "tengo un problema",
+          "expression": "I have a problem."
+        }
+      ],
+      "prompt": "Relaciona cada necesidad con una petición.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "no encuentro una bolsa=Can you help me find my bag?",
+          "necesito información=I need some information.",
+          "no entiendo=Could you explain this?",
+          "tengo un problema=I have a problem."
+        ],
+        "expected_pairs": [
+          {
+            "need": "no encuentro una bolsa",
+            "expression": "Can you help me find my bag?"
+          },
+          {
+            "need": "necesito información",
+            "expression": "I need some information."
+          },
+          {
+            "need": "no entiendo",
+            "expression": "Could you explain this?"
+          },
+          {
+            "need": "tengo un problema",
+            "expression": "I have a problem."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: Could you explain this? Elige la intención.",
+      "audio_text": "Could you explain this?",
+      "options": [
+        "Pedir una explicación.",
+        "Pedir un precio.",
+        "Dar una dirección."
+      ],
+      "correct": "Pedir una explicación.",
+      "feedback": "Could you expresa una petición cortés.",
+      "prompt": "Escucha: Could you explain this? Elige la intención.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Pedir una explicación."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Could you expresa una petición cortés.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Where ___ I find room four?",
+      "options": [
+        "can",
+        "am",
+        "do"
+      ],
+      "correct": "can",
+      "feedback": "Where can I + verbo base pregunta posibilidad o ubicación.",
+      "prompt": "Completa: Where ___ I find room four?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "can"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Where can I + verbo base pregunta posibilidad o ubicación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: help / can / me / you / ?",
+      "answer": "Can you help me?",
+      "feedback": "Can you help me? es una petición directa y cortés.",
+      "prompt": "Ordena: help / can / me / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Can you help me?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Can you help me? es una petición directa y cortés.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I need an information.",
+      "answer": "I need some information.",
+      "feedback": "Information es no contable y usa some.",
+      "prompt": "Corrige: I need an information.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need some information."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Information es no contable y usa some.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Representa una petición completa con saludo, necesidad y agradecimiento.",
+      "target": "Excuse me. Could you help me with ...? Thank you for your help.",
+      "evaluation": {
+        "0": "saludo amable",
+        "1": "necesidad clara",
+        "2": "agradecimiento comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Excuse me. Could you help me with ...? Thank you for your help.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Finding a Room y responde: Where does the visitor go for help?",
+      "text_reference": "reading",
+      "answer": "She goes to the help desk.",
+      "feedback": "La segunda oración indica el lugar.",
+      "prompt": "Lee Finding a Room y responde: Where does the visitor go for help?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She goes to the help desk."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La segunda oración indica el lugar.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un miembro del personal. Pide ayuda para encontrar un lugar o entender una instrucción.",
+      "scenario": "Asking for help in a public building.",
+      "ai_language": "English; offer one clear answer and a follow-up",
+      "prompt": "La IA será un miembro del personal. Pide ayuda para encontrar un lugar o entender una instrucción.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba dos peticiones de ayuda: una para encontrar un lugar y otra para entender algo.",
+      "success_criteria": [
+        "usa Excuse me",
+        "formula dos peticiones",
+        "explica la necesidad",
+        "agradece la ayuda"
+      ],
+      "prompt": "Graba dos peticiones de ayuda: una para encontrar un lugar y otra para entender algo.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: Can you ___ me? I need help ___ this. Where can I ___ room four?",
+      "answers": [
+        "help",
+        "with",
+        "find"
+      ],
+      "prompt": "Completa: Can you ___ me? I need help ___ this. Where can I ___ room four?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "help",
+          "with",
+          "find"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "pedir ayuda con cortesía",
+      "explicar una necesidad",
+      "agradecer la ayuda"
+    ],
+    "retry": "Si la petición no es clara, usa la estructura Excuse me + Can/Could you help me with...?"
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T10-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

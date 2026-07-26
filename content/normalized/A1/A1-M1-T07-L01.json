@@ -1,0 +1,434 @@
+{
+  "id": "A1-M1-T07-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T07",
+  "title": "Whose things are these?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede decir qué pertenece a sí mismo o a su interlocutor usando my y your.",
+  "situation": "Identificar pertenencias en un aula compartida.",
+  "language_focus": [
+    "This is my book.",
+    "Is this your pen?",
+    "Yes, it's my pen.",
+    "No, it's not my bag.",
+    "Your phone is here."
+  ],
+  "vocabulary": [
+    {
+      "term": "my",
+      "meaning_es": "mi / mis",
+      "example": "This is my book."
+    },
+    {
+      "term": "your",
+      "meaning_es": "tu / su / sus",
+      "example": "Is this your pen?"
+    },
+    {
+      "term": "book",
+      "meaning_es": "libro",
+      "example": "My book is blue."
+    },
+    {
+      "term": "pen",
+      "meaning_es": "bolígrafo",
+      "example": "Your pen is here."
+    },
+    {
+      "term": "phone",
+      "meaning_es": "teléfono",
+      "example": "Is this your phone?"
+    },
+    {
+      "term": "belong",
+      "meaning_es": "pertenecer",
+      "example": "Does this belong to you?"
+    }
+  ],
+  "context": {
+    "before": "Two students find several objects after class.",
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "text": "Is this your book?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "No, it isn't my book. My book is red."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Is this your phone?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "Yes, it's my phone. Your pen is next to it."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Thanks. Let's return the other things."
+      }
+    ]
+  },
+  "explanation_es": "My indica que algo pertenece a la persona que habla; your indica que pertenece a la persona a la que hablas. Van antes del sustantivo: my book, your phone. No cambian por singular o plural: my book, my books.",
+  "spanish_speaker_notes": [
+    "No uses me book; el posesivo es my book.",
+    "Your puede significar tu, su o sus según el contexto.",
+    "El adjetivo posesivo no lleva artículo: my book, no the my book."
+  ],
+  "pronunciation": {
+    "target": "Distinguir my y your dentro de preguntas y respuestas sobre pertenencias.",
+    "models": [
+      {
+        "text": "my",
+        "ipa": "/maɪ/"
+      },
+      {
+        "text": "your",
+        "ipa": "/jʊr/"
+      },
+      {
+        "text": "Is this your phone?",
+        "stress": [
+          "your",
+          "phone"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "It's my phone.",
+        "stress": [
+          "my",
+          "phone"
+        ]
+      }
+    ],
+    "student_feedback": "El posesivo debe escucharse porque cambia de quién es el objeto."
+  },
+  "reading": {
+    "title": "After class",
+    "text": "After class, Ana and Luis find a book, a phone and two pens. Ana asks Luis about the book. It is not his book. Then Luis finds his phone. Ana finds her pens next to the chair. They return the objects to their owners.",
+    "interactive_vocabulary": [
+      "after class",
+      "find",
+      "owners",
+      "return",
+      "next to"
+    ],
+    "questions": [
+      {
+        "prompt": "What does Luis find?",
+        "options": [
+          "His phone",
+          "Her pens",
+          "A new chair"
+        ],
+        "answer": "His phone"
+      },
+      {
+        "prompt": "Where are the pens?",
+        "options": [
+          "Next to the chair",
+          "On the desk at home",
+          "In Luis's phone"
+        ],
+        "answer": "Next to the chair"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T07-L01-E01",
+      "type": "owner_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona la persona con el posesivo correcto.",
+      "pairs": [
+        {
+          "person": "the speaker",
+          "possessive": "my"
+        },
+        {
+          "person": "the listener",
+          "possessive": "your"
+        }
+      ],
+      "feedback_correct": "My pertenece al hablante y your al interlocutor.",
+      "feedback_incorrect": "Piensa quién posee el objeto: quien habla o quien escucha.",
+      "estimated_seconds": 45,
+      "prompt": "Relaciona la persona con el posesivo correcto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "the speaker=my",
+          "the listener=your"
+        ],
+        "expected_pairs": [
+          {
+            "person": "the speaker",
+            "possessive": "my"
+          },
+          {
+            "person": "the listener",
+            "possessive": "your"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E02",
+      "type": "listening_owner",
+      "skill": "listening",
+      "instruction": "Escucha y decide de quién es el teléfono.",
+      "prompt": "It's my phone.",
+      "options": [
+        "The speaker's phone",
+        "The listener's phone",
+        "An unknown phone"
+      ],
+      "correct_answer": "The speaker's phone",
+      "feedback_correct": "My señala a la persona que habla.",
+      "feedback_incorrect": "My significa que pertenece al hablante.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The speaker's phone"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E03",
+      "type": "possessive_choice",
+      "skill": "grammar",
+      "instruction": "Completa la pregunta.",
+      "prompt": "Is this ___ pen?",
+      "options": [
+        "your",
+        "you",
+        "yours"
+      ],
+      "correct_answer": "your",
+      "feedback_correct": "Your va antes del sustantivo pen.",
+      "feedback_incorrect": "Usa your + sustantivo.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "your"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la respuesta.",
+      "tokens": [
+        "It's",
+        "my",
+        "phone."
+      ],
+      "correct_answer": "It's my phone.",
+      "feedback_correct": "La respuesta identifica la pertenencia del objeto.",
+      "feedback_incorrect": "Usa It's + my + sustantivo.",
+      "estimated_seconds": 40,
+      "prompt": "Ordena la respuesta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It's my phone."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la frase.",
+      "prompt": "This is me book.",
+      "correct_answer": "This is my book.",
+      "feedback_correct": "My es el adjetivo posesivo antes de book.",
+      "feedback_incorrect": "No uses me para posesión; usa my.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "This is my book."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Pregunta y responde sobre una pertenencia.",
+      "prompt": "Is this your phone? Yes, it's my phone.",
+      "evaluation": {
+        "0": "my/your contrast",
+        "1": "question intonation",
+        "2": "ownership clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La pregunta y la pertenencia se entienden.",
+      "feedback_incorrect": "Enfatiza your en la pregunta y my en la respuesta.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la escena y asigna cada objeto a su dueño.",
+      "reading_ref": "A1-M1-T07-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 3 ownership facts",
+      "feedback_correct": "Seguiste las pertenencias en la lectura.",
+      "feedback_incorrect": "Busca his phone, her pens y el libro que no pertenece a Luis.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la escena y asigna cada objeto a su dueño.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 3 ownership facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero de clase. Encuentren a quién pertenecen tres objetos.",
+      "role": "classmate",
+      "student_goal": "Ask Is this your...? and answer with my or not my.",
+      "allowed_support": [
+        "object cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks about two objects",
+        "answers with my",
+        "rejects one object politely"
+      ],
+      "feedback_correct": "Resolviste una tarea real de pertenencias.",
+      "feedback_incorrect": "Usa Is this your...? y responde Yes, it's my... o No, it isn't my...",
+      "estimated_seconds": 180,
+      "prompt": "La IA es tu compañero de clase. Encuentren a quién pertenecen tres objetos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe dos objetos tuyos y pregunta por uno de otra persona.",
+      "prompt": "This is my ____. This is my ____. Is this your ____?",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses my twice",
+        "uses your in a question",
+        "communicates ownership clearly"
+      ],
+      "feedback_correct": "Usaste posesivos para resolver una situación cotidiana.",
+      "feedback_incorrect": "My habla de tus objetos; your aparece al preguntar por el objeto de otra persona.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    },
+    {
+      "id": "A1-M1-T07-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "This is ___ book.",
+        "Is this ___ pen?",
+        "It's ___ phone."
+      ],
+      "correct_answers": [
+        "my",
+        "your",
+        "my"
+      ],
+      "feedback_correct": "Recuperaste my y your según el dueño.",
+      "feedback_incorrect": "My = del hablante; your = del interlocutor.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "my",
+          "your",
+          "my"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T07-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

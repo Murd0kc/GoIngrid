@@ -1,0 +1,175 @@
+{
+  "id": "A1-M1-T06-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T06",
+  "title": "How people feel",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede describir estados emocionales y cualidades básicas de personas con cuidado y claridad.",
+  "situation": "Preguntar cómo está un compañero y responder sobre el propio estado.",
+  "language_focus": ["Are you okay?", "I'm tired.", "She is happy.", "He is busy.", "We are excited.", "They are nervous."],
+  "vocabulary": [
+    { "term": "okay", "meaning_es": "bien", "example": "Are you okay?" },
+    { "term": "tired", "meaning_es": "cansado / cansada", "example": "I'm tired." },
+    { "term": "busy", "meaning_es": "ocupado / ocupada", "example": "He is busy." },
+    { "term": "happy", "meaning_es": "feliz", "example": "She is happy." },
+    { "term": "excited", "meaning_es": "emocionado / emocionada", "example": "We are excited." },
+    { "term": "nervous", "meaning_es": "nervioso / nerviosa", "example": "They are nervous." },
+    { "term": "calm", "meaning_es": "tranquilo / tranquila", "example": "She is calm." }
+  ],
+  "context": {
+    "before": "Two coworkers prepare for an important presentation.",
+    "dialogue": [
+      { "speaker": "Maya", "text": "Are you okay, Luis?" },
+      { "speaker": "Luis", "text": "I'm a little nervous." },
+      { "speaker": "Maya", "text": "That's normal. We are ready." },
+      { "speaker": "Luis", "text": "Thanks. Are the others ready?" },
+      { "speaker": "Maya", "text": "Yes, they are calm and prepared." }
+    ]
+  },
+  "explanation_es": "Para hablar de estados y cualidades usamos be + adjetivo: I'm tired, She is happy, They are nervous. En inglés el adjetivo no cambia por género ni número: tired puede acompañar a una persona o a varias.",
+  "spanish_speaker_notes": [
+    "No uses tener para todos los estados: se dice I'm tired, no I have tired.",
+    "Pregunta Are you okay? para mostrar interés, no traduzcas literalmente '¿estás bien?'.",
+    "Describe estados, no etiquetes a una persona de forma innecesaria; el contexto importa."
+  ],
+  "pronunciation": {
+    "target": "Producir preguntas y respuestas emocionales con entonación amable y comprensible.",
+    "models": [
+      { "text": "Are you okay?", "stress": ["okay"], "intonation": "rising" },
+      { "text": "I'm a little nervous.", "stress": ["little", "nervous"] },
+      { "text": "We are ready.", "stress": ["ready"] }
+    ],
+    "student_feedback": "La entonación debe sonar interesada en la pregunta y tranquila en la respuesta."
+  },
+  "reading": {
+    "title": "Before the presentation",
+    "text": "Luis is nervous before a presentation. Maya asks if he is okay. Luis says he is a little nervous. Maya is calm and supportive. The other coworkers are ready. Soon, everyone is prepared to begin.",
+    "interactive_vocabulary": ["presentation", "before", "supportive", "coworkers", "prepared"],
+    "questions": [
+      { "prompt": "How does Luis feel?", "options": ["A little nervous", "Angry", "Very tired"], "answer": "A little nervous" },
+      { "prompt": "How is Maya?", "options": ["Calm and supportive", "Nervous and busy", "Not ready"], "answer": "Calm and supportive" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T06-L03-E01",
+      "type": "emotion_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada situación con el adjetivo más adecuado.",
+      "pairs": [{ "situation": "You need sleep after a long day.", "answer": "tired" }, { "situation": "You feel good before a celebration.", "answer": "excited" }, { "situation": "You feel worried before a test.", "answer": "nervous" }, { "situation": "You feel peaceful.", "answer": "calm" }],
+      "feedback_correct": "Conectaste estados con situaciones y no solo con traducciones.",
+      "feedback_incorrect": "Imagina cómo te sientes en cada situación.",
+      "estimated_seconds": 75
+    },
+    {
+      "id": "A1-M1-T06-L03-E02",
+      "type": "listening_emotion",
+      "skill": "listening",
+      "instruction": "Escucha y elige cómo se siente la persona.",
+      "prompt": "I'm a little nervous.",
+      "options": ["Nervous", "Calm", "Excited"],
+      "correct_answer": "Nervous",
+      "feedback_correct": "Reconociste el estado expresado.",
+      "feedback_incorrect": "Escucha la palabra nervous al final.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T06-L03-E03",
+      "type": "be_adjective_choice",
+      "skill": "grammar",
+      "instruction": "Completa la respuesta.",
+      "prompt": "I ___ tired today.",
+      "options": ["am", "is", "are"],
+      "correct_answer": "am",
+      "feedback_correct": "Con I usamos am: I am tired.",
+      "feedback_incorrect": "I va con am.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T06-L03-E04",
+      "type": "dialogue_building",
+      "skill": "interaction",
+      "instruction": "Ordena una pregunta amable.",
+      "tokens": ["Are", "you", "okay?"],
+      "correct_answer": "Are you okay?",
+      "feedback_correct": "Formaste una pregunta natural para mostrar interés.",
+      "feedback_incorrect": "Empieza con Are y sigue con you okay.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T06-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el error típico.",
+      "prompt": "I have nervous.",
+      "correct_answer": "I'm nervous.",
+      "feedback_correct": "Nervous es un adjetivo; usa be, no have.",
+      "feedback_incorrect": "Di I'm nervous.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T06-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta y una respuesta con entonación natural.",
+      "prompt": "Are you okay? I'm a little tired, but I'm ready.",
+      "evaluation": ["friendly question intonation", "adjective clarity", "be form"],
+      "feedback_correct": "La pregunta suena interesada y la respuesta es clara.",
+      "feedback_incorrect": "Sube la entonación en okay y enfatiza tired y ready.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T06-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la situación y crea un mapa de estados.",
+      "reading_ref": "A1-M1-T06-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 4 emotional states",
+      "feedback_correct": "Identificaste cómo se sienten las personas y qué apoyo reciben.",
+      "feedback_incorrect": "Busca nervous, calm, supportive, ready y prepared.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T06-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero antes de un examen. Pregunta cómo está y comparte tu estado.",
+      "role": "classmate",
+      "student_goal": "Ask about a feeling, describe your state and respond supportively.",
+      "allowed_support": ["emotion cards", "sentence starter", "Spanish hint"],
+      "success_criteria": ["asks Are you okay?", "uses be plus adjective", "responds politely"],
+      "feedback_correct": "Usaste adjetivos para tener una interacción humana y natural.",
+      "feedback_incorrect": "Prueba: Are you okay? / I'm... / That's normal. / We are ready.",
+      "estimated_seconds": 190
+    },
+    {
+      "id": "A1-M1-T06-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Envía un mensaje de apoyo a alguien antes de una actividad.",
+      "prompt": "Are you okay? I'm ____. You are ____. We are ready.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["asks a caring question", "uses two be + adjective sentences", "communicates support"],
+      "feedback_correct": "Usaste el inglés para expresar un estado y apoyar a otra persona.",
+      "feedback_incorrect": "Incluye una pregunta, un estado propio y una frase positiva.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T06-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["I ___ tired.", "She ___ happy.", "They ___ nervous.", "Are you ___?"],
+      "correct_answers": ["am", "is", "are", "okay"],
+      "feedback_correct": "Recuperaste be y adjetivos dentro de una interacción.",
+      "feedback_incorrect": "I = am; she = is; they = are; la pregunta frecuente es Are you okay?.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

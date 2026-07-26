@@ -1,0 +1,425 @@
+{
+  "id": "A1-M1-T04-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T04",
+  "title": "Articles around the house",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede describir objetos de un espacio compartido usando artículos según el contexto.",
+  "situation": "Explicar a un compañero qué hay en una habitación y señalar objetos concretos.",
+  "language_focus": [
+    "There is a chair.",
+    "The chair is near the window.",
+    "There is an orange on the table.",
+    "The orange is for you.",
+    "I need a key."
+  ],
+  "vocabulary": [
+    {
+      "term": "chair",
+      "meaning_es": "silla",
+      "example": "There is a chair."
+    },
+    {
+      "term": "window",
+      "meaning_es": "ventana",
+      "example": "The chair is near the window."
+    },
+    {
+      "term": "orange",
+      "meaning_es": "naranja",
+      "example": "There is an orange."
+    },
+    {
+      "term": "key",
+      "meaning_es": "llave",
+      "example": "I need a key."
+    },
+    {
+      "term": "room",
+      "meaning_es": "habitación / sala",
+      "example": "The room is small."
+    },
+    {
+      "term": "for you",
+      "meaning_es": "para ti / usted",
+      "example": "The orange is for you."
+    }
+  ],
+  "context": {
+    "before": "Two roommates describe a room before a guest arrives.",
+    "dialogue": [
+      {
+        "speaker": "Alex",
+        "text": "There is a chair near the window."
+      },
+      {
+        "speaker": "Sam",
+        "text": "The chair is comfortable."
+      },
+      {
+        "speaker": "Alex",
+        "text": "There is an orange on the table."
+      },
+      {
+        "speaker": "Sam",
+        "text": "Great. The orange is for the guest."
+      },
+      {
+        "speaker": "Alex",
+        "text": "I also need a key."
+      },
+      {
+        "speaker": "Sam",
+        "text": "The key is next to the door."
+      }
+    ]
+  },
+  "explanation_es": "En una descripción, a/an presenta un objeto por primera vez y the identifica el mismo objeto después. El contexto puede hacer que un objeto sea específico aunque no se haya mencionado antes: The key is next to the door si ambos saben qué llave buscan.",
+  "spanish_speaker_notes": [
+    "No elijas artículos solo por traducir el/la; decide si el objeto es nuevo o identificable.",
+    "The puede aparecer porque el lugar o la situación hace claro el referente.",
+    "Antes de un sonido vocálico usamos an: an orange."
+  ],
+  "pronunciation": {
+    "target": "Mantener artículos débiles y destacar la información nueva o específica.",
+    "models": [
+      {
+        "text": "a chair",
+        "stress": [
+          "chair"
+        ]
+      },
+      {
+        "text": "the chair",
+        "stress": [
+          "chair"
+        ]
+      },
+      {
+        "text": "an orange",
+        "stress": [
+          "orange"
+        ]
+      },
+      {
+        "text": "the key is next to the door",
+        "stress": [
+          "key",
+          "next",
+          "door"
+        ]
+      }
+    ],
+    "student_feedback": "El artículo acompaña al sustantivo; no lo conviertas en la palabra más fuerte de la frase."
+  },
+  "reading": {
+    "title": "Before the guest arrives",
+    "text": "There is a small room for a guest. There is a chair near a window. The chair is comfortable. There is an orange on a table. The orange is fresh. The key is next to the door.",
+    "interactive_vocabulary": [
+      "guest",
+      "small",
+      "comfortable",
+      "fresh",
+      "next to"
+    ],
+    "questions": [
+      {
+        "prompt": "Where is the chair?",
+        "options": [
+          "Near a window",
+          "Next to the door",
+          "On the table"
+        ],
+        "answer": "Near a window"
+      },
+      {
+        "prompt": "Where is the key?",
+        "options": [
+          "Next to the door",
+          "Inside the orange",
+          "Near the window"
+        ],
+        "answer": "Next to the door"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T04-L03-E01",
+      "type": "context_timeline",
+      "skill": "grammar",
+      "instruction": "Ordena cómo cambia el artículo cuando aparece un objeto.",
+      "steps": [
+        "There is a chair.",
+        "The chair is comfortable."
+      ],
+      "correct_answer": "first mention a, later reference the",
+      "feedback_correct": "El artículo cambia porque el referente ya está identificado.",
+      "feedback_incorrect": "Primero presenta el objeto; después retómalo con the.",
+      "estimated_seconds": 55,
+      "prompt": "Ordena cómo cambia el artículo cuando aparece un objeto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "first mention a, later reference the"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E02",
+      "type": "listening_detail",
+      "skill": "listening",
+      "instruction": "Escucha la descripción y selecciona dónde está la llave.",
+      "prompt": "The key is next to the door.",
+      "options": [
+        "Next to the door",
+        "On the table",
+        "Near the window"
+      ],
+      "correct_answer": "Next to the door",
+      "feedback_correct": "Entendiste una ubicación específica.",
+      "feedback_incorrect": "Escucha key, next to y door.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Next to the door"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E03",
+      "type": "article_choice",
+      "skill": "grammar",
+      "instruction": "Completa la primera mención del objeto.",
+      "prompt": "There is ___ chair near the window.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_answer": "a",
+      "feedback_correct": "Chair comienza con sonido consonántico y aparece por primera vez.",
+      "feedback_incorrect": "Usa a antes de chair cuando la presentas por primera vez.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E04",
+      "type": "article_choice",
+      "skill": "grammar",
+      "instruction": "Completa la referencia al objeto ya mencionado.",
+      "prompt": "There is a chair. ___ chair is comfortable.",
+      "options": [
+        "The",
+        "A",
+        "An"
+      ],
+      "correct_answer": "The",
+      "feedback_correct": "Ahora el oyente sabe qué silla es.",
+      "feedback_incorrect": "Es la misma chair; usa the chair.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el artículo en la frase.",
+      "prompt": "There is a orange on the table.",
+      "correct_answer": "There is an orange on the table.",
+      "feedback_correct": "Orange empieza con sonido vocálico: an orange.",
+      "feedback_incorrect": "Cambia a por an antes de orange.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "There is an orange on the table."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe dos objetos nuevos y retoma uno de ellos.",
+      "prompt": "There is a chair. There is an orange. The chair is near the window.",
+      "evaluation": {
+        "0": "a/an/the contrast",
+        "1": "sentence rhythm",
+        "2": "location intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Presentaste objetos y después identificaste uno.",
+      "feedback_incorrect": "Haz débiles a y an; enfatiza chair, orange y near the window.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la habitación y toca cada palabra nueva. Completa un mapa de objetos.",
+      "reading_ref": "A1-M1-T04-L03-reading-01",
+      "correct_answer": "2 comprehension answers and object locations",
+      "feedback_correct": "Usaste la lectura para construir una imagen del lugar.",
+      "feedback_incorrect": "Busca dónde están chair, orange y key.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la habitación y toca cada palabra nueva. Completa un mapa de objetos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and object locations"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero de habitación. Describe qué hay en el espacio y responde preguntas sobre objetos específicos.",
+      "role": "roommate",
+      "student_goal": "Introduce objects with a/an and identify them with the when asked.",
+      "allowed_support": [
+        "room picture",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "introduces three objects",
+        "locates two objects",
+        "answers one the question"
+      ],
+      "feedback_correct": "Describiste un espacio y mantuviste claros los referentes.",
+      "feedback_incorrect": "Presenta con There is a/an... y responde sobre el objeto con The...",
+      "estimated_seconds": 190,
+      "prompt": "La IA es tu compañero de habitación. Describe qué hay en el espacio y responde preguntas sobre objetos específicos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe tu escritorio para una persona que no lo puede ver.",
+      "prompt": "There is a ____. There is an ____. The ____ is ____. The ____ is near ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses a/an for new objects",
+        "uses the for known objects",
+        "gives two locations"
+      ],
+      "feedback_correct": "Convertiste artículos y ubicación en una descripción útil.",
+      "feedback_incorrect": "Presenta los objetos primero y después usa the para describirlos.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    },
+    {
+      "id": "A1-M1-T04-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la mini descripción.",
+      "prompts": [
+        "There is ___ chair.",
+        "___ chair is near the window.",
+        "There is ___ orange."
+      ],
+      "correct_answers": [
+        "a",
+        "The",
+        "an"
+      ],
+      "feedback_correct": "Recuperaste los artículos dentro de una secuencia de significado.",
+      "feedback_incorrect": "Nuevo = a/an; ya identificado = the; orange lleva an.",
+      "estimated_seconds": 90,
+      "prompt": "Completa la mini descripción.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a",
+          "The",
+          "an"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T04-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

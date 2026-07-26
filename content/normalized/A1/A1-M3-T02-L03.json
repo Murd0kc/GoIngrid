@@ -1,0 +1,430 @@
+{
+  "id": "A1-M3-T02-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T02",
+  "title": "Familia, relaciones y rutinas",
+  "estimated_seconds": 930,
+  "communication_goal": "Hablar de relaciones familiares y actividades que haces con otras personas.",
+  "situation": "Explicas con quién vives, a quién visitas y qué haces con tu familia.",
+  "language_focus": {
+    "grammar": [
+      "I live with...",
+      "I visit...",
+      "We usually...",
+      "He/She lives...",
+      "Who do you...?"
+    ],
+    "function": "family relationships and shared routines"
+  },
+  "vocabulary": [
+    {
+      "word": "husband",
+      "meaning_es": "esposo",
+      "example": "She lives with her husband."
+    },
+    {
+      "word": "wife",
+      "meaning_es": "esposa",
+      "example": "He visits his wife."
+    },
+    {
+      "word": "son",
+      "meaning_es": "hijo",
+      "example": "Their son is young."
+    },
+    {
+      "word": "daughter",
+      "meaning_es": "hija",
+      "example": "Their daughter likes music."
+    },
+    {
+      "word": "visit",
+      "meaning_es": "visitar",
+      "example": "We visit our grandparents."
+    },
+    {
+      "word": "together",
+      "meaning_es": "juntos",
+      "example": "We eat together."
+    }
+  ],
+  "context": {
+    "title": "Sunday with family",
+    "dialogue": [
+      {
+        "speaker": "Clara",
+        "english": "Who do you live with?",
+        "spanish": "¿Con quién vives?"
+      },
+      {
+        "speaker": "Jorge",
+        "english": "I live with my wife and our daughter.",
+        "spanish": "Vivo con mi esposa y nuestra hija."
+      },
+      {
+        "speaker": "Clara",
+        "english": "What do you do on Sundays?",
+        "spanish": "¿Qué hacen los domingos?"
+      },
+      {
+        "speaker": "Jorge",
+        "english": "We usually visit my parents. We eat together.",
+        "spanish": "Normalmente visitamos a mis padres. Comemos juntos."
+      },
+      {
+        "speaker": "Clara",
+        "english": "Does your son live with you too?",
+        "spanish": "¿Tu hijo también vive contigo?"
+      },
+      {
+        "speaker": "Jorge",
+        "english": "No, he doesn't. He lives nearby.",
+        "spanish": "No. Vive cerca."
+      }
+    ]
+  },
+  "explanation_es": "Para hablar de convivencia usa live with: I live with my wife. Para actividades compartidas, We + verbo: We visit my parents; We eat together. Para preguntar por la persona que acompaña una acción usa Who do you live with? o Who do you visit? Con he/she recuerda la s: He lives nearby.",
+  "spanish_speaker_notes": [
+    "Who do you live with? es una pregunta natural aunque termine en with.",
+    "Our significa 'nuestro/a' y their significa 'su' de ellos: our daughter, their son.",
+    "Visit no necesita to delante del familiar: visit my parents, no visit to my parents.",
+    "Together expresa que la acción se hace en compañía."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I live with my wife and our daughter.",
+        "focus": "live with y our"
+      },
+      {
+        "text": "We usually visit my parents.",
+        "focus": "usually visit"
+      },
+      {
+        "text": "Who do you live with?",
+        "focus": "who do you y with"
+      }
+    ],
+    "tip_es": "En frases largas, agrupa a las personas primero y la actividad después."
+  },
+  "reading": {
+    "title": "Jorge's Sunday",
+    "text": "Jorge lives with his wife and their daughter. On Sundays, they usually visit Jorge's parents and eat together. Their son does not live with them, but he lives nearby and visits often.",
+    "glossary": [
+      {
+        "term": "shared routines",
+        "meaning_es": "rutinas compartidas"
+      },
+      {
+        "term": "nearby",
+        "meaning_es": "cerca"
+      },
+      {
+        "term": "visits often",
+        "meaning_es": "visita a menudo"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "relationship_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada familiar con su significado.",
+      "pairs": [
+        {
+          "english": "husband",
+          "spanish": "esposo"
+        },
+        {
+          "english": "wife",
+          "spanish": "esposa"
+        },
+        {
+          "english": "son",
+          "spanish": "hijo"
+        },
+        {
+          "english": "daughter",
+          "spanish": "hija"
+        }
+      ],
+      "prompt": "Relaciona cada familiar con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "husband=esposo",
+          "wife=esposa",
+          "son=hijo",
+          "daughter=hija"
+        ],
+        "expected_pairs": [
+          {
+            "english": "husband",
+            "spanish": "esposo"
+          },
+          {
+            "english": "wife",
+            "spanish": "esposa"
+          },
+          {
+            "english": "son",
+            "spanish": "hijo"
+          },
+          {
+            "english": "daughter",
+            "spanish": "hija"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: We usually visit my parents. Elige la actividad.",
+      "audio_text": "We usually visit my parents.",
+      "options": [
+        "Visitan a sus padres.",
+        "Viven con sus padres.",
+        "Llaman a sus padres."
+      ],
+      "correct": "Visitan a sus padres.",
+      "feedback": "Visit significa visitar, no vivir.",
+      "prompt": "Escucha: We usually visit my parents. Elige la actividad.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Visitan a sus padres."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Visit significa visitar, no vivir.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I live ___ my wife.",
+      "options": [
+        "with",
+        "to",
+        "at"
+      ],
+      "correct": "with",
+      "feedback": "Live with indica la persona con quien vives.",
+      "prompt": "Completa: I live ___ my wife.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "with"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Live with indica la persona con quien vives.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: together / eat / we / .",
+      "answer": "We eat together.",
+      "feedback": "Together va después de la actividad en esta frase.",
+      "prompt": "Ordena: together / eat / we / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "We eat together."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Together va después de la actividad en esta frase.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: He live nearby and visit often.",
+      "answer": "He lives nearby and visits often.",
+      "feedback": "He necesita s en lives y visits.",
+      "prompt": "Corrige: He live nearby and visit often.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He lives nearby and visits often."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "He necesita s en lives y visits.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe una actividad familiar: We usually visit our parents and eat together.",
+      "target": "We usually visit our parents and eat together.",
+      "evaluation": {
+        "0": "usually claro",
+        "1": "our parents comprensible",
+        "2": "eat together fluido",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "We usually visit our parents and eat together.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Jorge's Sunday y responde: Who lives nearby?",
+      "text_reference": "reading",
+      "answer": "Their son lives nearby.",
+      "feedback": "El hijo no vive con ellos, pero vive cerca.",
+      "prompt": "Lee Jorge's Sunday y responde: Who lives nearby?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Their son lives nearby."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El hijo no vive con ellos, pero vive cerca.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un amigo que pregunta por tus rutinas familiares. Habla usando live with, visit, eat together y who questions.",
+      "scenario": "Talking about a typical family Sunday.",
+      "ai_language": "English; use fictional details if preferred",
+      "prompt": "La IA será un amigo que pregunta por tus rutinas familiares. Habla usando live with, visit, eat together y who questions.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba seis frases sobre una rutina familiar ficticia: convivencia, visitas y dos actividades compartidas.",
+      "success_criteria": [
+        "usa live with correctamente",
+        "usa al menos dos familiares",
+        "incluye una frase con we",
+        "tercera persona correcta"
+      ],
+      "prompt": "Graba seis frases sobre una rutina familiar ficticia: convivencia, visitas y dos actividades compartidas.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: I live ___ my family. We ___ our grandparents. We eat ___. He ___ nearby.",
+      "answers": [
+        "with",
+        "visit",
+        "together",
+        "lives"
+      ],
+      "prompt": "Completa: I live ___ my family. We ___ our grandparents. We eat ___. He ___ nearby.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "with",
+          "visit",
+          "together",
+          "lives"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "hablar de convivencia",
+      "describir actividades compartidas",
+      "usar live/visits en tercera persona"
+    ],
+    "retry": "Si confundes live y visit, recuerda: live = vivir; visit = ir a ver a alguien."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T02-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

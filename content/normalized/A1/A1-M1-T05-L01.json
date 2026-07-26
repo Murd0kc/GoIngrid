@@ -1,0 +1,434 @@
+{
+  "id": "A1-M1-T05-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T05",
+  "title": "One thing or two things?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede distinguir un objeto de varios y formar plurales regulares básicos.",
+  "situation": "Organizar materiales en una mesa y decir qué objetos hay.",
+  "language_focus": [
+    "one book",
+    "two books",
+    "a pen",
+    "three pens",
+    "There is a chair.",
+    "There are two chairs."
+  ],
+  "vocabulary": [
+    {
+      "term": "book",
+      "meaning_es": "libro",
+      "example": "There are two books."
+    },
+    {
+      "term": "pen",
+      "meaning_es": "bolígrafo",
+      "example": "There are three pens."
+    },
+    {
+      "term": "chair",
+      "meaning_es": "silla",
+      "example": "There is a chair."
+    },
+    {
+      "term": "desk",
+      "meaning_es": "escritorio",
+      "example": "The desks are clean."
+    },
+    {
+      "term": "notebook",
+      "meaning_es": "cuaderno",
+      "example": "I have two notebooks."
+    },
+    {
+      "term": "one / two / three",
+      "meaning_es": "uno / dos / tres",
+      "example": "three books"
+    }
+  ],
+  "context": {
+    "before": "A teacher checks the materials before class.",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "text": "There is one book on the desk."
+      },
+      {
+        "speaker": "Assistant",
+        "text": "There are two books in the box."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Are there any pens?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Yes, there are three pens and two notebooks."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Great. The students are ready."
+      }
+    ]
+  },
+  "explanation_es": "Un sustantivo singular habla de una cosa: one book. Para muchos sustantivos regulares añadimos -s: two books, three pens. El plural también cambia la forma del verbo: There is one book; There are two books.",
+  "spanish_speaker_notes": [
+    "No dejes el sustantivo en singular después de two o three.",
+    "La -s final debe escucharse: books /s/, pens /z/ según el sonido anterior.",
+    "En inglés el plural normalmente necesita una marca visible y audible."
+  ],
+  "pronunciation": {
+    "target": "Pronunciar plurales regulares y distinguir singular de plural al escuchar.",
+    "models": [
+      {
+        "text": "book / books",
+        "ipa": "/bʊk/ - /bʊks/"
+      },
+      {
+        "text": "pen / pens",
+        "ipa": "/pen/ - /penz/"
+      },
+      {
+        "text": "one chair / two chairs",
+        "stress": [
+          "one",
+          "two",
+          "chairs"
+        ]
+      }
+    ],
+    "student_feedback": "La terminación plural puede sonar /s/ o /z/; la meta A1 es que el número se entienda."
+  },
+  "reading": {
+    "title": "The classroom materials",
+    "text": "There is one teacher's desk and there are three student desks. There are two books on a table. There are four pens in a box. The notebooks are next to the books.",
+    "interactive_vocabulary": [
+      "classroom",
+      "materials",
+      "student desk",
+      "box",
+      "next to"
+    ],
+    "questions": [
+      {
+        "prompt": "How many books are on the table?",
+        "options": [
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": "Two"
+      },
+      {
+        "prompt": "Where are the notebooks?",
+        "options": [
+          "Next to the books",
+          "In the desk",
+          "On the window"
+        ],
+        "answer": "Next to the books"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T05-L01-E01",
+      "type": "singular_plural_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las palabras según hablen de uno o de varios.",
+      "items": [
+        {
+          "text": "one book",
+          "category": "one"
+        },
+        {
+          "text": "two books",
+          "category": "more than one"
+        },
+        {
+          "text": "a pen",
+          "category": "one"
+        },
+        {
+          "text": "three pens",
+          "category": "more than one"
+        }
+      ],
+      "categories": [
+        "one",
+        "more than one"
+      ],
+      "feedback_correct": "El número y la forma del sustantivo coinciden.",
+      "feedback_incorrect": "Busca one/a para singular y two/three para plural.",
+      "estimated_seconds": 60,
+      "prompt": "Clasifica las palabras según hablen de uno o de varios.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "one book=one",
+          "two books=more than one",
+          "a pen=one",
+          "three pens=more than one"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E02",
+      "type": "listening_number",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona cuántos objetos hay.",
+      "prompt": "There are three pens.",
+      "options": [
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correct_answer": "Three",
+      "feedback_correct": "Escuchaste el número y la terminación plural.",
+      "feedback_incorrect": "La palabra three indica tres y pens indica más de uno.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Three"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E03",
+      "type": "plural_form",
+      "skill": "grammar",
+      "instruction": "Forma el plural regular.",
+      "prompt": "one book → two ___",
+      "options": [
+        "books",
+        "book",
+        "bookes"
+      ],
+      "correct_answer": "books",
+      "feedback_correct": "Añadimos -s a book.",
+      "feedback_incorrect": "El plural regular de book es books.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "books"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": [
+        "There",
+        "are",
+        "two",
+        "chairs."
+      ],
+      "correct_answer": "There are two chairs.",
+      "feedback_correct": "There are introduce una cantidad plural.",
+      "feedback_incorrect": "Usa There are antes del número plural.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la frase.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "There are two chairs."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la cantidad y el sustantivo.",
+      "prompt": "There are two book.",
+      "correct_answer": "There are two books.",
+      "feedback_correct": "Después de two usamos el plural books.",
+      "feedback_incorrect": "Añade -s a book porque hay dos.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "There are two books."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una frase singular y una plural.",
+      "prompt": "There is one book. There are two books.",
+      "evaluation": {
+        "0": "is/are contrast",
+        "1": "plural ending",
+        "2": "number clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Se distingue una cosa de varias.",
+      "feedback_incorrect": "En la segunda frase marca two y la terminación de books.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el aula y completa un inventario con cantidades.",
+      "reading_ref": "A1-M1-T05-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 4 inventory items",
+      "feedback_correct": "Extrajiste cantidades y ubicaciones del texto.",
+      "feedback_incorrect": "Busca one, two, three y four junto a los objetos.",
+      "estimated_seconds": 120,
+      "prompt": "Lee el aula y completa un inventario con cantidades.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 inventory items"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es una profesora que revisa materiales. Dile cuántos objetos hay en tu mesa.",
+      "role": "teacher",
+      "student_goal": "Report singular and plural classroom objects with numbers.",
+      "allowed_support": [
+        "object picture",
+        "number cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "reports one singular item",
+        "reports two plural items",
+        "uses there is/are"
+      ],
+      "feedback_correct": "Informaste cantidades y objetos de forma clara.",
+      "feedback_incorrect": "Usa There is para uno y There are para más de uno.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es una profesora que revisa materiales. Dile cuántos objetos hay en tu mesa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Haz un inventario hablado de cuatro objetos de tu habitación.",
+      "prompt": "There is one ____. There are two ____. There are three ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses singular and plural nouns",
+        "uses numbers",
+        "uses there is/are accurately"
+      ],
+      "feedback_correct": "Convertiste números y plurales en información útil.",
+      "feedback_incorrect": "Comprueba el número y añade -s cuando hay más de un objeto.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    },
+    {
+      "id": "A1-M1-T05-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "one pen / two ___",
+        "one book / three ___",
+        "There ___ two chairs."
+      ],
+      "correct_answers": [
+        "pens",
+        "books",
+        "are"
+      ],
+      "feedback_correct": "Recuperaste plural y estructura de cantidad.",
+      "feedback_incorrect": "Con dos o tres usa plural; con cantidades plurales usa there are.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "pens",
+          "books",
+          "are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T05-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T05-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

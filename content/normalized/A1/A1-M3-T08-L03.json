@@ -1,0 +1,434 @@
+{
+  "id": "A1-M3-T08-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T08",
+  "title": "Llegar al hotel",
+  "estimated_seconds": 930,
+  "communication_goal": "Hacer check-in, confirmar una reserva y pedir información básica en un hotel.",
+  "situation": "Llegas a un hotel y necesitas encontrar tu habitación o solicitar un servicio.",
+  "language_focus": {
+    "grammar": [
+      "I have a reservation",
+      "My name is...",
+      "Can I have...?",
+      "Where is my room?",
+      "What time is breakfast?",
+      "There is a problem"
+    ],
+    "function": "hotel check-in and requests"
+  },
+  "vocabulary": [
+    {
+      "word": "reservation",
+      "meaning_es": "reserva",
+      "example": "I have a reservation."
+    },
+    {
+      "word": "single room",
+      "meaning_es": "habitación individual",
+      "example": "I booked a single room."
+    },
+    {
+      "word": "double room",
+      "meaning_es": "habitación doble",
+      "example": "I need a double room."
+    },
+    {
+      "word": "key",
+      "meaning_es": "llave",
+      "example": "Here is your room key."
+    },
+    {
+      "word": "floor",
+      "meaning_es": "piso",
+      "example": "Your room is on the third floor."
+    },
+    {
+      "word": "breakfast",
+      "meaning_es": "desayuno",
+      "example": "Breakfast starts at seven."
+    }
+  ],
+  "context": {
+    "title": "Checking in",
+    "dialogue": [
+      {
+        "speaker": "Receptionist",
+        "english": "Good evening. How can I help you?",
+        "spanish": "Buenas noches. ¿Cómo puedo ayudarle?"
+      },
+      {
+        "speaker": "Traveler",
+        "english": "I have a reservation. My name is Daniel Ruiz.",
+        "spanish": "Tengo una reserva. Me llamo Daniel Ruiz."
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Yes, Mr. Ruiz. You have a single room for two nights.",
+        "spanish": "Sí, señor Ruiz. Tiene una habitación individual por dos noches."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "What floor is my room on?",
+        "spanish": "¿En qué piso está mi habitación?"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "It is on the third floor. Here is your key.",
+        "spanish": "Está en el tercer piso. Aquí está su llave."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "What time is breakfast?",
+        "spanish": "¿A qué hora es el desayuno?"
+      }
+    ]
+  },
+  "explanation_es": "En un hotel empieza con I have a reservation y di tu nombre. El personal puede confirmar el tipo de habitación y las noches. Pregunta What floor is my room on? y What time is breakfast?. Para pedir algo usa Can I have...?; para informar un problema usa There is a problem with....",
+  "spanish_speaker_notes": [
+    "Reservation es reserva; no uses booking en todas las situaciones aunque también existe.",
+    "What floor is my room on? termina con on de forma natural.",
+    "Two nights indica duración de alojamiento, no dos noches separadas necesariamente.",
+    "Good evening es un saludo, no una descripción de que la noche sea buena."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I have a reservation.",
+        "focus": "have a reservation"
+      },
+      {
+        "text": "What floor is my room on?",
+        "focus": "floor y room on"
+      },
+      {
+        "text": "What time is breakfast?",
+        "focus": "time is breakfast"
+      }
+    ],
+    "tip_es": "Practica primero frases de recepción y luego añade tu nombre o número de reserva ficticio."
+  },
+  "reading": {
+    "title": "A hotel arrival",
+    "text": "Daniel has a reservation for a single room for two nights. His room is on the third floor. He receives a key at reception and asks what time breakfast starts. Breakfast starts at seven.",
+    "glossary": [
+      {
+        "term": "hotel arrival",
+        "meaning_es": "llegada al hotel"
+      },
+      {
+        "term": "reception",
+        "meaning_es": "recepción"
+      },
+      {
+        "term": "two nights",
+        "meaning_es": "dos noches"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "hotel_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada palabra con su función en el hotel.",
+      "pairs": [
+        {
+          "english": "reservation",
+          "spanish": "reserva previa"
+        },
+        {
+          "english": "key",
+          "spanish": "abrir habitación"
+        },
+        {
+          "english": "floor",
+          "spanish": "nivel del edificio"
+        },
+        {
+          "english": "single room",
+          "spanish": "habitación para una persona"
+        }
+      ],
+      "prompt": "Relaciona cada palabra con su función en el hotel.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "reservation=reserva previa",
+          "key=abrir habitación",
+          "floor=nivel del edificio",
+          "single room=habitación para una persona"
+        ],
+        "expected_pairs": [
+          {
+            "english": "reservation",
+            "spanish": "reserva previa"
+          },
+          {
+            "english": "key",
+            "spanish": "abrir habitación"
+          },
+          {
+            "english": "floor",
+            "spanish": "nivel del edificio"
+          },
+          {
+            "english": "single room",
+            "spanish": "habitación para una persona"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_form",
+      "skill": "listening",
+      "instruction": "Escucha y completa tipo de habitación y duración.",
+      "audio_text": "You have a single room for two nights.",
+      "fields": [
+        {
+          "label": "room",
+          "answer": "single"
+        },
+        {
+          "label": "nights",
+          "answer": "two"
+        }
+      ],
+      "feedback": "La frase confirma habitación y duración.",
+      "prompt": "Escucha y completa tipo de habitación y duración.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "single",
+          "two"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La frase confirma habitación y duración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I have ___ reservation.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "a",
+      "feedback": "Reservation es contable singular y comienza con sonido consonántico.",
+      "prompt": "Completa: I have ___ reservation.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Reservation es contable singular y comienza con sonido consonántico.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: time / breakfast / what / is / ?",
+      "answer": "What time is breakfast?",
+      "feedback": "Pregunta por la hora del desayuno.",
+      "prompt": "Ordena: time / breakfast / what / is / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What time is breakfast?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Pregunta por la hora del desayuno.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: My room is in the third floor.",
+      "answer": "My room is on the third floor.",
+      "feedback": "Usamos on con pisos de un edificio.",
+      "prompt": "Corrige: My room is in the third floor.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "My room is on the third floor."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usamos on con pisos de un edificio.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Haz check-in con nombre, reserva, noches y una pregunta.",
+      "target": "I have a reservation. My name is ... I have ... nights. What time is breakfast?",
+      "evaluation": {
+        "0": "reservation claro",
+        "1": "noches comprensibles",
+        "2": "pregunta natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I have a reservation. My name is ... I have ... nights. What time is breakfast?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Hotel Arrival y responde: What time does breakfast start?",
+      "text_reference": "reading",
+      "answer": "It starts at seven.",
+      "feedback": "La última oración indica la hora.",
+      "prompt": "Lee A Hotel Arrival y responde: What time does breakfast start?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It starts at seven."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La última oración indica la hora.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será recepcionista. Haz check-in con una reserva ficticia y pregunta por piso, desayuno y llave.",
+      "scenario": "Checking into a hotel after a trip.",
+      "ai_language": "English; never request real booking or payment information",
+      "prompt": "La IA será recepcionista. Haz check-in con una reserva ficticia y pregunta por piso, desayuno y llave.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba un diálogo de ocho turnos de check-in y pide un servicio adicional ficticio.",
+      "success_criteria": [
+        "usa I have a reservation",
+        "confirma noches/habitación",
+        "pregunta ubicación y horario",
+        "usa una petición cortés"
+      ],
+      "prompt": "Graba un diálogo de ocho turnos de check-in y pide un servicio adicional ficticio.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: I have a ___. My room is on the third ___. Here is your room ___.",
+      "answers": [
+        "reservation",
+        "floor",
+        "key"
+      ],
+      "prompt": "Completa: I have a ___. My room is on the third ___. Here is your room ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "reservation",
+          "floor",
+          "key"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "hacer check-in",
+      "preguntar por habitación y desayuno",
+      "comprender datos de una reserva"
+    ],
+    "retry": "Si confundes floor y room, floor es el piso y room es la habitación."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T08-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

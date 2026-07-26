@@ -1,0 +1,425 @@
+{
+  "id": "A1-M2-T08-L02",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T08",
+  "title": "Hablar de personas y cosas",
+  "estimated_seconds": 930,
+  "communication_goal": "Elegir pronombres de objeto para hablar de personas, animales, objetos y grupos.",
+  "situation": "Describes mensajes, objetos y relaciones en situaciones cotidianas.",
+  "language_focus": {
+    "grammar": [
+      "him/her for people",
+      "it for a thing or animal",
+      "us/them for groups",
+      "to + object pronoun"
+    ],
+    "function": "referencing people and things"
+  },
+  "vocabulary": [
+    {
+      "word": "text",
+      "meaning_es": "enviar mensaje",
+      "example": "Text me later."
+    },
+    {
+      "word": "show",
+      "meaning_es": "mostrar",
+      "example": "Can you show it to me?"
+    },
+    {
+      "word": "give",
+      "meaning_es": "dar",
+      "example": "Give it to her."
+    },
+    {
+      "word": "send",
+      "meaning_es": "enviar",
+      "example": "Send them a message."
+    },
+    {
+      "word": "website",
+      "meaning_es": "sitio web",
+      "example": "I use it every day."
+    },
+    {
+      "word": "dog",
+      "meaning_es": "perro",
+      "example": "I walk him every morning."
+    }
+  ],
+  "context": {
+    "title": "A helpful message",
+    "dialogue": [
+      {
+        "speaker": "Sara",
+        "english": "Can you send me the website?",
+        "spanish": "¿Puedes enviarme el sitio web?"
+      },
+      {
+        "speaker": "Tom",
+        "english": "Sure. I can send it to you now.",
+        "spanish": "Claro. Puedo enviártelo ahora."
+      },
+      {
+        "speaker": "Sara",
+        "english": "Please show it to Ana too.",
+        "spanish": "Por favor, muéstraselo a Ana también."
+      },
+      {
+        "speaker": "Tom",
+        "english": "I can show it to her after lunch.",
+        "spanish": "Puedo mostrárselo después del almuerzo."
+      },
+      {
+        "speaker": "Sara",
+        "english": "Thanks. Send us a message when you finish.",
+        "spanish": "Gracias. Envíanos un mensaje cuando termines."
+      }
+    ]
+  },
+  "explanation_es": "Usa him y her para personas, it para una cosa o animal singular y them/us para grupos. Después de to también usamos objeto: send it to me, give it to her. En frases con dos pronombres, identifica qué recibes y quién lo recibe: send it to you = envía la cosa a ti.",
+  "spanish_speaker_notes": [
+    "It puede referirse a un objeto o animal cuando no hablamos de su género.",
+    "No uses he/she para una cosa: I like it, no I like he.",
+    "En inglés claro, send it to me es más fácil al inicio que memorizar dos pronombres juntos.",
+    "To marca el receptor: show it to her."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Send it to me.",
+        "focus": "enlace send it to"
+      },
+      {
+        "text": "Show it to her.",
+        "focus": "her con h audible"
+      },
+      {
+        "text": "Send us a message.",
+        "focus": "us y ritmo"
+      }
+    ],
+    "tip_es": "Repite la secuencia verbo + cosa + to + persona como un bloque."
+  },
+  "reading": {
+    "title": "The useful website",
+    "text": "Tom sends Sara a useful website. He sends it to her by message. Sara asks him to show it to Ana too. Tom sends them the website and asks them to share it with us.",
+    "glossary": [
+      {
+        "term": "useful website",
+        "meaning_es": "sitio web útil"
+      },
+      {
+        "term": "by message",
+        "meaning_es": "por mensaje"
+      },
+      {
+        "term": "share",
+        "meaning_es": "compartir"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "reference_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona el referente con el pronombre correcto.",
+      "pairs": [
+        {
+          "referent": "a website",
+          "pronoun": "it"
+        },
+        {
+          "referent": "Ana",
+          "pronoun": "her"
+        },
+        {
+          "referent": "Tom and Sara",
+          "pronoun": "them"
+        },
+        {
+          "referent": "Tom and I",
+          "pronoun": "us"
+        }
+      ],
+      "prompt": "Relaciona el referente con el pronombre correcto.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a website=it",
+          "Ana=her",
+          "Tom and Sara=them",
+          "Tom and I=us"
+        ],
+        "expected_pairs": [
+          {
+            "referent": "a website",
+            "pronoun": "it"
+          },
+          {
+            "referent": "Ana",
+            "pronoun": "her"
+          },
+          {
+            "referent": "Tom and Sara",
+            "pronoun": "them"
+          },
+          {
+            "referent": "Tom and I",
+            "pronoun": "us"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: I can send it to you now. ¿Qué es it y quién recibe la cosa?",
+      "audio_text": "I can send it to you now.",
+      "options": [
+        "it = el sitio web; you = Sara",
+        "it = Sara; you = el sitio web",
+        "it = un grupo; you = Tom"
+      ],
+      "correct": "it = el sitio web; you = Sara",
+      "feedback": "It es la cosa y you es la persona receptora.",
+      "prompt": "Escucha: I can send it to you now. ¿Qué es it y quién recibe la cosa?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "it = el sitio web; you = Sara"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "It es la cosa y you es la persona receptora.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Show it to ___. (Ana)",
+      "options": [
+        "she",
+        "her",
+        "hers"
+      ],
+      "correct": "her",
+      "feedback": "Her es el pronombre de objeto para Ana.",
+      "prompt": "Completa: Show it to ___. (Ana)",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "her"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Her es el pronombre de objeto para Ana.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: to / send / me / it / .",
+      "answer": "Send it to me.",
+      "feedback": "La estructura clara es verbo + cosa + to + receptor.",
+      "prompt": "Ordena: to / send / me / it / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Send it to me."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La estructura clara es verbo + cosa + to + receptor.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I send he a message.",
+      "answer": "I send him a message.",
+      "feedback": "He cambia a him cuando recibe el mensaje.",
+      "prompt": "Corrige: I send he a message.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I send him a message."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "He cambia a him cuando recibe el mensaje.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Lee: Send it to me. Show it to her. Send them a message.",
+      "target": "Send it to me. Show it to her. Send them a message.",
+      "evaluation": {
+        "0": "it to conectado",
+        "1": "her y them distinguibles",
+        "2": "ritmo natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Send it to me. Show it to her. Send them a message.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee The Useful Website y responde: Who receives the website?",
+      "text_reference": "reading",
+      "answer": "Sara, Ana and the group receive it.",
+      "feedback": "It es el sitio web; her y them indican las personas.",
+      "prompt": "Lee The Useful Website y responde: Who receives the website?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Sara, Ana and the group receive it."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "It es el sitio web; her y them indican las personas.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA te pide compartir objetos o enlaces con otras personas. Responde usando it, me, him, her, us o them.",
+      "scenario": "Helping classmates share a useful online resource.",
+      "ai_language": "English with visual referents and brief corrections",
+      "prompt": "La IA te pide compartir objetos o enlaces con otras personas. Responde usando it, me, him, her, us o them.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Describe cómo compartes un enlace, objeto o información con dos personas. Usa al menos cuatro pronombres de objeto.",
+      "success_criteria": [
+        "it se refiere claramente a una cosa",
+        "him/her se refiere a personas",
+        "usa to cuando corresponde"
+      ],
+      "prompt": "Describe cómo compartes un enlace, objeto o información con dos personas. Usa al menos cuatro pronombres de objeto.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: a thing = ___; a woman = ___; a man = ___; a group = ___; the speaker and another person = ___.",
+      "answers": [
+        "it",
+        "her",
+        "him",
+        "them",
+        "us"
+      ],
+      "prompt": "Completa: a thing = ___; a woman = ___; a man = ___; a group = ___; the speaker and another person = ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "it",
+          "her",
+          "him",
+          "them",
+          "us"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "usar it para cosas y animales",
+      "distinguir him/her/them",
+      "formar frases con to + pronombre"
+    ],
+    "retry": "Si dudas, señala mentalmente la cosa y la persona: cosa = it; receptor = me, him, her, us o them."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T08-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,440 @@
+{
+  "id": "A1-M1-T04-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T04",
+  "title": "A thing or the thing?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede distinguir entre presentar un objeto y referirse a un objeto específico usando a/an o the.",
+  "situation": "Pedir un objeto en una cafetería y luego identificar el objeto concreto sobre la mesa.",
+  "language_focus": [
+    "I need a cup.",
+    "The cup is on the table.",
+    "I see a bag.",
+    "The bag is blue.",
+    "Where is the ticket?"
+  ],
+  "vocabulary": [
+    {
+      "term": "cup",
+      "meaning_es": "taza / vaso",
+      "example": "I need a cup."
+    },
+    {
+      "term": "table",
+      "meaning_es": "mesa",
+      "example": "The cup is on the table."
+    },
+    {
+      "term": "bag",
+      "meaning_es": "bolso / bolsa",
+      "example": "I see a bag."
+    },
+    {
+      "term": "ticket",
+      "meaning_es": "boleto / billete",
+      "example": "Where is the ticket?"
+    },
+    {
+      "term": "specific",
+      "meaning_es": "específico",
+      "example": "The bag is specific."
+    },
+    {
+      "term": "blue",
+      "meaning_es": "azul",
+      "example": "The bag is blue."
+    }
+  ],
+  "context": {
+    "before": "A customer orders a drink and then looks for a specific item on the table.",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "text": "Can I have a cup, please?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Sure. Here is the cup."
+      },
+      {
+        "speaker": "Customer",
+        "text": "Thanks. Where is the ticket?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "The ticket is next to the bag."
+      },
+      {
+        "speaker": "Customer",
+        "text": "I see a bag. Is the bag blue?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Yes, the bag is blue."
+      }
+    ]
+  },
+  "explanation_es": "Usamos a/an cuando presentamos una cosa no identificada o una de varias. Usamos the cuando hablamos de una cosa específica que ya se presentó o que ambos pueden identificar.",
+  "spanish_speaker_notes": [
+    "A/an presenta: I see a bag. The vuelve a señalar ese objeto: The bag is blue.",
+    "No traduzcas the siempre como 'el/la' sin mirar el contexto; su función es hacer específico el referente.",
+    "The puede aparecer con singular y plural; aquí practicamos primero objetos singulares."
+  ],
+  "pronunciation": {
+    "target": "Distinguir a/an de the y producir the antes de consonante y vocal sin convertirlo en una sílaba fuerte.",
+    "models": [
+      {
+        "text": "a bag",
+        "stress": [
+          "bag"
+        ]
+      },
+      {
+        "text": "the bag",
+        "stress": [
+          "bag"
+        ]
+      },
+      {
+        "text": "the ticket",
+        "stress": [
+          "ticket"
+        ]
+      },
+      {
+        "text": "the apple",
+        "stress": [
+          "apple"
+        ]
+      }
+    ],
+    "student_feedback": "The suele ser débil; la información importante está en bag, ticket o apple."
+  },
+  "reading": {
+    "title": "The blue bag",
+    "text": "Mia sees a bag in a café. She does not know the bag. Then she sees a ticket next to it. She asks the assistant about the bag. The assistant says, 'The bag is blue and the ticket is under the cup.'",
+    "interactive_vocabulary": [
+      "café",
+      "does not know",
+      "next to",
+      "under",
+      "assistant"
+    ],
+    "questions": [
+      {
+        "prompt": "When does Mia use a bag?",
+        "options": [
+          "When she first sees one",
+          "After she identifies it",
+          "Never"
+        ],
+        "answer": "When she first sees one"
+      },
+      {
+        "prompt": "Where is the ticket?",
+        "options": [
+          "Under the cup",
+          "Inside the bag",
+          "On the chair"
+        ],
+        "answer": "Under the cup"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T04-L02-E01",
+      "type": "new_known_sort",
+      "skill": "grammar",
+      "instruction": "Clasifica cuándo usar a/an y cuándo usar the.",
+      "items": [
+        {
+          "text": "present a new bag",
+          "category": "a/an"
+        },
+        {
+          "text": "talk about the bag already mentioned",
+          "category": "the"
+        },
+        {
+          "text": "identify a specific ticket",
+          "category": "the"
+        },
+        {
+          "text": "mention one cup for the first time",
+          "category": "a/an"
+        }
+      ],
+      "categories": [
+        "a/an",
+        "the"
+      ],
+      "feedback_correct": "A/an presenta; the identifica algo concreto.",
+      "feedback_incorrect": "Pregúntate: ¿es la primera vez que aparece o ambos sabemos cuál es?.",
+      "estimated_seconds": 75,
+      "prompt": "Clasifica cuándo usar a/an y cuándo usar the.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "present a new bag=a/an",
+          "talk about the bag already mentioned=the",
+          "identify a specific ticket=the",
+          "mention one cup for the first time=a/an"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E02",
+      "type": "listening_sequence",
+      "skill": "listening",
+      "instruction": "Escucha la secuencia y elige qué objeto se menciona por segunda vez.",
+      "prompt": "I see a bag. The bag is blue.",
+      "options": [
+        "The bag",
+        "A new cup",
+        "An apple"
+      ],
+      "correct_answer": "The bag",
+      "feedback_correct": "The bag retoma el objeto ya presentado.",
+      "feedback_incorrect": "La segunda frase habla del mismo bag, por eso usa the.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The bag"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la primera mención.",
+      "prompt": "I see ___ bag.",
+      "options": [
+        "a",
+        "an",
+        "the"
+      ],
+      "correct_answer": "a",
+      "feedback_correct": "Es la primera vez que aparece bag: a bag.",
+      "feedback_incorrect": "El objeto todavía no es específico para el interlocutor.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E04",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la segunda mención.",
+      "prompt": "I see a bag. ___ bag is blue.",
+      "options": [
+        "The",
+        "A",
+        "An"
+      ],
+      "correct_answer": "The",
+      "feedback_correct": "Ahora el interlocutor sabe cuál bag es: the bag.",
+      "feedback_incorrect": "Es el mismo objeto mencionado antes; usa the.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la referencia.",
+      "prompt": "I see a bag. A bag is blue.",
+      "correct_answer": "I see a bag. The bag is blue.",
+      "feedback_correct": "La segunda frase identifica el objeto ya conocido.",
+      "feedback_incorrect": "Cambia el segundo a por the.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I see a bag. The bag is blue."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba la secuencia presentando y después identificando un objeto.",
+      "prompt": "I see a bag. The bag is blue.",
+      "evaluation": {
+        "0": "a/the contrast",
+        "1": "connected speech",
+        "2": "blue intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La diferencia entre presentar e identificar se entiende.",
+      "feedback_incorrect": "Haz a débil en la primera frase y the unido a bag en la segunda.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la historia y marca cada primera y segunda mención.",
+      "reading_ref": "A1-M1-T04-L02-reading-01",
+      "correct_answer": "2 comprehension answers and article sequence",
+      "feedback_correct": "Comprendiste cómo cambia el artículo cuando el objeto se vuelve identificable.",
+      "feedback_incorrect": "Busca la primera mención de bag y la frase que lo identifica después.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la historia y marca cada primera y segunda mención.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and article sequence"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA está en una cafetería. Presenta objetos nuevos y luego pregunta por objetos específicos.",
+      "role": "café assistant",
+      "student_goal": "Use a/an to introduce items and the to refer back to them.",
+      "allowed_support": [
+        "object cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "introduces two objects",
+        "refers to each with the",
+        "asks one specific-item question"
+      ],
+      "feedback_correct": "Usaste los artículos según la información compartida.",
+      "feedback_incorrect": "Primero presenta con a/an; después usa the para el objeto ya conocido.",
+      "estimated_seconds": 180,
+      "prompt": "La IA está en una cafetería. Presenta objetos nuevos y luego pregunta por objetos específicos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe tres objetos en tu mesa: preséntalos y después describe uno específicamente.",
+      "prompt": "I see a ____, an ____, and a ____. The ____ is ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses a/an for first mentions",
+        "uses the for a known item",
+        "communicates a detail"
+      ],
+      "feedback_correct": "Aplicaste la diferencia entre información nueva y específica.",
+      "feedback_incorrect": "Presenta primero cada objeto y luego retoma uno con the.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    },
+    {
+      "id": "A1-M1-T04-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la secuencia sin mirar.",
+      "prompts": [
+        "I see ___ bag.",
+        "___ bag is blue."
+      ],
+      "correct_answers": [
+        "a",
+        "The"
+      ],
+      "feedback_correct": "Recuperaste la diferencia entre primera y segunda mención.",
+      "feedback_incorrect": "Primera mención = a/an; objeto identificado después = the.",
+      "estimated_seconds": 90,
+      "prompt": "Completa la secuencia sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a",
+          "The"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T04-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

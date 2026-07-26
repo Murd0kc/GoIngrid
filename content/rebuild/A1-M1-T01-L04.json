@@ -1,0 +1,189 @@
+{
+  "id": "A1-M1-T01-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T01",
+  "title": "The spelling challenge",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede completar una interacción nueva que requiere deletrear, confirmar y corregir información.",
+  "situation": "Registrar una reserva internacional cuando hay ruido y una letra se confunde.",
+  "language_focus": [
+    "What's your name?",
+    "How do you spell it?",
+    "Could you repeat that, please?",
+    "I didn't catch the first letter.",
+    "Is that B or V?",
+    "Yes, that's right.",
+    "No, it's..."
+  ],
+  "vocabulary": [
+    { "term": "reservation", "meaning_es": "reserva", "example": "I have a reservation." },
+    { "term": "confirmation", "meaning_es": "confirmación", "example": "Here is your confirmation." },
+    { "term": "noise", "meaning_es": "ruido", "example": "There is a lot of noise." },
+    { "term": "correct", "meaning_es": "correcto", "example": "Is this correct?" },
+    { "term": "wrong", "meaning_es": "equivocado", "example": "That letter is wrong." },
+    { "term": "clarify", "meaning_es": "aclarar", "example": "I need to clarify one letter." }
+  ],
+  "context": {
+    "before": "You arrive at a hotel. The receptionist needs your name for a reservation, but the lobby is noisy.",
+    "dialogue": [
+      { "speaker": "Receptionist", "text": "Welcome. What's your name?" },
+      { "speaker": "Guest", "text": "My name is Victor Morales." },
+      { "speaker": "Receptionist", "text": "How do you spell your last name?" },
+      { "speaker": "Guest", "text": "M-O-R-A-L-E-S." },
+      { "speaker": "Receptionist", "text": "Sorry, I didn't catch the first letter." },
+      { "speaker": "Guest", "text": "M as in Monday. M-O-R-A-L-E-S." },
+      { "speaker": "Receptionist", "text": "Morales. Is that right?" },
+      { "speaker": "Guest", "text": "Yes, that's right." }
+    ]
+  },
+  "spanish_speaker_notes": [
+    "En una interacción real puedes pedir repetición varias veces; la claridad es más importante que la rapidez.",
+    "Usa M as in Monday para dar un ejemplo cuando una letra no se entiende.",
+    "No traduzcas 'I didn't catch' literalmente. En este contexto significa 'no entendí'."
+  ],
+  "pronunciation": {
+    "target": "Mantener claridad y ritmo al deletrear una palabra completa en una situación con interrupción.",
+    "models": [
+      { "text": "M as in Monday.", "stress": ["M", "Monday"] },
+      { "text": "I didn't catch the first letter.", "stress": ["catch", "first", "letter"] },
+      { "text": "Yes, that's right.", "intonation": "falling" }
+    ],
+    "student_feedback": "La prioridad es que la otra persona identifique las letras; después mejora ritmo y entonación."
+  },
+  "reading": {
+    "title": "A noisy hotel lobby",
+    "text": "Victor arrives at a hotel with a reservation. The lobby is busy and noisy. The receptionist cannot hear the first letter of his last name. Victor does not simply repeat the whole name quickly. He gives an example: 'M as in Monday.' The receptionist writes the name correctly and confirms the reservation.",
+    "interactive_vocabulary": ["arrives", "busy", "noisy", "cannot hear", "gives an example", "confirms"],
+    "questions": [
+      { "prompt": "What makes the interaction difficult?", "options": ["The lobby is noisy", "Victor has no reservation", "The hotel is closed"], "answer": "The lobby is noisy" },
+      { "prompt": "How does Victor clarify M?", "options": ["M as in Monday", "M as in music", "He changes his name"], "answer": "M as in Monday" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T01-L04-E01",
+      "type": "mission_prediction",
+      "skill": "interaction",
+      "instruction": "Elige la mejor estrategia cuando hay ruido y la otra persona no entiende una letra.",
+      "prompt": "The receptionist does not hear the first letter.",
+      "options": ["Give the letter again with an example", "Speak much faster", "Stop the conversation"],
+      "correct_answer": "Give the letter again with an example",
+      "feedback_correct": "Una aclaración con ejemplo facilita la comprensión.",
+      "feedback_incorrect": "La velocidad no resuelve una confusión; usa repetición y ejemplo.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T01-L04-E02",
+      "type": "listening_inference",
+      "skill": "listening",
+      "instruction": "Escucha la interacción y decide por qué Victor dice 'M as in Monday'.",
+      "prompt": "M as in Monday.",
+      "options": ["To clarify the letter", "To explain the day", "To change the reservation"],
+      "correct_answer": "To clarify the letter",
+      "feedback_correct": "Entendiste la intención, no solo las palabras.",
+      "feedback_incorrect": "Monday funciona como ejemplo de la letra M.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T01-L04-E03",
+      "type": "vocabulary_context",
+      "skill": "vocabulary",
+      "instruction": "Elige la palabra que completa la situación.",
+      "prompt": "The hotel has a lot of ___. I can't hear you.",
+      "options": ["noise", "reservation", "confirmation"],
+      "correct_answer": "noise",
+      "feedback_correct": "Noise significa ruido.",
+      "feedback_incorrect": "La frase habla de un problema para escuchar: noise.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T01-L04-E04",
+      "type": "dialogue_choice",
+      "skill": "interaction",
+      "instruction": "La IA no entiende la primera letra. Elige tu respuesta.",
+      "prompt": "Receptionist: 'Sorry, I didn't catch the first letter.'",
+      "options": ["M as in Monday. M-O-R-A-L-E-S.", "What's your name?", "I am a hotel."],
+      "correct_answer": "M as in Monday. M-O-R-A-L-E-S.",
+      "feedback_correct": "Repetiste la información y añadiste una ayuda.",
+      "feedback_incorrect": "Vuelve a dar la letra con un ejemplo y después deletrea.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T01-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta del recepcionista.",
+      "prompt": "How you spell your last name?",
+      "correct_answer": "How do you spell your last name?",
+      "feedback_correct": "La pregunta necesita do después de How.",
+      "feedback_incorrect": "Usa How do you spell...?, no How you spell...?.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T01-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba la respuesta completa en dos partes: ejemplo y deletreo.",
+      "prompt": "M as in Monday. M-O-R-A-L-E-S.",
+      "evaluation": ["letter intelligibility", "chunking", "clear pauses"],
+      "feedback_correct": "La información está organizada para que el interlocutor pueda seguirla.",
+      "feedback_incorrect": "Separa el ejemplo del deletreo con una pausa breve.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T01-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la historia y reconstruye los tres pasos que usó Victor.",
+      "reading_ref": "A1-M1-T01-L04-reading-01",
+      "steps": ["repeat the letter", "give an example", "spell the name again"],
+      "correct_answer": "repeat the letter, give an example, spell the name again",
+      "feedback_correct": "Identificaste una estrategia de comunicación útil.",
+      "feedback_incorrect": "Victor primero aclara la letra, luego da un ejemplo y finalmente repite el nombre.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T01-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Completa el registro de una reserva. La IA debe confundirse una vez; resuelve la confusión con claridad.",
+      "role": "hotel receptionist",
+      "student_goal": "Give first name and last name, spell them, clarify one letter and confirm the final information.",
+      "allowed_support": ["slow mode", "sentence starter", "Spanish hint", "repeat prompt"],
+      "success_criteria": ["gives first and last name", "spells both or one long field", "repairs a misunderstanding", "confirms information"],
+      "feedback_correct": "Completaste la reserva y resolviste un malentendido real.",
+      "feedback_incorrect": "Usa: Could you repeat that? / M as in Monday. / Is that right?",
+      "estimated_seconds": 220
+    },
+    {
+      "id": "A1-M1-T01-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: registra un nombre nuevo, deletrea el apellido y corrige una letra que la IA escriba mal.",
+      "prompt": "Complete the reservation without seeing a model answer.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["understands the request", "spells accurately", "uses a clarification phrase", "confirms or corrects"],
+      "feedback_correct": "Demostraste que puedes usar el deletreo para resolver una situación nueva.",
+      "feedback_incorrect": "Divide la tarea: nombre, deletreo, aclaración y confirmación.",
+      "estimated_seconds": 240
+    },
+    {
+      "id": "A1-M1-T01-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Recuerda las expresiones que usarías si no entendieras una letra.",
+      "prompts": ["Could you ___ that, please?", "I didn't ___ the first letter.", "M as ___ Monday."],
+      "correct_answers": ["repeat", "catch", "in"],
+      "feedback_correct": "Ya tienes un conjunto de estrategias para aclarar información.",
+      "feedback_incorrect": "Repasa repeat, catch e in; volverán en el repaso acumulativo.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["listening_inference", "pronunciation_recording", "ai_roleplay", "mastery_assessment"],
+    "topic_ready_when": "El estudiante completa la evaluación final con comunicación comprensible y al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

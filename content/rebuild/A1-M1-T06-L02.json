@@ -1,0 +1,177 @@
+{
+  "id": "A1-M1-T06-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T06",
+  "title": "Find the right object",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede identificar objetos y personas usando color, tamaño y apariencia básica.",
+  "situation": "Encontrar un objeto perdido mediante una descripción.",
+  "language_focus": ["a red bag", "a large black phone", "The bag is under the chair.", "It is small and blue.", "The woman is tall."],
+  "vocabulary": [
+    { "term": "red", "meaning_es": "rojo / roja", "example": "a red bag" },
+    { "term": "black", "meaning_es": "negro / negra", "example": "a black phone" },
+    { "term": "white", "meaning_es": "blanco / blanca", "example": "a white shirt" },
+    { "term": "large", "meaning_es": "grande", "example": "a large phone" },
+    { "term": "tall", "meaning_es": "alto / alta", "example": "The woman is tall." },
+    { "term": "short", "meaning_es": "bajo / baja", "example": "The man is short." },
+    { "term": "lost", "meaning_es": "perdido / perdida", "example": "My phone is lost." }
+  ],
+  "context": {
+    "before": "A passenger describes a lost bag at a train station.",
+    "dialogue": [
+      { "speaker": "Staff member", "text": "What does your bag look like?" },
+      { "speaker": "Passenger", "text": "It's a small red bag." },
+      { "speaker": "Staff member", "text": "Is it under the chair?" },
+      { "speaker": "Passenger", "text": "No, it is a large black bag. It has a white label." },
+      { "speaker": "Staff member", "text": "I see it. The black bag is next to the door." }
+    ]
+  },
+  "explanation_es": "Los adjetivos pueden combinarse para dar una descripción más precisa: a small red bag, a large black phone. Cuando describimos el estado o apariencia después de be, usamos sujeto + be + adjetivo: The bag is red.",
+  "spanish_speaker_notes": [
+    "En inglés, varios adjetivos normalmente aparecen antes del sustantivo: a small red bag.",
+    "Los adjetivos no cambian por plural: two red bags, no two reds bags.",
+    "Look like significa 'verse / tener este aspecto'; no traduzcas look como mirar en este contexto."
+  ],
+  "pronunciation": {
+    "target": "Producir grupos de adjetivos con pausas naturales y destacar la característica que diferencia el objeto.",
+    "models": [
+      { "text": "a small red bag", "stress": ["small", "red", "bag"] },
+      { "text": "a large black bag", "stress": ["large", "black", "bag"] },
+      { "text": "The black bag is next to the door.", "stress": ["black", "next", "door"] }
+    ],
+    "student_feedback": "No añadas terminaciones de plural a los adjetivos: red bags, no reds bags."
+  },
+  "reading": {
+    "title": "A lost bag",
+    "text": "A passenger loses a bag at the station. The bag is small and red. It has a white label. A staff member finds a large black bag near the door, but it is not the passenger's bag. The passenger continues looking.",
+    "interactive_vocabulary": ["passenger", "loses", "station", "label", "continues"],
+    "questions": [
+      { "prompt": "What color is the lost bag?", "options": ["Red", "Black", "White"], "answer": "Red" },
+      { "prompt": "Is the large black bag the correct bag?", "options": ["No", "Yes", "The text does not say"], "answer": "No" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T06-L02-E01",
+      "type": "description_memory",
+      "skill": "vocabulary",
+      "instruction": "Memoriza una tarjeta durante unos segundos y elige el objeto correcto.",
+      "prompt": "small / red / bag",
+      "options": ["A small red bag", "A large black phone", "A white shirt"],
+      "correct_answer": "A small red bag",
+      "feedback_correct": "Usaste dos características para identificar el objeto.",
+      "feedback_incorrect": "Combina tamaño + color + sustantivo.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T06-L02-E02",
+      "type": "listening_description",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona el objeto descrito.",
+      "prompt": "A large black phone with a white label.",
+      "options": ["Large black phone", "Small red bag", "Large white shirt"],
+      "correct_answer": "Large black phone",
+      "feedback_correct": "Reconociste tamaño, color y objeto.",
+      "feedback_incorrect": "Escucha large, black phone y white label.",
+      "estimated_seconds": 55
+    },
+    {
+      "id": "A1-M1-T06-L02-E03",
+      "type": "adjective_order",
+      "skill": "grammar",
+      "instruction": "Ordena la descripción.",
+      "tokens": ["a", "small", "red", "bag"],
+      "correct_answer": "a small red bag",
+      "feedback_correct": "La descripción va antes del sustantivo y mantiene el orden natural.",
+      "feedback_incorrect": "Usa artículo + tamaño + color + sustantivo.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T06-L02-E04",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase después de be.",
+      "prompt": "The bag is ___.",
+      "options": ["red", "reds", "a red"],
+      "correct_answer": "red",
+      "feedback_correct": "Después de is usamos el adjetivo sin artículo adicional.",
+      "feedback_incorrect": "La estructura es The bag is + adjetivo.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T06-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la descripción plural.",
+      "prompt": "Two reds bags.",
+      "correct_answer": "Two red bags.",
+      "feedback_correct": "Solo el sustantivo lleva la marca plural.",
+      "feedback_incorrect": "Red no cambia; bags sí lleva -s.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T06-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe el objeto perdido con dos adjetivos y su ubicación.",
+      "prompt": "It is a small red bag. It is near the door.",
+      "evaluation": ["adjective clarity", "no plural on adjectives", "location intelligibility"],
+      "feedback_correct": "La descripción permite identificar el objeto.",
+      "feedback_incorrect": "Di small red bag sin añadir -s a los adjetivos.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T06-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las descripciones y decide cuál bolsa coincide con la información.",
+      "reading_ref": "A1-M1-T06-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 3 descriptor facts",
+      "feedback_correct": "Usaste detalles descriptivos para descartar un objeto.",
+      "feedback_incorrect": "Busca color, tamaño y label del objeto correcto.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T06-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA trabaja en objetos perdidos. Describe tu objeto y responde preguntas de color, tamaño y ubicación.",
+      "role": "lost-and-found staff member",
+      "student_goal": "Give enough adjectives and location information to identify an object.",
+      "allowed_support": ["adjective bank", "object images", "sentence starter", "Spanish hint"],
+      "success_criteria": ["uses color", "uses size", "gives location", "confirms or rejects an object"],
+      "feedback_correct": "Tu descripción contiene información suficiente para encontrar el objeto.",
+      "feedback_incorrect": "Añade tamaño, color y una ubicación: It's a small red bag near the door.",
+      "estimated_seconds": 190
+    },
+    {
+      "id": "A1-M1-T06-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe un objeto de tu entorno para que otra persona lo encuentre.",
+      "prompt": "It's a ____ ____ ____. It is ____ the ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses two adjectives", "keeps natural word order", "gives a location", "is understandable"],
+      "feedback_correct": "Usaste una descripción concreta para resolver una necesidad.",
+      "feedback_incorrect": "Incluye dos adjetivos antes del objeto y una ubicación después de be.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T06-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["a ___ ___ bag", "The bag is ___", "two ___ bags"],
+      "correct_answers": ["small red", "blue", "red"],
+      "feedback_correct": "Recuperaste orden, posición y plural de adjetivos.",
+      "feedback_incorrect": "Los adjetivos van antes del sustantivo y no reciben -s.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

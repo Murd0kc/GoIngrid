@@ -1,0 +1,491 @@
+{
+  "id": "A1-M1-T08-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T08",
+  "title": "The pointing challenge",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede señalar objetos singulares y plurales, cercanos y lejanos, para orientar a otra persona.",
+  "situation": "Ayudar a un visitante a encontrar materiales dentro de una sala grande.",
+  "language_focus": [
+    "This is...",
+    "That is...",
+    "These are...",
+    "Those are...",
+    "What is this?",
+    "What are those?"
+  ],
+  "vocabulary": [
+    {
+      "term": "visitor",
+      "meaning_es": "visitante",
+      "example": "The visitor is here."
+    },
+    {
+      "term": "entrance",
+      "meaning_es": "entrada",
+      "example": "That is the entrance."
+    },
+    {
+      "term": "sign",
+      "meaning_es": "letrero / señal",
+      "example": "This is a sign."
+    },
+    {
+      "term": "materials",
+      "meaning_es": "materiales",
+      "example": "These are the materials."
+    },
+    {
+      "term": "shelves",
+      "meaning_es": "estantes",
+      "example": "Those are the shelves."
+    },
+    {
+      "term": "nearby",
+      "meaning_es": "cercano",
+      "example": "The chairs are nearby."
+    }
+  ],
+  "context": {
+    "before": "A visitor needs help finding four things in a community center.",
+    "dialogue": [
+      {
+        "speaker": "Visitor",
+        "text": "What is this?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "This is the information desk."
+      },
+      {
+        "speaker": "Visitor",
+        "text": "What is that at the entrance?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "That is the sign for Room 2."
+      },
+      {
+        "speaker": "Visitor",
+        "text": "What are these?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "These are the workshop materials."
+      },
+      {
+        "speaker": "Visitor",
+        "text": "And what are those near the window?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "Those are the shelves."
+      }
+    ]
+  },
+  "explanation_es": "Para elegir correctamente, identifica dos cosas: uno o varios objetos, y cerca o lejos. Luego selecciona this, that, these o those y usa is para singular o are para plural.",
+  "spanish_speaker_notes": [
+    "This/that van con is; these/those van con are.",
+    "No uses these o those con un sustantivo singular.",
+    "La distancia puede ser física o depender de dónde dirige la atención el hablante."
+  ],
+  "pronunciation": {
+    "target": "Usar los cuatro demostrativos en una orientación continua y comprensible.",
+    "models": [
+      {
+        "text": "This is the desk.",
+        "stress": [
+          "this",
+          "desk"
+        ]
+      },
+      {
+        "text": "That is the entrance.",
+        "stress": [
+          "that",
+          "entrance"
+        ]
+      },
+      {
+        "text": "These are the materials.",
+        "stress": [
+          "these",
+          "materials"
+        ]
+      },
+      {
+        "text": "Those are the shelves.",
+        "stress": [
+          "those",
+          "shelves"
+        ]
+      }
+    ],
+    "student_feedback": "La prioridad es que el visitante sepa qué objeto señalas y a qué distancia está."
+  },
+  "reading": {
+    "title": "A guide to the center",
+    "text": "This is the entrance desk. That is the sign for Room 2. These are the materials for the workshop. Those are the shelves near the window. The visitor thanks the guide because the directions are clear.",
+    "interactive_vocabulary": [
+      "entrance desk",
+      "directions",
+      "clear",
+      "workshop",
+      "shelves"
+    ],
+    "questions": [
+      {
+        "prompt": "What is the sign for?",
+        "options": [
+          "Room 2",
+          "The window",
+          "The desk"
+        ],
+        "answer": "Room 2"
+      },
+      {
+        "prompt": "Where are the shelves?",
+        "options": [
+          "Near the window",
+          "At the entrance desk",
+          "Outside"
+        ],
+        "answer": "Near the window"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T08-L04-E01",
+      "type": "four_form_challenge",
+      "skill": "grammar",
+      "instruction": "Elige el demostrativo según cada escena.",
+      "items": [
+        {
+          "prompt": "one object near",
+          "answer": "this"
+        },
+        {
+          "prompt": "one object far",
+          "answer": "that"
+        },
+        {
+          "prompt": "many objects near",
+          "answer": "these"
+        },
+        {
+          "prompt": "many objects far",
+          "answer": "those"
+        }
+      ],
+      "feedback_correct": "Combinaste número y distancia correctamente.",
+      "feedback_incorrect": "Decide primero singular/plural y luego cerca/lejos.",
+      "estimated_seconds": 80,
+      "prompt": "Elige el demostrativo según cada escena.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E02",
+      "type": "listening_orientation",
+      "skill": "listening",
+      "instruction": "Escucha la orientación y elige el objeto señalado.",
+      "prompt": "Those are the shelves near the window.",
+      "options": [
+        "The distant shelves",
+        "The nearby desk",
+        "One sign"
+      ],
+      "correct_answer": "The distant shelves",
+      "feedback_correct": "Reconociste plural y ubicación.",
+      "feedback_incorrect": "Those señala varios objetos; escucha shelves.",
+      "estimated_seconds": 60,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The distant shelves"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E03",
+      "type": "mixed_choice",
+      "skill": "grammar",
+      "instruction": "Completa cada orientación.",
+      "items": [
+        {
+          "prompt": "___ is the desk. (near)",
+          "options": [
+            "This",
+            "That",
+            "Those"
+          ],
+          "answer": "This"
+        },
+        {
+          "prompt": "___ is the entrance. (far)",
+          "options": [
+            "That",
+            "This",
+            "These"
+          ],
+          "answer": "That"
+        },
+        {
+          "prompt": "___ are the materials. (near, plural)",
+          "options": [
+            "These",
+            "Those",
+            "This"
+          ],
+          "answer": "These"
+        }
+      ],
+      "feedback_correct": "Elegiste forma, número y distancia.",
+      "feedback_incorrect": "Revisa si es singular/plural y si está cerca/lejos.",
+      "estimated_seconds": 80,
+      "prompt": "Completa cada orientación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "This",
+          "That",
+          "These"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E04",
+      "type": "dialogue_repair",
+      "skill": "interaction",
+      "instruction": "Corrige la orientación.",
+      "prompt": "What is those?",
+      "correct_answer": "What are those?",
+      "feedback_correct": "Those es plural y necesita are.",
+      "feedback_incorrect": "Cambia is por are porque preguntas por varios objetos.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What are those?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E05",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las indicaciones y crea un mapa de cuatro referencias.",
+      "reading_ref": "A1-M1-T08-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 4 demonstrative references",
+      "feedback_correct": "Comprendiste indicaciones con singular, plural, cerca y lejos.",
+      "feedback_incorrect": "Relaciona this/that/these/those con desk, entrance, materials y shelves.",
+      "estimated_seconds": 135,
+      "prompt": "Lee las indicaciones y crea un mapa de cuatro referencias.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 demonstrative references"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una orientación de cuatro frases.",
+      "prompt": "This is the desk. That is the entrance. These are the materials. Those are the shelves.",
+      "evaluation": {
+        "0": "four demonstrative contrast",
+        "1": "is/are agreement",
+        "2": "clear directions",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La orientación permite imaginar la sala.",
+      "feedback_incorrect": "Haz una pausa entre frases y marca this/that/these/those.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E07",
+      "type": "repair_the_map",
+      "skill": "writing",
+      "instruction": "Corrige cuatro etiquetas de un mapa.",
+      "items": [
+        "This are the chairs",
+        "That is the door",
+        "These is the desk",
+        "Those are the shelves"
+      ],
+      "correct_answers": [
+        "These are the chairs",
+        "That is the door",
+        "This is the desk",
+        "Those are the shelves"
+      ],
+      "feedback_correct": "Alineaste demostrativo, número y verbo.",
+      "feedback_incorrect": "Singular usa this/that + is; plural usa these/those + are.",
+      "estimated_seconds": 100,
+      "prompt": "Corrige cuatro etiquetas de un mapa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "These are the chairs",
+          "That is the door",
+          "This is the desk",
+          "Those are the shelves"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es un visitante. Oriéntala por una sala usando los cuatro demostrativos.",
+      "role": "visitor",
+      "student_goal": "Give clear directions using this, that, these and those.",
+      "allowed_support": [
+        "room map",
+        "pointing mode",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses all four when relevant",
+        "matches is/are",
+        "answers two questions"
+      ],
+      "feedback_correct": "Orientaste a otra persona con precisión espacial y gramatical.",
+      "feedback_incorrect": "Recuerda: this/that + is; these/those + are.",
+      "estimated_seconds": 230,
+      "prompt": "La IA es un visitante. Oriéntala por una sala usando los cuatro demostrativos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: describe una escena nueva y responde preguntas sobre cuatro grupos de objetos.",
+      "prompt": "Point out one nearby object, one distant object, several nearby objects and several distant objects.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses all four demonstratives",
+        "matches singular/plural with is/are",
+        "communicates four references clearly"
+      ],
+      "feedback_correct": "Demostraste control funcional de los demostrativos.",
+      "feedback_incorrect": "Organiza cada respuesta por cantidad y distancia antes de elegir la forma.",
+      "estimated_seconds": 250,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    },
+    {
+      "id": "A1-M1-T08-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la matriz final sin mirar.",
+      "prompts": [
+        "one near = ___ + is",
+        "one far = ___ + is",
+        "many near = ___ + are",
+        "many far = ___ + are"
+      ],
+      "correct_answers": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "feedback_correct": "Recuperaste forma, número, distancia y verbo.",
+      "feedback_incorrect": "Singular + is; plural + are. Cerca = this/these; lejos = that/those.",
+      "estimated_seconds": 100,
+      "prompt": "Completa la matriz final sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante orienta a otra persona usando los cuatro demostrativos con al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T08-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

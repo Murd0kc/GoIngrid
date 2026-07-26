@@ -1,0 +1,477 @@
+{
+  "id": "A1-M1-T07-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T07",
+  "title": "The lost-and-found team",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede identificar pertenencias propias, de otras personas y de grupos usando my, your, his, her, our y their.",
+  "situation": "Organizar objetos perdidos después de un evento y devolverlos a sus dueños.",
+  "language_focus": [
+    "This is my...",
+    "Is this your...?",
+    "It's his/her...",
+    "These are our...",
+    "Those are their...",
+    "Whose is this?"
+  ],
+  "vocabulary": [
+    {
+      "term": "lost and found",
+      "meaning_es": "objetos perdidos",
+      "example": "The lost-and-found desk is here."
+    },
+    {
+      "term": "owner",
+      "meaning_es": "dueño / dueña",
+      "example": "Find the owner."
+    },
+    {
+      "term": "scarf",
+      "meaning_es": "bufanda",
+      "example": "Her scarf is blue."
+    },
+    {
+      "term": "backpack",
+      "meaning_es": "mochila",
+      "example": "His backpack is black."
+    },
+    {
+      "term": "equipment",
+      "meaning_es": "equipo / material",
+      "example": "Our equipment is ready."
+    },
+    {
+      "term": "whose",
+      "meaning_es": "de quién",
+      "example": "Whose bag is this?"
+    }
+  ],
+  "context": {
+    "before": "A volunteer team sorts belongings after a community event.",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "text": "Whose backpack is this?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "It's his backpack. It belongs to Daniel."
+      },
+      {
+        "speaker": "Maya",
+        "text": "And is this Sofia's scarf?"
+      },
+      {
+        "speaker": "Leo",
+        "text": "Yes, it's her scarf."
+      },
+      {
+        "speaker": "Maya",
+        "text": "These are our boxes, but those are their boxes."
+      },
+      {
+        "speaker": "Leo",
+        "text": "Great. Let's return everything."
+      }
+    ]
+  },
+  "explanation_es": "Los posesivos indican quién tiene o posee algo: my/your para hablante e interlocutor, his/her para una persona, our para el grupo del hablante y their para otro grupo. El posesivo se elige por el dueño, no por el objeto.",
+  "spanish_speaker_notes": [
+    "Whose pregunta por el dueño: Whose bag is this?",
+    "His, her, our y their van antes del sustantivo y no cambian por el objeto.",
+    "No confundas posesivos con pronombres de objeto: her bag, no she bag."
+  ],
+  "pronunciation": {
+    "target": "Producir preguntas y respuestas de pertenencia con énfasis claro en el posesivo.",
+    "models": [
+      {
+        "text": "Whose backpack is this?",
+        "stress": [
+          "Whose",
+          "backpack"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "It's his backpack.",
+        "stress": [
+          "his",
+          "backpack"
+        ]
+      },
+      {
+        "text": "These are our boxes.",
+        "stress": [
+          "our",
+          "boxes"
+        ]
+      },
+      {
+        "text": "Those are their boxes.",
+        "stress": [
+          "their",
+          "boxes"
+        ]
+      }
+    ],
+    "student_feedback": "Haz audible la palabra que identifica al dueño; esa es la información que resuelve la búsqueda."
+  },
+  "reading": {
+    "title": "Sorting the lost things",
+    "text": "After the event, Maya and Leo work at the lost-and-found desk. They find Daniel's black backpack and Sofia's blue scarf. They put their belongings in separate boxes. The volunteers keep their own equipment in another box.",
+    "interactive_vocabulary": [
+      "sorting",
+      "lost-and-found desk",
+      "separate",
+      "belongings",
+      "own equipment"
+    ],
+    "questions": [
+      {
+        "prompt": "Whose backpack do they find?",
+        "options": [
+          "Daniel's",
+          "Sofia's",
+          "The volunteers'"
+        ],
+        "answer": "Daniel's"
+      },
+      {
+        "prompt": "Where do the volunteers keep their equipment?",
+        "options": [
+          "In another box",
+          "In Daniel's backpack",
+          "On the desk"
+        ],
+        "answer": "In another box"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T07-L04-E01",
+      "type": "owner_sort_game",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada objeto por su dueño.",
+      "items": [
+        {
+          "text": "my phone",
+          "category": "speaker"
+        },
+        {
+          "text": "your keys",
+          "category": "listener"
+        },
+        {
+          "text": "his backpack",
+          "category": "man"
+        },
+        {
+          "text": "her scarf",
+          "category": "woman"
+        },
+        {
+          "text": "our boxes",
+          "category": "own group"
+        },
+        {
+          "text": "their bags",
+          "category": "other group"
+        }
+      ],
+      "categories": [
+        "speaker",
+        "listener",
+        "man",
+        "woman",
+        "own group",
+        "other group"
+      ],
+      "feedback_correct": "Clasificaste los seis posesivos por el dueño.",
+      "feedback_incorrect": "No mires el objeto: identifica primero quién posee cada cosa.",
+      "estimated_seconds": 90,
+      "prompt": "Clasifica cada objeto por su dueño.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "my phone=speaker",
+          "your keys=listener",
+          "his backpack=man",
+          "her scarf=woman",
+          "our boxes=own group",
+          "their bags=other group"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E02",
+      "type": "listening_owner",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona el dueño.",
+      "prompt": "Those are their boxes.",
+      "options": [
+        "Another group's boxes",
+        "The speaker's boxes",
+        "One person's box"
+      ],
+      "correct_answer": "Another group's boxes",
+      "feedback_correct": "Their señala a otro grupo.",
+      "feedback_incorrect": "Their significa de ellos o de ellas; no incluye al hablante.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Another group's boxes"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E03",
+      "type": "possessive_choice",
+      "skill": "grammar",
+      "instruction": "Completa la pregunta por el dueño.",
+      "prompt": "Whose scarf is this? It belongs to Sofia. It's ___ scarf.",
+      "options": [
+        "her",
+        "his",
+        "their"
+      ],
+      "correct_answer": "her",
+      "feedback_correct": "Sofia es la dueña: her scarf.",
+      "feedback_incorrect": "Sofia es una mujer; usa her.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "her"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E04",
+      "type": "dialogue_building",
+      "skill": "interaction",
+      "instruction": "Ordena la respuesta completa.",
+      "tokens": [
+        "These",
+        "are",
+        "our",
+        "boxes."
+      ],
+      "correct_answer": "These are our boxes.",
+      "feedback_correct": "Our identifica las cajas del grupo del hablante.",
+      "feedback_incorrect": "Usa These are + our + sustantivo plural.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la respuesta completa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "These are our boxes."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el posesivo.",
+      "prompt": "Sofia is a woman. This is his scarf.",
+      "correct_answer": "Sofia is a woman. This is her scarf.",
+      "feedback_correct": "El posesivo depende de Sofia, la dueña.",
+      "feedback_incorrect": "Cambia his por her.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Sofia is a woman. This is her scarf."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba preguntas y respuestas sobre tres objetos.",
+      "prompt": "Whose bag is this? It's his bag. Whose boxes are those? They're our boxes.",
+      "evaluation": {
+        "0": "possessive contrast",
+        "1": "whose pronunciation",
+        "2": "plural agreement",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Las preguntas y dueños se entienden claramente.",
+      "feedback_incorrect": "Enfatiza whose y el posesivo que responde a la pregunta.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la escena y completa un registro de dueño y objeto.",
+      "reading_ref": "A1-M1-T07-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 4 ownership facts",
+      "feedback_correct": "Relacionaste varios posesivos con sus dueños.",
+      "feedback_incorrect": "Daniel tiene el backpack; Sofia tiene la scarf; los voluntarios tienen equipment.",
+      "estimated_seconds": 135,
+      "prompt": "Lee la escena y completa un registro de dueño y objeto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 ownership facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero en objetos perdidos. Pregunta y responde sobre pertenencias de varias personas y equipos.",
+      "role": "lost-and-found partner",
+      "student_goal": "Ask Whose...? and identify belongings with all relevant possessives.",
+      "allowed_support": [
+        "owner cards",
+        "object cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks Whose",
+        "uses his/her",
+        "uses our/their",
+        "returns three objects"
+      ],
+      "feedback_correct": "Resolviste una situación compleja de pertenencias.",
+      "feedback_incorrect": "Pregunta Whose...? y responde según el dueño: his, her, our o their.",
+      "estimated_seconds": 230,
+      "prompt": "La IA es tu compañero en objetos perdidos. Pregunta y responde sobre pertenencias de varias personas y equipos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: organiza seis objetos de una escena y explica de quién es cada uno.",
+      "prompt": "Ask and answer about the owners. Use my, your, his, her, our and their when relevant.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "identifies owners",
+        "uses at least four possessives accurately",
+        "asks one Whose question",
+        "communicates clearly"
+      ],
+      "feedback_correct": "Demostraste control funcional de los adjetivos posesivos.",
+      "feedback_incorrect": "Separa la tarea: dueño, posesivo, objeto y confirmación.",
+      "estimated_seconds": 250,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    },
+    {
+      "id": "A1-M1-T07-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el mapa final sin mirar.",
+      "prompts": [
+        "speaker = ___",
+        "listener = ___",
+        "man = ___",
+        "woman = ___",
+        "own group = ___",
+        "other group = ___"
+      ],
+      "correct_answers": [
+        "my",
+        "your",
+        "his",
+        "her",
+        "our",
+        "their"
+      ],
+      "feedback_correct": "Recuperaste el sistema completo de posesivos.",
+      "feedback_incorrect": "Relaciona cada posesivo con el dueño antes de memorizar la forma.",
+      "estimated_seconds": 100,
+      "prompt": "Completa el mapa final sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "my",
+          "your",
+          "his",
+          "her",
+          "our",
+          "their"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante identifica pertenencias de distintos dueños y usa al menos cuatro posesivos con 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T07-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,426 @@
+{
+  "id": "A1-M3-T09-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T09",
+  "title": "Tareas y colaboración",
+  "estimated_seconds": 930,
+  "communication_goal": "Hablar de tareas simples, pedir ayuda y coordinar actividades con compañeros.",
+  "situation": "Trabajas o estudias con otras personas y necesitas explicar qué haces.",
+  "language_focus": {
+    "grammar": [
+      "I need to...",
+      "I have to...",
+      "Can you help me?",
+      "Let's...",
+      "Are you finished?",
+      "I am working on..."
+    ],
+    "function": "tasks and teamwork"
+  },
+  "vocabulary": [
+    {
+      "word": "task",
+      "meaning_es": "tarea",
+      "example": "I have a task for today."
+    },
+    {
+      "word": "project",
+      "meaning_es": "proyecto",
+      "example": "We are working on a project."
+    },
+    {
+      "word": "meeting",
+      "meaning_es": "reunión",
+      "example": "The meeting starts at ten."
+    },
+    {
+      "word": "finish",
+      "meaning_es": "terminar",
+      "example": "I need to finish this task."
+    },
+    {
+      "word": "send",
+      "meaning_es": "enviar",
+      "example": "Please send the file."
+    },
+    {
+      "word": "help",
+      "meaning_es": "ayuda/ayudar",
+      "example": "Can you help me?"
+    }
+  ],
+  "context": {
+    "title": "Working on a project",
+    "dialogue": [
+      {
+        "speaker": "Mia",
+        "english": "What are you working on?",
+        "spanish": "¿En qué estás trabajando?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "I am working on the presentation. I need to finish it today.",
+        "spanish": "Estoy trabajando en la presentación. Necesito terminarla hoy."
+      },
+      {
+        "speaker": "Mia",
+        "english": "Can you send me the file?",
+        "spanish": "¿Puedes enviarme el archivo?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "Yes, I can. Can you help me with the last slide?",
+        "spanish": "Sí. ¿Puedes ayudarme con la última diapositiva?"
+      },
+      {
+        "speaker": "Mia",
+        "english": "Sure. Let's work on it together.",
+        "spanish": "Claro. Trabajemos juntos en eso."
+      }
+    ]
+  },
+  "explanation_es": "Para hablar de una tarea actual usa I am working on + proyecto. Para necesidad usa I need to + verbo y para obligación cotidiana I have to + verbo. Pide ayuda con Can you help me? y propone colaboración con Let's + verbo. Después de help puedes usar me: help me with the slide.",
+  "spanish_speaker_notes": [
+    "Work on significa trabajar en una tarea/proyecto; no uses work in para todo.",
+    "Need to y have to llevan verbo base después: need to finish.",
+    "Let's es la contracción de let us y propone hacer algo juntos.",
+    "File es archivo; slide es diapositiva."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "What are you working on?",
+        "focus": "working on"
+      },
+      {
+        "text": "Can you send me the file?",
+        "focus": "send me the file"
+      },
+      {
+        "text": "Let's work on it together.",
+        "focus": "let's y together"
+      }
+    ],
+    "tip_es": "Practica la petición con tono cooperativo, no como una orden aislada."
+  },
+  "reading": {
+    "title": "A team project",
+    "text": "Mia and Leo are working on a presentation. Leo needs to finish the last slide. Mia asks him to send the file, and then she helps him with the slide. They work on the project together.",
+    "glossary": [
+      {
+        "term": "team project",
+        "meaning_es": "proyecto en equipo"
+      },
+      {
+        "term": "last slide",
+        "meaning_es": "última diapositiva"
+      },
+      {
+        "term": "together",
+        "meaning_es": "juntos"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "task_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada tarea con una acción.",
+      "pairs": [
+        {
+          "english": "project",
+          "spanish": "work on it"
+        },
+        {
+          "english": "file",
+          "spanish": "send it"
+        },
+        {
+          "english": "task",
+          "spanish": "finish it"
+        },
+        {
+          "english": "problem",
+          "spanish": "ask for help"
+        }
+      ],
+      "prompt": "Relaciona cada tarea con una acción.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "project=work on it",
+          "file=send it",
+          "task=finish it",
+          "problem=ask for help"
+        ],
+        "expected_pairs": [
+          {
+            "english": "project",
+            "spanish": "work on it"
+          },
+          {
+            "english": "file",
+            "spanish": "send it"
+          },
+          {
+            "english": "task",
+            "spanish": "finish it"
+          },
+          {
+            "english": "problem",
+            "spanish": "ask for help"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: I need to finish it today. Elige lo que comunica.",
+      "audio_text": "I need to finish it today.",
+      "options": [
+        "Necesita terminarlo hoy.",
+        "Ya lo terminó ayer.",
+        "No tiene una tarea."
+      ],
+      "correct": "Necesita terminarlo hoy.",
+      "feedback": "Need to expresa una necesidad.",
+      "prompt": "Escucha: I need to finish it today. Elige lo que comunica.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Necesita terminarlo hoy."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Need to expresa una necesidad.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I need to ___ the file.",
+      "options": [
+        "send",
+        "sending",
+        "sends"
+      ],
+      "correct": "send",
+      "feedback": "Después de need to va el verbo base.",
+      "prompt": "Completa: I need to ___ the file.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "send"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de need to va el verbo base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: help / can / me / you / ?",
+      "answer": "Can you help me?",
+      "feedback": "Can you + verbo base pide ayuda.",
+      "prompt": "Ordena: help / can / me / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Can you help me?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Can you + verbo base pide ayuda.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: Let's to work together.",
+      "answer": "Let's work together.",
+      "feedback": "Después de Let's va el verbo base sin to.",
+      "prompt": "Corrige: Let's to work together.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Let's work together."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de Let's va el verbo base sin to.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Explica una tarea y pide ayuda a un compañero.",
+      "target": "I am working on ... I need to ... Can you help me?",
+      "evaluation": {
+        "0": "tarea clara",
+        "1": "need to comprensible",
+        "2": "petición amable",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I am working on ... I need to ... Can you help me?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Team Project y responde: Who helps Leo with the slide?",
+      "text_reference": "reading",
+      "answer": "Mia helps him.",
+      "feedback": "Mia ayuda a Leo con la diapositiva.",
+      "prompt": "Lee A Team Project y responde: Who helps Leo with the slide?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Mia helps him."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Mia ayuda a Leo con la diapositiva.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero de trabajo o estudio. Explica tu tarea, pide un archivo y acuerden trabajar juntos.",
+      "scenario": "Collaborating on a simple project.",
+      "ai_language": "English; model concise workplace requests",
+      "prompt": "La IA será un compañero de trabajo o estudio. Explica tu tarea, pide un archivo y acuerden trabajar juntos.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una conversación de seis turnos sobre una tarea: qué haces, qué necesitas, una petición y una propuesta con Let's.",
+      "success_criteria": [
+        "usa working on",
+        "usa need to/have to",
+        "pide ayuda",
+        "propone colaboración"
+      ],
+      "prompt": "Graba una conversación de seis turnos sobre una tarea: qué haces, qué necesitas, una petición y una propuesta con Let's.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: work ___ a project; need ___ finish; help ___; Let's ___ together.",
+      "answers": [
+        "on",
+        "to",
+        "me",
+        "work"
+      ],
+      "prompt": "Completa: work ___ a project; need ___ finish; help ___; Let's ___ together.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "on",
+          "to",
+          "me",
+          "work"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "describir una tarea",
+      "pedir ayuda",
+      "proponer colaboración"
+    ],
+    "retry": "Si agregas to después de Let's, elimina to y repite la propuesta completa."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T09-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,175 @@
+{
+  "id": "A1-M1-T07-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T07",
+  "title": "Our things and their things",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede identificar pertenencias de su grupo y de otros grupos usando our y their.",
+  "situation": "Organizar materiales de dos equipos antes de una actividad.",
+  "language_focus": ["This is our table.", "These are our materials.", "That is their room.", "Their bags are here.", "Where are our keys?"],
+  "vocabulary": [
+    { "term": "our", "meaning_es": "nuestro / nuestra / nuestros / nuestras", "example": "This is our table." },
+    { "term": "their", "meaning_es": "su / de ellos / de ellas", "example": "Their bags are here." },
+    { "term": "materials", "meaning_es": "materiales", "example": "Our materials are ready." },
+    { "term": "room", "meaning_es": "sala / habitación", "example": "Their room is upstairs." },
+    { "term": "team", "meaning_es": "equipo", "example": "Our team is ready." },
+    { "term": "keys", "meaning_es": "llaves", "example": "Where are our keys?" }
+  ],
+  "context": {
+    "before": "Two teams prepare separate rooms for a workshop.",
+    "dialogue": [
+      { "speaker": "Leader", "text": "Are these our materials?" },
+      { "speaker": "Maya", "text": "Yes, these are our materials. Our team is ready." },
+      { "speaker": "Leader", "text": "Where are the other team's bags?" },
+      { "speaker": "Maya", "text": "Their bags are in their room." },
+      { "speaker": "Leader", "text": "Great. Our room is ready, too." }
+    ]
+  },
+  "explanation_es": "Our indica que algo pertenece al grupo que incluye al hablante. Their indica que pertenece a otro grupo. Van antes del sustantivo y no cambian por singular o plural: our room, our rooms; their bag, their bags.",
+  "spanish_speaker_notes": [
+    "Our incluye al hablante y a su grupo; their se refiere a otro grupo.",
+    "Our y their no cambian por género o número del objeto.",
+    "No confundas they're, que significa they are, con their, que indica posesión."
+  ],
+  "pronunciation": {
+    "target": "Distinguir our y their, especialmente their frente a they're.",
+    "models": [
+      { "text": "our", "ipa": "/aʊər/" },
+      { "text": "their", "ipa": "/ðer/" },
+      { "text": "Our team is ready.", "stress": ["our", "team", "ready"] },
+      { "text": "Their bags are here.", "stress": ["their", "bags", "here"] }
+    ],
+    "student_feedback": "Enfatiza our o their cuando necesitas aclarar qué grupo es el dueño."
+  },
+  "reading": {
+    "title": "Two workshop rooms",
+    "text": "Our team is in Room A. Our materials are on the table. The other team is in Room B. Their materials are in boxes. Our room is small, but their room is large. Both teams are ready.",
+    "interactive_vocabulary": ["workshop", "other team", "boxes", "both", "large"],
+    "questions": [
+      { "prompt": "Where are our materials?", "options": ["On the table in Room A", "In Room B", "Outside"], "answer": "On the table in Room A" },
+      { "prompt": "Which room is large?", "options": ["Their room", "Our room", "Both rooms"], "answer": "Their room" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T07-L03-E01",
+      "type": "group_owner_map",
+      "skill": "vocabulary",
+      "instruction": "Relaciona el grupo con el posesivo.",
+      "pairs": [{ "group": "the speaker plus team", "possessive": "our" }, { "group": "another team", "possessive": "their" }],
+      "feedback_correct": "Our incluye al hablante; their señala otro grupo.",
+      "feedback_incorrect": "Pregunta si el hablante pertenece al grupo: sí = our; no = their.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T07-L03-E02",
+      "type": "listening_group_owner",
+      "skill": "listening",
+      "instruction": "Escucha y elige qué materiales se mencionan.",
+      "prompt": "Their materials are in boxes.",
+      "options": ["Another team's materials", "The speaker's materials", "Unknown materials"],
+      "correct_answer": "Another team's materials",
+      "feedback_correct": "Their indica pertenencia a otro grupo.",
+      "feedback_incorrect": "Their significa de ellos o de ellas, otro grupo.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T07-L03-E03",
+      "type": "possessive_choice",
+      "skill": "grammar",
+      "instruction": "Completa según el grupo del hablante.",
+      "prompt": "This is ___ room. We are Team A.",
+      "options": ["our", "their", "his"],
+      "correct_answer": "our",
+      "feedback_correct": "El hablante pertenece a Team A: our room.",
+      "feedback_incorrect": "El grupo incluye al hablante; usa our.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T07-L03-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": ["Their", "bags", "are", "in", "Room", "B."],
+      "correct_answer": "Their bags are in Room B.",
+      "feedback_correct": "Their identifica los bolsos del otro grupo.",
+      "feedback_incorrect": "Usa Their + sustantivo plural + are.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T07-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el posesivo.",
+      "prompt": "We are Team A. These are their materials.",
+      "correct_answer": "We are Team A. These are our materials.",
+      "feedback_correct": "El hablante está dentro de Team A, por eso usa our.",
+      "feedback_incorrect": "Cambia their por our porque el grupo incluye al hablante.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T07-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una comparación entre los dos equipos.",
+      "prompt": "Our room is small. Their room is large.",
+      "evaluation": ["our/their contrast", "group reference", "adjective clarity"],
+      "feedback_correct": "Se entiende qué grupo posee cada sala.",
+      "feedback_incorrect": "Enfatiza our y their para marcar la diferencia entre equipos.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T07-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las dos salas y asigna materiales y tamaños a cada equipo.",
+      "reading_ref": "A1-M1-T07-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 4 ownership facts",
+      "feedback_correct": "Seguiste our y their a través de la lectura.",
+      "feedback_incorrect": "Room A es del hablante; Room B es del otro equipo.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T07-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es la líder de otro equipo. Comparen sus materiales y habitaciones.",
+      "role": "other team leader",
+      "student_goal": "Use our and their to compare group belongings and locations.",
+      "allowed_support": ["team cards", "room map", "sentence starter", "Spanish hint"],
+      "success_criteria": ["describes own team's items with our", "describes other team's items with their", "answers one ownership question"],
+      "feedback_correct": "Comparaste pertenencias de dos grupos con claridad.",
+      "feedback_incorrect": "Tu grupo = our; el otro grupo = their.",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T07-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe tu equipo y otro equipo antes de una actividad.",
+      "prompt": "Our ____ is ____. Their ____ is ____. Our materials are ____. Their materials are ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses our for own group", "uses their for another group", "describes two belongings or locations"],
+      "feedback_correct": "Usaste posesivos para coordinar grupos reales.",
+      "feedback_incorrect": "Comprueba si el hablante pertenece al grupo antes de escoger our o their.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T07-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["Our team = ___ materials", "another team = ___ materials", "We are in ___ room"],
+      "correct_answers": ["our", "their", "our"],
+      "feedback_correct": "Recuperaste our y their según la inclusión del hablante.",
+      "feedback_incorrect": "El grupo propio usa our; otro grupo usa their.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

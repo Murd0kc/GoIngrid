@@ -1,0 +1,459 @@
+{
+  "id": "A1-M2-T02-L04",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T02",
+  "title": "The routine interview",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede preguntar, responder, afirmar y negar hábitos en una conversación breve.",
+  "situation": "Completar una entrevista sobre rutinas y comparar respuestas.",
+  "language_focus": [
+    "What time do you...?",
+    "Do you...?",
+    "Does he/she...?",
+    "I usually...",
+    "I don't...",
+    "He/She doesn't..."
+  ],
+  "vocabulary": [
+    {
+      "term": "interview",
+      "meaning_es": "entrevista",
+      "example": "Complete the routine interview."
+    },
+    {
+      "term": "usually",
+      "meaning_es": "normalmente",
+      "example": "I usually walk to work."
+    },
+    {
+      "term": "sometimes",
+      "meaning_es": "a veces",
+      "example": "I sometimes cook."
+    },
+    {
+      "term": "never",
+      "meaning_es": "nunca",
+      "example": "She never works late."
+    },
+    {
+      "term": "walk",
+      "meaning_es": "caminar",
+      "example": "I walk to work."
+    },
+    {
+      "term": "cook",
+      "meaning_es": "cocinar",
+      "example": "We cook at home."
+    }
+  ],
+  "context": {
+    "before": "A learner interviews a new roommate about daily habits.",
+    "dialogue": [
+      {
+        "speaker": "Learner",
+        "text": "What time do you get up?"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "I get up at six. I usually walk to work."
+      },
+      {
+        "speaker": "Learner",
+        "text": "Do you cook at home?"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "Yes, I do. I don't eat out often."
+      },
+      {
+        "speaker": "Learner",
+        "text": "Does your sister live here?"
+      },
+      {
+        "speaker": "Roommate",
+        "text": "No, she doesn't. She lives in another city."
+      }
+    ]
+  },
+  "explanation_es": "Una conversación de rutinas combina preguntas con do/does, respuestas afirmativas y negativas, y adverbios de frecuencia. El objetivo es obtener información, no completar una regla aislada.",
+  "spanish_speaker_notes": [
+    "Do/does depende del sujeto de la pregunta.",
+    "Después de do/does, don't/doesn't usa el verbo base.",
+    "La respuesta corta debe coincidir: Do you...? Yes, I do. Does she...? No, she doesn't."
+  ],
+  "pronunciation": {
+    "target": "Mantener ritmo conversacional en preguntas, respuestas cortas y detalles de frecuencia.",
+    "models": [
+      {
+        "text": "What time do you get up?",
+        "stress": [
+          "time",
+          "get up"
+        ]
+      },
+      {
+        "text": "I usually walk to work.",
+        "stress": [
+          "usually",
+          "walk",
+          "work"
+        ]
+      },
+      {
+        "text": "No, she doesn't.",
+        "stress": [
+          "no",
+          "doesn't"
+        ]
+      }
+    ],
+    "student_feedback": "La pregunta debe sonar abierta y la respuesta debe destacar el hábito importante."
+  },
+  "reading": {
+    "title": "A routine interview",
+    "text": "Tom gets up at six and usually walks to work. He cooks at home, but he sometimes eats out. His sister does not live with him. She lives in another city and never works on Sundays.",
+    "interactive_vocabulary": [
+      "roommate",
+      "often",
+      "eats out",
+      "another city",
+      "never"
+    ],
+    "questions": [
+      {
+        "prompt": "How does Tom usually go to work?",
+        "options": [
+          "He walks",
+          "He drives",
+          "He takes a train"
+        ],
+        "answer": "He walks"
+      },
+      {
+        "prompt": "Where does his sister live?",
+        "options": [
+          "In another city",
+          "With Tom",
+          "At the office"
+        ],
+        "answer": "In another city"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T02-L04-E01",
+      "type": "interview_builder",
+      "skill": "vocabulary",
+      "instruction": "Ordena las preguntas de una entrevista útil.",
+      "items": [
+        "What time do you get up?",
+        "Do you cook at home?",
+        "Does your sister live here?"
+      ],
+      "correct_answer": "three complete routine questions",
+      "feedback_correct": "Preparaste una entrevista con preguntas variadas.",
+      "feedback_incorrect": "Incluye una pregunta de hora, una de hábito y una de tercera persona.",
+      "estimated_seconds": 65,
+      "prompt": "Ordena las preguntas de una entrevista útil.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "three complete routine questions"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E02",
+      "type": "listening_interview",
+      "skill": "listening",
+      "instruction": "Escucha y completa dos respuestas.",
+      "prompt": "I usually walk to work. I don't eat out often.",
+      "correct_answer": "walk to work; don't eat out often",
+      "feedback_correct": "Reconociste hábito y negación.",
+      "feedback_incorrect": "Escucha usually walk y don't eat out.",
+      "estimated_seconds": 60,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "walk to work; don't eat out often"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E03",
+      "type": "mixed_present_simple",
+      "skill": "grammar",
+      "instruction": "Elige la forma correcta.",
+      "items": [
+        {
+          "prompt": "___ you cook at home?",
+          "options": [
+            "Do",
+            "Does"
+          ],
+          "answer": "Do"
+        },
+        {
+          "prompt": "___ she work on Sundays?",
+          "options": [
+            "Does",
+            "Do"
+          ],
+          "answer": "Does"
+        },
+        {
+          "prompt": "He ___ work late.",
+          "options": [
+            "doesn't",
+            "don't"
+          ],
+          "answer": "doesn't"
+        }
+      ],
+      "feedback_correct": "Elegiste auxiliar según el sujeto.",
+      "feedback_incorrect": "I/you/we/they = do/don't; he/she/it = does/doesn't.",
+      "estimated_seconds": 80,
+      "prompt": "Elige la forma correcta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Do",
+          "Does",
+          "doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E04",
+      "type": "short_answer_match",
+      "skill": "interaction",
+      "instruction": "Relaciona la pregunta con la respuesta corta.",
+      "pairs": [
+        {
+          "question": "Do you cook?",
+          "answer": "Yes, I do."
+        },
+        {
+          "question": "Does she live here?",
+          "answer": "No, she doesn't."
+        }
+      ],
+      "feedback_correct": "Las respuestas cortas coinciden con do/does.",
+      "feedback_incorrect": "Do you → I do; Does she → she does/doesn't.",
+      "estimated_seconds": 60,
+      "prompt": "Relaciona la pregunta con la respuesta corta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "expected_pairs": [
+          {
+            "question": "Do you cook?",
+            "answer": "Yes, I do."
+          },
+          {
+            "question": "Does she live here?",
+            "answer": "No, she doesn't."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la mini entrevista.",
+      "prompt": "Does he works? Yes, he does works.",
+      "correct_answer": "Does he work? Yes, he does.",
+      "feedback_correct": "El verbo base aparece después de does y en la respuesta corta.",
+      "feedback_incorrect": "Quita la s de work y no repitas el verbo después de does.",
+      "estimated_seconds": 60,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does he work? Yes, he does."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta y respuesta sobre una rutina.",
+      "prompt": "Do you cook at home? Yes, I do. I usually cook on Sundays.",
+      "evaluation": {
+        "0": "question intonation",
+        "1": "short answer",
+        "2": "frequency word",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La mini entrevista suena natural y comprensible.",
+      "feedback_incorrect": "Sube la entonación en la pregunta y destaca usually/cook/Sundays.",
+      "estimated_seconds": 110,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la entrevista y completa la tabla de hábitos.",
+      "reading_ref": "A1-M2-T02-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 5 routine facts",
+      "feedback_correct": "Comparaste afirmaciones, negaciones y frecuencia.",
+      "feedback_incorrect": "Busca gets up, walks, cooks, eats out y lives.",
+      "estimated_seconds": 135,
+      "prompt": "Lee la entrevista y completa la tabla de hábitos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 5 routine facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu nuevo compañero de vivienda. Haz una entrevista de seis preguntas y reacciona a sus respuestas.",
+      "role": "new roommate",
+      "student_goal": "Conduct a routine interview using Do/Does and follow-up questions.",
+      "allowed_support": [
+        "question cards",
+        "routine calendar",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks four questions",
+        "uses Do and Does",
+        "understands one negative answer",
+        "shares two habits"
+      ],
+      "feedback_correct": "Mantuviste una entrevista real y obtuviste información útil.",
+      "feedback_incorrect": "Alterna preguntas Do/Does y responde con frases completas o respuestas cortas.",
+      "estimated_seconds": 240,
+      "prompt": "La IA es tu nuevo compañero de vivienda. Haz una entrevista de seis preguntas y reacciona a sus respuestas.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: entrevista a la IA y presenta tres conclusiones sobre sus hábitos y los tuyos.",
+      "prompt": "Ask, understand, compare and report three routine facts.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "asks Do/Does questions",
+        "uses affirmative and negative",
+        "reports third-person habits",
+        "communicates comparisons clearly"
+      ],
+      "feedback_correct": "Demostraste uso comunicativo del presente simple.",
+      "feedback_incorrect": "Divide la tarea: pregunta, escucha, compara y reporta.",
+      "estimated_seconds": 270,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    },
+    {
+      "id": "A1-M2-T02-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el mapa final.",
+      "prompts": [
+        "I/you/we/they question = ___",
+        "he/she/it question = ___",
+        "I/you/we/they negative = ___",
+        "he/she/it negative = ___"
+      ],
+      "correct_answers": [
+        "do",
+        "does",
+        "don't",
+        "doesn't"
+      ],
+      "feedback_correct": "Recuperaste el sistema de preguntas y negaciones.",
+      "feedback_incorrect": "Do/don't con I/you/we/they; does/doesn't con he/she/it.",
+      "estimated_seconds": 100,
+      "prompt": "Completa el mapa final.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "do",
+          "does",
+          "don't",
+          "doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante realiza una entrevista breve y reporta hábitos con al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T02-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

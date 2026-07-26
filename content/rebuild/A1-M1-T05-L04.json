@@ -1,0 +1,179 @@
+{
+  "id": "A1-M1-T05-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T05",
+  "title": "The inventory challenge",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede hacer un inventario oral y escrito usando cantidades, plurales regulares e irregulares y there is/there are.",
+  "situation": "Comprobar una sala antes de abrir un evento y reportar qué personas y objetos están presentes.",
+  "language_focus": ["There is one...", "There are three...", "There are two people.", "The boxes are ready.", "There is a problem.", "We need more chairs."],
+  "vocabulary": [
+    { "term": "inventory", "meaning_es": "inventario", "example": "Let's check the inventory." },
+    { "term": "chair", "meaning_es": "silla", "example": "We need more chairs." },
+    { "term": "table", "meaning_es": "mesa", "example": "There are two tables." },
+    { "term": "person / people", "meaning_es": "persona / personas", "example": "There are five people." },
+    { "term": "child / children", "meaning_es": "niño / niños", "example": "The children are ready." },
+    { "term": "missing", "meaning_es": "que falta", "example": "Two chairs are missing." }
+  ],
+  "context": {
+    "before": "A volunteer checks a room before a workshop starts.",
+    "dialogue": [
+      { "speaker": "Coordinator", "text": "Let's check the inventory. How many tables are there?" },
+      { "speaker": "Volunteer", "text": "There are two tables and twelve chairs." },
+      { "speaker": "Coordinator", "text": "How many people are here?" },
+      { "speaker": "Volunteer", "text": "There are eight people and two children." },
+      { "speaker": "Coordinator", "text": "Are the boxes ready?" },
+      { "speaker": "Volunteer", "text": "Yes, but two chairs are missing." }
+    ]
+  },
+  "explanation_es": "Para un inventario, combina número + sustantivo singular o plural. Usa there is con uno y there are con más de uno. Recuerda plurales regulares como chairs y boxes e irregulares como people y children.",
+  "spanish_speaker_notes": [
+    "No digas there is eight people; con una cantidad plural usamos there are.",
+    "People y children son plurales aunque no terminen en -s.",
+    "En producción, la prioridad es comunicar la cantidad y el problema; después se corrigen detalles de forma."
+  ],
+  "pronunciation": {
+    "target": "Comunicar cantidades y plurales con ritmo claro en una lista y un reporte de problema.",
+    "models": [
+      { "text": "There are twelve chairs.", "stress": ["twelve", "chairs"] },
+      { "text": "There are eight people.", "stress": ["eight", "people"] },
+      { "text": "Two chairs are missing.", "stress": ["two", "chairs", "missing"] }
+    ],
+    "student_feedback": "Haz audibles los números y las terminaciones plurales; no aceleres la lista."
+  },
+  "reading": {
+    "title": "Before the workshop",
+    "text": "Before the workshop, a volunteer checks the room. There are two tables and twelve chairs. There are eight people and two children. The boxes are ready, but two chairs are missing. The volunteer tells the coordinator about the problem.",
+    "interactive_vocabulary": ["before", "workshop", "checks", "missing", "problem"],
+    "questions": [
+      { "prompt": "How many chairs are there at first?", "options": ["Twelve", "Two", "Eight"], "answer": "Twelve" },
+      { "prompt": "What is missing?", "options": ["Two chairs", "Two tables", "Two children"], "answer": "Two chairs" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T05-L04-E01",
+      "type": "inventory_game",
+      "skill": "vocabulary",
+      "instruction": "Mira la sala y arrastra cada objeto al inventario correcto.",
+      "items": [{ "text": "one table", "category": "singular" }, { "text": "twelve chairs", "category": "regular plural" }, { "text": "eight people", "category": "irregular plural" }, { "text": "two children", "category": "irregular plural" }],
+      "categories": ["singular", "regular plural", "irregular plural"],
+      "feedback_correct": "Organizaste cantidades y tipos de plural.",
+      "feedback_incorrect": "Revisa número y forma: one = singular; two/eight/twelve = plural.",
+      "estimated_seconds": 85
+    },
+    {
+      "id": "A1-M1-T05-L04-E02",
+      "type": "listening_report",
+      "skill": "listening",
+      "instruction": "Escucha el reporte y selecciona el problema.",
+      "prompt": "Two chairs are missing.",
+      "options": ["Two chairs are missing", "Two tables are missing", "Two people are missing"],
+      "correct_answer": "Two chairs are missing",
+      "feedback_correct": "Identificaste el objeto y la cantidad del problema.",
+      "feedback_incorrect": "Escucha two chairs y la palabra missing.",
+      "estimated_seconds": 55
+    },
+    {
+      "id": "A1-M1-T05-L04-E03",
+      "type": "mixed_grammar_choice",
+      "skill": "grammar",
+      "instruction": "Completa el inventario.",
+      "items": [
+        { "prompt": "There ___ one table.", "options": ["is", "are"], "answer": "is" },
+        { "prompt": "There ___ twelve chairs.", "options": ["is", "are"], "answer": "are" },
+        { "prompt": "There ___ eight people.", "options": ["is", "are"], "answer": "are" }
+      ],
+      "feedback_correct": "Elegiste is para uno y are para cantidades plurales.",
+      "feedback_incorrect": "One = there is; cualquier cantidad mayor que uno = there are.",
+      "estimated_seconds": 75
+    },
+    {
+      "id": "A1-M1-T05-L04-E04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el reporte.",
+      "prompt": "There is eight people and two childs.",
+      "correct_answer": "There are eight people and two children.",
+      "feedback_correct": "Corregiste el verbo y el plural irregular.",
+      "feedback_incorrect": "Usa there are con ocho y children como plural de child.",
+      "estimated_seconds": 60
+    },
+    {
+      "id": "A1-M1-T05-L04-E05",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el reporte y reconstruye el inventario completo.",
+      "reading_ref": "A1-M1-T05-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 4 inventory facts",
+      "feedback_correct": "Extrajiste cantidades, plurales y el problema de la sala.",
+      "feedback_incorrect": "Busca tables, chairs, people y children; después identifica qué falta.",
+      "estimated_seconds": 135
+    },
+    {
+      "id": "A1-M1-T05-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba un reporte completo para el coordinador.",
+      "prompt": "There are two tables and twelve chairs. There are eight people and two children. Two chairs are missing.",
+      "evaluation": ["numbers", "plural endings", "there are", "problem intelligibility"],
+      "feedback_correct": "El reporte es comprensible y contiene el problema principal.",
+      "feedback_incorrect": "Divide el reporte en tres grupos y pronuncia cada número con claridad.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T05-L04-E07",
+      "type": "repair_the_inventory",
+      "skill": "writing",
+      "instruction": "La lista tiene errores. Corrige tres entradas.",
+      "items": ["two chair", "eight peoples", "two childs"],
+      "correct_answers": ["two chairs", "eight people", "two children"],
+      "feedback_correct": "Corregiste plurales regulares e irregulares.",
+      "feedback_incorrect": "Chairs añade -s; people y children ya son plurales completos.",
+      "estimated_seconds": 75
+    },
+    {
+      "id": "A1-M1-T05-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es el coordinador. Haz un inventario de una sala y reporta un objeto que falta.",
+      "role": "event coordinator",
+      "student_goal": "Report quantities, use regular and irregular plurals, and identify a missing item.",
+      "allowed_support": ["room image", "inventory checklist", "sentence starter", "Spanish hint"],
+      "success_criteria": ["reports four quantities", "uses people or children", "uses there is/are", "reports a problem"],
+      "feedback_correct": "Completaste una tarea real de inventario y resolución de problemas.",
+      "feedback_incorrect": "Cuenta, forma el plural y usa there are para cantidades mayores que uno.",
+      "estimated_seconds": 230
+    },
+    {
+      "id": "A1-M1-T05-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: observa una escena nueva y entrega un reporte oral o escrito con cantidades y un problema.",
+      "prompt": "Report what is in the room and what is missing. Use at least one irregular plural.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses singular and plural accurately", "uses there is/are", "uses one irregular plural", "communicates a missing item"],
+      "feedback_correct": "Demostraste control funcional de sustantivos, plurales y cantidades.",
+      "feedback_incorrect": "Organiza el reporte: qué hay, cuántos hay y qué falta.",
+      "estimated_seconds": 250
+    },
+    {
+      "id": "A1-M1-T05-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa las reglas sin mirar.",
+      "prompts": ["one chair = ___", "two chair = ___", "one child = ___", "two child = ___", "one table = There ___", "two tables = There ___"],
+      "correct_answers": ["one chair", "two chairs", "one child", "two children", "is", "are"],
+      "feedback_correct": "Recuperaste cantidad, plural y there is/are.",
+      "feedback_incorrect": "Singular y plural cambian el sustantivo; la cantidad cambia is por are.",
+      "estimated_seconds": 100
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "mastery_assessment"],
+    "topic_ready_when": "El estudiante entrega un inventario comprensible con al menos 80% de precisión y usa un plural irregular correctamente.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

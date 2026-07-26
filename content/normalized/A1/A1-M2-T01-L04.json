@@ -1,0 +1,438 @@
+{
+  "id": "A1-M2-T01-L04",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T01",
+  "title": "The clear-message challenge",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede construir y corregir mensajes afirmativos básicos en una situación nueva.",
+  "situation": "Enviar instrucciones y planes claros a un compañero.",
+  "language_focus": [
+    "I work at home on Friday.",
+    "She calls me in the morning.",
+    "We meet at the station.",
+    "They study English after work."
+  ],
+  "vocabulary": [
+    {
+      "term": "call",
+      "meaning_es": "llamar",
+      "example": "She calls me in the morning."
+    },
+    {
+      "term": "after work",
+      "meaning_es": "después del trabajo",
+      "example": "They study after work."
+    },
+    {
+      "term": "station",
+      "meaning_es": "estación",
+      "example": "We meet at the station."
+    },
+    {
+      "term": "clear",
+      "meaning_es": "claro / clara",
+      "example": "The message is clear."
+    },
+    {
+      "term": "confusing",
+      "meaning_es": "confuso / confusa",
+      "example": "The message is confusing."
+    },
+    {
+      "term": "send",
+      "meaning_es": "enviar",
+      "example": "Send the message."
+    }
+  ],
+  "context": {
+    "before": "A learner sends a message to coordinate a meeting.",
+    "dialogue": [
+      {
+        "speaker": "Friend",
+        "text": "Where do we meet?"
+      },
+      {
+        "speaker": "Learner",
+        "text": "We meet at the station on Friday."
+      },
+      {
+        "speaker": "Friend",
+        "text": "What time?"
+      },
+      {
+        "speaker": "Learner",
+        "text": "We meet at six. The message is clear now."
+      }
+    ]
+  },
+  "explanation_es": "Una frase básica debe tener un sujeto claro, un verbo, información necesaria y un orden que el interlocutor pueda procesar. La evaluación final combina construcción, corrección y uso comunicativo.",
+  "spanish_speaker_notes": [
+    "No construyas frases traduciendo cada palabra en el orden español.",
+    "Si el mensaje es largo, divídelo en dos frases cortas.",
+    "La claridad y la intención son más importantes que añadir palabras innecesarias."
+  ],
+  "pronunciation": {
+    "target": "Transmitir mensajes cortos con pausas y énfasis en acción, lugar y tiempo.",
+    "models": [
+      {
+        "text": "We meet at the station on Friday.",
+        "stress": [
+          "meet",
+          "station",
+          "Friday"
+        ]
+      },
+      {
+        "text": "They study English after work.",
+        "stress": [
+          "study",
+          "English",
+          "work"
+        ]
+      }
+    ],
+    "student_feedback": "Divide el mensaje en grupos de significado, no palabra por palabra."
+  },
+  "reading": {
+    "title": "A clear plan",
+    "text": "On Friday, Carla works at home in the morning. After work, she calls her friend. They meet at the station at six. Their plan is short and clear.",
+    "interactive_vocabulary": [
+      "Friday",
+      "works",
+      "calls",
+      "meet",
+      "plan"
+    ],
+    "questions": [
+      {
+        "prompt": "When do they meet?",
+        "options": [
+          "At six on Friday",
+          "In the morning at home",
+          "After Saturday"
+        ],
+        "answer": "At six on Friday"
+      },
+      {
+        "prompt": "Who calls the friend?",
+        "options": [
+          "Carla",
+          "The station",
+          "The teacher"
+        ],
+        "answer": "Carla"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T01-L04-E01",
+      "type": "message_strategy_game",
+      "skill": "integrated",
+      "instruction": "Elige la mejor estrategia para cada mensaje.",
+      "items": [
+        {
+          "prompt": "Long confusing idea",
+          "answer": "make two short sentences"
+        },
+        {
+          "prompt": "Missing subject",
+          "answer": "add the subject"
+        },
+        {
+          "prompt": "Unclear time",
+          "answer": "add a time phrase"
+        }
+      ],
+      "feedback_correct": "Elegiste estrategias que aumentan la claridad.",
+      "feedback_incorrect": "Un mensaje claro necesita estructura, sujeto y datos relevantes.",
+      "estimated_seconds": 75,
+      "prompt": "Elige la mejor estrategia para cada mensaje.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "make two short sentences",
+          "add the subject",
+          "add a time phrase"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E02",
+      "type": "listening_global",
+      "skill": "listening",
+      "instruction": "Escucha y elige el propósito del mensaje.",
+      "prompt": "We meet at the station at six on Friday.",
+      "options": [
+        "Coordinate a meeting",
+        "Describe a room",
+        "Order food"
+      ],
+      "correct_answer": "Coordinate a meeting",
+      "feedback_correct": "Entendiste la intención comunicativa.",
+      "feedback_incorrect": "La frase contiene meet, station, six y Friday.",
+      "estimated_seconds": 55,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Coordinate a meeting"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E03",
+      "type": "mixed_word_order",
+      "skill": "grammar",
+      "instruction": "Construye dos mensajes correctos.",
+      "items": [
+        {
+          "tokens": [
+            "I",
+            "work",
+            "at",
+            "home",
+            "on",
+            "Friday."
+          ],
+          "answer": "I work at home on Friday."
+        },
+        {
+          "tokens": [
+            "They",
+            "study",
+            "after",
+            "work."
+          ],
+          "answer": "They study after work."
+        }
+      ],
+      "feedback_correct": "Construiste dos frases completas y naturales.",
+      "feedback_incorrect": "Empieza por el sujeto y mantén los bloques de lugar/tiempo juntos.",
+      "estimated_seconds": 80,
+      "prompt": "Construye dos mensajes correctos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I work at home on Friday.",
+          "They study after work."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el mensaje completo.",
+      "prompt": "At the station Friday meet we six.",
+      "correct_answer": "We meet at the station at six on Friday.",
+      "feedback_correct": "Reorganizaste sujeto, acción, lugar y tiempo.",
+      "feedback_incorrect": "Empieza por We meet; después lugar y tiempo.",
+      "estimated_seconds": 60,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "We meet at the station at six on Friday."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E05",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el plan y conviértelo en una agenda.",
+      "reading_ref": "A1-M2-T01-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 4 schedule facts",
+      "feedback_correct": "Comprendiste quién, qué, dónde y cuándo.",
+      "feedback_incorrect": "Busca Carla, home, calls, station, six y Friday.",
+      "estimated_seconds": 135,
+      "prompt": "Lee el plan y conviértelo en una agenda.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 schedule facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba un mensaje de coordinación.",
+      "prompt": "We meet at the station at six on Friday. The message is clear.",
+      "evaluation": {
+        "0": "sentence chunks",
+        "1": "time/place clarity",
+        "2": "final assessment phrase",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "El mensaje se entiende y suena organizado.",
+      "feedback_incorrect": "Haz pausas después de station y six.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E07",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero. Coordina un encuentro y corrige un malentendido de horario.",
+      "role": "friend",
+      "student_goal": "Send a clear plan, answer a follow-up and repair one confusing sentence.",
+      "allowed_support": [
+        "calendar",
+        "sentence frame",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "states activity",
+        "states place",
+        "states time",
+        "repairs one message"
+      ],
+      "feedback_correct": "Lograste coordinar una actividad con mensajes claros.",
+      "feedback_incorrect": "Usa sujeto + verbo + lugar + tiempo y divide el mensaje si es largo.",
+      "estimated_seconds": 220,
+      "prompt": "La IA es tu compañero. Coordina un encuentro y corrige un malentendido de horario.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E08",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Envía una invitación clara para una actividad real.",
+      "prompt": "We ____ at ____. We ____ at ____. See you ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "has two complete sentences",
+        "includes place and time",
+        "is understandable without translation"
+      ],
+      "feedback_correct": "Creaste un mensaje que otra persona puede usar.",
+      "feedback_incorrect": "Escribe dos frases cortas y coloca lugar y tiempo después del mensaje principal.",
+      "estimated_seconds": 140,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: organiza cuatro tarjetas y envía un mensaje de plan a la IA.",
+      "prompt": "Create a clear four-sentence plan with subject, verb, place and time.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "four complete sentences",
+        "natural word order",
+        "includes place/time",
+        "communicative clarity"
+      ],
+      "feedback_correct": "Demostraste control del orden afirmativo básico.",
+      "feedback_incorrect": "Revisa cada frase: quién, qué hace, información, lugar y tiempo.",
+      "estimated_seconds": 260,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    },
+    {
+      "id": "A1-M2-T01-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el proceso final.",
+      "prompts": [
+        "Who? = ___",
+        "What? = ___",
+        "Where/when? = ___",
+        "If long = ___"
+      ],
+      "correct_answers": [
+        "subject",
+        "verb/complement",
+        "place/time",
+        "short sentences"
+      ],
+      "feedback_correct": "Recuperaste el método para construir mensajes claros.",
+      "feedback_incorrect": "Organiza la información y divide frases largas.",
+      "estimated_seconds": 100,
+      "prompt": "Completa el proceso final.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "subject",
+          "verb/complement",
+          "place/time",
+          "short sentences"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T01-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante comunica un plan de cuatro frases con al menos 80% de claridad y precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T01-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,457 @@
+{
+  "id": "A1-M1-T09-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T09",
+  "title": "Is there...? Are there...?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede preguntar si existe un objeto y responder afirmativa o negativamente.",
+  "situation": "Comprobar si una habitación tiene los servicios y objetos necesarios.",
+  "language_focus": [
+    "Is there a bathroom?",
+    "Are there any towels?",
+    "Yes, there is.",
+    "No, there isn't.",
+    "Yes, there are.",
+    "No, there aren't."
+  ],
+  "vocabulary": [
+    {
+      "term": "bathroom",
+      "meaning_es": "baño",
+      "example": "Is there a bathroom?"
+    },
+    {
+      "term": "towel",
+      "meaning_es": "toalla",
+      "example": "Are there any towels?"
+    },
+    {
+      "term": "shower",
+      "meaning_es": "ducha",
+      "example": "There is a shower."
+    },
+    {
+      "term": "wifi",
+      "meaning_es": "wifi",
+      "example": "Is there wifi?"
+    },
+    {
+      "term": "blanket",
+      "meaning_es": "manta",
+      "example": "There are two blankets."
+    },
+    {
+      "term": "available",
+      "meaning_es": "disponible",
+      "example": "There isn't one available."
+    }
+  ],
+  "context": {
+    "before": "A guest checks a room before staying for the night.",
+    "dialogue": [
+      {
+        "speaker": "Guest",
+        "text": "Is there a bathroom in the room?"
+      },
+      {
+        "speaker": "Host",
+        "text": "Yes, there is. It is next to the door."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Are there any towels?"
+      },
+      {
+        "speaker": "Host",
+        "text": "Yes, there are two towels."
+      },
+      {
+        "speaker": "Guest",
+        "text": "Is there wifi?"
+      },
+      {
+        "speaker": "Host",
+        "text": "No, there isn't wifi today."
+      }
+    ]
+  },
+  "explanation_es": "Para preguntar por una cosa singular usamos Is there...?; para varias usamos Are there...? Las respuestas cortas repiten is o are: Yes, there is; No, there aren't.",
+  "spanish_speaker_notes": [
+    "No uses Do you have...? si estás comprobando si existe algo en un lugar; en esta lección practica Is/Are there?.",
+    "Con sustantivo singular usamos Is there a bathroom?; con plural Are there any towels?.",
+    "No traduzcas 'there isn't' como 'no tiene'; significa que no hay o no existe en ese contexto."
+  ],
+  "pronunciation": {
+    "target": "Producir preguntas rising y respuestas cortas con there is/are.",
+    "models": [
+      {
+        "text": "Is there a bathroom?",
+        "stress": [
+          "bathroom"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "Are there any towels?",
+        "stress": [
+          "towels"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "Yes, there is.",
+        "intonation": "falling"
+      },
+      {
+        "text": "No, there aren't.",
+        "intonation": "falling"
+      }
+    ],
+    "student_feedback": "Haz clara la diferencia entre singular is y plural are en la pregunta y la respuesta."
+  },
+  "reading": {
+    "title": "Checking the room",
+    "text": "Before the guest arrives, the host checks the room. There is a bathroom and there is a shower. There are two towels and one blanket. There isn't wifi today, but there is a comfortable chair.",
+    "interactive_vocabulary": [
+      "arrives",
+      "checks",
+      "blanket",
+      "comfortable",
+      "today"
+    ],
+    "questions": [
+      {
+        "prompt": "How many towels are there?",
+        "options": [
+          "Two",
+          "One",
+          "Three"
+        ],
+        "answer": "Two"
+      },
+      {
+        "prompt": "What is not available today?",
+        "options": [
+          "Wifi",
+          "A bathroom",
+          "A chair"
+        ],
+        "answer": "Wifi"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T09-L02-E01",
+      "type": "question_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica la pregunta según singular o plural.",
+      "items": [
+        {
+          "text": "Is there a bathroom?",
+          "category": "singular"
+        },
+        {
+          "text": "Are there any towels?",
+          "category": "plural"
+        },
+        {
+          "text": "Is there wifi?",
+          "category": "singular"
+        },
+        {
+          "text": "Are there two blankets?",
+          "category": "plural"
+        }
+      ],
+      "categories": [
+        "singular",
+        "plural"
+      ],
+      "feedback_correct": "Relacionaste is/are con el número del sustantivo.",
+      "feedback_incorrect": "Mira si preguntas por uno o por varios objetos.",
+      "estimated_seconds": 65,
+      "prompt": "Clasifica la pregunta según singular o plural.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Is there a bathroom?=singular",
+          "Are there any towels?=plural",
+          "Is there wifi?=singular",
+          "Are there two blankets?=plural"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E02",
+      "type": "listening_yes_no",
+      "skill": "listening",
+      "instruction": "Escucha la respuesta y elige si existe el servicio.",
+      "prompt": "No, there isn't wifi today.",
+      "options": [
+        "No wifi",
+        "Wifi is available",
+        "Two wifi services"
+      ],
+      "correct_answer": "No wifi",
+      "feedback_correct": "Entendiste una respuesta negativa singular.",
+      "feedback_incorrect": "There isn't indica que no hay wifi.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No wifi"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E03",
+      "type": "question_choice",
+      "skill": "grammar",
+      "instruction": "Elige la pregunta correcta por una cosa.",
+      "prompt": "___ a shower?",
+      "options": [
+        "Is there",
+        "Are there",
+        "There are"
+      ],
+      "correct_answer": "Is there",
+      "feedback_correct": "Una cosa singular usa Is there...?.",
+      "feedback_incorrect": "Shower es singular; usa Is there.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Is there"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E04",
+      "type": "short_answer_match",
+      "skill": "interaction",
+      "instruction": "Relaciona cada pregunta con su respuesta corta.",
+      "pairs": [
+        {
+          "question": "Is there a bathroom?",
+          "answer": "Yes, there is."
+        },
+        {
+          "question": "Are there towels?",
+          "answer": "No, there aren't."
+        }
+      ],
+      "feedback_correct": "La respuesta repite is o are según la pregunta.",
+      "feedback_incorrect": "Is there → there is; Are there → there are.",
+      "estimated_seconds": 60,
+      "prompt": "Relaciona cada pregunta con su respuesta corta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "expected_pairs": [
+          {
+            "question": "Is there a bathroom?",
+            "answer": "Yes, there is."
+          },
+          {
+            "question": "Are there towels?",
+            "answer": "No, there aren't."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta.",
+      "prompt": "Is there any towels?",
+      "correct_answer": "Are there any towels?",
+      "feedback_correct": "Towels es plural: Are there any towels?.",
+      "feedback_incorrect": "Usa Are there con un sustantivo plural.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Are there any towels?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta singular, una plural y sus respuestas.",
+      "prompt": "Is there a bathroom? Yes, there is. Are there any towels? No, there aren't.",
+      "evaluation": {
+        "0": "is/are contrast",
+        "1": "question intonation",
+        "2": "short answer clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Las preguntas y respuestas distinguen singular y plural.",
+      "feedback_incorrect": "Practica una pregunta cada vez; destaca bathroom y towels.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la habitación y completa una lista de sí/no.",
+      "reading_ref": "A1-M1-T09-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 4 existence facts",
+      "feedback_correct": "Transformaste una lectura en comprobaciones prácticas.",
+      "feedback_incorrect": "Busca bathroom, shower, towels, blanket, wifi y chair.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la habitación y completa una lista de sí/no.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 existence facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es el anfitrión. Comprueba cinco cosas antes de aceptar una habitación.",
+      "role": "host",
+      "student_goal": "Ask singular and plural existence questions and understand short answers.",
+      "allowed_support": [
+        "room checklist",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks two Is there questions",
+        "asks two Are there questions",
+        "responds to one negative answer"
+      ],
+      "feedback_correct": "Comprobaste servicios y objetos con preguntas naturales.",
+      "feedback_incorrect": "Singular: Is there...? Plural: Are there any...?.",
+      "estimated_seconds": 200,
+      "prompt": "La IA es el anfitrión. Comprueba cinco cosas antes de aceptar una habitación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Haz cinco preguntas antes de visitar un lugar nuevo y registra las respuestas.",
+      "prompt": "Is there a ____? Are there any ____? Yes, there is/are. No, there isn't/aren't.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses singular and plural questions",
+        "uses short answers",
+        "communicates practical needs"
+      ],
+      "feedback_correct": "Aplicaste la estructura para comprobar un lugar real.",
+      "feedback_incorrect": "Clasifica tus necesidades como una cosa o varias antes de preguntar.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    },
+    {
+      "id": "A1-M1-T09-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa las preguntas y respuestas.",
+      "prompts": [
+        "___ there a bathroom?",
+        "___ there any towels?",
+        "Yes, there ___.",
+        "No, there ___."
+      ],
+      "correct_answers": [
+        "Is",
+        "Are",
+        "is",
+        "aren't"
+      ],
+      "feedback_correct": "Recuperaste preguntas y respuestas cortas.",
+      "feedback_incorrect": "Singular usa Is/is; plural usa Are/aren't.",
+      "estimated_seconds": 90,
+      "prompt": "Completa las preguntas y respuestas.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Is",
+          "Are",
+          "is",
+          "aren't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T09-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

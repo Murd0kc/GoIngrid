@@ -1,0 +1,173 @@
+{
+  "id": "A1-M2-T01-L01",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T01",
+  "title": "Build a clear sentence",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede construir frases afirmativas básicas con sujeto, verbo y complemento.",
+  "situation": "Escribir mensajes sencillos sobre actividades diarias.",
+  "language_focus": ["I study English.", "She drinks coffee.", "We live in a city.", "They play music.", "I read a book."],
+  "vocabulary": [
+    { "term": "study", "meaning_es": "estudiar", "example": "I study English." },
+    { "term": "drink", "meaning_es": "beber", "example": "She drinks coffee." },
+    { "term": "live", "meaning_es": "vivir", "example": "We live in a city." },
+    { "term": "play", "meaning_es": "jugar / tocar", "example": "They play music." },
+    { "term": "read", "meaning_es": "leer", "example": "I read a book." },
+    { "term": "sentence", "meaning_es": "oración / frase", "example": "Build a sentence." }
+  ],
+  "context": {
+    "before": "A learner writes five facts about their day.",
+    "dialogue": [
+      { "speaker": "Teacher", "text": "Tell me about your day." },
+      { "speaker": "Student", "text": "I study English. I drink coffee. I read a book." },
+      { "speaker": "Teacher", "text": "Good. Can you write one sentence about your friend?" },
+      { "speaker": "Student", "text": "She plays music." }
+    ]
+  },
+  "explanation_es": "En una frase afirmativa básica, el orden habitual es sujeto + verbo + complemento: I study English. En inglés el sujeto normalmente debe aparecer, aunque en español pueda omitirse.",
+  "spanish_speaker_notes": [
+    "No copies el orden del español palabra por palabra; empieza por el sujeto.",
+    "En esta lección usamos frases afirmativas simples, sin añadir todavía auxiliares.",
+    "El verbo debe expresar la acción y el complemento aporta información adicional."
+  ],
+  "pronunciation": {
+    "target": "Producir frases cortas con ritmo sujeto-verbo-complemento.",
+    "models": [
+      { "text": "I study English.", "stress": ["study", "English"] },
+      { "text": "She drinks coffee.", "stress": ["drinks", "coffee"] },
+      { "text": "We live in a city.", "stress": ["live", "city"] }
+    ],
+    "student_feedback": "Marca el verbo y la información importante; no pronuncies cada palabra con el mismo peso."
+  },
+  "reading": {
+    "title": "A simple daily routine",
+    "text": "I study English in the morning. I drink coffee and read a short book. My friend lives nearby. She plays music in the afternoon. We talk about our day.",
+    "interactive_vocabulary": ["morning", "short", "nearby", "afternoon", "talk"],
+    "questions": [
+      { "prompt": "What does the speaker study?", "options": ["English", "Music", "Coffee"], "answer": "English" },
+      { "prompt": "What does the friend play?", "options": ["Music", "A book", "A city"], "answer": "Music" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T01-L01-E01",
+      "type": "sentence_parts_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona sujeto, acción y complemento para formar frases con sentido.",
+      "sets": [{ "subject": "I", "verb": "study", "complement": "English" }, { "subject": "She", "verb": "drinks", "complement": "coffee" }, { "subject": "We", "verb": "live", "complement": "in a city" }],
+      "feedback_correct": "La frase comunica quién hace qué y con qué información.",
+      "feedback_incorrect": "Busca una combinación lógica de sujeto, verbo y complemento.",
+      "estimated_seconds": 70
+    },
+    {
+      "id": "A1-M2-T01-L01-E02",
+      "type": "listening_order",
+      "skill": "listening",
+      "instruction": "Escucha y ordena las tres partes de la frase.",
+      "prompt": "I read a book.",
+      "parts": ["I", "read", "a book"],
+      "correct_answer": "I, read, a book",
+      "feedback_correct": "Reconociste sujeto, verbo y complemento.",
+      "feedback_incorrect": "Escucha primero quién, después la acción y finalmente el objeto.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M2-T01-L01-E03",
+      "type": "word_order",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": ["I", "study", "English."],
+      "correct_answer": "I study English.",
+      "feedback_correct": "El orden es sujeto + verbo + complemento.",
+      "feedback_incorrect": "Empieza con I y coloca study antes de English.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M2-T01-L01-E04",
+      "type": "sentence_choice",
+      "skill": "grammar",
+      "instruction": "Elige la frase con el orden correcto.",
+      "prompt": "Hablar de que lees un libro.",
+      "options": ["I read a book.", "I a book read.", "Read I a book."],
+      "correct_answer": "I read a book.",
+      "feedback_correct": "La acción read va después del sujeto.",
+      "feedback_incorrect": "Usa sujeto + verbo + objeto.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M2-T01-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el orden de la frase.",
+      "prompt": "Coffee I drink every morning.",
+      "correct_answer": "I drink coffee every morning.",
+      "feedback_correct": "En una frase afirmativa básica empezamos por el sujeto.",
+      "feedback_incorrect": "Mueve I al inicio y coloca drink después.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M2-T01-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba tres frases sobre tu día.",
+      "prompt": "I study ____. I drink ____. I read ____.",
+      "evaluation": ["subject clarity", "verb clarity", "natural phrase rhythm"],
+      "feedback_correct": "Tus frases tienen un orden claro y comprensible.",
+      "feedback_incorrect": "Empieza cada frase con I y enfatiza el verbo y la información final.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M2-T01-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la rutina y subraya sujeto, verbo y complemento en tres frases.",
+      "reading_ref": "A1-M2-T01-L01-reading-01",
+      "correct_answer": "3 sentence structures",
+      "feedback_correct": "Reconociste la estructura dentro de un texto real.",
+      "feedback_incorrect": "Busca quién hace la acción, qué acción hace y qué información la completa.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M2-T01-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu profesor. Dile tres cosas que haces durante el día.",
+      "role": "English teacher",
+      "student_goal": "Produce three affirmative sentences with subject, verb and complement.",
+      "allowed_support": ["verb cards", "sentence frame", "Spanish hint"],
+      "success_criteria": ["produces three sentences", "includes a subject each time", "uses understandable word order"],
+      "feedback_correct": "Construiste mensajes claros sobre tu vida.",
+      "feedback_incorrect": "Usa el marco: I + verb + information.",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M2-T01-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Escribe o graba tres frases para presentarte a un compañero nuevo.",
+      "prompt": "I ____ ____. I ____ ____. I ____ ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses three subjects", "uses three verbs", "maintains subject-verb-complement order"],
+      "feedback_correct": "Usaste el orden básico para comunicar información personal.",
+      "feedback_incorrect": "Comprueba que cada frase empieza con un sujeto y continúa con un verbo.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M2-T01-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el patrón sin mirar.",
+      "prompts": ["first = ___", "action = ___", "extra information = ___"],
+      "correct_answers": ["subject", "verb", "complement"],
+      "feedback_correct": "Recuperaste la estructura base de una frase.",
+      "feedback_incorrect": "El orden es sujeto + verbo + complemento.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

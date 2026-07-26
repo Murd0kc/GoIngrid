@@ -1,0 +1,422 @@
+{
+  "id": "A1-M2-T07-L03",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T07",
+  "title": "Preguntar cuando no entiendes",
+  "estimated_seconds": 930,
+  "communication_goal": "Pedir repetición, aclaración o ejemplos usando preguntas sencillas y expresiones de apoyo.",
+  "situation": "En una conversación o clase no entiendes una palabra, una dirección o una instrucción.",
+  "language_focus": {
+    "grammar": [
+      "What does ... mean?",
+      "How do you spell ...?",
+      "Could you repeat, please?",
+      "Where do I go?",
+      "What do you mean?"
+    ],
+    "function": "clarifying and repairing communication"
+  },
+  "vocabulary": [
+    {
+      "word": "mean",
+      "meaning_es": "significar",
+      "example": "What does this word mean?"
+    },
+    {
+      "word": "spell",
+      "meaning_es": "deletrear",
+      "example": "How do you spell it?"
+    },
+    {
+      "word": "repeat",
+      "meaning_es": "repetir",
+      "example": "Could you repeat, please?"
+    },
+    {
+      "word": "slowly",
+      "meaning_es": "despacio",
+      "example": "Could you speak slowly?"
+    },
+    {
+      "word": "example",
+      "meaning_es": "ejemplo",
+      "example": "Can you give an example?"
+    },
+    {
+      "word": "understand",
+      "meaning_es": "entender",
+      "example": "I don't understand."
+    }
+  ],
+  "context": {
+    "title": "In English class",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "english": "Please open your book to page ten.",
+        "spanish": "Por favor, abre tu libro en la página diez."
+      },
+      {
+        "speaker": "Student",
+        "english": "Sorry, what does page mean?",
+        "spanish": "Disculpa, ¿qué significa page?"
+      },
+      {
+        "speaker": "Teacher",
+        "english": "It means a page in a book. It is number ten.",
+        "spanish": "Significa una página de un libro. Es el número diez."
+      },
+      {
+        "speaker": "Student",
+        "english": "Thank you. How do you spell page?",
+        "spanish": "Gracias. ¿Cómo se deletrea page?"
+      },
+      {
+        "speaker": "Teacher",
+        "english": "P-A-G-E. Does that help?",
+        "spanish": "P-A-G-E. ¿Eso ayuda?"
+      }
+    ]
+  },
+  "explanation_es": "Cuando no entiendes, no tienes que abandonar la conversación. Puedes preguntar What does ___ mean? para significado, How do you spell ___? para deletrear y Could you repeat, please? para repetir. También puedes decir I don't understand y pedir que hablen lentamente.",
+  "spanish_speaker_notes": [
+    "No traduzcas '¿qué significa?' como What means?; usa What does it mean?",
+    "Después de does el verbo queda en base: What does it mean?, no What does it means?",
+    "Could you repeat, please? es una petición cortés y útil.",
+    "Pedir aclaración es una estrategia de comunicación, no un fracaso."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "What does this word mean?",
+        "focus": "does this y mean claramente"
+      },
+      {
+        "text": "How do you spell it?",
+        "focus": "spell y entonación"
+      },
+      {
+        "text": "Could you repeat, please?",
+        "focus": "could you como unidad"
+      }
+    ],
+    "tip_es": "La claridad es más importante que la velocidad; usa una pausa después de Sorry o Excuse me."
+  },
+  "reading": {
+    "title": "A useful question",
+    "text": "In class, Diego hears a new word: page. He doesn't understand it, so he asks what it means. Then he asks how to spell it. The teacher gives an example and repeats the word slowly.",
+    "glossary": [
+      {
+        "term": "page",
+        "meaning_es": "página"
+      },
+      {
+        "term": "useful question",
+        "meaning_es": "pregunta útil"
+      },
+      {
+        "term": "slowly",
+        "meaning_es": "despacio"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "function_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada expresión con su propósito.",
+      "pairs": [
+        {
+          "english": "What does it mean?",
+          "spanish": "preguntar significado"
+        },
+        {
+          "english": "How do you spell it?",
+          "spanish": "pedir deletreo"
+        },
+        {
+          "english": "Could you repeat, please?",
+          "spanish": "pedir repetición"
+        },
+        {
+          "english": "Could you speak slowly?",
+          "spanish": "pedir menor velocidad"
+        }
+      ],
+      "prompt": "Relaciona cada expresión con su propósito.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What does it mean?=preguntar significado",
+          "How do you spell it?=pedir deletreo",
+          "Could you repeat, please?=pedir repetición",
+          "Could you speak slowly?=pedir menor velocidad"
+        ],
+        "expected_pairs": [
+          {
+            "english": "What does it mean?",
+            "spanish": "preguntar significado"
+          },
+          {
+            "english": "How do you spell it?",
+            "spanish": "pedir deletreo"
+          },
+          {
+            "english": "Could you repeat, please?",
+            "spanish": "pedir repetición"
+          },
+          {
+            "english": "Could you speak slowly?",
+            "spanish": "pedir menor velocidad"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: P-A-G-E. Elige la pregunta que produjo esa respuesta.",
+      "audio_text": "P-A-G-E.",
+      "options": [
+        "What does page mean?",
+        "How do you spell page?",
+        "Where is the page?"
+      ],
+      "correct": "How do you spell page?",
+      "feedback": "La respuesta contiene las letras de una palabra.",
+      "prompt": "Escucha: P-A-G-E. Elige la pregunta que produjo esa respuesta.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How do you spell page?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta contiene las letras de una palabra.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: What does this word ___?",
+      "options": [
+        "mean",
+        "means",
+        "meaning"
+      ],
+      "correct": "mean",
+      "feedback": "Después de does usamos el verbo base.",
+      "prompt": "Completa: What does this word ___?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "mean"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de does usamos el verbo base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: repeat / could / please / you / ?",
+      "answer": "Could you repeat, please?",
+      "feedback": "Could you + verbo base es una petición cortés.",
+      "prompt": "Ordena: repeat / could / please / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Could you repeat, please?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Could you + verbo base es una petición cortés.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: What does it means?",
+      "answer": "What does it mean?",
+      "feedback": "La s no aparece después de does.",
+      "prompt": "Corrige: What does it means?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What does it mean?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La s no aparece después de does.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Practica la secuencia: Sorry, I don't understand. Could you repeat, please?",
+      "target": "Sorry, I don't understand. Could you repeat, please?",
+      "evaluation": {
+        "0": "don't understand claro",
+        "1": "petición amable",
+        "2": "ritmo comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Sorry, I don't understand. Could you repeat, please?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Useful Question y responde: Why does Diego ask a question?",
+      "text_reference": "reading",
+      "answer": "Because he doesn't understand a new word.",
+      "feedback": "La pregunta le ayuda a entender page.",
+      "prompt": "Lee A Useful Question y responde: Why does Diego ask a question?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Because he doesn't understand a new word."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La pregunta le ayuda a entender page.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un profesor que usa palabras nuevas. Practica pedir significado, deletreo, repetición y un ejemplo sin cambiar al español inmediatamente.",
+      "scenario": "Keeping an English conversation alive when you do not understand.",
+      "ai_language": "English first; respond naturally to clarification requests",
+      "prompt": "La IA será un profesor que usa palabras nuevas. Practica pedir significado, deletreo, repetición y un ejemplo sin cambiar al español inmediatamente.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba un diálogo de seis turnos en el que no entiendes dos palabras y pides aclaración de forma cortés.",
+      "success_criteria": [
+        "usa dos estrategias distintas",
+        "mantiene I don't understand o una petición similar",
+        "pronuncia las preguntas con claridad"
+      ],
+      "prompt": "Graba un diálogo de seis turnos en el que no entiendes dos palabras y pides aclaración de forma cortés.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: What does this word ___? / How do you ___ it? / Could you ___, please?",
+      "answers": [
+        "mean",
+        "spell",
+        "repeat"
+      ],
+      "prompt": "Completa: What does this word ___? / How do you ___ it? / Could you ___, please?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "mean",
+          "spell",
+          "repeat"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "pedir aclaración sin abandonar la conversación",
+      "usar does + verbo base",
+      "pronunciar dos expresiones de reparación"
+    ],
+    "retry": "Si formulas What does it means?, elimina la s después de does y repite la pregunta en voz alta."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T07-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

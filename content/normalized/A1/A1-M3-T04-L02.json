@@ -1,0 +1,435 @@
+{
+  "id": "A1-M3-T04-L02",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T04",
+  "title": "Horarios y actividades diarias",
+  "estimated_seconds": 930,
+  "communication_goal": "Hablar de horarios y actividades habituales durante todo el día.",
+  "situation": "Comparas tu horario de trabajo o estudio con el de otra persona.",
+  "language_focus": {
+    "grammar": [
+      "I start/finish at...",
+      "I work/study from... to...",
+      "at noon",
+      "in the afternoon/evening",
+      "What time...?"
+    ],
+    "function": "daily schedules"
+  },
+  "vocabulary": [
+    {
+      "word": "start work",
+      "meaning_es": "empezar a trabajar",
+      "example": "I start work at nine."
+    },
+    {
+      "word": "finish work",
+      "meaning_es": "terminar de trabajar",
+      "example": "I finish work at five."
+    },
+    {
+      "word": "have lunch",
+      "meaning_es": "almorzar",
+      "example": "We have lunch at noon."
+    },
+    {
+      "word": "go home",
+      "meaning_es": "ir a casa",
+      "example": "I go home at six."
+    },
+    {
+      "word": "make dinner",
+      "meaning_es": "preparar la cena",
+      "example": "She makes dinner."
+    },
+    {
+      "word": "go to bed",
+      "meaning_es": "acostarse",
+      "example": "I go to bed at ten."
+    }
+  ],
+  "context": {
+    "title": "A workday schedule",
+    "dialogue": [
+      {
+        "speaker": "Nora",
+        "english": "What time do you start work?",
+        "spanish": "¿A qué hora empiezas a trabajar?"
+      },
+      {
+        "speaker": "Omar",
+        "english": "I start work at nine and finish at five.",
+        "spanish": "Empiezo a trabajar a las nueve y termino a las cinco."
+      },
+      {
+        "speaker": "Nora",
+        "english": "When do you have lunch?",
+        "spanish": "¿Cuándo almuerzas?"
+      },
+      {
+        "speaker": "Omar",
+        "english": "I have lunch at noon. Then I go home at six.",
+        "spanish": "Almuerzo al mediodía. Después voy a casa a las seis."
+      },
+      {
+        "speaker": "Nora",
+        "english": "What time do you go to bed?",
+        "spanish": "¿A qué hora te acuestas?"
+      },
+      {
+        "speaker": "Omar",
+        "english": "I go to bed at ten.",
+        "spanish": "Me acuesto a las diez."
+      }
+    ]
+  },
+  "explanation_es": "Para horarios usa What time...? o When...? y responde con at + hora: I start at nine. Para un periodo usa from...to...: I work from nine to five. Las partes del día suelen usar in: in the afternoon, in the evening; pero noon y night tienen expresiones fijas: at noon, at night.",
+  "spanish_speaker_notes": [
+    "No uses in nine o on nine; la hora usa at nine.",
+    "Have lunch es la expresión habitual, no eat lunch en todos los casos.",
+    "Go home no necesita to: I go home, pero I go to the office.",
+    "Go to bed significa acostarse, no simplemente ir hacia una cama."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I start work at nine and finish at five.",
+        "focus": "start/finish y horas"
+      },
+      {
+        "text": "I have lunch at noon.",
+        "focus": "lunch at noon"
+      },
+      {
+        "text": "I go to bed at ten.",
+        "focus": "go to bed"
+      }
+    ],
+    "tip_es": "Marca las horas con claridad; en conversaciones de horarios una cifra mal entendida cambia el plan."
+  },
+  "reading": {
+    "title": "Omar's workday",
+    "text": "Omar starts work at nine and finishes at five. He has lunch at noon. In the afternoon, he goes home and makes dinner. He usually goes to bed at ten.",
+    "glossary": [
+      {
+        "term": "workday",
+        "meaning_es": "día laboral"
+      },
+      {
+        "term": "noon",
+        "meaning_es": "mediodía"
+      },
+      {
+        "term": "in the afternoon",
+        "meaning_es": "por la tarde"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "schedule_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada actividad con su hora o momento.",
+      "pairs": [
+        {
+          "english": "start work",
+          "spanish": "morning"
+        },
+        {
+          "english": "have lunch",
+          "spanish": "at noon"
+        },
+        {
+          "english": "go home",
+          "spanish": "afternoon"
+        },
+        {
+          "english": "go to bed",
+          "spanish": "night"
+        }
+      ],
+      "prompt": "Relaciona cada actividad con su hora o momento.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "start work=morning",
+          "have lunch=at noon",
+          "go home=afternoon",
+          "go to bed=night"
+        ],
+        "expected_pairs": [
+          {
+            "english": "start work",
+            "spanish": "morning"
+          },
+          {
+            "english": "have lunch",
+            "spanish": "at noon"
+          },
+          {
+            "english": "go home",
+            "spanish": "afternoon"
+          },
+          {
+            "english": "go to bed",
+            "spanish": "night"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_form",
+      "skill": "listening",
+      "instruction": "Escucha el horario y completa inicio y final del trabajo.",
+      "audio_text": "I start work at nine and finish at five.",
+      "fields": [
+        {
+          "label": "start",
+          "answer": "nine"
+        },
+        {
+          "label": "finish",
+          "answer": "five"
+        }
+      ],
+      "feedback": "Start indica cuándo comienza y finish cuándo termina.",
+      "prompt": "Escucha el horario y completa inicio y final del trabajo.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "nine",
+          "five"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Start indica cuándo comienza y finish cuándo termina.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I have lunch ___ noon.",
+      "options": [
+        "at",
+        "in",
+        "on"
+      ],
+      "correct": "at",
+      "feedback": "La expresión fija es at noon.",
+      "prompt": "Completa: I have lunch ___ noon.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "at"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La expresión fija es at noon.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: work / from / to / nine / five / I / .",
+      "answer": "I work from nine to five.",
+      "feedback": "From y to expresan el intervalo horario.",
+      "prompt": "Ordena: work / from / to / nine / five / I / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I work from nine to five."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "From y to expresan el intervalo horario.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I go to home at six.",
+      "answer": "I go home at six.",
+      "feedback": "Go home no lleva to.",
+      "prompt": "Corrige: I go to home at six.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I go home at six."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Go home no lleva to.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Di tu horario de trabajo o estudio con tres horas.",
+      "target": "I start at ... I have lunch at ... I finish at ...",
+      "evaluation": {
+        "0": "horas claras",
+        "1": "at audible",
+        "2": "secuencia comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I start at ... I have lunch at ... I finish at ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Omar's Workday y responde: When does Omar go to bed?",
+      "text_reference": "reading",
+      "answer": "He usually goes to bed at ten.",
+      "feedback": "La última oración da la hora.",
+      "prompt": "Lee Omar's Workday y responde: When does Omar go to bed?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He usually goes to bed at ten."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La última oración da la hora.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero de trabajo. Comparen horarios y encuentren un momento libre en común.",
+      "scenario": "Comparing schedules to plan a meeting.",
+      "ai_language": "English; confirm times explicitly",
+      "prompt": "La IA será un compañero de trabajo. Comparen horarios y encuentren un momento libre en común.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea un horario de día laboral o de estudio con ocho actividades y horas. Grábalo como mensaje para un compañero.",
+      "success_criteria": [
+        "usa al menos seis actividades",
+        "usa at correctamente",
+        "incluye start/finish o from/to",
+        "mensaje claro"
+      ],
+      "prompt": "Crea un horario de día laboral o de estudio con ocho actividades y horas. Grábalo como mensaje para un compañero.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: start work ___ nine; lunch ___ noon; go ___; go to ___ .",
+      "answers": [
+        "at",
+        "at",
+        "home",
+        "bed"
+      ],
+      "prompt": "Completa: start work ___ nine; lunch ___ noon; go ___; go to ___ .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "at",
+          "at",
+          "home",
+          "bed"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "decir horarios",
+      "usar at y from/to",
+      "describir una jornada completa"
+    ],
+    "retry": "Si confundes go home y go to bed, asocia cada expresión con su actividad final del día."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T04-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

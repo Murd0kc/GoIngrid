@@ -1,0 +1,430 @@
+{
+  "id": "A1-M3-T07-L02",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T07",
+  "title": "Pedir direcciones",
+  "estimated_seconds": 930,
+  "communication_goal": "Pedir indicaciones básicas para llegar a un lugar.",
+  "situation": "Estás en una ciudad nueva y necesitas llegar a una estación, hotel o lugar público.",
+  "language_focus": {
+    "grammar": [
+      "How do I get to...?",
+      "Where is...?",
+      "go straight",
+      "turn left/right",
+      "at the corner",
+      "on your left/right"
+    ],
+    "function": "asking for directions"
+  },
+  "vocabulary": [
+    {
+      "word": "go straight",
+      "meaning_es": "seguir derecho",
+      "example": "Go straight for two blocks."
+    },
+    {
+      "word": "turn left",
+      "meaning_es": "girar a la izquierda",
+      "example": "Turn left at the corner."
+    },
+    {
+      "word": "turn right",
+      "meaning_es": "girar a la derecha",
+      "example": "Turn right after the bank."
+    },
+    {
+      "word": "corner",
+      "meaning_es": "esquina",
+      "example": "The cafe is on the corner."
+    },
+    {
+      "word": "block",
+      "meaning_es": "cuadra",
+      "example": "Walk two blocks."
+    },
+    {
+      "word": "crosswalk",
+      "meaning_es": "paso de peatones",
+      "example": "Use the crosswalk."
+    }
+  ],
+  "context": {
+    "title": "Finding the train station",
+    "dialogue": [
+      {
+        "speaker": "Traveler",
+        "english": "Excuse me. How do I get to the train station?",
+        "spanish": "Disculpe. ¿Cómo llego a la estación de tren?"
+      },
+      {
+        "speaker": "Local",
+        "english": "Go straight for two blocks.",
+        "spanish": "Siga derecho dos cuadras."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "Do I turn left or right?",
+        "spanish": "¿Giro a la izquierda o a la derecha?"
+      },
+      {
+        "speaker": "Local",
+        "english": "Turn right at the bank. The station is on your left.",
+        "spanish": "Gire a la derecha en el banco. La estación está a su izquierda."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "Thank you. Is it far?",
+        "spanish": "Gracias. ¿Está lejos?"
+      },
+      {
+        "speaker": "Local",
+        "english": "No, it is very close.",
+        "spanish": "No, está muy cerca."
+      }
+    ]
+  },
+  "explanation_es": "Para pedir direcciones usa How do I get to + lugar? Las indicaciones básicas son Go straight, Turn left y Turn right. Añade distancia con for two blocks y ubicación final con on your left/right. At the corner indica el punto donde debes girar.",
+  "spanish_speaker_notes": [
+    "How do I get to...? pregunta cómo llegar, no cómo obtienes el lugar literalmente.",
+    "Go straight es sigue derecho; straight no significa recto como adjetivo en esta frase.",
+    "At the bank indica el punto de referencia para girar.",
+    "On your left significa a tu izquierda, no encima de tu izquierda."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "How do I get to the train station?",
+        "focus": "how do I get to"
+      },
+      {
+        "text": "Go straight for two blocks.",
+        "focus": "straight y blocks"
+      },
+      {
+        "text": "Turn right at the bank.",
+        "focus": "turn right"
+      }
+    ],
+    "tip_es": "Acompaña cada indicación con un gesto o un mapa para fijar izquierda y derecha."
+  },
+  "reading": {
+    "title": "Walking to the station",
+    "text": "A traveler asks how to get to the train station. She goes straight for two blocks, turns right at the bank and sees the station on her left. The station is close to the bank.",
+    "glossary": [
+      {
+        "term": "train station",
+        "meaning_es": "estación de tren"
+      },
+      {
+        "term": "walking",
+        "meaning_es": "caminando"
+      },
+      {
+        "term": "close",
+        "meaning_es": "cerca"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "direction_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada instrucción con su significado.",
+      "pairs": [
+        {
+          "english": "go straight",
+          "spanish": "seguir derecho"
+        },
+        {
+          "english": "turn left",
+          "spanish": "girar izquierda"
+        },
+        {
+          "english": "turn right",
+          "spanish": "girar derecha"
+        },
+        {
+          "english": "two blocks",
+          "spanish": "dos cuadras"
+        }
+      ],
+      "prompt": "Relaciona cada instrucción con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "go straight=seguir derecho",
+          "turn left=girar izquierda",
+          "turn right=girar derecha",
+          "two blocks=dos cuadras"
+        ],
+        "expected_pairs": [
+          {
+            "english": "go straight",
+            "spanish": "seguir derecho"
+          },
+          {
+            "english": "turn left",
+            "spanish": "girar izquierda"
+          },
+          {
+            "english": "turn right",
+            "spanish": "girar derecha"
+          },
+          {
+            "english": "two blocks",
+            "spanish": "dos cuadras"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_order",
+      "skill": "listening",
+      "instruction": "Escucha y ordena las indicaciones.",
+      "audio_text": "Go straight, turn right at the bank, and the station is on your left.",
+      "sequence": [
+        "go straight",
+        "turn right at the bank",
+        "station on your left"
+      ],
+      "feedback": "Sigue la secuencia desde el punto de partida hasta el destino.",
+      "prompt": "Escucha y ordena las indicaciones.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "go straight > turn right at the bank > station on your left"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Sigue la secuencia desde el punto de partida hasta el destino.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: How do I get ___ the station?",
+      "options": [
+        "to",
+        "at",
+        "in"
+      ],
+      "correct": "to",
+      "feedback": "La expresión es get to + destino.",
+      "prompt": "Completa: How do I get ___ the station?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "to"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La expresión es get to + destino.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: left / turn / at / corner / the / .",
+      "answer": "Turn left at the corner.",
+      "feedback": "La indicación combina acción y punto de referencia.",
+      "prompt": "Ordena: left / turn / at / corner / the / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Turn left at the corner."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La indicación combina acción y punto de referencia.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: Go straight two blocks and turn in right.",
+      "answer": "Go straight for two blocks and turn right.",
+      "feedback": "Usa for con distancia y turn right sin in.",
+      "prompt": "Corrige: Go straight two blocks and turn in right.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Go straight for two blocks and turn right."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usa for con distancia y turn right sin in.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Da tres indicaciones para llegar a un lugar ficticio.",
+      "target": "Go straight for ... Turn left/right at ... It is on your ...",
+      "evaluation": {
+        "0": "direcciones claras",
+        "1": "left/right diferenciados",
+        "2": "distancia comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Go straight for ... Turn left/right at ... It is on your ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Walking to the Station y responde: Where is the station?",
+      "text_reference": "reading",
+      "answer": "It is on the traveler's left, close to the bank.",
+      "feedback": "La ubicación final se expresa con on her left.",
+      "prompt": "Lee Walking to the Station y responde: Where is the station?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It is on the traveler's left, close to the bank."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La ubicación final se expresa con on her left.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un viajero perdido. Dale indicaciones desde un lugar ficticio hasta una estación o hotel.",
+      "scenario": "Helping a traveler find a destination.",
+      "ai_language": "English; ask the traveler to repeat the route",
+      "prompt": "La IA será un viajero perdido. Dale indicaciones desde un lugar ficticio hasta una estación o hotel.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea un mapa con cinco lugares y graba una ruta de cuatro pasos entre dos de ellos.",
+      "success_criteria": [
+        "usa go straight",
+        "usa left y right",
+        "incluye distancia o referencia",
+        "ruta comprensible"
+      ],
+      "prompt": "Crea un mapa con cinco lugares y graba una ruta de cuatro pasos entre dos de ellos.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: How do I get ___ the hotel? Go ___. Turn ___. It is on your ___.",
+      "answers": [
+        "to",
+        "straight",
+        "left/right",
+        "left/right"
+      ],
+      "prompt": "Completa: How do I get ___ the hotel? Go ___. Turn ___. It is on your ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "to",
+          "straight",
+          "left/right",
+          "left/right"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "pedir direcciones",
+      "dar una ruta de tres pasos",
+      "distinguir left y right"
+    ],
+    "retry": "Si confundes left/right, usa un mapa y señala físicamente la dirección mientras la dices."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T07-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

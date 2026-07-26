@@ -1,0 +1,455 @@
+{
+  "id": "A1-M1-T02-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T02",
+  "title": "We and they: our group",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede hablar de su grupo y de otros grupos usando we y they.",
+  "situation": "Presentar un equipo de trabajo y explicar quiénes participan en una actividad.",
+  "language_focus": [
+    "We are students.",
+    "They are our teachers.",
+    "Who are they?",
+    "We are from Colombia.",
+    "They are in the next room."
+  ],
+  "vocabulary": [
+    {
+      "term": "we",
+      "meaning_es": "nosotros / nosotras",
+      "example": "We are students."
+    },
+    {
+      "term": "they",
+      "meaning_es": "ellos / ellas",
+      "example": "They are our teachers."
+    },
+    {
+      "term": "team",
+      "meaning_es": "equipo",
+      "example": "We are a team."
+    },
+    {
+      "term": "group",
+      "meaning_es": "grupo",
+      "example": "They are a group of students."
+    },
+    {
+      "term": "together",
+      "meaning_es": "juntos",
+      "example": "We study together."
+    },
+    {
+      "term": "next room",
+      "meaning_es": "habitación / sala de al lado",
+      "example": "They are in the next room."
+    }
+  ],
+  "context": {
+    "before": "A student introduces two groups at a language school.",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "text": "Who are they?"
+      },
+      {
+        "speaker": "Student",
+        "text": "They are my classmates."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "And who are we?"
+      },
+      {
+        "speaker": "Student",
+        "text": "We are the beginner English class."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Great. We are a team."
+      }
+    ]
+  },
+  "explanation_es": "We incluye a la persona que habla y a una o más personas. They habla de otras personas que no están incluidas en we. Ambos pronombres pueden referirse a grupos de hombres, mujeres o grupos mixtos.",
+  "spanish_speaker_notes": [
+    "We no significa solamente 'nosotros' como traducción fija; incluye al hablante y puede incluir al oyente.",
+    "They puede traducirse como ellos o ellas, pero no distingue género en inglés.",
+    "No confundas we /wiː/ con el sonido inicial de palabras como very; practica la frase completa."
+  ],
+  "pronunciation": {
+    "target": "Distinguir we y they y producir grupos de palabras sin separar cada palabra excesivamente.",
+    "models": [
+      {
+        "text": "we",
+        "ipa": "/wiː/"
+      },
+      {
+        "text": "they",
+        "ipa": "/ðeɪ/"
+      },
+      {
+        "text": "We are a team.",
+        "stress": [
+          "We",
+          "team"
+        ]
+      },
+      {
+        "text": "They are my classmates.",
+        "stress": [
+          "They",
+          "classmates"
+        ]
+      }
+    ],
+    "student_feedback": "En they, coloca suavemente la lengua entre los dientes para el sonido /ð/; no lo reemplaces siempre por /d/."
+  },
+  "reading": {
+    "title": "Two groups at school",
+    "text": "We are in an English class. We study together and practice every day. They are the advanced class. They study in the next room. We are beginners, but we are a team.",
+    "interactive_vocabulary": [
+      "practice",
+      "advanced",
+      "beginners",
+      "together",
+      "every day"
+    ],
+    "questions": [
+      {
+        "prompt": "Who studies in the next room?",
+        "options": [
+          "The advanced class",
+          "The beginners",
+          "The teacher only"
+        ],
+        "answer": "The advanced class"
+      },
+      {
+        "prompt": "What does we refer to in the text?",
+        "options": [
+          "The speakers and their class",
+          "The advanced class",
+          "A room"
+        ],
+        "answer": "The speakers and their class"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T02-L03-E01",
+      "type": "group_map",
+      "skill": "vocabulary",
+      "instruction": "Clasifica quién está incluido en we y quién está fuera del grupo.",
+      "items": [
+        {
+          "text": "me + my classmates",
+          "category": "we"
+        },
+        {
+          "text": "other students",
+          "category": "they"
+        },
+        {
+          "text": "me + my friend",
+          "category": "we"
+        },
+        {
+          "text": "the people in the next room",
+          "category": "they"
+        }
+      ],
+      "categories": [
+        "we",
+        "they"
+      ],
+      "feedback_correct": "We incluye al hablante; they se refiere a otro grupo.",
+      "feedback_incorrect": "Pregunta: ¿el hablante está dentro del grupo? Si sí, usa we.",
+      "estimated_seconds": 70,
+      "prompt": "Clasifica quién está incluido en we y quién está fuera del grupo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "me + my classmates=we",
+          "other students=they",
+          "me + my friend=we",
+          "the people in the next room=they"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E02",
+      "type": "listening_identification",
+      "skill": "listening",
+      "instruction": "Escucha y elige qué grupo se menciona.",
+      "prompt": "They are my classmates.",
+      "options": [
+        "Other classmates",
+        "The speaker alone",
+        "An object"
+      ],
+      "correct_answer": "Other classmates",
+      "feedback_correct": "They señala a personas distintas del hablante.",
+      "feedback_incorrect": "They habla de un grupo que no incluye al hablante.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Other classmates"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase sobre tu propio grupo.",
+      "prompt": "___ are a team.",
+      "options": [
+        "We",
+        "They",
+        "It"
+      ],
+      "correct_answer": "We",
+      "feedback_correct": "We incluye a la persona que habla y a su grupo.",
+      "feedback_incorrect": "La frase habla del grupo del hablante: We.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "We"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E04",
+      "type": "dialogue_ordering",
+      "skill": "interaction",
+      "instruction": "Ordena la respuesta.",
+      "tokens": [
+        "They",
+        "are",
+        "my",
+        "classmates."
+      ],
+      "correct_answer": "They are my classmates.",
+      "feedback_correct": "La frase identifica a otro grupo.",
+      "feedback_incorrect": "Empieza con They y coloca are antes de my classmates.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la respuesta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They are my classmates."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E05",
+      "type": "question_answer_match",
+      "skill": "interaction",
+      "instruction": "Relaciona cada pregunta con una respuesta posible.",
+      "pairs": [
+        {
+          "question": "Who are we?",
+          "answer": "We are the beginner class."
+        },
+        {
+          "question": "Who are they?",
+          "answer": "They are the advanced class."
+        }
+      ],
+      "feedback_correct": "La pregunta y el pronombre mantienen el mismo grupo de referencia.",
+      "feedback_incorrect": "Who are we? pide identificar nuestro grupo; Who are they? pide identificar otro grupo.",
+      "estimated_seconds": 65,
+      "prompt": "Relaciona cada pregunta con una respuesta posible.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "expected_pairs": [
+          {
+            "question": "Who are we?",
+            "answer": "We are the beginner class."
+          },
+          {
+            "question": "Who are they?",
+            "answer": "They are the advanced class."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba las dos frases y practica el contraste.",
+      "prompt": "We are a team. They are my classmates.",
+      "evaluation": {
+        "0": "we/they contrast",
+        "1": "th sound in they",
+        "2": "sentence rhythm",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Se entiende quién pertenece a cada grupo.",
+      "feedback_incorrect": "Practica they con la lengua entre los dientes y we con /wiː/.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee y marca el grupo al que se refiere cada we y they.",
+      "reading_ref": "A1-M1-T02-L03-reading-01",
+      "correct_answer": "2 comprehension answers and group references",
+      "feedback_correct": "Seguiste la referencia de los grupos a lo largo del texto.",
+      "feedback_incorrect": "We incluye a quien habla; they señala al grupo avanzado.",
+      "estimated_seconds": 125,
+      "prompt": "Lee y marca el grupo al que se refiere cada we y they.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and group references"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es una visitante de tu escuela. Presenta tu grupo y otro grupo que está cerca.",
+      "role": "visitor",
+      "student_goal": "Use we for your group and they for another group.",
+      "allowed_support": [
+        "group cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "describes own group with we",
+        "describes another group with they",
+        "answers Who are we/they?"
+      ],
+      "feedback_correct": "Explicaste claramente la diferencia entre tu grupo y otro grupo.",
+      "feedback_incorrect": "Usa: We are... / They are... / Who are they?",
+      "estimated_seconds": 180,
+      "prompt": "La IA es una visitante de tu escuela. Presenta tu grupo y otro grupo que está cerca.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Presenta tu equipo de trabajo o estudio y menciona a otro equipo.",
+      "prompt": "We are ____. They are ____. We work/study together.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses we for own group",
+        "uses they for another group",
+        "communicates two group facts"
+      ],
+      "feedback_correct": "Usaste los pronombres para organizar información social real.",
+      "feedback_incorrect": "Comprueba quién está dentro de tu grupo y quién está fuera antes de elegir el pronombre.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    },
+    {
+      "id": "A1-M1-T02-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "___ are a team.",
+        "___ are in the next room.",
+        "Who are ___?"
+      ],
+      "correct_answers": [
+        "We",
+        "They",
+        "they"
+      ],
+      "feedback_correct": "Recuperaste we y they según la situación.",
+      "feedback_incorrect": "We incluye al hablante; they habla de otro grupo.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "We",
+          "They",
+          "they"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T02-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

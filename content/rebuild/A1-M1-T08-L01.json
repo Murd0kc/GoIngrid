@@ -1,0 +1,176 @@
+{
+  "id": "A1-M1-T08-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T08",
+  "title": "This or that?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede señalar y describir un objeto cercano o lejano usando this y that.",
+  "situation": "Preguntar por objetos en una tienda y distinguir los que están cerca de los que están al fondo.",
+  "language_focus": ["What is this?", "This is a phone.", "What is that?", "That is a lamp.", "This book is new.", "That bag is blue."],
+  "vocabulary": [
+    { "term": "this", "meaning_es": "este / esta / esto", "example": "What is this?" },
+    { "term": "that", "meaning_es": "ese / esa / eso", "example": "What is that?" },
+    { "term": "phone", "meaning_es": "teléfono", "example": "This is a phone." },
+    { "term": "lamp", "meaning_es": "lámpara", "example": "That is a lamp." },
+    { "term": "near", "meaning_es": "cerca", "example": "This bag is near me." },
+    { "term": "far", "meaning_es": "lejos", "example": "That lamp is far away." }
+  ],
+  "context": {
+    "before": "A customer asks about objects in a home goods store.",
+    "dialogue": [
+      { "speaker": "Customer", "text": "What is this?" },
+      { "speaker": "Assistant", "text": "This is a small phone case." },
+      { "speaker": "Customer", "text": "And what is that over there?" },
+      { "speaker": "Assistant", "text": "That is a lamp. It is near the window." },
+      { "speaker": "Customer", "text": "I like this case, but I need that lamp." }
+    ]
+  },
+  "explanation_es": "This señala un objeto singular cerca del hablante. That señala un objeto singular más lejos. Ambos pueden ir antes del sustantivo o funcionar solos: this phone, What is that?.",
+  "spanish_speaker_notes": [
+    "La distancia puede ser física o parte de la atención compartida.",
+    "This y that son singulares; más adelante veremos these y those para plural.",
+    "No confundas this con these: this phone, these phones."
+  ],
+  "pronunciation": {
+    "target": "Distinguir this y that y producir el sonido /ð/ de forma comprensible.",
+    "models": [
+      { "text": "this", "ipa": "/ðɪs/" },
+      { "text": "that", "ipa": "/ðæt/" },
+      { "text": "What is this?", "stress": ["what", "this"], "intonation": "rising" },
+      { "text": "That is a lamp.", "stress": ["that", "lamp"] }
+    ],
+    "student_feedback": "Coloca suavemente la lengua entre los dientes para el sonido inicial de this y that."
+  },
+  "reading": {
+    "title": "In the store",
+    "text": "This is a small store. A phone case is near the customer. That lamp is at the back of the store. This case is new, but that lamp is old. The customer likes this case and looks at that lamp.",
+    "interactive_vocabulary": ["store", "phone case", "at the back", "customer", "looks at"],
+    "questions": [
+      { "prompt": "Which object is near the customer?", "options": ["The phone case", "The lamp", "The store"], "answer": "The phone case" },
+      { "prompt": "Where is the lamp?", "options": ["At the back of the store", "In the customer's hand", "Near the door"], "answer": "At the back of the store" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T08-L01-E01",
+      "type": "distance_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica la referencia como cerca o lejos.",
+      "items": [{ "text": "the phone in your hand", "category": "this" }, { "text": "the lamp across the room", "category": "that" }, { "text": "the book on your desk", "category": "this" }, { "text": "the sign at the end of the hall", "category": "that" }],
+      "categories": ["this", "that"],
+      "feedback_correct": "Relacionaste el demostrativo con la distancia o atención.",
+      "feedback_incorrect": "Cerca del hablante = this; más lejos = that.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T08-L01-E02",
+      "type": "listening_pointing",
+      "skill": "listening",
+      "instruction": "Escucha y elige el objeto señalado.",
+      "prompt": "That is a lamp.",
+      "options": ["The distant lamp", "The nearby phone", "A chair in your hand"],
+      "correct_answer": "The distant lamp",
+      "feedback_correct": "That señala un objeto más lejano.",
+      "feedback_incorrect": "Escucha that y relaciónalo con el objeto al fondo.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T08-L01-E03",
+      "type": "demonstrative_choice",
+      "skill": "grammar",
+      "instruction": "Completa según la distancia.",
+      "prompt": "___ is my phone. It is in my hand.",
+      "options": ["This", "That", "Those"],
+      "correct_answer": "This",
+      "feedback_correct": "El teléfono está cerca: This is my phone.",
+      "feedback_incorrect": "Un objeto singular cerca usa this.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T08-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la pregunta.",
+      "tokens": ["What", "is", "that?"],
+      "correct_answer": "What is that?",
+      "feedback_correct": "La pregunta señala un objeto lejano o fuera de alcance.",
+      "feedback_incorrect": "Usa What is + that?.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T08-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el demostrativo.",
+      "prompt": "That is my phone. (The phone is in my hand.)",
+      "correct_answer": "This is my phone.",
+      "feedback_correct": "El teléfono está cerca, por eso usamos this.",
+      "feedback_incorrect": "Cambia that por this porque el objeto está en la mano.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T08-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta sobre un objeto cercano y otra sobre uno lejano.",
+      "prompt": "What is this? What is that?",
+      "evaluation": ["this/that contrast", "th sound", "question intonation"],
+      "feedback_correct": "La distancia y los dos demostrativos se entienden.",
+      "feedback_incorrect": "Practica el sonido /ð/ y enfatiza this y that.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T08-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la tienda y marca qué objetos están cerca y cuáles lejos.",
+      "reading_ref": "A1-M1-T08-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 3 distance references",
+      "feedback_correct": "Seguiste los demostrativos dentro de una escena.",
+      "feedback_incorrect": "El case está cerca; la lamp está al fondo.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T08-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es dependiente de una tienda. Señala objetos cerca y lejos y pregunta qué son.",
+      "role": "store assistant",
+      "student_goal": "Use this and that to identify two nearby or distant objects.",
+      "allowed_support": ["store picture", "pointing mode", "sentence starter", "Spanish hint"],
+      "success_criteria": ["asks What is this?", "asks What is that?", "identifies two objects"],
+      "feedback_correct": "Usaste demostrativos para orientar la atención del interlocutor.",
+      "feedback_incorrect": "Objeto cercano = this; objeto lejano = that.",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T08-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Graba un recorrido breve por tu habitación señalando un objeto cerca y otro lejos.",
+      "prompt": "This is my ____. That is my ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses this for a nearby item", "uses that for a distant item", "identifies both objects"],
+      "feedback_correct": "Usaste demostrativos para guiar la atención en un espacio real.",
+      "feedback_incorrect": "Mira la distancia: en tu mano o cerca = this; al fondo = that.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T08-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["near object = ___", "distant object = ___", "___ is my phone. (in my hand)"],
+      "correct_answers": ["this", "that", "This"],
+      "feedback_correct": "Recuperaste this y that según la distancia.",
+      "feedback_incorrect": "Cerca = this; lejos = that.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

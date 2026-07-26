@@ -1,0 +1,176 @@
+{
+  "id": "A1-M1-T09-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T09",
+  "title": "What is in the room?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede decir qué hay en un espacio usando there is y there are.",
+  "situation": "Describir una habitación a una persona que llega por primera vez.",
+  "language_focus": ["There is a table.", "There is an armchair.", "There are two chairs.", "There are books on the shelf.", "There is a window."],
+  "vocabulary": [
+    { "term": "there is", "meaning_es": "hay / existe uno", "example": "There is a table." },
+    { "term": "there are", "meaning_es": "hay / existen varios", "example": "There are two chairs." },
+    { "term": "armchair", "meaning_es": "sillón", "example": "There is an armchair." },
+    { "term": "shelf", "meaning_es": "estante", "example": "There are books on the shelf." },
+    { "term": "window", "meaning_es": "ventana", "example": "There is a window." },
+    { "term": "room", "meaning_es": "habitación / sala", "example": "The room is small." }
+  ],
+  "context": {
+    "before": "A host describes a guest room before someone arrives.",
+    "dialogue": [
+      { "speaker": "Guest", "text": "What's in the room?" },
+      { "speaker": "Host", "text": "There is a table and an armchair." },
+      { "speaker": "Guest", "text": "Are there any chairs?" },
+      { "speaker": "Host", "text": "Yes, there are two chairs near the window." },
+      { "speaker": "Guest", "text": "Great. Is there a shelf?" },
+      { "speaker": "Host", "text": "Yes, there is. There are some books on it." }
+    ]
+  },
+  "explanation_es": "There is presenta una cosa: There is a table. There are presenta varias: There are two chairs. La expresión describe qué existe o se encuentra en un lugar; no es igual que usar there como ubicación.",
+  "spanish_speaker_notes": [
+    "No digas There have para expresar hay; usa there is o there are.",
+    "Elige is o are según el sustantivo que aparece después, no según el lugar.",
+    "Con singular usamos a/an: There is a chair; con plural no usamos a/an: There are two chairs."
+  ],
+  "pronunciation": {
+    "target": "Distinguir there is y there are y producir la estructura con ritmo natural.",
+    "models": [
+      { "text": "There is a table.", "stress": ["table"] },
+      { "text": "There are two chairs.", "stress": ["two", "chairs"] },
+      { "text": "Is there a shelf?", "intonation": "rising" },
+      { "text": "Are there any chairs?", "intonation": "rising" }
+    ],
+    "student_feedback": "Haz audible la diferencia entre is y are, especialmente antes de la palabra importante."
+  },
+  "reading": {
+    "title": "The guest room",
+    "text": "There is a small table in the guest room. There is an armchair next to the window. There are two chairs near the door. There are books on a shelf. The room is simple and comfortable.",
+    "interactive_vocabulary": ["guest room", "next to", "near", "door", "simple", "comfortable"],
+    "questions": [
+      { "prompt": "What is next to the window?", "options": ["An armchair", "Two chairs", "A shelf"], "answer": "An armchair" },
+      { "prompt": "How many chairs are near the door?", "options": ["Two", "One", "Three"], "answer": "Two" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T09-L01-E01",
+      "type": "room_inventory",
+      "skill": "vocabulary",
+      "instruction": "Clasifica qué objetos aparecen uno o varios.",
+      "items": [{ "text": "a table", "category": "there is" }, { "text": "an armchair", "category": "there is" }, { "text": "two chairs", "category": "there are" }, { "text": "books", "category": "there are" }],
+      "categories": ["there is", "there are"],
+      "feedback_correct": "Relacionaste la cantidad con is o are.",
+      "feedback_incorrect": "Uno = there is; más de uno = there are.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T09-L01-E02",
+      "type": "listening_room_map",
+      "skill": "listening",
+      "instruction": "Escucha y coloca el objeto en el mapa.",
+      "prompt": "There are two chairs near the door.",
+      "correct_answer": "two chairs near the door",
+      "feedback_correct": "Entendiste cantidad, objeto y ubicación.",
+      "feedback_incorrect": "Busca two chairs y near the door.",
+      "estimated_seconds": 60
+    },
+    {
+      "id": "A1-M1-T09-L01-E03",
+      "type": "there_choice",
+      "skill": "grammar",
+      "instruction": "Completa la descripción.",
+      "prompt": "___ an armchair near the window.",
+      "options": ["There is", "There are", "It is"],
+      "correct_answer": "There is",
+      "feedback_correct": "Armchair es singular: There is an armchair.",
+      "feedback_incorrect": "Una cosa singular usa there is.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T09-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": ["There", "are", "books", "on", "the", "shelf."],
+      "correct_answer": "There are books on the shelf.",
+      "feedback_correct": "There are presenta varios libros.",
+      "feedback_incorrect": "Usa There are antes del sustantivo plural.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T09-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la estructura.",
+      "prompt": "There have two chairs.",
+      "correct_answer": "There are two chairs.",
+      "feedback_correct": "Para expresar existencia usamos there are.",
+      "feedback_incorrect": "Cambia have por are: There are two chairs.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T09-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe tu habitación con una cosa y varias cosas.",
+      "prompt": "There is a ____. There are two ____.",
+      "evaluation": ["there is/are contrast", "singular/plural clarity", "location"],
+      "feedback_correct": "La descripción distingue una cosa de varias.",
+      "feedback_incorrect": "Usa there is para uno y there are para dos o más.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T09-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el cuarto y completa un inventario de objetos y ubicaciones.",
+      "reading_ref": "A1-M1-T09-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 4 room facts",
+      "feedback_correct": "Usaste la lectura para construir el mapa de la habitación.",
+      "feedback_incorrect": "Busca table, armchair, chairs, books y sus ubicaciones.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T09-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA llega a tu habitación. Descríbele qué hay y dónde está.",
+      "role": "guest",
+      "student_goal": "Use there is and there are to describe a room with locations.",
+      "allowed_support": ["room picture", "object bank", "sentence starter", "Spanish hint"],
+      "success_criteria": ["uses there is once", "uses there are twice", "gives two locations"],
+      "feedback_correct": "Describiste un espacio de forma útil para un visitante.",
+      "feedback_incorrect": "Cuenta primero: singular = there is; plural = there are.",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T09-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Haz un tour de audio de tu espacio para una persona que llegará mañana.",
+      "prompt": "There is a ____. There are ____. The ____ is near ____. ",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses singular and plural existence", "describes two locations", "communicates clearly"],
+      "feedback_correct": "Usaste there is/are para orientar a otra persona.",
+      "feedback_incorrect": "Incluye una cosa singular, varias cosas y dos ubicaciones.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T09-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["___ a table.", "___ two chairs.", "___ books on the shelf."],
+      "correct_answers": ["There is", "There are", "There are"],
+      "feedback_correct": "Recuperaste there is y there are en contexto.",
+      "feedback_incorrect": "Uno = There is; varios = There are.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

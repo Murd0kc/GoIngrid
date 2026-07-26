@@ -1,0 +1,477 @@
+{
+  "id": "A1-M1-T03-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T03",
+  "title": "To be in real situations",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede describir identidad, estados y ubicación usando am, is y are en una situación nueva.",
+  "situation": "Orientar a una persona en una escuela y describir quién está presente, cómo está y dónde se encuentra.",
+  "language_focus": [
+    "I am...",
+    "He/She/It is...",
+    "You/We/They are...",
+    "Where are you?",
+    "Is he ready?",
+    "Are they here?"
+  ],
+  "vocabulary": [
+    {
+      "term": "present",
+      "meaning_es": "presente",
+      "example": "Everyone is present."
+    },
+    {
+      "term": "available",
+      "meaning_es": "disponible",
+      "example": "The teacher is available."
+    },
+    {
+      "term": "busy",
+      "meaning_es": "ocupado / ocupada",
+      "example": "She is busy."
+    },
+    {
+      "term": "entrance",
+      "meaning_es": "entrada",
+      "example": "We are at the entrance."
+    },
+    {
+      "term": "hall",
+      "meaning_es": "pasillo",
+      "example": "They are in the hall."
+    },
+    {
+      "term": "meeting",
+      "meaning_es": "reunión",
+      "example": "The meeting is ready."
+    }
+  ],
+  "context": {
+    "before": "A new student arrives at a language school and asks where everyone is.",
+    "dialogue": [
+      {
+        "speaker": "Student",
+        "text": "Hi, I'm new. Where are we?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "We are at the language school. You are in Room 2."
+      },
+      {
+        "speaker": "Student",
+        "text": "Is the teacher here?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "Yes, she is in the hall. She is available."
+      },
+      {
+        "speaker": "Student",
+        "text": "Are the other students here?"
+      },
+      {
+        "speaker": "Guide",
+        "text": "Yes, they are in the classroom. It is ready for the lesson."
+      }
+    ]
+  },
+  "explanation_es": "Con I usamos am; con he, she e it usamos is; con you, we y they usamos are. Estas formas sirven para identidad, estados, ubicación y preguntas.",
+  "spanish_speaker_notes": [
+    "La elección depende del sujeto, no del sustantivo que aparece después.",
+    "No traduzcas literalmente 'está disponible' como has available; usa is available.",
+    "En preguntas, am/is/are se coloca antes del sujeto: Is she here? Are they ready?"
+  ],
+  "pronunciation": {
+    "target": "Usar am, is y are con ritmo comprensible en afirmaciones y preguntas.",
+    "models": [
+      {
+        "text": "I'm new.",
+        "stress": [
+          "new"
+        ]
+      },
+      {
+        "text": "She is available.",
+        "stress": [
+          "available"
+        ]
+      },
+      {
+        "text": "They are in the classroom.",
+        "stress": [
+          "classroom"
+        ]
+      },
+      {
+        "text": "Are they here?",
+        "intonation": "rising"
+      }
+    ],
+    "student_feedback": "No necesitas sonar nativo; debes hacer reconocible el sujeto y la forma de to be."
+  },
+  "reading": {
+    "title": "At the language school",
+    "text": "I am new at the language school. We are at the entrance. The guide is friendly and she is available. The teacher is in the hall. She is ready. The other students are in Room 2. They are present and the classroom is ready.",
+    "interactive_vocabulary": [
+      "entrance",
+      "guide",
+      "friendly",
+      "available",
+      "present"
+    ],
+    "questions": [
+      {
+        "prompt": "Where are the speakers?",
+        "options": [
+          "At a language school",
+          "At a hotel",
+          "At an airport"
+        ],
+        "answer": "At a language school"
+      },
+      {
+        "prompt": "Where are the other students?",
+        "options": [
+          "In Room 2",
+          "At the entrance",
+          "In the hall only"
+        ],
+        "answer": "In Room 2"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T03-L04-E01",
+      "type": "am_is_are_map",
+      "skill": "grammar",
+      "instruction": "Relaciona cada sujeto con la forma correcta.",
+      "pairs": [
+        {
+          "subject": "I",
+          "verb": "am"
+        },
+        {
+          "subject": "he/she/it",
+          "verb": "is"
+        },
+        {
+          "subject": "you/we/they",
+          "verb": "are"
+        }
+      ],
+      "feedback_correct": "Ya puedes elegir la forma por el sujeto.",
+      "feedback_incorrect": "I = am; he/she/it = is; you/we/they = are.",
+      "estimated_seconds": 60,
+      "prompt": "Relaciona cada sujeto con la forma correcta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I=am",
+          "he/she/it=is",
+          "you/we/they=are"
+        ],
+        "expected_pairs": [
+          {
+            "subject": "I",
+            "verb": "am"
+          },
+          {
+            "subject": "he/she/it",
+            "verb": "is"
+          },
+          {
+            "subject": "you/we/they",
+            "verb": "are"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E02",
+      "type": "listening_global",
+      "skill": "listening",
+      "instruction": "Escucha la conversación y elige el lugar principal.",
+      "prompt": "A new student asks where everyone is at a language school.",
+      "options": [
+        "A language school",
+        "A restaurant",
+        "A train station"
+      ],
+      "correct_answer": "A language school",
+      "feedback_correct": "Comprendiste la situación general.",
+      "feedback_incorrect": "Escucha las palabras teacher, classroom y lesson.",
+      "estimated_seconds": 60,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "A language school"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E03",
+      "type": "mixed_choice",
+      "skill": "grammar",
+      "instruction": "Elige am, is o are en cada frase.",
+      "items": [
+        {
+          "prompt": "I ___ new.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "am"
+        },
+        {
+          "prompt": "She ___ available.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "is"
+        },
+        {
+          "prompt": "They ___ present.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "are"
+        }
+      ],
+      "feedback_correct": "Elegiste las tres formas según el sujeto.",
+      "feedback_incorrect": "Mira el sujeto antes de escoger: I, she o they.",
+      "estimated_seconds": 75,
+      "prompt": "Elige am, is o are en cada frase.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "am",
+          "is",
+          "are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E04",
+      "type": "question_builder",
+      "skill": "interaction",
+      "instruction": "Ordena la pregunta para saber si el profesor está presente.",
+      "tokens": [
+        "Is",
+        "the",
+        "teacher",
+        "here?"
+      ],
+      "correct_answer": "Is the teacher here?",
+      "feedback_correct": "En preguntas con to be, el verbo va antes del sujeto.",
+      "feedback_incorrect": "Empieza con Is y coloca the teacher después.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena la pregunta para saber si el profesor está presente.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Is the teacher here?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la frase.",
+      "prompt": "They is in Room 2.",
+      "correct_answer": "They are in Room 2.",
+      "feedback_correct": "They siempre usa are.",
+      "feedback_incorrect": "Con they usamos are: They are in Room 2.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They are in Room 2."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una mini orientación con una frase para cada forma.",
+      "prompt": "I'm new. She is available. They are in Room 2.",
+      "evaluation": {
+        "0": "am/is/are contrast",
+        "1": "subject clarity",
+        "2": "location intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Las tres formas de to be se entienden en contexto.",
+      "feedback_incorrect": "Practica primero el sujeto y luego la forma: I-am, she-is, they-are.",
+      "estimated_seconds": 110,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y extrae una frase con am, una con is y una con are.",
+      "reading_ref": "A1-M1-T03-L04-reading-01",
+      "correct_answer": "3 sentences representing am/is/are",
+      "feedback_correct": "Encontraste las tres formas dentro de una lectura real.",
+      "feedback_incorrect": "Busca una frase sobre el hablante, una sobre una persona y una sobre un grupo.",
+      "estimated_seconds": 135,
+      "prompt": "Lee el texto y extrae una frase con am, una con is y una con are.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "3 sentences representing am/is/are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es un estudiante nuevo. Oriéntalo por la escuela y responde preguntas con am, is y are.",
+      "role": "new student",
+      "student_goal": "Describe yourself, a person, an object and groups using all relevant forms of to be.",
+      "allowed_support": [
+        "school map",
+        "sentence starter",
+        "Spanish hint",
+        "slow mode"
+      ],
+      "success_criteria": [
+        "uses am for self",
+        "uses is for a person or object",
+        "uses are for a group",
+        "answers one question"
+      ],
+      "feedback_correct": "Orientaste a la persona combinando identidad, estado y ubicación.",
+      "feedback_incorrect": "Organiza tu respuesta: I am... / He or she is... / They are...",
+      "estimated_seconds": 230,
+      "prompt": "La IA es un estudiante nuevo. Oriéntalo por la escuela y responde preguntas con am, is y are.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: describe una escena nueva y responde tres preguntas de la IA.",
+      "prompt": "Say who you are, where you are, who is there, and where another group is.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "selects am/is/are correctly",
+        "communicates identity and location",
+        "answers questions understandably",
+        "uses at least one contraction"
+      ],
+      "feedback_correct": "Demostraste control funcional de am, is y are.",
+      "feedback_incorrect": "Identifica el sujeto antes de elegir la forma de to be.",
+      "estimated_seconds": 250,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    },
+    {
+      "id": "A1-M1-T03-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el mapa final sin mirar.",
+      "prompts": [
+        "I ___",
+        "he/she/it ___",
+        "you/we/they ___"
+      ],
+      "correct_answers": [
+        "am",
+        "is",
+        "are"
+      ],
+      "feedback_correct": "Recuperaste la regla central de to be.",
+      "feedback_incorrect": "Repite la secuencia: I am; he/she/it is; you/we/they are.",
+      "estimated_seconds": 90,
+      "prompt": "Completa el mapa final sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "am",
+          "is",
+          "are"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante elige y produce am, is y are en una situación nueva con al menos 80% de precisión y comprensión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T03-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

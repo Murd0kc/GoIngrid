@@ -1,0 +1,430 @@
+{
+  "id": "A1-M3-T02-L02",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T02",
+  "title": "Describir a familiares",
+  "estimated_seconds": 930,
+  "communication_goal": "Describir familiares con edad, profesión, personalidad y acciones cotidianas básicas.",
+  "situation": "Respondes preguntas sobre tu familia y comparas a dos personas.",
+  "language_focus": {
+    "grammar": [
+      "He/She is...",
+      "He/She works...",
+      "He/She likes...",
+      "His/Her...",
+      "Who does he/she...?"
+    ],
+    "function": "describing family members"
+  },
+  "vocabulary": [
+    {
+      "word": "kind",
+      "meaning_es": "amable",
+      "example": "My sister is kind."
+    },
+    {
+      "word": "funny",
+      "meaning_es": "divertido/a",
+      "example": "My brother is funny."
+    },
+    {
+      "word": "quiet",
+      "meaning_es": "tranquilo/a",
+      "example": "My father is quiet."
+    },
+    {
+      "word": "teacher",
+      "meaning_es": "profesor/a",
+      "example": "She works as a teacher."
+    },
+    {
+      "word": "young",
+      "meaning_es": "joven",
+      "example": "My cousin is young."
+    },
+    {
+      "word": "old",
+      "meaning_es": "mayor/viejo",
+      "example": "My grandfather is old."
+    }
+  ],
+  "context": {
+    "title": "Two different siblings",
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "english": "Tell me about your sister.",
+        "spanish": "Háblame de tu hermana."
+      },
+      {
+        "speaker": "Luis",
+        "english": "Her name is Elena. She is kind and funny.",
+        "spanish": "Se llama Elena. Es amable y divertida."
+      },
+      {
+        "speaker": "Ana",
+        "english": "What does she do?",
+        "spanish": "¿A qué se dedica?"
+      },
+      {
+        "speaker": "Luis",
+        "english": "She works as a teacher. She likes reading.",
+        "spanish": "Trabaja como profesora. Le gusta leer."
+      },
+      {
+        "speaker": "Ana",
+        "english": "And your brother?",
+        "spanish": "¿Y tu hermano?"
+      },
+      {
+        "speaker": "Luis",
+        "english": "He is quiet, but he likes music.",
+        "spanish": "Es tranquilo, pero le gusta la música."
+      }
+    ]
+  },
+  "explanation_es": "Para describir a un familiar usa he o she según la persona: He is quiet; She is kind. Para hablar de algo que le pertenece usa his o her: his job, her name. En presente simple, he/she lleva s en afirmativa: She works, He likes. Para preguntar por una actividad usa What does she do? y el verbo principal queda en base.",
+  "spanish_speaker_notes": [
+    "Her name is... significa 'su nombre' cuando hablamos de una mujer.",
+    "No uses his para una mujer ni her para un hombre.",
+    "Después de does, el verbo no lleva s: What does she do?, no What does she does?.",
+    "Funny no es funny person en todos los casos; puede decirse She is funny."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Her name is Elena.",
+        "focus": "her name is"
+      },
+      {
+        "text": "She works as a teacher.",
+        "focus": "s de works"
+      },
+      {
+        "text": "What does she do?",
+        "focus": "does she do como bloque"
+      }
+    ],
+    "tip_es": "Practica cada descripción con el pronombre, el verbo y la información en tres grupos de ritmo."
+  },
+  "reading": {
+    "title": "Elena and David",
+    "text": "Elena is Luis's sister. She is kind and funny, and she works as a teacher. She likes reading. Luis's brother David is quiet. He likes music and works in a store.",
+    "glossary": [
+      {
+        "term": "different siblings",
+        "meaning_es": "hermanos diferentes"
+      },
+      {
+        "term": "store",
+        "meaning_es": "tienda"
+      },
+      {
+        "term": "kind",
+        "meaning_es": "amable"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "description_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada adjetivo con su significado.",
+      "pairs": [
+        {
+          "english": "kind",
+          "spanish": "amable"
+        },
+        {
+          "english": "funny",
+          "spanish": "divertido"
+        },
+        {
+          "english": "quiet",
+          "spanish": "tranquilo"
+        },
+        {
+          "english": "young",
+          "spanish": "joven"
+        }
+      ],
+      "prompt": "Relaciona cada adjetivo con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "kind=amable",
+          "funny=divertido",
+          "quiet=tranquilo",
+          "young=joven"
+        ],
+        "expected_pairs": [
+          {
+            "english": "kind",
+            "spanish": "amable"
+          },
+          {
+            "english": "funny",
+            "spanish": "divertido"
+          },
+          {
+            "english": "quiet",
+            "spanish": "tranquilo"
+          },
+          {
+            "english": "young",
+            "spanish": "joven"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: She works as a teacher. Elige la profesión.",
+      "audio_text": "She works as a teacher.",
+      "options": [
+        "Profesora",
+        "Enfermera",
+        "Diseñadora"
+      ],
+      "correct": "Profesora",
+      "feedback": "Works as introduce la profesión de ella.",
+      "prompt": "Escucha: She works as a teacher. Elige la profesión.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Profesora"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Works as introduce la profesión de ella.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: ___ name is Elena. (de ella)",
+      "options": [
+        "His",
+        "Her",
+        "She"
+      ],
+      "correct": "Her",
+      "feedback": "Her indica posesión de una mujer.",
+      "prompt": "Completa: ___ name is Elena. (de ella)",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Her"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Her indica posesión de una mujer.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: does / what / do / he / ?",
+      "answer": "What does he do?",
+      "feedback": "Después de does usamos el verbo base do.",
+      "prompt": "Ordena: does / what / do / he / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What does he do?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de does usamos el verbo base do.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: She work as a teacher.",
+      "answer": "She works as a teacher.",
+      "feedback": "En afirmativa, she necesita la s en works.",
+      "prompt": "Corrige: She work as a teacher.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She works as a teacher."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "En afirmativa, she necesita la s en works.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe dos familiares: She is kind. He is quiet. She works as a teacher.",
+      "target": "She is kind. He is quiet. She works as a teacher.",
+      "evaluation": {
+        "0": "he/she diferenciados",
+        "1": "adjetivos claros",
+        "2": "works audible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "She is kind. He is quiet. She works as a teacher.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Elena and David y responde: What does David like?",
+      "text_reference": "reading",
+      "answer": "He likes music.",
+      "feedback": "La segunda descripción dice que David likes music.",
+      "prompt": "Lee Elena and David y responde: What does David like?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He likes music."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La segunda descripción dice que David likes music.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Describe a dos familiares ficticios. La IA pregunta por su personalidad, trabajo, gustos y rutinas.",
+      "scenario": "Talking about two fictional family members.",
+      "ai_language": "English; prompt he/she and his/her naturally",
+      "prompt": "Describe a dos familiares ficticios. La IA pregunta por su personalidad, trabajo, gustos y rutinas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una comparación de 40 segundos entre dos familiares ficticios usando but y sus nombres/pronombres.",
+      "success_criteria": [
+        "usa he/she correctamente",
+        "usa his/her correctamente",
+        "incluye personalidad, trabajo y gusto",
+        "conecta con but"
+      ],
+      "prompt": "Graba una comparación de 40 segundos entre dos familiares ficticios usando but y sus nombres/pronombres.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ is kind. ___ name is Elena. What does ___ do? ___ works as a teacher.",
+      "answers": [
+        "She",
+        "Her",
+        "she",
+        "She"
+      ],
+      "prompt": "Completa: ___ is kind. ___ name is Elena. What does ___ do? ___ works as a teacher.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She",
+          "Her",
+          "she",
+          "She"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "describir dos familiares",
+      "distinguir he/she y his/her",
+      "usar la s de tercera persona"
+    ],
+    "retry": "Si confundes his/her, identifica primero si la persona es hombre o mujer y luego expresa la posesión."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T02-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

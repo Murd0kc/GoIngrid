@@ -1,0 +1,425 @@
+{
+  "id": "A1-M3-T01-L01",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T01",
+  "title": "Saludar y presentarse",
+  "estimated_seconds": 900,
+  "communication_goal": "Saludar, decir tu nombre y preguntar el nombre de otra persona.",
+  "situation": "Conoces a alguien por primera vez en una clase, trabajo o actividad social.",
+  "language_focus": {
+    "grammar": [
+      "Hi, I'm...",
+      "My name is...",
+      "What's your name?",
+      "Nice to meet you.",
+      "How are you?"
+    ],
+    "function": "greetings and introductions"
+  },
+  "vocabulary": [
+    {
+      "word": "hello",
+      "meaning_es": "hola",
+      "example": "Hello, I'm Sofia."
+    },
+    {
+      "word": "hi",
+      "meaning_es": "hola informal",
+      "example": "Hi, my name is Ben."
+    },
+    {
+      "word": "name",
+      "meaning_es": "nombre",
+      "example": "What's your name?"
+    },
+    {
+      "word": "meet",
+      "meaning_es": "conocer/encontrarse",
+      "example": "Nice to meet you."
+    },
+    {
+      "word": "nice",
+      "meaning_es": "agradable",
+      "example": "Nice to meet you."
+    },
+    {
+      "word": "fine",
+      "meaning_es": "bien",
+      "example": "I'm fine, thanks."
+    }
+  ],
+  "context": {
+    "title": "First day of class",
+    "dialogue": [
+      {
+        "speaker": "Sofia",
+        "english": "Hi, I'm Sofia. What's your name?",
+        "spanish": "Hola, soy Sofia. ¿Cómo te llamas?"
+      },
+      {
+        "speaker": "Ben",
+        "english": "Hello, my name is Ben.",
+        "spanish": "Hola, mi nombre es Ben."
+      },
+      {
+        "speaker": "Sofia",
+        "english": "Nice to meet you, Ben.",
+        "spanish": "Mucho gusto, Ben."
+      },
+      {
+        "speaker": "Ben",
+        "english": "Nice to meet you too. How are you?",
+        "spanish": "Mucho gusto también. ¿Cómo estás?"
+      },
+      {
+        "speaker": "Sofia",
+        "english": "I'm fine, thanks. How are you?",
+        "spanish": "Estoy bien, gracias. ¿Y tú?"
+      }
+    ]
+  },
+  "explanation_es": "Para presentarte puedes decir Hi, I'm + nombre o My name is + nombre. Para preguntar usas What's your name? La expresión Nice to meet you equivale a 'mucho gusto' y se responde Nice to meet you too. En una situación informal Hi es común; Hello funciona en situaciones informales y formales.",
+  "spanish_speaker_notes": [
+    "No traduzcas '¿cómo te llamas?' como How do you call yourself?; usa What's your name?.",
+    "I'm significa I am y es la forma natural al presentarte.",
+    "No olvides too en Nice to meet you too cuando devuelves el saludo.",
+    "How are you? normalmente recibe una respuesta breve: I'm fine, thanks."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Hi, I'm Sofia.",
+        "focus": "unir Hi I'm"
+      },
+      {
+        "text": "What's your name?",
+        "focus": "what's y your"
+      },
+      {
+        "text": "Nice to meet you too.",
+        "focus": "ritmo de la expresión fija"
+      }
+    ],
+    "tip_es": "Memoriza el saludo como un bloque conversacional y practica la respuesta inmediatamente después."
+  },
+  "reading": {
+    "title": "A new classmate",
+    "text": "Sofia is in a new English class. She says hello to Ben and introduces herself. They say their names and ask how each person is. They are both fine and happy to start the class.",
+    "glossary": [
+      {
+        "term": "classmate",
+        "meaning_es": "compañero de clase"
+      },
+      {
+        "term": "introduce herself",
+        "meaning_es": "presentarse"
+      },
+      {
+        "term": "both",
+        "meaning_es": "ambos"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "greeting_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada expresión con su función.",
+      "pairs": [
+        {
+          "english": "Hello",
+          "spanish": "saludo"
+        },
+        {
+          "english": "What's your name?",
+          "spanish": "preguntar el nombre"
+        },
+        {
+          "english": "Nice to meet you.",
+          "spanish": "expresar gusto por conocer"
+        },
+        {
+          "english": "How are you?",
+          "spanish": "preguntar estado"
+        }
+      ],
+      "prompt": "Relaciona cada expresión con su función.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Hello=saludo",
+          "What's your name?=preguntar el nombre",
+          "Nice to meet you.=expresar gusto por conocer",
+          "How are you?=preguntar estado"
+        ],
+        "expected_pairs": [
+          {
+            "english": "Hello",
+            "spanish": "saludo"
+          },
+          {
+            "english": "What's your name?",
+            "spanish": "preguntar el nombre"
+          },
+          {
+            "english": "Nice to meet you.",
+            "spanish": "expresar gusto por conocer"
+          },
+          {
+            "english": "How are you?",
+            "spanish": "preguntar estado"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: Nice to meet you too. Elige cuándo se usa.",
+      "audio_text": "Nice to meet you too.",
+      "options": [
+        "Para devolver un saludo de presentación.",
+        "Para preguntar el precio.",
+        "Para despedirse de noche."
+      ],
+      "correct": "Para devolver un saludo de presentación.",
+      "feedback": "Too indica que la otra persona también siente lo mismo.",
+      "prompt": "Escucha: Nice to meet you too. Elige cuándo se usa.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Para devolver un saludo de presentación."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Too indica que la otra persona también siente lo mismo.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Hi, ___ Sofia.",
+      "options": [
+        "I'm",
+        "I",
+        "my"
+      ],
+      "correct": "I'm",
+      "feedback": "I'm significa I am y presenta tu nombre.",
+      "prompt": "Completa: Hi, ___ Sofia.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "I'm significa I am y presenta tu nombre.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: your / what's / name / ?",
+      "answer": "What's your name?",
+      "feedback": "What's es la contracción de What is.",
+      "prompt": "Ordena: your / what's / name / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What's your name?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "What's es la contracción de What is.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: How do you call?",
+      "answer": "What's your name?",
+      "feedback": "Para preguntar el nombre usa What's your name?",
+      "prompt": "Corrige: How do you call?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What's your name?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Para preguntar el nombre usa What's your name?",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Representa un saludo completo con tu nombre y una pregunta.",
+      "target": "Hi, I'm ... What's your name? Nice to meet you.",
+      "evaluation": {
+        "0": "I'm claro",
+        "1": "pregunta reconocible",
+        "2": "expresión fluida",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Hi, I'm ... What's your name? Nice to meet you.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A New Classmate y responde: What are Sofia and Ben doing?",
+      "text_reference": "reading",
+      "answer": "They are introducing themselves.",
+      "feedback": "Se dicen sus nombres y se preguntan cómo están.",
+      "prompt": "Lee A New Classmate y responde: What are Sofia and Ben doing?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They are introducing themselves."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Se dicen sus nombres y se preguntan cómo están.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero nuevo. Saluda, di tu nombre, pregunta el suyo y responde How are you?.",
+      "scenario": "First meeting in an English class.",
+      "ai_language": "English with friendly Spanish support only after difficulty",
+      "prompt": "La IA será un compañero nuevo. Saluda, di tu nombre, pregunta el suyo y responde How are you?.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una presentación de 20 segundos para una persona nueva: saludo, nombre, pregunta y despedida amable.",
+      "success_criteria": [
+        "usa I'm o My name is",
+        "pregunta el nombre",
+        "usa Nice to meet you",
+        "voz comprensible"
+      ],
+      "prompt": "Graba una presentación de 20 segundos para una persona nueva: saludo, nombre, pregunta y despedida amable.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: Hi, ___ Alex. What's ___ name? Nice to meet ___ ___.",
+      "answers": [
+        "I'm",
+        "your",
+        "you",
+        "too"
+      ],
+      "prompt": "Completa: Hi, ___ Alex. What's ___ name? Nice to meet ___ ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm",
+          "your",
+          "you",
+          "too"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "saludar y decir el nombre",
+      "preguntar el nombre",
+      "responder a How are you? y Nice to meet you"
+    ],
+    "retry": "Si traduces literalmente la pregunta del nombre, repite el bloque What's your name? hasta decirlo sin pausas."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T01-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

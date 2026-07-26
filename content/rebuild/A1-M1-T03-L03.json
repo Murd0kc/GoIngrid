@@ -1,0 +1,176 @@
+{
+  "id": "A1-M1-T03-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T03",
+  "title": "You are, we are, they are",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede describir a su interlocutor, a su propio grupo y a otros grupos usando are.",
+  "situation": "Organizar a participantes antes de comenzar una actividad grupal.",
+  "language_focus": ["You are in the right room.", "We are ready.", "They are outside.", "Are you ready?", "We are from the same class.", "They're near the door."],
+  "vocabulary": [
+    { "term": "ready", "meaning_es": "listo / lista", "example": "We are ready." },
+    { "term": "outside", "meaning_es": "afuera", "example": "They are outside." },
+    { "term": "same", "meaning_es": "mismo / misma", "example": "We are in the same class." },
+    { "term": "room", "meaning_es": "sala / habitación", "example": "You are in the right room." },
+    { "term": "early", "meaning_es": "temprano", "example": "We are early." },
+    { "term": "late", "meaning_es": "tarde", "example": "They are late." }
+  ],
+  "context": {
+    "before": "A group leader organizes students before a workshop.",
+    "dialogue": [
+      { "speaker": "Leader", "text": "Are you ready?" },
+      { "speaker": "Student", "text": "Yes, we are ready." },
+      { "speaker": "Leader", "text": "Great. You are in the right room." },
+      { "speaker": "Student", "text": "Where are the other students?" },
+      { "speaker": "Leader", "text": "They are outside. They're near the door." }
+    ]
+  },
+  "explanation_es": "Con you, we y they usamos are: You are, We are y They are. You puede referirse a una o varias personas. We incluye al hablante; they se refiere a otro grupo.",
+  "spanish_speaker_notes": [
+    "No uses is con we o they: se dice We are y They are.",
+    "Are aparece también en preguntas: Are you ready?",
+    "En conversación son comunes you’re, we’re y they’re."
+  ],
+  "pronunciation": {
+    "target": "Producir are y sus contracciones en preguntas y respuestas con ritmo natural.",
+    "models": [
+      { "text": "You are ready.", "stress": ["ready"] },
+      { "text": "We're in the same class.", "stress": ["same", "class"] },
+      { "text": "They're outside.", "stress": ["outside"] },
+      { "text": "Are you ready?", "intonation": "rising" }
+    ],
+    "student_feedback": "Conserva la diferencia entre la pregunta Are you...? y la respuesta We are...; no elimines el sujeto."
+  },
+  "reading": {
+    "title": "Before the workshop",
+    "text": "We are early for the workshop. The leader says, 'You are in the right room.' Two students are outside. They are near the door. We are ready, but they are a little late.",
+    "interactive_vocabulary": ["workshop", "leader", "right room", "a little late"],
+    "questions": [
+      { "prompt": "Who is early?", "options": ["We", "They", "The leader only"], "answer": "We" },
+      { "prompt": "Where are the two students?", "options": ["Outside near the door", "In another country", "At home"], "answer": "Outside near the door" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T03-L03-E01",
+      "type": "group_reference",
+      "skill": "vocabulary",
+      "instruction": "Elige si el pronombre incluye al hablante.",
+      "items": [{ "text": "you", "category": "listener" }, { "text": "we", "category": "speaker plus group" }, { "text": "they", "category": "other group" }],
+      "categories": ["listener", "speaker plus group", "other group"],
+      "feedback_correct": "La relación con el hablante determina we o they.",
+      "feedback_incorrect": "We incluye al hablante; they habla de otro grupo; you señala al interlocutor.",
+      "estimated_seconds": 60
+    },
+    {
+      "id": "A1-M1-T03-L03-E02",
+      "type": "listening_detail",
+      "skill": "listening",
+      "instruction": "Escucha y elige quién está afuera.",
+      "prompt": "They are outside. They're near the door.",
+      "options": ["The other students", "The leader", "The speaker's own group"],
+      "correct_answer": "The other students",
+      "feedback_correct": "They señala al grupo que no incluye al hablante.",
+      "feedback_incorrect": "Escucha they y relaciónalo con the other students.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T03-L03-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la pregunta.",
+      "prompt": "___ you ready?",
+      "options": ["Are", "Is", "Am"],
+      "correct_answer": "Are",
+      "feedback_correct": "Con you usamos are en la pregunta.",
+      "feedback_incorrect": "La estructura es Are you + adjetivo?.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T03-L03-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la respuesta.",
+      "tokens": ["We", "are", "in", "the", "same", "class."],
+      "correct_answer": "We are in the same class.",
+      "feedback_correct": "We are identifica al grupo del hablante.",
+      "feedback_incorrect": "Empieza con We are y sigue con la ubicación in the same class.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T03-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el error.",
+      "prompt": "They is late.",
+      "correct_answer": "They are late.",
+      "feedback_correct": "They va con are.",
+      "feedback_incorrect": "Con they usamos are, no is.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T03-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta y dos respuestas.",
+      "prompt": "Are you ready? Yes, we are. They're outside.",
+      "evaluation": ["question intonation", "are clarity", "we/they distinction"],
+      "feedback_correct": "La pregunta y las respuestas se distinguen claramente.",
+      "feedback_incorrect": "Sube la entonación en la pregunta y enfatiza ready, we y outside.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T03-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y marca quién está temprano y quién está tarde.",
+      "reading_ref": "A1-M1-T03-L03-reading-01",
+      "correct_answer": "2 comprehension answers and group references",
+      "feedback_correct": "Relacionaste los pronombres con la situación temporal.",
+      "feedback_incorrect": "We está temprano; they está un poco tarde.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T03-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es el líder de un taller. Responde si estás listo, explica quién está contigo y dónde está otro grupo.",
+      "role": "workshop leader",
+      "student_goal": "Use you, we and they with are in a group situation.",
+      "allowed_support": ["group map", "sentence starter", "Spanish hint"],
+      "success_criteria": ["answers Are you ready?", "describes own group with we", "locates another group with they"],
+      "feedback_correct": "Usaste are para organizar una situación grupal.",
+      "feedback_incorrect": "Prueba: Yes, we are. / They are... / We are...",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T03-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Envía un mensaje a tu equipo antes de una reunión.",
+      "prompt": "Are you ready? We are ____. They are ____. See you soon!",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses are with you/we/they", "describes two groups", "communicates readiness or location"],
+      "feedback_correct": "Usaste are para comunicar información práctica a un equipo.",
+      "feedback_incorrect": "Revisa qué grupo incluye al hablante y cuál es otro grupo.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T03-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["You ___ ready.", "We ___ early.", "They ___ outside."],
+      "correct_answers": ["are", "are", "are"],
+      "feedback_correct": "Recuperaste are con you, we y they.",
+      "feedback_incorrect": "Con you, we y they usamos are.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

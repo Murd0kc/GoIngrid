@@ -1,0 +1,401 @@
+{
+  "id": "A1-M3-T02-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T02",
+  "title": "Presentar a mi familia",
+  "estimated_seconds": 1110,
+  "communication_goal": "Presentar a una familia de forma conectada, responder preguntas y comparar relaciones.",
+  "situation": "Hablas de tu familia en una conversación, clase o actividad de presentación.",
+  "language_focus": {
+    "grammar": [
+      "family vocabulary",
+      "possessives",
+      "he/she + verb-s",
+      "do/does questions",
+      "and/but/because"
+    ],
+    "function": "complete family description"
+  },
+  "vocabulary": [
+    {
+      "word": "relative",
+      "meaning_es": "familiar/pariente",
+      "example": "She is my relative."
+    },
+    {
+      "word": "close",
+      "meaning_es": "cercano",
+      "example": "We are close."
+    },
+    {
+      "word": "older",
+      "meaning_es": "mayor",
+      "example": "My older brother lives nearby."
+    },
+    {
+      "word": "younger",
+      "meaning_es": "menor",
+      "example": "My younger sister studies."
+    },
+    {
+      "word": "support",
+      "meaning_es": "apoyar",
+      "example": "My family supports me."
+    },
+    {
+      "word": "photo",
+      "meaning_es": "foto",
+      "example": "This is a photo of my family."
+    }
+  ],
+  "context": {
+    "title": "A family presentation",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "english": "Tell us about this photo.",
+        "spanish": "Háblanos de esta foto."
+      },
+      {
+        "speaker": "Student",
+        "english": "This is a photo of my family. These are my parents and my younger sister.",
+        "spanish": "Esta es una foto de mi familia. Estos son mis padres y mi hermana menor."
+      },
+      {
+        "speaker": "Teacher",
+        "english": "Who do you live with?",
+        "spanish": "¿Con quién vives?"
+      },
+      {
+        "speaker": "Student",
+        "english": "I live with my parents. My older brother lives nearby, and we visit him on Sundays.",
+        "spanish": "Vivo con mis padres. Mi hermano mayor vive cerca y lo visitamos los domingos."
+      },
+      {
+        "speaker": "Teacher",
+        "english": "Are you close?",
+        "spanish": "¿Son cercanos?"
+      },
+      {
+        "speaker": "Student",
+        "english": "Yes, we are. My family supports me.",
+        "spanish": "Sí. Mi familia me apoya."
+      }
+    ]
+  },
+  "explanation_es": "Una presentación familiar conecta información: This is a photo of my family. These are my parents... Usa my, his, her, our y their para relaciones y posesión. Añade older/younger para comparar edades y and, but o because para unir ideas. La meta es describir quiénes son, dónde viven y qué hacen juntos.",
+  "spanish_speaker_notes": [
+    "Older/younger comparan edad; no necesitas explicar toda la gramática comparativa todavía.",
+    "Are you close? pregunta si existe una relación cercana, no distancia física.",
+    "Visit him = visitarlo; him reemplaza a my brother después del verbo.",
+    "Puedes hablar de una familia ficticia para proteger tu privacidad."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "This is a photo of my family.",
+        "focus": "photo of my"
+      },
+      {
+        "text": "My older brother lives nearby.",
+        "focus": "older brother y lives"
+      },
+      {
+        "text": "My family supports me.",
+        "focus": "supports me"
+      }
+    ],
+    "tip_es": "Usa la foto como apoyo visual, pero intenta mirar a la persona mientras presentas."
+  },
+  "reading": {
+    "title": "A close family",
+    "text": "This is a photo of Emma's family. She lives with her parents and younger sister. Her older brother lives nearby. They visit him on Sundays because they are close. Emma's family supports her.",
+    "glossary": [
+      {
+        "term": "family presentation",
+        "meaning_es": "presentación familiar"
+      },
+      {
+        "term": "older brother",
+        "meaning_es": "hermano mayor"
+      },
+      {
+        "term": "supports",
+        "meaning_es": "apoya"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "family_profile",
+      "skill": "vocabulary",
+      "instruction": "Completa el perfil con palabras de relaciones y edad.",
+      "prompts": [
+        "my ___ sister",
+        "my ___ brother",
+        "my parents and ___",
+        "a family ___"
+      ],
+      "answers": [
+        "younger",
+        "older",
+        "my",
+        "photo"
+      ],
+      "prompt": "Completa el perfil con palabras de relaciones y edad.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "younger",
+          "older",
+          "my",
+          "photo"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha la descripción y selecciona quién vive cerca.",
+      "audio_text": "My older brother lives nearby, and we visit him on Sundays.",
+      "options": [
+        "El hermano mayor",
+        "Los padres",
+        "La hermana menor"
+      ],
+      "correct": "El hermano mayor",
+      "feedback": "Older brother es quien vive cerca.",
+      "prompt": "Escucha la descripción y selecciona quién vive cerca.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "El hermano mayor"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Older brother es quien vive cerca.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: We visit ___. (mi hermano)",
+      "options": [
+        "he",
+        "him",
+        "his"
+      ],
+      "correct": "him",
+      "feedback": "Him recibe la acción de visit.",
+      "prompt": "Completa: We visit ___. (mi hermano)",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "him"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Him recibe la acción de visit.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: support / my / me / family / .",
+      "answer": "My family supports me.",
+      "feedback": "Family es el sujeto y me recibe la acción.",
+      "prompt": "Ordena: support / my / me / family / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "My family supports me."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Family es el sujeto y me recibe la acción.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: These is my parents and my sister.",
+      "answer": "These are my parents and my sister.",
+      "feedback": "These es plural y necesita are.",
+      "prompt": "Corrige: These is my parents and my sister.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "These are my parents and my sister."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "These es plural y necesita are.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Presenta una foto familiar ficticia durante 45 segundos.",
+      "target": "This is a photo of my family. These are ... We ... because ...",
+      "evaluation": {
+        "0": "this/these claros",
+        "1": "familiares reconocibles",
+        "2": "conectores audibles",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "This is a photo of my family. These are ... We ... because ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Close Family y responde: Why do they visit Emma's brother?",
+      "text_reference": "reading",
+      "answer": "Because they are close.",
+      "feedback": "Because introduce la razón de la visita.",
+      "prompt": "Lee A Close Family y responde: Why do they visit Emma's brother?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Because they are close."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Because introduce la razón de la visita.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Presenta a la IA una familia ficticia con una foto imaginaria. La IA hará preguntas de seguimiento sobre convivencia y rutinas.",
+      "scenario": "Presenting a family photo in an English class.",
+      "ai_language": "English; respect fictional privacy-safe details",
+      "prompt": "Presenta a la IA una familia ficticia con una foto imaginaria. La IA hará preguntas de seguimiento sobre convivencia y rutinas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una presentación de 60 segundos sobre una familia ficticia y responde tres preguntas de seguimiento.",
+      "success_criteria": [
+        "presenta al menos cinco familiares",
+        "usa posesivos y pronombres de objeto",
+        "incluye una rutina familiar",
+        "responde preguntas comprensiblemente"
+      ],
+      "prompt": "Graba una presentación de 60 segundos sobre una familia ficticia y responde tres preguntas de seguimiento.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: identifica familiares en audio y lectura, corrige cuatro errores y presenta una familia ficticia en una conversación adaptativa.",
+      "rubric": {
+        "vocabulary": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "oral_communication": "2 puntos"
+      },
+      "prompt": "Evaluación final: identifica familiares en audio y lectura, corrige cuatro errores y presenta una familia ficticia en una conversación adaptativa.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T02-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "presentar una familia conectada",
+      "usar posesivos y pronombres correctamente",
+      "responder preguntas de seguimiento"
+    ],
+    "retry": "Si el resultado es menor de 80%, usa primero una plantilla de cinco frases y después añade detalles y conectores."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T02-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

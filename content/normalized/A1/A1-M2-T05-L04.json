@@ -1,0 +1,401 @@
+{
+  "id": "A1-M2-T05-L04",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T05",
+  "title": "Describir una rutina real",
+  "estimated_seconds": 1080,
+  "communication_goal": "Describir hábitos afirmativos y negativos de forma conectada, comprensible y personal.",
+  "situation": "Presentas tu rutina y comparas tus hábitos con los de otra persona.",
+  "language_focus": {
+    "grammar": [
+      "present simple affirmative and negative",
+      "don't/doesn't",
+      "do/does questions",
+      "because, but, and"
+    ],
+    "function": "connected routine description"
+  },
+  "vocabulary": [
+    {
+      "word": "relax",
+      "meaning_es": "relajarse",
+      "example": "I don't relax in the morning."
+    },
+    {
+      "word": "prepare",
+      "meaning_es": "preparar",
+      "example": "She prepares breakfast."
+    },
+    {
+      "word": "take a break",
+      "meaning_es": "tomarse un descanso",
+      "example": "We take a break at noon."
+    },
+    {
+      "word": "busy",
+      "meaning_es": "ocupado",
+      "example": "My mornings are busy."
+    },
+    {
+      "word": "free time",
+      "meaning_es": "tiempo libre",
+      "example": "I don't have much free time."
+    },
+    {
+      "word": "on weekdays",
+      "meaning_es": "entre semana",
+      "example": "He works on weekdays."
+    }
+  ],
+  "context": {
+    "title": "Two different routines",
+    "dialogue": [
+      {
+        "speaker": "Sara",
+        "english": "I work on weekdays, but I don't work on Sundays.",
+        "spanish": "Trabajo entre semana, pero no trabajo los domingos."
+      },
+      {
+        "speaker": "David",
+        "english": "I don't work on Sundays either. I prepare breakfast for my family.",
+        "spanish": "Yo tampoco trabajo los domingos. Preparo el desayuno para mi familia."
+      },
+      {
+        "speaker": "Sara",
+        "english": "Does your family eat together?",
+        "spanish": "¿Tu familia come junta?"
+      },
+      {
+        "speaker": "David",
+        "english": "Yes, they do. We usually eat at eight.",
+        "spanish": "Sí. Normalmente comemos a las ocho."
+      },
+      {
+        "speaker": "Sara",
+        "english": "My family doesn't eat together because our schedules are different.",
+        "spanish": "Mi familia no come junta porque nuestros horarios son diferentes."
+      }
+    ]
+  },
+  "explanation_es": "Para hablar con naturalidad combina afirmaciones y negaciones: I work, but I don't work on Sundays. Usa and para añadir, but para contrastar y because para explicar una razón. En tercera persona: She prepares breakfast, but she doesn't work on Sundays.",
+  "spanish_speaker_notes": [
+    "No conviertas cada frase en una traducción aislada; conecta ideas con and, but y because.",
+    "Recuerda: he/she + verbo con s en afirmativa, pero he/she + doesn't + verbo base en negativa.",
+    "Either al final puede significar 'tampoco' en una oración negativa.",
+    "La precisión importa, pero una rutina simple y comprensible es mejor que una frase larga con muchos errores."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I work on weekdays, but I don't work on Sundays.",
+        "focus": "contraste work/don't work"
+      },
+      {
+        "text": "She prepares breakfast, but she doesn't work on Sundays.",
+        "focus": "s de prepares y verbo base después de doesn't"
+      },
+      {
+        "text": "We usually eat together.",
+        "focus": "ritmo y usually"
+      }
+    ],
+    "tip_es": "Marca el contraste con la voz, no con pausas excesivas: afirmación, but, negación."
+  },
+  "reading": {
+    "title": "A balanced week",
+    "text": "David works on weekdays, but he doesn't work on Sundays. He prepares breakfast and eats with his family. Sara works too, but her family doesn't eat together because their schedules are different. On weekends, Sara relaxes and David visits his parents.",
+    "glossary": [
+      {
+        "term": "balanced week",
+        "meaning_es": "semana equilibrada"
+      },
+      {
+        "term": "schedules are different",
+        "meaning_es": "los horarios son diferentes"
+      },
+      {
+        "term": "visits his parents",
+        "meaning_es": "visita a sus padres"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_recall",
+      "skill": "vocabulary",
+      "instruction": "Completa con una actividad coherente: I ___ breakfast. We ___ a break. He ___ on weekdays.",
+      "answers": [
+        "prepare",
+        "take",
+        "works"
+      ],
+      "feedback": "Revisa el significado y la forma de tercera persona.",
+      "prompt": "Completa con una actividad coherente: I ___ breakfast. We ___ a break. He ___ on weekdays.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "prepare",
+          "take",
+          "works"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Revisa el significado y la forma de tercera persona.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha la descripción y marca las acciones negativas.",
+      "audio_text": "I work on weekdays, but I don't work on Sundays. I don't drive, and I don't drink coffee.",
+      "items": [
+        {
+          "text": "work on weekdays",
+          "negative": false
+        },
+        {
+          "text": "work on Sundays",
+          "negative": true
+        },
+        {
+          "text": "drive",
+          "negative": true
+        },
+        {
+          "text": "drink coffee",
+          "negative": true
+        }
+      ],
+      "prompt": "Escucha la descripción y marca las acciones negativas.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "work on weekdays=false",
+          "work on Sundays=true",
+          "drive=true",
+          "drink coffee=true"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la frase correcta sobre una mujer: ___ breakfast, but she ___ work on Sundays.",
+      "options": [
+        "She prepares / doesn't",
+        "She prepare / don't",
+        "She prepares / don't"
+      ],
+      "correct": "She prepares / doesn't",
+      "feedback": "Afirmativa: prepares; negativa: doesn't + work.",
+      "prompt": "Elige la frase correcta sobre una mujer: ___ breakfast, but she ___ work on Sundays.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She prepares / doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Afirmativa: prepares; negativa: doesn't + work.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: don't / because / I / relax / busy / am / I / .",
+      "answer": "I don't relax because I am busy.",
+      "feedback": "Conecta la negación y su razón con because.",
+      "prompt": "Ordena: don't / because / I / relax / busy / am / I / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I don't relax because I am busy."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Conecta la negación y su razón con because.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: He don't work on Sundays, but he prepares breakfast.",
+      "answer": "He doesn't work on Sundays, but he prepares breakfast.",
+      "feedback": "Con he usamos doesn't.",
+      "prompt": "Corrige: He don't work on Sundays, but he prepares breakfast.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He doesn't work on Sundays, but he prepares breakfast."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con he usamos doesn't.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe tu domingo en tres frases usando but y because.",
+      "target": "I don't work on Sundays. I ... but I don't ... because ...",
+      "evaluation": {
+        "0": "don't/doesn't claro",
+        "1": "conectores audibles",
+        "2": "mensaje comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I don't work on Sundays. I ... but I don't ... because ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Balanced Week y responde: Why doesn't Sara's family eat together?",
+      "text_reference": "reading",
+      "answer": "Because their schedules are different.",
+      "feedback": "Because introduce la razón.",
+      "prompt": "Lee A Balanced Week y responde: Why doesn't Sara's family eat together?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Because their schedules are different."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Because introduce la razón.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero que compara su semana contigo. Describe cuatro hábitos, dos positivos y dos negativos, y pregunta por los suyos.",
+      "scenario": "Comparing weekday and weekend routines.",
+      "ai_language": "English conversation with encouraging corrective feedback",
+      "prompt": "La IA será un compañero que compara su semana contigo. Describe cuatro hábitos, dos positivos y dos negativos, y pregunta por los suyos.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una descripción de 45 segundos de tu rutina. Incluye cinco afirmaciones, tres negaciones y una comparación con otra persona.",
+      "success_criteria": [
+        "usa don't/doesn't correctamente",
+        "conecta ideas con and, but o because",
+        "comunica una rutina real y comprensible"
+      ],
+      "prompt": "Graba una descripción de 45 segundos de tu rutina. Incluye cinco afirmaciones, tres negaciones y una comparación con otra persona.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: completa ocho frases, corrige tres errores, interpreta una rutina y presenta tu propia rutina oral.",
+      "rubric": {
+        "grammar": "4 puntos",
+        "meaning": "3 puntos",
+        "connected_speech": "2 puntos",
+        "pronunciation": "1 punto"
+      },
+      "prompt": "Evaluación final: completa ocho frases, corrige tres errores, interpreta una rutina y presenta tu propia rutina oral.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "combinar afirmativas y negativas",
+      "usar don't y doesn't según el sujeto",
+      "describir una rutina conectando ideas"
+    ],
+    "retry": "Si el resultado es menor de 80%, vuelve a describir un día real con frases cortas antes de intentar una presentación más larga."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T05-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

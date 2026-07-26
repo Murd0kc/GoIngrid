@@ -1,0 +1,407 @@
+{
+  "id": "A1-M3-T10-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T10",
+  "title": "Resolver situaciones cotidianas",
+  "estimated_seconds": 1140,
+  "communication_goal": "Usar inglés funcional para pedir ayuda, explicar necesidades y resolver una situación cotidiana completa.",
+  "situation": "Te enfrentas a una necesidad en trabajo, estudio, viaje, compras o un lugar público.",
+  "language_focus": {
+    "grammar": [
+      "Can/Could you...?",
+      "I need...",
+      "I need to...",
+      "Where can I...?",
+      "There is a problem with...",
+      "thank you/you're welcome"
+    ],
+    "function": "integrated everyday problem solving"
+  },
+  "vocabulary": [
+    {
+      "word": "solution",
+      "meaning_es": "solución",
+      "example": "We need a solution."
+    },
+    {
+      "word": "available",
+      "meaning_es": "disponible",
+      "example": "Is anyone available to help?"
+    },
+    {
+      "word": "explain",
+      "meaning_es": "explicar",
+      "example": "Let me explain the problem."
+    },
+    {
+      "word": "repeat",
+      "meaning_es": "repetir",
+      "example": "Could you repeat that?"
+    },
+    {
+      "word": "understand",
+      "meaning_es": "entender",
+      "example": "I understand now."
+    },
+    {
+      "word": "resolved",
+      "meaning_es": "resuelto",
+      "example": "The problem is resolved."
+    }
+  ],
+  "context": {
+    "title": "A practical help conversation",
+    "dialogue": [
+      {
+        "speaker": "Student",
+        "english": "Excuse me. I have a problem with this form.",
+        "spanish": "Disculpe. Tengo un problema con este formulario."
+      },
+      {
+        "speaker": "Staff",
+        "english": "What do you need?",
+        "spanish": "¿Qué necesita?"
+      },
+      {
+        "speaker": "Student",
+        "english": "I don't understand question four. Could you explain it, please?",
+        "spanish": "No entiendo la pregunta cuatro. ¿Podría explicarla, por favor?"
+      },
+      {
+        "speaker": "Staff",
+        "english": "Sure. You need to write your address here.",
+        "spanish": "Claro. Debe escribir su dirección aquí."
+      },
+      {
+        "speaker": "Student",
+        "english": "Thank you. Could you repeat the last part?",
+        "spanish": "Gracias. ¿Podría repetir la última parte?"
+      },
+      {
+        "speaker": "Staff",
+        "english": "Of course. Write your address here.",
+        "spanish": "Por supuesto. Escriba su dirección aquí."
+      }
+    ]
+  },
+  "explanation_es": "Resolver una situación sigue un ciclo práctico: saluda, explica el problema, di qué necesitas, escucha la solución y confirma si entendiste. Usa Could you explain/repeat...? cuando necesitas apoyo y I understand now cuando la explicación funciona. Si no entendiste, pide una repetición en lugar de adivinar.",
+  "spanish_speaker_notes": [
+    "This form significa este formulario; no traduzcas form como forma física necesariamente.",
+    "Question four es la pregunta número cuatro; usa número después de question.",
+    "Could you explain it? incluye it para referirse a la cosa ya mencionada.",
+    "Thank you y You're welcome completan un intercambio de ayuda."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I have a problem with this form.",
+        "focus": "problem with this form"
+      },
+      {
+        "text": "Could you explain it, please?",
+        "focus": "could you explain it"
+      },
+      {
+        "text": "I understand now.",
+        "focus": "understand now"
+      }
+    ],
+    "tip_es": "La estrategia más importante es no bloquearte: explica, pide repetición y confirma."
+  },
+  "reading": {
+    "title": "A solved problem",
+    "text": "A student has a problem with a form. She does not understand question four, so she asks a staff member to explain it. The staff member gives an example and repeats the instruction. The student understands and finishes the form.",
+    "glossary": [
+      {
+        "term": "solved problem",
+        "meaning_es": "problema resuelto"
+      },
+      {
+        "term": "form",
+        "meaning_es": "formulario"
+      },
+      {
+        "term": "instruction",
+        "meaning_es": "instrucción"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "solution_sequence",
+      "skill": "vocabulary",
+      "instruction": "Ordena las etapas para resolver una necesidad.",
+      "items": [
+        "explain the problem",
+        "say what you need",
+        "listen to the answer",
+        "ask for repetition if needed",
+        "confirm understanding"
+      ],
+      "answer": [
+        "explain the problem",
+        "say what you need",
+        "listen to the answer",
+        "ask for repetition if needed",
+        "confirm understanding"
+      ],
+      "prompt": "Ordena las etapas para resolver una necesidad.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "explain the problem",
+          "say what you need",
+          "listen to the answer",
+          "ask for repetition if needed",
+          "confirm understanding"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha: Could you repeat the last part? Identifica por qué lo dice la persona.",
+      "audio_text": "Could you repeat the last part?",
+      "options": [
+        "No entiende una parte.",
+        "Quiere comprar un billete.",
+        "Está dando una dirección."
+      ],
+      "correct": "No entiende una parte.",
+      "feedback": "Pedir repetición mantiene la comunicación activa.",
+      "prompt": "Escucha: Could you repeat the last part? Identifica por qué lo dice la persona.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No entiende una parte."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Pedir repetición mantiene la comunicación activa.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I need ___ write my address.",
+      "options": [
+        "to",
+        "a",
+        "some"
+      ],
+      "correct": "to",
+      "feedback": "Need to + verbo expresa la acción necesaria.",
+      "prompt": "Completa: I need ___ write my address.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "to"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Need to + verbo expresa la acción necesaria.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: repeat / could / that / you / ?",
+      "answer": "Could you repeat that?",
+      "feedback": "Could you + verbo base es una petición cortés.",
+      "prompt": "Ordena: repeat / could / that / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Could you repeat that?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Could you + verbo base es una petición cortés.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: I don't understand question four, explain me it please.",
+      "answer": "I don't understand question four. Could you explain it, please?",
+      "feedback": "Divide el problema y formula una petición clara con it.",
+      "prompt": "Corrige: I don't understand question four, explain me it please.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I don't understand question four. Could you explain it, please?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Divide el problema y formula una petición clara con it.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Representa el ciclo completo: problema, petición, repetición y confirmación.",
+      "target": "I have a problem. Could you explain it? Could you repeat that? I understand now.",
+      "evaluation": {
+        "0": "cada intención clara",
+        "1": "peticiones corteses",
+        "2": "confirmación audible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I have a problem. Could you explain it? Could you repeat that? I understand now.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Solved Problem y responde: What does the staff member do?",
+      "text_reference": "reading",
+      "answer": "The staff member explains and repeats the instruction.",
+      "feedback": "La persona ayuda con una explicación y una repetición.",
+      "prompt": "Lee A Solved Problem y responde: What does the staff member do?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The staff member explains and repeats the instruction."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La persona ayuda con una explicación y una repetición.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA presentará un problema en un formulario, tienda, viaje o trabajo. Resuelve la situación sin abandonar el inglés.",
+      "scenario": "A flexible everyday help conversation.",
+      "ai_language": "English; use Spanish only as a last-resort safety support",
+      "prompt": "La IA presentará un problema en un formulario, tienda, viaje o trabajo. Resuelve la situación sin abandonar el inglés.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba tres mini diálogos de 30 segundos: uno en trabajo/estudio, uno en viaje y uno en una tienda o lugar público.",
+      "success_criteria": [
+        "explica un problema",
+        "pide una solución",
+        "pide repetición si hace falta",
+        "confirma que entiende",
+        "usa cortesía"
+      ],
+      "prompt": "Graba tres mini diálogos de 30 segundos: uno en trabajo/estudio, uno en viaje y uno en una tienda o lugar público.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final de M3: resuelve una situación adaptativa con comprensión auditiva, lectura, corrección y conversación oral.",
+      "rubric": {
+        "functional_vocabulary": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "problem_solving_conversation": "2 puntos"
+      },
+      "prompt": "Evaluación final de M3: resuelve una situación adaptativa con comprensión auditiva, lectura, corrección y conversación oral.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T10-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "explicar un problema",
+      "pedir ayuda o aclaración",
+      "comprender y confirmar una solución",
+      "mantener una conversación funcional"
+    ],
+    "retry": "Si el resultado es menor de 80%, practica la secuencia problema + necesidad + petición + confirmación en tres contextos distintos."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T10-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

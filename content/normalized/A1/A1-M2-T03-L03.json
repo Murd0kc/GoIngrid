@@ -1,0 +1,410 @@
+{
+  "id": "A1-M2-T03-L03",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T03",
+  "title": "Responder con do y does",
+  "estimated_seconds": 900,
+  "communication_goal": "Responder preguntas sencillas sobre hábitos y preferencias con respuestas cortas correctas.",
+  "situation": "Conoces a un compañero nuevo y conversan sobre sus actividades cotidianas.",
+  "language_focus": {
+    "grammar": [
+      "Yes, I do.",
+      "No, I don't.",
+      "Yes, she does.",
+      "No, she doesn't."
+    ],
+    "function": "short answers with do and does"
+  },
+  "vocabulary": [
+    {
+      "word": "read",
+      "meaning_es": "leer",
+      "example": "I read every night."
+    },
+    {
+      "word": "watch TV",
+      "meaning_es": "ver televisión",
+      "example": "Does he watch TV?"
+    },
+    {
+      "word": "go out",
+      "meaning_es": "salir",
+      "example": "We don't go out on Mondays."
+    },
+    {
+      "word": "exercise",
+      "meaning_es": "hacer ejercicio",
+      "example": "Do you exercise?"
+    },
+    {
+      "word": "usually",
+      "meaning_es": "normalmente",
+      "example": "I usually read."
+    },
+    {
+      "word": "short answer",
+      "meaning_es": "respuesta corta",
+      "example": "Yes, I do."
+    }
+  ],
+  "context": {
+    "title": "A quick chat",
+    "dialogue": [
+      {
+        "speaker": "Mia",
+        "english": "Do you read in English?",
+        "spanish": "¿Lees en inglés?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "Yes, I do. I read short stories.",
+        "spanish": "Sí. Leo historias cortas."
+      },
+      {
+        "speaker": "Mia",
+        "english": "Does your sister read too?",
+        "spanish": "¿Tu hermana también lee?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "No, she doesn't. She watches TV.",
+        "spanish": "No. Ella ve televisión."
+      }
+    ]
+  },
+  "explanation_es": "En una respuesta corta repetimos el auxiliar de la pregunta. Con I, you, we y they usamos do o don't. Con he, she e it usamos does o doesn't. No repitas el verbo principal: Do you read? Yes, I do.",
+  "spanish_speaker_notes": [
+    "No uses Yes, I am para responder preguntas con do.",
+    "Después de doesn't el verbo vuelve a su forma base: She doesn't read.",
+    "En inglés natural la respuesta corta suele incluir el auxiliar."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Yes, I do.",
+        "focus": "unir I y do sin separar demasiado"
+      },
+      {
+        "text": "No, she doesn't.",
+        "focus": "marcar la contracción doesn't"
+      }
+    ],
+    "tip_es": "Practica la respuesta completa con ritmo natural, no palabra por palabra."
+  },
+  "reading": {
+    "title": "Two reading habits",
+    "text": "Leo reads before bed. Do you read before bed? Yes, I do. Leo's sister doesn't read. She watches TV, but she usually exercises in the morning.",
+    "glossary": [
+      {
+        "term": "before bed",
+        "meaning_es": "antes de dormir"
+      },
+      {
+        "term": "in the morning",
+        "meaning_es": "por la mañana"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada actividad con su significado.",
+      "pairs": [
+        {
+          "english": "read",
+          "spanish": "leer"
+        },
+        {
+          "english": "exercise",
+          "spanish": "hacer ejercicio"
+        },
+        {
+          "english": "go out",
+          "spanish": "salir"
+        },
+        {
+          "english": "watch TV",
+          "spanish": "ver televisión"
+        }
+      ],
+      "prompt": "Relaciona cada actividad con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "read=leer",
+          "exercise=hacer ejercicio",
+          "go out=salir",
+          "watch TV=ver televisión"
+        ],
+        "expected_pairs": [
+          {
+            "english": "read",
+            "spanish": "leer"
+          },
+          {
+            "english": "exercise",
+            "spanish": "hacer ejercicio"
+          },
+          {
+            "english": "go out",
+            "spanish": "salir"
+          },
+          {
+            "english": "watch TV",
+            "spanish": "ver televisión"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: Do you exercise? Elige la respuesta correcta.",
+      "audio_text": "Yes, I do.",
+      "options": [
+        "Yes, I do.",
+        "Yes, I am.",
+        "Yes, I does."
+      ],
+      "correct": "Yes, I do.",
+      "feedback": "La pregunta usa do y la respuesta conserva do.",
+      "prompt": "Escucha: Do you exercise? Elige la respuesta correcta.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Yes, I do."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La pregunta usa do y la respuesta conserva do.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Does Ana read? Yes, she ___.",
+      "options": [
+        "do",
+        "does",
+        "is"
+      ],
+      "correct": "does",
+      "feedback": "Con she usamos does.",
+      "prompt": "Completa: Does Ana read? Yes, she ___.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "does"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con she usamos does.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a4",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Do they go out? No, they ___.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't"
+      ],
+      "correct": "don't",
+      "feedback": "Con they usamos don't.",
+      "prompt": "Completa: Do they go out? No, they ___.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "don't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con they usamos don't.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige la respuesta: Does he exercise? Yes, he do.",
+      "answer": "Yes, he does.",
+      "feedback": "Con he la respuesta corta usa does.",
+      "prompt": "Corrige la respuesta: Does he exercise? Yes, he do.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Yes, he does."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con he la respuesta corta usa does.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Lee en voz alta: No, she doesn't.",
+      "target": "No, she doesn't.",
+      "evaluation": {
+        "0": "auxiliar does not",
+        "1": "contracción doesn't",
+        "2": "ritmo comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "No, she doesn't.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y responde: Does Leo's sister read?",
+      "text_reference": "reading",
+      "answer": "No, she doesn't.",
+      "feedback": "La información aparece en la segunda oración.",
+      "prompt": "Lee el texto y responde: Does Leo's sister read?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No, she doesn't."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La información aparece en la segunda oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA te pregunta cinco cosas sobre tus hábitos. Responde con Yes, I do o No, I don't y añade una idea cuando puedas.",
+      "scenario": "Un compañero quiere conocer tus hábitos de lectura, ejercicio y tiempo libre.",
+      "ai_language": "English with brief Spanish support",
+      "prompt": "La IA te pregunta cinco cosas sobre tus hábitos. Responde con Yes, I do o No, I don't y añade una idea cuando puedas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba cuatro preguntas y respuestas sobre ti: dos afirmativas y dos negativas.",
+      "success_criteria": [
+        "usa do o does correctamente",
+        "usa don't o doesn't correctamente",
+        "la respuesta comunica una idea real"
+      ],
+      "prompt": "Graba cuatro preguntas y respuestas sobre ti: dos afirmativas y dos negativas.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Sin mirar, completa: Does she watch TV? No, she ___. / Do you read? Yes, I ___.",
+      "answers": [
+        "doesn't",
+        "do"
+      ],
+      "prompt": "Sin mirar, completa: Does she watch TV? No, she ___. / Do you read? Yes, I ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "doesn't",
+          "do"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "responder cuatro preguntas con do/does",
+      "distinguir don't y doesn't",
+      "producir respuestas comprensibles en voz alta"
+    ],
+    "retry": "Si confundes do y does, repasa la tabla de sujetos y vuelve a practicar con ejemplos personales."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T03-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

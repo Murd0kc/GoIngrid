@@ -1,0 +1,435 @@
+{
+  "id": "A1-M3-T08-L01",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T08",
+  "title": "Preparar un viaje",
+  "estimated_seconds": 900,
+  "communication_goal": "Hablar de un viaje básico, destino, transporte y equipaje.",
+  "situation": "Preparas un viaje y confirmas qué necesitas llevar y cómo vas a viajar.",
+  "language_focus": {
+    "grammar": [
+      "I am going to...",
+      "I am traveling by...",
+      "I have...",
+      "Where are you going?",
+      "When are you leaving?"
+    ],
+    "function": "basic travel planning"
+  },
+  "vocabulary": [
+    {
+      "word": "trip",
+      "meaning_es": "viaje",
+      "example": "I am planning a trip."
+    },
+    {
+      "word": "destination",
+      "meaning_es": "destino",
+      "example": "My destination is Boston."
+    },
+    {
+      "word": "flight",
+      "meaning_es": "vuelo",
+      "example": "My flight is at ten."
+    },
+    {
+      "word": "train",
+      "meaning_es": "tren",
+      "example": "I am traveling by train."
+    },
+    {
+      "word": "suitcase",
+      "meaning_es": "maleta",
+      "example": "My suitcase is small."
+    },
+    {
+      "word": "passport",
+      "meaning_es": "pasaporte",
+      "example": "I have my passport."
+    }
+  ],
+  "context": {
+    "title": "Planning a weekend trip",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "english": "Where are you going this weekend?",
+        "spanish": "¿A dónde vas este fin de semana?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "I am going to Boston. I am traveling by train.",
+        "spanish": "Voy a Boston. Viajo en tren."
+      },
+      {
+        "speaker": "Maya",
+        "english": "When are you leaving?",
+        "spanish": "¿Cuándo sales?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "I am leaving on Friday morning. I have my passport and suitcase.",
+        "spanish": "Salgo el viernes por la mañana. Tengo mi pasaporte y mi maleta."
+      },
+      {
+        "speaker": "Maya",
+        "english": "What time is your train?",
+        "spanish": "¿A qué hora es tu tren?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "It is at nine thirty.",
+        "spanish": "Es a las nueve y media."
+      }
+    ]
+  },
+  "explanation_es": "Para hablar de un plan cercano usa I am going to + destino: I am going to Boston. Para el medio de transporte usa travel by train/plane/bus. Pregunta Where are you going?, When are you leaving? y What time is your flight/train?. Passport y suitcase son objetos importantes del viaje.",
+  "spanish_speaker_notes": [
+    "Going to puede expresar destino: I am going to Boston; también planes futuros en otros contextos.",
+    "Travel by train significa viajar en tren; no uses travel with train.",
+    "Leave significa salir/partir, no dejar algo en esta situación.",
+    "Flight es vuelo; train es tren y plane es avión."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I am going to Boston.",
+        "focus": "going to Boston"
+      },
+      {
+        "text": "I am traveling by train.",
+        "focus": "traveling by train"
+      },
+      {
+        "text": "I am leaving on Friday morning.",
+        "focus": "leaving on Friday"
+      }
+    ],
+    "tip_es": "Practica la información esencial del viaje en bloques: destino, transporte, hora y documentos."
+  },
+  "reading": {
+    "title": "Leo's weekend trip",
+    "text": "Leo is going to Boston for the weekend. He is traveling by train on Friday morning. His train leaves at nine thirty. He has his passport, a small suitcase and a phone.",
+    "glossary": [
+      {
+        "term": "weekend trip",
+        "meaning_es": "viaje de fin de semana"
+      },
+      {
+        "term": "leaves",
+        "meaning_es": "sale/parte"
+      },
+      {
+        "term": "documents",
+        "meaning_es": "documentos"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "travel_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada palabra con su significado.",
+      "pairs": [
+        {
+          "english": "destination",
+          "spanish": "lugar al que vas"
+        },
+        {
+          "english": "flight",
+          "spanish": "vuelo"
+        },
+        {
+          "english": "suitcase",
+          "spanish": "maleta"
+        },
+        {
+          "english": "passport",
+          "spanish": "pasaporte"
+        }
+      ],
+      "prompt": "Relaciona cada palabra con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "destination=lugar al que vas",
+          "flight=vuelo",
+          "suitcase=maleta",
+          "passport=pasaporte"
+        ],
+        "expected_pairs": [
+          {
+            "english": "destination",
+            "spanish": "lugar al que vas"
+          },
+          {
+            "english": "flight",
+            "spanish": "vuelo"
+          },
+          {
+            "english": "suitcase",
+            "spanish": "maleta"
+          },
+          {
+            "english": "passport",
+            "spanish": "pasaporte"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_form",
+      "skill": "listening",
+      "instruction": "Escucha el plan y completa destino y transporte.",
+      "audio_text": "I am going to Boston. I am traveling by train.",
+      "fields": [
+        {
+          "label": "destination",
+          "answer": "Boston"
+        },
+        {
+          "label": "transport",
+          "answer": "train"
+        }
+      ],
+      "feedback": "Going to indica destino y by train medio de transporte.",
+      "prompt": "Escucha el plan y completa destino y transporte.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Boston",
+          "train"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Going to indica destino y by train medio de transporte.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I am traveling ___ train.",
+      "options": [
+        "by",
+        "with",
+        "on"
+      ],
+      "correct": "by",
+      "feedback": "El medio de transporte usa by.",
+      "prompt": "Completa: I am traveling ___ train.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "by"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El medio de transporte usa by.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: leaving / when / are / you / ?",
+      "answer": "When are you leaving?",
+      "feedback": "La pregunta usa el presente continuo para un plan cercano.",
+      "prompt": "Ordena: leaving / when / are / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "When are you leaving?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La pregunta usa el presente continuo para un plan cercano.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I travel with train.",
+      "answer": "I travel by train.",
+      "feedback": "La expresión fija es travel by train.",
+      "prompt": "Corrige: I travel with train.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I travel by train."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La expresión fija es travel by train.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Presenta tu plan de viaje ficticio con destino, transporte y hora.",
+      "target": "I am going to ... I am traveling by ... My ... is at ...",
+      "evaluation": {
+        "0": "destino claro",
+        "1": "by transport audible",
+        "2": "hora comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I am going to ... I am traveling by ... My ... is at ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Leo's Weekend Trip y responde: When does his train leave?",
+      "text_reference": "reading",
+      "answer": "It leaves at nine thirty on Friday morning.",
+      "feedback": "La hora aparece en la tercera oración.",
+      "prompt": "Lee Leo's Weekend Trip y responde: When does his train leave?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It leaves at nine thirty on Friday morning."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La hora aparece en la tercera oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un amigo preparando un viaje. Pregunta por destino, transporte, hora y equipaje.",
+      "scenario": "Planning a short weekend trip.",
+      "ai_language": "English with practical travel vocabulary",
+      "prompt": "La IA será un amigo preparando un viaje. Pregunta por destino, transporte, hora y equipaje.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una nota de voz de 30 segundos sobre un viaje ficticio: destino, fecha, transporte, hora y tres objetos.",
+      "success_criteria": [
+        "usa going to",
+        "usa travel by",
+        "incluye fecha/hora",
+        "nombra equipaje y documento"
+      ],
+      "prompt": "Graba una nota de voz de 30 segundos sobre un viaje ficticio: destino, fecha, transporte, hora y tres objetos.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: go ___ Boston; travel ___ train; my ___ is at ten; my ___ is in my bag.",
+      "answers": [
+        "to",
+        "by",
+        "flight",
+        "passport"
+      ],
+      "prompt": "Completa: go ___ Boston; travel ___ train; my ___ is at ten; my ___ is in my bag.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "to",
+          "by",
+          "flight",
+          "passport"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "hablar de destino y transporte",
+      "indicar cuándo sale",
+      "nombrar objetos básicos de viaje"
+    ],
+    "retry": "Si confundes by y with, recuerda que el medio de transporte usa by train/by plane."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T08-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,429 @@
+{
+  "id": "A1-M3-T07-L01",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T07",
+  "title": "Lugares de la ciudad",
+  "estimated_seconds": 900,
+  "communication_goal": "Nombrar lugares comunes de una ciudad y decir dónde están.",
+  "situation": "Preguntas por un servicio o describes un lugar cerca de tu casa.",
+  "language_focus": {
+    "grammar": [
+      "There is/are",
+      "The ... is near/next to...",
+      "Where is...?",
+      "I go to the..."
+    ],
+    "function": "city places and locations"
+  },
+  "vocabulary": [
+    {
+      "word": "bank",
+      "meaning_es": "banco",
+      "example": "The bank is near the station."
+    },
+    {
+      "word": "supermarket",
+      "meaning_es": "supermercado",
+      "example": "I go to the supermarket."
+    },
+    {
+      "word": "pharmacy",
+      "meaning_es": "farmacia",
+      "example": "The pharmacy is next to the bank."
+    },
+    {
+      "word": "hospital",
+      "meaning_es": "hospital",
+      "example": "The hospital is on Main Street."
+    },
+    {
+      "word": "library",
+      "meaning_es": "biblioteca",
+      "example": "There is a library downtown."
+    },
+    {
+      "word": "park",
+      "meaning_es": "parque",
+      "example": "We walk in the park."
+    }
+  ],
+  "context": {
+    "title": "A new neighborhood",
+    "dialogue": [
+      {
+        "speaker": "Visitor",
+        "english": "Is there a supermarket near here?",
+        "spanish": "¿Hay un supermercado cerca de aquí?"
+      },
+      {
+        "speaker": "Resident",
+        "english": "Yes, there is. The supermarket is next to the pharmacy.",
+        "spanish": "Sí. El supermercado está al lado de la farmacia."
+      },
+      {
+        "speaker": "Visitor",
+        "english": "Where is the bank?",
+        "spanish": "¿Dónde está el banco?"
+      },
+      {
+        "speaker": "Resident",
+        "english": "It is across from the park, on Main Street.",
+        "spanish": "Está enfrente del parque, en la calle Main."
+      },
+      {
+        "speaker": "Visitor",
+        "english": "Is there a library too?",
+        "spanish": "¿También hay una biblioteca?"
+      },
+      {
+        "speaker": "Resident",
+        "english": "Yes, there is a library downtown.",
+        "spanish": "Sí, hay una biblioteca en el centro."
+      }
+    ]
+  },
+  "explanation_es": "Para preguntar por la existencia de un lugar usa Is there a...? o Are there any...? Para ubicarlo usa The bank is near the station. Las expresiones near, next to y across from describen relaciones entre lugares. Downtown significa en el centro de la ciudad.",
+  "spanish_speaker_notes": [
+    "Near here significa cerca de aquí; no uses near to aquí.",
+    "Across from equivale a enfrente de, no cruzando desde literalmente.",
+    "The bank is... ubica un lugar conocido; There is a bank... presenta uno nuevo.",
+    "Pharmacy contiene varias sílabas; practícala lentamente."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Is there a supermarket near here?",
+        "focus": "is there y near here"
+      },
+      {
+        "text": "The pharmacy is next to the bank.",
+        "focus": "pharmacy y next to"
+      },
+      {
+        "text": "It is across from the park.",
+        "focus": "across from"
+      }
+    ],
+    "tip_es": "Al pedir una dirección, empieza con Excuse me para llamar la atención de forma cortés."
+  },
+  "reading": {
+    "title": "A useful neighborhood",
+    "text": "There is a supermarket next to a pharmacy. The bank is across from a park on Main Street. There is also a library downtown. The hospital is near the park.",
+    "glossary": [
+      {
+        "term": "neighborhood",
+        "meaning_es": "barrio"
+      },
+      {
+        "term": "across from",
+        "meaning_es": "enfrente de"
+      },
+      {
+        "term": "downtown",
+        "meaning_es": "centro de la ciudad"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "place_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada lugar con una actividad o necesidad.",
+      "pairs": [
+        {
+          "english": "bank",
+          "spanish": "get money"
+        },
+        {
+          "english": "supermarket",
+          "spanish": "buy food"
+        },
+        {
+          "english": "pharmacy",
+          "spanish": "buy medicine"
+        },
+        {
+          "english": "library",
+          "spanish": "borrow books"
+        }
+      ],
+      "prompt": "Relaciona cada lugar con una actividad o necesidad.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "bank=get money",
+          "supermarket=buy food",
+          "pharmacy=buy medicine",
+          "library=borrow books"
+        ],
+        "expected_pairs": [
+          {
+            "english": "bank",
+            "spanish": "get money"
+          },
+          {
+            "english": "supermarket",
+            "spanish": "buy food"
+          },
+          {
+            "english": "pharmacy",
+            "spanish": "buy medicine"
+          },
+          {
+            "english": "library",
+            "spanish": "borrow books"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: The pharmacy is next to the bank. Elige la relación.",
+      "audio_text": "The pharmacy is next to the bank.",
+      "options": [
+        "La farmacia está al lado del banco.",
+        "La farmacia está dentro del banco.",
+        "La farmacia está lejos del banco."
+      ],
+      "correct": "La farmacia está al lado del banco.",
+      "feedback": "Next to indica proximidad lateral.",
+      "prompt": "Escucha: The pharmacy is next to the bank. Elige la relación.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "La farmacia está al lado del banco."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Next to indica proximidad lateral.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: ___ there a library downtown?",
+      "options": [
+        "Is",
+        "Are",
+        "Does"
+      ],
+      "correct": "Is",
+      "feedback": "Library es singular y usa Is there.",
+      "prompt": "Completa: ___ there a library downtown?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Is"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Library es singular y usa Is there.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: the bank / where / is / ?",
+      "answer": "Where is the bank?",
+      "feedback": "Where is pregunta la ubicación de un lugar.",
+      "prompt": "Ordena: the bank / where / is / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Where is the bank?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Where is pregunta la ubicación de un lugar.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: The bank is in front the park.",
+      "answer": "The bank is across from the park.",
+      "feedback": "Across from necesita from y expresa enfrente de.",
+      "prompt": "Corrige: The bank is in front the park.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The bank is across from the park."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Across from necesita from y expresa enfrente de.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe tres lugares de un barrio usando near, next to y across from.",
+      "target": "The ... is near ... The ... is next to ... The ... is across from ...",
+      "evaluation": {
+        "0": "lugares claros",
+        "1": "preposiciones audibles",
+        "2": "frases comprensibles",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "The ... is near ... The ... is next to ... The ... is across from ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Useful Neighborhood y responde: Where is the hospital?",
+      "text_reference": "reading",
+      "answer": "It is near the park.",
+      "feedback": "La última oración indica su ubicación.",
+      "prompt": "Lee A Useful Neighborhood y responde: Where is the hospital?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It is near the park."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La última oración indica su ubicación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un visitante nuevo. Explica dónde están cuatro lugares de un barrio ficticio.",
+      "scenario": "Describing useful places in a neighborhood.",
+      "ai_language": "English; ask follow-up questions about nearby places",
+      "prompt": "La IA será un visitante nuevo. Explica dónde están cuatro lugares de un barrio ficticio.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea un mapa sencillo con seis lugares y graba ocho frases sobre sus ubicaciones.",
+      "success_criteria": [
+        "usa seis lugares",
+        "usa near/next to/across from",
+        "incluye there is/are",
+        "descripción verificable"
+      ],
+      "prompt": "Crea un mapa sencillo con seis lugares y graba ocho frases sobre sus ubicaciones.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: lugar para comida = ___; medicinas = ___; libros = ___; enfrente de = across ___.",
+      "answers": [
+        "supermarket",
+        "pharmacy",
+        "library",
+        "from"
+      ],
+      "prompt": "Completa: lugar para comida = ___; medicinas = ___; libros = ___; enfrente de = across ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "supermarket",
+          "pharmacy",
+          "library",
+          "from"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "nombrar lugares de la ciudad",
+      "usar there is y where is",
+      "describir relaciones espaciales"
+    ],
+    "retry": "Si confundes los lugares, asocia cada uno con una necesidad concreta antes de describir el mapa."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T07-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

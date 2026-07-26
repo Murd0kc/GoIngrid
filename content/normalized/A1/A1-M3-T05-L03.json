@@ -1,0 +1,431 @@
+{
+  "id": "A1-M3-T05-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T05",
+  "title": "Pedir en un restaurante",
+  "estimated_seconds": 930,
+  "communication_goal": "Leer un menú, pedir comida y bebida y responder preguntas sencillas del camarero.",
+  "situation": "Comes en un restaurante y haces un pedido con cortesía.",
+  "language_focus": {
+    "grammar": [
+      "I'd like...",
+      "Can I have...?",
+      "For me...",
+      "Anything else?",
+      "That's all, thank you",
+      "Would you like...?"
+    ],
+    "function": "ordering at a restaurant"
+  },
+  "vocabulary": [
+    {
+      "word": "menu",
+      "meaning_es": "menú",
+      "example": "Can I see the menu?"
+    },
+    {
+      "word": "order",
+      "meaning_es": "pedido/pedir",
+      "example": "Are you ready to order?"
+    },
+    {
+      "word": "main course",
+      "meaning_es": "plato principal",
+      "example": "The chicken is the main course."
+    },
+    {
+      "word": "side",
+      "meaning_es": "acompañamiento",
+      "example": "I'd like rice as a side."
+    },
+    {
+      "word": "dessert",
+      "meaning_es": "postre",
+      "example": "Would you like dessert?"
+    },
+    {
+      "word": "bill",
+      "meaning_es": "cuenta",
+      "example": "Can we have the bill?"
+    }
+  ],
+  "context": {
+    "title": "Dinner at a cafe",
+    "dialogue": [
+      {
+        "speaker": "Server",
+        "english": "Are you ready to order?",
+        "spanish": "¿Están listos para pedir?"
+      },
+      {
+        "speaker": "Customer",
+        "english": "Yes. I'd like the chicken with rice, please.",
+        "spanish": "Sí. Quisiera el pollo con arroz, por favor."
+      },
+      {
+        "speaker": "Server",
+        "english": "Would you like a drink?",
+        "spanish": "¿Quieres una bebida?"
+      },
+      {
+        "speaker": "Customer",
+        "english": "Can I have some water, please?",
+        "spanish": "¿Puedo tomar agua, por favor?"
+      },
+      {
+        "speaker": "Server",
+        "english": "Anything else?",
+        "spanish": "¿Algo más?"
+      },
+      {
+        "speaker": "Customer",
+        "english": "That's all, thank you. Can we have the bill later?",
+        "spanish": "Eso es todo, gracias. ¿Podemos pedir la cuenta después?"
+      }
+    ]
+  },
+  "explanation_es": "En un restaurante puedes decir I'd like the chicken, please o Can I have some water, please?. El camarero puede preguntar Would you like...? para ofrecer algo. Para terminar el pedido usa That's all, thank you. Para pedir la cuenta, Can we have the bill, please?.",
+  "spanish_speaker_notes": [
+    "Order en restaurante significa pedir, no solo ordenar objetos.",
+    "Some water es natural cuando pides una cantidad no específica.",
+    "That's all significa 'eso es todo', no 'eso está mal'.",
+    "Bill es la cuenta; check puede usarse en algunos lugares, pero bill es una opción clara."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I'd like the chicken with rice, please.",
+        "focus": "I'd like y chicken with rice"
+      },
+      {
+        "text": "Can I have some water, please?",
+        "focus": "can I have y please"
+      },
+      {
+        "text": "That's all, thank you.",
+        "focus": "that's all"
+      }
+    ],
+    "tip_es": "Usa una entonación amable y una pausa breve al terminar cada pedido."
+  },
+  "reading": {
+    "title": "A cafe menu",
+    "text": "The cafe menu has chicken with rice, vegetable soup and a cheese sandwich. Customers can order water, juice or coffee. After dinner, they can have fruit or cake. The bill is five dollars for each person.",
+    "glossary": [
+      {
+        "term": "vegetable soup",
+        "meaning_es": "sopa de verduras"
+      },
+      {
+        "term": "cheese sandwich",
+        "meaning_es": "sándwich de queso"
+      },
+      {
+        "term": "each person",
+        "meaning_es": "cada persona"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "menu_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada palabra del restaurante con su significado.",
+      "pairs": [
+        {
+          "english": "menu",
+          "spanish": "lista de comidas"
+        },
+        {
+          "english": "main course",
+          "spanish": "plato principal"
+        },
+        {
+          "english": "dessert",
+          "spanish": "postre"
+        },
+        {
+          "english": "bill",
+          "spanish": "cuenta"
+        }
+      ],
+      "prompt": "Relaciona cada palabra del restaurante con su significado.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "menu=lista de comidas",
+          "main course=plato principal",
+          "dessert=postre",
+          "bill=cuenta"
+        ],
+        "expected_pairs": [
+          {
+            "english": "menu",
+            "spanish": "lista de comidas"
+          },
+          {
+            "english": "main course",
+            "spanish": "plato principal"
+          },
+          {
+            "english": "dessert",
+            "spanish": "postre"
+          },
+          {
+            "english": "bill",
+            "spanish": "cuenta"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: That's all, thank you. Elige cuándo se usa.",
+      "audio_text": "That's all, thank you.",
+      "options": [
+        "Para terminar un pedido.",
+        "Para pedir el menú.",
+        "Para preguntar el precio."
+      ],
+      "correct": "Para terminar un pedido.",
+      "feedback": "That's all indica que no deseas añadir más.",
+      "prompt": "Escucha: That's all, thank you. Elige cuándo se usa.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Para terminar un pedido."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "That's all indica que no deseas añadir más.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I'd like ___ water, please.",
+      "options": [
+        "some",
+        "a",
+        "an"
+      ],
+      "correct": "some",
+      "feedback": "Water es no contable y una petición usa some.",
+      "prompt": "Completa: I'd like ___ water, please.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "some"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Water es no contable y una petición usa some.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: have / can / bill / the / we / ?",
+      "answer": "Can we have the bill?",
+      "feedback": "Can we have formula una petición del grupo.",
+      "prompt": "Ordena: have / can / bill / the / we / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Can we have the bill?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Can we have formula una petición del grupo.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I like the chicken, please.",
+      "answer": "I'd like the chicken, please.",
+      "feedback": "Para pedir en un restaurante usa I'd like.",
+      "prompt": "Corrige: I like the chicken, please.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'd like the chicken, please."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Para pedir en un restaurante usa I'd like.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Representa un pedido con plato, bebida y cierre.",
+      "target": "I'd like ... Can I have ...? That's all, thank you.",
+      "evaluation": {
+        "0": "pedido claro",
+        "1": "pregunta comprensible",
+        "2": "cierre natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I'd like ... Can I have ...? That's all, thank you.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Cafe Menu y responde: What desserts are available?",
+      "text_reference": "reading",
+      "answer": "Fruit and cake.",
+      "feedback": "La tercera oración menciona los postres.",
+      "prompt": "Lee A Cafe Menu y responde: What desserts are available?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Fruit and cake."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La tercera oración menciona los postres.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será camarero. Lee un menú ficticio, pide un plato, bebida y postre, y responde Would you like...?.",
+      "scenario": "Ordering a complete meal at a cafe.",
+      "ai_language": "English; make the menu accessible and realistic",
+      "prompt": "La IA será camarero. Lee un menú ficticio, pide un plato, bebida y postre, y responde Would you like...?.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba un diálogo de ocho turnos en un restaurante: pedir menú, plato, bebida, postre y cuenta.",
+      "success_criteria": [
+        "usa I'd like y Can I have",
+        "usa please/thank you",
+        "responde Anything else?",
+        "pedido comprensible"
+      ],
+      "prompt": "Graba un diálogo de ocho turnos en un restaurante: pedir menú, plato, bebida, postre y cuenta.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: Are you ready to ___? I'd ___ the soup. That's ___, thank you. Can we have the ___?",
+      "answers": [
+        "order",
+        "like",
+        "all",
+        "bill"
+      ],
+      "prompt": "Completa: Are you ready to ___? I'd ___ the soup. That's ___, thank you. Can we have the ___?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "order",
+          "like",
+          "all",
+          "bill"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T05-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "pedir una comida",
+      "responder ofertas",
+      "terminar y solicitar la cuenta"
+    ],
+    "retry": "Si traduces literalmente el pedido, practica tres veces el bloque I'd like..., please."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T05-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

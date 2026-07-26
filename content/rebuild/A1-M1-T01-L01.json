@@ -1,0 +1,193 @@
+{
+  "id": "A1-M1-T01-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T01",
+  "title": "Spell your name",
+  "estimated_seconds": 900,
+  "communication_goal": "El estudiante puede decir su nombre, pedir cómo se deletrea y confirmar una letra.",
+  "situation": "Registrarse en una cafetería y aclarar el nombre para el pedido.",
+  "language_focus": [
+    "What's your name?",
+    "My name is...",
+    "How do you spell it?",
+    "It's A-N-A.",
+    "Could you repeat that, please?",
+    "Is that B or V?"
+  ],
+  "vocabulary": [
+    { "term": "name", "meaning_es": "nombre", "part_of_speech": "noun", "example": "What's your name?" },
+    { "term": "spell", "meaning_es": "deletrear", "part_of_speech": "verb", "example": "How do you spell it?" },
+    { "term": "letter", "meaning_es": "letra", "part_of_speech": "noun", "example": "The first letter is B." },
+    { "term": "first", "meaning_es": "primero / primera", "part_of_speech": "adjective", "example": "What's the first letter?" },
+    { "term": "last", "meaning_es": "último / última", "part_of_speech": "adjective", "example": "What's the last letter?" },
+    { "term": "repeat", "meaning_es": "repetir", "part_of_speech": "verb", "example": "Could you repeat that, please?" },
+    { "term": "correct", "meaning_es": "correcto", "part_of_speech": "adjective", "example": "Yes, that's correct." }
+  ],
+  "context": {
+    "before": "You are ordering coffee. The cashier needs your name.",
+    "dialogue": [
+      { "speaker": "Cashier", "text": "What's your name?" },
+      { "speaker": "Customer", "text": "My name is Ana." },
+      { "speaker": "Cashier", "text": "How do you spell it?" },
+      { "speaker": "Customer", "text": "A-N-A." },
+      { "speaker": "Cashier", "text": "Ana, right?" },
+      { "speaker": "Customer", "text": "Yes, that's correct." }
+    ],
+    "comprehension_question": {
+      "prompt": "Why does the cashier ask 'How do you spell it?'",
+      "options": ["To confirm the name", "To ask for the price", "To ask for a drink"],
+      "correct_answer": "To confirm the name"
+    }
+  },
+  "spanish_speaker_notes": [
+    "En 'How do you spell it?' no se dice 'How spell it?'. El auxiliar do es necesario.",
+    "Al deletrear, di los nombres de las letras, no los sonidos que producen dentro de una palabra.",
+    "B /biː/ y V /viː/ suelen confundirse. En V los dientes superiores tocan suavemente el labio inferior."
+  ],
+  "pronunciation": {
+    "target": "Distinguir los nombres de B y V y producir la frase 'How do you spell it?' con ritmo comprensible.",
+    "models": [
+      { "text": "B", "ipa": "/biː/", "contrast": "bee" },
+      { "text": "V", "ipa": "/viː/", "contrast": "vee" },
+      { "text": "How do you spell it?", "stress": ["How", "spell"] }
+    ],
+    "student_feedback": "Evalúa inteligibilidad, diferencia B/V y ritmo de la pregunta. No penalices el acento extranjero si el mensaje se entiende."
+  },
+  "reading": {
+    "title": "A name for the order",
+    "text": "Ana is at a coffee shop. She orders a latte. The cashier asks for her name. Ana says, 'My name is Ana.' The cashier asks, 'How do you spell it?' Ana says, 'A-N-A.'",
+    "interactive_vocabulary": ["coffee shop", "orders", "cashier", "her name"],
+    "questions": [
+      { "prompt": "What does Ana order?", "answer": "A latte" },
+      { "prompt": "Why does Ana say A-N-A?", "answer": "She spells her name" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T01-L01-E01",
+      "type": "context_prediction",
+      "skill": "vocabulary",
+      "instruction": "Antes de leer el diálogo, elige qué información necesita el cajero.",
+      "prompt": "What's your name?",
+      "options": ["Your name", "Your address", "Your favorite color"],
+      "correct_answer": "Your name",
+      "feedback_correct": "Correcto. La pregunta pide el nombre.",
+      "feedback_incorrect": "Name significa nombre.",
+      "estimated_seconds": 30
+    },
+    {
+      "id": "A1-M1-T01-L01-E02",
+      "type": "vocabulary_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada palabra con su significado.",
+      "pairs": [
+        { "term": "spell", "meaning_es": "deletrear" },
+        { "term": "letter", "meaning_es": "letra" },
+        { "term": "repeat", "meaning_es": "repetir" }
+      ],
+      "feedback_correct": "Estas palabras te ayudan a aclarar información personal.",
+      "feedback_incorrect": "Mira la frase de ejemplo y vuelve a intentarlo.",
+      "estimated_seconds": 60
+    },
+    {
+      "id": "A1-M1-T01-L01-E03",
+      "type": "listening_global",
+      "skill": "listening",
+      "instruction": "Escucha el diálogo y elige el propósito principal.",
+      "prompt": "A cashier asks a customer for a name and confirms the spelling.",
+      "options": ["Confirm a name", "Choose a drink", "Ask for directions"],
+      "correct_answer": "Confirm a name",
+      "feedback_correct": "Entendiste la situación general.",
+      "feedback_incorrect": "Escucha qué información se repite: el nombre y sus letras.",
+      "estimated_seconds": 60
+    },
+    {
+      "id": "A1-M1-T01-L01-E04",
+      "type": "guided_discovery",
+      "skill": "grammar",
+      "instruction": "Completa la pregunta que aparece en el diálogo.",
+      "prompt": "How ___ you spell it?",
+      "options": ["do", "are", "is"],
+      "correct_answer": "do",
+      "feedback_correct": "Con you usamos do para formar esta pregunta.",
+      "feedback_incorrect": "La estructura es How do you + verbo base.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T01-L01-E05",
+      "type": "retrieval_ordering",
+      "skill": "grammar",
+      "instruction": "Ordena las palabras para pedir el deletreo.",
+      "tokens": ["How", "do", "you", "spell", "it?"],
+      "correct_answer": "How do you spell it?",
+      "feedback_correct": "La pregunta está completa y natural.",
+      "feedback_incorrect": "Empieza con How do you y termina con el verbo spell.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T01-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Escucha y graba: 'B, V. Could you repeat that, please?'",
+      "prompt": "B, V. Could you repeat that, please?",
+      "evaluation": ["intelligibility", "B-V contrast", "polite intonation"],
+      "feedback_correct": "Se entiende la aclaración. Practica ahora dentro del diálogo.",
+      "feedback_incorrect": "En V, toca el labio inferior con los dientes superiores y deja salir aire.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T01-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto. Toca solo las palabras nuevas y responde las preguntas.",
+      "prompt": "A name for the order",
+      "reading_ref": "A1-M1-T01-L01-reading-01",
+      "correct_answer": "2 comprehension answers",
+      "feedback_correct": "Comprendiste la información principal y un detalle.",
+      "feedback_incorrect": "Vuelve al texto y busca quién pregunta por el nombre.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T01-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Habla con la IA. Pide el nombre del estudiante y luego confirma cómo se deletrea.",
+      "role": "cashier",
+      "student_goal": "Give a name, spell it, and clarify one letter if needed.",
+      "allowed_support": ["Spanish hint", "sentence starter", "repeat question"],
+      "success_criteria": ["gives a name", "spells a name", "asks for repetition or confirms a letter"],
+      "feedback_correct": "Completaste la interacción y lograste el objetivo comunicativo.",
+      "feedback_incorrect": "Usa: My name is... / How do you spell it? / Could you repeat that, please?",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T01-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Nueva situación: una persona no entiende tu apellido. Deletrea y confirma la última letra.",
+      "prompt": "My last name is ____. It's spelled ____. The last letter is ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses last name", "spells letters in order", "identifies last letter"],
+      "feedback_correct": "Transferiste el aprendizaje a una situación nueva.",
+      "feedback_incorrect": "Escribe primero tu apellido y después di cada letra por separado.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T01-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Sin mirar la lección, completa las tres expresiones clave.",
+      "prompts": ["What's your ___?", "How do you ___ it?", "Could you ___ that, please?"],
+      "correct_answers": ["name", "spell", "repeat"],
+      "feedback_correct": "Recuperaste el vocabulario y las expresiones importantes.",
+      "feedback_incorrect": "Repasa name, spell y repeat. Volverán a aparecer en próximos días.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["listening_global", "pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

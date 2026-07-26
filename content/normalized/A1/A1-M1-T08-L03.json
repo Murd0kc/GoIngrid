@@ -1,0 +1,456 @@
+{
+  "id": "A1-M1-T08-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T08",
+  "title": "Choose these or those",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede elegir y comparar objetos según su distancia y cantidad.",
+  "situation": "Elegir productos en una tienda y pedir información sobre objetos cercanos y lejanos.",
+  "language_focus": [
+    "I like this one.",
+    "I want that one.",
+    "These are cheaper.",
+    "Those are expensive.",
+    "What are these?",
+    "How much are those?"
+  ],
+  "vocabulary": [
+    {
+      "term": "one",
+      "meaning_es": "uno / una",
+      "example": "I like this one."
+    },
+    {
+      "term": "cheaper",
+      "meaning_es": "más barato / barata",
+      "example": "These are cheaper."
+    },
+    {
+      "term": "expensive",
+      "meaning_es": "caro / cara",
+      "example": "Those are expensive."
+    },
+    {
+      "term": "price",
+      "meaning_es": "precio",
+      "example": "What's the price?"
+    },
+    {
+      "term": "pair",
+      "meaning_es": "par",
+      "example": "These are a pair of shoes."
+    },
+    {
+      "term": "over there",
+      "meaning_es": "allí / por allí",
+      "example": "Those are over there."
+    }
+  ],
+  "context": {
+    "before": "A customer chooses between products on a store counter and a distant shelf.",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "text": "What are these?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "These are new notebooks."
+      },
+      {
+        "speaker": "Customer",
+        "text": "I like this one. How much is it?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "It's five dollars."
+      },
+      {
+        "speaker": "Customer",
+        "text": "And what are those over there?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Those are older notebooks. They are cheaper."
+      }
+    ]
+  },
+  "explanation_es": "Los demostrativos combinan cantidad y distancia: this = uno cerca, that = uno lejos, these = varios cerca, those = varios lejos. Con this/that puedes usar one para no repetir el sustantivo.",
+  "spanish_speaker_notes": [
+    "No uses this para varias cosas; usa these.",
+    "One reemplaza un sustantivo singular: I like this one.",
+    "En preguntas plurales usa are: What are these? How much are those?"
+  ],
+  "pronunciation": {
+    "target": "Producir los cuatro demostrativos en preguntas y decisiones de compra.",
+    "models": [
+      {
+        "text": "this one",
+        "stress": [
+          "this",
+          "one"
+        ]
+      },
+      {
+        "text": "that one",
+        "stress": [
+          "that",
+          "one"
+        ]
+      },
+      {
+        "text": "these are cheaper",
+        "stress": [
+          "these",
+          "cheaper"
+        ]
+      },
+      {
+        "text": "those are expensive",
+        "stress": [
+          "those",
+          "expensive"
+        ]
+      }
+    ],
+    "student_feedback": "La forma del demostrativo ayuda al interlocutor a localizar exactamente el producto."
+  },
+  "reading": {
+    "title": "At the notebook store",
+    "text": "A customer looks at notebooks. These notebooks are new and bright. That notebook near the register is special. Those notebooks on the high shelf are older, but they are cheaper. The customer chooses this one.",
+    "interactive_vocabulary": [
+      "bright",
+      "register",
+      "special",
+      "high shelf",
+      "chooses"
+    ],
+    "questions": [
+      {
+        "prompt": "Where are the older notebooks?",
+        "options": [
+          "On the high shelf",
+          "Near the register",
+          "In the customer's bag"
+        ],
+        "answer": "On the high shelf"
+      },
+      {
+        "prompt": "Which notebook does the customer choose?",
+        "options": [
+          "This one",
+          "That one near the register",
+          "Those on the high shelf"
+        ],
+        "answer": "This one"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T08-L03-E01",
+      "type": "four_point_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada referencia por cantidad y distancia.",
+      "items": [
+        {
+          "text": "one nearby notebook",
+          "category": "this"
+        },
+        {
+          "text": "one distant notebook",
+          "category": "that"
+        },
+        {
+          "text": "several nearby notebooks",
+          "category": "these"
+        },
+        {
+          "text": "several distant notebooks",
+          "category": "those"
+        }
+      ],
+      "categories": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "feedback_correct": "Usaste las dos variables: singular/plural y cerca/lejos.",
+      "feedback_incorrect": "Primero decide uno o varios; después cerca o lejos.",
+      "estimated_seconds": 75,
+      "prompt": "Clasifica cada referencia por cantidad y distancia.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "one nearby notebook=this",
+          "one distant notebook=that",
+          "several nearby notebooks=these",
+          "several distant notebooks=those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E02",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha la petición y elige el grupo de productos.",
+      "prompt": "How much are those?",
+      "options": [
+        "Several distant products",
+        "One nearby product",
+        "Several nearby products"
+      ],
+      "correct_answer": "Several distant products",
+      "feedback_correct": "Those señala varios objetos lejos.",
+      "feedback_incorrect": "Those = varios y lejos; observa también are.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Several distant products"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase sobre un objeto cercano.",
+      "prompt": "I like ___ one. (one notebook in my hand)",
+      "options": [
+        "this",
+        "that",
+        "those"
+      ],
+      "correct_answer": "this",
+      "feedback_correct": "Un objeto cerca = this one.",
+      "feedback_incorrect": "Es singular y está cerca: this.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "this"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E04",
+      "type": "sentence_building",
+      "skill": "interaction",
+      "instruction": "Ordena la pregunta por el precio.",
+      "tokens": [
+        "How",
+        "much",
+        "are",
+        "those?"
+      ],
+      "correct_answer": "How much are those?",
+      "feedback_correct": "Usamos are porque those señala varios objetos.",
+      "feedback_incorrect": "Después de How much va are con un grupo plural.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena la pregunta por el precio.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How much are those?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta.",
+      "prompt": "What is these?",
+      "correct_answer": "What are these?",
+      "feedback_correct": "These es plural y necesita are.",
+      "feedback_incorrect": "Cambia is por are cuando preguntas por varios objetos.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What are these?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una decisión de compra con dos productos cercanos y un grupo lejano.",
+      "prompt": "I like this one. These are new. Those are cheaper.",
+      "evaluation": {
+        "0": "four demonstrative contrast",
+        "1": "plural agreement",
+        "2": "choice intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La distancia, cantidad y elección se entienden.",
+      "feedback_incorrect": "Enfatiza this, these y those; comprueba one frente a are.",
+      "estimated_seconds": 110,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la tienda y completa una tabla: cerca/lejos, uno/varios, nuevo/viejo.",
+      "reading_ref": "A1-M1-T08-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 4 product references",
+      "feedback_correct": "Usaste detalles de distancia y cantidad para interpretar la elección.",
+      "feedback_incorrect": "Busca one notebook, these notebooks y those notebooks.",
+      "estimated_seconds": 130,
+      "prompt": "Lee la tienda y completa una tabla: cerca/lejos, uno/varios, nuevo/viejo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 product references"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es dependiente de una tienda. Pregunta por cuatro productos y elige uno.",
+      "role": "store assistant",
+      "student_goal": "Ask about nearby and distant singular/plural products and make a choice.",
+      "allowed_support": [
+        "store image",
+        "price tags",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "asks two What is/are questions",
+        "uses this/that/these/those",
+        "chooses one item"
+      ],
+      "feedback_correct": "Usaste demostrativos para comprar y tomar una decisión.",
+      "feedback_incorrect": "Uno cerca = this; uno lejos = that; varios cerca = these; varios lejos = those.",
+      "estimated_seconds": 200,
+      "prompt": "La IA es dependiente de una tienda. Pregunta por cuatro productos y elige uno.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Elige tres objetos de una imagen: uno cercano, uno lejano y un grupo cercano o lejano.",
+      "prompt": "I want this ____. I don't want that ____. These/Those are ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses singular near",
+        "uses singular far",
+        "uses plural demonstrative",
+        "communicates a preference"
+      ],
+      "feedback_correct": "Usaste demostrativos para expresar una elección real.",
+      "feedback_incorrect": "Separa las decisiones por cantidad y distancia antes de hablar.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    },
+    {
+      "id": "A1-M1-T08-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la matriz sin mirar.",
+      "prompts": [
+        "one near = ___",
+        "one far = ___",
+        "many near = ___",
+        "many far = ___"
+      ],
+      "correct_answers": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "feedback_correct": "Recuperaste el sistema según cantidad y distancia.",
+      "feedback_incorrect": "Singular: this/that; plural: these/those; cerca va primero en cada pareja.",
+      "estimated_seconds": 90,
+      "prompt": "Completa la matriz sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "this",
+          "that",
+          "these",
+          "those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T08-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

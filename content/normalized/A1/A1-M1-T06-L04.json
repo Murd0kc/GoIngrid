@@ -1,0 +1,433 @@
+{
+  "id": "A1-M1-T06-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T06",
+  "title": "Describe and find",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede describir personas, objetos y estados para ayudar a otra persona a identificar una escena.",
+  "situation": "Describir una persona y sus objetos en un punto de encuentro.",
+  "language_focus": [
+    "He is tall and friendly.",
+    "She is wearing a red jacket.",
+    "It is a small black bag.",
+    "We are near the entrance.",
+    "They are ready."
+  ],
+  "vocabulary": [
+    {
+      "term": "tall",
+      "meaning_es": "alto / alta",
+      "example": "He is tall."
+    },
+    {
+      "term": "friendly",
+      "meaning_es": "amable",
+      "example": "She is friendly."
+    },
+    {
+      "term": "jacket",
+      "meaning_es": "chaqueta",
+      "example": "She is wearing a red jacket."
+    },
+    {
+      "term": "entrance",
+      "meaning_es": "entrada",
+      "example": "We are near the entrance."
+    },
+    {
+      "term": "wearing",
+      "meaning_es": "llevando puesto",
+      "example": "He is wearing a blue shirt."
+    },
+    {
+      "term": "different",
+      "meaning_es": "diferente",
+      "example": "The bags are different."
+    }
+  ],
+  "context": {
+    "before": "A friend cannot find someone at a busy community event.",
+    "dialogue": [
+      {
+        "speaker": "Friend",
+        "text": "What does your friend look like?"
+      },
+      {
+        "speaker": "Student",
+        "text": "He is tall and friendly. He is wearing a blue shirt."
+      },
+      {
+        "speaker": "Friend",
+        "text": "What about his bag?"
+      },
+      {
+        "speaker": "Student",
+        "text": "It is a small black bag. We are near the entrance."
+      },
+      {
+        "speaker": "Friend",
+        "text": "I see him. They are ready to leave."
+      }
+    ]
+  },
+  "explanation_es": "Para identificar algo o alguien, combina adjetivos de apariencia, color, tamaño y estado. Puedes usar be + adjetivo, be + wearing + prenda y adjetivo antes del sustantivo: a small black bag.",
+  "spanish_speaker_notes": [
+    "En inglés se dice He is tall, no He has tall.",
+    "Para ropa usamos is wearing: She is wearing a red jacket.",
+    "Los adjetivos no cambian: two black bags, no two blacks bags."
+  ],
+  "pronunciation": {
+    "target": "Producir descripciones con dos adjetivos, ropa y ubicación con ritmo claro.",
+    "models": [
+      {
+        "text": "He is tall and friendly.",
+        "stress": [
+          "tall",
+          "friendly"
+        ]
+      },
+      {
+        "text": "a small black bag",
+        "stress": [
+          "small",
+          "black",
+          "bag"
+        ]
+      },
+      {
+        "text": "We are near the entrance.",
+        "stress": [
+          "near",
+          "entrance"
+        ]
+      }
+    ],
+    "student_feedback": "Agrupa la descripción en bloques: persona, objeto y ubicación."
+  },
+  "reading": {
+    "title": "Find the person at the event",
+    "text": "Nora is looking for her friend at a busy event. Her friend is tall and friendly. He is wearing a blue shirt and has a small black bag. Nora sees a tall man near the entrance, but his bag is red. She continues looking for the person with the blue shirt and black bag.",
+    "interactive_vocabulary": [
+      "looking for",
+      "busy event",
+      "wearing",
+      "continues",
+      "person"
+    ],
+    "questions": [
+      {
+        "prompt": "What color is the correct shirt?",
+        "options": [
+          "Blue",
+          "Red",
+          "Black"
+        ],
+        "answer": "Blue"
+      },
+      {
+        "prompt": "Why is the tall man near the entrance not the correct person?",
+        "options": [
+          "His bag is red",
+          "He is not tall",
+          "He is not at the event"
+        ],
+        "answer": "His bag is red"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T06-L04-E01",
+      "type": "description_filter",
+      "skill": "vocabulary",
+      "instruction": "Selecciona solo las características de la persona correcta.",
+      "prompt": "The correct person is tall, friendly, wearing a blue shirt and carrying a black bag.",
+      "options": [
+        "tall",
+        "friendly",
+        "blue shirt",
+        "red bag",
+        "black bag"
+      ],
+      "correct_answer": [
+        "tall",
+        "friendly",
+        "blue shirt",
+        "black bag"
+      ],
+      "feedback_correct": "Filtraste la información relevante para identificar a alguien.",
+      "feedback_incorrect": "Compara el color de la camisa y la bolsa con la descripción original.",
+      "estimated_seconds": 75,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "tall",
+          "friendly",
+          "blue shirt",
+          "black bag"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E02",
+      "type": "listening_inference",
+      "skill": "listening",
+      "instruction": "Escucha dos descripciones y decide cuál coincide.",
+      "prompt": "He is tall and friendly. He is wearing a blue shirt and carrying a black bag.",
+      "options": [
+        "Person A",
+        "Person B",
+        "Neither"
+      ],
+      "correct_answer": "Person A",
+      "feedback_correct": "Usaste varios detalles para identificar la persona.",
+      "feedback_incorrect": "No te fijes solo en tall; compara shirt y bag.",
+      "estimated_seconds": 65,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Person A"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E03",
+      "type": "description_builder",
+      "skill": "grammar",
+      "instruction": "Construye la descripción.",
+      "tokens": [
+        "a",
+        "small",
+        "black",
+        "bag"
+      ],
+      "correct_answer": "a small black bag",
+      "feedback_correct": "Los adjetivos aparecen antes del sustantivo.",
+      "feedback_incorrect": "Usa artículo + tamaño + color + sustantivo.",
+      "estimated_seconds": 45,
+      "prompt": "Construye la descripción.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a small black bag"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E04",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase sobre ropa.",
+      "prompt": "She is ___ a red jacket.",
+      "options": [
+        "wearing",
+        "wear",
+        "wears"
+      ],
+      "correct_answer": "wearing",
+      "feedback_correct": "Para la descripción actual usamos is wearing.",
+      "feedback_incorrect": "La estructura es She is wearing + prenda.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "wearing"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la descripción.",
+      "prompt": "He has tall and friendly.",
+      "correct_answer": "He is tall and friendly.",
+      "feedback_correct": "Tall y friendly son adjetivos; usamos is.",
+      "feedback_incorrect": "Cambia has por is: He is tall and friendly.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He is tall and friendly."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una descripción completa para ayudar a encontrar a la persona.",
+      "prompt": "He is tall and friendly. He is wearing a blue shirt. He has a small black bag.",
+      "evaluation": {
+        "0": "adjective clarity",
+        "1": "wearing pronunciation",
+        "2": "information grouping",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La descripción es suficientemente clara para identificar a la persona.",
+      "feedback_incorrect": "Divide la descripción en tres frases y enfatiza tall, blue y black.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las dos descripciones y decide cuál persona coincide con todos los detalles.",
+      "reading_ref": "A1-M1-T06-L04-reading-01",
+      "correct_answer": "2 comprehension answers and detail comparison",
+      "feedback_correct": "Comparaste información explícita e identificaste una diferencia.",
+      "feedback_incorrect": "Revisa shirt, bag y color; un detalle diferente cambia la respuesta.",
+      "estimated_seconds": 135,
+      "prompt": "Lee las dos descripciones y decide cuál persona coincide con todos los detalles.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and detail comparison"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu amigo perdido en un evento. Descríbele a la persona que buscas y responde sus preguntas.",
+      "role": "friend at an event",
+      "student_goal": "Give a multi-detail description and confirm whether a candidate matches.",
+      "allowed_support": [
+        "adjective bank",
+        "candidate cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "describes appearance",
+        "describes clothing or object",
+        "gives location",
+        "rejects or confirms a candidate"
+      ],
+      "feedback_correct": "Usaste descripciones para resolver un problema comunicativo.",
+      "feedback_incorrect": "Incluye altura o cualidad, ropa, objeto y ubicación.",
+      "estimated_seconds": 220,
+      "prompt": "La IA es tu amigo perdido en un evento. Descríbele a la persona que buscas y responde sus preguntas.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: describe una persona y un objeto de una imagen nueva. La IA debe encontrar la coincidencia.",
+      "prompt": "Describe the person, clothing, object and location without copying a model.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three relevant adjectives",
+        "uses natural adjective order",
+        "gives location",
+        "communicates understandably"
+      ],
+      "feedback_correct": "Demostraste que puedes describir y distinguir personas y objetos.",
+      "feedback_incorrect": "Organiza: quién es, cómo es, qué lleva, qué objeto tiene y dónde está.",
+      "estimated_seconds": 250,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    },
+    {
+      "id": "A1-M1-T06-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "He is ___ and ___.",
+        "She is ___ a red jacket.",
+        "It is a ___ ___ bag."
+      ],
+      "correct_answers": [
+        "tall/friendly",
+        "wearing",
+        "small/black"
+      ],
+      "feedback_correct": "Recuperaste descripción personal, ropa y orden de adjetivos.",
+      "feedback_incorrect": "Usa be + adjetivos; is wearing para ropa; adjetivos antes del sustantivo.",
+      "estimated_seconds": 100,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "tall/friendly",
+          "wearing",
+          "small/black"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T06-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante describe una persona y un objeto con detalles suficientes y al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T06-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,429 @@
+{
+  "id": "A1-M1-T02-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T02",
+  "title": "I and you: meeting someone",
+  "estimated_seconds": 900,
+  "communication_goal": "El estudiante puede presentarse, preguntar el nombre de otra persona y mantener un intercambio inicial.",
+  "situation": "Conocer a una persona nueva en una clase de inglés.",
+  "language_focus": [
+    "I'm Carlos.",
+    "What's your name?",
+    "I'm Ana.",
+    "Nice to meet you.",
+    "Nice to meet you, too."
+  ],
+  "vocabulary": [
+    {
+      "term": "I",
+      "meaning_es": "yo",
+      "example": "I'm Carlos."
+    },
+    {
+      "term": "you",
+      "meaning_es": "tú / usted / ustedes",
+      "example": "What's your name?"
+    },
+    {
+      "term": "name",
+      "meaning_es": "nombre",
+      "example": "What's your name?"
+    },
+    {
+      "term": "nice",
+      "meaning_es": "agradable / qué bueno",
+      "example": "Nice to meet you."
+    },
+    {
+      "term": "meet",
+      "meaning_es": "conocer",
+      "example": "Nice to meet you."
+    },
+    {
+      "term": "too",
+      "meaning_es": "también",
+      "example": "Nice to meet you, too."
+    }
+  ],
+  "context": {
+    "before": "Two students meet before their first English class.",
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "text": "Hi! I'm Ana. What's your name?"
+      },
+      {
+        "speaker": "Carlos",
+        "text": "I'm Carlos. Nice to meet you."
+      },
+      {
+        "speaker": "Ana",
+        "text": "Nice to meet you, too."
+      }
+    ]
+  },
+  "explanation_es": "I significa yo y se usa para hablar de uno mismo. You se usa para hablar directamente con otra persona o con varias personas. En inglés el pronombre normalmente aparece; no se omite como ocurre a menudo en español.",
+  "spanish_speaker_notes": [
+    "En inglés se dice I am o I'm; no basta con decir solo am.",
+    "You puede significar tú, usted o ustedes según el contexto.",
+    "No traduzcas Nice to meet you palabra por palabra; funciona como una expresión fija para saludar al conocer a alguien."
+  ],
+  "pronunciation": {
+    "target": "Producir I y you dentro de frases completas y usar la contracción I'm con ritmo natural.",
+    "models": [
+      {
+        "text": "I",
+        "ipa": "/aɪ/"
+      },
+      {
+        "text": "you",
+        "ipa": "/juː/"
+      },
+      {
+        "text": "I'm Carlos.",
+        "stress": [
+          "Carlos"
+        ]
+      },
+      {
+        "text": "What's your name?",
+        "stress": [
+          "name"
+        ],
+        "intonation": "rising"
+      }
+    ],
+    "student_feedback": "Prioriza que I y you se distingan y que la frase completa suene conectada."
+  },
+  "reading": {
+    "title": "Two new classmates",
+    "text": "Ana is early for class. She sees Carlos at the door. Ana says hello and introduces herself. Carlos gives his name. They are new classmates and they are happy to meet.",
+    "interactive_vocabulary": [
+      "early",
+      "class",
+      "door",
+      "introduces",
+      "classmate"
+    ],
+    "questions": [
+      {
+        "prompt": "Where are Ana and Carlos?",
+        "options": [
+          "At an English class",
+          "At a hotel",
+          "At a store"
+        ],
+        "answer": "At an English class"
+      },
+      {
+        "prompt": "Are they meeting for the first time?",
+        "options": [
+          "Yes",
+          "No",
+          "The text does not say"
+        ],
+        "answer": "Yes"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T02-L01-E01",
+      "type": "meaning_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona el pronombre con la persona a la que se refiere.",
+      "pairs": [
+        {
+          "term": "I",
+          "meaning_es": "la persona que habla"
+        },
+        {
+          "term": "you",
+          "meaning_es": "la persona a la que hablo"
+        }
+      ],
+      "feedback_correct": "I habla de quien habla; you señala a la persona interlocutora.",
+      "feedback_incorrect": "Piensa: I = yo; you = tú, usted o ustedes.",
+      "estimated_seconds": 45,
+      "prompt": "Relaciona el pronombre con la persona a la que se refiere.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I=la persona que habla",
+          "you=la persona a la que hablo"
+        ],
+        "expected_pairs": [
+          {
+            "term": "I",
+            "meaning_es": "la persona que habla"
+          },
+          {
+            "term": "you",
+            "meaning_es": "la persona a la que hablo"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E02",
+      "type": "listening_identification",
+      "skill": "listening",
+      "instruction": "Escucha la frase y decide quién habla de sí mismo.",
+      "prompt": "I'm Carlos.",
+      "options": [
+        "The speaker",
+        "The listener",
+        "A third person"
+      ],
+      "correct_answer": "The speaker",
+      "feedback_correct": "I'm presenta a la persona que está hablando.",
+      "feedback_incorrect": "I significa yo: la persona que habla.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The speaker"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Elige el pronombre correcto para completar la presentación.",
+      "prompt": "___'m Ana.",
+      "options": [
+        "I",
+        "You",
+        "They"
+      ],
+      "correct_answer": "I",
+      "feedback_correct": "I'm es la forma corta de I am.",
+      "feedback_incorrect": "La persona está hablando de sí misma: I.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E04",
+      "type": "dialogue_ordering",
+      "skill": "interaction",
+      "instruction": "Ordena el saludo.",
+      "tokens": [
+        "What's",
+        "your",
+        "name?"
+      ],
+      "correct_answer": "What's your name?",
+      "feedback_correct": "La pregunta se dirige directamente a la otra persona.",
+      "feedback_incorrect": "Empieza con What's y termina con name?.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena el saludo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What's your name?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E05",
+      "type": "phrase_function",
+      "skill": "vocabulary",
+      "instruction": "Elige la respuesta adecuada después de conocer a alguien.",
+      "prompt": "Nice to meet you.",
+      "options": [
+        "Nice to meet you, too.",
+        "What's your name? Carlos.",
+        "I am a door."
+      ],
+      "correct_answer": "Nice to meet you, too.",
+      "feedback_correct": "Too significa también y completa la respuesta natural.",
+      "feedback_incorrect": "La respuesta repite la expresión y añade too.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Nice to meet you, too."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba tu presentación.",
+      "prompt": "Hi! I'm ____. What's your name? Nice to meet you.",
+      "evaluation": {
+        "0": "I/you contrast",
+        "1": "I'm intelligibility",
+        "2": "friendly intonation",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Tu presentación se entiende y contiene una pregunta para la otra persona.",
+      "feedback_incorrect": "Pronuncia I /aɪ/ y you /juː/ claramente; después repite la frase completa.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la escena y toca las palabras nuevas. Después identifica quién habla en cada frase.",
+      "reading_ref": "A1-M1-T02-L01-reading-01",
+      "correct_answer": "2 comprehension answers",
+      "feedback_correct": "Comprendiste quién habla y a quién se dirige.",
+      "feedback_incorrect": "I se refiere al hablante; you a la persona que escucha.",
+      "estimated_seconds": 120,
+      "prompt": "Lee la escena y toca las palabras nuevas. Después identifica quién habla en cada frase.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu nuevo compañero de clase. Preséntate, pregunta su nombre y responde al saludo.",
+      "role": "new classmate",
+      "student_goal": "Introduce yourself, ask the other person's name, and respond politely.",
+      "allowed_support": [
+        "sentence starter",
+        "Spanish hint",
+        "slow mode"
+      ],
+      "success_criteria": [
+        "uses I or I'm",
+        "asks What's your name?",
+        "responds with Nice to meet you, too"
+      ],
+      "feedback_correct": "Completaste una presentación básica con turnos reales.",
+      "feedback_incorrect": "Usa: I'm... / What's your name? / Nice to meet you, too.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es tu nuevo compañero de clase. Preséntate, pregunta su nombre y responde al saludo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Graba un saludo para una persona que conocerás en un evento internacional.",
+      "prompt": "Hi! I'm ____. What's your name? Nice to meet you.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "introduces self",
+        "asks a question",
+        "uses a polite closing"
+      ],
+      "feedback_correct": "Puedes iniciar una interacción básica con una persona nueva.",
+      "feedback_incorrect": "Incluye tu nombre, una pregunta y la expresión Nice to meet you.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    },
+    {
+      "id": "A1-M1-T02-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar las expresiones clave.",
+      "prompts": [
+        "___'m Carlos.",
+        "What's ___ name?",
+        "Nice to meet you, ___."
+      ],
+      "correct_answers": [
+        "I",
+        "your",
+        "too"
+      ],
+      "feedback_correct": "Recuperaste las piezas necesarias para presentarte.",
+      "feedback_incorrect": "Repasa I, your y too; aparecerán en la siguiente lección.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar las expresiones clave.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I",
+          "your",
+          "too"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T02-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

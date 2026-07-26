@@ -1,0 +1,449 @@
+{
+  "id": "A1-M1-T01-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T01",
+  "title": "Find the missing letter",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede identificar letras en nombres y pedir aclaración cuando no las entiende.",
+  "situation": "Ayudar a un recepcionista a registrar correctamente un nombre y un correo electrónico.",
+  "language_focus": [
+    "What's the first letter?",
+    "What's the last letter?",
+    "Is that B or V?",
+    "Could you say that again?",
+    "I didn't catch the last letter."
+  ],
+  "vocabulary": [
+    {
+      "term": "first letter",
+      "meaning_es": "primera letra",
+      "example": "What's the first letter?"
+    },
+    {
+      "term": "last letter",
+      "meaning_es": "última letra",
+      "example": "I didn't catch the last letter."
+    },
+    {
+      "term": "again",
+      "meaning_es": "otra vez",
+      "example": "Could you say that again?"
+    },
+    {
+      "term": "catch",
+      "meaning_es": "entender / captar",
+      "example": "I didn't catch that."
+    },
+    {
+      "term": "address",
+      "meaning_es": "dirección",
+      "example": "What's your email address?"
+    },
+    {
+      "term": "missing",
+      "meaning_es": "que falta",
+      "example": "Find the missing letter."
+    }
+  ],
+  "context": {
+    "before": "A receptionist is entering an email address, but one letter is unclear.",
+    "dialogue": [
+      {
+        "speaker": "Receptionist",
+        "text": "What's your email address?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "It's luis.green@example.com."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Is that B or V in green?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "V. V as in very."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "And what's the last letter?"
+      },
+      {
+        "speaker": "Guest",
+        "text": "N. That's N, not M."
+      }
+    ]
+  },
+  "spanish_speaker_notes": [
+    "En inglés es normal pedir repetición o confirmar una letra; hacerlo no es un fracaso comunicativo.",
+    "I didn't catch that significa 'no entendí / no capté eso', no 'no lo atrapé'.",
+    "En un correo electrónico, practica decir cada letra claramente y hacer pausas breves."
+  ],
+  "pronunciation": {
+    "target": "Producir aclaraciones cortas con pausas y distinguir B, V, M y N.",
+    "models": [
+      {
+        "text": "B",
+        "ipa": "/biː/"
+      },
+      {
+        "text": "V",
+        "ipa": "/viː/"
+      },
+      {
+        "text": "M",
+        "ipa": "/em/"
+      },
+      {
+        "text": "N",
+        "ipa": "/en/"
+      },
+      {
+        "text": "I didn't catch the last letter.",
+        "stress": [
+          "catch",
+          "last",
+          "letter"
+        ]
+      }
+    ],
+    "student_feedback": "Prioriza que el interlocutor pueda identificar la letra. Después trabaja el ritmo y la entonación."
+  },
+  "reading": {
+    "title": "The registration form",
+    "text": "Luis is checking in at a hotel. The receptionist writes his email address. Luis says, 'luis.green@example.com.' The receptionist is not sure about one letter. Luis repeats it and gives an example: 'V as in very.' The receptionist checks the address again.",
+    "interactive_vocabulary": [
+      "checking in",
+      "receptionist",
+      "sure",
+      "repeats",
+      "example"
+    ],
+    "questions": [
+      {
+        "prompt": "Where is Luis?",
+        "options": [
+          "At a hotel",
+          "At a school",
+          "At a restaurant"
+        ],
+        "answer": "At a hotel"
+      },
+      {
+        "prompt": "Why does Luis repeat the letter?",
+        "options": [
+          "The receptionist is not sure",
+          "He wants a drink",
+          "He is leaving"
+        ],
+        "answer": "The receptionist is not sure"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T01-L02-E01",
+      "type": "vocabulary_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las expresiones: pedir información o aclarar información.",
+      "items": [
+        {
+          "text": "What's the first letter?",
+          "category": "ask"
+        },
+        {
+          "text": "Could you say that again?",
+          "category": "clarify"
+        },
+        {
+          "text": "What's the last letter?",
+          "category": "ask"
+        },
+        {
+          "text": "I didn't catch that.",
+          "category": "clarify"
+        }
+      ],
+      "categories": [
+        "ask",
+        "clarify"
+      ],
+      "feedback_correct": "Puedes distinguir preguntas de información y expresiones de aclaración.",
+      "feedback_incorrect": "Ask busca información; clarify ayuda cuando algo no se entiende.",
+      "estimated_seconds": 75,
+      "prompt": "Clasifica las expresiones: pedir información o aclarar información.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What's the first letter?=ask",
+          "Could you say that again?=clarify",
+          "What's the last letter?=ask",
+          "I didn't catch that.=clarify"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E02",
+      "type": "interactive_listening",
+      "skill": "listening",
+      "instruction": "Escucha el correo y selecciona la letra que falta.",
+      "prompt": "luis.green@example.com. The unclear letter is the first letter of green.",
+      "options": [
+        "B",
+        "V",
+        "D"
+      ],
+      "correct_answer": "V",
+      "feedback_correct": "La letra es V. Escucha también la aclaración: V as in very.",
+      "feedback_incorrect": "El diálogo contrasta B y V; vuelve a escuchar el ejemplo.",
+      "estimated_seconds": 70,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "V"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E03",
+      "type": "meaning_in_context",
+      "skill": "vocabulary",
+      "instruction": "Elige el significado de 'I didn't catch that' en esta situación.",
+      "prompt": "The receptionist speaks quickly. Luis says: 'I didn't catch that.'",
+      "options": [
+        "No entendí eso",
+        "No necesito eso",
+        "No escribí eso"
+      ],
+      "correct_answer": "No entendí eso",
+      "feedback_correct": "Es una forma natural de decir que no entendiste.",
+      "feedback_incorrect": "Aquí catch significa captar o entender información.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No entendí eso"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E04",
+      "type": "dialogue_repair",
+      "skill": "interaction",
+      "instruction": "Elige la respuesta que mantiene la conversación cuando no entendiste una letra.",
+      "prompt": "Receptionist: 'Is that B or V?' You are not sure what the receptionist said.",
+      "options": [
+        "Could you say that again?",
+        "Yes, I am a letter.",
+        "I spell coffee."
+      ],
+      "correct_answer": "Could you say that again?",
+      "feedback_correct": "Pediste repetición y mantuviste la comunicación.",
+      "feedback_incorrect": "Usa una expresión de aclaración, no una respuesta sobre tu identidad.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Could you say that again?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E05",
+      "type": "retrieval_gap_fill",
+      "skill": "grammar",
+      "instruction": "Completa la pregunta para localizar una letra.",
+      "prompt": "What's the ___ letter?",
+      "options": [
+        "last",
+        "again",
+        "catch"
+      ],
+      "correct_answer": "last",
+      "feedback_correct": "Last identifica la última letra.",
+      "feedback_incorrect": "La expresión es last letter.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "last"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba la aclaración haciendo una pausa natural.",
+      "prompt": "V. V as in very.",
+      "evaluation": {
+        "0": "letter intelligibility",
+        "1": "pause",
+        "2": "V sound",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La aclaración es clara y fácil de seguir.",
+      "feedback_incorrect": "Haz una pausa después de V y deja vibrar suavemente el labio en el sonido /v/.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la historia y toca 'receptionist', 'sure' y 'repeat' para ver ejemplos.",
+      "reading_ref": "A1-M1-T01-L02-reading-01",
+      "correct_answer": "2 comprehension answers",
+      "feedback_correct": "Encontraste el problema y la forma de resolverlo.",
+      "feedback_incorrect": "Busca qué palabra no entiende la recepcionista y qué hace Luis después.",
+      "estimated_seconds": 120,
+      "prompt": "Lee la historia y toca 'receptionist', 'sure' y 'repeat' para ver ejemplos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA registra tu correo. En un momento, no entiende una letra y tú debes aclararla.",
+      "role": "receptionist",
+      "student_goal": "Say an email address, clarify B/V or M/N, and confirm the final version.",
+      "allowed_support": [
+        "slow mode",
+        "Spanish hint",
+        "example phrase"
+      ],
+      "success_criteria": [
+        "spells an address",
+        "uses one clarification phrase",
+        "confirms the corrected letter"
+      ],
+      "feedback_correct": "Resolviste la confusión sin abandonar la conversación.",
+      "feedback_incorrect": "Prueba: I didn't catch the last letter. / Is that B or V? / That's correct.",
+      "estimated_seconds": 180,
+      "prompt": "La IA registra tu correo. En un momento, no entiende una letra y tú debes aclararla.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Escribe o graba una aclaración para una reserva. La otra persona confundió M y N.",
+      "prompt": "The last letter is N, not M. N as in November.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "identifies the correct letter",
+        "contrasts it with the wrong letter",
+        "speaks clearly"
+      ],
+      "feedback_correct": "Usaste el idioma para reparar una confusión real.",
+      "feedback_incorrect": "Di primero la letra correcta, luego la incorrecta y finalmente un ejemplo.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    },
+    {
+      "id": "A1-M1-T01-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Recuerda sin mirar: completa las expresiones.",
+      "prompts": [
+        "What's the ___ letter?",
+        "Could you say that ___?",
+        "I didn't ___ that."
+      ],
+      "correct_answers": [
+        "last",
+        "again",
+        "catch"
+      ],
+      "feedback_correct": "Recuperaste expresiones útiles para resolver malentendidos.",
+      "feedback_incorrect": "Repasa last, again y catch; volverán a aparecer después.",
+      "estimated_seconds": 90,
+      "prompt": "Recuerda sin mirar: completa las expresiones.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "last",
+          "again",
+          "catch"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "interactive_listening",
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "explanation_es": "Esta lección practica Find the missing letter mediante ejemplos, comprensión y producción guiada.",
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T01-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,738 @@
+{
+  "generated_at": "2026-07-24T06:01:16.643Z",
+  "input": "content/rebuild",
+  "output": "content/normalized/A1",
+  "status": "needs_review",
+  "files": [
+    {
+      "file": "A1-M1-T01-L01.json",
+      "id": "A1-M1-T01-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T01-L02.json",
+      "id": "A1-M1-T01-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T01-L03.json",
+      "id": "A1-M1-T01-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T01-L04.json",
+      "id": "A1-M1-T01-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T02-L01.json",
+      "id": "A1-M1-T02-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T02-L02.json",
+      "id": "A1-M1-T02-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T02-L03.json",
+      "id": "A1-M1-T02-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T02-L04.json",
+      "id": "A1-M1-T02-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T03-L01.json",
+      "id": "A1-M1-T03-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T03-L02.json",
+      "id": "A1-M1-T03-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T03-L03.json",
+      "id": "A1-M1-T03-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T03-L04.json",
+      "id": "A1-M1-T03-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T04-L01.json",
+      "id": "A1-M1-T04-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T04-L02.json",
+      "id": "A1-M1-T04-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T04-L03.json",
+      "id": "A1-M1-T04-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T04-L04.json",
+      "id": "A1-M1-T04-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T05-L01.json",
+      "id": "A1-M1-T05-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T05-L02.json",
+      "id": "A1-M1-T05-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T05-L03.json",
+      "id": "A1-M1-T05-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T05-L04.json",
+      "id": "A1-M1-T05-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T06-L01.json",
+      "id": "A1-M1-T06-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T06-L02.json",
+      "id": "A1-M1-T06-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T06-L03.json",
+      "id": "A1-M1-T06-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T06-L04.json",
+      "id": "A1-M1-T06-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T07-L01.json",
+      "id": "A1-M1-T07-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T07-L02.json",
+      "id": "A1-M1-T07-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T07-L03.json",
+      "id": "A1-M1-T07-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T07-L04.json",
+      "id": "A1-M1-T07-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T08-L01.json",
+      "id": "A1-M1-T08-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T08-L02.json",
+      "id": "A1-M1-T08-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T08-L03.json",
+      "id": "A1-M1-T08-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T08-L04.json",
+      "id": "A1-M1-T08-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T09-L01.json",
+      "id": "A1-M1-T09-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T09-L02.json",
+      "id": "A1-M1-T09-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T09-L03.json",
+      "id": "A1-M1-T09-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T09-L04.json",
+      "id": "A1-M1-T09-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T10-L01.json",
+      "id": "A1-M1-T10-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T10-L02.json",
+      "id": "A1-M1-T10-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T10-L03.json",
+      "id": "A1-M1-T10-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M1-T10-L04.json",
+      "id": "A1-M1-T10-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T01-L01.json",
+      "id": "A1-M2-T01-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T01-L02.json",
+      "id": "A1-M2-T01-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T01-L03.json",
+      "id": "A1-M2-T01-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T01-L04.json",
+      "id": "A1-M2-T01-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T02-L01.json",
+      "id": "A1-M2-T02-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T02-L02.json",
+      "id": "A1-M2-T02-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T02-L03.json",
+      "id": "A1-M2-T02-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T02-L04.json",
+      "id": "A1-M2-T02-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T03-L01.json",
+      "id": "A1-M2-T03-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T03-L02.json",
+      "id": "A1-M2-T03-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T03-L03.json",
+      "id": "A1-M2-T03-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T03-L04.json",
+      "id": "A1-M2-T03-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T04-L01.json",
+      "id": "A1-M2-T04-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T04-L02.json",
+      "id": "A1-M2-T04-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T04-L03.json",
+      "id": "A1-M2-T04-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T04-L04.json",
+      "id": "A1-M2-T04-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T05-L01.json",
+      "id": "A1-M2-T05-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T05-L02.json",
+      "id": "A1-M2-T05-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T05-L03.json",
+      "id": "A1-M2-T05-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T05-L04.json",
+      "id": "A1-M2-T05-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T06-L01.json",
+      "id": "A1-M2-T06-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T06-L02.json",
+      "id": "A1-M2-T06-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T06-L03.json",
+      "id": "A1-M2-T06-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T06-L04.json",
+      "id": "A1-M2-T06-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T07-L01.json",
+      "id": "A1-M2-T07-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T07-L02.json",
+      "id": "A1-M2-T07-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T07-L03.json",
+      "id": "A1-M2-T07-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T07-L04.json",
+      "id": "A1-M2-T07-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T08-L01.json",
+      "id": "A1-M2-T08-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T08-L02.json",
+      "id": "A1-M2-T08-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T08-L03.json",
+      "id": "A1-M2-T08-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T08-L04.json",
+      "id": "A1-M2-T08-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T09-L01.json",
+      "id": "A1-M2-T09-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T09-L02.json",
+      "id": "A1-M2-T09-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T09-L03.json",
+      "id": "A1-M2-T09-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T09-L04.json",
+      "id": "A1-M2-T09-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T10-L01.json",
+      "id": "A1-M2-T10-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T10-L02.json",
+      "id": "A1-M2-T10-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T10-L03.json",
+      "id": "A1-M2-T10-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M2-T10-L04.json",
+      "id": "A1-M2-T10-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T01-L01.json",
+      "id": "A1-M3-T01-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T01-L02.json",
+      "id": "A1-M3-T01-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T01-L03.json",
+      "id": "A1-M3-T01-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T01-L04.json",
+      "id": "A1-M3-T01-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T02-L01.json",
+      "id": "A1-M3-T02-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T02-L02.json",
+      "id": "A1-M3-T02-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T02-L03.json",
+      "id": "A1-M3-T02-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T02-L04.json",
+      "id": "A1-M3-T02-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T03-L01.json",
+      "id": "A1-M3-T03-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T03-L02.json",
+      "id": "A1-M3-T03-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T03-L03.json",
+      "id": "A1-M3-T03-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T03-L04.json",
+      "id": "A1-M3-T03-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T04-L01.json",
+      "id": "A1-M3-T04-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T04-L02.json",
+      "id": "A1-M3-T04-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T04-L03.json",
+      "id": "A1-M3-T04-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T04-L04.json",
+      "id": "A1-M3-T04-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T05-L01.json",
+      "id": "A1-M3-T05-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T05-L02.json",
+      "id": "A1-M3-T05-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T05-L03.json",
+      "id": "A1-M3-T05-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T05-L04.json",
+      "id": "A1-M3-T05-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T06-L01.json",
+      "id": "A1-M3-T06-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T06-L02.json",
+      "id": "A1-M3-T06-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T06-L03.json",
+      "id": "A1-M3-T06-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T06-L04.json",
+      "id": "A1-M3-T06-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T07-L01.json",
+      "id": "A1-M3-T07-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T07-L02.json",
+      "id": "A1-M3-T07-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T07-L03.json",
+      "id": "A1-M3-T07-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T07-L04.json",
+      "id": "A1-M3-T07-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T08-L01.json",
+      "id": "A1-M3-T08-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T08-L02.json",
+      "id": "A1-M3-T08-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T08-L03.json",
+      "id": "A1-M3-T08-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T08-L04.json",
+      "id": "A1-M3-T08-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T09-L01.json",
+      "id": "A1-M3-T09-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T09-L02.json",
+      "id": "A1-M3-T09-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T09-L03.json",
+      "id": "A1-M3-T09-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T09-L04.json",
+      "id": "A1-M3-T09-L04",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T10-L01.json",
+      "id": "A1-M3-T10-L01",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T10-L02.json",
+      "id": "A1-M3-T10-L02",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T10-L03.json",
+      "id": "A1-M3-T10-L03",
+      "activity_count": 10,
+      "review_flags": []
+    },
+    {
+      "file": "A1-M3-T10-L04.json",
+      "id": "A1-M3-T10-L04",
+      "activity_count": 10,
+      "review_flags": []
+    }
+  ],
+  "errors": [],
+  "repaired_legacy_json": [
+    "A1-M3-T05-L03.json"
+  ],
+  "summary": {
+    "input_files": 120,
+    "normalized_files": 120,
+    "errors": 0,
+    "needs_review": 0
+  }
+}

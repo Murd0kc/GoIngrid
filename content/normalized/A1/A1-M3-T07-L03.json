@@ -1,0 +1,427 @@
+{
+  "id": "A1-M3-T07-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T07",
+  "title": "Orientarse con transporte",
+  "estimated_seconds": 930,
+  "communication_goal": "Preguntar cómo llegar usando autobús, tren, metro o taxi y confirmar una ruta.",
+  "situation": "Necesitas escoger un medio de transporte para llegar a un lugar.",
+  "language_focus": {
+    "grammar": [
+      "How can I get to...?",
+      "Which bus/train...?",
+      "Take the...",
+      "Get off at...",
+      "Does it stop at...?"
+    ],
+    "function": "transport directions"
+  },
+  "vocabulary": [
+    {
+      "word": "bus stop",
+      "meaning_es": "parada de autobús",
+      "example": "Where is the bus stop?"
+    },
+    {
+      "word": "train station",
+      "meaning_es": "estación de tren",
+      "example": "The train station is nearby."
+    },
+    {
+      "word": "subway",
+      "meaning_es": "metro",
+      "example": "Take the subway downtown."
+    },
+    {
+      "word": "taxi",
+      "meaning_es": "taxi",
+      "example": "Let's take a taxi."
+    },
+    {
+      "word": "get on",
+      "meaning_es": "subir a transporte",
+      "example": "Get on the bus here."
+    },
+    {
+      "word": "get off",
+      "meaning_es": "bajarse",
+      "example": "Get off at Main Street."
+    }
+  ],
+  "context": {
+    "title": "Going to the museum",
+    "dialogue": [
+      {
+        "speaker": "Traveler",
+        "english": "How can I get to the museum?",
+        "spanish": "¿Cómo puedo llegar al museo?"
+      },
+      {
+        "speaker": "Agent",
+        "english": "Take the number five bus from this stop.",
+        "spanish": "Toma el autobús número cinco desde esta parada."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "Where do I get off?",
+        "spanish": "¿Dónde me bajo?"
+      },
+      {
+        "speaker": "Agent",
+        "english": "Get off at Main Street. The museum is across from the station.",
+        "spanish": "Bájate en Main Street. El museo está enfrente de la estación."
+      },
+      {
+        "speaker": "Traveler",
+        "english": "Does the bus stop near the museum?",
+        "spanish": "¿El autobús para cerca del museo?"
+      },
+      {
+        "speaker": "Agent",
+        "english": "Yes, it does.",
+        "spanish": "Sí."
+      }
+    ]
+  },
+  "explanation_es": "Para transporte usa How can I get to...? o How do I get to...? Las instrucciones comunes son Take the number five bus, Get on at this stop y Get off at Main Street. Pregunta Does it stop near...? para confirmar una parada. En inglés americano subway es metro; train station es estación de tren.",
+  "spanish_speaker_notes": [
+    "Get off no significa salir de una habitación; en transporte significa bajarse.",
+    "Take the bus es tomar el autobús; no traduzcas como carry the bus.",
+    "At this stop indica el lugar de subida; at Main Street puede indicar la parada.",
+    "Does it stop...? usa does porque it es el sujeto."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "How can I get to the museum?",
+        "focus": "how can I get to"
+      },
+      {
+        "text": "Take the number five bus.",
+        "focus": "number five bus"
+      },
+      {
+        "text": "Get off at Main Street.",
+        "focus": "get off at"
+      }
+    ],
+    "tip_es": "Repite la ruta completa y confirma el destino antes de empezar el viaje."
+  },
+  "reading": {
+    "title": "A bus route",
+    "text": "A traveler wants to go to the museum. She takes the number five bus, gets on at the station and gets off at Main Street. The museum is across from the station, so she walks there.",
+    "glossary": [
+      {
+        "term": "bus route",
+        "meaning_es": "ruta de autobús"
+      },
+      {
+        "term": "gets on",
+        "meaning_es": "sube"
+      },
+      {
+        "term": "walks there",
+        "meaning_es": "camina hasta allí"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "transport_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada expresión con su acción.",
+      "pairs": [
+        {
+          "english": "get on",
+          "spanish": "subir al transporte"
+        },
+        {
+          "english": "get off",
+          "spanish": "bajarse"
+        },
+        {
+          "english": "bus stop",
+          "spanish": "lugar de parada"
+        },
+        {
+          "english": "subway",
+          "spanish": "metro"
+        }
+      ],
+      "prompt": "Relaciona cada expresión con su acción.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "get on=subir al transporte",
+          "get off=bajarse",
+          "bus stop=lugar de parada",
+          "subway=metro"
+        ],
+        "expected_pairs": [
+          {
+            "english": "get on",
+            "spanish": "subir al transporte"
+          },
+          {
+            "english": "get off",
+            "spanish": "bajarse"
+          },
+          {
+            "english": "bus stop",
+            "spanish": "lugar de parada"
+          },
+          {
+            "english": "subway",
+            "spanish": "metro"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_order",
+      "skill": "listening",
+      "instruction": "Escucha la ruta y ordena las acciones.",
+      "audio_text": "Take the number five bus, get on at the station and get off at Main Street.",
+      "sequence": [
+        "take bus five",
+        "get on at station",
+        "get off at Main Street"
+      ],
+      "feedback": "La ruta tiene medio, subida y bajada.",
+      "prompt": "Escucha la ruta y ordena las acciones.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "take bus five > get on at station > get off at Main Street"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La ruta tiene medio, subida y bajada.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: Where do I get ___?",
+      "options": [
+        "off",
+        "on",
+        "at"
+      ],
+      "correct": "off",
+      "feedback": "Get off pregunta dónde bajarse.",
+      "prompt": "Completa: Where do I get ___?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "off"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Get off pregunta dónde bajarse.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: bus / take / number five / the / .",
+      "answer": "Take the number five bus.",
+      "feedback": "Take + the + número + medio de transporte.",
+      "prompt": "Ordena: bus / take / number five / the / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Take the number five bus."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Take + the + número + medio de transporte.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: Does the bus stops near the museum?",
+      "answer": "Does the bus stop near the museum?",
+      "feedback": "Después de does, stop queda en forma base.",
+      "prompt": "Corrige: Does the bus stops near the museum?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does the bus stop near the museum?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de does, stop queda en forma base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Explica una ruta en transporte con tres pasos.",
+      "target": "Take the ... Get on at ... Get off at ...",
+      "evaluation": {
+        "0": "medio claro",
+        "1": "get on/off diferenciados",
+        "2": "parada comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Take the ... Get on at ... Get off at ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Bus Route y responde: Where does the traveler get off?",
+      "text_reference": "reading",
+      "answer": "She gets off at Main Street.",
+      "feedback": "La segunda oración indica la parada.",
+      "prompt": "Lee A Bus Route y responde: Where does the traveler get off?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She gets off at Main Street."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La segunda oración indica la parada.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un agente de transporte. Pregunta por una ruta y confirma número, parada de subida y bajada.",
+      "scenario": "Finding the correct bus or subway route.",
+      "ai_language": "English; repeat critical route details",
+      "prompt": "La IA será un agente de transporte. Pregunta por una ruta y confirma número, parada de subida y bajada.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una ruta desde una estación hasta un destino usando transporte y caminata final.",
+      "success_criteria": [
+        "usa take/get on/get off",
+        "indica dos lugares",
+        "confirma la parada final",
+        "ruta clara"
+      ],
+      "prompt": "Graba una ruta desde una estación hasta un destino usando transporte y caminata final.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ the bus; get ___ at the station; get ___ at Main Street.",
+      "answers": [
+        "Take",
+        "on",
+        "off"
+      ],
+      "prompt": "Completa: ___ the bus; get ___ at the station; get ___ at Main Street.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Take",
+          "on",
+          "off"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T07-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "preguntar por transporte",
+      "explicar subida y bajada",
+      "confirmar una ruta"
+    ],
+    "retry": "Si confundes get on/get off, imagina el movimiento: entrar al transporte o salir de él."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T07-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

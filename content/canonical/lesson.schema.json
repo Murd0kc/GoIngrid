@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://goingrid.interflowx.com/schemas/lesson-v1.json",
+  "title": "GoIngrid canonical lesson",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["id", "level", "module_code", "topic_code", "title", "estimated_seconds", "communication_goal", "situation", "vocabulary", "context", "reading", "pronunciation", "activities", "mastery_criteria"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^A[1-2]-M[0-9]+-T[0-9]+-L[0-9]+$"},
+    "level": {"type": "string", "enum": ["A1", "A2", "B1", "B2", "C1", "C2"]},
+    "module_code": {"type": "string", "minLength": 1},
+    "topic_code": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "estimated_seconds": {"type": "integer", "minimum": 60},
+    "communication_goal": {"type": "string", "minLength": 1},
+    "situation": {"type": "string", "minLength": 1},
+    "vocabulary": {"type": "array", "minItems": 1},
+    "context": {"type": "object"},
+    "reading": {"type": "object"},
+    "pronunciation": {"type": "object"},
+    "activities": {"type": "array", "minItems": 8, "maxItems": 16, "items": {"$ref": "#/$defs/activity"}},
+    "mastery_criteria": {"type": "object"},
+    "status": {"type": "string", "enum": ["needs_review", "approved", "imported", "published"]},
+    "source_file": {"type": "string"}
+  },
+  "$defs": {
+    "activity": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "type", "skill", "instruction", "estimated_seconds", "evaluation"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "type": {"type": "string", "minLength": 1},
+        "skill": {"type": "string", "minLength": 1},
+        "instruction": {"type": "string", "minLength": 1},
+        "estimated_seconds": {"type": "integer", "minimum": 1},
+        "difficulty": {"type": "integer", "minimum": 1, "maximum": 5},
+        "target_error": {"type": ["string", "null"]},
+        "prompt": {"type": ["string", "null"]},
+        "evaluation": {"type": "object"}
+      }
+    }
+  }
+}

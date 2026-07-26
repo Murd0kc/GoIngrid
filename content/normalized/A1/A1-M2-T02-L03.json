@@ -1,0 +1,428 @@
+{
+  "id": "A1-M2-T02-L03",
+  "level": "A1",
+  "title": "Say what you do not do",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T02",
+  "estimated_seconds": 1020,
+  "communication_goal": "El estudiante puede expresar hábitos que no realiza usando don't y doesn't.",
+  "situation": "Comparar hábitos y explicar diferencias de rutina.",
+  "language_focus": [
+    "I don't work on Sundays.",
+    "We don't eat meat.",
+    "He doesn't drink coffee.",
+    "She doesn't study at night.",
+    "I do not usually watch TV."
+  ],
+  "vocabulary": [
+    {
+      "term": "don't",
+      "meaning_es": "no hago / no hacen",
+      "example": "I don't work on Sundays."
+    },
+    {
+      "term": "doesn't",
+      "meaning_es": "no hace",
+      "example": "She doesn't drink coffee."
+    },
+    {
+      "term": "eat meat",
+      "meaning_es": "comer carne",
+      "example": "We don't eat meat."
+    },
+    {
+      "term": "drink coffee",
+      "meaning_es": "beber café",
+      "example": "He doesn't drink coffee."
+    },
+    {
+      "term": "watch TV",
+      "meaning_es": "ver televisión",
+      "example": "I don't watch TV at night."
+    },
+    {
+      "term": "usually",
+      "meaning_es": "normalmente",
+      "example": "I don't usually eat late."
+    }
+  ],
+  "context": {
+    "before": "Two friends compare what they do and do not do during the week.",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "text": "Do you work on Sundays?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "No, I don't. I don't work on Sundays."
+      },
+      {
+        "speaker": "Maya",
+        "text": "Does your brother drink coffee?"
+      },
+      {
+        "speaker": "Luis",
+        "text": "No, he doesn't. He drinks tea."
+      }
+    ]
+  },
+  "explanation_es": "Para negar hábitos usamos don't con I, you, we y they; usamos doesn't con he, she e it. Después de don't/doesn't el verbo vuelve a la forma base: She doesn't drink, no She doesn't drinks.",
+  "spanish_speaker_notes": [
+    "No añadas la s después de doesn't.",
+    "Don't y doesn't llevan la negación; el verbo principal no lleva terminación de tercera persona.",
+    "Aprende la respuesta completa No, I don't / No, he doesn't para conversar."
+  ],
+  "pronunciation": {
+    "target": "Distinguir don't y doesn't en respuestas negativas.",
+    "models": [
+      {
+        "text": "I don't work on Sundays.",
+        "stress": [
+          "don't",
+          "work",
+          "Sundays"
+        ]
+      },
+      {
+        "text": "He doesn't drink coffee.",
+        "stress": [
+          "doesn't",
+          "drink",
+          "coffee"
+        ]
+      }
+    ],
+    "student_feedback": "Haz audible la negación y mantén el verbo principal en forma base."
+  },
+  "reading": {
+    "title": "Different habits",
+    "text": "Maya works on Saturdays, but she doesn't work on Sundays. Luis doesn't drink coffee. He drinks tea. They don't eat dinner late because they get up early.",
+    "interactive_vocabulary": [
+      "different",
+      "Saturdays",
+      "Sundays",
+      "tea",
+      "late"
+    ],
+    "questions": [
+      {
+        "prompt": "When does Maya not work?",
+        "options": [
+          "On Sundays",
+          "On Saturdays",
+          "Every day"
+        ],
+        "answer": "On Sundays"
+      },
+      {
+        "prompt": "What does Luis drink?",
+        "options": [
+          "Tea",
+          "Coffee",
+          "Water only"
+        ],
+        "answer": "Tea"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T02-L03-E01",
+      "type": "negative_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica la negación según el sujeto.",
+      "items": [
+        {
+          "text": "I don't work",
+          "category": "don't"
+        },
+        {
+          "text": "They don't eat late",
+          "category": "don't"
+        },
+        {
+          "text": "He doesn't drink coffee",
+          "category": "doesn't"
+        },
+        {
+          "text": "She doesn't study at night",
+          "category": "doesn't"
+        }
+      ],
+      "categories": [
+        "don't",
+        "doesn't"
+      ],
+      "feedback_correct": "Relacionaste sujeto y auxiliar negativo.",
+      "feedback_incorrect": "I/you/we/they = don't; he/she/it = doesn't.",
+      "estimated_seconds": 60,
+      "prompt": "Clasifica la negación según el sujeto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I don't work=don't",
+          "They don't eat late=don't",
+          "He doesn't drink coffee=doesn't",
+          "She doesn't study at night=doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E02",
+      "type": "listening_negation",
+      "skill": "listening",
+      "instruction": "Escucha y elige el hábito que no realiza.",
+      "prompt": "He doesn't drink coffee.",
+      "options": [
+        "He does not drink coffee",
+        "He does not work",
+        "He does not eat dinner"
+      ],
+      "correct_answer": "He does not drink coffee",
+      "feedback_correct": "Entendiste la negación y la acción.",
+      "feedback_incorrect": "Escucha doesn't drink coffee.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He does not drink coffee"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E03",
+      "type": "negative_choice",
+      "skill": "grammar",
+      "instruction": "Completa con don't o doesn't.",
+      "prompt": "We ___ work on Sundays.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't"
+      ],
+      "correct_answer": "don't",
+      "feedback_correct": "We usa don't.",
+      "feedback_incorrect": "Con we usamos don't.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "don't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E04",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena la frase negativa.",
+      "tokens": [
+        "She",
+        "doesn't",
+        "drink",
+        "coffee."
+      ],
+      "correct_answer": "She doesn't drink coffee.",
+      "feedback_correct": "Después de doesn't usamos drink sin s.",
+      "feedback_incorrect": "Usa She + doesn't + verbo base.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena la frase negativa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She doesn't drink coffee."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la negación.",
+      "prompt": "He doesn't drinks coffee.",
+      "correct_answer": "He doesn't drink coffee.",
+      "feedback_correct": "Doesn't ya marca la tercera persona.",
+      "feedback_incorrect": "Quita la s de drinks.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He doesn't drink coffee."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba dos diferencias de hábitos.",
+      "prompt": "I don't work on Sundays. She doesn't drink coffee.",
+      "evaluation": {
+        "0": "don't/doesn't contrast",
+        "1": "base verb",
+        "2": "negative clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Las dos negaciones se entienden.",
+      "feedback_incorrect": "Enfatiza don't/doesn't y mantén work/drink sin s.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las rutinas y completa una tabla de sí/no.",
+      "reading_ref": "A1-M2-T02-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 3 negative facts",
+      "feedback_correct": "Identificaste qué hábitos no realizan.",
+      "feedback_incorrect": "Busca doesn't work, doesn't drink y don't eat.",
+      "estimated_seconds": 125,
+      "prompt": "Lee las rutinas y completa una tabla de sí/no.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 3 negative facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu compañero. Comparen tres hábitos y expliquen una diferencia negativa.",
+      "role": "friend",
+      "student_goal": "Use don't and doesn't to compare habits.",
+      "allowed_support": [
+        "habit cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses don't",
+        "uses doesn't",
+        "answers one Do/Does question"
+      ],
+      "feedback_correct": "Comparaste rutinas y expresaste diferencias.",
+      "feedback_incorrect": "I/you/we/they = don't; he/she/it = doesn't.",
+      "estimated_seconds": 190,
+      "prompt": "La IA es tu compañero. Comparen tres hábitos y expliquen una diferencia negativa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Graba tres frases: dos hábitos que no haces y uno que otra persona no hace.",
+      "prompt": "I don't ____. I don't ____. He/She doesn't ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses don't twice",
+        "uses doesn't once",
+        "uses base verbs"
+      ],
+      "feedback_correct": "Expresaste diferencias reales de rutina.",
+      "feedback_incorrect": "Usa don't con I y doesn't con he/she; no añadas s al verbo.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    },
+    {
+      "id": "A1-M2-T02-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "I ___ work Sundays.",
+        "She ___ drink coffee.",
+        "He doesn't ___ late."
+      ],
+      "correct_answers": [
+        "don't",
+        "doesn't",
+        "eat"
+      ],
+      "feedback_correct": "Recuperaste negación y forma base.",
+      "feedback_incorrect": "Don't con I; doesn't con she; después de doesn't va el verbo base.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "don't",
+          "doesn't",
+          "eat"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T02-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

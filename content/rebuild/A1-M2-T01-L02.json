@@ -1,0 +1,50 @@
+{
+  "id": "A1-M2-T01-L02",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T01",
+  "title": "Add time and place",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede ampliar una frase básica con información de tiempo y lugar.",
+  "situation": "Contar dónde y cuándo realiza actividades cotidianas.",
+  "language_focus": ["I study English at home.", "I drink coffee in the morning.", "We work in an office.", "She reads at night.", "They play soccer in the park."],
+  "vocabulary": [
+    { "term": "at home", "meaning_es": "en casa", "example": "I study at home." },
+    { "term": "in the morning", "meaning_es": "en la mañana", "example": "I drink coffee in the morning." },
+    { "term": "at night", "meaning_es": "por la noche", "example": "She reads at night." },
+    { "term": "office", "meaning_es": "oficina", "example": "We work in an office." },
+    { "term": "park", "meaning_es": "parque", "example": "They play in the park." },
+    { "term": "usually", "meaning_es": "normalmente", "example": "I usually study at home." }
+  ],
+  "context": {
+    "before": "Two friends compare their weekday routines.",
+    "dialogue": [
+      { "speaker": "Maya", "text": "Where do you study?" },
+      { "speaker": "Luis", "text": "I study English at home in the morning." },
+      { "speaker": "Maya", "text": "Where do you work?" },
+      { "speaker": "Luis", "text": "I work in an office. I read at night." },
+      { "speaker": "Maya", "text": "I usually study in the park on Saturdays." }
+    ]
+  },
+  "explanation_es": "Una frase puede crecer con lugar y tiempo. El orden básico sigue siendo sujeto + verbo + complemento; después añadimos información como at home, in the morning o at night.",
+  "spanish_speaker_notes": [
+    "No elimines el sujeto cuando añades lugar o tiempo.",
+    "Aprende bloques completos como in the morning y at home.",
+    "El orden puede variar en algunas frases, pero en A1 priorizamos patrones claros y naturales."
+  ],
+  "pronunciation": { "target": "Mantener ritmo claro al añadir lugar y tiempo.", "models": [{ "text": "I study English at home.", "stress": ["study", "English", "home"] }, { "text": "I drink coffee in the morning.", "stress": ["drink", "coffee", "morning"] }], "student_feedback": "Agrupa la frase en acción + lugar + tiempo." },
+  "reading": { "title": "Two routines", "text": "Maya studies English at home in the morning. Luis works in an office and reads at night. On Saturdays, Maya studies in the park. They talk about their routines.", "interactive_vocabulary": ["weekday", "routine", "Saturday", "talk", "usually"], "questions": [{ "prompt": "Where does Luis work?", "options": ["In an office", "At home", "In a park"], "answer": "In an office" }, { "prompt": "When does Luis read?", "options": ["At night", "In the morning", "On Saturdays"], "answer": "At night" }] },
+  "activities": [
+    { "id": "A1-M2-T01-L02-E01", "type": "phrase_expansion", "skill": "vocabulary", "instruction": "Añade un lugar y un momento a la frase.", "prompt": "I study English + at home + in the morning.", "correct_answer": "I study English at home in the morning.", "feedback_correct": "Ampliaste el mensaje sin cambiar su estructura central.", "feedback_incorrect": "Conserva sujeto y verbo; añade primero lugar y después tiempo.", "estimated_seconds": 55 },
+    { "id": "A1-M2-T01-L02-E02", "type": "listening_detail", "skill": "listening", "instruction": "Escucha y selecciona lugar y momento.", "prompt": "I drink coffee in the morning at home.", "options": ["Morning and home", "Night and office", "Saturday and park"], "correct_answer": "Morning and home", "feedback_correct": "Reconociste acción, lugar y tiempo.", "feedback_incorrect": "Escucha in the morning y at home.", "estimated_seconds": 50 },
+    { "id": "A1-M2-T01-L02-E03", "type": "word_order", "skill": "grammar", "instruction": "Ordena la frase ampliada.", "tokens": ["She", "reads", "at", "night."], "correct_answer": "She reads at night.", "feedback_correct": "El bloque de tiempo va después de la acción.", "feedback_incorrect": "Empieza con She reads y añade at night.", "estimated_seconds": 45 },
+    { "id": "A1-M2-T01-L02-E04", "type": "context_choice", "skill": "grammar", "instruction": "Elige la frase natural.", "prompt": "Hablar de estudiar en casa por la mañana.", "options": ["I study at home in the morning.", "I at home study morning.", "Study I in morning home."], "correct_answer": "I study at home in the morning.", "feedback_correct": "La frase conserva un orden claro y natural.", "feedback_incorrect": "Usa sujeto + verbo + lugar + tiempo.", "estimated_seconds": 45 },
+    { "id": "A1-M2-T01-L02-E05", "type": "error_correction", "skill": "grammar", "instruction": "Corrige la frase.", "prompt": "At home I English study.", "correct_answer": "I study English at home.", "feedback_correct": "El lugar no debe separar sujeto y verbo en este patrón básico.", "feedback_incorrect": "Mueve I study English al inicio.", "estimated_seconds": 50 },
+    { "id": "A1-M2-T01-L02-E06", "type": "pronunciation_recording", "skill": "pronunciation", "instruction": "Graba dos frases sobre tu rutina.", "prompt": "I study ____ at ____. I read ____ at night.", "evaluation": ["sentence rhythm", "place/time chunks", "verb clarity"], "feedback_correct": "Tus frases incluyen acción, lugar y tiempo.", "feedback_incorrect": "Haz una pausa breve entre el complemento y el lugar.", "estimated_seconds": 100 },
+    { "id": "A1-M2-T01-L02-E07", "type": "interactive_reading", "skill": "reading", "instruction": "Lee las rutinas y completa quién, dónde y cuándo.", "reading_ref": "A1-M2-T01-L02-reading-01", "correct_answer": "2 comprehension answers and 4 routine facts", "feedback_correct": "Extrajiste acciones, lugares y momentos.", "feedback_incorrect": "Busca study, work, home, office, morning y night.", "estimated_seconds": 125 },
+    { "id": "A1-M2-T01-L02-E08", "type": "ai_roleplay", "skill": "conversation", "instruction": "La IA es tu compañero. Pregunta y responde dónde y cuándo estudias o trabajas.", "role": "classmate", "student_goal": "Exchange two routine sentences with place and time.", "allowed_support": ["routine cards", "sentence starter", "Spanish hint"], "success_criteria": ["answers where", "answers when", "produces two expanded sentences"], "feedback_correct": "Compartiste información concreta de tu rutina.", "feedback_incorrect": "Usa I + verb + place + time.", "estimated_seconds": 180 },
+    { "id": "A1-M2-T01-L02-E09", "type": "transfer_mission", "skill": "integrated", "instruction": "Graba un mensaje con dos actividades, sus lugares y momentos.", "prompt": "I ____ ____ at ____. I ____ ____ in the ____.", "response_type": "open_speech_or_text", "evaluation_criteria": ["uses two verbs", "gives two places", "gives two times", "maintains word order"], "feedback_correct": "Convertiste la estructura en información personal útil.", "feedback_incorrect": "Construye cada frase por bloques: sujeto, verbo, complemento, lugar y tiempo.", "estimated_seconds": 130 },
+    { "id": "A1-M2-T01-L02-E10", "type": "spaced_retrieval", "skill": "review", "instruction": "Completa el patrón.", "prompts": ["subject + verb + complement + ___ + ___", "I study English ___ home", "I read ___ night"], "correct_answers": ["place/time", "at", "at"], "feedback_correct": "Recuperaste los bloques de lugar y tiempo.", "feedback_incorrect": "Añade lugar y tiempo después del mensaje principal.", "estimated_seconds": 90 }
+  ],
+  "mastery_criteria": { "minimum_score": 0.8, "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"], "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días." }
+}

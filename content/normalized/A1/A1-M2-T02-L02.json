@@ -1,0 +1,444 @@
+{
+  "id": "A1-M2-T02-L02",
+  "level": "A1",
+  "module_code": "A1-M2",
+  "topic_code": "A1-M2-T02",
+  "title": "He, she and the daily routine",
+  "estimated_seconds": 1020,
+  "communication_goal": "El estudiante puede describir la rutina de otra persona y reconocer la terminación de tercera persona.",
+  "situation": "Hablar de la rutina de un familiar o compañero.",
+  "language_focus": [
+    "He works in an office.",
+    "She studies English.",
+    "He gets up early.",
+    "She watches TV at night.",
+    "Does she work on Sundays?"
+  ],
+  "vocabulary": [
+    {
+      "term": "works",
+      "meaning_es": "trabaja",
+      "example": "He works in an office."
+    },
+    {
+      "term": "studies",
+      "meaning_es": "estudia",
+      "example": "She studies English."
+    },
+    {
+      "term": "gets up",
+      "meaning_es": "se levanta",
+      "example": "He gets up early."
+    },
+    {
+      "term": "watches TV",
+      "meaning_es": "mira televisión",
+      "example": "She watches TV at night."
+    },
+    {
+      "term": "early",
+      "meaning_es": "temprano",
+      "example": "He gets up early."
+    },
+    {
+      "term": "on Sundays",
+      "meaning_es": "los domingos",
+      "example": "She works on Sundays."
+    }
+  ],
+  "context": {
+    "before": "A student describes her brother's routine.",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "text": "What does your brother do?"
+      },
+      {
+        "speaker": "Student",
+        "text": "He works in an office. He gets up early."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Does he study English?"
+      },
+      {
+        "speaker": "Student",
+        "text": "No, he doesn't. My sister studies English at night."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Does she work on Sundays?"
+      },
+      {
+        "speaker": "Student",
+        "text": "Yes, she does."
+      }
+    ]
+  },
+  "explanation_es": "Con he, she e it, el presente simple suele añadir -s o -es al verbo: work → works, watch → watches, study → studies. En preguntas usamos does y el verbo vuelve a la forma base: Does she work?, no Does she works?.",
+  "spanish_speaker_notes": [
+    "La tercera persona es uno de los errores más frecuentes: she works, no she work.",
+    "Después de does no uses la terminación: Does he study?, no Does he studies?.",
+    "No traduzcas literalmente el sujeto omitido del español; en inglés he/she debe aparecer."
+  ],
+  "pronunciation": {
+    "target": "Reconocer y producir terminaciones de tercera persona y preguntas con does.",
+    "models": [
+      {
+        "text": "He works in an office.",
+        "stress": [
+          "works",
+          "office"
+        ]
+      },
+      {
+        "text": "She studies English.",
+        "stress": [
+          "studies",
+          "English"
+        ]
+      },
+      {
+        "text": "Does she work on Sundays?",
+        "stress": [
+          "work",
+          "Sundays"
+        ],
+        "intonation": "rising"
+      }
+    ],
+    "student_feedback": "La s final importa, pero después de does desaparece del verbo principal."
+  },
+  "reading": {
+    "title": "My family's routines",
+    "text": "My brother works in an office. He gets up early and takes the bus. My sister studies English at night. She watches TV after class. She works on Sundays, but my brother does not work on Sundays.",
+    "interactive_vocabulary": [
+      "brother",
+      "sister",
+      "takes the bus",
+      "after class",
+      "does not"
+    ],
+    "questions": [
+      {
+        "prompt": "Who studies English at night?",
+        "options": [
+          "The sister",
+          "The brother",
+          "The teacher"
+        ],
+        "answer": "The sister"
+      },
+      {
+        "prompt": "Who does not work on Sundays?",
+        "options": [
+          "The brother",
+          "The sister",
+          "Both"
+        ],
+        "answer": "The brother"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M2-T02-L02-E01",
+      "type": "third_person_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica la frase según quién realiza la acción.",
+      "items": [
+        {
+          "text": "I work",
+          "category": "I/you/we/they"
+        },
+        {
+          "text": "She works",
+          "category": "he/she/it"
+        },
+        {
+          "text": "They study",
+          "category": "I/you/we/they"
+        },
+        {
+          "text": "He studies",
+          "category": "he/she/it"
+        }
+      ],
+      "categories": [
+        "I/you/we/they",
+        "he/she/it"
+      ],
+      "feedback_correct": "Relacionaste sujeto y forma verbal.",
+      "feedback_incorrect": "He/she/it necesita una terminación en afirmativas.",
+      "estimated_seconds": 65,
+      "prompt": "Clasifica la frase según quién realiza la acción.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I work=I/you/we/they",
+          "She works=he/she/it",
+          "They study=I/you/we/they",
+          "He studies=he/she/it"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E02",
+      "type": "listening_ending",
+      "skill": "listening",
+      "instruction": "Escucha y elige la acción.",
+      "prompt": "She watches TV at night.",
+      "options": [
+        "watches TV",
+        "works in an office",
+        "studies in the morning"
+      ],
+      "correct_answer": "watches TV",
+      "feedback_correct": "Reconociste la acción y su terminación.",
+      "feedback_incorrect": "Escucha watches TV después de She.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "watches TV"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E03",
+      "type": "verb_form_choice",
+      "skill": "grammar",
+      "instruction": "Completa la afirmación.",
+      "prompt": "He ___ in an office.",
+      "options": [
+        "works",
+        "work",
+        "working"
+      ],
+      "correct_answer": "works",
+      "feedback_correct": "He necesita works en afirmativa.",
+      "feedback_incorrect": "Con he añadimos la terminación: works.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "works"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E04",
+      "type": "question_builder",
+      "skill": "grammar",
+      "instruction": "Ordena la pregunta.",
+      "tokens": [
+        "Does",
+        "she",
+        "work",
+        "on",
+        "Sundays?"
+      ],
+      "correct_answer": "Does she work on Sundays?",
+      "feedback_correct": "Después de does usamos work sin s.",
+      "feedback_incorrect": "Usa Does + she + verbo base.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena la pregunta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does she work on Sundays?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta.",
+      "prompt": "Does he studies English?",
+      "correct_answer": "Does he study English?",
+      "feedback_correct": "Does ya lleva la marca de tercera persona.",
+      "feedback_incorrect": "Quita la s de studies después de does.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does he study English?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Describe la rutina de otra persona.",
+      "prompt": "He works ____. He gets up ____. She studies ____.",
+      "evaluation": {
+        "0": "third-person ending",
+        "1": "does question if added",
+        "2": "routine clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La rutina de la otra persona se entiende.",
+      "feedback_incorrect": "Marca la s de works/gets y la terminación de studies.",
+      "estimated_seconds": 110,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee las rutinas familiares y completa quién hace qué.",
+      "reading_ref": "A1-M2-T02-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 4 routine facts",
+      "feedback_correct": "Seguiste sujetos, verbos y terminaciones.",
+      "feedback_incorrect": "Busca brother works, sister studies y las diferencias de Sundays.",
+      "estimated_seconds": 130,
+      "prompt": "Lee las rutinas familiares y completa quién hace qué.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 routine facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu profesor. Habla sobre la rutina de un familiar y responde preguntas con does.",
+      "role": "teacher",
+      "student_goal": "Describe another person's routine and answer two Does questions.",
+      "allowed_support": [
+        "family cards",
+        "verb bank",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses three third-person verbs",
+        "answers Does questions",
+        "uses base verb after does"
+      ],
+      "feedback_correct": "Describiste a otra persona con precisión gramatical.",
+      "feedback_incorrect": "Afirmativa: she works. Pregunta: Does she work?.",
+      "estimated_seconds": 190,
+      "prompt": "La IA es tu profesor. Habla sobre la rutina de un familiar y responde preguntas con does.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Graba una mini descripción de la rutina de un familiar o amigo.",
+      "prompt": "He/She ____ at ____. He/She ____ ____. Does he/she ____?",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three third-person forms",
+        "includes time/place",
+        "forms one Does question"
+      ],
+      "feedback_correct": "Usaste el presente simple para describir a otra persona.",
+      "feedback_incorrect": "Añade s en afirmaciones, pero usa verbo base después de Does.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    },
+    {
+      "id": "A1-M2-T02-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "She ___ English.",
+        "He ___ early.",
+        "Does she ___ on Sundays?"
+      ],
+      "correct_answers": [
+        "studies",
+        "gets up",
+        "work"
+      ],
+      "feedback_correct": "Recuperaste afirmativa, tercera persona y pregunta con does.",
+      "feedback_incorrect": "Afirmativa añade marca; después de does usa la forma base.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "studies",
+          "gets up",
+          "work"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M2-T02-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T02-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,406 @@
+{
+  "id": "A1-M3-T04-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T04",
+  "title": "Entre semana y el fin de semana",
+  "estimated_seconds": 930,
+  "communication_goal": "Comparar rutinas de días laborales y fines de semana usando frecuencia y conectores.",
+  "situation": "Cuentas qué haces entre semana y cómo cambia tu rutina el sábado o domingo.",
+  "language_focus": {
+    "grammar": [
+      "on weekdays",
+      "on weekends",
+      "usually/sometimes/never",
+      "but",
+      "because",
+      "Do you...?"
+    ],
+    "function": "comparing routines"
+  },
+  "vocabulary": [
+    {
+      "word": "weekday",
+      "meaning_es": "día entre semana",
+      "example": "I work on weekdays."
+    },
+    {
+      "word": "weekend",
+      "meaning_es": "fin de semana",
+      "example": "I relax on weekends."
+    },
+    {
+      "word": "sleep late",
+      "meaning_es": "dormir hasta tarde",
+      "example": "I sleep late on Sundays."
+    },
+    {
+      "word": "go shopping",
+      "meaning_es": "ir de compras",
+      "example": "We go shopping on Saturdays."
+    },
+    {
+      "word": "visit friends",
+      "meaning_es": "visitar amigos",
+      "example": "I visit friends on weekends."
+    },
+    {
+      "word": "relax",
+      "meaning_es": "relajarse",
+      "example": "She relaxes at home."
+    }
+  ],
+  "context": {
+    "title": "A different weekend",
+    "dialogue": [
+      {
+        "speaker": "Mia",
+        "english": "What do you do on weekdays?",
+        "spanish": "¿Qué haces entre semana?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "I work and study English. I usually wake up early.",
+        "spanish": "Trabajo y estudio inglés. Normalmente me despierto temprano."
+      },
+      {
+        "speaker": "Mia",
+        "english": "What about weekends?",
+        "spanish": "¿Y los fines de semana?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "I don't work. I sleep late and visit friends.",
+        "spanish": "No trabajo. Duermo hasta tarde y visito amigos."
+      },
+      {
+        "speaker": "Mia",
+        "english": "I usually go shopping on Saturdays, but I relax on Sundays.",
+        "spanish": "Normalmente voy de compras los sábados, pero descanso los domingos."
+      }
+    ]
+  },
+  "explanation_es": "Usa on weekdays y on weekends para hablar de periodos. Los adverbios expresan frecuencia: I usually wake up early; I sometimes go shopping. Conecta diferencias con but: I work on weekdays, but I don't work on weekends. La pregunta What about weekends? invita a comparar.",
+  "spanish_speaker_notes": [
+    "Weekday es un día de lunes a viernes; weekend es sábado y domingo.",
+    "No digas in weekends en este patrón; usa on weekends.",
+    "Sleep late no significa dormir mal, sino levantarse tarde.",
+    "Relax puede ser una actividad completa: I relax at home."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "What do you do on weekdays?",
+        "focus": "on weekdays"
+      },
+      {
+        "text": "I usually wake up early.",
+        "focus": "usually wake up"
+      },
+      {
+        "text": "I don't work on weekends.",
+        "focus": "don't work on weekends"
+      }
+    ],
+    "tip_es": "Marca el contraste con la entonación: weekdays, but weekends."
+  },
+  "reading": {
+    "title": "A balanced weekend",
+    "text": "Mia works on weekdays and usually wakes up early. On Saturdays, she goes shopping and visits friends. On Sundays, she never works and relaxes at home. Her weekend is different from her weekday routine.",
+    "glossary": [
+      {
+        "term": "balanced weekend",
+        "meaning_es": "fin de semana equilibrado"
+      },
+      {
+        "term": "different from",
+        "meaning_es": "diferente de"
+      },
+      {
+        "term": "wakes up early",
+        "meaning_es": "se despierta temprano"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "routine_compare",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las actividades como más comunes entre semana o el fin de semana.",
+      "items": [
+        {
+          "text": "work",
+          "category": "weekdays"
+        },
+        {
+          "text": "sleep late",
+          "category": "weekend"
+        },
+        {
+          "text": "go shopping",
+          "category": "weekend"
+        },
+        {
+          "text": "study",
+          "category": "weekdays"
+        }
+      ],
+      "prompt": "Clasifica las actividades como más comunes entre semana o el fin de semana.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "work=weekdays",
+          "sleep late=weekend",
+          "go shopping=weekend",
+          "study=weekdays"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: I sleep late and visit friends on weekends. Elige la descripción.",
+      "audio_text": "I sleep late and visit friends on weekends.",
+      "options": [
+        "Rutina del fin de semana",
+        "Rutina de la mañana laboral",
+        "Horario de una clase"
+      ],
+      "correct": "Rutina del fin de semana",
+      "feedback": "On weekends marca el periodo.",
+      "prompt": "Escucha: I sleep late and visit friends on weekends. Elige la descripción.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Rutina del fin de semana"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "On weekends marca el periodo.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I work ___ weekdays, but I relax ___ weekends.",
+      "options": [
+        "on / on",
+        "in / in",
+        "at / on"
+      ],
+      "correct": "on / on",
+      "feedback": "Usamos on con weekdays y weekends.",
+      "prompt": "Completa: I work ___ weekdays, but I relax ___ weekends.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "on / on"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usamos on con weekdays y weekends.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: usually / I / friends / visit / weekends / on / .",
+      "answer": "I usually visit friends on weekends.",
+      "feedback": "Usually va antes del verbo principal y on weekends al final.",
+      "prompt": "Ordena: usually / I / friends / visit / weekends / on / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I usually visit friends on weekends."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usually va antes del verbo principal y on weekends al final.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I sleep late in weekends.",
+      "answer": "I sleep late on weekends.",
+      "feedback": "El patrón es on weekends.",
+      "prompt": "Corrige: I sleep late in weekends.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I sleep late on weekends."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El patrón es on weekends.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Compara tus rutinas: On weekdays I... but on weekends I....",
+      "target": "On weekdays I ... but on weekends I ...",
+      "evaluation": {
+        "0": "periodos claros",
+        "1": "but audible",
+        "2": "dos rutinas diferenciadas",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "On weekdays I ... but on weekends I ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Balanced Weekend y responde: What does Mia do on Sundays?",
+      "text_reference": "reading",
+      "answer": "She never works and relaxes at home.",
+      "feedback": "La última parte describe el domingo.",
+      "prompt": "Lee A Balanced Weekend y responde: What does Mia do on Sundays?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She never works and relaxes at home."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La última parte describe el domingo.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un amigo comparando fines de semana. Responde preguntas y haz una pregunta sobre su rutina.",
+      "scenario": "Comparing weekday and weekend routines.",
+      "ai_language": "English; encourage a but contrast",
+      "prompt": "La IA será un amigo comparando fines de semana. Responde preguntas y haz una pregunta sobre su rutina.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una comparación de 45 segundos entre tu rutina de lunes a viernes y tu fin de semana usando cinco actividades y tres frecuencias.",
+      "success_criteria": [
+        "usa on weekdays/on weekends",
+        "incluye but",
+        "usa adverbios de frecuencia",
+        "mensaje comprensible"
+      ],
+      "prompt": "Graba una comparación de 45 segundos entre tu rutina de lunes a viernes y tu fin de semana usando cinco actividades y tres frecuencias.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: entre semana = on ___; fin de semana = on ___; dormir tarde = sleep ___.",
+      "answers": [
+        "weekdays",
+        "weekends",
+        "late"
+      ],
+      "prompt": "Completa: entre semana = on ___; fin de semana = on ___; dormir tarde = sleep ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "weekdays",
+          "weekends",
+          "late"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "comparar dos periodos",
+      "usar on weekdays/on weekends",
+      "conectar rutinas con but"
+    ],
+    "retry": "Si mezclas los periodos, escribe dos columnas: weekdays y weekends, y coloca cada actividad antes de hablar."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T04-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

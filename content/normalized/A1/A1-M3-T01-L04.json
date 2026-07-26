@@ -1,0 +1,404 @@
+{
+  "id": "A1-M3-T01-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T01",
+  "title": "Presentación completa",
+  "estimated_seconds": 1110,
+  "communication_goal": "Presentarte con naturalidad, responder preguntas personales básicas y mantener varios turnos de conversación.",
+  "situation": "Participas en una actividad de networking o bienvenida y conversas con varias personas.",
+  "language_focus": {
+    "grammar": [
+      "to be for identity/origin/age",
+      "do questions for routines",
+      "like/enjoy",
+      "and/but/because",
+      "follow-up questions"
+    ],
+    "function": "complete personal introduction"
+  },
+  "vocabulary": [
+    {
+      "word": "introduce",
+      "meaning_es": "presentar",
+      "example": "Let me introduce myself."
+    },
+    {
+      "word": "background",
+      "meaning_es": "origen/experiencia",
+      "example": "Tell me about your background."
+    },
+    {
+      "word": "currently",
+      "meaning_es": "actualmente",
+      "example": "I currently live in Boston."
+    },
+    {
+      "word": "pleased",
+      "meaning_es": "encantado/a",
+      "example": "Pleased to meet you."
+    },
+    {
+      "word": "conversation",
+      "meaning_es": "conversación",
+      "example": "We have a short conversation."
+    },
+    {
+      "word": "contact",
+      "meaning_es": "contacto",
+      "example": "Here is my contact information."
+    }
+  ],
+  "context": {
+    "title": "Welcome event",
+    "dialogue": [
+      {
+        "speaker": "Rafael",
+        "english": "Hi, I'm Rafael. Let me introduce myself.",
+        "spanish": "Hola, soy Rafael. Permíteme presentarme."
+      },
+      {
+        "speaker": "Mina",
+        "english": "Pleased to meet you. Where are you from?",
+        "spanish": "Encantada de conocerte. ¿De dónde eres?"
+      },
+      {
+        "speaker": "Rafael",
+        "english": "I'm from Spain, but I currently live in Boston. I work as a nurse.",
+        "spanish": "Soy de España, pero actualmente vivo en Boston. Trabajo como enfermero."
+      },
+      {
+        "speaker": "Mina",
+        "english": "What do you do in your free time?",
+        "spanish": "¿Qué haces en tu tiempo libre?"
+      },
+      {
+        "speaker": "Rafael",
+        "english": "I enjoy cooking and I often play soccer. What about you?",
+        "spanish": "Disfruto cocinar y a menudo juego fútbol. ¿Y tú?"
+      },
+      {
+        "speaker": "Mina",
+        "english": "I like reading. Nice to meet you, Rafael.",
+        "spanish": "Me gusta leer. Mucho gusto, Rafael."
+      }
+    ]
+  },
+  "explanation_es": "Una presentación completa combina identidad, origen, residencia, trabajo e intereses. Usa to be para identidad, origen y edad; do para rutinas; like/enjoy para gustos. Conecta ideas con and, but y because y haz una pregunta de seguimiento. En un contexto formal puedes usar Pleased to meet you; en uno informal Nice to meet you.",
+  "spanish_speaker_notes": [
+    "No memorices un monólogo sin escuchar; una presentación real incluye preguntas y respuestas.",
+    "Currently ayuda a hablar de una situación actual, pero no es obligatorio en A1.",
+    "Pleased to meet you es más formal que Nice to meet you.",
+    "No compartas teléfono o correo reales en prácticas públicas; usa datos ficticios."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Let me introduce myself.",
+        "focus": "introduce myself"
+      },
+      {
+        "text": "I currently live in Boston.",
+        "focus": "currently live in"
+      },
+      {
+        "text": "I enjoy cooking and often play soccer.",
+        "focus": "conexión and often"
+      }
+    ],
+    "tip_es": "Practica la presentación en dos velocidades: clara para un formulario y natural para una conversación."
+  },
+  "reading": {
+    "title": "Rafael's profile",
+    "text": "Rafael is from Spain, but he currently lives in Boston. He works as a nurse and enjoys cooking. In his free time, he often plays soccer. At a welcome event, he introduces himself and asks other people about their lives.",
+    "glossary": [
+      {
+        "term": "welcome event",
+        "meaning_es": "evento de bienvenida"
+      },
+      {
+        "term": "currently",
+        "meaning_es": "actualmente"
+      },
+      {
+        "term": "nurse",
+        "meaning_es": "enfermero/a"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "profile_sequence",
+      "skill": "vocabulary",
+      "instruction": "Ordena los bloques de una presentación útil.",
+      "items": [
+        "name and greeting",
+        "origin and city",
+        "job",
+        "interests",
+        "question for the other person"
+      ],
+      "answer": [
+        "name and greeting",
+        "origin and city",
+        "job",
+        "interests",
+        "question for the other person"
+      ],
+      "prompt": "Ordena los bloques de una presentación útil.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "name and greeting",
+          "origin and city",
+          "job",
+          "interests",
+          "question for the other person"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha la presentación y identifica el trabajo de Rafael.",
+      "audio_text": "I work as a nurse.",
+      "options": [
+        "He is a teacher.",
+        "He is a nurse.",
+        "He is a designer."
+      ],
+      "correct": "He is a nurse.",
+      "feedback": "Work as introduce la profesión.",
+      "prompt": "Escucha la presentación y identifica el trabajo de Rafael.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He is a nurse."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Work as introduce la profesión.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la combinación correcta: He ___ from Spain and ___ in Boston.",
+      "options": [
+        "is / lives",
+        "does / live",
+        "is / live"
+      ],
+      "correct": "is / lives",
+      "feedback": "Origen usa is from; residencia afirmativa con he usa lives.",
+      "prompt": "Elige la combinación correcta: He ___ from Spain and ___ in Boston.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "is / lives"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Origen usa is from; residencia afirmativa con he usa lives.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: about / what / you / ?",
+      "answer": "What about you?",
+      "feedback": "Usa esta pregunta para devolver el turno.",
+      "prompt": "Ordena: about / what / you / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What about you?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usa esta pregunta para devolver el turno.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: I enjoy cook and I live at Boston.",
+      "answer": "I enjoy cooking and I live in Boston.",
+      "feedback": "Enjoy lleva -ing y live in se usa con ciudades.",
+      "prompt": "Corrige: I enjoy cook and I live at Boston.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I enjoy cooking and I live in Boston."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Enjoy lleva -ing y live in se usa con ciudades.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una presentación completa de 45 segundos con una pregunta final.",
+      "target": "Hi, I'm ... I'm from ... I live in ... I work as ... I enjoy ... What about you?",
+      "evaluation": {
+        "0": "bloques bien separados",
+        "1": "to be/do comprensibles",
+        "2": "pregunta final natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Hi, I'm ... I'm from ... I live in ... I work as ... I enjoy ... What about you?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Rafael's Profile y responde: Where does Rafael currently live?",
+      "text_reference": "reading",
+      "answer": "He currently lives in Boston.",
+      "feedback": "Rafael es de Spain, pero vive actualmente en Boston.",
+      "prompt": "Lee Rafael's Profile y responde: Where does Rafael currently live?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He currently lives in Boston."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Rafael es de Spain, pero vive actualmente en Boston.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será una persona en un evento de bienvenida. Realiza seis turnos: saludo, presentación, preguntas, respuesta y seguimiento.",
+      "scenario": "A friendly professional welcome event with fictional details.",
+      "ai_language": "English; adapt questions to the learner's answers",
+      "prompt": "La IA será una persona en un evento de bienvenida. Realiza seis turnos: saludo, presentación, preguntas, respuesta y seguimiento.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Realiza dos presentaciones: una informal para un compañero y otra formal para una actividad profesional, usando datos ficticios.",
+      "success_criteria": [
+        "diferencia Hi y Pleased to meet you",
+        "incluye origen, ciudad, trabajo e intereses",
+        "hace una pregunta de seguimiento",
+        "habla con claridad"
+      ],
+      "prompt": "Realiza dos presentaciones: una informal para un compañero y otra formal para una actividad profesional, usando datos ficticios.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final del tema: completa un perfil, identifica información en audio, corrige errores, comprende una lectura y realiza una presentación oral adaptativa.",
+      "rubric": {
+        "personal_information": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "conversation": "2 puntos"
+      },
+      "prompt": "Evaluación final del tema: completa un perfil, identifica información en audio, corrige errores, comprende una lectura y realiza una presentación oral adaptativa.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "presentarse con información conectada",
+      "responder preguntas personales",
+      "mantener una conversación de al menos seis turnos"
+    ],
+    "retry": "Si el resultado es menor de 80%, usa una plantilla de cinco bloques y repite la presentación con datos ficticios."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T01-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

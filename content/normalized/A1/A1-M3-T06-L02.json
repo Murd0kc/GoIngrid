@@ -1,0 +1,431 @@
+{
+  "id": "A1-M3-T06-L02",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T06",
+  "title": "Días, meses y fechas",
+  "estimated_seconds": 930,
+  "communication_goal": "Decir fechas, días de la semana y meses para hablar de eventos y citas.",
+  "situation": "Indicas cuándo es una clase, cumpleaños, viaje o reunión.",
+  "language_focus": {
+    "grammar": [
+      "What day is it?",
+      "What date is it?",
+      "on Monday",
+      "in July",
+      "My birthday is on...",
+      "ordinal dates"
+    ],
+    "function": "dates and calendar events"
+  },
+  "vocabulary": [
+    {
+      "word": "Monday",
+      "meaning_es": "lunes",
+      "example": "The class is on Monday."
+    },
+    {
+      "word": "Friday",
+      "meaning_es": "viernes",
+      "example": "We meet on Friday."
+    },
+    {
+      "word": "January",
+      "meaning_es": "enero",
+      "example": "My birthday is in January."
+    },
+    {
+      "word": "July",
+      "meaning_es": "julio",
+      "example": "The trip is in July."
+    },
+    {
+      "word": "birthday",
+      "meaning_es": "cumpleaños",
+      "example": "When is your birthday?"
+    },
+    {
+      "word": "appointment",
+      "meaning_es": "cita",
+      "example": "I have an appointment on Tuesday."
+    }
+  ],
+  "context": {
+    "title": "The calendar",
+    "dialogue": [
+      {
+        "speaker": "Mia",
+        "english": "What day is the English class?",
+        "spanish": "¿Qué día es la clase de inglés?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "It is on Monday and Wednesday.",
+        "spanish": "Es el lunes y miércoles."
+      },
+      {
+        "speaker": "Mia",
+        "english": "When is your birthday?",
+        "spanish": "¿Cuándo es tu cumpleaños?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "It is on July twenty-first.",
+        "spanish": "Es el veintiuno de julio."
+      },
+      {
+        "speaker": "Mia",
+        "english": "Do you have an appointment this week?",
+        "spanish": "¿Tienes una cita esta semana?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "Yes, I have one on Friday.",
+        "spanish": "Sí, tengo una el viernes."
+      }
+    ]
+  },
+  "explanation_es": "Usa on con días y fechas: on Monday, on July twenty-first. Usa in con meses y años: in July, in 2026. Pregunta What day is it? por el día de la semana y What date is it? por la fecha. Las fechas usan números ordinales al hablar: first, second, third, twenty-first.",
+  "spanish_speaker_notes": [
+    "No uses in Monday; los días usan on.",
+    "Los meses se escriben con mayúscula: January, July.",
+    "Birthday es cumpleaños; anniversary es aniversario.",
+    "El formato numérico de fechas puede variar por país; en conversación di el mes y el día para evitar confusión."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "The class is on Monday.",
+        "focus": "on Monday"
+      },
+      {
+        "text": "My birthday is in July.",
+        "focus": "birthday y in July"
+      },
+      {
+        "text": "July twenty-first",
+        "focus": "ordinal twenty-first"
+      }
+    ],
+    "tip_es": "Practica primero días y meses por separado y después combínalos en fechas."
+  },
+  "reading": {
+    "title": "A busy calendar",
+    "text": "Mia has English class on Monday and Wednesday. Her birthday is on July twenty-first. She has a doctor's appointment on Friday. The family trip is in August.",
+    "glossary": [
+      {
+        "term": "calendar",
+        "meaning_es": "calendario"
+      },
+      {
+        "term": "doctor's appointment",
+        "meaning_es": "cita médica"
+      },
+      {
+        "term": "family trip",
+        "meaning_es": "viaje familiar"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "calendar_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada evento con la preposición adecuada.",
+      "pairs": [
+        {
+          "event": "Monday",
+          "preposition": "on"
+        },
+        {
+          "event": "July",
+          "preposition": "in"
+        },
+        {
+          "event": "July twenty-first",
+          "preposition": "on"
+        },
+        {
+          "event": "2026",
+          "preposition": "in"
+        }
+      ],
+      "prompt": "Relaciona cada evento con la preposición adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Monday=on",
+          "July=in",
+          "July twenty-first=on",
+          "2026=in"
+        ],
+        "expected_pairs": [
+          {
+            "event": "Monday",
+            "preposition": "on"
+          },
+          {
+            "event": "July",
+            "preposition": "in"
+          },
+          {
+            "event": "July twenty-first",
+            "preposition": "on"
+          },
+          {
+            "event": "2026",
+            "preposition": "in"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: My birthday is on July twenty-first. Elige la fecha.",
+      "audio_text": "My birthday is on July twenty-first.",
+      "options": [
+        "21 de julio",
+        "7 de enero",
+        "20 de julio"
+      ],
+      "correct": "21 de julio",
+      "feedback": "Twenty-first es el ordinal 21.",
+      "prompt": "Escucha: My birthday is on July twenty-first. Elige la fecha.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "21 de julio"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Twenty-first es el ordinal 21.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: The trip is ___ August.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": "in",
+      "feedback": "Los meses usan in.",
+      "prompt": "Completa: The trip is ___ August.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "in"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Los meses usan in.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: is / when / birthday / your / ?",
+      "answer": "When is your birthday?",
+      "feedback": "When is your birthday? pregunta la fecha de cumpleaños.",
+      "prompt": "Ordena: is / when / birthday / your / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "When is your birthday?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "When is your birthday? pregunta la fecha de cumpleaños.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: The appointment is in Friday.",
+      "answer": "The appointment is on Friday.",
+      "feedback": "Los días de la semana usan on.",
+      "prompt": "Corrige: The appointment is in Friday.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The appointment is on Friday."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Los días de la semana usan on.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Di dos citas del calendario con días y meses.",
+      "target": "My appointment is on ... My birthday is in ...",
+      "evaluation": {
+        "0": "on/in diferenciados",
+        "1": "días y meses claros",
+        "2": "fecha comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "My appointment is on ... My birthday is in ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Busy Calendar y responde: When is the family trip?",
+      "text_reference": "reading",
+      "answer": "It is in August.",
+      "feedback": "El viaje se indica en la última oración.",
+      "prompt": "Lee A Busy Calendar y responde: When is the family trip?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It is in August."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El viaje se indica en la última oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será una persona organizando un calendario. Pregunta por días, fechas, meses y citas.",
+      "scenario": "Planning classes, appointments and a family trip.",
+      "ai_language": "English; repeat dates in a clear alternative format",
+      "prompt": "La IA será una persona organizando un calendario. Pregunta por días, fechas, meses y citas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea un calendario ficticio con cinco eventos y graba una explicación usando días, meses y dos fechas ordinales.",
+      "success_criteria": [
+        "usa on con días/fechas",
+        "usa in con meses",
+        "pronuncia dos ordinales",
+        "eventos coherentes"
+      ],
+      "prompt": "Crea un calendario ficticio con cinco eventos y graba una explicación usando días, meses y dos fechas ordinales.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ Monday; ___ July; ___ July twenty-first; What ___ is it?",
+      "answers": [
+        "on",
+        "in",
+        "on",
+        "date"
+      ],
+      "prompt": "Completa: ___ Monday; ___ July; ___ July twenty-first; What ___ is it?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "on",
+          "in",
+          "on",
+          "date"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "decir días y meses",
+      "usar on/in correctamente",
+      "indicar una fecha o evento"
+    ],
+    "retry": "Si confundes on e in, decide si hablas de un día/fecha exacta o de un mes/año."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T06-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

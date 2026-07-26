@@ -1,0 +1,435 @@
+{
+  "id": "A1-M1-T03-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T03",
+  "title": "I am: who I am and how I feel",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede decir quién es y expresar estados básicos usando I am y I'm.",
+  "situation": "Presentarse en una clase y decir cómo se siente al comenzar el día.",
+  "language_focus": [
+    "I am Carlos.",
+    "I'm a student.",
+    "I'm from Peru.",
+    "I'm tired.",
+    "I'm happy.",
+    "Are you ready?"
+  ],
+  "vocabulary": [
+    {
+      "term": "student",
+      "meaning_es": "estudiante",
+      "example": "I'm a student."
+    },
+    {
+      "term": "from",
+      "meaning_es": "de / procedente de",
+      "example": "I'm from Peru."
+    },
+    {
+      "term": "ready",
+      "meaning_es": "listo / lista",
+      "example": "I'm ready."
+    },
+    {
+      "term": "tired",
+      "meaning_es": "cansado / cansada",
+      "example": "I'm tired."
+    },
+    {
+      "term": "happy",
+      "meaning_es": "feliz",
+      "example": "I'm happy."
+    },
+    {
+      "term": "nervous",
+      "meaning_es": "nervioso / nerviosa",
+      "example": "I'm nervous."
+    }
+  ],
+  "context": {
+    "before": "Students introduce themselves before an English lesson.",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "text": "Hi! I'm Ms. Lee. What's your name?"
+      },
+      {
+        "speaker": "Student",
+        "text": "I'm Carlos. I'm from Peru."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Welcome, Carlos. Are you ready?"
+      },
+      {
+        "speaker": "Student",
+        "text": "Yes, I'm ready. I'm a little nervous."
+      }
+    ]
+  },
+  "explanation_es": "Am es la forma de to be que usamos con I. Podemos decir I am o la forma corta I'm. Se usa para identidad, origen, profesión y estados: I'm a student, I'm from Peru, I'm tired.",
+  "spanish_speaker_notes": [
+    "No digas I have tired para expresar cansancio; en inglés se usa I am tired.",
+    "No omitas el sujeto: I am, no solo am.",
+    "I'm es una contracción muy frecuente en conversación y suena natural."
+  ],
+  "pronunciation": {
+    "target": "Producir I am e I'm con claridad y usar la contracción en conversación.",
+    "models": [
+      {
+        "text": "I am",
+        "ipa": "/aɪ æm/"
+      },
+      {
+        "text": "I'm",
+        "ipa": "/aɪm/"
+      },
+      {
+        "text": "I'm from Peru.",
+        "stress": [
+          "from",
+          "Peru"
+        ]
+      },
+      {
+        "text": "I'm ready.",
+        "stress": [
+          "ready"
+        ]
+      }
+    ],
+    "student_feedback": "La contracción I'm debe sonar como una unidad corta, pero la palabra I debe seguir siendo audible."
+  },
+  "reading": {
+    "title": "A new student",
+    "text": "Carlos is a new student. He is from Peru. Today is his first English class. He is happy, but he is a little nervous. He says, 'I'm ready.'",
+    "interactive_vocabulary": [
+      "new",
+      "first",
+      "today",
+      "a little",
+      "nervous"
+    ],
+    "questions": [
+      {
+        "prompt": "Where is Carlos from?",
+        "options": [
+          "Peru",
+          "Canada",
+          "Spain"
+        ],
+        "answer": "Peru"
+      },
+      {
+        "prompt": "How does Carlos feel?",
+        "options": [
+          "Happy and a little nervous",
+          "Angry and tired",
+          "Not ready"
+        ],
+        "answer": "Happy and a little nervous"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T03-L01-E01",
+      "type": "situation_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica qué información puede expresar I am.",
+      "items": [
+        {
+          "text": "a student",
+          "category": "identity"
+        },
+        {
+          "text": "from Peru",
+          "category": "origin"
+        },
+        {
+          "text": "tired",
+          "category": "state"
+        },
+        {
+          "text": "happy",
+          "category": "state"
+        }
+      ],
+      "categories": [
+        "identity",
+        "origin",
+        "state"
+      ],
+      "feedback_correct": "To be conecta identidad, origen y estados.",
+      "feedback_incorrect": "I am puede decir quién eres, de dónde eres o cómo estás.",
+      "estimated_seconds": 65,
+      "prompt": "Clasifica qué información puede expresar I am.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a student=identity",
+          "from Peru=origin",
+          "tired=state",
+          "happy=state"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E02",
+      "type": "listening_identification",
+      "skill": "listening",
+      "instruction": "Escucha y elige la información que comunica la frase.",
+      "prompt": "I'm from Peru.",
+      "options": [
+        "Origin",
+        "Profession",
+        "Feeling"
+      ],
+      "correct_answer": "Origin",
+      "feedback_correct": "From introduce el lugar de origen.",
+      "feedback_incorrect": "I'm from... indica de dónde eres.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Origin"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la frase sobre tu identidad.",
+      "prompt": "___ a student.",
+      "options": [
+        "I'm",
+        "I",
+        "Am"
+      ],
+      "correct_answer": "I'm",
+      "feedback_correct": "I'm significa I am y necesita aparecer antes de a student.",
+      "feedback_incorrect": "La frase necesita sujeto y verbo: I'm a student.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena las palabras para expresar un estado.",
+      "tokens": [
+        "I'm",
+        "a",
+        "little",
+        "nervous."
+      ],
+      "correct_answer": "I'm a little nervous.",
+      "feedback_correct": "La frase expresa un estado de forma natural.",
+      "feedback_incorrect": "Después de I'm puedes usar a little y el adjetivo nervous.",
+      "estimated_seconds": 50,
+      "prompt": "Ordena las palabras para expresar un estado.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm a little nervous."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la frase del estudiante hispanohablante.",
+      "prompt": "I have tired.",
+      "correct_answer": "I'm tired.",
+      "feedback_correct": "En inglés usamos be + adjetivo para estados como tired.",
+      "feedback_incorrect": "No uses have para tired; di I'm tired.",
+      "estimated_seconds": 55,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm tired."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una presentación y un estado.",
+      "prompt": "I'm ____. I'm from ____. I'm feeling ____.",
+      "evaluation": {
+        "0": "I'm clarity",
+        "1": "sentence rhythm",
+        "2": "final adjective intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Usaste I'm en frases conectadas y comprensibles.",
+      "feedback_incorrect": "Practica I'm como una unidad y deja clara la palabra final.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la historia y toca las palabras nuevas. Identifica identidad, origen y estado.",
+      "reading_ref": "A1-M1-T03-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 3 information types",
+      "feedback_correct": "Distinguiste quién es Carlos, de dónde es y cómo se siente.",
+      "feedback_incorrect": "Busca una frase sobre profesión, otra sobre origen y otra sobre emoción.",
+      "estimated_seconds": 125,
+      "prompt": "Lee la historia y toca las palabras nuevas. Identifica identidad, origen y estado.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 3 information types"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es tu profesor. Preséntate y di de dónde eres y cómo te sientes.",
+      "role": "English teacher",
+      "student_goal": "Use I am/I'm for identity, origin and one current state.",
+      "allowed_support": [
+        "sentence starter",
+        "Spanish hint",
+        "slow mode"
+      ],
+      "success_criteria": [
+        "says who they are",
+        "says where they are from",
+        "expresses a state"
+      ],
+      "feedback_correct": "Completaste una presentación con información personal útil.",
+      "feedback_incorrect": "Usa: I'm a... / I'm from... / I'm feeling...",
+      "estimated_seconds": 180,
+      "prompt": "La IA es tu profesor. Preséntate y di de dónde eres y cómo te sientes.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Envía un audio breve a un nuevo compañero antes de tu primera clase.",
+      "prompt": "Hi! I'm ____. I'm from ____. I'm feeling ____. See you in class!",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses I'm three times appropriately",
+        "communicates personal information",
+        "is understandable"
+      ],
+      "feedback_correct": "Usaste to be para comunicar información personal en una situación real.",
+      "feedback_incorrect": "Completa una frase de identidad, una de origen y una de estado.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    },
+    {
+      "id": "A1-M1-T03-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "___ a student.",
+        "___ from Mexico.",
+        "___ tired today."
+      ],
+      "correct_answers": [
+        "I'm",
+        "I'm",
+        "I'm"
+      ],
+      "feedback_correct": "Recuperaste la forma I'm en tres usos diferentes.",
+      "feedback_incorrect": "Con I usamos am: I am o I'm.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I'm",
+          "I'm",
+          "I'm"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T03-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T03-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

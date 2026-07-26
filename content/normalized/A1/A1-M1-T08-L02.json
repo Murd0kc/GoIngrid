@@ -1,0 +1,448 @@
+{
+  "id": "A1-M1-T08-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T08",
+  "title": "These and those",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede señalar varios objetos cercanos o lejanos usando these y those.",
+  "situation": "Organizar materiales cercanos y reconocer objetos al otro lado de una sala.",
+  "language_focus": [
+    "These are my books.",
+    "Those are your bags.",
+    "What are these?",
+    "What are those?",
+    "These chairs are new.",
+    "Those boxes are old."
+  ],
+  "vocabulary": [
+    {
+      "term": "these",
+      "meaning_es": "estos / estas",
+      "example": "These are my books."
+    },
+    {
+      "term": "those",
+      "meaning_es": "esos / esas",
+      "example": "Those are your bags."
+    },
+    {
+      "term": "books",
+      "meaning_es": "libros",
+      "example": "These books are new."
+    },
+    {
+      "term": "bags",
+      "meaning_es": "bolsos / bolsas",
+      "example": "Those bags are old."
+    },
+    {
+      "term": "chairs",
+      "meaning_es": "sillas",
+      "example": "These chairs are clean."
+    },
+    {
+      "term": "boxes",
+      "meaning_es": "cajas",
+      "example": "Those boxes are heavy."
+    }
+  ],
+  "context": {
+    "before": "A teacher organizes materials on two sides of a classroom.",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "text": "What are these?"
+      },
+      {
+        "speaker": "Student",
+        "text": "These are new books."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "And what are those near the door?"
+      },
+      {
+        "speaker": "Student",
+        "text": "Those are old boxes."
+      },
+      {
+        "speaker": "Teacher",
+        "text": "Please put these books on the table."
+      },
+      {
+        "speaker": "Student",
+        "text": "Okay. Those boxes can stay near the door."
+      }
+    ]
+  },
+  "explanation_es": "These señala varios objetos cercanos; those señala varios objetos más lejos. Son plurales: these books, those boxes. Por eso usamos are, no is.",
+  "spanish_speaker_notes": [
+    "These es plural de this; those es plural de that.",
+    "No uses these con un solo objeto: these books, pero this book.",
+    "La terminación de these es sonora; practica these y those dentro de la frase."
+  ],
+  "pronunciation": {
+    "target": "Distinguir this/these y that/those en frases plurales.",
+    "models": [
+      {
+        "text": "these",
+        "ipa": "/ðiːz/"
+      },
+      {
+        "text": "those",
+        "ipa": "/ðoʊz/"
+      },
+      {
+        "text": "These are new books.",
+        "stress": [
+          "these",
+          "new books"
+        ]
+      },
+      {
+        "text": "Those are old boxes.",
+        "stress": [
+          "those",
+          "old boxes"
+        ]
+      }
+    ],
+    "student_feedback": "Haz audible el plural del demostrativo y del sustantivo cuando corresponda."
+  },
+  "reading": {
+    "title": "Two sides of the classroom",
+    "text": "These books are on the teacher's table. They are new. Those boxes are near the door. They are old and heavy. These chairs are for the students, but those chairs are for visitors.",
+    "interactive_vocabulary": [
+      "teacher's table",
+      "heavy",
+      "visitors",
+      "for",
+      "students"
+    ],
+    "questions": [
+      {
+        "prompt": "Where are the new books?",
+        "options": [
+          "On the teacher's table",
+          "Near the door",
+          "Outside"
+        ],
+        "answer": "On the teacher's table"
+      },
+      {
+        "prompt": "Who are the distant chairs for?",
+        "options": [
+          "Visitors",
+          "Students",
+          "The teacher"
+        ],
+        "answer": "Visitors"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T08-L02-E01",
+      "type": "distance_number_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica por distancia y cantidad.",
+      "items": [
+        {
+          "text": "one book near you",
+          "category": "this"
+        },
+        {
+          "text": "several books near you",
+          "category": "these"
+        },
+        {
+          "text": "one box far away",
+          "category": "that"
+        },
+        {
+          "text": "several boxes far away",
+          "category": "those"
+        }
+      ],
+      "categories": [
+        "this",
+        "these",
+        "that",
+        "those"
+      ],
+      "feedback_correct": "Usaste distancia y número para elegir el demostrativo.",
+      "feedback_incorrect": "Singular/plural y cerca/lejos son las dos decisiones.",
+      "estimated_seconds": 75,
+      "prompt": "Clasifica por distancia y cantidad.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "one book near you=this",
+          "several books near you=these",
+          "one box far away=that",
+          "several boxes far away=those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E02",
+      "type": "listening_pointing",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona el grupo de objetos señalado.",
+      "prompt": "Those are old boxes.",
+      "options": [
+        "Several distant boxes",
+        "One nearby book",
+        "Several nearby chairs"
+      ],
+      "correct_answer": "Several distant boxes",
+      "feedback_correct": "Those combina plural y distancia.",
+      "feedback_incorrect": "Those señala varios objetos lejos del hablante.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Several distant boxes"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E03",
+      "type": "demonstrative_choice",
+      "skill": "grammar",
+      "instruction": "Completa según la imagen.",
+      "prompt": "___ are my books. (books in your hands)",
+      "options": [
+        "These",
+        "Those",
+        "This"
+      ],
+      "correct_answer": "These",
+      "feedback_correct": "Varios objetos cerca usan these.",
+      "feedback_incorrect": "Plural y cerca = these.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "These"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la pregunta.",
+      "tokens": [
+        "What",
+        "are",
+        "those?"
+      ],
+      "correct_answer": "What are those?",
+      "feedback_correct": "Usamos are porque those señala varios objetos.",
+      "feedback_incorrect": "La pregunta es What are those?, no What is those?.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la pregunta.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What are those?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el demostrativo y el verbo.",
+      "prompt": "This are my books.",
+      "correct_answer": "These are my books.",
+      "feedback_correct": "Books es plural y cerca: These are my books.",
+      "feedback_incorrect": "Cambia this por these para varios objetos.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "These are my books."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba dos frases contrastando cerca y lejos.",
+      "prompt": "These are my books. Those are your boxes.",
+      "evaluation": {
+        "0": "these/those contrast",
+        "1": "plural clarity",
+        "2": "th sound",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La distancia y la cantidad se entienden.",
+      "feedback_incorrect": "Practica these /ðiːz/ y those /ðoʊz/ lentamente.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el aula y ubica los grupos cercanos y lejanos.",
+      "reading_ref": "A1-M1-T08-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 4 demonstrative references",
+      "feedback_correct": "Relacionaste these/those con ubicación y plural.",
+      "feedback_incorrect": "Books y chairs están cerca; boxes y otras chairs están lejos.",
+      "estimated_seconds": 125,
+      "prompt": "Lee el aula y ubica los grupos cercanos y lejanos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 demonstrative references"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es una profesora. Clasifica materiales cercanos y lejanos usando these y those.",
+      "role": "teacher",
+      "student_goal": "Identify groups of nearby and distant objects using these/those.",
+      "allowed_support": [
+        "classroom map",
+        "pointing mode",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses these for nearby plural",
+        "uses those for distant plural",
+        "answers one What are...? question"
+      ],
+      "feedback_correct": "Organizaste grupos de materiales con demostrativos correctos.",
+      "feedback_incorrect": "Varios cerca = these; varios lejos = those.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es una profesora. Clasifica materiales cercanos y lejanos usando these y those.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Haz un recorrido por tu espacio y señala un grupo cercano y otro lejano.",
+      "prompt": "These are my ____. Those are my ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses these for nearby plural",
+        "uses those for distant plural",
+        "identifies two groups"
+      ],
+      "feedback_correct": "Usaste demostrativos plurales para orientar a otra persona.",
+      "feedback_incorrect": "Comprueba que hay varios objetos y mira su distancia.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    },
+    {
+      "id": "A1-M1-T08-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la tabla sin mirar.",
+      "prompts": [
+        "one near = ___",
+        "several near = ___",
+        "one far = ___",
+        "several far = ___"
+      ],
+      "correct_answers": [
+        "this",
+        "these",
+        "that",
+        "those"
+      ],
+      "feedback_correct": "Recuperaste los cuatro demostrativos por cantidad y distancia.",
+      "feedback_incorrect": "Cerca: this/these; lejos: that/those. Singular/plural decide la segunda parte.",
+      "estimated_seconds": 90,
+      "prompt": "Completa la tabla sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "this",
+          "these",
+          "that",
+          "those"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T08-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T08-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,175 @@
+{
+  "id": "A1-M1-T03-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T03",
+  "title": "He is, she is, it is",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede describir una persona o un objeto con is y explicar dónde está.",
+  "situation": "Describir a una persona y localizar un objeto en una oficina.",
+  "language_focus": ["He is my coworker.", "She's in the office.", "It is on the table.", "He is tired.", "She is ready.", "It's near the door."],
+  "vocabulary": [
+    { "term": "coworker", "meaning_es": "compañero / compañera de trabajo", "example": "He is my coworker." },
+    { "term": "office", "meaning_es": "oficina", "example": "She's in the office." },
+    { "term": "table", "meaning_es": "mesa", "example": "It is on the table." },
+    { "term": "near", "meaning_es": "cerca de", "example": "It's near the door." },
+    { "term": "door", "meaning_es": "puerta", "example": "The bag is near the door." },
+    { "term": "ready", "meaning_es": "listo / lista", "example": "She is ready." }
+  ],
+  "context": {
+    "before": "A new employee asks about people and objects in the office.",
+    "dialogue": [
+      { "speaker": "New employee", "text": "Who is he?" },
+      { "speaker": "Maya", "text": "He is my coworker, Daniel." },
+      { "speaker": "New employee", "text": "Where is she?" },
+      { "speaker": "Maya", "text": "She's in the office. She is ready for the meeting." },
+      { "speaker": "New employee", "text": "What is that?" },
+      { "speaker": "Maya", "text": "It's my bag. It is near the door." }
+    ]
+  },
+  "explanation_es": "Con he, she e it usamos is: He is, She is, It is. En conversación son comunes las formas cortas he's, she's e it's. Is puede describir identidad, estados y ubicación.",
+  "spanish_speaker_notes": [
+    "No uses are con he, she o it: se dice He is, no He are.",
+    "Para ubicación usamos be + preposición: It's on the table, no It has on the table.",
+    "En inglés el sujeto debe aparecer: She is ready, no solo Is ready."
+  ],
+  "pronunciation": {
+    "target": "Distinguir he is, she is e it is y producir las contracciones en conversación.",
+    "models": [
+      { "text": "He's my coworker.", "stress": ["coworker"] },
+      { "text": "She's in the office.", "stress": ["office"] },
+      { "text": "It's near the door.", "stress": ["near", "door"] }
+    ],
+    "student_feedback": "Mantén audible el pronombre y conecta la contracción con el resto de la frase."
+  },
+  "reading": {
+    "title": "A new office",
+    "text": "Daniel is Maya's coworker. He is friendly and he is near the window. Sofia is the manager. She is in the office. Maya has a new bag. It is on the table, near the door.",
+    "interactive_vocabulary": ["friendly", "window", "manager", "new bag"],
+    "questions": [
+      { "prompt": "Who is near the window?", "options": ["Daniel", "Sofia", "The bag"], "answer": "Daniel" },
+      { "prompt": "Where is the bag?", "options": ["On the table near the door", "In the window", "In the office upstairs"], "answer": "On the table near the door" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T03-L02-E01",
+      "type": "referent_classification",
+      "skill": "vocabulary",
+      "instruction": "Clasifica el referente y elige la forma de to be que necesita.",
+      "items": [{ "text": "Daniel", "answer": "he is" }, { "text": "Sofia", "answer": "she is" }, { "text": "the bag", "answer": "it is" }],
+      "feedback_correct": "La forma is se mantiene; cambia el pronombre según el referente.",
+      "feedback_incorrect": "Daniel = he, Sofia = she y bag = it.",
+      "estimated_seconds": 55
+    },
+    {
+      "id": "A1-M1-T03-L02-E02",
+      "type": "listening_detail",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona dónde está el objeto.",
+      "prompt": "It's near the door.",
+      "options": ["Near the door", "In the window", "Under the desk"],
+      "correct_answer": "Near the door",
+      "feedback_correct": "Entendiste la ubicación expresada con it's.",
+      "feedback_incorrect": "Escucha la palabra near y el lugar door.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T03-L02-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa la descripción de una mujer.",
+      "prompt": "Sofia ___ ready.",
+      "options": ["is", "am", "are"],
+      "correct_answer": "is",
+      "feedback_correct": "Con she usamos is: She is ready.",
+      "feedback_incorrect": "Sofia puede sustituirse por she; con she usamos is.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T03-L02-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase sobre un objeto.",
+      "tokens": ["It", "is", "on", "the", "table."],
+      "correct_answer": "It is on the table.",
+      "feedback_correct": "It is puede expresar la ubicación de un objeto.",
+      "feedback_incorrect": "Empieza con It y coloca is antes de la preposición on.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T03-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el error.",
+      "prompt": "He are my coworker.",
+      "correct_answer": "He is my coworker.",
+      "feedback_correct": "He va con is.",
+      "feedback_incorrect": "Con he usamos is, no are.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T03-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba tres frases: una sobre un hombre, una sobre una mujer y una sobre un objeto.",
+      "prompt": "He's my coworker. She's ready. It's near the door.",
+      "evaluation": ["he/she/it clarity", "is contraction", "location phrase"],
+      "feedback_correct": "Las tres frases distinguen personas y objeto.",
+      "feedback_incorrect": "Repite cada contracción lentamente y después une la frase.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T03-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la escena y toca las palabras nuevas. Relaciona cada pronombre con su referente.",
+      "reading_ref": "A1-M1-T03-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 3 referents",
+      "feedback_correct": "Seguiste personas, ubicación y objeto dentro del texto.",
+      "feedback_incorrect": "Busca quién es Daniel, quién es Sofia y dónde está la bolsa.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T03-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es un nuevo empleado. Explícale quién es una persona y dónde están dos objetos.",
+      "role": "new employee",
+      "student_goal": "Use he is, she is and it is to describe people and locations.",
+      "allowed_support": ["office map", "sentence starter", "Spanish hint"],
+      "success_criteria": ["describes one man", "describes one woman", "locates two objects"],
+      "feedback_correct": "Usaste is para identidad, estado y ubicación.",
+      "feedback_incorrect": "Prueba: He is... / She is... / It's on... / It's near...",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T03-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe tu espacio: una persona, otra persona y dos objetos.",
+      "prompt": "He/She is ____. He/She is ____. It is ____. It's near ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses is with three referents", "describes one state or identity", "gives one location"],
+      "feedback_correct": "Usaste to be para describir una escena de tu vida.",
+      "feedback_incorrect": "Elige un referente cada vez y usa he, she o it antes de is.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T03-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["He ___ my friend.", "She ___ in the office.", "It ___ on the table."],
+      "correct_answers": ["is", "is", "is"],
+      "feedback_correct": "Recuperaste is con he, she e it.",
+      "feedback_incorrect": "Con he, she e it usamos is.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

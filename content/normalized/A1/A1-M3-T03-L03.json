@@ -1,0 +1,426 @@
+{
+  "id": "A1-M3-T03-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T03",
+  "title": "Describir dónde están las cosas",
+  "estimated_seconds": 930,
+  "communication_goal": "Describir la posición de muebles y objetos usando preposiciones básicas.",
+  "situation": "Explicas la distribución de una habitación o das pistas para encontrar un objeto.",
+  "language_focus": {
+    "grammar": [
+      "on",
+      "in",
+      "under",
+      "next to",
+      "behind",
+      "in front of",
+      "between"
+    ],
+    "function": "describing position"
+  },
+  "vocabulary": [
+    {
+      "word": "behind",
+      "meaning_es": "detrás de",
+      "example": "The bag is behind the chair."
+    },
+    {
+      "word": "in front of",
+      "meaning_es": "delante de",
+      "example": "The car is in front of the house."
+    },
+    {
+      "word": "between",
+      "meaning_es": "entre",
+      "example": "The lamp is between the beds."
+    },
+    {
+      "word": "corner",
+      "meaning_es": "esquina",
+      "example": "The sofa is in the corner."
+    },
+    {
+      "word": "shelf",
+      "meaning_es": "estante",
+      "example": "The books are on the shelf."
+    },
+    {
+      "word": "drawer",
+      "meaning_es": "cajón",
+      "example": "The keys are in the drawer."
+    }
+  ],
+  "context": {
+    "title": "Finding the passport",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "english": "Where is my passport?",
+        "spanish": "¿Dónde está mi pasaporte?"
+      },
+      {
+        "speaker": "Leo",
+        "english": "Is it in the drawer?",
+        "spanish": "¿Está en el cajón?"
+      },
+      {
+        "speaker": "Maya",
+        "english": "No, it isn't. The drawer is empty.",
+        "spanish": "No. El cajón está vacío."
+      },
+      {
+        "speaker": "Leo",
+        "english": "Is it behind the books on the shelf?",
+        "spanish": "¿Está detrás de los libros del estante?"
+      },
+      {
+        "speaker": "Maya",
+        "english": "Yes, it is! It is between two books.",
+        "spanish": "¡Sí! Está entre dos libros."
+      }
+    ]
+  },
+  "explanation_es": "Para describir posición usa el objeto + is/are + preposición: The passport is behind the books. Behind = detrás, in front of = delante, between = entre dos o más elementos. Para varias cosas: The books are on the shelf. La preposición debe expresar la relación espacial real.",
+  "spanish_speaker_notes": [
+    "Behind y in front of describen profundidad, no simplemente izquierda o derecha.",
+    "Between se usa cuando identificas dos elementos o lados: between two books.",
+    "Shelf es estante; no lo confundas con self, que significa uno mismo.",
+    "En una descripción repite el referente: it = pasaporte; they = libros."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "The passport is behind the books.",
+        "focus": "behind the books"
+      },
+      {
+        "text": "It is between two books.",
+        "focus": "between two"
+      },
+      {
+        "text": "The books are on the shelf.",
+        "focus": "books are y shelf"
+      }
+    ],
+    "tip_es": "Usa objetos reales o una imagen para que la preposición tenga significado físico."
+  },
+  "reading": {
+    "title": "The bedroom map",
+    "text": "The bedroom has a bed, a shelf and a desk. The lamp is between the bed and the desk. The books are on the shelf. A bag is behind the chair, and the keys are in the top drawer.",
+    "glossary": [
+      {
+        "term": "bedroom map",
+        "meaning_es": "mapa del dormitorio"
+      },
+      {
+        "term": "desk",
+        "meaning_es": "escritorio"
+      },
+      {
+        "term": "top drawer",
+        "meaning_es": "cajón superior"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "preposition_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada preposición con su relación espacial.",
+      "pairs": [
+        {
+          "english": "behind",
+          "spanish": "detrás de"
+        },
+        {
+          "english": "in front of",
+          "spanish": "delante de"
+        },
+        {
+          "english": "between",
+          "spanish": "entre"
+        },
+        {
+          "english": "on",
+          "spanish": "sobre una superficie"
+        }
+      ],
+      "prompt": "Relaciona cada preposición con su relación espacial.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "behind=detrás de",
+          "in front of=delante de",
+          "between=entre",
+          "on=sobre una superficie"
+        ],
+        "expected_pairs": [
+          {
+            "english": "behind",
+            "spanish": "detrás de"
+          },
+          {
+            "english": "in front of",
+            "spanish": "delante de"
+          },
+          {
+            "english": "between",
+            "spanish": "entre"
+          },
+          {
+            "english": "on",
+            "spanish": "sobre una superficie"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: The bag is behind the chair. Elige dónde está la bolsa.",
+      "audio_text": "The bag is behind the chair.",
+      "options": [
+        "Detrás de la silla",
+        "Dentro de la silla",
+        "Sobre la silla"
+      ],
+      "correct": "Detrás de la silla",
+      "feedback": "Behind indica la posición posterior.",
+      "prompt": "Escucha: The bag is behind the chair. Elige dónde está la bolsa.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Detrás de la silla"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Behind indica la posición posterior.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: The lamp is ___ the bed and the desk.",
+      "options": [
+        "between",
+        "behind",
+        "in"
+      ],
+      "correct": "between",
+      "feedback": "La lámpara está entre dos objetos.",
+      "prompt": "Completa: The lamp is ___ the bed and the desk.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "between"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La lámpara está entre dos objetos.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: on / are / the books / shelf / the / .",
+      "answer": "The books are on the shelf.",
+      "feedback": "Books es plural y necesita are.",
+      "prompt": "Ordena: on / are / the books / shelf / the / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The books are on the shelf."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Books es plural y necesita are.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: The keys are in the drawer, between the books?",
+      "answer": "The keys are in the drawer, behind the books.",
+      "feedback": "Usa la preposición que corresponde a la pista del contexto.",
+      "prompt": "Corrige: The keys are in the drawer, between the books?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The keys are in the drawer, behind the books."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usa la preposición que corresponde a la pista del contexto.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Da tres pistas para encontrar un objeto usando behind, between y on.",
+      "target": "It is behind ... It is between ... It is on ...",
+      "evaluation": {
+        "0": "preposiciones claras",
+        "1": "is/are correctos",
+        "2": "pistas comprensibles",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "It is behind ... It is between ... It is on ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee The Bedroom Map y responde: Where are the keys?",
+      "text_reference": "reading",
+      "answer": "They are in the top drawer.",
+      "feedback": "La última parte del texto indica su ubicación.",
+      "prompt": "Lee The Bedroom Map y responde: Where are the keys?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They are in the top drawer."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La última parte del texto indica su ubicación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será una persona que busca un objeto en una habitación. Da pistas espaciales hasta que lo encuentre.",
+      "scenario": "Describing a room to locate a lost item.",
+      "ai_language": "English; confirm each preposition with the learner",
+      "prompt": "La IA será una persona que busca un objeto en una habitación. Da pistas espaciales hasta que lo encuentre.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Dibuja una habitación con ocho objetos y descríbela oralmente usando al menos seis preposiciones.",
+      "success_criteria": [
+        "usa on, in, under, behind, between y next to",
+        "distingue singular/plural",
+        "las posiciones pueden verificarse visualmente"
+      ],
+      "prompt": "Dibuja una habitación con ocho objetos y descríbela oralmente usando al menos seis preposiciones.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: detrás = ___; entre = ___; sobre = ___; delante de = ___.",
+      "answers": [
+        "behind",
+        "between",
+        "on",
+        "in front of"
+      ],
+      "prompt": "Completa: detrás = ___; entre = ___; sobre = ___; delante de = ___.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "behind",
+          "between",
+          "on",
+          "in front of"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T03-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "usar seis preposiciones",
+      "describir posiciones verificables",
+      "distinguir is y are"
+    ],
+    "retry": "Si confundes dos preposiciones, coloca físicamente dos objetos y verbaliza la relación."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T03-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

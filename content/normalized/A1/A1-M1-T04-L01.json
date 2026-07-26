@@ -1,0 +1,439 @@
+{
+  "id": "A1-M1-T04-L01",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T04",
+  "title": "A thing: a and an",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede identificar y pedir un objeto singular usando a o an.",
+  "situation": "Describir lo que necesita en una tienda pequeña.",
+  "language_focus": [
+    "I need a pen.",
+    "I need an umbrella.",
+    "It's a book.",
+    "It's an apple.",
+    "Can I have a ticket?"
+  ],
+  "vocabulary": [
+    {
+      "term": "pen",
+      "meaning_es": "bolígrafo",
+      "example": "I need a pen."
+    },
+    {
+      "term": "book",
+      "meaning_es": "libro",
+      "example": "It's a book."
+    },
+    {
+      "term": "apple",
+      "meaning_es": "manzana",
+      "example": "I want an apple."
+    },
+    {
+      "term": "umbrella",
+      "meaning_es": "paraguas",
+      "example": "I need an umbrella."
+    },
+    {
+      "term": "ticket",
+      "meaning_es": "boleto / billete",
+      "example": "Can I have a ticket?"
+    },
+    {
+      "term": "item",
+      "meaning_es": "artículo / objeto",
+      "example": "This is an item."
+    }
+  ],
+  "context": {
+    "before": "A customer is preparing for a rainy day and stops at a small shop.",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "text": "Hi. I need an umbrella and a pen, please."
+      },
+      {
+        "speaker": "Shop assistant",
+        "text": "Sure. Anything else?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, an apple and a book, please."
+      },
+      {
+        "speaker": "Shop assistant",
+        "text": "Here you are."
+      }
+    ]
+  },
+  "explanation_es": "Usamos a antes de un sustantivo singular que comienza con sonido consonántico: a pen, a book. Usamos an antes de un sustantivo singular que comienza con sonido vocálico: an apple, an umbrella.",
+  "spanish_speaker_notes": [
+    "A y an significan aproximadamente 'un' o 'una', pero la elección depende del sonido inicial.",
+    "No uses a o an con sustantivos plurales en esta etapa.",
+    "La regla se basa en el sonido, no solamente en la letra escrita."
+  ],
+  "pronunciation": {
+    "target": "Conectar a/an con el sustantivo sin añadir pausas innecesarias.",
+    "models": [
+      {
+        "text": "a pen",
+        "stress": [
+          "pen"
+        ]
+      },
+      {
+        "text": "a book",
+        "stress": [
+          "book"
+        ]
+      },
+      {
+        "text": "an apple",
+        "stress": [
+          "apple"
+        ]
+      },
+      {
+        "text": "an umbrella",
+        "stress": [
+          "umbrella"
+        ]
+      }
+    ],
+    "student_feedback": "A menudo suena débil y se une a la siguiente palabra; la palabra importante es el objeto."
+  },
+  "reading": {
+    "title": "A quick shop visit",
+    "text": "It is raining. Sam goes to a small shop. Sam needs an umbrella, a pen and an apple. The shop also has a book. Sam buys the umbrella and the apple.",
+    "interactive_vocabulary": [
+      "raining",
+      "goes",
+      "needs",
+      "also",
+      "buys"
+    ],
+    "questions": [
+      {
+        "prompt": "Why does Sam need an umbrella?",
+        "options": [
+          "It is raining",
+          "He is hungry",
+          "He wants a book"
+        ],
+        "answer": "It is raining"
+      },
+      {
+        "prompt": "What does Sam buy?",
+        "options": [
+          "An umbrella and an apple",
+          "A pen and a book",
+          "A ticket"
+        ],
+        "answer": "An umbrella and an apple"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T04-L01-E01",
+      "type": "sound_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica los objetos según necesiten a o an.",
+      "items": [
+        {
+          "text": "pen",
+          "article": "a"
+        },
+        {
+          "text": "book",
+          "article": "a"
+        },
+        {
+          "text": "apple",
+          "article": "an"
+        },
+        {
+          "text": "umbrella",
+          "article": "an"
+        }
+      ],
+      "categories": [
+        "a",
+        "an"
+      ],
+      "feedback_correct": "A va antes de sonido consonántico; an antes de sonido vocálico.",
+      "feedback_incorrect": "Di la palabra en voz alta y escucha su primer sonido.",
+      "estimated_seconds": 60,
+      "prompt": "Clasifica los objetos según necesiten a o an.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "pen=a",
+          "book=a",
+          "apple=an",
+          "umbrella=an"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E02",
+      "type": "listening_identification",
+      "skill": "listening",
+      "instruction": "Escucha el pedido y elige el objeto mencionado.",
+      "prompt": "I need an umbrella and a pen.",
+      "options": [
+        "An umbrella and a pen",
+        "A book and an apple",
+        "A ticket and a bag"
+      ],
+      "correct_answer": "An umbrella and a pen",
+      "feedback_correct": "Reconociste dos objetos dentro de una petición.",
+      "feedback_incorrect": "Escucha umbrella y pen después de an y a.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "An umbrella and a pen"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Completa el pedido.",
+      "prompt": "I need ___ apple.",
+      "options": [
+        "an",
+        "a",
+        "the"
+      ],
+      "correct_answer": "an",
+      "feedback_correct": "Apple comienza con sonido vocálico: an apple.",
+      "feedback_incorrect": "Di apple: su sonido inicial es vocálico, por eso usamos an.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "an"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la petición.",
+      "tokens": [
+        "I",
+        "need",
+        "an",
+        "umbrella."
+      ],
+      "correct_answer": "I need an umbrella.",
+      "feedback_correct": "La frase combina una petición real con an.",
+      "feedback_incorrect": "Empieza con I need y coloca an antes de umbrella.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la petición.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need an umbrella."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el artículo.",
+      "prompt": "I need a apple.",
+      "correct_answer": "I need an apple.",
+      "feedback_correct": "Apple comienza con sonido vocálico, por eso usamos an.",
+      "feedback_incorrect": "Antes de apple usa an, no a.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need an apple."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba tres pedidos conectando el artículo con el objeto.",
+      "prompt": "A pen, an apple, an umbrella, please.",
+      "evaluation": {
+        "0": "a/an distinction",
+        "1": "connected speech",
+        "2": "object intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Los artículos se conectan naturalmente con los objetos.",
+      "feedback_incorrect": "No alargues a/an; enfatiza pen, apple y umbrella.",
+      "estimated_seconds": 90,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la visita a la tienda y toca las palabras nuevas. Identifica tres objetos.",
+      "reading_ref": "A1-M1-T04-L01-reading-01",
+      "correct_answer": "2 comprehension answers and 3 objects",
+      "feedback_correct": "Comprendiste objetos y acciones en contexto.",
+      "feedback_incorrect": "Busca qué necesita Sam y qué compra al final.",
+      "estimated_seconds": 120,
+      "prompt": "Lee la visita a la tienda y toca las palabras nuevas. Identifica tres objetos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 3 objects"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es dependiente de una tienda. Pide tres objetos, usando a o an correctamente.",
+      "role": "shop assistant",
+      "student_goal": "Request singular objects with a/an and respond to one follow-up question.",
+      "allowed_support": [
+        "object pictures",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "requests three objects",
+        "uses a/an accurately",
+        "uses please"
+      ],
+      "feedback_correct": "Hiciste pedidos comprensibles usando artículos en una situación real.",
+      "feedback_incorrect": "Escucha el primer sonido del objeto y usa a o an antes de pedirlo.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es dependiente de una tienda. Pide tres objetos, usando a o an correctamente.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Prepara una lista oral para una emergencia de lluvia: tres cosas que necesitas.",
+      "prompt": "I need a ____, an ____, and a ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three singular nouns",
+        "selects a/an by sound",
+        "communicates a real need"
+      ],
+      "feedback_correct": "Transferiste los artículos a una necesidad personal.",
+      "feedback_incorrect": "Pronuncia cada objeto y decide si el sonido inicial es consonántico o vocálico.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    },
+    {
+      "id": "A1-M1-T04-L01-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "___ pen",
+        "___ apple",
+        "___ umbrella",
+        "___ book"
+      ],
+      "correct_answers": [
+        "a",
+        "an",
+        "an",
+        "a"
+      ],
+      "feedback_correct": "Recuperaste a y an con vocabulario útil.",
+      "feedback_incorrect": "a + sonido consonántico; an + sonido vocálico.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a",
+          "an",
+          "an",
+          "a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T04-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T04-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

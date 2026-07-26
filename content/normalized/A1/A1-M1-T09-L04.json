@@ -1,0 +1,483 @@
+{
+  "id": "A1-M1-T09-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T09",
+  "title": "The room readiness check",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede comprobar una habitación, describir qué hay, qué falta y qué se necesita.",
+  "situation": "Revisar una sala antes de una reunión y comunicar el resultado a un responsable.",
+  "language_focus": [
+    "There is...",
+    "There are...",
+    "Is there...?",
+    "Are there...?",
+    "There isn't...",
+    "There aren't...",
+    "We need..."
+  ],
+  "vocabulary": [
+    {
+      "term": "readiness check",
+      "meaning_es": "revisión de preparación",
+      "example": "Let's do a readiness check."
+    },
+    {
+      "term": "projector",
+      "meaning_es": "proyector",
+      "example": "There is a projector."
+    },
+    {
+      "term": "extension cord",
+      "meaning_es": "cable de extensión",
+      "example": "There isn't an extension cord."
+    },
+    {
+      "term": "seats",
+      "meaning_es": "asientos",
+      "example": "There are enough seats."
+    },
+    {
+      "term": "markers",
+      "meaning_es": "marcadores",
+      "example": "There aren't any markers."
+    },
+    {
+      "term": "ready",
+      "meaning_es": "listo / lista",
+      "example": "The room is ready."
+    }
+  ],
+  "context": {
+    "before": "A team checks a meeting room fifteen minutes before guests arrive.",
+    "dialogue": [
+      {
+        "speaker": "Manager",
+        "text": "Is the room ready?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Almost. There is a projector and there are twelve seats."
+      },
+      {
+        "speaker": "Manager",
+        "text": "Are there any markers?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "No, there aren't any markers. There is an extension cord, though."
+      },
+      {
+        "speaker": "Manager",
+        "text": "Okay. We need markers. Are there enough seats?"
+      },
+      {
+        "speaker": "Assistant",
+        "text": "Yes, there are. The room is ready after we get the markers."
+      }
+    ]
+  },
+  "explanation_es": "Una revisión completa combina afirmaciones, preguntas y negaciones. Usa there is/are para describir, Is/Are there para comprobar y We need para convertir un problema en una acción.",
+  "spanish_speaker_notes": [
+    "No confundas there is con it is: There is a projector presenta existencia; It is on the table da información sobre un objeto.",
+    "Any aparece con frecuencia en preguntas y negativas plurales: Are there any markers? No, there aren't any.",
+    "Una respuesta útil no solo dice que falta algo; propone qué hacer."
+  ],
+  "pronunciation": {
+    "target": "Mantener claridad en un reporte con afirmaciones, preguntas y problemas.",
+    "models": [
+      {
+        "text": "There is a projector.",
+        "stress": [
+          "projector"
+        ]
+      },
+      {
+        "text": "Are there any markers?",
+        "stress": [
+          "markers"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "There aren't any markers.",
+        "stress": [
+          "aren't",
+          "markers"
+        ]
+      },
+      {
+        "text": "We need markers.",
+        "stress": [
+          "need",
+          "markers"
+        ]
+      }
+    ],
+    "student_feedback": "Organiza el reporte en bloques: qué hay, qué falta y qué acción se necesita."
+  },
+  "reading": {
+    "title": "Fifteen minutes before the meeting",
+    "text": "Fifteen minutes before the meeting, the team checks the room. There is a projector and there are twelve seats. There are no markers, and there isn't an extension cord. The team needs markers and an extension cord. After that, the room is ready.",
+    "interactive_vocabulary": [
+      "fifteen minutes",
+      "checks",
+      "extension cord",
+      "after that",
+      "meeting"
+    ],
+    "questions": [
+      {
+        "prompt": "What is in the room?",
+        "options": [
+          "A projector and twelve seats",
+          "Markers and an extension cord",
+          "Only tables"
+        ],
+        "answer": "A projector and twelve seats"
+      },
+      {
+        "prompt": "What does the team need?",
+        "options": [
+          "Markers and an extension cord",
+          "More seats",
+          "A new room"
+        ],
+        "answer": "Markers and an extension cord"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T09-L04-E01",
+      "type": "readiness_game",
+      "skill": "integrated",
+      "instruction": "Mira una imagen de la sala y coloca cada tarjeta en hay, falta o necesitamos.",
+      "items": [
+        {
+          "text": "projector",
+          "category": "there is"
+        },
+        {
+          "text": "seats",
+          "category": "there are"
+        },
+        {
+          "text": "markers",
+          "category": "missing"
+        },
+        {
+          "text": "extension cord",
+          "category": "need"
+        }
+      ],
+      "categories": [
+        "there is/are",
+        "missing",
+        "need"
+      ],
+      "feedback_correct": "Separaste descripción, problema y solución.",
+      "feedback_incorrect": "Primero decide qué existe; luego qué falta y qué debes conseguir.",
+      "estimated_seconds": 85,
+      "prompt": "Mira una imagen de la sala y coloca cada tarjeta en hay, falta o necesitamos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "projector=there is",
+          "seats=there are",
+          "markers=missing",
+          "extension cord=need"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E02",
+      "type": "listening_report_sequence",
+      "skill": "listening",
+      "instruction": "Escucha el reporte y ordena los tres pasos.",
+      "prompt": "There is a projector. There aren't any markers. We need markers.",
+      "steps": [
+        "describe what exists",
+        "report what is missing",
+        "propose a need"
+      ],
+      "correct_answer": "describe what exists, report what is missing, propose a need",
+      "feedback_correct": "Entendiste la lógica de un reporte útil.",
+      "feedback_incorrect": "Primero se describe, luego se reporta el problema y finalmente se propone una acción.",
+      "estimated_seconds": 70,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "describe what exists, report what is missing, propose a need"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E03",
+      "type": "mixed_grammar_choice",
+      "skill": "grammar",
+      "instruction": "Completa cada parte de la revisión.",
+      "items": [
+        {
+          "prompt": "There ___ a projector.",
+          "options": [
+            "is",
+            "are"
+          ],
+          "answer": "is"
+        },
+        {
+          "prompt": "There ___ twelve seats.",
+          "options": [
+            "are",
+            "is"
+          ],
+          "answer": "are"
+        },
+        {
+          "prompt": "There ___ any markers.",
+          "options": [
+            "aren't",
+            "isn't"
+          ],
+          "answer": "aren't"
+        }
+      ],
+      "feedback_correct": "Elegiste forma según cantidad y afirmación/negación.",
+      "feedback_incorrect": "Projector es singular; seats y markers son plurales.",
+      "estimated_seconds": 75,
+      "prompt": "Completa cada parte de la revisión.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "is",
+          "are",
+          "aren't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E04",
+      "type": "question_builder",
+      "skill": "interaction",
+      "instruction": "Construye la pregunta para comprobar los asientos.",
+      "tokens": [
+        "Are",
+        "there",
+        "enough",
+        "seats?"
+      ],
+      "correct_answer": "Are there enough seats?",
+      "feedback_correct": "La pregunta comprueba una cantidad suficiente.",
+      "feedback_incorrect": "Usa Are there + enough + plural.",
+      "estimated_seconds": 50,
+      "prompt": "Construye la pregunta para comprobar los asientos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Are there enough seats?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el reporte completo.",
+      "prompt": "There is twelve seats. There aren't a projector.",
+      "correct_answer": "There are twelve seats. There isn't a projector.",
+      "feedback_correct": "Corregiste número y forma singular/plural.",
+      "feedback_incorrect": "Twelve seats = there are; a projector = there isn't.",
+      "estimated_seconds": 65,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "There are twelve seats. There isn't a projector."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba el reporte completo de la sala.",
+      "prompt": "There is a projector. There are twelve seats. There aren't any markers. We need markers.",
+      "evaluation": {
+        "0": "is/are contrast",
+        "1": "negative clarity",
+        "2": "solution clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "El reporte tiene información y una solución clara.",
+      "feedback_incorrect": "Haz pausas entre los tres bloques: existe, falta, necesitamos.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la revisión y completa la lista final de preparación.",
+      "reading_ref": "A1-M1-T09-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 5 readiness facts",
+      "feedback_correct": "Convertiste el texto en una lista de acciones.",
+      "feedback_incorrect": "Busca projector, seats, markers, extension cord y la solución.",
+      "estimated_seconds": 135,
+      "prompt": "Lee la revisión y completa la lista final de preparación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 5 readiness facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es el gerente. Revisa una sala, responde preguntas y propone soluciones.",
+      "role": "manager",
+      "student_goal": "Complete a readiness check with statements, questions, negatives and needs.",
+      "allowed_support": [
+        "room checklist",
+        "problem cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "describes two existing items",
+        "asks singular and plural questions",
+        "reports one absence",
+        "proposes a need"
+      ],
+      "feedback_correct": "Completaste una revisión operativa completa.",
+      "feedback_incorrect": "Usa la secuencia: There is/are; Is/Are there?; There isn't/aren't; We need.",
+      "estimated_seconds": 230,
+      "prompt": "La IA es el gerente. Revisa una sala, responde preguntas y propone soluciones.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: revisa una escena nueva y entrega un reporte oral o escrito antes de abrir el lugar.",
+      "prompt": "Say what exists, what is missing, ask one question and propose one solution.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses there is/are",
+        "uses one negative",
+        "asks Is/Are there",
+        "uses We need",
+        "is understandable"
+      ],
+      "feedback_correct": "Demostraste que puedes comprobar y preparar un lugar.",
+      "feedback_incorrect": "Organiza el reporte en existencia, ausencia, pregunta y solución.",
+      "estimated_seconds": 250,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    },
+    {
+      "id": "A1-M1-T09-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la secuencia final sin mirar.",
+      "prompts": [
+        "existence singular = There ___",
+        "existence plural = There ___",
+        "negative singular = There ___",
+        "negative plural = There ___",
+        "solution = We ___"
+      ],
+      "correct_answers": [
+        "is",
+        "are",
+        "isn't",
+        "aren't",
+        "need"
+      ],
+      "feedback_correct": "Recuperaste todo el sistema de la unidad.",
+      "feedback_incorrect": "Repite is/are, isn't/aren't y We need con ejemplos de la sala.",
+      "estimated_seconds": 100,
+      "prompt": "Completa la secuencia final sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "is",
+          "are",
+          "isn't",
+          "aren't",
+          "need"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T09-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "mastery_assessment"
+    ],
+    "topic_ready_when": "El estudiante entrega un reporte completo y comprensible de una sala con al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T09-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

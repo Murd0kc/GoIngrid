@@ -1,0 +1,411 @@
+{
+  "id": "A1-M2-T10-L02",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T10",
+  "title": "Much y many",
+  "estimated_seconds": 930,
+  "communication_goal": "Preguntar y responder sobre cantidades usando much con no contables y many con contables plurales.",
+  "situation": "Hablas de cuánto trabajo, comida o tiempo hay en una actividad cotidiana.",
+  "language_focus": {
+    "grammar": [
+      "How much + uncountable noun",
+      "How many + plural countable noun",
+      "not much",
+      "not many",
+      "a lot of"
+    ],
+    "function": "quantity questions and answers"
+  },
+  "vocabulary": [
+    {
+      "word": "time",
+      "meaning_es": "tiempo",
+      "example": "How much time do we have?"
+    },
+    {
+      "word": "homework",
+      "meaning_es": "tarea",
+      "example": "I have a lot of homework."
+    },
+    {
+      "word": "questions",
+      "meaning_es": "preguntas",
+      "example": "How many questions are there?"
+    },
+    {
+      "word": "money",
+      "meaning_es": "dinero",
+      "example": "I don't have much money."
+    },
+    {
+      "word": "people",
+      "meaning_es": "personas",
+      "example": "How many people are here?"
+    },
+    {
+      "word": "a lot of",
+      "meaning_es": "mucho/a, muchos/as",
+      "example": "We have a lot of time."
+    }
+  ],
+  "context": {
+    "title": "Preparing for a test",
+    "dialogue": [
+      {
+        "speaker": "Ella",
+        "english": "How much time do we have?",
+        "spanish": "¿Cuánto tiempo tenemos?"
+      },
+      {
+        "speaker": "Ben",
+        "english": "We have a lot of time. The test starts at two.",
+        "spanish": "Tenemos mucho tiempo. El examen empieza a las dos."
+      },
+      {
+        "speaker": "Ella",
+        "english": "How many questions are there?",
+        "spanish": "¿Cuántas preguntas hay?"
+      },
+      {
+        "speaker": "Ben",
+        "english": "There are many questions, but they are easy.",
+        "spanish": "Hay muchas preguntas, pero son fáciles."
+      },
+      {
+        "speaker": "Ella",
+        "english": "I don't have much money for a new book.",
+        "spanish": "No tengo mucho dinero para un libro nuevo."
+      }
+    ]
+  },
+  "explanation_es": "Much acompaña sustantivos no contables: much time, much money, much homework. Many acompaña sustantivos contables plurales: many questions, many people. En conversación afirmativa suele sonar más natural a lot of para ambos: a lot of time, a lot of questions.",
+  "spanish_speaker_notes": [
+    "No digas many homework; homework es no contable: much homework o a lot of homework.",
+    "People es plural contable: many people.",
+    "Much y many son especialmente comunes en preguntas y negaciones.",
+    "A lot of funciona con contables plurales y no contables en afirmaciones."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "How much time do we have?",
+        "focus": "much time y do we"
+      },
+      {
+        "text": "How many questions are there?",
+        "focus": "many questions"
+      },
+      {
+        "text": "There are a lot of questions.",
+        "focus": "a lot of como bloque"
+      }
+    ],
+    "tip_es": "No acentúes much o many de forma exagerada; la palabra clave suele ser el sustantivo."
+  },
+  "reading": {
+    "title": "A busy study day",
+    "text": "Ben has a lot of homework and many questions to review. He has much less time than Ella, but he has a lot of energy. They have many exercises and enough time to finish them before the test.",
+    "glossary": [
+      {
+        "term": "study day",
+        "meaning_es": "día de estudio"
+      },
+      {
+        "term": "less time",
+        "meaning_es": "menos tiempo"
+      },
+      {
+        "term": "finish",
+        "meaning_es": "terminar"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "much_many_classify",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada sustantivo según use much o many.",
+      "items": [
+        {
+          "word": "time",
+          "category": "much"
+        },
+        {
+          "word": "money",
+          "category": "much"
+        },
+        {
+          "word": "questions",
+          "category": "many"
+        },
+        {
+          "word": "people",
+          "category": "many"
+        },
+        {
+          "word": "homework",
+          "category": "much"
+        }
+      ],
+      "prompt": "Clasifica cada sustantivo según use much o many.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "item=much",
+          "item=much",
+          "item=many",
+          "item=many",
+          "item=much"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: How many questions are there? Elige la respuesta adecuada.",
+      "audio_text": "There are twenty questions.",
+      "options": [
+        "There are twenty questions.",
+        "We have much time.",
+        "I have some money."
+      ],
+      "correct": "There are twenty questions.",
+      "feedback": "Many/questions pregunta por una cantidad contable plural.",
+      "prompt": "Escucha: How many questions are there? Elige la respuesta adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "There are twenty questions."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Many/questions pregunta por una cantidad contable plural.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: How ___ money do you have?",
+      "options": [
+        "many",
+        "much",
+        "often"
+      ],
+      "correct": "much",
+      "feedback": "Money es no contable.",
+      "prompt": "Completa: How ___ money do you have?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "much"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Money es no contable.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: a lot of / have / we / time / .",
+      "answer": "We have a lot of time.",
+      "feedback": "A lot of funciona con time, que es no contable.",
+      "prompt": "Ordena: a lot of / have / we / time / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "We have a lot of time."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "A lot of funciona con time, que es no contable.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: How many homework do you have?",
+      "answer": "How much homework do you have?",
+      "feedback": "Homework es no contable y usa much.",
+      "prompt": "Corrige: How many homework do you have?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How much homework do you have?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Homework es no contable y usa much.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Pregunta y responde: How much time do we have? We have a lot of time.",
+      "target": "How much time do we have? We have a lot of time.",
+      "evaluation": {
+        "0": "much time claro",
+        "1": "a lot of fluido",
+        "2": "respuesta comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "How much time do we have? We have a lot of time.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Busy Study Day y responde: What does Ben have many of?",
+      "text_reference": "reading",
+      "answer": "He has many questions and exercises.",
+      "feedback": "Ambos son sustantivos contables plurales.",
+      "prompt": "Lee A Busy Study Day y responde: What does Ben have many of?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He has many questions and exercises."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Ambos son sustantivos contables plurales.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será tu compañero preparando un examen. Hablen de tiempo, preguntas, tareas, dinero y ejercicios.",
+      "scenario": "Preparing for a test together.",
+      "ai_language": "English; contrast much, many and a lot of naturally",
+      "prompt": "La IA será tu compañero preparando un examen. Hablen de tiempo, preguntas, tareas, dinero y ejercicios.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Describe tu próxima sesión de estudio con seis frases: dos con much, dos con many y dos con a lot of.",
+      "success_criteria": [
+        "much con no contables",
+        "many con plurales contables",
+        "a lot of con sustantivos adecuados"
+      ],
+      "prompt": "Describe tu próxima sesión de estudio con seis frases: dos con much, dos con many y dos con a lot of.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ time; ___ questions; ___ homework; ___ people.",
+      "answers": [
+        "much",
+        "many",
+        "much",
+        "many"
+      ],
+      "prompt": "Completa: ___ time; ___ questions; ___ homework; ___ people.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "much",
+          "many",
+          "much",
+          "many"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T10-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "distinguir much y many",
+      "usar a lot of en afirmaciones",
+      "preguntar por cantidades con claridad"
+    ],
+    "retry": "Si dudas, mira el sustantivo: ¿es una sustancia/concepto o un plural que puedes contar?"
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T10-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

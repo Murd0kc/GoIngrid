@@ -1,0 +1,404 @@
+{
+  "id": "A1-M2-T08-L04",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T08",
+  "title": "Usarlos en una conversación real",
+  "estimated_seconds": 1080,
+  "communication_goal": "Usar pronombres de objeto con naturalidad para hablar de personas, cosas y relaciones en una conversación.",
+  "situation": "Organizas una reunión, compartes información y explicas quién recibe o hace cada acción.",
+  "language_focus": {
+    "grammar": [
+      "me, you, him, her, it, us, them",
+      "pronouns after verbs",
+      "pronouns after prepositions",
+      "send/show/give + object"
+    ],
+    "function": "integrated object pronoun use"
+  },
+  "vocabulary": [
+    {
+      "word": "remind",
+      "meaning_es": "recordar a alguien",
+      "example": "Remind me tomorrow."
+    },
+    {
+      "word": "introduce",
+      "meaning_es": "presentar",
+      "example": "I introduce her to my friend."
+    },
+    {
+      "word": "bring",
+      "meaning_es": "traer",
+      "example": "Bring it to us."
+    },
+    {
+      "word": "explain",
+      "meaning_es": "explicar",
+      "example": "Explain it to me."
+    },
+    {
+      "word": "share",
+      "meaning_es": "compartir",
+      "example": "Share it with them."
+    },
+    {
+      "word": "everyone",
+      "meaning_es": "todos/todas las personas",
+      "example": "Tell everyone about us."
+    }
+  ],
+  "context": {
+    "title": "Organizing a study meeting",
+    "dialogue": [
+      {
+        "speaker": "Nora",
+        "english": "Can you remind me about the meeting?",
+        "spanish": "¿Puedes recordarme la reunión?"
+      },
+      {
+        "speaker": "Luis",
+        "english": "Sure. I can remind you tomorrow.",
+        "spanish": "Claro. Puedo recordártelo mañana."
+      },
+      {
+        "speaker": "Nora",
+        "english": "Please explain the activity to them.",
+        "spanish": "Por favor, explícales la actividad."
+      },
+      {
+        "speaker": "Luis",
+        "english": "I can explain it to them and share it with everyone.",
+        "spanish": "Puedo explicársela y compartirla con todos."
+      },
+      {
+        "speaker": "Nora",
+        "english": "Great. Bring the notes to us, please.",
+        "spanish": "Perfecto. Tráenos las notas, por favor."
+      }
+    ]
+  },
+  "explanation_es": "En una conversación, el pronombre evita repetir nombres: I explain the activity to them → I explain it to them. Pregunta siempre qué recibe la acción (it/them) y quién la recibe (me/you/him/her/us/them). Después de una preposición sigue usando objeto: with them, to us, about me.",
+  "spanish_speaker_notes": [
+    "En español puedes omitir el objeto; en inglés suele ser necesario: Explain it to me.",
+    "It sustituye una cosa ya mencionada; no lo uses sin un referente claro.",
+    "Them puede referirse a un grupo de personas o cosas plurales según el contexto.",
+    "Para ganar fluidez, reemplaza nombres repetidos por pronombres después de presentar el referente."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Explain it to them.",
+        "focus": "it to them como bloque"
+      },
+      {
+        "text": "Share it with everyone.",
+        "focus": "with y everyone"
+      },
+      {
+        "text": "Bring the notes to us, please.",
+        "focus": "to us y cortesía"
+      }
+    ],
+    "tip_es": "Lee primero con pausas entre grupos y después vuelve a grabar con ritmo conversacional."
+  },
+  "reading": {
+    "title": "The study meeting",
+    "text": "Nora organizes a study meeting for her classmates. She sends them the time and asks Luis to explain the activity to everyone. He explains it to them and shares the notes with us. Nora reminds him to bring them to the meeting.",
+    "glossary": [
+      {
+        "term": "classmates",
+        "meaning_es": "compañeros de clase"
+      },
+      {
+        "term": "notes",
+        "meaning_es": "apuntes"
+      },
+      {
+        "term": "remind",
+        "meaning_es": "recordar a alguien"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "reference_replace",
+      "skill": "vocabulary",
+      "instruction": "Sustituye el grupo de palabras por un pronombre de objeto: the activity, my classmates, Nora and I, Luis.",
+      "items": [
+        {
+          "phrase": "the activity",
+          "answer": "it"
+        },
+        {
+          "phrase": "my classmates",
+          "answer": "them"
+        },
+        {
+          "phrase": "Nora and I",
+          "answer": "us"
+        },
+        {
+          "phrase": "Luis",
+          "answer": "him"
+        }
+      ],
+      "prompt": "Sustituye el grupo de palabras por un pronombre de objeto: the activity, my classmates, Nora and I, Luis.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "it",
+          "them",
+          "us",
+          "him"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha: I can explain it to them. Identifica qué representa cada pronombre.",
+      "audio_text": "I can explain it to them.",
+      "items": [
+        {
+          "text": "it",
+          "meaning": "la actividad"
+        },
+        {
+          "text": "them",
+          "meaning": "los compañeros"
+        }
+      ],
+      "prompt": "Escucha: I can explain it to them. Identifica qué representa cada pronombre.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "it=la actividad",
+          "them=los compañeros"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la frase correcta para 'Explícanos la actividad'.",
+      "options": [
+        "Explain the activity to us.",
+        "Explain the activity to we.",
+        "Explain us the activity to."
+      ],
+      "correct": "Explain the activity to us.",
+      "feedback": "Us es el pronombre de objeto después de to.",
+      "prompt": "Elige la frase correcta para 'Explícanos la actividad'.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Explain the activity to us."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Us es el pronombre de objeto después de to.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: it / with / share / them / .",
+      "answer": "Share it with them.",
+      "feedback": "Objeto it después del verbo y them después de with.",
+      "prompt": "Ordena: it / with / share / them / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Share it with them."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Objeto it después del verbo y them después de with.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: I explain them it.",
+      "answer": "I explain it to them.",
+      "feedback": "Usa la estructura clara explain it to them.",
+      "prompt": "Corrige: I explain them it.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I explain it to them."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Usa la estructura clara explain it to them.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Explica una actividad en tres frases usando explain it to me/them y share it with us.",
+      "target": "Explain it to me. Explain it to them. Share it with us.",
+      "evaluation": {
+        "0": "it y them claros",
+        "1": "to/with audibles",
+        "2": "frases comprensibles",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Explain it to me. Explain it to them. Share it with us.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee The Study Meeting y responde: Who receives the notes?",
+      "text_reference": "reading",
+      "answer": "The group/us receives the notes.",
+      "feedback": "Shares the notes with us indica el grupo receptor.",
+      "prompt": "Lee The Study Meeting y responde: Who receives the notes?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The group/us receives the notes."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Shares the notes with us indica el grupo receptor.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Organiza con la IA una reunión de estudio. Comparte información, explica una actividad y pide que la envíen a otras personas.",
+      "scenario": "Coordinating a study group through messages.",
+      "ai_language": "English; use context to resolve each pronoun",
+      "prompt": "Organiza con la IA una reunión de estudio. Comparte información, explica una actividad y pide que la envíen a otras personas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba un mensaje de 45 segundos organizando una reunión. Presenta tres referentes y luego reemplázalos con it, him/her y them/us.",
+      "success_criteria": [
+        "cada pronombre tiene un referente claro",
+        "usa al menos una preposición",
+        "la conversación se entiende sin repetir nombres constantemente"
+      ],
+      "prompt": "Graba un mensaje de 45 segundos organizando una reunión. Presenta tres referentes y luego reemplázalos con it, him/her y them/us.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: relaciona referentes, corrige cuatro frases, interpreta un mensaje y realiza una conversación oral de seis turnos.",
+      "rubric": {
+        "pronoun_choice": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "conversation": "2 puntos"
+      },
+      "prompt": "Evaluación final: relaciona referentes, corrige cuatro frases, interpreta un mensaje y realiza una conversación oral de seis turnos.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T08-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "elegir pronombres según el referente",
+      "usarlos después de verbos y preposiciones",
+      "mantener una conversación sin repetir nombres innecesariamente"
+    ],
+    "retry": "Si el resultado es menor de 80%, subraya primero la cosa y la persona receptora en cada frase y vuelve a sustituirlas."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T08-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

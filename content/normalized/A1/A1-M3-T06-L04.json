@@ -1,0 +1,408 @@
+{
+  "id": "A1-M3-T06-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T06",
+  "title": "Mi calendario en inglés",
+  "estimated_seconds": 1110,
+  "communication_goal": "Describir un calendario semanal y coordinar eventos usando fechas, horarios y disponibilidad.",
+  "situation": "Organizas una semana con clases, trabajo, citas y actividades personales.",
+  "language_focus": {
+    "grammar": [
+      "days and months",
+      "on/in/at",
+      "What day/date/time...?",
+      "Are you free...?",
+      "from...to...",
+      "confirmation"
+    ],
+    "function": "complete calendar communication"
+  },
+  "vocabulary": [
+    {
+      "word": "calendar",
+      "meaning_es": "calendario",
+      "example": "Check my calendar."
+    },
+    {
+      "word": "class",
+      "meaning_es": "clase",
+      "example": "I have class on Tuesday."
+    },
+    {
+      "word": "meeting",
+      "meaning_es": "reunión",
+      "example": "The meeting is at ten."
+    },
+    {
+      "word": "holiday",
+      "meaning_es": "feriado/vacaciones",
+      "example": "The holiday is in December."
+    },
+    {
+      "word": "available",
+      "meaning_es": "disponible",
+      "example": "I am available on Saturday."
+    },
+    {
+      "word": "busy",
+      "meaning_es": "ocupado",
+      "example": "I am busy in the morning."
+    }
+  ],
+  "context": {
+    "title": "Planning the week",
+    "dialogue": [
+      {
+        "speaker": "Ana",
+        "english": "Are you available on Tuesday morning?",
+        "spanish": "¿Estás disponible el martes por la mañana?"
+      },
+      {
+        "speaker": "Ben",
+        "english": "No, I'm busy from nine to twelve. I'm free at two.",
+        "spanish": "No, estoy ocupado de nueve a doce. Estoy libre a las dos."
+      },
+      {
+        "speaker": "Ana",
+        "english": "Can we have a meeting on Tuesday at two?",
+        "spanish": "¿Podemos tener una reunión el martes a las dos?"
+      },
+      {
+        "speaker": "Ben",
+        "english": "Yes, that works for me. What date is the holiday?",
+        "spanish": "Sí, me funciona. ¿Qué fecha es el feriado?"
+      },
+      {
+        "speaker": "Ana",
+        "english": "It is on December twenty-fifth.",
+        "spanish": "Es el veinticinco de diciembre."
+      }
+    ]
+  },
+  "explanation_es": "Un calendario combina periodo, día, fecha y hora: in December, on Tuesday, on December twenty-fifth, at two. Usa from...to... para bloques de tiempo y Are you available...? para coordinar. Antes de confirmar repite la información completa: Tuesday at two.",
+  "spanish_speaker_notes": [
+    "Morning puede ir con on Tuesday morning; la combinación funciona como un periodo del día.",
+    "Busy from nine to twelve indica un intervalo, no solo dos horas separadas.",
+    "La fecha completa usa on + mes + ordinal en este patrón.",
+    "Confirmar repitiendo día y hora evita errores de agenda."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I am busy from nine to twelve.",
+        "focus": "from nine to twelve"
+      },
+      {
+        "text": "Can we meet on Tuesday at two?",
+        "focus": "on Tuesday at two"
+      },
+      {
+        "text": "December twenty-fifth",
+        "focus": "ordinal twenty-fifth"
+      }
+    ],
+    "tip_es": "Al confirmar un evento, acentúa el día y la hora, y habla más despacio con fechas largas."
+  },
+  "reading": {
+    "title": "Ben's weekly calendar",
+    "text": "Ben is busy from nine to twelve on Tuesday, but he is available at two. He has a meeting then. On Thursday, he has English class from six to eight. The holiday is on December twenty-fifth.",
+    "glossary": [
+      {
+        "term": "weekly calendar",
+        "meaning_es": "calendario semanal"
+      },
+      {
+        "term": "available",
+        "meaning_es": "disponible"
+      },
+      {
+        "term": "then",
+        "meaning_es": "en ese momento"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "calendar_profile",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada evento por tipo.",
+      "items": [
+        {
+          "text": "English class",
+          "category": "study"
+        },
+        {
+          "text": "meeting",
+          "category": "work"
+        },
+        {
+          "text": "holiday",
+          "category": "special date"
+        },
+        {
+          "text": "appointment",
+          "category": "personal"
+        }
+      ],
+      "prompt": "Clasifica cada evento por tipo.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "English class=study",
+          "meeting=work",
+          "holiday=special date",
+          "appointment=personal"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_form",
+      "skill": "listening",
+      "instruction": "Escucha el horario y completa día y hora disponibles.",
+      "audio_text": "I am busy from nine to twelve on Tuesday, but I am free at two.",
+      "fields": [
+        {
+          "label": "day",
+          "answer": "Tuesday"
+        },
+        {
+          "label": "available time",
+          "answer": "two"
+        }
+      ],
+      "feedback": "La disponibilidad aparece después de but.",
+      "prompt": "Escucha el horario y completa día y hora disponibles.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Tuesday",
+          "two"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La disponibilidad aparece después de but.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: The holiday is ___ December twenty-fifth.",
+      "options": [
+        "on",
+        "in",
+        "at"
+      ],
+      "correct": "on",
+      "feedback": "Una fecha específica usa on.",
+      "prompt": "Completa: The holiday is ___ December twenty-fifth.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "on"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Una fecha específica usa on.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: from / class / six / to / eight / is / .",
+      "answer": "Class is from six to eight.",
+      "feedback": "From...to... expresa el horario de una actividad.",
+      "prompt": "Ordena: from / class / six / to / eight / is / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Class is from six to eight."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "From...to... expresa el horario de una actividad.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: I am available in Tuesday at two.",
+      "answer": "I am available on Tuesday at two.",
+      "feedback": "Día = on; hora = at.",
+      "prompt": "Corrige: I am available in Tuesday at two.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I am available on Tuesday at two."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Día = on; hora = at.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Presenta tres eventos de tu calendario y confirma una cita.",
+      "target": "I have ... on ... at ... Let's confirm: ...",
+      "evaluation": {
+        "0": "fechas/hora claras",
+        "1": "preposiciones correctas",
+        "2": "confirmación comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I have ... on ... at ... Let's confirm: ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Ben's Weekly Calendar y responde: When is Ben's English class?",
+      "text_reference": "reading",
+      "answer": "On Thursday from six to eight.",
+      "feedback": "La tercera oración indica el día y horario.",
+      "prompt": "Lee Ben's Weekly Calendar y responde: When is Ben's English class?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "On Thursday from six to eight."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La tercera oración indica el día y horario.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Coordina con la IA una semana completa. Consulta disponibilidad, propón eventos y confirma al menos dos citas.",
+      "scenario": "Building a shared weekly calendar.",
+      "ai_language": "English; repeat final arrangements clearly",
+      "prompt": "Coordina con la IA una semana completa. Consulta disponibilidad, propón eventos y confirma al menos dos citas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea un calendario ficticio con seis eventos y graba una explicación de 75 segundos, incluyendo un cambio de horario.",
+      "success_criteria": [
+        "usa on/in/at correctamente",
+        "incluye from/to",
+        "confirma dos eventos",
+        "pronuncia una fecha ordinal"
+      ],
+      "prompt": "Crea un calendario ficticio con seis eventos y graba una explicación de 75 segundos, incluyendo un cambio de horario.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: interpreta un calendario, corrige cinco errores, identifica fechas y completa una coordinación oral adaptativa.",
+      "rubric": {
+        "calendar_vocabulary": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "conversation": "2 puntos"
+      },
+      "prompt": "Evaluación final: interpreta un calendario, corrige cinco errores, identifica fechas y completa una coordinación oral adaptativa.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T06-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "hablar de días, fechas y horas",
+      "coordinar disponibilidad",
+      "confirmar eventos sin ambigüedad"
+    ],
+    "retry": "Si el resultado es menor de 80%, practica cada evento con la fórmula día + hora + actividad y después añade fechas."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T06-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

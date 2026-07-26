@@ -1,0 +1,429 @@
+{
+  "id": "A1-M2-T09-L03",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T09",
+  "title": "Comprar cantidades",
+  "estimated_seconds": 930,
+  "communication_goal": "Pedir productos y cantidades en una tienda usando preguntas contables y no contables.",
+  "situation": "Compras alimentos y aclaras cuánto necesitas y qué presentación prefieres.",
+  "language_focus": {
+    "grammar": [
+      "How many...?",
+      "How much...?",
+      "a/an + countable singular",
+      "some + uncountable/plural",
+      "a bottle/packet/box of"
+    ],
+    "function": "shopping for quantities"
+  },
+  "vocabulary": [
+    {
+      "word": "packet",
+      "meaning_es": "paquete",
+      "example": "a packet of rice"
+    },
+    {
+      "word": "box",
+      "meaning_es": "caja",
+      "example": "a box of cereal"
+    },
+    {
+      "word": "can",
+      "meaning_es": "lata",
+      "example": "two cans of beans"
+    },
+    {
+      "word": "kilo",
+      "meaning_es": "kilo",
+      "example": "a kilo of apples"
+    },
+    {
+      "word": "enough",
+      "meaning_es": "suficiente",
+      "example": "Is that enough?"
+    },
+    {
+      "word": "anything else",
+      "meaning_es": "algo más",
+      "example": "Do you need anything else?"
+    }
+  ],
+  "context": {
+    "title": "At the grocery store",
+    "dialogue": [
+      {
+        "speaker": "Customer",
+        "english": "How much rice do you need?",
+        "spanish": "¿Cuánto arroz necesitas?"
+      },
+      {
+        "speaker": "Shopkeeper",
+        "english": "I need a packet of rice and a bottle of oil.",
+        "spanish": "Necesito un paquete de arroz y una botella de aceite."
+      },
+      {
+        "speaker": "Customer",
+        "english": "How many apples do you want?",
+        "spanish": "¿Cuántas manzanas quieres?"
+      },
+      {
+        "speaker": "Shopkeeper",
+        "english": "A kilo of apples, please. And two cans of beans.",
+        "spanish": "Un kilo de manzanas, por favor. Y dos latas de frijoles."
+      },
+      {
+        "speaker": "Customer",
+        "english": "Anything else?",
+        "spanish": "¿Algo más?"
+      },
+      {
+        "speaker": "Shopkeeper",
+        "english": "No, that's enough. Thank you.",
+        "spanish": "No, es suficiente. Gracias."
+      }
+    ]
+  },
+  "explanation_es": "En una tienda, How many pregunta por productos contables: How many apples? How much pregunta por una sustancia o cantidad: How much rice? Puedes convertir un no contable en una cantidad con packet, bottle, can, box o kilo. Una forma natural de cerrar la compra es Anything else? y That's enough.",
+  "spanish_speaker_notes": [
+    "No uses how many con rice, oil o water sin una unidad.",
+    "A kilo of apples cuenta una cantidad, aunque apples sea plural.",
+    "Anything else? equivale a '¿algo más?' en una tienda.",
+    "That's enough significa 'es suficiente', no 'eso es mucho'."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "How much rice do you need?",
+        "focus": "how much y rice"
+      },
+      {
+        "text": "A packet of rice, please.",
+        "focus": "packet of como bloque"
+      },
+      {
+        "text": "Anything else? That's enough.",
+        "focus": "entonación de cierre"
+      }
+    ],
+    "tip_es": "En una tienda, habla con frases cortas y agrega please para sonar amable."
+  },
+  "reading": {
+    "title": "The grocery order",
+    "text": "The shopkeeper needs a packet of rice, a bottle of oil, a kilo of apples and two cans of beans. The customer asks if he needs anything else. He says no, that is enough.",
+    "glossary": [
+      {
+        "term": "grocery store",
+        "meaning_es": "tienda de alimentos"
+      },
+      {
+        "term": "oil",
+        "meaning_es": "aceite"
+      },
+      {
+        "term": "beans",
+        "meaning_es": "frijoles"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "unit_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada producto con una presentación adecuada.",
+      "pairs": [
+        {
+          "item": "rice",
+          "unit": "a packet of"
+        },
+        {
+          "item": "oil",
+          "unit": "a bottle of"
+        },
+        {
+          "item": "beans",
+          "unit": "a can of"
+        },
+        {
+          "item": "cereal",
+          "unit": "a box of"
+        }
+      ],
+      "prompt": "Relaciona cada producto con una presentación adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "rice=a packet of",
+          "oil=a bottle of",
+          "beans=a can of",
+          "cereal=a box of"
+        ],
+        "expected_pairs": [
+          {
+            "item": "rice",
+            "unit": "a packet of"
+          },
+          {
+            "item": "oil",
+            "unit": "a bottle of"
+          },
+          {
+            "item": "beans",
+            "unit": "a can of"
+          },
+          {
+            "item": "cereal",
+            "unit": "a box of"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: A kilo of apples, please. Elige la compra correcta.",
+      "audio_text": "A kilo of apples, please.",
+      "options": [
+        "Un kilo de manzanas",
+        "Una botella de aceite",
+        "Una lata de frijoles"
+      ],
+      "correct": "Un kilo de manzanas",
+      "feedback": "Kilo es la unidad y apples es el producto contable plural.",
+      "prompt": "Escucha: A kilo of apples, please. Elige la compra correcta.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Un kilo de manzanas"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Kilo es la unidad y apples es el producto contable plural.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: How ___ cans of beans do you need?",
+      "options": [
+        "much",
+        "many",
+        "often"
+      ],
+      "correct": "many",
+      "feedback": "Cans es contable y está en plural.",
+      "prompt": "Completa: How ___ cans of beans do you need?",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "many"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Cans es contable y está en plural.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: need / how much / oil / you / do / ?",
+      "answer": "How much oil do you need?",
+      "feedback": "How much + sustantivo no contable + do you need?",
+      "prompt": "Ordena: need / how much / oil / you / do / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How much oil do you need?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "How much + sustantivo no contable + do you need?",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: How many rice do you need?",
+      "answer": "How much rice do you need?",
+      "feedback": "Rice es no contable; usa how much.",
+      "prompt": "Corrige: How many rice do you need?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How much rice do you need?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Rice es no contable; usa how much.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Representa una compra: How much rice? A packet, please. Anything else? That's enough.",
+      "target": "How much rice? A packet, please. Anything else? That's enough.",
+      "evaluation": {
+        "0": "how much claro",
+        "1": "please audible",
+        "2": "cierre natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "How much rice? A packet, please. Anything else? That's enough.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee The Grocery Order y responde: How many cans of beans are needed?",
+      "text_reference": "reading",
+      "answer": "Two cans of beans.",
+      "feedback": "La cantidad aparece en la segunda frase.",
+      "prompt": "Lee The Grocery Order y responde: How many cans of beans are needed?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Two cans of beans."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La cantidad aparece en la segunda frase.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un vendedor. Compra cinco productos, pide cantidades y responde Anything else? con naturalidad.",
+      "scenario": "Shopping for a dinner at a grocery store.",
+      "ai_language": "English; use realistic quantities and gentle corrections",
+      "prompt": "La IA será un vendedor. Compra cinco productos, pide cantidades y responde Anything else? con naturalidad.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Haz una lista de compras para una comida. Graba el diálogo entre cliente y vendedor usando How much, How many, una unidad y Anything else?.",
+      "success_criteria": [
+        "distingue contables y no contables",
+        "usa dos unidades adecuadas",
+        "incluye una petición cortés"
+      ],
+      "prompt": "Haz una lista de compras para una comida. Graba el diálogo entre cliente y vendedor usando How much, How many, una unidad y Anything else?.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ apples? ___ rice? a ___ of oil; two ___ of beans.",
+      "answers": [
+        "How many",
+        "How much",
+        "bottle",
+        "cans"
+      ],
+      "prompt": "Completa: ___ apples? ___ rice? a ___ of oil; two ___ of beans.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How many",
+          "How much",
+          "bottle",
+          "cans"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T09-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "preguntar por cantidades",
+      "elegir How much o How many",
+      "usar presentaciones de productos"
+    ],
+    "retry": "Si confundes las preguntas, mira el sustantivo: plural contable = how many; sustancia o unidad = how much."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T09-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

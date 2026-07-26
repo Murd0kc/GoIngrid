@@ -1,0 +1,411 @@
+{
+  "id": "A1-M2-T04-L03",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T04",
+  "title": "Elegir la pregunta correcta",
+  "estimated_seconds": 930,
+  "communication_goal": "Seleccionar y formular la pregunta adecuada para obtener información concreta en una conversación.",
+  "situation": "En una cafetería, una clase y una oficina necesitas aclarar información rápidamente.",
+  "language_focus": {
+    "grammar": [
+      "What do you need?",
+      "Where is it?",
+      "Who is she?",
+      "When does it open?",
+      "Why are you here?",
+      "How much is it?"
+    ],
+    "function": "clarifying information"
+  },
+  "vocabulary": [
+    {
+      "word": "need",
+      "meaning_es": "necesitar",
+      "example": "What do you need?"
+    },
+    {
+      "word": "open",
+      "meaning_es": "abrir/estar abierto",
+      "example": "When does the store open?"
+    },
+    {
+      "word": "cost",
+      "meaning_es": "costar",
+      "example": "How much does it cost?"
+    },
+    {
+      "word": "manager",
+      "meaning_es": "gerente",
+      "example": "Who is the manager?"
+    },
+    {
+      "word": "available",
+      "meaning_es": "disponible",
+      "example": "Is this seat available?"
+    },
+    {
+      "word": "problem",
+      "meaning_es": "problema",
+      "example": "What is the problem?"
+    }
+  ],
+  "context": {
+    "title": "At the information desk",
+    "dialogue": [
+      {
+        "speaker": "Visitor",
+        "english": "Excuse me. Where is room five?",
+        "spanish": "Disculpe. ¿Dónde está la sala cinco?"
+      },
+      {
+        "speaker": "Assistant",
+        "english": "It is upstairs. What do you need?",
+        "spanish": "Está arriba. ¿Qué necesita?"
+      },
+      {
+        "speaker": "Visitor",
+        "english": "I need the English class. When does it start?",
+        "spanish": "Necesito la clase de inglés. ¿Cuándo empieza?"
+      },
+      {
+        "speaker": "Assistant",
+        "english": "It starts at ten. Who is your teacher?",
+        "spanish": "Empieza a las diez. ¿Quién es su profesor?"
+      },
+      {
+        "speaker": "Visitor",
+        "english": "I don't know. How do I get to room five?",
+        "spanish": "No lo sé. ¿Cómo llego a la sala cinco?"
+      }
+    ]
+  },
+  "explanation_es": "Antes de preguntar, identifica el tipo de información: persona = who, lugar = where, momento = when, razón = why, manera = how y cosa o dato = what. La estructura cambia según el verbo: Where is it? usa to be; Where do you work? usa do; When does it open? usa does.",
+  "spanish_speaker_notes": [
+    "No traduzcas siempre 'cómo' como how: How much pregunta precio y How often frecuencia.",
+    "What do you need? necesita do porque need es un verbo de acción.",
+    "Who is your teacher? usa is porque pregunta quién es una persona.",
+    "Usa Excuse me antes de una pregunta a un desconocido para sonar cortés."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Excuse me. Where is room five?",
+        "focus": "entonación amable y enlace where is"
+      },
+      {
+        "text": "When does it start?",
+        "focus": "does it como unidad"
+      },
+      {
+        "text": "How do I get there?",
+        "focus": "sonido inicial /h/ y ritmo"
+      }
+    ],
+    "tip_es": "La entonación y Excuse me ayudan a que una pregunta directa suene natural y educada."
+  },
+  "reading": {
+    "title": "Finding a room",
+    "text": "A visitor is at an information desk. She needs the English class, but she doesn't know the room. She asks where room five is and when the class starts. The assistant explains how to get there.",
+    "glossary": [
+      {
+        "term": "information desk",
+        "meaning_es": "mostrador de información"
+      },
+      {
+        "term": "upstairs",
+        "meaning_es": "arriba"
+      },
+      {
+        "term": "get there",
+        "meaning_es": "llegar allí"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_classify",
+      "skill": "vocabulary",
+      "instruction": "Clasifica cada pregunta según la información que busca.",
+      "items": [
+        {
+          "text": "Who is the manager?",
+          "category": "person"
+        },
+        {
+          "text": "Where is room five?",
+          "category": "place"
+        },
+        {
+          "text": "When does it open?",
+          "category": "time"
+        },
+        {
+          "text": "What do you need?",
+          "category": "thing_or_information"
+        }
+      ],
+      "prompt": "Clasifica cada pregunta según la información que busca.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Who is the manager?=person",
+          "Where is room five?=place",
+          "When does it open?=time",
+          "What do you need?=thing_or_information"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: It starts at ten. Elige la pregunta que responde.",
+      "audio_text": "It starts at ten.",
+      "options": [
+        "Who is the teacher?",
+        "When does the class start?",
+        "Where is the class?"
+      ],
+      "correct": "When does the class start?",
+      "feedback": "La respuesta da un momento: at ten.",
+      "prompt": "Escucha: It starts at ten. Elige la pregunta que responde.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "When does the class start?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta da un momento: at ten.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la pregunta correcta para saber el precio.",
+      "options": [
+        "How much does it cost?",
+        "How many does it cost?",
+        "Why does it cost?"
+      ],
+      "correct": "How much does it cost?",
+      "feedback": "How much pregunta por precio.",
+      "prompt": "Elige la pregunta correcta para saber el precio.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How much does it cost?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "How much pregunta por precio.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: do / how / get / I / there / ?",
+      "answer": "How do I get there?",
+      "feedback": "How + do + sujeto + verbo base.",
+      "prompt": "Ordena: do / how / get / I / there / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How do I get there?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "How + do + sujeto + verbo base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: Where do room five?",
+      "answer": "Where is room five?",
+      "feedback": "Room five es una ubicación; usa is, no do.",
+      "prompt": "Corrige: Where do room five?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Where is room five?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Room five es una ubicación; usa is, no do.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una pregunta cortés: Excuse me. How do I get to room five?",
+      "target": "Excuse me. How do I get to room five?",
+      "evaluation": {
+        "0": "Excuse me comprensible",
+        "1": "entonación amable",
+        "2": "how do I reconocible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Excuse me. How do I get to room five?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Finding a Room y responde: What does the visitor need?",
+      "text_reference": "reading",
+      "answer": "She needs the English class.",
+      "feedback": "La respuesta aparece en la segunda oración.",
+      "prompt": "Lee Finding a Room y responde: What does the visitor need?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She needs the English class."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta aparece en la segunda oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un asistente de información. Pregunta por una sala, horario, precio y dirección; reacciona a sus respuestas.",
+      "scenario": "You are looking for a class in a new building.",
+      "ai_language": "English with a Spanish hint only if you choose the wrong question type",
+      "prompt": "La IA será un asistente de información. Pregunta por una sala, horario, precio y dirección; reacciona a sus respuestas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Crea seis preguntas para una situación real: una con cada palabra interrogativa estudiada.",
+      "success_criteria": [
+        "what, where, when, why, who y how aparecen una vez",
+        "cada pregunta busca información coherente",
+        "incluye al menos una fórmula cortés"
+      ],
+      "prompt": "Crea seis preguntas para una situación real: una con cada palabra interrogativa estudiada.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Relaciona rápidamente: persona, lugar, tiempo, razón, manera y cosa con who, where, when, why, how y what.",
+      "answers": [
+        "who",
+        "where",
+        "when",
+        "why",
+        "how",
+        "what"
+      ],
+      "prompt": "Relaciona rápidamente: persona, lugar, tiempo, razón, manera y cosa con who, where, when, why, how y what.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "who",
+          "where",
+          "when",
+          "why",
+          "how",
+          "what"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T04-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "elegir la palabra interrogativa correcta",
+      "distinguir to be de do/does",
+      "formular preguntas corteses y comprensibles"
+    ],
+    "retry": "Si eliges una palabra incorrecta, identifica primero qué tipo de respuesta esperas: persona, lugar, tiempo, razón, manera o cosa."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T04-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

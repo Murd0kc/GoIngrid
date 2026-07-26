@@ -1,0 +1,425 @@
+{
+  "id": "A1-M2-T07-L01",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T07",
+  "title": "Preguntas para conocer mejor",
+  "estimated_seconds": 930,
+  "communication_goal": "Usar preguntas interrogativas para obtener información personal y mantener una conversación conectada.",
+  "situation": "Conoces a una persona nueva y haces preguntas que avanzan de datos básicos a intereses.",
+  "language_focus": {
+    "grammar": [
+      "What do you like?",
+      "Where are you from?",
+      "Who do you live with?",
+      "When do you study?",
+      "Why do you like it?",
+      "How do you spend your free time?"
+    ],
+    "function": "personal information questions"
+  },
+  "vocabulary": [
+    {
+      "word": "interest",
+      "meaning_es": "interés",
+      "example": "What are your interests?"
+    },
+    {
+      "word": "hobby",
+      "meaning_es": "pasatiempo",
+      "example": "What is your hobby?"
+    },
+    {
+      "word": "favorite",
+      "meaning_es": "favorito",
+      "example": "What is your favorite movie?"
+    },
+    {
+      "word": "spend time",
+      "meaning_es": "pasar tiempo",
+      "example": "How do you spend your free time?"
+    },
+    {
+      "word": "together",
+      "meaning_es": "juntos",
+      "example": "Who do you study with?"
+    },
+    {
+      "word": "because",
+      "meaning_es": "porque",
+      "example": "I like it because it is fun."
+    }
+  ],
+  "context": {
+    "title": "A conversation starter",
+    "dialogue": [
+      {
+        "speaker": "Nadia",
+        "english": "Where are you from?",
+        "spanish": "¿De dónde eres?"
+      },
+      {
+        "speaker": "Eric",
+        "english": "I'm from Peru. What do you do in your free time?",
+        "spanish": "Soy de Perú. ¿Qué haces en tu tiempo libre?"
+      },
+      {
+        "speaker": "Nadia",
+        "english": "I read and listen to music. Who do you live with?",
+        "spanish": "Leo y escucho música. ¿Con quién vives?"
+      },
+      {
+        "speaker": "Eric",
+        "english": "I live with my cousin. When do you usually read?",
+        "spanish": "Vivo con mi primo. ¿Cuándo sueles leer?"
+      },
+      {
+        "speaker": "Nadia",
+        "english": "I read at night because it is quiet.",
+        "spanish": "Leo por la noche porque es tranquilo."
+      }
+    ]
+  },
+  "explanation_es": "Una buena conversación usa preguntas relacionadas. Empieza con información básica (what is your name?, where are you from?), continúa con hábitos (when do you study?, how do you spend your free time?) y añade una razón con why. La respuesta de una pregunta puede darte la siguiente pregunta.",
+  "spanish_speaker_notes": [
+    "Where are you from? y Where do you live? no preguntan lo mismo.",
+    "Who do you live with? pregunta por una persona y termina naturalmente con with.",
+    "What do you do? puede preguntar por trabajo o actividades según el contexto.",
+    "No conviertas una conversación en una lista: escucha una palabra de la respuesta y pregunta sobre ella."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "What do you do in your free time?",
+        "focus": "reducir do you y ritmo"
+      },
+      {
+        "text": "Who do you live with?",
+        "focus": "who y enlace live with"
+      },
+      {
+        "text": "When do you usually read?",
+        "focus": "when y usually"
+      }
+    ],
+    "tip_es": "Sube la entonación al final de preguntas de información cuando realmente buscas una respuesta nueva."
+  },
+  "reading": {
+    "title": "Getting to know Eric",
+    "text": "Nadia meets Eric in an English class. He is from Peru and lives with his cousin. In his free time, he reads and listens to music. He usually reads at night because it is quiet.",
+    "glossary": [
+      {
+        "term": "conversation starter",
+        "meaning_es": "iniciador de conversación"
+      },
+      {
+        "term": "cousin",
+        "meaning_es": "primo/prima"
+      },
+      {
+        "term": "quiet",
+        "meaning_es": "tranquilo/silencioso"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "question_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada pregunta con el tipo de información que busca.",
+      "pairs": [
+        {
+          "english": "Where are you from?",
+          "spanish": "origen"
+        },
+        {
+          "english": "Who do you live with?",
+          "spanish": "persona"
+        },
+        {
+          "english": "When do you read?",
+          "spanish": "momento"
+        },
+        {
+          "english": "Why do you like it?",
+          "spanish": "razón"
+        }
+      ],
+      "prompt": "Relaciona cada pregunta con el tipo de información que busca.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Where are you from?=origen",
+          "Who do you live with?=persona",
+          "When do you read?=momento",
+          "Why do you like it?=razón"
+        ],
+        "expected_pairs": [
+          {
+            "english": "Where are you from?",
+            "spanish": "origen"
+          },
+          {
+            "english": "Who do you live with?",
+            "spanish": "persona"
+          },
+          {
+            "english": "When do you read?",
+            "spanish": "momento"
+          },
+          {
+            "english": "Why do you like it?",
+            "spanish": "razón"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_followup",
+      "skill": "listening",
+      "instruction": "Escucha la respuesta y elige una pregunta de seguimiento adecuada.",
+      "audio_text": "I read at night because it is quiet.",
+      "options": [
+        "When do you read?",
+        "Where are you from?",
+        "Who do you live with?"
+      ],
+      "correct": "When do you read?",
+      "feedback": "La respuesta habla del momento en que lee.",
+      "prompt": "Escucha la respuesta y elige una pregunta de seguimiento adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "When do you read?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta habla del momento en que lee.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la pregunta correcta para saber con quién vive Eric.",
+      "options": [
+        "Who does Eric live with?",
+        "Who is Eric live with?",
+        "Who Eric lives with?"
+      ],
+      "correct": "Who does Eric live with?",
+      "feedback": "Con live usamos does para he/Eric.",
+      "prompt": "Elige la pregunta correcta para saber con quién vive Eric.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Who does Eric live with?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con live usamos does para he/Eric.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: your / what / favorite / is / hobby / ?",
+      "answer": "What is your favorite hobby?",
+      "feedback": "Con to be: What + is + your favorite hobby?",
+      "prompt": "Ordena: your / what / favorite / is / hobby / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What is your favorite hobby?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con to be: What + is + your favorite hobby?",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: Why you like music?",
+      "answer": "Why do you like music?",
+      "feedback": "El presente simple con you necesita do.",
+      "prompt": "Corrige: Why you like music?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Why do you like music?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El presente simple con you necesita do.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Haz tres preguntas de seguimiento usando what, when y why.",
+      "target": "What do you ...? When do you ...? Why do you ...?",
+      "evaluation": {
+        "0": "palabras interrogativas claras",
+        "1": "do you comprensible",
+        "2": "entonación natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "What do you ...? When do you ...? Why do you ...?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Getting to Know Eric y responde: Why does Eric read at night?",
+      "text_reference": "reading",
+      "answer": "Because it is quiet.",
+      "feedback": "La razón aparece en la última oración.",
+      "prompt": "Lee Getting to Know Eric y responde: Why does Eric read at night?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Because it is quiet."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La razón aparece en la última oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será una persona nueva en tu clase. Haz preguntas conectadas sobre origen, familia, hábitos e intereses.",
+      "scenario": "Getting to know a new classmate.",
+      "ai_language": "English; suggest a follow-up question only after a long pause",
+      "prompt": "La IA será una persona nueva en tu clase. Haz preguntas conectadas sobre origen, familia, hábitos e intereses.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Escribe una cadena de seis preguntas: cada respuesta imaginaria debe inspirar la siguiente pregunta.",
+      "success_criteria": [
+        "usa al menos cinco palabras interrogativas",
+        "las preguntas están relacionadas",
+        "combina to be y do/does"
+      ],
+      "prompt": "Escribe una cadena de seis preguntas: cada respuesta imaginaria debe inspirar la siguiente pregunta.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: ___ are you from? ___ do you live with? ___ do you study? ___ do you like English?",
+      "answers": [
+        "Where",
+        "Who",
+        "When",
+        "Why"
+      ],
+      "prompt": "Completa: ___ are you from? ___ do you live with? ___ do you study? ___ do you like English?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Where",
+          "Who",
+          "When",
+          "Why"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T07-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "elegir la pregunta adecuada",
+      "formular preguntas relacionadas",
+      "hacer al menos una pregunta de seguimiento"
+    ],
+    "retry": "Si las preguntas no se conectan, subraya la información nueva de cada respuesta y úsala para crear la siguiente."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T07-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

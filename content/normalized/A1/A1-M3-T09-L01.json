@@ -1,0 +1,423 @@
+{
+  "id": "A1-M3-T09-L01",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T09",
+  "title": "Hablar del trabajo",
+  "estimated_seconds": 900,
+  "communication_goal": "Decir a qué te dedicas, dónde trabajas y qué haces durante el día.",
+  "situation": "Conoces a alguien en un contexto profesional y hablas de tu ocupación.",
+  "language_focus": {
+    "grammar": [
+      "What do you do?",
+      "I am a...",
+      "I work as...",
+      "I work in/at...",
+      "I like my job"
+    ],
+    "function": "jobs and workplaces"
+  },
+  "vocabulary": [
+    {
+      "word": "job",
+      "meaning_es": "trabajo/empleo",
+      "example": "I like my job."
+    },
+    {
+      "word": "office",
+      "meaning_es": "oficina",
+      "example": "I work in an office."
+    },
+    {
+      "word": "store",
+      "meaning_es": "tienda",
+      "example": "She works at a store."
+    },
+    {
+      "word": "teacher",
+      "meaning_es": "profesor/a",
+      "example": "He is a teacher."
+    },
+    {
+      "word": "nurse",
+      "meaning_es": "enfermero/a",
+      "example": "She works as a nurse."
+    },
+    {
+      "word": "engineer",
+      "meaning_es": "ingeniero/a",
+      "example": "I am an engineer."
+    }
+  ],
+  "context": {
+    "title": "Meeting a coworker",
+    "dialogue": [
+      {
+        "speaker": "Nina",
+        "english": "What do you do?",
+        "spanish": "¿A qué te dedicas?"
+      },
+      {
+        "speaker": "Omar",
+        "english": "I work as an engineer. I work in an office downtown.",
+        "spanish": "Trabajo como ingeniero. Trabajo en una oficina del centro."
+      },
+      {
+        "speaker": "Nina",
+        "english": "Do you like your job?",
+        "spanish": "¿Te gusta tu trabajo?"
+      },
+      {
+        "speaker": "Omar",
+        "english": "Yes, I do. What about you?",
+        "spanish": "Sí. ¿Y tú?"
+      },
+      {
+        "speaker": "Nina",
+        "english": "I am a teacher. I work at a school.",
+        "spanish": "Soy profesora. Trabajo en una escuela."
+      }
+    ]
+  },
+  "explanation_es": "Para preguntar por trabajo usa What do you do? y responde I am a teacher o I work as an engineer. Work in puede indicar un tipo de lugar o área: work in an office; work at puede indicar una institución o lugar concreto: work at a school. Do you like your job? pregunta si te gusta tu empleo.",
+  "spanish_speaker_notes": [
+    "What do you do? en una presentación profesional pregunta por ocupación.",
+    "No digas I am work; usa I work o I am a + profesión.",
+    "Las profesiones contables suelen llevar a/an: a teacher, an engineer.",
+    "Job es el empleo; work puede ser actividad o verbo."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "What do you do?",
+        "focus": "pregunta fija de profesión"
+      },
+      {
+        "text": "I work as an engineer.",
+        "focus": "work as an engineer"
+      },
+      {
+        "text": "I work at a school.",
+        "focus": "work at a school"
+      }
+    ],
+    "tip_es": "Practica la profesión dentro de una frase, no como una lista aislada."
+  },
+  "reading": {
+    "title": "Nina and Omar at work",
+    "text": "Omar is an engineer. He works in an office downtown and likes his job. Nina is a teacher. She works at a school and enjoys helping students.",
+    "glossary": [
+      {
+        "term": "coworker",
+        "meaning_es": "compañero/a de trabajo"
+      },
+      {
+        "term": "downtown",
+        "meaning_es": "centro de la ciudad"
+      },
+      {
+        "term": "students",
+        "meaning_es": "estudiantes"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "job_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada profesión con su lugar típico.",
+      "pairs": [
+        {
+          "english": "teacher",
+          "spanish": "school"
+        },
+        {
+          "english": "nurse",
+          "spanish": "hospital"
+        },
+        {
+          "english": "engineer",
+          "spanish": "office"
+        },
+        {
+          "english": "cashier",
+          "spanish": "store"
+        }
+      ],
+      "prompt": "Relaciona cada profesión con su lugar típico.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "teacher=school",
+          "nurse=hospital",
+          "engineer=office",
+          "cashier=store"
+        ],
+        "expected_pairs": [
+          {
+            "english": "teacher",
+            "spanish": "school"
+          },
+          {
+            "english": "nurse",
+            "spanish": "hospital"
+          },
+          {
+            "english": "engineer",
+            "spanish": "office"
+          },
+          {
+            "english": "cashier",
+            "spanish": "store"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: I work as an engineer. Elige la profesión.",
+      "audio_text": "I work as an engineer.",
+      "options": [
+        "Ingeniero/a",
+        "Profesor/a",
+        "Enfermero/a"
+      ],
+      "correct": "Ingeniero/a",
+      "feedback": "Work as introduce la ocupación.",
+      "prompt": "Escucha: I work as an engineer. Elige la profesión.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Ingeniero/a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Work as introduce la ocupación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: She is ___ teacher.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "correct": "a",
+      "feedback": "Teacher es contable singular y empieza con sonido consonántico.",
+      "prompt": "Completa: She is ___ teacher.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "a"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Teacher es contable singular y empieza con sonido consonántico.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: do / what / you / do / ?",
+      "answer": "What do you do?",
+      "feedback": "Es la pregunta básica por la ocupación.",
+      "prompt": "Ordena: do / what / you / do / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "What do you do?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Es la pregunta básica por la ocupación.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I am work in an office.",
+      "answer": "I work in an office.",
+      "feedback": "Work funciona como verbo; no necesita am.",
+      "prompt": "Corrige: I am work in an office.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I work in an office."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Work funciona como verbo; no necesita am.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Presenta tu ocupación y lugar de trabajo ficticios.",
+      "target": "I am a ... I work as ... I work in/at ...",
+      "evaluation": {
+        "0": "profesión clara",
+        "1": "work as audible",
+        "2": "lugar comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I am a ... I work as ... I work in/at ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Nina and Omar at Work y responde: Where does Nina work?",
+      "text_reference": "reading",
+      "answer": "She works at a school.",
+      "feedback": "Nina es profesora y trabaja en una escuela.",
+      "prompt": "Lee Nina and Omar at Work y responde: Where does Nina work?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She works at a school."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Nina es profesora y trabaja en una escuela.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un nuevo compañero de trabajo. Pregunta por ocupación, lugar y gusto por el trabajo.",
+      "scenario": "Meeting a coworker in a new workplace.",
+      "ai_language": "English; use fictional professional details",
+      "prompt": "La IA será un nuevo compañero de trabajo. Pregunta por ocupación, lugar y gusto por el trabajo.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una presentación profesional de 30 segundos con profesión, lugar, actividad y opinión sobre el trabajo.",
+      "success_criteria": [
+        "usa What do you do? en una pregunta",
+        "usa a/an o work as",
+        "incluye lugar de trabajo",
+        "expresa like/dislike"
+      ],
+      "prompt": "Graba una presentación profesional de 30 segundos con profesión, lugar, actividad y opinión sobre el trabajo.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: I work ___ a nurse. I work ___ a hospital. I am ___ engineer.",
+      "answers": [
+        "as",
+        "at",
+        "an"
+      ],
+      "prompt": "Completa: I work ___ a nurse. I work ___ a hospital. I am ___ engineer.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "as",
+          "at",
+          "an"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T09-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "nombrar profesión",
+      "decir dónde trabaja",
+      "preguntar por la ocupación"
+    ],
+    "retry": "Si confundes I am y I work, recuerda: profesión = I am a/an; actividad laboral = I work."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T09-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

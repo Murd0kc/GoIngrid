@@ -1,0 +1,423 @@
+{
+  "id": "A1-M3-T01-L03",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T01",
+  "title": "Hablar de tu día y tus intereses",
+  "estimated_seconds": 930,
+  "communication_goal": "Añadir edad, intereses y actividades a una presentación personal breve.",
+  "situation": "Conversas con un compañero después de presentarte y compartes información apropiada.",
+  "language_focus": {
+    "grammar": [
+      "I am ... years old",
+      "I like...",
+      "I enjoy...",
+      "My favorite ... is...",
+      "What about you?"
+    ],
+    "function": "extending a personal introduction"
+  },
+  "vocabulary": [
+    {
+      "word": "years old",
+      "meaning_es": "años de edad",
+      "example": "I am thirty years old."
+    },
+    {
+      "word": "hobby",
+      "meaning_es": "pasatiempo",
+      "example": "My hobby is cooking."
+    },
+    {
+      "word": "music",
+      "meaning_es": "música",
+      "example": "I like music."
+    },
+    {
+      "word": "movie",
+      "meaning_es": "película",
+      "example": "My favorite movie is ..."
+    },
+    {
+      "word": "cook",
+      "meaning_es": "cocinar",
+      "example": "I enjoy cooking."
+    },
+    {
+      "word": "free time",
+      "meaning_es": "tiempo libre",
+      "example": "What do you do in your free time?"
+    }
+  ],
+  "context": {
+    "title": "A longer introduction",
+    "dialogue": [
+      {
+        "speaker": "Teacher",
+        "english": "Tell us about yourself, Ana.",
+        "spanish": "Cuéntanos sobre ti, Ana."
+      },
+      {
+        "speaker": "Ana",
+        "english": "I'm Ana. I'm from Ecuador, but I live in New York. I'm twenty-eight years old.",
+        "spanish": "Soy Ana. Soy de Ecuador, pero vivo en Nueva York. Tengo veintiocho años."
+      },
+      {
+        "speaker": "Teacher",
+        "english": "What do you do in your free time?",
+        "spanish": "¿Qué haces en tu tiempo libre?"
+      },
+      {
+        "speaker": "Ana",
+        "english": "I like music and I enjoy cooking. My favorite movie is a comedy.",
+        "spanish": "Me gusta la música y disfruto cocinar. Mi película favorita es una comedia."
+      },
+      {
+        "speaker": "Teacher",
+        "english": "What about you?",
+        "spanish": "¿Y tú?"
+      }
+    ]
+  },
+  "explanation_es": "Después de los datos básicos puedes añadir edad, intereses y actividades. En inglés se dice I am twenty-eight years old, no I have twenty-eight years. Para gustos usa I like + sustantivo o verbo en -ing: I like music, I like cooking. What about you? devuelve la conversación a la otra persona.",
+  "spanish_speaker_notes": [
+    "La edad usa el verbo be: I am 28 years old, no I have 28 years.",
+    "Después de enjoy usamos normalmente verbo en -ing: I enjoy cooking.",
+    "Like puede ir con sustantivo o con verbo en -ing: I like music / I like reading.",
+    "No necesitas compartir edad real; en práctica puedes usar datos ficticios."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I am twenty-eight years old.",
+        "focus": "years old y número compuesto"
+      },
+      {
+        "text": "I enjoy cooking.",
+        "focus": "enjoy y cooking"
+      },
+      {
+        "text": "What about you?",
+        "focus": "entonación de devolución"
+      }
+    ],
+    "tip_es": "Agrupa la presentación en bloques: identidad, origen, edad, trabajo e intereses."
+  },
+  "reading": {
+    "title": "Ana's introduction",
+    "text": "Ana is twenty-eight years old. She is from Ecuador, but she lives in New York. She works in an office and enjoys cooking in her free time. She likes music, and her favorite movies are comedies.",
+    "glossary": [
+      {
+        "term": "tell us about yourself",
+        "meaning_es": "cuéntanos sobre ti"
+      },
+      {
+        "term": "office",
+        "meaning_es": "oficina"
+      },
+      {
+        "term": "comedy",
+        "meaning_es": "comedia"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "interest_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada frase con la información que añade.",
+      "pairs": [
+        {
+          "english": "I am twenty-eight years old.",
+          "spanish": "edad"
+        },
+        {
+          "english": "I enjoy cooking.",
+          "spanish": "actividad"
+        },
+        {
+          "english": "My favorite movie is a comedy.",
+          "spanish": "preferencia"
+        },
+        {
+          "english": "I live in New York.",
+          "spanish": "residencia"
+        }
+      ],
+      "prompt": "Relaciona cada frase con la información que añade.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I am twenty-eight years old.=edad",
+          "I enjoy cooking.=actividad",
+          "My favorite movie is a comedy.=preferencia",
+          "I live in New York.=residencia"
+        ],
+        "expected_pairs": [
+          {
+            "english": "I am twenty-eight years old.",
+            "spanish": "edad"
+          },
+          {
+            "english": "I enjoy cooking.",
+            "spanish": "actividad"
+          },
+          {
+            "english": "My favorite movie is a comedy.",
+            "spanish": "preferencia"
+          },
+          {
+            "english": "I live in New York.",
+            "spanish": "residencia"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: I am thirty years old. Elige la frase correcta en español.",
+      "audio_text": "I am thirty years old.",
+      "options": [
+        "Tengo treinta años.",
+        "Soy de treinta años.",
+        "Vivo treinta años."
+      ],
+      "correct": "Tengo treinta años.",
+      "feedback": "En inglés la edad usa be, aunque en español usamos tener.",
+      "prompt": "Escucha: I am thirty years old. Elige la frase correcta en español.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Tengo treinta años."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "En inglés la edad usa be, aunque en español usamos tener.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: I enjoy ___.",
+      "options": [
+        "cook",
+        "cooking",
+        "to cooking"
+      ],
+      "correct": "cooking",
+      "feedback": "Después de enjoy usamos un verbo en -ing.",
+      "prompt": "Completa: I enjoy ___.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "cooking"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de enjoy usamos un verbo en -ing.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: music / like / I / and / cooking / enjoy / .",
+      "answer": "I like music and enjoy cooking.",
+      "feedback": "Conecta dos intereses con and.",
+      "prompt": "Ordena: music / like / I / and / cooking / enjoy / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I like music and enjoy cooking."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Conecta dos intereses con and.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: I have thirty years old.",
+      "answer": "I am thirty years old.",
+      "feedback": "La edad se expresa con am/is/are.",
+      "prompt": "Corrige: I have thirty years old.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I am thirty years old."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La edad se expresa con am/is/are.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Añade dos intereses a tu presentación: I like... I enjoy... What about you?",
+      "target": "I like ... I enjoy ... What about you?",
+      "evaluation": {
+        "0": "like y enjoy claros",
+        "1": "-ing comprensible",
+        "2": "pregunta final natural",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I like ... I enjoy ... What about you?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Ana's Introduction y responde: What does Ana enjoy?",
+      "text_reference": "reading",
+      "answer": "She enjoys cooking.",
+      "feedback": "La actividad aparece en la tercera oración.",
+      "prompt": "Lee Ana's Introduction y responde: What does Ana enjoy?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She enjoys cooking."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La actividad aparece en la tercera oración.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero curioso. Amplía tu presentación con edad ficticia, intereses y tiempo libre; pregunta What about you?.",
+      "scenario": "Continuing a friendly introduction after basic information.",
+      "ai_language": "English; keep personal details fictional",
+      "prompt": "La IA será un compañero curioso. Amplía tu presentación con edad ficticia, intereses y tiempo libre; pregunta What about you?.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una presentación de 40 segundos con nombre, origen, ciudad, edad ficticia, trabajo e intereses.",
+      "success_criteria": [
+        "usa be para edad y origen",
+        "usa like/enjoy correctamente",
+        "incluye What about you?",
+        "mensaje comprensible"
+      ],
+      "prompt": "Graba una presentación de 40 segundos con nombre, origen, ciudad, edad ficticia, trabajo e intereses.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: I ___ twenty-five years old. I enjoy ___. My favorite ___ is music.",
+      "answers": [
+        "am",
+        "cooking",
+        "hobby"
+      ],
+      "prompt": "Completa: I ___ twenty-five years old. I enjoy ___. My favorite ___ is music.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "am",
+          "cooking",
+          "hobby"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T01-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "añadir edad e intereses",
+      "usar like y enjoy",
+      "devolver la conversación con What about you?"
+    ],
+    "retry": "Si traduces la edad con have, repite cinco frases con I am ... years old."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T01-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

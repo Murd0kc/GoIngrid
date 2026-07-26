@@ -1,0 +1,179 @@
+{
+  "id": "A1-M1-T10-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T10",
+  "title": "The directions challenge",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede describir ubicaciones y dar indicaciones comprensibles en un espacio real o mapa.",
+  "situation": "Guiar a una persona desde la entrada de un edificio hasta una sala y varios servicios.",
+  "language_focus": ["in", "on", "under", "next to", "near", "behind", "in front of", "between", "across from", "at the corner"],
+  "vocabulary": [
+    { "term": "directions", "meaning_es": "indicaciones", "example": "Can you give me directions?" },
+    { "term": "entrance", "meaning_es": "entrada", "example": "Start at the entrance." },
+    { "term": "hallway", "meaning_es": "pasillo", "example": "The room is in the hallway." },
+    { "term": "information desk", "meaning_es": "mostrador de información", "example": "The desk is in front of the entrance." },
+    { "term": "corner", "meaning_es": "esquina", "example": "Turn at the corner." },
+    { "term": "destination", "meaning_es": "destino", "example": "The room is your destination." }
+  ],
+  "context": {
+    "before": "A visitor needs a complete route through a community center.",
+    "dialogue": [
+      { "speaker": "Visitor", "text": "How do I get to Room 4?" },
+      { "speaker": "Guide", "text": "Start at the entrance. The information desk is in front of you." },
+      { "speaker": "Visitor", "text": "Where is the elevator?" },
+      { "speaker": "Guide", "text": "It is next to the stairs, near the corner." },
+      { "speaker": "Visitor", "text": "And Room 4?" },
+      { "speaker": "Guide", "text": "It is behind the desk, between the library and the kitchen." }
+    ]
+  },
+  "explanation_es": "Una indicación clara combina punto de partida, referencias espaciales y destino. No necesitas usar todas las preposiciones en una sola frase; elige las que hagan la ruta comprensible.",
+  "spanish_speaker_notes": [
+    "En inglés una ruta suele dividirse en instrucciones cortas.",
+    "Between necesita dos referencias; near, next to, behind y across from necesitan una referencia principal.",
+    "La precisión comunicativa es más importante que traducir literalmente cada preposición."
+  ],
+  "pronunciation": {
+    "target": "Dar una ruta en bloques cortos, con énfasis en lugares y giros.",
+    "models": [
+      { "text": "Start at the entrance.", "stress": ["start", "entrance"] },
+      { "text": "The elevator is next to the stairs.", "stress": ["elevator", "next", "stairs"] },
+      { "text": "Room 4 is behind the desk.", "stress": ["Room 4", "behind", "desk"] }
+    ],
+    "student_feedback": "Haz una pausa entre indicaciones; el oyente debe construir el mapa mentalmente."
+  },
+  "reading": {
+    "title": "A route through the center",
+    "text": "Start at the entrance. The information desk is in front of the entrance. The elevator is next to the stairs and near the corner. Room 4 is behind the desk, between the library and the kitchen. The restrooms are across from Room 4.",
+    "interactive_vocabulary": ["route", "restrooms", "library", "kitchen", "rest of"],
+    "questions": [
+      { "prompt": "Where is the elevator?", "options": ["Next to the stairs and near the corner", "Behind the kitchen", "In the library"], "answer": "Next to the stairs and near the corner" },
+      { "prompt": "What is across from Room 4?", "options": ["The restrooms", "The entrance", "The elevator"], "answer": "The restrooms" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T10-L04-E01",
+      "type": "route_builder",
+      "skill": "integrated",
+      "instruction": "Ordena las partes de una ruta clara.",
+      "steps": ["start at the entrance", "find the elevator", "pass the desk", "arrive at Room 4"],
+      "correct_answer": "start at the entrance, find the elevator, pass the desk, arrive at Room 4",
+      "feedback_correct": "Organizaste la ruta desde el inicio hasta el destino.",
+      "feedback_incorrect": "Una ruta necesita comenzar en un punto y terminar en un destino.",
+      "estimated_seconds": 80
+    },
+    {
+      "id": "A1-M1-T10-L04-E02",
+      "type": "listening_route",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona el destino.",
+      "prompt": "Room 4 is behind the desk, between the library and the kitchen.",
+      "options": ["Room 4", "The elevator", "The entrance desk"],
+      "correct_answer": "Room 4",
+      "feedback_correct": "Identificaste el destino y dos referencias.",
+      "feedback_incorrect": "Escucha Room 4 al inicio y las referencias después.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T10-L04-E03",
+      "type": "preposition_selection",
+      "skill": "grammar",
+      "instruction": "Completa cada relación.",
+      "items": [
+        { "prompt": "The desk is ___ front of the entrance.", "options": ["in", "on", "at"], "answer": "in" },
+        { "prompt": "Room 4 is ___ the library and the kitchen.", "options": ["between", "under", "on"], "answer": "between" },
+        { "prompt": "The restrooms are ___ from Room 4.", "options": ["across", "in", "behind"], "answer": "across" }
+      ],
+      "feedback_correct": "Seleccionaste la relación espacial adecuada.",
+      "feedback_incorrect": "Revisa la imagen mental: delante, entre o enfrente.",
+      "estimated_seconds": 80
+    },
+    {
+      "id": "A1-M1-T10-L04-E04",
+      "type": "sentence_repair",
+      "skill": "grammar",
+      "instruction": "Corrige la indicación.",
+      "prompt": "Room 4 is between the library.",
+      "correct_answer": "Room 4 is between the library and the kitchen.",
+      "feedback_correct": "Between necesita dos puntos de referencia.",
+      "feedback_incorrect": "Añade la segunda referencia con and.",
+      "estimated_seconds": 55
+    },
+    {
+      "id": "A1-M1-T10-L04-E05",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee la ruta y trázala en un mapa.",
+      "reading_ref": "A1-M1-T10-L04-reading-01",
+      "correct_answer": "2 comprehension answers and complete route",
+      "feedback_correct": "Convertiste instrucciones escritas en una ruta.",
+      "feedback_incorrect": "Sigue entrance, desk, elevator, Room 4 y restrooms en orden.",
+      "estimated_seconds": 140
+    },
+    {
+      "id": "A1-M1-T10-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una ruta de cuatro pasos.",
+      "prompt": "Start at the entrance. Go to the elevator. The room is behind the desk. It is between the library and the kitchen.",
+      "evaluation": ["multiword preposition clarity", "route chunking", "destination clarity"],
+      "feedback_correct": "La ruta se entiende paso a paso.",
+      "feedback_incorrect": "Separa cada paso y pronuncia las referencias con claridad.",
+      "estimated_seconds": 140
+    },
+    {
+      "id": "A1-M1-T10-L04-E07",
+      "type": "route_gap_fill",
+      "skill": "writing",
+      "instruction": "Completa las indicaciones del mapa.",
+      "prompts": ["The elevator is ___ to the stairs.", "Room 4 is ___ the desk.", "The library is ___ the kitchen and the room."],
+      "correct_answers": ["next", "behind", "between"],
+      "feedback_correct": "Completaste las relaciones espaciales necesarias.",
+      "feedback_incorrect": "Next to, behind y between describen las relaciones del mapa.",
+      "estimated_seconds": 75
+    },
+    {
+      "id": "A1-M1-T10-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es visitante. Guíala desde la entrada hasta un destino y responde una pregunta de seguimiento.",
+      "role": "visitor",
+      "student_goal": "Give a complete route using at least four basic prepositions.",
+      "allowed_support": ["building map", "route cards", "sentence starter", "Spanish hint"],
+      "success_criteria": ["gives a starting point", "uses four relations", "names a destination", "repairs one misunderstanding"],
+      "feedback_correct": "Diste una ruta funcional y reparaste una posible confusión.",
+      "feedback_incorrect": "Divide la ruta en pasos y usa un punto de referencia en cada uno.",
+      "estimated_seconds": 240
+    },
+    {
+      "id": "A1-M1-T10-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: crea una ruta desde un punto de partida hasta un destino en un mapa nuevo.",
+      "prompt": "Describe the route in four or five short sentences. Include at least four target prepositions.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses four prepositions accurately", "provides reference points", "has a clear beginning and destination", "is understandable"],
+      "feedback_correct": "Demostraste que puedes orientarte y orientar a otra persona.",
+      "feedback_incorrect": "Marca inicio, referencias, relaciones y destino antes de redactar o hablar.",
+      "estimated_seconds": 260
+    },
+    {
+      "id": "A1-M1-T10-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa el mapa final sin mirar.",
+      "prompts": ["inside = ___", "surface = ___", "below = ___", "beside = ___", "between A and B = ___", "opposite = ___ from"],
+      "correct_answers": ["in", "on", "under", "next to", "between", "across"],
+      "feedback_correct": "Recuperaste las relaciones espaciales principales de A1-M1.",
+      "feedback_incorrect": "Relaciona cada expresión con una imagen y úsala en una frase completa.",
+      "estimated_seconds": 110
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "mastery_assessment"],
+    "topic_ready_when": "El estudiante da una ruta comprensible con al menos cuatro preposiciones y 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

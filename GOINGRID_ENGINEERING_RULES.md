@@ -64,3 +64,6 @@ draft
 ## Regla de continuidad
 
 Si una sesión se interrumpe, el estado debe recuperarse leyendo estos documentos, revisando Git y verificando el estado real de Supabase. No se debe asumir que una tarea está terminada sin evidencia.
+# Experiencia de aprendizaje
+
+Toda decisión técnica que afecte contenido, interfaz, gamificación, IA, progreso o analítica debe cumplir `GOINGRID_LEARNING_EXPERIENCE_RULES.md`. Una función no se considera terminada por estar implementada: debe demostrar que favorece comprensión, práctica, retención, transferencia o motivación saludable.

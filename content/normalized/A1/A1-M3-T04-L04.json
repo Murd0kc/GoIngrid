@@ -1,0 +1,408 @@
+{
+  "id": "A1-M3-T04-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T04",
+  "title": "Mi rutina completa",
+  "estimated_seconds": 1110,
+  "communication_goal": "Describir una jornada completa, responder preguntas de rutina y conversar sobre horarios y frecuencia.",
+  "situation": "Explicas tu rutina a un compañero o completas una entrevista sobre tu día.",
+  "language_focus": {
+    "grammar": [
+      "present simple routines",
+      "time expressions",
+      "frequency adverbs",
+      "do/does questions",
+      "sequence connectors"
+    ],
+    "function": "complete daily routine conversation"
+  },
+  "vocabulary": [
+    {
+      "word": "routine",
+      "meaning_es": "rutina",
+      "example": "My routine is simple."
+    },
+    {
+      "word": "typical",
+      "meaning_es": "típico/a",
+      "example": "This is my typical day."
+    },
+    {
+      "word": "commute",
+      "meaning_es": "desplazarse al trabajo",
+      "example": "I commute by bus."
+    },
+    {
+      "word": "break",
+      "meaning_es": "descanso",
+      "example": "I take a break at noon."
+    },
+    {
+      "word": "usually",
+      "meaning_es": "normalmente",
+      "example": "I usually go home at six."
+    },
+    {
+      "word": "before bed",
+      "meaning_es": "antes de dormir",
+      "example": "I read before bed."
+    }
+  ],
+  "context": {
+    "title": "A typical day",
+    "dialogue": [
+      {
+        "speaker": "Coach",
+        "english": "Tell me about your typical day.",
+        "spanish": "Háblame de tu día típico."
+      },
+      {
+        "speaker": "Student",
+        "english": "I wake up at seven. Then I have breakfast and go to work.",
+        "spanish": "Me despierto a las siete. Después desayuno y voy a trabajar."
+      },
+      {
+        "speaker": "Coach",
+        "english": "How do you get to work?",
+        "spanish": "¿Cómo llegas al trabajo?"
+      },
+      {
+        "speaker": "Student",
+        "english": "I commute by bus. I finish work at five and usually go home at six.",
+        "spanish": "Voy al trabajo en autobús. Termino a las cinco y normalmente llego a casa a las seis."
+      },
+      {
+        "speaker": "Coach",
+        "english": "What do you do before bed?",
+        "spanish": "¿Qué haces antes de dormir?"
+      },
+      {
+        "speaker": "Student",
+        "english": "I read for a few minutes. I never use my phone in bed.",
+        "spanish": "Leo unos minutos. Nunca uso mi teléfono en la cama."
+      }
+    ]
+  },
+  "explanation_es": "Una rutina completa organiza el día con horas, conectores y frecuencia. Empieza con una actividad, añade then/after that y termina con before bed. Responde How do you get to work? para hablar del desplazamiento y What do you do before bed? para cerrar el día. La meta es comunicar una secuencia comprensible, no recitar palabras aisladas.",
+  "spanish_speaker_notes": [
+    "Commute describe el desplazamiento habitual al trabajo, pero go to work es suficiente en A1.",
+    "Go home no lleva to; get home también significa llegar a casa.",
+    "Before bed es una expresión de tiempo, no una habitación.",
+    "Combina precisión y fluidez: frases cortas conectadas son mejores que una frase muy larga."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I wake up at seven, then I have breakfast.",
+        "focus": "then y ritmo"
+      },
+      {
+        "text": "I usually go home at six.",
+        "focus": "usually go home"
+      },
+      {
+        "text": "I read before bed.",
+        "focus": "before bed"
+      }
+    ],
+    "tip_es": "Graba primero tu rutina con pausas y luego repítela intentando unir los conectores."
+  },
+  "reading": {
+    "title": "A typical day",
+    "text": "Nora wakes up at seven and has breakfast. She goes to work by bus and takes a break at noon. She finishes work at five and usually gets home at six. Before bed, she reads for a few minutes and never checks work email.",
+    "glossary": [
+      {
+        "term": "typical day",
+        "meaning_es": "día típico"
+      },
+      {
+        "term": "by bus",
+        "meaning_es": "en autobús"
+      },
+      {
+        "term": "checks work email",
+        "meaning_es": "revisa el correo del trabajo"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "routine_profile",
+      "skill": "vocabulary",
+      "instruction": "Completa la rutina con el verbo o expresión adecuada.",
+      "prompts": [
+        "wake ___",
+        "have ___",
+        "go to ___",
+        "take a ___",
+        "go ___",
+        "before ___"
+      ],
+      "answers": [
+        "up",
+        "breakfast",
+        "work",
+        "break",
+        "home",
+        "bed"
+      ],
+      "prompt": "Completa la rutina con el verbo o expresión adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "up",
+          "breakfast",
+          "work",
+          "break",
+          "home",
+          "bed"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_order",
+      "skill": "listening",
+      "instruction": "Escucha la rutina y ordena cuatro momentos.",
+      "audio_text": "I wake up at seven, go to work, take a break at noon and go home at six.",
+      "sequence": [
+        "wake up",
+        "go to work",
+        "take a break",
+        "go home"
+      ],
+      "feedback": "Sigue las horas y los conectores implícitos.",
+      "prompt": "Escucha la rutina y ordena cuatro momentos.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "wake up > go to work > take a break > go home"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Sigue las horas y los conectores implícitos.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: She ___ work at five.",
+      "options": [
+        "finish",
+        "finishes",
+        "does finish"
+      ],
+      "correct": "finishes",
+      "feedback": "She necesita la s en presente afirmativo.",
+      "prompt": "Completa: She ___ work at five.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "finishes"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "She necesita la s en presente afirmativo.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: before / read / I / bed / .",
+      "answer": "I read before bed.",
+      "feedback": "Before bed puede ir al final para indicar el momento.",
+      "prompt": "Ordena: before / read / I / bed / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I read before bed."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Before bed puede ir al final para indicar el momento.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: I go to home at six and read in before bed.",
+      "answer": "I go home at six and read before bed.",
+      "feedback": "Go home no lleva to y before bed no lleva in.",
+      "prompt": "Corrige: I go to home at six and read in before bed.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I go home at six and read before bed."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Go home no lleva to y before bed no lleva in.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una rutina completa de 60 segundos con al menos seis pasos y tres horas.",
+      "target": "I wake up ... Then ... I start ... At noon ... Finally, before bed ...",
+      "evaluation": {
+        "0": "secuencia clara",
+        "1": "horas comprensibles",
+        "2": "ritmo conversacional",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I wake up ... Then ... I start ... At noon ... Finally, before bed ...",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Typical Day y responde: When does Nora usually get home?",
+      "text_reference": "reading",
+      "answer": "She usually gets home at six.",
+      "feedback": "La tercera oración contiene la hora.",
+      "prompt": "Lee A Typical Day y responde: When does Nora usually get home?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She usually gets home at six."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La tercera oración contiene la hora.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Completa una entrevista con la IA sobre tu rutina. Responde siete preguntas y haz dos preguntas de seguimiento.",
+      "scenario": "A friendly daily-routine interview.",
+      "ai_language": "English; adapt to work, school or home life",
+      "prompt": "Completa una entrevista con la IA sobre tu rutina. Responde siete preguntas y haz dos preguntas de seguimiento.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba una presentación de 75 segundos titulada My Typical Day con horas, frecuencia, desplazamiento, comidas y actividad antes de dormir.",
+      "success_criteria": [
+        "usa ocho acciones",
+        "incluye tres horas",
+        "usa dos adverbios de frecuencia",
+        "conecta la rutina",
+        "mensaje comprensible"
+      ],
+      "prompt": "Graba una presentación de 75 segundos titulada My Typical Day con horas, frecuencia, desplazamiento, comidas y actividad antes de dormir.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: ordena una rutina, corrige cinco errores, comprende un audio y realiza una entrevista oral adaptativa sobre tu día.",
+      "rubric": {
+        "routine_vocabulary": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "oral_communication": "2 puntos"
+      },
+      "prompt": "Evaluación final: ordena una rutina, corrige cinco errores, comprende un audio y realiza una entrevista oral adaptativa sobre tu día.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T04-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "describir una jornada completa",
+      "usar horarios y frecuencia",
+      "responder y formular preguntas de rutina"
+    ],
+    "retry": "Si el resultado es menor de 80%, divide tu día en mañana, tarde y noche y practica cada bloque antes de unirlo."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T04-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

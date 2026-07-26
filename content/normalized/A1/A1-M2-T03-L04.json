@@ -1,0 +1,396 @@
+{
+  "id": "A1-M2-T03-L04",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T03",
+  "title": "Mini entrevista: preguntas y respuestas",
+  "estimated_seconds": 1050,
+  "communication_goal": "Mantener una mini entrevista sobre rutinas usando preguntas con do/does y respuestas breves con seguimiento.",
+  "situation": "Participas en una actividad de bienvenida y entrevistas a otra persona.",
+  "language_focus": {
+    "grammar": [
+      "Do you...?",
+      "Does he/she...?",
+      "Yes, I do.",
+      "No, I don't.",
+      "Yes, he/she does.",
+      "No, he/she doesn't."
+    ],
+    "function": "asking, answering and following up"
+  },
+  "vocabulary": [
+    {
+      "word": "wake up",
+      "meaning_es": "despertarse",
+      "example": "Do you wake up early?"
+    },
+    {
+      "word": "work",
+      "meaning_es": "trabajar",
+      "example": "Does she work here?"
+    },
+    {
+      "word": "study",
+      "meaning_es": "estudiar",
+      "example": "Do you study English?"
+    },
+    {
+      "word": "like",
+      "meaning_es": "gustar",
+      "example": "Does he like music?"
+    },
+    {
+      "word": "every day",
+      "meaning_es": "todos los días",
+      "example": "I study every day."
+    },
+    {
+      "word": "how about you?",
+      "meaning_es": "¿y tú?",
+      "example": "I like coffee. How about you?"
+    }
+  ],
+  "context": {
+    "title": "Welcome interview",
+    "dialogue": [
+      {
+        "speaker": "Nora",
+        "english": "Do you study English every day?",
+        "spanish": "¿Estudias inglés todos los días?"
+      },
+      {
+        "speaker": "Sam",
+        "english": "Yes, I do. How about you?",
+        "spanish": "Sí. ¿Y tú?"
+      },
+      {
+        "speaker": "Nora",
+        "english": "No, I don't. I study three times a week.",
+        "spanish": "No. Estudio tres veces por semana."
+      },
+      {
+        "speaker": "Sam",
+        "english": "Does your brother study English too?",
+        "spanish": "¿Tu hermano también estudia inglés?"
+      },
+      {
+        "speaker": "Nora",
+        "english": "Yes, he does.",
+        "spanish": "Sí."
+      }
+    ]
+  },
+  "explanation_es": "Para una entrevista básica combina tres movimientos: pregunta, respuesta corta y seguimiento. Do se usa con I/you/we/they; does con he/she/it. Después de does el verbo principal no lleva s: Does he study? Yes, he does.",
+  "spanish_speaker_notes": [
+    "No traduzcas 'how about you?' como una pregunta palabra por palabra; equivale a '¿y tú?'.",
+    "La s aparece en la pregunta con does, no en el verbo principal: Does he like...?",
+    "Una respuesta corta puede ampliarse con una frase real para mantener la conversación."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "Do you study English every day?",
+        "focus": "reducir do you de forma natural"
+      },
+      {
+        "text": "Does your brother study English too?",
+        "focus": "distinguir does y study"
+      }
+    ],
+    "tip_es": "Primero busca claridad; después practica unir do you y does your sin perder el sonido final."
+  },
+  "reading": {
+    "title": "A study survey",
+    "text": "Nora and Sam are new classmates. Nora doesn't study English every day. She studies three times a week. Sam studies every day. His brother studies English too, and Sam likes music after class.",
+    "glossary": [
+      {
+        "term": "new classmates",
+        "meaning_es": "compañeros nuevos de clase"
+      },
+      {
+        "term": "three times a week",
+        "meaning_es": "tres veces por semana"
+      },
+      {
+        "term": "after class",
+        "meaning_es": "después de clase"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las expresiones según si describen estudio, rutina o seguimiento.",
+      "items": [
+        {
+          "text": "study English",
+          "category": "study"
+        },
+        {
+          "text": "every day",
+          "category": "routine"
+        },
+        {
+          "text": "how about you?",
+          "category": "follow_up"
+        },
+        {
+          "text": "wake up early",
+          "category": "routine"
+        }
+      ],
+      "prompt": "Clasifica las expresiones según si describen estudio, rutina o seguimiento.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "study English=study",
+          "every day=routine",
+          "how about you?=follow_up",
+          "wake up early=routine"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_order",
+      "skill": "listening",
+      "instruction": "Escucha la mini entrevista y ordena sus pasos.",
+      "audio_text": "Do you study English every day? Yes, I do. How about you? No, I don't.",
+      "sequence": [
+        "question",
+        "short_answer",
+        "follow_up",
+        "short_answer"
+      ],
+      "feedback": "Una conversación clara alterna pregunta y respuesta.",
+      "prompt": "Escucha la mini entrevista y ordena sus pasos.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "question > short_answer > follow_up > short_answer"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Una conversación clara alterna pregunta y respuesta.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Elige la pregunta correcta para 'Yes, he does.'",
+      "options": [
+        "Does he study English?",
+        "Do he study English?",
+        "Is he study English?"
+      ],
+      "correct": "Does he study English?",
+      "feedback": "He requiere does en la pregunta.",
+      "prompt": "Elige la pregunta correcta para 'Yes, he does.'",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does he study English?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "He requiere does en la pregunta.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: she / does / work / here / ?",
+      "answer": "Does she work here?",
+      "feedback": "La pregunta sigue: Does + sujeto + verbo base.",
+      "prompt": "Ordena: she / does / work / here / ?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does she work here?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La pregunta sigue: Does + sujeto + verbo base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Encuentra y corrige el error: Does your brother studies English?",
+      "answer": "Does your brother study English?",
+      "feedback": "Después de does usamos study, sin s.",
+      "prompt": "Encuentra y corrige el error: Does your brother studies English?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does your brother study English?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de does usamos study, sin s.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Haz una pregunta y respóndela en voz alta: Do you study English? Yes, I do.",
+      "target": "Do you study English? Yes, I do.",
+      "evaluation": {
+        "0": "entonación ascendente en la pregunta",
+        "1": "do you comprensible",
+        "2": "respuesta corta clara",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "Do you study English? Yes, I do.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Study Survey y responde: Does Nora study every day?",
+      "text_reference": "reading",
+      "answer": "No, she doesn't.",
+      "feedback": "Nora studies three times a week, no every day.",
+      "prompt": "Lee A Study Survey y responde: Does Nora study every day?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No, she doesn't."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Nora studies three times a week, no every day.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero nuevo. Hazle seis preguntas sobre estudio, trabajo, música y rutinas. Responde también a sus preguntas.",
+      "scenario": "Welcome survey at the first English class.",
+      "ai_language": "Start in English; give Spanish help only after a clear difficulty",
+      "prompt": "La IA será un compañero nuevo. Hazle seis preguntas sobre estudio, trabajo, música y rutinas. Responde también a sus preguntas.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Completa una encuesta real con una persona: escribe cuatro preguntas con do/does y registra sus respuestas.",
+      "success_criteria": [
+        "incluye al menos una pregunta con does",
+        "usa dos respuestas negativas o afirmativas correctas",
+        "añade un seguimiento con how about you?"
+      ],
+      "prompt": "Completa una encuesta real con una persona: escribe cuatro preguntas con do/does y registra sus respuestas.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Resuelve una prueba final: tres preguntas de selección, dos correcciones, una lectura y una respuesta oral de 30 segundos.",
+      "rubric": {
+        "grammar": "5 puntos",
+        "meaning": "3 puntos",
+        "pronunciation": "2 puntos"
+      },
+      "prompt": "Resuelve una prueba final: tres preguntas de selección, dos correcciones, una lectura y una respuesta oral de 30 segundos.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T03-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "formular preguntas con do y does",
+      "responder sin confundir el verbo principal",
+      "sostener una mini entrevista de al menos cuatro turnos"
+    ],
+    "retry": "Si el resultado es menor de 80%, repasa T03-L01 a L03 y repite la entrevista con preguntas sobre tu vida."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T03-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

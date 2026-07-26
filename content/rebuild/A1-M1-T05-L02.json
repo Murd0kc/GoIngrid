@@ -1,0 +1,176 @@
+{
+  "id": "A1-M1-T05-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T05",
+  "title": "People and things: common plurals",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede reconocer y usar plurales frecuentes regulares e irregulares en situaciones cotidianas.",
+  "situation": "Describir quién está en una sala y qué objetos hay en una tienda.",
+  "language_focus": ["one person / two people", "one child / two children", "one man / two men", "one woman / two women", "There are people here."],
+  "vocabulary": [
+    { "term": "person / people", "meaning_es": "persona / personas", "example": "There are three people." },
+    { "term": "child / children", "meaning_es": "niño / niños", "example": "The children are here." },
+    { "term": "man / men", "meaning_es": "hombre / hombres", "example": "Two men are outside." },
+    { "term": "woman / women", "meaning_es": "mujer / mujeres", "example": "Two women are here." },
+    { "term": "box", "meaning_es": "caja", "example": "There are two boxes." },
+    { "term": "class", "meaning_es": "clase", "example": "The classes start at nine." }
+  ],
+  "context": {
+    "before": "A coordinator counts people before a community activity begins.",
+    "dialogue": [
+      { "speaker": "Coordinator", "text": "How many people are here?" },
+      { "speaker": "Assistant", "text": "There are two men, three women and two children." },
+      { "speaker": "Coordinator", "text": "Great. Are the boxes ready?" },
+      { "speaker": "Assistant", "text": "Yes, the boxes are ready. The classes can start." }
+    ]
+  },
+  "explanation_es": "Algunos plurales frecuentes no añaden simplemente -s: person → people, child → children, man → men, woman → women. Conviene aprenderlos dentro de frases y situaciones, no como una lista aislada.",
+  "spanish_speaker_notes": [
+    "People ya es plural; no digas peoples para referirte a personas en general.",
+    "Women se pronuncia aproximadamente /ˈwɪmɪn/, no como woman + s.",
+    "Children es plural de child; no uses childs."
+  ],
+  "pronunciation": {
+    "target": "Reconocer y producir los cambios de sonido de people, children, men y women.",
+    "models": [
+      { "text": "person / people", "ipa": "/ˈpɜːrsən/ - /ˈpiːpəl/" },
+      { "text": "child / children", "ipa": "/tʃaɪld/ - /ˈtʃɪldrən/" },
+      { "text": "man / men", "ipa": "/mæn/ - /men/" },
+      { "text": "woman / women", "ipa": "/ˈwʊmən/ - /ˈwɪmɪn/" }
+    ],
+    "student_feedback": "La meta es reconocer la palabra y comunicar la cantidad; no memorices solo la terminación escrita."
+  },
+  "reading": {
+    "title": "People at the activity",
+    "text": "There are many people at the community center. Two men are near the door. Three women are at a table. Two children are with their parents. The boxes are ready for the activity.",
+    "interactive_vocabulary": ["many", "community center", "near", "parents", "activity"],
+    "questions": [
+      { "prompt": "How many women are at the table?", "options": ["Three", "Two", "Four"], "answer": "Three" },
+      { "prompt": "Who is with their parents?", "options": ["The children", "The men", "The coordinator"], "answer": "The children" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T05-L02-E01",
+      "type": "plural_memory_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona singular y plural.",
+      "pairs": [{ "singular": "person", "plural": "people" }, { "singular": "child", "plural": "children" }, { "singular": "man", "plural": "men" }, { "singular": "woman", "plural": "women" }],
+      "feedback_correct": "Reconociste cuatro plurales frecuentes.",
+      "feedback_incorrect": "Estos plurales cambian la palabra completa; no añadas solo -s.",
+      "estimated_seconds": 75
+    },
+    {
+      "id": "A1-M1-T05-L02-E02",
+      "type": "listening_count",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona la información correcta.",
+      "prompt": "There are two men, three women and two children.",
+      "options": ["2 men, 3 women, 2 children", "3 men, 2 women, 2 children", "2 men, 2 women, 3 children"],
+      "correct_answer": "2 men, 3 women, 2 children",
+      "feedback_correct": "Reconociste cantidades y plurales irregulares.",
+      "feedback_incorrect": "Escucha cada número junto a men, women y children.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T05-L02-E03",
+      "type": "plural_choice",
+      "skill": "grammar",
+      "instruction": "Elige el plural correcto.",
+      "items": [
+        { "prompt": "one person → two ___", "options": ["people", "persons", "persones"], "answer": "people" },
+        { "prompt": "one child → two ___", "options": ["children", "childs", "childes"], "answer": "children" },
+        { "prompt": "one woman → two ___", "options": ["women", "womans", "womanes"], "answer": "women" }
+      ],
+      "feedback_correct": "Elegiste formas plurales frecuentes y naturales.",
+      "feedback_incorrect": "Memoriza estas formas dentro de una frase, no añadas -s automáticamente.",
+      "estimated_seconds": 80
+    },
+    {
+      "id": "A1-M1-T05-L02-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": ["There", "are", "three", "children", "here."],
+      "correct_answer": "There are three children here.",
+      "feedback_correct": "La cantidad y el plural están integrados en una frase.",
+      "feedback_incorrect": "Usa There are + número + children.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T05-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la forma plural.",
+      "prompt": "There are two childs.",
+      "correct_answer": "There are two children.",
+      "feedback_correct": "Children es el plural irregular de child.",
+      "feedback_incorrect": "No uses childs; usa children.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T05-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una descripción de las personas presentes.",
+      "prompt": "There are two men, three women and two children.",
+      "evaluation": ["plural word intelligibility", "number clarity", "sentence rhythm"],
+      "feedback_correct": "Las cantidades y los plurales se entienden.",
+      "feedback_incorrect": "Practica men, women y children por separado y después únelos.",
+      "estimated_seconds": 110
+    },
+    {
+      "id": "A1-M1-T05-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y completa el recuento de personas.",
+      "reading_ref": "A1-M1-T05-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 3 group counts",
+      "feedback_correct": "Comprendiste cantidades expresadas con plurales irregulares.",
+      "feedback_incorrect": "Busca two men, three women y two children en el texto.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T05-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA organiza un evento. Cuenta cuántos hombres, mujeres, niños y personas hay.",
+      "role": "event coordinator",
+      "student_goal": "Report group counts with people, men, women and children.",
+      "allowed_support": ["counting cards", "picture", "sentence starter", "Spanish hint"],
+      "success_criteria": ["uses two irregular plurals", "reports at least three counts", "uses there are"],
+      "feedback_correct": "Informaste cantidades reales usando plurales variados.",
+      "feedback_incorrect": "Usa There are + número + plural; recuerda people, women y children.",
+      "estimated_seconds": 180
+    },
+    {
+      "id": "A1-M1-T05-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe una foto familiar imaginaria con cuatro grupos o personas.",
+      "prompt": "There are ___ people. There are ___ men, ___ women and ___ children.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses people correctly", "uses at least two irregular plurals", "communicates counts"],
+      "feedback_correct": "Usaste plurales para describir una escena personal.",
+      "feedback_incorrect": "Recuerda que people ya es plural y que child cambia a children.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T05-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa las parejas sin mirar.",
+      "prompts": ["person → ___", "child → ___", "man → ___", "woman → ___"],
+      "correct_answers": ["people", "children", "men", "women"],
+      "feedback_correct": "Recuperaste los cuatro plurales irregulares.",
+      "feedback_incorrect": "Vuelve a asociar cada palabra con su frase de ejemplo.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

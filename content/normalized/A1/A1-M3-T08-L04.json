@@ -1,0 +1,426 @@
+{
+  "id": "A1-M3-T08-L04",
+  "level": "A1",
+  "module_code": "M3",
+  "topic_code": "T08",
+  "title": "Resolver un problema durante el viaje",
+  "estimated_seconds": 1110,
+  "communication_goal": "Explicar una necesidad o problema básico y pedir ayuda durante un viaje.",
+  "situation": "Tu equipaje, habitación, billete o transporte presenta un problema y necesitas solucionarlo.",
+  "language_focus": {
+    "grammar": [
+      "There is a problem with...",
+      "I need help",
+      "Could you...?",
+      "My ... is missing/broken",
+      "Where can I...?",
+      "Thank you for your help"
+    ],
+    "function": "travel problem solving"
+  },
+  "vocabulary": [
+    {
+      "word": "missing",
+      "meaning_es": "perdido/faltante",
+      "example": "My luggage is missing."
+    },
+    {
+      "word": "broken",
+      "meaning_es": "roto",
+      "example": "The air conditioner is broken."
+    },
+    {
+      "word": "wrong",
+      "meaning_es": "equivocado",
+      "example": "I have the wrong ticket."
+    },
+    {
+      "word": "lost",
+      "meaning_es": "perdido",
+      "example": "I lost my passport."
+    },
+    {
+      "word": "help desk",
+      "meaning_es": "mostrador de ayuda",
+      "example": "Where is the help desk?"
+    },
+    {
+      "word": "change",
+      "meaning_es": "cambiar",
+      "example": "Can you change my room?"
+    }
+  ],
+  "context": {
+    "title": "A problem at the hotel",
+    "dialogue": [
+      {
+        "speaker": "Traveler",
+        "english": "Excuse me. There is a problem with my room.",
+        "spanish": "Disculpe. Hay un problema con mi habitación."
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "What is the problem?",
+        "spanish": "¿Cuál es el problema?"
+      },
+      {
+        "speaker": "Traveler",
+        "english": "The air conditioner is broken, and the room is very hot.",
+        "spanish": "El aire acondicionado está roto y la habitación está muy caliente."
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "I'm sorry. Could you wait here, please?",
+        "spanish": "Lo siento. ¿Podría esperar aquí, por favor?"
+      },
+      {
+        "speaker": "Traveler",
+        "english": "Yes. Can you change my room?",
+        "spanish": "Sí. ¿Puede cambiar mi habitación?"
+      },
+      {
+        "speaker": "Receptionist",
+        "english": "Yes, we can help you.",
+        "spanish": "Sí, podemos ayudarle."
+      }
+    ]
+  },
+  "explanation_es": "Para explicar un problema usa There is a problem with + objeto. Describe el estado con is broken, is missing o is wrong. Pide ayuda con I need help, Could you...? o Can you...?. Mantén un tono cortés, describe un hecho concreto y termina agradeciendo la ayuda.",
+  "spanish_speaker_notes": [
+    "There is a problem with... es una estructura útil y no se traduce palabra por palabra.",
+    "Missing describe algo que falta o se perdió; lost describe algo que tú perdiste o no encuentras.",
+    "Could you...? es una petición más cortés que Can you...?; ambas son útiles en A1.",
+    "No necesitas explicar una historia larga: problema + detalle + petición."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "There is a problem with my room.",
+        "focus": "problem with my room"
+      },
+      {
+        "text": "The air conditioner is broken.",
+        "focus": "air conditioner y broken"
+      },
+      {
+        "text": "Could you help me, please?",
+        "focus": "could you help me"
+      }
+    ],
+    "tip_es": "Practica el problema como una frase breve y clara antes de añadir detalles."
+  },
+  "reading": {
+    "title": "A missing suitcase",
+    "text": "After a flight, Carla cannot find her suitcase. She goes to the help desk and says, 'My luggage is missing. I need help, please.'. The worker asks for her ticket and helps her complete a report.",
+    "glossary": [
+      {
+        "term": "missing suitcase",
+        "meaning_es": "maleta perdida"
+      },
+      {
+        "term": "help desk",
+        "meaning_es": "mostrador de ayuda"
+      },
+      {
+        "term": "report",
+        "meaning_es": "reporte/informe"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "problem_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada problema con la frase adecuada.",
+      "pairs": [
+        {
+          "problem": "equipaje perdido",
+          "expression": "My luggage is missing."
+        },
+        {
+          "problem": "aire acondicionado roto",
+          "expression": "The air conditioner is broken."
+        },
+        {
+          "problem": "billete equivocado",
+          "expression": "I have the wrong ticket."
+        },
+        {
+          "problem": "pasaporte perdido",
+          "expression": "I lost my passport."
+        }
+      ],
+      "prompt": "Relaciona cada problema con la frase adecuada.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "equipaje perdido=My luggage is missing.",
+          "aire acondicionado roto=The air conditioner is broken.",
+          "billete equivocado=I have the wrong ticket.",
+          "pasaporte perdido=I lost my passport."
+        ],
+        "expected_pairs": [
+          {
+            "problem": "equipaje perdido",
+            "expression": "My luggage is missing."
+          },
+          {
+            "problem": "aire acondicionado roto",
+            "expression": "The air conditioner is broken."
+          },
+          {
+            "problem": "billete equivocado",
+            "expression": "I have the wrong ticket."
+          },
+          {
+            "problem": "pasaporte perdido",
+            "expression": "I lost my passport."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a2",
+      "type": "listening_identify",
+      "skill": "listening",
+      "instruction": "Escucha: My luggage is missing. Identifica el problema.",
+      "audio_text": "My luggage is missing.",
+      "options": [
+        "Falta el equipaje.",
+        "La habitación está rota.",
+        "El billete es correcto."
+      ],
+      "correct": "Falta el equipaje.",
+      "feedback": "Missing indica que el equipaje no está.",
+      "prompt": "Escucha: My luggage is missing. Identifica el problema.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Falta el equipaje."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Missing indica que el equipaje no está.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: There is a problem ___ my ticket.",
+      "options": [
+        "with",
+        "to",
+        "at"
+      ],
+      "correct": "with",
+      "feedback": "La estructura fija es problem with.",
+      "prompt": "Completa: There is a problem ___ my ticket.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "with"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La estructura fija es problem with.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: help / need / I / please / .",
+      "answer": "I need help, please.",
+      "feedback": "I need help expresa una necesidad directa y cortés.",
+      "prompt": "Ordena: help / need / I / please / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I need help, please."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "I need help expresa una necesidad directa y cortés.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: My luggage are missing.",
+      "answer": "My luggage is missing.",
+      "feedback": "Luggage es no contable y usa is.",
+      "prompt": "Corrige: My luggage are missing.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "My luggage is missing."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Luggage es no contable y usa is.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Explica un problema ficticio y pide ayuda.",
+      "target": "There is a problem with ... It is ... Could you help me, please?",
+      "evaluation": {
+        "0": "problema claro",
+        "1": "detalle comprensible",
+        "2": "petición amable",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "There is a problem with ... It is ... Could you help me, please?",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Missing Suitcase y responde: Where does Carla go for help?",
+      "text_reference": "reading",
+      "answer": "She goes to the help desk.",
+      "feedback": "La segunda oración indica el lugar.",
+      "prompt": "Lee A Missing Suitcase y responde: Where does Carla go for help?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She goes to the help desk."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La segunda oración indica el lugar.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será personal de hotel o aeropuerto. Explica un problema ficticio, responde preguntas y pide una solución.",
+      "scenario": "Solving a simple travel problem at a help desk.",
+      "ai_language": "English; be calm, clear and supportive",
+      "prompt": "La IA será personal de hotel o aeropuerto. Explica un problema ficticio, responde preguntas y pide una solución.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Graba dos mini diálogos: uno sobre equipaje perdido y otro sobre una habitación con un problema.",
+      "success_criteria": [
+        "usa There is a problem with",
+        "describe el detalle",
+        "pide ayuda con Could you/Can you",
+        "agradece la solución"
+      ],
+      "prompt": "Graba dos mini diálogos: uno sobre equipaje perdido y otro sobre una habitación con un problema.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    },
+    {
+      "id": "a10",
+      "type": "mastery_assessment",
+      "skill": "integration",
+      "instruction": "Evaluación final: identifica problemas de viaje, corrige cinco errores, comprende una conversación y resuelve oralmente una situación adaptativa.",
+      "rubric": {
+        "travel_vocabulary": "3 puntos",
+        "grammar": "3 puntos",
+        "comprehension": "2 puntos",
+        "problem_solving": "2 puntos"
+      },
+      "prompt": "Evaluación final: identifica problemas de viaje, corrige cinco errores, comprende una conversación y resuelve oralmente una situación adaptativa.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M3-T08-L04"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "describir un problema",
+      "pedir ayuda con cortesía",
+      "comprender una solución básica"
+    ],
+    "retry": "Si el resultado es menor de 80%, practica la fórmula problema + detalle + petición con tres situaciones distintas."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M3-T08-L04.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

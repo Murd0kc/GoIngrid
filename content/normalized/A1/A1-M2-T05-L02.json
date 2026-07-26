@@ -1,0 +1,402 @@
+{
+  "id": "A1-M2-T05-L02",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T05",
+  "title": "Hablar de lo que otros no hacen",
+  "estimated_seconds": 930,
+  "communication_goal": "Describir hábitos negativos de otras personas usando doesn't con he, she e it.",
+  "situation": "Explicas la rutina de familiares y compañeros sin confundir la tercera persona.",
+  "language_focus": {
+    "grammar": [
+      "He doesn't...",
+      "She doesn't...",
+      "It doesn't..."
+    ],
+    "function": "third-person negative statements"
+  },
+  "vocabulary": [
+    {
+      "word": "eat meat",
+      "meaning_es": "comer carne",
+      "example": "She doesn't eat meat."
+    },
+    {
+      "word": "like spicy food",
+      "meaning_es": "gustarle la comida picante",
+      "example": "He doesn't like spicy food."
+    },
+    {
+      "word": "use a car",
+      "meaning_es": "usar un automóvil",
+      "example": "She doesn't use a car."
+    },
+    {
+      "word": "sleep late",
+      "meaning_es": "dormir hasta tarde",
+      "example": "He doesn't sleep late."
+    },
+    {
+      "word": "need",
+      "meaning_es": "necesitar",
+      "example": "It doesn't need batteries."
+    },
+    {
+      "word": "usually",
+      "meaning_es": "normalmente",
+      "example": "She usually walks."
+    }
+  ],
+  "context": {
+    "title": "Talking about family",
+    "dialogue": [
+      {
+        "speaker": "Nina",
+        "english": "Does your brother eat meat?",
+        "spanish": "¿Tu hermano come carne?"
+      },
+      {
+        "speaker": "Luis",
+        "english": "No, he doesn't. He eats vegetables.",
+        "spanish": "No. Come verduras."
+      },
+      {
+        "speaker": "Nina",
+        "english": "Does your sister drive?",
+        "spanish": "¿Tu hermana conduce?"
+      },
+      {
+        "speaker": "Luis",
+        "english": "No, she doesn't. She walks to work.",
+        "spanish": "No. Camina al trabajo."
+      },
+      {
+        "speaker": "Nina",
+        "english": "That sounds healthy.",
+        "spanish": "Eso suena saludable."
+      }
+    ]
+  },
+  "explanation_es": "Con he, she e it usamos doesn't = does not para negar. La estructura es sujeto + doesn't + verbo base: She doesn't drive. Aunque el sujeto sea tercera persona, la s desaparece del verbo porque ya está representada en does: He doesn't eat, no He doesn't eats.",
+  "spanish_speaker_notes": [
+    "No digas She don't; con she usamos doesn't.",
+    "No mantengas la s en el verbo: doesn't likes es incorrecto; doesn't like es correcto.",
+    "La s de tercera persona aparece en does, no dos veces.",
+    "Diferencia sonido y escritura: doesn't termina con una consonante que conviene pronunciar con claridad."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "She doesn't drive.",
+        "focus": "contracción doesn't"
+      },
+      {
+        "text": "He doesn't eat meat.",
+        "focus": "enlace doesn't eat"
+      },
+      {
+        "text": "It doesn't need batteries.",
+        "focus": "it y doesn't claramente separados"
+      }
+    ],
+    "tip_es": "Graba primero lentamente y luego a velocidad conversacional; comprueba que doesn't no desaparezca."
+  },
+  "reading": {
+    "title": "Lucía's healthy routine",
+    "text": "Lucía doesn't eat meat and she doesn't drink soda. She walks to work because she doesn't use a car. Her brother likes fast food, but he doesn't cook at home. Their dog doesn't need a car; it walks with Lucía.",
+    "glossary": [
+      {
+        "term": "soda",
+        "meaning_es": "refresco/gaseosa"
+      },
+      {
+        "term": "fast food",
+        "meaning_es": "comida rápida"
+      },
+      {
+        "term": "walks with",
+        "meaning_es": "camina con"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_classify",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las acciones según quién podría hacerlas en el contexto.",
+      "items": [
+        {
+          "text": "eat meat",
+          "category": "person"
+        },
+        {
+          "text": "use a car",
+          "category": "person"
+        },
+        {
+          "text": "need batteries",
+          "category": "thing"
+        },
+        {
+          "text": "sleep late",
+          "category": "person"
+        }
+      ],
+      "prompt": "Clasifica las acciones según quién podría hacerlas en el contexto.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "eat meat=person",
+          "use a car=person",
+          "need batteries=thing",
+          "sleep late=person"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: No, she doesn't. She walks to work. Elige la pregunta.",
+      "audio_text": "No, she doesn't. She walks to work.",
+      "options": [
+        "Does she drive to work?",
+        "Where does she work?",
+        "Is she at work?"
+      ],
+      "correct": "Does she drive to work?",
+      "feedback": "La respuesta indica que no conduce y que camina.",
+      "prompt": "Escucha: No, she doesn't. She walks to work. Elige la pregunta.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Does she drive to work?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta indica que no conduce y que camina.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: He ___ like spicy food.",
+      "options": [
+        "doesn't",
+        "don't",
+        "isn't"
+      ],
+      "correct": "doesn't",
+      "feedback": "Con he usamos doesn't para negar el presente simple.",
+      "prompt": "Completa: He ___ like spicy food.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con he usamos doesn't para negar el presente simple.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: doesn't / she / meat / eat / .",
+      "answer": "She doesn't eat meat.",
+      "feedback": "Después de doesn't va eat, sin s.",
+      "prompt": "Ordena: doesn't / she / meat / eat / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She doesn't eat meat."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de doesn't va eat, sin s.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a5",
+      "type": "error_hunt",
+      "skill": "accuracy",
+      "instruction": "Corrige: He doesn't likes fast food.",
+      "answer": "He doesn't like fast food.",
+      "feedback": "La s ya está en does; el verbo queda en forma base.",
+      "prompt": "Corrige: He doesn't likes fast food.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He doesn't like fast food."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La s ya está en does; el verbo queda en forma base.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Lee: She doesn't eat meat, but she walks to work.",
+      "target": "She doesn't eat meat, but she walks to work.",
+      "evaluation": {
+        "0": "doesn't claro",
+        "1": "contraste but comprensible",
+        "2": "frase completa fluida",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "She doesn't eat meat, but she walks to work.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee Lucía's Healthy Routine y responde: Why does Lucía walk to work?",
+      "text_reference": "reading",
+      "answer": "Because she doesn't use a car.",
+      "feedback": "El texto conecta caminar con no usar automóvil.",
+      "prompt": "Lee Lucía's Healthy Routine y responde: Why does Lucía walk to work?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Because she doesn't use a car."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El texto conecta caminar con no usar automóvil.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "Describe a un familiar o amigo. La IA hace preguntas sobre lo que esa persona hace y no hace.",
+      "scenario": "You are describing a family member's routine to a curious classmate.",
+      "ai_language": "English; correct only the target error and keep the conversation moving",
+      "prompt": "Describe a un familiar o amigo. La IA hace preguntas sobre lo que esa persona hace y no hace.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Escribe seis frases sobre dos personas: tres con doesn't para cada una. Incluye una diferencia entre sus rutinas.",
+      "success_criteria": [
+        "usa he/she correctamente",
+        "usa doesn't + verbo base",
+        "las frases son comprensibles y conectadas"
+      ],
+      "prompt": "Escribe seis frases sobre dos personas: tres con doesn't para cada una. Incluye una diferencia entre sus rutinas.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Completa: She ___ eat meat. He ___ cook. It ___ need batteries.",
+      "answers": [
+        "doesn't",
+        "doesn't",
+        "doesn't"
+      ],
+      "prompt": "Completa: She ___ eat meat. He ___ cook. It ___ need batteries.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "doesn't",
+          "doesn't",
+          "doesn't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "usar doesn't con he, she e it",
+      "mantener el verbo base",
+      "describir hábitos negativos de dos personas"
+    ],
+    "retry": "Si escribes doesn't + verbo con s, elimina la s y recuerda que does ya marca la tercera persona."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T05-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

@@ -1,0 +1,199 @@
+{
+  "id": "A1-M1-T02-L04",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T02",
+  "title": "Who is who?",
+  "estimated_seconds": 1200,
+  "communication_goal": "El estudiante puede presentar personas, grupos y objetos usando los siete pronombres personales en una interacción nueva.",
+  "situation": "Recibir a una persona nueva en un evento y explicar quién es cada participante.",
+  "language_focus": [
+    "I am...",
+    "You are...",
+    "He is...",
+    "She is...",
+    "It is...",
+    "We are...",
+    "They are..."
+  ],
+  "vocabulary": [
+    { "term": "participant", "meaning_es": "participante", "example": "She is a participant." },
+    { "term": "organizer", "meaning_es": "organizador / organizadora", "example": "He is the organizer." },
+    { "term": "team", "meaning_es": "equipo", "example": "We are the blue team." },
+    { "term": "badge", "meaning_es": "credencial", "example": "It is your badge." },
+    { "term": "event", "meaning_es": "evento", "example": "We are at an event." },
+    { "term": "everyone", "meaning_es": "todos", "example": "Everyone is here." }
+  ],
+  "context": {
+    "before": "You welcome a new participant at an international community event.",
+    "dialogue": [
+      { "speaker": "Host", "text": "Hi! I'm Leo. You are Maya, right?" },
+      { "speaker": "Maya", "text": "Yes, I am. Nice to meet you." },
+      { "speaker": "Host", "text": "He is Omar, the organizer. She is Nina, a participant." },
+      { "speaker": "Maya", "text": "And who are they?" },
+      { "speaker": "Host", "text": "They are the blue team. We are all here now." },
+      { "speaker": "Maya", "text": "What is it?" },
+      { "speaker": "Host", "text": "It is your badge." }
+    ]
+  },
+  "explanation_es": "Los pronombres indican quién habla, quién escucha, una persona, un objeto o un grupo. La elección depende del referente y de si el hablante está incluido: I, you, he, she, it, we o they.",
+  "spanish_speaker_notes": [
+    "Antes de elegir un pronombre, identifica el referente: hablante, interlocutor, persona, objeto o grupo.",
+    "We incluye al hablante; they normalmente se refiere a un grupo separado.",
+    "It se usa para objetos, aunque en español el sustantivo tenga género gramatical."
+  ],
+  "pronunciation": {
+    "target": "Producir los pronombres dentro de frases con ritmo comprensible y distinguir he, she, we, they e it.",
+    "models": [
+      { "text": "I am here.", "ipa": "/aɪ æm hɪr/" },
+      { "text": "You are here.", "ipa": "/juː ɑːr hɪr/" },
+      { "text": "He is the organizer.", "stress": ["He", "organizer"] },
+      { "text": "She is a participant.", "stress": ["She", "participant"] },
+      { "text": "We are all here.", "stress": ["We", "here"] },
+      { "text": "They are the blue team.", "stress": ["They", "blue team"] },
+      { "text": "It is your badge.", "stress": ["It", "badge"] }
+    ],
+    "student_feedback": "La meta es que el interlocutor identifique el referente; no se penaliza un acento extranjero comprensible."
+  },
+  "reading": {
+    "title": "The community event",
+    "text": "Leo welcomes Maya at a community event. He introduces Omar, the organizer, and Nina, a participant. Maya asks about another group. They are the blue team. Leo gives Maya a badge. It has her name. Everyone is ready to begin.",
+    "interactive_vocabulary": ["welcomes", "community", "organizer", "another", "ready", "begin"],
+    "questions": [
+      { "prompt": "Who is the organizer?", "options": ["Omar", "Leo", "Maya"], "answer": "Omar" },
+      { "prompt": "What does the badge have?", "options": ["Maya's name", "The blue team", "A phone"], "answer": "Maya's name" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T02-L04-E01",
+      "type": "referent_map",
+      "skill": "grammar",
+      "instruction": "Relaciona cada referente con el pronombre que puede sustituirlo.",
+      "pairs": [
+        { "referent": "the speaker", "pronoun": "I" },
+        { "referent": "the listener", "pronoun": "you" },
+        { "referent": "Omar", "pronoun": "he" },
+        { "referent": "Nina", "pronoun": "she" },
+        { "referent": "the badge", "pronoun": "it" },
+        { "referent": "Leo and Maya", "pronoun": "we" },
+        { "referent": "the blue team", "pronoun": "they" }
+      ],
+      "feedback_correct": "Elegiste según el referente y la relación con el hablante.",
+      "feedback_incorrect": "Primero decide quién habla, quién escucha, si es persona u objeto y si es un grupo.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T02-L04-E02",
+      "type": "listening_detail",
+      "skill": "listening",
+      "instruction": "Escucha la presentación y completa quién es cada persona.",
+      "prompt": "He is Omar, the organizer. She is Nina, a participant.",
+      "correct_answer": "Omar = organizer; Nina = participant",
+      "feedback_correct": "Identificaste dos referentes dentro del diálogo.",
+      "feedback_incorrect": "He se refiere a Omar y she a Nina.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T02-L04-E03",
+      "type": "pronoun_choice",
+      "skill": "grammar",
+      "instruction": "Completa cada frase con el pronombre correcto.",
+      "items": [
+        { "prompt": "Maya is here. ___ is a participant.", "options": ["She", "He", "It"], "answer": "She" },
+        { "prompt": "The badge is new. ___ has my name.", "options": ["It", "They", "We"], "answer": "It" },
+        { "prompt": "Leo and Maya are here. ___ are ready.", "options": ["We", "He", "It"], "answer": "We" }
+      ],
+      "feedback_correct": "Los pronombres coinciden con las personas, objetos y grupos.",
+      "feedback_incorrect": "Revisa si el referente es persona, objeto o grupo y si incluye al hablante.",
+      "estimated_seconds": 90
+    },
+    {
+      "id": "A1-M1-T02-L04-E04",
+      "type": "dialogue_repair",
+      "skill": "interaction",
+      "instruction": "Corrige el pronombre en la presentación.",
+      "prompt": "This is Nina. He is a participant.",
+      "correct_answer": "This is Nina. She is a participant.",
+      "feedback_correct": "Corregiste el referente sin cambiar el significado principal.",
+      "feedback_incorrect": "Nina es una mujer; usa she.",
+      "estimated_seconds": 55
+    },
+    {
+      "id": "A1-M1-T02-L04-E05",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y señala a qué se refiere cada pronombre.",
+      "reading_ref": "A1-M1-T02-L04-reading-01",
+      "correct_answer": "2 comprehension answers and 7 referents",
+      "feedback_correct": "Seguiste las referencias de personas, grupos y objetos.",
+      "feedback_incorrect": "Vuelve al texto y localiza quién organiza, qué grupo participa y qué tiene el badge.",
+      "estimated_seconds": 135
+    },
+    {
+      "id": "A1-M1-T02-L04-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba una presentación con todos los pronombres que puedas usar naturalmente.",
+      "prompt": "I am ____. You are ____. He is ____. She is ____. It is ____. We are ____. They are ____.",
+      "evaluation": ["pronoun intelligibility", "referent clarity", "sentence rhythm"],
+      "feedback_correct": "Los pronombres se entienden dentro de frases completas.",
+      "feedback_incorrect": "No intentes decirlos demasiado rápido; usa pausas breves y frases claras.",
+      "estimated_seconds": 120
+    },
+    {
+      "id": "A1-M1-T02-L04-E07",
+      "type": "strategy_game",
+      "skill": "grammar",
+      "instruction": "En cada ronda aparece un referente. Elige el pronombre antes de que termine el tiempo.",
+      "rounds": ["the speaker", "your friend", "a phone", "you and your team", "another group"],
+      "correct_answers": ["I", "he/she", "it", "we", "they"],
+      "game_rule": "El tiempo es opcional; la precisión y la explicación posterior valen más que la velocidad.",
+      "feedback_correct": "Elegiste rápido porque identificaste la relación con el hablante.",
+      "feedback_incorrect": "El juego no castiga el error: explica el referente y vuelve a intentarlo.",
+      "estimated_seconds": 100
+    },
+    {
+      "id": "A1-M1-T02-L04-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA llega a un evento. Preséntate, presenta a dos personas, describe un objeto y habla de tu grupo.",
+      "role": "new event participant",
+      "student_goal": "Use all relevant personal pronouns to orient the visitor.",
+      "allowed_support": ["picture map", "sentence starter", "Spanish hint", "slow mode"],
+      "success_criteria": ["uses I and you", "uses he or she", "uses it", "uses we and they when relevant"],
+      "feedback_correct": "Orientaste a otra persona usando referencias claras.",
+      "feedback_incorrect": "Piensa en cada referente y usa: He is... / She is... / It is... / We are... / They are...",
+      "estimated_seconds": 230
+    },
+    {
+      "id": "A1-M1-T02-L04-E09",
+      "type": "mastery_assessment",
+      "skill": "integrated",
+      "instruction": "Evaluación final: describe una escena nueva con personas, un grupo y un objeto. Responde dos preguntas de la IA.",
+      "prompt": "Who is he/she? Who are they? What is it? Who are we?",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["chooses pronouns by referent", "answers at least three questions", "produces understandable sentences", "does not rely on word-by-word translation"],
+      "feedback_correct": "Demostraste control funcional de los pronombres personales.",
+      "feedback_incorrect": "Identifica primero el referente y después construye la frase con el pronombre adecuado.",
+      "estimated_seconds": 240
+    },
+    {
+      "id": "A1-M1-T02-L04-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa la tabla de memoria.",
+      "prompts": ["speaker = ___", "listener = ___", "one male person = ___", "one female person = ___", "object = ___", "speaker + group = ___", "other group = ___"],
+      "correct_answers": ["I", "you", "he", "she", "it", "we", "they"],
+      "feedback_correct": "Recuperaste el sistema completo de pronombres.",
+      "feedback_incorrect": "Usa la relación con el hablante para distinguir I/we de you/they.",
+      "estimated_seconds": 100
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "mastery_assessment"],
+    "topic_ready_when": "El estudiante selecciona y usa pronombres comprensibles en una escena nueva con al menos 80% de precisión.",
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

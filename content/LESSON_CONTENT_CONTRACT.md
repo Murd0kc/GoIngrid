@@ -1,5 +1,15 @@
 # Contrato de contenido de lecciones
 
+## Estado de implementación del contrato
+
+Este documento define el formato final requerido para importar contenido aprobado. Los archivos actuales de `content/rebuild/` son una versión estructural inicial y sus diferencias están documentadas en `content/CONTENT_CONTRACT_GAP_REPORT.md`.
+
+No se debe crear un importador que asuma que `answer`, `correct`, `correct_answer` y `correct_answers` son equivalentes sin una etapa explícita de normalización y validación.
+
+La versión final debe normalizar como mínimo `cefr_objectives`, `key_language`, `examples`, `difficulty`, `estimated_seconds`, `target_error`, `prompt`, `correct_answer` o `accepted_answers`, `feedback_correct`, `feedback_incorrect`, `hint`, `review_schedule`, `assessment_items`, `transfer_task` y `completion_requirements`.
+
+Las actividades de escucha deben distinguir `audio_asset`, `transcript` y `audio_text` de respaldo. Las actividades abiertas deben incluir rúbrica o estado de evaluación pendiente. Las actividades de pronunciación deben incluir objetivo, modelo, criterios de inteligibilidad y feedback accionable.
+
 Cada archivo de lección final debe contener todos los campos siguientes. Un archivo incompleto no puede importarse a Supabase.
 
 ## Identidad

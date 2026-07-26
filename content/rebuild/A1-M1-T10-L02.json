@@ -1,0 +1,175 @@
+{
+  "id": "A1-M1-T10-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T10",
+  "title": "Next to, behind and in front of",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede describir la posición de objetos usando relaciones espaciales frecuentes.",
+  "situation": "Dar indicaciones dentro de una oficina o edificio.",
+  "language_focus": ["The bank is next to the station.", "The bag is near the chair.", "The keys are behind the book.", "The desk is in front of the window.", "Where is the elevator?"],
+  "vocabulary": [
+    { "term": "next to", "meaning_es": "al lado de", "example": "The desk is next to the window." },
+    { "term": "near", "meaning_es": "cerca de", "example": "The elevator is near the stairs." },
+    { "term": "behind", "meaning_es": "detrás de", "example": "The bag is behind the chair." },
+    { "term": "in front of", "meaning_es": "delante de", "example": "The desk is in front of the window." },
+    { "term": "elevator", "meaning_es": "ascensor", "example": "The elevator is near the stairs." },
+    { "term": "stairs", "meaning_es": "escaleras", "example": "The stairs are behind the hall." }
+  ],
+  "context": {
+    "before": "A visitor asks for directions inside an office building.",
+    "dialogue": [
+      { "speaker": "Visitor", "text": "Excuse me. Where is the elevator?" },
+      { "speaker": "Worker", "text": "It's next to the stairs." },
+      { "speaker": "Visitor", "text": "And where is the meeting room?" },
+      { "speaker": "Worker", "text": "It's behind the reception desk, near the window." },
+      { "speaker": "Visitor", "text": "Is the printer in front of the desk?" },
+      { "speaker": "Worker", "text": "No, it's behind the desk." }
+    ]
+  },
+  "explanation_es": "Next to indica al lado de; near indica cerca de; behind indica detrás de; in front of indica delante de. Estas expresiones describen la relación entre dos lugares u objetos.",
+  "spanish_speaker_notes": [
+    "Next to no significa necesariamente pegado; indica una posición lateral cercana.",
+    "Behind y in front of deben relacionarse con un punto de referencia.",
+    "No traduzcas near como 'cerca' sin decir cerca de qué: near the window."
+  ],
+  "pronunciation": {
+    "target": "Producir expresiones espaciales de varias palabras sin perder claridad.",
+    "models": [
+      { "text": "next to the stairs", "stress": ["next", "stairs"] },
+      { "text": "near the window", "stress": ["near", "window"] },
+      { "text": "behind the desk", "stress": ["behind", "desk"] },
+      { "text": "in front of the building", "stress": ["front", "building"] }
+    ],
+    "student_feedback": "Mantén clara la palabra principal de la relación y no elimines of en in front of."
+  },
+  "reading": {
+    "title": "Inside the office building",
+    "text": "The elevator is next to the stairs. The reception desk is in front of a large window. The meeting room is behind the desk. The printer is near the door, and the waiting area is next to the meeting room.",
+    "interactive_vocabulary": ["office building", "reception desk", "waiting area", "meeting room", "large window"],
+    "questions": [
+      { "prompt": "What is next to the stairs?", "options": ["The elevator", "The printer", "The meeting room"], "answer": "The elevator" },
+      { "prompt": "Where is the printer?", "options": ["Near the door", "Behind the window", "In front of the stairs"], "answer": "Near the door" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T10-L02-E01",
+      "type": "relation_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada expresión con su imagen espacial.",
+      "pairs": [{ "term": "next to", "meaning_es": "al lado de" }, { "term": "near", "meaning_es": "cerca de" }, { "term": "behind", "meaning_es": "detrás de" }, { "term": "in front of", "meaning_es": "delante de" }],
+      "feedback_correct": "Reconociste cuatro relaciones espaciales.",
+      "feedback_incorrect": "Mira la posición respecto al objeto de referencia.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T10-L02-E02",
+      "type": "listening_map",
+      "skill": "listening",
+      "instruction": "Escucha la indicación y coloca el ascensor.",
+      "prompt": "The elevator is next to the stairs.",
+      "correct_answer": "next to the stairs",
+      "feedback_correct": "Ubicaste el ascensor junto a las escaleras.",
+      "feedback_incorrect": "Escucha next to y después stairs.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T10-L02-E03",
+      "type": "preposition_choice",
+      "skill": "grammar",
+      "instruction": "Completa la ubicación.",
+      "prompt": "The meeting room is ___ the reception desk.",
+      "options": ["behind", "in", "under"],
+      "correct_answer": "behind",
+      "feedback_correct": "La sala está detrás del escritorio.",
+      "feedback_incorrect": "Usa behind para una posición posterior.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T10-L02-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la indicación.",
+      "tokens": ["The", "printer", "is", "near", "the", "door."],
+      "correct_answer": "The printer is near the door.",
+      "feedback_correct": "Near conecta el printer con the door.",
+      "feedback_incorrect": "Usa sujeto + is + near + referencia.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T10-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la expresión espacial.",
+      "prompt": "The desk is in front the window.",
+      "correct_answer": "The desk is in front of the window.",
+      "feedback_correct": "La expresión completa es in front of.",
+      "feedback_incorrect": "Añade of después de front.",
+      "estimated_seconds": 45
+    },
+    {
+      "id": "A1-M1-T10-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Da tres indicaciones dentro de un edificio.",
+      "prompt": "The elevator is next to the stairs. The printer is near the door. The room is behind the desk.",
+      "evaluation": ["multiword preposition clarity", "reference clarity", "connected speech"],
+      "feedback_correct": "Las tres relaciones espaciales se entienden.",
+      "feedback_incorrect": "Practica cada bloque: next to, near, behind the desk.",
+      "estimated_seconds": 110
+    },
+    {
+      "id": "A1-M1-T10-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el mapa textual y responde dónde están tres lugares.",
+      "reading_ref": "A1-M1-T10-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 4 locations",
+      "feedback_correct": "Usaste una lectura para orientarte dentro de un edificio.",
+      "feedback_incorrect": "Busca elevator, printer, meeting room y waiting area.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T10-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es visitante. Dale tres indicaciones para llegar a una sala.",
+      "role": "visitor",
+      "student_goal": "Use next to, near, behind and in front of to give directions.",
+      "allowed_support": ["building map", "direction cards", "sentence starter", "Spanish hint"],
+      "success_criteria": ["uses three target prepositions", "gives a reference point", "answers one Where is question"],
+      "feedback_correct": "Orientaste a la persona usando referencias claras.",
+      "feedback_incorrect": "Cada expresión necesita un punto de referencia: near the door, behind the desk.",
+      "estimated_seconds": 190
+    },
+    {
+      "id": "A1-M1-T10-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe cuatro lugares de tu casa, escuela o trabajo para una persona nueva.",
+      "prompt": "The ____ is next to ____. The ____ is behind ____. The ____ is near ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses three target prepositions", "gives reference points", "communicates a usable route"],
+      "feedback_correct": "Convertiste relaciones espaciales en indicaciones reales.",
+      "feedback_incorrect": "Nombra primero el lugar y luego explica su relación con otro lugar.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T10-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["beside = ___", "close to = ___", "back of = ___", "before a place = in ___ of"],
+      "correct_answers": ["next to", "near", "behind", "front"],
+      "feedback_correct": "Recuperaste las cuatro relaciones espaciales.",
+      "feedback_incorrect": "next to = al lado; near = cerca; behind = detrás; in front of = delante.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

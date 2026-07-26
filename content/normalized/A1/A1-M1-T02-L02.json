@@ -1,0 +1,461 @@
+{
+  "id": "A1-M1-T02-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T02",
+  "title": "He, she and it: who is that?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede identificar a una persona o un objeto y hablar de él o ella en frases sencillas.",
+  "situation": "Presentar a compañeros de trabajo y describir objetos de una mesa.",
+  "language_focus": [
+    "He is my friend.",
+    "She is my teacher.",
+    "It is my phone.",
+    "Who is he?",
+    "Who is she?",
+    "What is it?"
+  ],
+  "vocabulary": [
+    {
+      "term": "he",
+      "meaning_es": "él",
+      "example": "He is my friend."
+    },
+    {
+      "term": "she",
+      "meaning_es": "ella",
+      "example": "She is my teacher."
+    },
+    {
+      "term": "it",
+      "meaning_es": "ello / eso / esto",
+      "example": "It is my phone."
+    },
+    {
+      "term": "friend",
+      "meaning_es": "amigo / amiga",
+      "example": "He is my friend."
+    },
+    {
+      "term": "teacher",
+      "meaning_es": "profesor / profesora",
+      "example": "She is my teacher."
+    },
+    {
+      "term": "phone",
+      "meaning_es": "teléfono",
+      "example": "It is my phone."
+    },
+    {
+      "term": "desk",
+      "meaning_es": "escritorio",
+      "example": "The phone is on the desk."
+    }
+  ],
+  "context": {
+    "before": "Maya shows a new colleague around her office.",
+    "dialogue": [
+      {
+        "speaker": "Maya",
+        "text": "This is Daniel. He is my friend."
+      },
+      {
+        "speaker": "Maya",
+        "text": "This is Sofia. She is my manager."
+      },
+      {
+        "speaker": "Colleague",
+        "text": "What is it?"
+      },
+      {
+        "speaker": "Maya",
+        "text": "It is my phone."
+      }
+    ]
+  },
+  "explanation_es": "He se usa para un hombre o niño, she para una mujer o niña e it normalmente para un objeto, animal o situación. En inglés no usamos he o she para objetos.",
+  "spanish_speaker_notes": [
+    "En español 'él' y 'ella' dependen de la persona; en inglés he y she dependen principalmente del género de la persona.",
+    "It no equivale siempre a una palabra española única; su significado depende del contexto.",
+    "No digas 'he' para un objeto masculino en español: para objetos usa it."
+  ],
+  "pronunciation": {
+    "target": "Distinguir he, she e it en frases cortas y evitar añadir una vocal antes de he o she.",
+    "models": [
+      {
+        "text": "he",
+        "ipa": "/hiː/"
+      },
+      {
+        "text": "she",
+        "ipa": "/ʃiː/"
+      },
+      {
+        "text": "it",
+        "ipa": "/ɪt/"
+      },
+      {
+        "text": "She is my manager.",
+        "stress": [
+          "She",
+          "manager"
+        ]
+      }
+    ],
+    "student_feedback": "La prioridad es distinguir /h/ en he, /ʃ/ en she y la vocal corta /ɪ/ en it."
+  },
+  "reading": {
+    "title": "People and things at work",
+    "text": "Maya works in a small office. Daniel is her friend. He works near the window. Sofia is her manager. She has a desk next to Maya. Maya has a new phone. It is on her desk.",
+    "interactive_vocabulary": [
+      "office",
+      "near",
+      "window",
+      "manager",
+      "next to"
+    ],
+    "questions": [
+      {
+        "prompt": "Who works near the window?",
+        "options": [
+          "Daniel",
+          "Sofia",
+          "The phone"
+        ],
+        "answer": "Daniel"
+      },
+      {
+        "prompt": "What is on Maya's desk?",
+        "options": [
+          "Her phone",
+          "A window",
+          "A manager"
+        ],
+        "answer": "Her phone"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T02-L02-E01",
+      "type": "picture_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica las referencias como persona u objeto.",
+      "items": [
+        {
+          "text": "Daniel",
+          "category": "person"
+        },
+        {
+          "text": "Sofia",
+          "category": "person"
+        },
+        {
+          "text": "phone",
+          "category": "object"
+        },
+        {
+          "text": "desk",
+          "category": "object"
+        }
+      ],
+      "categories": [
+        "person",
+        "object"
+      ],
+      "feedback_correct": "La categoría ayuda a elegir el pronombre adecuado.",
+      "feedback_incorrect": "Daniel y Sofia son personas; phone y desk son objetos.",
+      "estimated_seconds": 60,
+      "prompt": "Clasifica las referencias como persona u objeto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Daniel=person",
+          "Sofia=person",
+          "phone=object",
+          "desk=object"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E02",
+      "type": "listening_identification",
+      "skill": "listening",
+      "instruction": "Escucha y elige a quién se refiere el pronombre.",
+      "prompt": "She is my manager.",
+      "options": [
+        "A woman",
+        "A man",
+        "An object"
+      ],
+      "correct_answer": "A woman",
+      "feedback_correct": "She se refiere a una mujer o niña.",
+      "feedback_incorrect": "She se usa para una persona femenina.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "A woman"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E03",
+      "type": "context_choice",
+      "skill": "grammar",
+      "instruction": "Elige el pronombre correcto.",
+      "prompt": "This is my phone. ___ is on the desk.",
+      "options": [
+        "It",
+        "He",
+        "She"
+      ],
+      "correct_answer": "It",
+      "feedback_correct": "It se usa para hablar del teléfono, un objeto.",
+      "feedback_incorrect": "El referente es un objeto, por eso usamos it.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "It"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E04",
+      "type": "dialogue_choice",
+      "skill": "interaction",
+      "instruction": "Completa la presentación.",
+      "prompt": "This is Sofia. ___ is my teacher.",
+      "options": [
+        "She",
+        "He",
+        "It"
+      ],
+      "correct_answer": "She",
+      "feedback_correct": "Sofia es una mujer: She is my teacher.",
+      "feedback_incorrect": "Para una mujer usamos she.",
+      "estimated_seconds": 35,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "She"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E05",
+      "type": "question_matching",
+      "skill": "grammar",
+      "instruction": "Relaciona la pregunta con la respuesta adecuada.",
+      "pairs": [
+        {
+          "question": "Who is he?",
+          "answer": "He is my friend."
+        },
+        {
+          "question": "Who is she?",
+          "answer": "She is my teacher."
+        },
+        {
+          "question": "What is it?",
+          "answer": "It is my phone."
+        }
+      ],
+      "feedback_correct": "Who pregunta por una persona; What identifica una cosa.",
+      "feedback_incorrect": "Usa Who para personas y What para objetos en este contexto.",
+      "estimated_seconds": 75,
+      "prompt": "Relaciona la pregunta con la respuesta adecuada.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "expected_pairs": [
+          {
+            "question": "Who is he?",
+            "answer": "He is my friend."
+          },
+          {
+            "question": "Who is she?",
+            "answer": "She is my teacher."
+          },
+          {
+            "question": "What is it?",
+            "answer": "It is my phone."
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba las tres frases y contrasta he, she e it.",
+      "prompt": "He is my friend. She is my teacher. It is my phone.",
+      "evaluation": {
+        "0": "he/she contrast",
+        "1": "short i in it",
+        "2": "complete-sentence clarity",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Los tres pronombres se distinguen dentro de frases.",
+      "feedback_incorrect": "Practica primero he, she e it por separado y luego une cada frase.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y toca las palabras nuevas. Después identifica tres referentes.",
+      "reading_ref": "A1-M1-T02-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 3 pronoun references",
+      "feedback_correct": "Seguiste personas y objetos a través del texto.",
+      "feedback_incorrect": "Busca quién es Daniel, quién es Sofia y qué objeto está en el escritorio.",
+      "estimated_seconds": 130,
+      "prompt": "Lee el texto y toca las palabras nuevas. Después identifica tres referentes.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 3 pronoun references"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA visita tu oficina. Presenta a dos personas y describe un objeto.",
+      "role": "new colleague",
+      "student_goal": "Use he, she and it to identify people and one object.",
+      "allowed_support": [
+        "picture cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses he for a man",
+        "uses she for a woman",
+        "uses it for an object"
+      ],
+      "feedback_correct": "Identificaste personas y objetos con los pronombres adecuados.",
+      "feedback_incorrect": "Prueba: He is... / She is... / It is...",
+      "estimated_seconds": 180,
+      "prompt": "La IA visita tu oficina. Presenta a dos personas y describe un objeto.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe una foto imaginaria: una persona masculina, una femenina y un objeto.",
+      "prompt": "He is ____. She is ____. It is ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three pronouns",
+        "identifies two people and one object",
+        "produces understandable sentences"
+      ],
+      "feedback_correct": "Transferiste los pronombres a una escena nueva.",
+      "feedback_incorrect": "Primero identifica si cada referente es una persona o un objeto.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    },
+    {
+      "id": "A1-M1-T02-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar la explicación.",
+      "prompts": [
+        "___ is my brother.",
+        "___ is my sister.",
+        "___ is my bag."
+      ],
+      "correct_answers": [
+        "He",
+        "She",
+        "It"
+      ],
+      "feedback_correct": "Recuperaste los tres pronombres según el referente.",
+      "feedback_incorrect": "Persona masculina = he; persona femenina = she; objeto = it.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar la explicación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "He",
+          "She",
+          "It"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T02-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T02-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

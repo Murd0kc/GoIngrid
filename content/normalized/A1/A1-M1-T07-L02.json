@@ -1,0 +1,438 @@
+{
+  "id": "A1-M1-T07-L02",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T07",
+  "title": "His and her things",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede decir a quién pertenece un objeto cuando el dueño es otra persona.",
+  "situation": "Entregar objetos encontrados a dos compañeros.",
+  "language_focus": [
+    "This is his wallet.",
+    "That is her jacket.",
+    "His phone is black.",
+    "Her bag is red.",
+    "Is this his?",
+    "Is this hers?"
+  ],
+  "vocabulary": [
+    {
+      "term": "his",
+      "meaning_es": "su / de él",
+      "example": "This is his wallet."
+    },
+    {
+      "term": "her",
+      "meaning_es": "su / de ella",
+      "example": "That is her jacket."
+    },
+    {
+      "term": "wallet",
+      "meaning_es": "billetera",
+      "example": "His wallet is black."
+    },
+    {
+      "term": "jacket",
+      "meaning_es": "chaqueta",
+      "example": "Her jacket is red."
+    },
+    {
+      "term": "keys",
+      "meaning_es": "llaves",
+      "example": "Her keys are here."
+    },
+    {
+      "term": "owner",
+      "meaning_es": "dueño / dueña",
+      "example": "Find the owner."
+    }
+  ],
+  "context": {
+    "before": "A receptionist finds several belongings in a meeting room.",
+    "dialogue": [
+      {
+        "speaker": "Receptionist",
+        "text": "Is this Daniel's wallet?"
+      },
+      {
+        "speaker": "Maya",
+        "text": "Yes, it's his wallet. His phone is inside, too."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "And whose jacket is this?"
+      },
+      {
+        "speaker": "Maya",
+        "text": "It's Sofia's. It's her jacket."
+      },
+      {
+        "speaker": "Receptionist",
+        "text": "Great. Let's return his and her things."
+      }
+    ]
+  },
+  "explanation_es": "His significa de él y her significa de ella. El posesivo depende del dueño, no del género del objeto: his jacket si el dueño es un hombre; her jacket si la dueña es una mujer.",
+  "spanish_speaker_notes": [
+    "En español ambos pueden traducirse como su; en inglés debes identificar quién es el dueño.",
+    "His y her van antes del sustantivo: his phone, her keys.",
+    "No uses his o her según si el objeto es masculino o femenino en español."
+  ],
+  "pronunciation": {
+    "target": "Distinguir his y her dentro de frases sobre pertenencias.",
+    "models": [
+      {
+        "text": "his",
+        "ipa": "/hɪz/"
+      },
+      {
+        "text": "her",
+        "ipa": "/hɜːr/"
+      },
+      {
+        "text": "His phone is black.",
+        "stress": [
+          "His",
+          "phone",
+          "black"
+        ]
+      },
+      {
+        "text": "Her jacket is red.",
+        "stress": [
+          "Her",
+          "jacket",
+          "red"
+        ]
+      }
+    ],
+    "student_feedback": "Marca el dueño con his o her; la descripción del objeto no cambia el posesivo."
+  },
+  "reading": {
+    "title": "Lost belongings",
+    "text": "Daniel and Sofia leave a meeting room. Daniel cannot find his wallet. Sofia cannot find her keys. A receptionist finds a black wallet and a set of keys on a chair. The wallet is his and the keys are hers.",
+    "interactive_vocabulary": [
+      "belongings",
+      "leave",
+      "cannot find",
+      "set of keys",
+      "hers"
+    ],
+    "questions": [
+      {
+        "prompt": "What cannot Daniel find?",
+        "options": [
+          "His wallet",
+          "Her keys",
+          "His jacket"
+        ],
+        "answer": "His wallet"
+      },
+      {
+        "prompt": "Whose keys are on the chair?",
+        "options": [
+          "Sofia's",
+          "Daniel's",
+          "The receptionist's"
+        ],
+        "answer": "Sofia's"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T07-L02-E01",
+      "type": "owner_gender_map",
+      "skill": "vocabulary",
+      "instruction": "Relaciona el dueño con el posesivo.",
+      "pairs": [
+        {
+          "owner": "Daniel",
+          "possessive": "his"
+        },
+        {
+          "owner": "Sofia",
+          "possessive": "her"
+        }
+      ],
+      "feedback_correct": "El posesivo sigue al dueño, no al objeto.",
+      "feedback_incorrect": "Daniel = his; Sofia = her.",
+      "estimated_seconds": 45,
+      "prompt": "Relaciona el dueño con el posesivo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Daniel=his",
+          "Sofia=her"
+        ],
+        "expected_pairs": [
+          {
+            "owner": "Daniel",
+            "possessive": "his"
+          },
+          {
+            "owner": "Sofia",
+            "possessive": "her"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E02",
+      "type": "listening_owner",
+      "skill": "listening",
+      "instruction": "Escucha y elige quién es el dueño.",
+      "prompt": "Her jacket is red.",
+      "options": [
+        "A woman",
+        "A man",
+        "The jacket"
+      ],
+      "correct_answer": "A woman",
+      "feedback_correct": "Her señala a una dueña femenina.",
+      "feedback_incorrect": "Her significa de ella en este contexto.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "A woman"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E03",
+      "type": "possessive_choice",
+      "skill": "grammar",
+      "instruction": "Completa según el dueño.",
+      "prompt": "Daniel has a wallet. It is ___ wallet.",
+      "options": [
+        "his",
+        "her",
+        "my"
+      ],
+      "correct_answer": "his",
+      "feedback_correct": "Daniel es el dueño: his wallet.",
+      "feedback_incorrect": "El dueño es un hombre llamado Daniel; usa his.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "his"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la frase.",
+      "tokens": [
+        "Her",
+        "keys",
+        "are",
+        "here."
+      ],
+      "correct_answer": "Her keys are here.",
+      "feedback_correct": "Her va antes de keys y are coincide con el plural.",
+      "feedback_incorrect": "Usa Her + keys + are + here.",
+      "estimated_seconds": 45,
+      "prompt": "Ordena la frase.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Her keys are here."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la frase según el dueño.",
+      "prompt": "Sofia has a jacket. It is his jacket.",
+      "correct_answer": "Sofia has a jacket. It is her jacket.",
+      "feedback_correct": "Sofia es la dueña: her jacket.",
+      "feedback_incorrect": "Cambia his por her porque Sofia es mujer.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Sofia has a jacket. It is her jacket."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba dos frases y contrasta los dueños.",
+      "prompt": "His wallet is black. Her jacket is red.",
+      "evaluation": {
+        "0": "his/her contrast",
+        "1": "owner clarity",
+        "2": "plural keys if added",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Se entiende de quién es cada objeto.",
+      "feedback_incorrect": "Practica his /hɪz/ y her /hɜːr/ antes de decir la frase completa.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto y asigna cada objeto a su dueño.",
+      "reading_ref": "A1-M1-T07-L02-reading-01",
+      "correct_answer": "2 comprehension answers and 2 ownership facts",
+      "feedback_correct": "Seguiste his y her en una situación real.",
+      "feedback_incorrect": "Daniel tiene el wallet; Sofia tiene las keys.",
+      "estimated_seconds": 125,
+      "prompt": "Lee el texto y asigna cada objeto a su dueño.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 2 ownership facts"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es recepcionista. Identifica los objetos de Daniel y Sofia y entrégaselos.",
+      "role": "receptionist",
+      "student_goal": "Use his and her to return two belongings to their owners.",
+      "allowed_support": [
+        "owner cards",
+        "object cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses his for one man",
+        "uses her for one woman",
+        "returns two correct objects"
+      ],
+      "feedback_correct": "Identificaste correctamente a los dueños y sus pertenencias.",
+      "feedback_incorrect": "Mira primero quién es el dueño y luego usa his o her.",
+      "estimated_seconds": 180,
+      "prompt": "La IA es recepcionista. Identifica los objetos de Daniel y Sofia y entrégaselos.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe dos objetos de dos personas que conoces.",
+      "prompt": "This is ____'s ____. It is his/her ____. This is ____'s ____. It is his/her ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "identifies two owners",
+        "uses his and her appropriately",
+        "communicates two belongings"
+      ],
+      "feedback_correct": "Usaste posesivos para hablar de personas reales.",
+      "feedback_incorrect": "Elige his o her según el dueño, no según el objeto.",
+      "estimated_seconds": 120,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    },
+    {
+      "id": "A1-M1-T07-L02-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "Daniel's phone = ___ phone",
+        "Sofia's bag = ___ bag",
+        "the man's keys = ___ keys"
+      ],
+      "correct_answers": [
+        "his",
+        "her",
+        "his"
+      ],
+      "feedback_correct": "Recuperaste his y her según el dueño.",
+      "feedback_incorrect": "Hombre = his; mujer = her.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "his",
+          "her",
+          "his"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T07-L02"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T07-L02.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

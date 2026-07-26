@@ -1,0 +1,461 @@
+{
+  "id": "A1-M1-T10-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T10",
+  "title": "Find it on the street",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede dar y entender indicaciones sencillas usando puntos de referencia.",
+  "situation": "Ayudar a un visitante a encontrar una farmacia, un banco y una estación.",
+  "language_focus": [
+    "The bank is between the café and the pharmacy.",
+    "The station is across from the hotel.",
+    "The bus stop is at the corner.",
+    "The pharmacy is opposite the bank."
+  ],
+  "vocabulary": [
+    {
+      "term": "between",
+      "meaning_es": "entre",
+      "example": "The bank is between the café and the pharmacy."
+    },
+    {
+      "term": "across from",
+      "meaning_es": "enfrente de",
+      "example": "The station is across from the hotel."
+    },
+    {
+      "term": "opposite",
+      "meaning_es": "enfrente de",
+      "example": "The pharmacy is opposite the bank."
+    },
+    {
+      "term": "corner",
+      "meaning_es": "esquina",
+      "example": "The bus stop is at the corner."
+    },
+    {
+      "term": "station",
+      "meaning_es": "estación",
+      "example": "The station is nearby."
+    },
+    {
+      "term": "pharmacy",
+      "meaning_es": "farmacia",
+      "example": "The pharmacy is opposite the bank."
+    }
+  ],
+  "context": {
+    "before": "A tourist asks for directions on a city street.",
+    "dialogue": [
+      {
+        "speaker": "Tourist",
+        "text": "Excuse me. Where is the pharmacy?"
+      },
+      {
+        "speaker": "Local",
+        "text": "It is opposite the bank."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "Where is the bank?"
+      },
+      {
+        "speaker": "Local",
+        "text": "It is between the café and the pharmacy."
+      },
+      {
+        "speaker": "Tourist",
+        "text": "And the station?"
+      },
+      {
+        "speaker": "Local",
+        "text": "The station is across from the hotel, near the corner."
+      }
+    ]
+  },
+  "explanation_es": "Between coloca algo entre dos referencias. Across from y opposite indican que dos lugares están enfrentados. At the corner ubica algo en una esquina.",
+  "spanish_speaker_notes": [
+    "Between necesita normalmente dos puntos de referencia: between A and B.",
+    "Across from y opposite son similares a enfrente de; aprende ambas expresiones para reconocerlas.",
+    "No traduzcas at como 'en' automáticamente; at the corner funciona como ubicación puntual."
+  ],
+  "pronunciation": {
+    "target": "Producir relaciones espaciales con dos referencias y frases de dirección.",
+    "models": [
+      {
+        "text": "between the café and the pharmacy",
+        "stress": [
+          "between",
+          "café",
+          "pharmacy"
+        ]
+      },
+      {
+        "text": "across from the hotel",
+        "stress": [
+          "across",
+          "hotel"
+        ]
+      },
+      {
+        "text": "at the corner",
+        "stress": [
+          "corner"
+        ]
+      }
+    ],
+    "student_feedback": "Mantén claras las dos referencias de between y la expresión completa across from."
+  },
+  "reading": {
+    "title": "A short city walk",
+    "text": "The visitor starts at the hotel. The station is across from the hotel. The bank is between a café and a pharmacy. The bus stop is at the corner, opposite the station. The visitor finds the pharmacy first.",
+    "interactive_vocabulary": [
+      "visitor",
+      "starts",
+      "city walk",
+      "bus stop",
+      "finds"
+    ],
+    "questions": [
+      {
+        "prompt": "What is across from the hotel?",
+        "options": [
+          "The station",
+          "The bank",
+          "The café"
+        ],
+        "answer": "The station"
+      },
+      {
+        "prompt": "Where is the bank?",
+        "options": [
+          "Between a café and a pharmacy",
+          "At the hotel",
+          "Under the station"
+        ],
+        "answer": "Between a café and a pharmacy"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T10-L03-E01",
+      "type": "city_map_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona cada expresión con la relación del mapa.",
+      "pairs": [
+        {
+          "term": "between",
+          "meaning_es": "entre dos lugares"
+        },
+        {
+          "term": "across from",
+          "meaning_es": "enfrente de"
+        },
+        {
+          "term": "at the corner",
+          "meaning_es": "en una esquina"
+        },
+        {
+          "term": "opposite",
+          "meaning_es": "enfrente de"
+        }
+      ],
+      "feedback_correct": "Reconociste relaciones útiles para direcciones.",
+      "feedback_incorrect": "Observa cuántas referencias necesita cada expresión.",
+      "estimated_seconds": 70,
+      "prompt": "Relaciona cada expresión con la relación del mapa.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "between=entre dos lugares",
+          "across from=enfrente de",
+          "at the corner=en una esquina",
+          "opposite=enfrente de"
+        ],
+        "expected_pairs": [
+          {
+            "term": "between",
+            "meaning_es": "entre dos lugares"
+          },
+          {
+            "term": "across from",
+            "meaning_es": "enfrente de"
+          },
+          {
+            "term": "at the corner",
+            "meaning_es": "en una esquina"
+          },
+          {
+            "term": "opposite",
+            "meaning_es": "enfrente de"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E02",
+      "type": "listening_directions",
+      "skill": "listening",
+      "instruction": "Escucha y selecciona dónde está el banco.",
+      "prompt": "The bank is between the café and the pharmacy.",
+      "options": [
+        "Between the café and the pharmacy",
+        "Across from the hotel",
+        "At the corner"
+      ],
+      "correct_answer": "Between the café and the pharmacy",
+      "feedback_correct": "Entendiste las dos referencias.",
+      "feedback_incorrect": "Escucha between y los dos lugares después.",
+      "estimated_seconds": 55,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Between the café and the pharmacy"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E03",
+      "type": "preposition_choice",
+      "skill": "grammar",
+      "instruction": "Completa la dirección.",
+      "prompt": "The station is ___ from the hotel.",
+      "options": [
+        "across",
+        "between",
+        "under"
+      ],
+      "correct_answer": "across",
+      "feedback_correct": "La expresión es across from the hotel.",
+      "feedback_incorrect": "Para enfrente de usamos across from.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "across"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E04",
+      "type": "sentence_building",
+      "skill": "grammar",
+      "instruction": "Ordena la indicación.",
+      "tokens": [
+        "The",
+        "bank",
+        "is",
+        "between",
+        "the",
+        "café",
+        "and",
+        "the",
+        "pharmacy."
+      ],
+      "correct_answer": "The bank is between the café and the pharmacy.",
+      "feedback_correct": "Between conecta correctamente las dos referencias.",
+      "feedback_incorrect": "Usa between A and B.",
+      "estimated_seconds": 60,
+      "prompt": "Ordena la indicación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The bank is between the café and the pharmacy."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la dirección.",
+      "prompt": "The station is between the hotel.",
+      "correct_answer": "The station is across from the hotel.",
+      "feedback_correct": "Between necesita dos referencias; aquí la relación es enfrente de.",
+      "feedback_incorrect": "Usa across from con una referencia; between necesita dos.",
+      "estimated_seconds": 55,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "The station is across from the hotel."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Da dos indicaciones usando dos referencias y un punto de esquina.",
+      "prompt": "The bank is between the café and the pharmacy. The bus stop is at the corner.",
+      "evaluation": {
+        "0": "between clarity",
+        "1": "two-reference rhythm",
+        "2": "corner intelligibility",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "Las indicaciones contienen referencias suficientes.",
+      "feedback_incorrect": "Haz una pausa breve antes de la segunda referencia y enfatiza corner.",
+      "estimated_seconds": 110,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el paseo y traza la ruta del visitante.",
+      "reading_ref": "A1-M1-T10-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 4 map relations",
+      "feedback_correct": "Convertiste las preposiciones en un recorrido.",
+      "feedback_incorrect": "Relaciona hotel, station, bank, café, pharmacy y corner.",
+      "estimated_seconds": 130,
+      "prompt": "Lee el paseo y traza la ruta del visitante.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and 4 map relations"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es turista. Dale una ruta desde un hotel hasta una farmacia y estación.",
+      "role": "tourist",
+      "student_goal": "Give directions using between, across from, opposite and at the corner.",
+      "allowed_support": [
+        "city map",
+        "direction cards",
+        "sentence starter",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "uses between with two references",
+        "uses across from/opposite",
+        "uses at the corner",
+        "answers one follow-up"
+      ],
+      "feedback_correct": "Diste una ruta comprensible con puntos de referencia.",
+      "feedback_incorrect": "Usa una expresión por relación y nombra siempre el punto de referencia.",
+      "estimated_seconds": 200,
+      "prompt": "La IA es turista. Dale una ruta desde un hotel hasta una farmacia y estación.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Describe el camino entre dos lugares conocidos de tu barrio.",
+      "prompt": "The ____ is between ____ and ____. The ____ is across from ____. The ____ is at the corner.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "uses three target relations",
+        "uses two references with between",
+        "communicates a usable route"
+      ],
+      "feedback_correct": "Aplicaste preposiciones a tu entorno real.",
+      "feedback_incorrect": "Dibuja primero el mapa y después convierte cada relación en una frase.",
+      "estimated_seconds": 130,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    },
+    {
+      "id": "A1-M1-T10-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": [
+        "A between B and C = ___",
+        "enfrente de = ___ from",
+        "en la esquina = at the ___"
+      ],
+      "correct_answers": [
+        "between",
+        "across",
+        "corner"
+      ],
+      "feedback_correct": "Recuperaste expresiones para dar direcciones.",
+      "feedback_incorrect": "Between necesita dos referencias; across from = enfrente de; at the corner = en la esquina.",
+      "estimated_seconds": 90,
+      "prompt": "Completa sin mirar.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "between",
+          "across",
+          "corner"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T10-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M1-T10-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

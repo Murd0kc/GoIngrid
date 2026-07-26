@@ -1,0 +1,421 @@
+{
+  "id": "A1-M2-T05-L01",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T05",
+  "title": "Decir lo que no haces",
+  "estimated_seconds": 900,
+  "communication_goal": "Expresar hábitos y acciones que no realizas usando don't con I, you, we y they.",
+  "situation": "Hablas sobre tu rutina y aclaras qué actividades no forman parte de tu día.",
+  "language_focus": {
+    "grammar": [
+      "I don't...",
+      "You don't...",
+      "We don't...",
+      "They don't..."
+    ],
+    "function": "negative statements in the present simple"
+  },
+  "vocabulary": [
+    {
+      "word": "drive",
+      "meaning_es": "conducir",
+      "example": "I don't drive to work."
+    },
+    {
+      "word": "drink coffee",
+      "meaning_es": "tomar café",
+      "example": "I don't drink coffee."
+    },
+    {
+      "word": "watch the news",
+      "meaning_es": "ver las noticias",
+      "example": "We don't watch the news."
+    },
+    {
+      "word": "work on Sundays",
+      "meaning_es": "trabajar los domingos",
+      "example": "They don't work on Sundays."
+    },
+    {
+      "word": "every morning",
+      "meaning_es": "cada mañana",
+      "example": "I exercise every morning."
+    },
+    {
+      "word": "often",
+      "meaning_es": "a menudo",
+      "example": "We don't often eat out."
+    }
+  ],
+  "context": {
+    "title": "Comparing routines",
+    "dialogue": [
+      {
+        "speaker": "Julia",
+        "english": "Do you drive to work?",
+        "spanish": "¿Conduces al trabajo?"
+      },
+      {
+        "speaker": "Marco",
+        "english": "No, I don't. I take the bus.",
+        "spanish": "No. Tomo el autobús."
+      },
+      {
+        "speaker": "Julia",
+        "english": "Do you drink coffee in the morning?",
+        "spanish": "¿Tomas café por la mañana?"
+      },
+      {
+        "speaker": "Marco",
+        "english": "No, I don't. We drink tea at home.",
+        "spanish": "No. En casa tomamos té."
+      },
+      {
+        "speaker": "Julia",
+        "english": "My parents don't work on Sundays either.",
+        "spanish": "Mis padres tampoco trabajan los domingos."
+      }
+    ]
+  },
+  "explanation_es": "Para negar acciones en presente simple usa sujeto + don't + verbo base. Don't es la contracción de do not. No agregues s al verbo después de don't: I don't drive, no I don't drives. La negación va antes del verbo principal.",
+  "spanish_speaker_notes": [
+    "No traduzcas 'no conduzco' como I no drive; necesitas don't.",
+    "Después de don't siempre va la forma base: don't work, don't eat, don't study.",
+    "Don't puede sonar /doʊnt/; practica la contracción como una sola unidad.",
+    "Para decir 'tampoco' puedes usar either al final de una oración negativa."
+  ],
+  "pronunciation": {
+    "targets": [
+      {
+        "text": "I don't drive.",
+        "focus": "contracción don't clara"
+      },
+      {
+        "text": "We don't work on Sundays.",
+        "focus": "ritmo de la negación"
+      },
+      {
+        "text": "They don't drink coffee either.",
+        "focus": "either al final"
+      }
+    ],
+    "tip_es": "La palabra don't debe escucharse, pero no la acentúes más que toda la frase."
+  },
+  "reading": {
+    "title": "A different morning",
+    "text": "Marco doesn't drive to work. He takes the bus. He doesn't drink coffee, either. He drinks tea at home. On Sundays, he and his friends don't work. They play soccer instead.",
+    "glossary": [
+      {
+        "term": "either",
+        "meaning_es": "tampoco"
+      },
+      {
+        "term": "instead",
+        "meaning_es": "en cambio"
+      },
+      {
+        "term": "play soccer",
+        "meaning_es": "jugar al fútbol"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "a1",
+      "type": "vocabulary_match",
+      "skill": "vocabulary",
+      "instruction": "Relaciona las actividades con sus significados.",
+      "pairs": [
+        {
+          "english": "drive",
+          "spanish": "conducir"
+        },
+        {
+          "english": "drink coffee",
+          "spanish": "tomar café"
+        },
+        {
+          "english": "work on Sundays",
+          "spanish": "trabajar los domingos"
+        },
+        {
+          "english": "watch the news",
+          "spanish": "ver las noticias"
+        }
+      ],
+      "prompt": "Relaciona las actividades con sus significados.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "drive=conducir",
+          "drink coffee=tomar café",
+          "work on Sundays=trabajar los domingos",
+          "watch the news=ver las noticias"
+        ],
+        "expected_pairs": [
+          {
+            "english": "drive",
+            "spanish": "conducir"
+          },
+          {
+            "english": "drink coffee",
+            "spanish": "tomar café"
+          },
+          {
+            "english": "work on Sundays",
+            "spanish": "trabajar los domingos"
+          },
+          {
+            "english": "watch the news",
+            "spanish": "ver las noticias"
+          }
+        ],
+        "open_response": false,
+        "status": "structured_check_required"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a2",
+      "type": "listening_choice",
+      "skill": "listening",
+      "instruction": "Escucha: No, I don't. I take the bus. Elige la pregunta original.",
+      "audio_text": "No, I don't. I take the bus.",
+      "options": [
+        "Do you drive to work?",
+        "Are you at work?",
+        "Where do you work?"
+      ],
+      "correct": "Do you drive to work?",
+      "feedback": "La respuesta negativa habla de conducir y del autobús.",
+      "prompt": "Escucha: No, I don't. I take the bus. Elige la pregunta original.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Do you drive to work?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "La respuesta negativa habla de conducir y del autobús.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a3",
+      "type": "multiple_choice",
+      "skill": "grammar",
+      "instruction": "Completa: We ___ work on Sundays.",
+      "options": [
+        "don't",
+        "doesn't",
+        "aren't"
+      ],
+      "correct": "don't",
+      "feedback": "Con we usamos don't para negar acciones.",
+      "prompt": "Completa: We ___ work on Sundays.",
+      "difficulty": null,
+      "estimated_seconds": 35,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "don't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Con we usamos don't para negar acciones.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a4",
+      "type": "sentence_builder",
+      "skill": "grammar",
+      "instruction": "Ordena: coffee / don't / drink / I / .",
+      "answer": "I don't drink coffee.",
+      "feedback": "Sujeto + don't + verbo base + complemento.",
+      "prompt": "Ordena: coffee / don't / drink / I / .",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "I don't drink coffee."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Sujeto + don't + verbo base + complemento.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a5",
+      "type": "correction",
+      "skill": "accuracy",
+      "instruction": "Corrige: They don't works on Sundays.",
+      "answer": "They don't work on Sundays.",
+      "feedback": "Después de don't el verbo no lleva s.",
+      "prompt": "Corrige: They don't works on Sundays.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "They don't work on Sundays."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "Después de don't el verbo no lleva s.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a6",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Lee: I don't drive. I don't drink coffee. I take the bus.",
+      "target": "I don't drive. I don't drink coffee. I take the bus.",
+      "evaluation": {
+        "0": "don't audible",
+        "1": "verbos base correctos",
+        "2": "ritmo comprensible",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "prompt": "I don't drive. I don't drink coffee. I take the bus.",
+      "difficulty": null,
+      "estimated_seconds": 60,
+      "target_error": null,
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a7",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee A Different Morning y responde: Does Marco drive to work?",
+      "text_reference": "reading",
+      "answer": "No, he doesn't.",
+      "feedback": "El texto dice que toma el autobús, no que conduce.",
+      "prompt": "Lee A Different Morning y responde: Does Marco drive to work?",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "No, he doesn't."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": "El texto dice que toma el autobús, no que conduce.",
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a8",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA será un compañero comparando rutinas. Responde con frases afirmativas o negativas y explica una diferencia.",
+      "scenario": "You and a classmate compare morning routines.",
+      "ai_language": "English with a Spanish hint after two failed attempts",
+      "prompt": "La IA será un compañero comparando rutinas. Responde con frases afirmativas o negativas y explica una diferencia.",
+      "difficulty": null,
+      "estimated_seconds": 180,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a9",
+      "type": "transfer_mission",
+      "skill": "production",
+      "instruction": "Escribe y graba cinco cosas que no haces en tu rutina. Añade una alternativa para dos de ellas.",
+      "success_criteria": [
+        "usa don't correctamente",
+        "mantiene el verbo en forma base",
+        "las frases describen tu vida real"
+      ],
+      "prompt": "Escribe y graba cinco cosas que no haces en tu rutina. Añade una alternativa para dos de ellas.",
+      "difficulty": null,
+      "estimated_seconds": 120,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    },
+    {
+      "id": "a10",
+      "type": "spaced_retrieval",
+      "skill": "retention",
+      "instruction": "Sin mirar, completa: I ___ drive. We ___ drink coffee. They ___ work on Sundays.",
+      "answers": [
+        "don't",
+        "don't",
+        "don't"
+      ],
+      "prompt": "Sin mirar, completa: I ___ drive. We ___ drink coffee. They ___ work on Sundays.",
+      "difficulty": null,
+      "estimated_seconds": 45,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "don't",
+          "don't",
+          "don't"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "feedback_correct": null,
+      "feedback_incorrect": null,
+      "hint": null,
+      "source_lesson_id": "A1-M2-T05-L01"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_demonstrate": [
+      "formar negaciones con don't",
+      "usar el verbo base después de don't",
+      "explicar al menos tres hábitos que no realiza"
+    ],
+    "retry": "Si agregas s después de don't, repite la regla: don't + verbo base."
+  },
+  "status": "needs_review",
+  "source_file": "content/rebuild/A1-M2-T05-L01.json",
+  "contract_version": "lesson-v1",
+  "review_flags": []
+}

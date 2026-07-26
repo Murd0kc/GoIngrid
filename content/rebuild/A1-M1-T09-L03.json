@@ -1,0 +1,176 @@
+{
+  "id": "A1-M1-T09-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T09",
+  "title": "What is missing?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede decir qué no hay y explicar qué falta en un espacio.",
+  "situation": "Preparar una sala y avisar que faltan objetos necesarios.",
+  "language_focus": ["There isn't a printer.", "There aren't enough chairs.", "There is no coffee.", "There are no clean cups.", "We need more tables."],
+  "vocabulary": [
+    { "term": "missing", "meaning_es": "que falta", "example": "Two chairs are missing." },
+    { "term": "enough", "meaning_es": "suficiente", "example": "There aren't enough chairs." },
+    { "term": "printer", "meaning_es": "impresora", "example": "There isn't a printer." },
+    { "term": "coffee", "meaning_es": "café", "example": "There is no coffee." },
+    { "term": "clean", "meaning_es": "limpio / limpia", "example": "There are no clean cups." },
+    { "term": "need", "meaning_es": "necesitar", "example": "We need more tables." }
+  ],
+  "context": {
+    "before": "A team prepares a meeting room and reports missing items.",
+    "dialogue": [
+      { "speaker": "Organizer", "text": "Is the room ready?" },
+      { "speaker": "Assistant", "text": "Almost. There isn't a printer." },
+      { "speaker": "Organizer", "text": "Are there enough chairs?" },
+      { "speaker": "Assistant", "text": "No, there aren't enough chairs. There are no clean cups, either." },
+      { "speaker": "Organizer", "text": "Okay. We need two more chairs and some cups." }
+    ]
+  },
+  "explanation_es": "There isn't se usa con singular: There isn't a printer. There aren't se usa con plural: There aren't enough chairs. También puedes usar There is no + singular o There are no + plural para decir que no hay.",
+  "spanish_speaker_notes": [
+    "No digas There isn't chairs; chairs es plural y necesita There aren't.",
+    "Enough significa suficiente y va antes del sustantivo plural: enough chairs.",
+    "Para solucionar el problema añade una acción: We need more chairs."
+  ],
+  "pronunciation": {
+    "target": "Producir negativas con there isn't y there aren't y destacar el objeto que falta.",
+    "models": [
+      { "text": "There isn't a printer.", "stress": ["isn't", "printer"] },
+      { "text": "There aren't enough chairs.", "stress": ["aren't", "enough", "chairs"] },
+      { "text": "There are no clean cups.", "stress": ["no", "clean cups"] }
+    ],
+    "student_feedback": "La negación debe ser audible porque cambia el significado del reporte."
+  },
+  "reading": {
+    "title": "The room is almost ready",
+    "text": "The meeting room has tables and a projector. There isn't a printer. There aren't enough chairs for everyone. There are no clean cups. The team writes a list of missing items and asks for help.",
+    "interactive_vocabulary": ["almost", "projector", "for everyone", "writes", "asks for help"],
+    "questions": [
+      { "prompt": "What is missing?", "options": ["A printer and enough chairs", "Tables and a projector", "The room"], "answer": "A printer and enough chairs" },
+      { "prompt": "What does the team do?", "options": ["Writes a list and asks for help", "Leaves immediately", "Buys a room"], "answer": "Writes a list and asks for help" }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T09-L03-E01",
+      "type": "missing_items_sort",
+      "skill": "vocabulary",
+      "instruction": "Clasifica el problema como singular o plural.",
+      "items": [{ "text": "no printer", "category": "singular" }, { "text": "not enough chairs", "category": "plural" }, { "text": "no coffee", "category": "singular" }, { "text": "no clean cups", "category": "plural" }],
+      "categories": ["singular", "plural"],
+      "feedback_correct": "La cantidad determina isn't o aren't.",
+      "feedback_incorrect": "Printer/coffee son no contables o singulares aquí; chairs/cups son plurales.",
+      "estimated_seconds": 65
+    },
+    {
+      "id": "A1-M1-T09-L03-E02",
+      "type": "listening_problem_report",
+      "skill": "listening",
+      "instruction": "Escucha y elige qué falta.",
+      "prompt": "There aren't enough chairs.",
+      "options": ["There are not enough chairs", "There is no printer", "There are no cups"],
+      "correct_answer": "There are not enough chairs",
+      "feedback_correct": "Entendiste el objeto y la cantidad insuficiente.",
+      "feedback_incorrect": "Escucha aren't, enough y chairs.",
+      "estimated_seconds": 50
+    },
+    {
+      "id": "A1-M1-T09-L03-E03",
+      "type": "negative_choice",
+      "skill": "grammar",
+      "instruction": "Completa la negación singular.",
+      "prompt": "There ___ a printer.",
+      "options": ["isn't", "aren't", "don't"],
+      "correct_answer": "isn't",
+      "feedback_correct": "Printer es singular: There isn't a printer.",
+      "feedback_incorrect": "Singular usa there isn't.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T09-L03-E04",
+      "type": "negative_choice",
+      "skill": "grammar",
+      "instruction": "Completa la negación plural.",
+      "prompt": "There ___ enough chairs.",
+      "options": ["aren't", "isn't", "doesn't"],
+      "correct_answer": "aren't",
+      "feedback_correct": "Chairs es plural: There aren't enough chairs.",
+      "feedback_incorrect": "Plural usa there aren't.",
+      "estimated_seconds": 35
+    },
+    {
+      "id": "A1-M1-T09-L03-E05",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige el reporte.",
+      "prompt": "There isn't enough chairs.",
+      "correct_answer": "There aren't enough chairs.",
+      "feedback_correct": "La forma plural es there aren't.",
+      "feedback_incorrect": "Chairs es plural; cambia isn't por aren't.",
+      "estimated_seconds": 40
+    },
+    {
+      "id": "A1-M1-T09-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba un reporte de dos problemas y una solución.",
+      "prompt": "There isn't a printer. There aren't enough chairs. We need more chairs.",
+      "evaluation": ["negative clarity", "singular/plural contrast", "solution intelligibility"],
+      "feedback_correct": "Reportaste problemas y propusiste una acción.",
+      "feedback_incorrect": "Marca isn't/aren't y después enfatiza la solución need more chairs.",
+      "estimated_seconds": 110
+    },
+    {
+      "id": "A1-M1-T09-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el reporte y completa la lista de cosas que faltan.",
+      "reading_ref": "A1-M1-T09-L03-reading-01",
+      "correct_answer": "2 comprehension answers and 3 missing items",
+      "feedback_correct": "Identificaste los problemas y la acción del equipo.",
+      "feedback_incorrect": "Busca printer, chairs y clean cups.",
+      "estimated_seconds": 125
+    },
+    {
+      "id": "A1-M1-T09-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA es la persona responsable. Reporta qué falta en una sala y propone qué necesitan.",
+      "role": "responsible manager",
+      "student_goal": "Use negative there is/are and state two needs.",
+      "allowed_support": ["room checklist", "problem cards", "sentence starter", "Spanish hint"],
+      "success_criteria": ["reports one singular absence", "reports one plural shortage", "proposes two needs"],
+      "feedback_correct": "Describiste un problema y ayudaste a resolverlo.",
+      "feedback_incorrect": "Singular: There isn't...; plural: There aren't...; solución: We need...",
+      "estimated_seconds": 200
+    },
+    {
+      "id": "A1-M1-T09-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Envía un reporte de tres cosas que faltan en una casa, sala o trabajo.",
+      "prompt": "There isn't ____. There aren't ____. We need ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": ["uses singular negative", "uses plural negative", "proposes a need or solution"],
+      "feedback_correct": "Usaste la estructura para resolver una necesidad concreta.",
+      "feedback_incorrect": "Separa un problema singular, uno plural y la solución.",
+      "estimated_seconds": 130
+    },
+    {
+      "id": "A1-M1-T09-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Completa sin mirar.",
+      "prompts": ["singular negative = There ___", "plural negative = There ___", "solution = We ___ more chairs"],
+      "correct_answers": ["isn't", "aren't", "need"],
+      "feedback_correct": "Recuperaste negación y solución.",
+      "feedback_incorrect": "Singular = isn't; plural = aren't; para solucionar usa We need.",
+      "estimated_seconds": 90
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "A1-M2-T03-L01",
+  "level": "A1",
+  "module_code": "M2",
+  "topic_code": "T03",
+  "title": "Do you...? Does she...?",
+  "estimated_seconds": 960,
+  "communication_goal": "El estudiante puede formular preguntas sobre hábitos usando do y does.",
+  "situation": "Hacer preguntas para conocer las preferencias y rutinas de otra persona.",
+  "language_focus": ["Do you like music?", "Do they work here?", "Does he play tennis?", "Does she live nearby?", "What do you do?"],
+  "vocabulary": [
+    { "term": "like", "meaning_es": "gustar", "example": "Do you like music?" },
+    { "term": "play tennis", "meaning_es": "jugar al tenis", "example": "Does he play tennis?" },
+    { "term": "live nearby", "meaning_es": "vivir cerca", "example": "Does she live nearby?" },
+    { "term": "work here", "meaning_es": "trabajar aquí", "example": "Do they work here?" },
+    { "term": "question", "meaning_es": "pregunta", "example": "Ask a question." },
+    { "term": "answer", "meaning_es": "respuesta", "example": "Give an answer." }
+  ],
+  "context": { "before": "A new student asks classmates questions during a welcome activity.", "dialogue": [{ "speaker": "Student", "text": "Do you like music?" }, { "speaker": "Classmate", "text": "Yes, I do." }, { "speaker": "Student", "text": "Does your brother play tennis?" }, { "speaker": "Classmate", "text": "No, he doesn't. He plays soccer." }, { "speaker": "Student", "text": "Do your friends work here?" }, { "speaker": "Classmate", "text": "Yes, they do." }] },
+  "explanation_es": "Do ayuda a formar preguntas con I, you, we y they. Does se usa con he, she e it. El verbo principal permanece en forma base: Does he play?, no Does he plays?.",
+  "spanish_speaker_notes": ["En español no siempre existe un auxiliar equivalente; en inglés do/does es necesario en estas preguntas.", "El sujeto decide do o does.", "Después de does, no añadas -s al verbo principal."],
+  "pronunciation": { "target": "Producir do/does en preguntas con entonación natural.", "models": [{ "text": "Do you like music?", "stress": ["like", "music"], "intonation": "rising" }, { "text": "Does he play tennis?", "stress": ["play", "tennis"], "intonation": "rising" }], "student_feedback": "Do/does suele ser corto; la información principal está en el verbo y el complemento." },
+  "reading": { "title": "Welcome questions", "text": "At the welcome activity, students ask questions. Ana asks Luis if he likes music. Luis asks about her brother. Her brother does not play tennis; he plays soccer. Their friends work at the school.", "interactive_vocabulary": ["welcome activity", "asks", "brother", "soccer", "school"], "questions": [{ "prompt": "What does Luis play?", "options": ["Soccer", "Tennis", "Music"], "answer": "Soccer" }, { "prompt": "Where do their friends work?", "options": ["At the school", "At home", "At a park"], "answer": "At the school" }] },
+  "activities": [
+    { "id": "A1-M2-T03-L01-E01", "type": "subject_auxiliary_sort", "skill": "vocabulary", "instruction": "Clasifica el sujeto con el auxiliar correcto.", "items": [{ "text": "I", "category": "do" }, { "text": "you", "category": "do" }, { "text": "she", "category": "does" }, { "text": "they", "category": "do" }, { "text": "he", "category": "does" }], "categories": ["do", "does"], "feedback_correct": "Relacionaste el auxiliar con el sujeto.", "feedback_incorrect": "Do con I/you/we/they; does con he/she/it.", "estimated_seconds": 60 },
+    { "id": "A1-M2-T03-L01-E02", "type": "listening_question", "skill": "listening", "instruction": "Escucha y elige quién recibe la pregunta.", "prompt": "Does he play tennis?", "options": ["A man", "The speaker's group", "Several listeners"], "correct_answer": "A man", "feedback_correct": "Does señala una tercera persona singular.", "feedback_incorrect": "Escucha he después de does.", "estimated_seconds": 45 },
+    { "id": "A1-M2-T03-L01-E03", "type": "auxiliary_choice", "skill": "grammar", "instruction": "Completa la pregunta.", "prompt": "___ you like music?", "options": ["Do", "Does", "Are"], "correct_answer": "Do", "feedback_correct": "You usa do.", "feedback_incorrect": "La pregunta con you empieza Do you...?.", "estimated_seconds": 35 },
+    { "id": "A1-M2-T03-L01-E04", "type": "question_builder", "skill": "grammar", "instruction": "Ordena la pregunta.", "tokens": ["Does", "she", "live", "nearby?"], "correct_answer": "Does she live nearby?", "feedback_correct": "Does + she + verbo base.", "feedback_incorrect": "Después de does va she y luego live sin s.", "estimated_seconds": 45 },
+    { "id": "A1-M2-T03-L01-E05", "type": "error_correction", "skill": "grammar", "instruction": "Corrige la pregunta.", "prompt": "Does he likes music?", "correct_answer": "Does he like music?", "feedback_correct": "Does ya lleva la marca de tercera persona.", "feedback_incorrect": "Quita la s de likes.", "estimated_seconds": 45 },
+    { "id": "A1-M2-T03-L01-E06", "type": "pronunciation_recording", "skill": "pronunciation", "instruction": "Graba dos preguntas.", "prompt": "Do you like music? Does she live nearby?", "evaluation": ["do/does contrast", "question intonation", "base verb"], "feedback_correct": "Tus preguntas suenan claras y naturales.", "feedback_incorrect": "No alargues do/does; enfatiza like, music y nearby.", "estimated_seconds": 90 },
+    { "id": "A1-M2-T03-L01-E07", "type": "interactive_reading", "skill": "reading", "instruction": "Lee la actividad y clasifica las preguntas por sujeto.", "reading_ref": "A1-M2-T03-L01-reading-01", "correct_answer": "2 comprehension answers and 4 question subjects", "feedback_correct": "Identificaste cuándo usar do y does.", "feedback_incorrect": "Busca quién recibe cada pregunta.", "estimated_seconds": 120 },
+    { "id": "A1-M2-T03-L01-E08", "type": "ai_roleplay", "skill": "conversation", "instruction": "La IA es un compañero nuevo. Haz cinco preguntas sobre sus hábitos y familia.", "role": "classmate", "student_goal": "Use Do and Does questions with base verbs.", "allowed_support": ["question cards", "subject cards", "Spanish hint"], "success_criteria": ["asks three Do questions", "asks two Does questions", "uses base verbs"], "feedback_correct": "Hiciste preguntas variadas y gramaticalmente claras.", "feedback_incorrect": "Elige do/does por sujeto y deja el verbo en forma base.", "estimated_seconds": 190 },
+    { "id": "A1-M2-T03-L01-E09", "type": "transfer_mission", "skill": "integrated", "instruction": "Crea una mini encuesta para una persona conocida.", "prompt": "Do you ____? Do you ____? Does your ____ ____?", "response_type": "open_speech_or_text", "evaluation_criteria": ["uses two Do questions", "uses one Does question", "uses base verbs", "has clear meaning"], "feedback_correct": "Usaste auxiliares para obtener información real.", "feedback_incorrect": "Revisa el sujeto de cada pregunta.", "estimated_seconds": 120 },
+    { "id": "A1-M2-T03-L01-E10", "type": "spaced_retrieval", "skill": "review", "instruction": "Completa sin mirar.", "prompts": ["I/you/we/they = ___", "he/she/it = ___", "Does she ___ music?"], "correct_answers": ["do", "does", "like"], "feedback_correct": "Recuperaste auxiliar y verbo base.", "feedback_incorrect": "Do con plural y does con tercera persona; después va la forma base.", "estimated_seconds": 90 }
+  ],
+  "mastery_criteria": { "minimum_score": 0.8, "must_complete": ["pronunciation_recording", "ai_roleplay", "transfer_mission"], "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días." }
+}
