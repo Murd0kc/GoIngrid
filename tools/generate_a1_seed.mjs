@@ -9,6 +9,7 @@ const output = path.join(root, 'supabase', 'seeds', 'A1_CONTENT_SEED.sql')
 
 const sql = (value) => value === null || value === undefined ? 'NULL' : `'${String(value).replaceAll("'", "''")}'`
 const json = (value) => `${sql(JSON.stringify(value ?? null))}::jsonb`
+const exerciseContentCode = (lessonId, index) => `${lessonId}-E${String(index + 1).padStart(2, '0')}`
 const toPublicActivity = (activity, lesson) => {
   const publicActivity = structuredClone(activity)
 
@@ -64,6 +65,8 @@ const out = [
   "do $$ declare v_level_id uuid; v_module_id uuid; v_topic_id uuid; v_lesson_id uuid; v_exercise_id uuid; begin",
   "select l.id into v_level_id from public.levels l where l.code='A1';",
 ]
+const generatedContentCodes = new Set()
+let generatedActivityCount = 0
 
 let currentModule = ''
 let currentTopic = ''
@@ -90,6 +93,13 @@ for (const name of files) {
   out.push(`select l.id into v_lesson_id from public.lessons l where l.topic_id=v_topic_id and l.sort_order=${lessonOrder};`)
   out.push(`if v_lesson_id is null then insert into public.lessons(topic_id,title,objective,estimated_minutes,estimated_seconds,is_published,sort_order,skill_focus,cefr_objectives) values(v_topic_id,${sql(lesson.title)},${sql(lesson.communication_goal)},${Math.max(1, Math.ceil(lesson.estimated_seconds/60))},${lesson.estimated_seconds},true,${lessonOrder},ARRAY[${sql(lesson.pronunciation?.targets ? 'pronunciation' : 'integrated')}],ARRAY[${sql('A1 objective')}]) returning id into v_lesson_id; else update public.lessons set title=${sql(lesson.title)},objective=${sql(lesson.communication_goal)},estimated_seconds=${lesson.estimated_seconds},estimated_minutes=${Math.max(1, Math.ceil(lesson.estimated_seconds/60))},is_published=true where public.lessons.id=v_lesson_id; end if;`)
   lesson.activities.forEach((activity, index) => {
+    const contentCode = exerciseContentCode(lesson.id, index)
+    if (generatedContentCodes.has(contentCode)) {
+      throw new Error(`Duplicate generated exercise content code: ${contentCode}`)
+    }
+    generatedContentCodes.add(contentCode)
+    generatedActivityCount += 1
+
     const readingAnswers = activity.type === 'interactive_reading'
       ? (lesson.reading?.questions ?? []).map((question) => (
           question.accepted_answers?.length ? question.accepted_answers : [question.answer]
@@ -99,7 +109,9 @@ for (const name of files) {
       ? readingAnswers
       : (activity.evaluation?.accepted_answers ?? [])
     const publicActivity = toPublicActivity(activity, lesson)
-    out.push(`insert into public.exercises(lesson_id,content_code,exercise_type,skill,instruction,prompt,explanation,correct_answer,content_payload,feedback_correct,feedback_incorrect,estimated_seconds,difficulty,sort_order,is_published) values(v_lesson_id,${sql(activity.id)},${sql(activity.type)},${sql(activity.skill)},${sql(activity.instruction ?? activity.prompt)},${sql(activity.prompt ?? activity.instruction)},${sql(activity.feedback_correct ?? activity.feedback ?? '')},${json(correct)},${json(publicActivity)},${sql(activity.feedback_correct ?? '')},${sql(activity.feedback_incorrect ?? '')},${activity.estimated_seconds},${Math.min(5, Math.max(1, Number(activity.difficulty) || 1))},${index + 1},true) on conflict(lesson_id,sort_order) do update set content_code=excluded.content_code,exercise_type=excluded.exercise_type,skill=excluded.skill,instruction=excluded.instruction,prompt=excluded.prompt,explanation=excluded.explanation,correct_answer=excluded.correct_answer,content_payload=excluded.content_payload,feedback_correct=excluded.feedback_correct,feedback_incorrect=excluded.feedback_incorrect,estimated_seconds=excluded.estimated_seconds,is_published=true returning id into v_exercise_id;`)
+    publicActivity.id = contentCode
+    if (activity.id !== contentCode) publicActivity.source_activity_id = activity.id
+    out.push(`insert into public.exercises(lesson_id,content_code,exercise_type,skill,instruction,prompt,explanation,correct_answer,content_payload,feedback_correct,feedback_incorrect,estimated_seconds,difficulty,sort_order,is_published) values(v_lesson_id,${sql(contentCode)},${sql(activity.type)},${sql(activity.skill)},${sql(activity.instruction ?? activity.prompt)},${sql(activity.prompt ?? activity.instruction)},${sql(activity.feedback_correct ?? activity.feedback ?? '')},${json(correct)},${json(publicActivity)},${sql(activity.feedback_correct ?? '')},${sql(activity.feedback_incorrect ?? '')},${activity.estimated_seconds},${Math.min(5, Math.max(1, Number(activity.difficulty) || 1))},${index + 1},true) on conflict(lesson_id,sort_order) do update set content_code=excluded.content_code,exercise_type=excluded.exercise_type,skill=excluded.skill,instruction=excluded.instruction,prompt=excluded.prompt,explanation=excluded.explanation,correct_answer=excluded.correct_answer,content_payload=excluded.content_payload,feedback_correct=excluded.feedback_correct,feedback_incorrect=excluded.feedback_incorrect,estimated_seconds=excluded.estimated_seconds,is_published=true returning id into v_exercise_id;`)
     const options = Array.isArray(activity.options) ? activity.options : []
     if (options.length > 0) {
       out.push('delete from public.exercise_options eo where eo.exercise_id=v_exercise_id;')
@@ -116,4 +128,4 @@ for (const name of files) {
 out.push('end $$;', 'commit;')
 await fs.mkdir(path.dirname(output), { recursive: true })
 await fs.writeFile(output, `${out.join('\n')}\n`, 'utf8')
-console.log(`Seed generado: ${files.length} lecciones, ${files.length * 10} actividades.`)
+console.log(`Seed generado: ${files.length} lecciones, ${generatedActivityCount} actividades, ${generatedContentCodes.size} códigos únicos.`)

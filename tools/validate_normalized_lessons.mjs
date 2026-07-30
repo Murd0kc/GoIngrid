@@ -11,6 +11,7 @@ const allowedStatuses = new Set(['auto_check_candidate', 'structured_check_requi
 
 const report = { generated_at: new Date().toISOString(), files: [], errors: [], summary: {} }
 const ids = new Set()
+const generatedContentCodes = new Set()
 const files = (await fs.readdir(inputDir)).filter((name) => name.endsWith('.json')).sort()
 
 for (const name of files) {
@@ -24,11 +25,14 @@ for (const name of files) {
     for (const field of lessonRequired) if (lesson[field] === undefined || lesson[field] === null) errors.push(`missing_lesson_field:${field}`)
     if (lesson.level !== 'A1') errors.push('invalid_level:A1_expected')
     if (!Array.isArray(lesson.activities) || lesson.activities.length !== 10) errors.push('activities_count:10_expected')
-    for (const activity of lesson.activities ?? []) {
+    for (const [activityIndex, activity] of (lesson.activities ?? []).entries()) {
       for (const field of activityRequired) if (activity[field] === undefined || activity[field] === null) errors.push(`missing_activity_field:${activity.id ?? 'unknown'}:${field}`)
       const scopedId = `${lesson.id}:${activity.id}`
       if (ids.has(scopedId)) errors.push(`duplicate_activity_id:${scopedId}`)
       ids.add(scopedId)
+      const contentCode = `${lesson.id}-E${String(activityIndex + 1).padStart(2, '0')}`
+      if (generatedContentCodes.has(contentCode)) errors.push(`duplicate_generated_content_code:${contentCode}`)
+      generatedContentCodes.add(contentCode)
       if (!allowedStatuses.has(activity.evaluation?.status)) errors.push(`invalid_evaluation_status:${activity.id}`)
       if (!Array.isArray(activity.evaluation?.accepted_answers)) errors.push(`accepted_answers_not_array:${activity.id}`)
       if (typeof activity.estimated_seconds !== 'number' || activity.estimated_seconds <= 0) errors.push(`invalid_activity_seconds:${activity.id}`)
@@ -38,7 +42,7 @@ for (const name of files) {
   report.errors.push(...errors.map((error) => ({ file: name, error })))
 }
 
-report.summary = { input_files: files.length, valid_files: report.files.filter((file) => file.errors.length === 0).length, invalid_files: report.files.filter((file) => file.errors.length > 0).length, errors: report.errors.length, unique_activity_ids: ids.size }
+report.summary = { input_files: files.length, valid_files: report.files.filter((file) => file.errors.length === 0).length, invalid_files: report.files.filter((file) => file.errors.length > 0).length, errors: report.errors.length, unique_activity_ids: ids.size, unique_generated_content_codes: generatedContentCodes.size }
 report.status = report.errors.length === 0 ? 'passed' : 'failed'
 await fs.writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8')
 console.log(`ValidaciÃ³n: ${report.status}; archivos vÃ¡lidos ${report.summary.valid_files}/${report.summary.input_files}; errores ${report.summary.errors}.`)

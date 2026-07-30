@@ -488,7 +488,8 @@
     "valid_files": 120,
     "invalid_files": 0,
     "errors": 0,
-    "unique_activity_ids": 1200
+    "unique_activity_ids": 1200,
+    "unique_generated_content_codes": 1200
   },
   "status": "passed"
 }
