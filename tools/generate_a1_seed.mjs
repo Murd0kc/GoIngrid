@@ -111,6 +111,11 @@ for (const name of files) {
     const publicActivity = toPublicActivity(activity, lesson)
     publicActivity.id = contentCode
     if (activity.id !== contentCode) publicActivity.source_activity_id = activity.id
+    publicActivity.context = {
+      situation: lesson.situation ?? null,
+      communication_goal: lesson.communication_goal ?? null,
+      first_speaker: lesson.context?.dialogue?.[0]?.speaker ?? null,
+    }
     out.push(`insert into public.exercises(lesson_id,content_code,exercise_type,skill,instruction,prompt,explanation,correct_answer,content_payload,feedback_correct,feedback_incorrect,estimated_seconds,difficulty,sort_order,is_published) values(v_lesson_id,${sql(contentCode)},${sql(activity.type)},${sql(activity.skill)},${sql(activity.instruction ?? activity.prompt)},${sql(activity.prompt ?? activity.instruction)},${sql(activity.feedback_correct ?? activity.feedback ?? '')},${json(correct)},${json(publicActivity)},${sql(activity.feedback_correct ?? '')},${sql(activity.feedback_incorrect ?? '')},${activity.estimated_seconds},${Math.min(5, Math.max(1, Number(activity.difficulty) || 1))},${index + 1},true) on conflict(lesson_id,sort_order) do update set content_code=excluded.content_code,exercise_type=excluded.exercise_type,skill=excluded.skill,instruction=excluded.instruction,prompt=excluded.prompt,explanation=excluded.explanation,correct_answer=excluded.correct_answer,content_payload=excluded.content_payload,feedback_correct=excluded.feedback_correct,feedback_incorrect=excluded.feedback_incorrect,estimated_seconds=excluded.estimated_seconds,is_published=true returning id into v_exercise_id;`)
     const options = Array.isArray(activity.options) ? activity.options : []
     if (options.length > 0) {

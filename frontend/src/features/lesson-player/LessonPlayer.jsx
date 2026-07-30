@@ -39,6 +39,13 @@ function LessonExperience({ lesson, userId, onClose, onCompleted }) {
   const isExercise = current?.kind === 'exercise'
   const canAdvance = !isExercise || (session.feedback && session.feedback.isCorrect !== false)
   const isLast = session.index + 1 === session.journey.length
+  const exerciseContext = current?.exercise?.content?.context
+  const firstSpeaker = exerciseContext?.first_speaker
+  const promptLabel = firstSpeaker === 'Cashier'
+    ? 'Pregunta del cajero'
+    : firstSpeaker === 'Customer'
+      ? 'Respuesta del cliente'
+      : 'Pregunta o frase de la situación'
 
   return (
     <main className="lesson-shell">
@@ -65,8 +72,17 @@ function LessonExperience({ lesson, userId, onClose, onCompleted }) {
               </div>
               <span className="time-pill">≈ {Math.max(1, Math.ceil(current.exercise.estimated_seconds / 60))} min</span>
             </div>
+            {exerciseContext?.situation && (
+              <div className="exercise-context">
+                <span>Situación</span>
+                <p>{exerciseContext.situation}</p>
+              </div>
+            )}
             {current.exercise.prompt && current.exercise.prompt !== current.exercise.instruction && (
-              <p className="exercise-prompt">{current.exercise.prompt}</p>
+              <div className="exercise-prompt">
+                <span>{promptLabel}</span>
+                <p>{current.exercise.prompt}</p>
+              </div>
             )}
             {!session.feedback && (
               <ExerciseRenderer

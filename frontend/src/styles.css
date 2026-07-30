@@ -198,7 +198,10 @@ button:disabled { cursor: not-allowed; opacity: .55; }
 .mastery-card strong { display: block; margin: 5px 0; color: var(--lime); font-size: 2.5rem; }
 .mastery-card p, .mission-card p, .roleplay-brief p { color: var(--muted); line-height: 1.55; }
 .exercise-heading { display: flex; justify-content: space-between; gap: 18px; align-items: flex-start; }
-.exercise-prompt { margin: 0 0 22px; padding: 15px; border: 1px solid #2e5269; border-radius: 14px; background: #0b2236; color: #d5e2ec; font-size: 1.04rem; line-height: 1.55; }
+.exercise-context { display: grid; gap: 5px; margin: 0 0 13px; padding: 13px 15px; border-left: 3px solid var(--orange); border-radius: 0 13px 13px 0; background: #101f2d; color: var(--muted); }
+.exercise-context span, .exercise-prompt > span { color: var(--orange); font-size: .72rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; }
+.exercise-context p, .exercise-prompt p { margin: 3px 0 0; }
+.exercise-prompt { display: grid; gap: 4px; margin: 0 0 22px; padding: 15px; border: 1px solid #2e5269; border-radius: 14px; background: #0b2236; color: #d5e2ec; font-size: 1.04rem; line-height: 1.55; }
 .option-list { display: grid; gap: 10px; }
 .option-button { display: grid; grid-template-columns: 34px 1fr; gap: 12px; align-items: center; border: 1px solid #31566f; border-radius: 15px; padding: 13px; background: #0c2236; text-align: left; cursor: pointer; }
 .option-button:hover { border-color: var(--cyan); background: #12334a; transform: translateX(3px); }
