@@ -2,14 +2,13 @@ services:
   goingrid-frontend:
     build:
       context: .
-    container_name: goingrid-frontend
+      args:
+        VITE_SUPABASE_URL: ${VITE_SUPABASE_URL}
+        VITE_SUPABASE_ANON_KEY: ${VITE_SUPABASE_ANON_KEY}
     restart: unless-stopped
-    env_file:
-      - .env
     networks:
       - goingrid-proxy
 
 networks:
   goingrid-proxy:
     external: true
-    name: goingrid-proxy
