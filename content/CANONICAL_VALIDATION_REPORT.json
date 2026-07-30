@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-07-30T04:53:03.229Z",
+  "source": "content/canonical/lessons/A1",
+  "files": [
+    {
+      "file": "A1-M1-T01-L01.json",
+      "lesson_id": "A1-M1-T01-L01",
+      "status": "structurally_validated",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "A1-M1-T01-L02.json",
+      "lesson_id": "A1-M1-T01-L02",
+      "status": "structurally_validated",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "A1-M1-T01-L03.json",
+      "lesson_id": "A1-M1-T01-L03",
+      "status": "structurally_validated",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "file": "A1-M1-T01-L04.json",
+      "lesson_id": "A1-M1-T01-L04",
+      "status": "structurally_validated",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "files": 4,
+    "structurally_valid": 4,
+    "invalid": 0,
+    "errors": 0,
+    "warnings": 0,
+    "unique_activity_ids": 40
+  },
+  "status": "passed"
+}

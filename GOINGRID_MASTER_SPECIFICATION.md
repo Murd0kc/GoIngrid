@@ -108,8 +108,9 @@ Fecha de consolidación: 2026-07-30.
 - Catálogo A1: 3 módulos y 30 temas.
 - Base de datos: 120 lecciones y 1.200 ejercicios del lote preliminar.
 - T01 y T02 tienen especificaciones canónicas de tema.
+- T01 tiene cuatro lecciones canónicas en estado `structurally_validated`, pendientes de revisión lingüística, pedagógica y CEFR.
 - T01 muestra la referencia completa del alfabeto en la aplicación.
-- El motor actual sigue siendo principalmente una navegación de contenido y ejercicios; todavía no implementa toda la experiencia dinámica requerida.
+- El nuevo motor dinámico está implementado localmente y pendiente de migración, despliegue y prueba integral en producción.
 - El lote preliminar de 120 lecciones no está aprobado como contenido final.
 - Ningún nivel A1 se considera terminado hasta validar contenido, experiencia, retención y transferencia.
 

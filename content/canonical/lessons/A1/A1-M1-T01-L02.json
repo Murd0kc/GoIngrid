@@ -128,7 +128,8 @@
           "At a school",
           "At a restaurant"
         ],
-        "answer": "At a hotel"
+        "answer": "At a hotel",
+        "accepted_answers": ["At a hotel", "He is at a hotel", "A hotel"]
       },
       {
         "prompt": "Why does Luis repeat the letter?",
@@ -137,7 +138,8 @@
           "He wants a drink",
           "He is leaving"
         ],
-        "answer": "The receptionist is not sure"
+        "answer": "The receptionist is not sure",
+        "accepted_answers": ["The receptionist is not sure", "Because the receptionist is not sure", "To clarify the letter"]
       }
     ]
   },
@@ -442,8 +444,12 @@
     "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
   },
   "explanation_es": "Esta lección practica Find the missing letter mediante ejemplos, comprensión y producción guiada.",
-  "status": "needs_review",
-  "source_file": "content/rebuild/A1-M1-T01-L02.json",
+  "status": "structurally_validated",
+  "source_file": "content/canonical/lessons/A1/A1-M1-T01-L02.json",
   "contract_version": "lesson-v1",
-  "review_flags": []
+  "review_flags": [
+    "linguistic_review_required",
+    "pedagogical_review_required",
+    "cefr_review_required"
+  ]
 }

@@ -11,9 +11,9 @@ Transformar T01 y T02 en una experiencia dinámica, medible y pedagógicamente c
 | Infraestructura | Operativa | Docker, Caddy, Supabase y frontend desplegados. |
 | Currículo A1 | Estructurado | 3 módulos y 30 temas. |
 | Lote preliminar | Importado | 120 lecciones y 1.200 ejercicios; no aprobado pedagógicamente. |
-| T01 | Tema canónico parcial | Teoría y alfabeto A–Z visibles; faltan motor dinámico, audio y validación integral. |
+| T01 | Vertical canónica en validación | Tema y 4 lecciones en `content/canonical`; validación estructural aprobada. Faltan revisiones lingüística, pedagógica, CEFR y prueba integral en producción. |
 | T02 | Tema canónico parcial | Teoría canónica creada; falta validar despliegue y experiencia dinámica. |
-| Motor de lección | Básico | Navegación y ejercicios; falta secuencia por etapas y variedad real. |
+| Motor de lección | Reconstrucción local | Arquitectura modular, recorrido por etapas, componentes variados y evaluación en servidor implementados; falta migrar y validar en producción. |
 | Progreso | Parcial | Existen tablas y guardado básico; falta modelo de dominio y recomendaciones. |
 | Voz | Pendiente | Grabación básica no equivale a evaluación de pronunciación. |
 | IA contextual | Pendiente | Debe integrarse al objetivo de cada tema. |
@@ -107,14 +107,29 @@ Cada tema pasa por creación canónica, validación estructural, revisión ling�
 - Corrección de UX y contenido.
 - Decisión informada antes de producir A2.
 
+## Auditoría técnica del motor anterior
+
+La auditoría del 2026-07-30 confirmó:
+
+- `App.jsx` mezclaba autenticación, consultas, navegación, evaluación, grabación y progreso.
+- todas las actividades se reducían a selección, texto abierto o grabación;
+- las respuestas correctas llegaban al navegador;
+- las respuestas abiertas se mostraban visualmente como correctas aunque estuvieran pendientes;
+- la grabación se describía como guardada sin haberse subido;
+- el tiempo de cada respuesta se calculaba desde el inicio de la lección;
+- la última actividad cerraba la vista sin ejecutar correctamente la finalización;
+- no existía un recorrido pedagógico por etapas ni resumen final.
+
+Estos defectos son incompatibles con la especificación activa y no deben reaparecer.
+
 ## Próximo bloque de trabajo
 
-1. Auditar el motor actual de lecciones.
-2. Definir estados y componentes de actividad.
-3. Diseñar el flujo de T01 por etapas.
-4. Implementar feedback y persistencia.
-5. Probar T01 de principio a fin.
-6. Aplicar el motor a T02.
+1. Aplicar la migración `014_dynamic_lesson_engine.sql`.
+2. Regenerar e importar `A1_CONTENT_SEED.sql` para publicar los contratos de actividad.
+3. Desplegar el frontend modular.
+4. Probar T01 de principio a fin en escritorio y móvil.
+5. Corregir las inconsistencias pedagógicas detectadas en T01.
+6. Aplicar y validar el mismo motor en T02.
 
 ## Política de prioridad
 

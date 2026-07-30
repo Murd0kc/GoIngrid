@@ -7,8 +7,9 @@ services:
     env_file:
       - .env
     networks:
-      - web
+      - goingrid-proxy
 
 networks:
-  web:
+  goingrid-proxy:
     external: true
+    name: goingrid-proxy

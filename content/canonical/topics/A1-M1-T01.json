@@ -14,11 +14,20 @@
   ],
   "key_language": [
     "How do you spell your name?",
-    "I spell it A-N-A.",
+    "It is spelled A-N-A.",
     "Could you repeat that, please?",
     "What is the first letter?",
     "What is the last letter?",
     "Is that B or V?"
+  ],
+  "vocabulary": [
+    {"term":"name","meaning_es":"nombre","example":"What is your name?"},
+    {"term":"spell","meaning_es":"deletrear","example":"How do you spell it?"},
+    {"term":"letter","meaning_es":"letra","example":"The first letter is B."},
+    {"term":"first","meaning_es":"primero o primera","example":"What is the first letter?"},
+    {"term":"last","meaning_es":"último o última","example":"What is the last letter?"},
+    {"term":"repeat","meaning_es":"repetir","example":"Could you repeat that, please?"},
+    {"term":"correct","meaning_es":"correcto o correcta","example":"Yes, that is correct."}
   ],
   "letters": [
     {"letter":"A","lowercase":"a","name":"ei","ipa":"/eɪ/","example":"apple","common_error":"pronunciarla como la a española"},
@@ -53,6 +62,14 @@
     {"id":"A1-M1-T01-L02","title":"Pronunciar nombres de letras","focus":"nombre de la letra y contrastes difíciles"},
     {"id":"A1-M1-T01-L03","title":"Deletrear información personal","focus":"nombres, ciudades, correos y palabras"},
     {"id":"A1-M1-T01-L04","title":"Resolver una conversación real","focus":"confirmar letras y pedir repetición"}
+  ],
+  "spanish_speaker_notes": [
+    "Para deletrear, usa el nombre inglés de cada letra; no uses el sonido de la letra dentro de una palabra.",
+    "A, E e I no tienen el mismo nombre que en español: A /eɪ/, E /iː/ e I /aɪ/.",
+    "B /biː/ y V /viː/ se distinguen por el sonido inicial; para /v/, los dientes superiores tocan suavemente el labio inferior.",
+    "H se llama /eɪtʃ/ y W se llama /ˈdʌbəljuː/.",
+    "R no se vibra como la erre española cuando dices el nombre de la letra.",
+    "Si no entiendes una letra, pide repetición o usa una palabra de apoyo: V as in very."
   ],
   "mastery_criteria": {
     "letter_recognition_minimum": 24,

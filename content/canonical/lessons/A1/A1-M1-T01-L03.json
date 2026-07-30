@@ -1,0 +1,455 @@
+{
+  "id": "A1-M1-T01-L03",
+  "level": "A1",
+  "module_code": "A1-M1",
+  "topic_code": "A1-M1-T01",
+  "title": "Names, cities and email addresses",
+  "estimated_seconds": 1020,
+  "communication_goal": "El estudiante puede deletrear información personal y comprobar que otra persona la registró correctamente.",
+  "situation": "Completar un formulario de viaje cuando el nombre de una persona o ciudad necesita confirmación.",
+  "language_focus": [
+    "How do you spell your first name?",
+    "How do you spell your last name?",
+    "Is that right?",
+    "Yes, that's right.",
+    "No, the first letter is...",
+    "Let me spell it again."
+  ],
+  "vocabulary": [
+    {
+      "term": "first name",
+      "meaning_es": "nombre de pila",
+      "example": "My first name is Ana."
+    },
+    {
+      "term": "last name",
+      "meaning_es": "apellido",
+      "example": "My last name is García."
+    },
+    {
+      "term": "city",
+      "meaning_es": "ciudad",
+      "example": "I live in a small city."
+    },
+    {
+      "term": "country",
+      "meaning_es": "país",
+      "example": "What country are you from?"
+    },
+    {
+      "term": "form",
+      "meaning_es": "formulario",
+      "example": "Please complete this form."
+    },
+    {
+      "term": "right",
+      "meaning_es": "correcto",
+      "example": "Yes, that's right."
+    },
+    {
+      "term": "again",
+      "meaning_es": "otra vez",
+      "example": "Let me spell it again."
+    }
+  ],
+  "context": {
+    "before": "A travel agent enters a customer's information into a form.",
+    "dialogue": [
+      {
+        "speaker": "Agent",
+        "text": "What's your first name?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Elena."
+      },
+      {
+        "speaker": "Agent",
+        "text": "How do you spell it?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "E-L-E-N-A."
+      },
+      {
+        "speaker": "Agent",
+        "text": "And your last name?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "García. G-A-R-C-I-A."
+      },
+      {
+        "speaker": "Agent",
+        "text": "G-A-R-C-I-A. Is that right?"
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, that's right."
+      }
+    ]
+  },
+  "spanish_speaker_notes": [
+    "First name es nombre de pila; last name es apellido. No uses name para ambos si necesitas precisión.",
+    "En inglés, confirma la información con Is that right? y responde Yes, that's right.",
+    "Al deletrear nombres en español, usa los nombres de las letras inglesas y no traduzcas la palabra."
+  ],
+  "pronunciation": {
+    "target": "Deletrear grupos de letras con ritmo constante y confirmar información con entonación natural.",
+    "models": [
+      {
+        "text": "E-L-E-N-A",
+        "note": "separa las letras con pausas breves"
+      },
+      {
+        "text": "Is that right?",
+        "stress": [
+          "right"
+        ],
+        "intonation": "rising"
+      },
+      {
+        "text": "Yes, that's right.",
+        "stress": [
+          "right"
+        ],
+        "intonation": "falling"
+      }
+    ],
+    "student_feedback": "Evalúa claridad de cada letra, pausas breves y diferencia entre pregunta y confirmación."
+  },
+  "reading": {
+    "title": "A travel form",
+    "text": "Elena is buying a train ticket. The agent asks for her first name, last name, city and email address. Elena spells each piece of information. The agent reads the information back to her. Elena listens and confirms that everything is right.",
+    "interactive_vocabulary": [
+      "buying",
+      "train ticket",
+      "piece of information",
+      "reads back",
+      "everything"
+    ],
+    "questions": [
+      {
+        "prompt": "What is Elena buying?",
+        "options": [
+          "A train ticket",
+          "A hotel room",
+          "A coffee"
+        ],
+        "answer": "A train ticket",
+        "accepted_answers": ["A train ticket", "She is buying a train ticket", "Train ticket"]
+      },
+      {
+        "prompt": "What does the agent do after writing the information?",
+        "options": [
+          "Reads it back",
+          "Deletes it",
+          "Changes the city"
+        ],
+        "answer": "Reads it back",
+        "accepted_answers": ["Reads it back", "The agent reads it back", "Reads the information back"]
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "A1-M1-T01-L03-E01",
+      "type": "vocabulary_reconstruct",
+      "skill": "vocabulary",
+      "instruction": "Reconstruye la ficha de Elena relacionando cada dato con su categoría.",
+      "items": [
+        {
+          "text": "Elena",
+          "category": "first name"
+        },
+        {
+          "text": "García",
+          "category": "last name"
+        },
+        {
+          "text": "city",
+          "category": "place"
+        },
+        {
+          "text": "email address",
+          "category": "contact"
+        }
+      ],
+      "categories": [
+        "first name",
+        "last name",
+        "place",
+        "contact"
+      ],
+      "feedback_correct": "Organizaste la información personal correctamente.",
+      "feedback_incorrect": "First name es nombre; last name es apellido; city es lugar.",
+      "estimated_seconds": 75,
+      "prompt": "Reconstruye la ficha de Elena relacionando cada dato con su categoría.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Elena=first name",
+          "García=last name",
+          "city=place",
+          "email address=contact"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E02",
+      "type": "listening_detail",
+      "skill": "listening",
+      "instruction": "Escucha la ficha y escribe las letras del apellido.",
+      "prompt": "The last name is García. The agent hears: G-A-R-C-I-A.",
+      "correct_answer": "G-A-R-C-I-A",
+      "feedback_correct": "Registraste las seis letras en el orden correcto.",
+      "feedback_incorrect": "Escucha una letra por vez y usa guiones para separarlas.",
+      "estimated_seconds": 70,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "G-A-R-C-I-A"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E03",
+      "type": "phrase_choice",
+      "skill": "interaction",
+      "instruction": "El agente terminó de escribir. Elige la frase para confirmar la información.",
+      "prompt": "The agent reads your name back. It is correct.",
+      "options": [
+        "Yes, that's right.",
+        "How do you spell it?",
+        "What's your city?"
+      ],
+      "correct_answer": "Yes, that's right.",
+      "feedback_correct": "Confirmaste la información de forma natural.",
+      "feedback_incorrect": "La información ya está correcta; necesitas confirmarla.",
+      "estimated_seconds": 40,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "Yes, that's right."
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E04",
+      "type": "error_correction",
+      "skill": "grammar",
+      "instruction": "Corrige la pregunta.",
+      "prompt": "How you spell your last name?",
+      "correct_answer": "How do you spell your last name?",
+      "feedback_correct": "En esta pregunta usamos How do you + verbo base.",
+      "feedback_incorrect": "Añade do después de How y antes de you.",
+      "estimated_seconds": 50,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "How do you spell your last name?"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E05",
+      "type": "information_gap",
+      "skill": "reading",
+      "instruction": "Mira la tarjeta incompleta y elige qué dato falta.",
+      "prompt": "First name: Elena | Last name: García | City: ____ | Email: elena@example.com",
+      "options": [
+        "City",
+        "First name",
+        "Last name"
+      ],
+      "correct_answer": "City",
+      "feedback_correct": "Identificaste el dato que falta en el formulario.",
+      "feedback_incorrect": "El nombre, apellido y correo ya aparecen; falta la ciudad.",
+      "estimated_seconds": 45,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "City"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E06",
+      "type": "pronunciation_recording",
+      "skill": "pronunciation",
+      "instruction": "Graba la confirmación completa con la entonación adecuada.",
+      "prompt": "G-A-R-C-I-A. Is that right? Yes, that's right.",
+      "evaluation": {
+        "0": "letter clarity",
+        "1": "question intonation",
+        "2": "confirmation rhythm",
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "feedback_correct": "La secuencia se entiende y la pregunta se diferencia de la confirmación.",
+      "feedback_incorrect": "Sube ligeramente la entonación en Is that right? y bájala en Yes, that's right.",
+      "estimated_seconds": 100,
+      "difficulty": null,
+      "target_error": null,
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E07",
+      "type": "interactive_reading",
+      "skill": "reading",
+      "instruction": "Lee el texto, consulta las palabras nuevas y completa la ficha de Elena.",
+      "reading_ref": "A1-M1-T01-L03-reading-01",
+      "correct_answer": "2 comprehension answers and completed form",
+      "feedback_correct": "Usaste la lectura para recuperar información específica.",
+      "feedback_incorrect": "Busca qué compra Elena y qué información lee el agente.",
+      "estimated_seconds": 130,
+      "prompt": "Lee el texto, consulta las palabras nuevas y completa la ficha de Elena.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "2 comprehension answers and completed form"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E08",
+      "type": "ai_roleplay",
+      "skill": "conversation",
+      "instruction": "La IA actúa como agente de viajes. Completa tus datos y confirma que están escritos correctamente.",
+      "role": "travel agent",
+      "student_goal": "Give first name, last name, city and email, then confirm or correct one detail.",
+      "allowed_support": [
+        "field-by-field mode",
+        "slow mode",
+        "Spanish hint"
+      ],
+      "success_criteria": [
+        "spells at least two fields",
+        "confirms a correct detail",
+        "corrects one incorrect detail"
+      ],
+      "feedback_correct": "Completaste un formulario real y reparaste la información cuando fue necesario.",
+      "feedback_incorrect": "Usa: How do you spell...? / Is that right? / No, the first letter is...",
+      "estimated_seconds": 200,
+      "prompt": "La IA actúa como agente de viajes. Completa tus datos y confirma que están escritos correctamente.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E09",
+      "type": "transfer_mission",
+      "skill": "integrated",
+      "instruction": "Crea una tarjeta de contacto y preséntala oralmente: nombre, apellido, ciudad y correo.",
+      "prompt": "My first name is ____. My last name is ____. I live in ____. My email is ____.",
+      "response_type": "open_speech_or_text",
+      "evaluation_criteria": [
+        "provides four fields",
+        "spells at least two",
+        "uses complete phrases"
+      ],
+      "feedback_correct": "Convertiste vocabulario y deletreo en información personal útil.",
+      "feedback_incorrect": "Completa un campo cada vez y después vuelve a decir la tarjeta completa.",
+      "estimated_seconds": 150,
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [],
+        "open_response": true,
+        "status": "pending_rubric"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    },
+    {
+      "id": "A1-M1-T01-L03-E10",
+      "type": "spaced_retrieval",
+      "skill": "review",
+      "instruction": "Recupera las expresiones sin mirar el diálogo.",
+      "prompts": [
+        "How do you spell your ___ name?",
+        "Is that ___?",
+        "Let me spell it ___"
+      ],
+      "correct_answers": [
+        "last",
+        "right",
+        "again"
+      ],
+      "feedback_correct": "Puedes pedir, confirmar y repetir información personal.",
+      "feedback_incorrect": "Repasa last name, right y again; reaparecerán en el repaso acumulativo.",
+      "estimated_seconds": 90,
+      "prompt": "Recupera las expresiones sin mirar el diálogo.",
+      "difficulty": null,
+      "target_error": null,
+      "evaluation": {
+        "accepted_answers": [
+          "last",
+          "right",
+          "again"
+        ],
+        "open_response": false,
+        "status": "auto_check_candidate"
+      },
+      "hint": null,
+      "source_lesson_id": "A1-M1-T01-L03"
+    }
+  ],
+  "mastery_criteria": {
+    "minimum_score": 0.8,
+    "must_complete": [
+      "listening_detail",
+      "pronunciation_recording",
+      "ai_roleplay",
+      "transfer_mission"
+    ],
+    "retry_policy": "Los errores se programan para recuperación a 1, 3, 7 y 14 días."
+  },
+  "explanation_es": "Esta lección practica Names, cities and email addresses mediante ejemplos, comprensión y producción guiada.",
+  "status": "structurally_validated",
+  "source_file": "content/canonical/lessons/A1/A1-M1-T01-L03.json",
+  "contract_version": "lesson-v1",
+  "review_flags": [
+    "linguistic_review_required",
+    "pedagogical_review_required",
+    "cefr_review_required"
+  ]
+}

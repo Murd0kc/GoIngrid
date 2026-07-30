@@ -3,21 +3,27 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
-const inputDir = path.join(root, 'content', 'normalized', 'A1')
+const preliminaryInputDir = path.join(root, 'content', 'normalized', 'A1')
+const canonicalInputDir = path.join(root, 'content', 'canonical', 'lessons', 'A1')
 const output = path.join(root, 'supabase', 'seeds', '102_import_a1_lesson_sections.sql')
 const text = (value) => `'${String(value).replaceAll("'", "''")}'`
 const sql = (value) => `'${JSON.stringify(value ?? null).replaceAll("'", "''")}'::jsonb`
-const files = (await fs.readdir(inputDir)).filter((name) => name.endsWith('.json')).sort()
+const preliminaryFiles = (await fs.readdir(preliminaryInputDir)).filter((name) => name.endsWith('.json'))
+const canonicalFiles = await fs.readdir(canonicalInputDir).catch(() => [])
+const canonicalNames = new Set(canonicalFiles.filter((name) => name.endsWith('.json')))
+const files = [...new Set([...preliminaryFiles, ...canonicalNames])].sort()
 const out = [
   '-- GoIngrid A1 lesson theory and learning sections.',
-  '-- Regenerated from content/normalized/A1; safe to rerun.',
+  '-- Canonical lessons override the preliminary compatibility inventory.',
+  '-- Safe to rerun.',
   'begin;',
   'do $$ declare v_level_id uuid; v_module_id uuid; v_topic_id uuid; v_lesson_id uuid; begin',
   "select l.id into v_level_id from public.levels l where l.code='A1';",
 ]
 
 for (const name of files) {
-  const lesson = JSON.parse(await fs.readFile(path.join(inputDir, name), 'utf8'))
+  const sourceDir = canonicalNames.has(name) ? canonicalInputDir : preliminaryInputDir
+  const lesson = JSON.parse(await fs.readFile(path.join(sourceDir, name), 'utf8'))
   const [, moduleCode, topicCode, lessonCode] = lesson.id.split('-')
   const moduleOrder = Number(moduleCode.slice(1))
   const topicOrder = Number(topicCode.slice(1))

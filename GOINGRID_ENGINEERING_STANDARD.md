@@ -105,6 +105,37 @@ Cada función debe cubrir:
 
 Las actividades se implementan con componentes separados por tipo. El motor de lección coordina la secuencia, pero la evaluación, el progreso y la presentación no deben quedar mezclados en un componente monolítico.
 
+### Contrato del motor de lección
+
+La implementación se separa por responsabilidad:
+
+- `features/auth`: sesión y acceso.
+- `features/curriculum`: módulos, temas, introducción y selección de lecciones.
+- `features/lesson-player`: recorrido, estados, componentes de actividad y finalización.
+- `features/lesson-player/domain`: reglas puras de secuencia, progreso y puntuación.
+- `lessonRepository`: único acceso del reproductor a Supabase.
+
+El navegador recibe solamente instrucciones, estímulos, opciones públicas y contenido pedagógico. Las respuestas correctas y la propiedad `is_correct` no forman parte del contrato público. La evaluación determinista se ejecuta en PostgreSQL mediante una función autenticada; las respuestas abiertas conservan estado pendiente hasta contar con una rúbrica o evaluador real.
+
+Una lección se representa como un recorrido de estados explícitos:
+
+```text
+orientación
+→ activación
+→ explicación
+→ ejemplos
+→ vocabulario y forma
+→ escucha
+→ pronunciación
+→ lectura o escritura
+→ interacción
+→ transferencia
+→ recuperación
+→ resultado
+```
+
+Cada paso guarda su identidad, etapa pedagógica y estado. El tiempo de respuesta se mide por actividad, el progreso final se guarda antes de abandonar el reproductor y una respuesta pendiente nunca se presenta como correcta.
+
 ## Seguridad
 
 - Secretos únicamente en variables del servidor.

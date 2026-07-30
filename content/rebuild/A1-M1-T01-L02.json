@@ -26,8 +26,8 @@
     "before": "A receptionist is entering an email address, but one letter is unclear.",
     "dialogue": [
       { "speaker": "Receptionist", "text": "What's your email address?" },
-      { "speaker": "Guest", "text": "It's luis.green@example.com." },
-      { "speaker": "Receptionist", "text": "Is that B or V in green?" },
+      { "speaker": "Guest", "text": "It's luis.vera@example.com." },
+      { "speaker": "Receptionist", "text": "Is that B or V in Vera?" },
       { "speaker": "Guest", "text": "V. V as in very." },
       { "speaker": "Receptionist", "text": "And what's the last letter?" },
       { "speaker": "Guest", "text": "N. That's N, not M." }
@@ -51,7 +51,7 @@
   },
   "reading": {
     "title": "The registration form",
-    "text": "Luis is checking in at a hotel. The receptionist writes his email address. Luis says, 'luis.green@example.com.' The receptionist is not sure about one letter. Luis repeats it and gives an example: 'V as in very.' The receptionist checks the address again.",
+    "text": "Luis is checking in at a hotel. The receptionist writes his email address. Luis says, 'luis.vera@example.com.' The receptionist is not sure about the first letter of Vera. Luis repeats it and gives an example: 'V as in very.' The receptionist checks the address again.",
     "interactive_vocabulary": ["checking in", "receptionist", "sure", "repeats", "example"],
     "questions": [
       { "prompt": "Where is Luis?", "options": ["At a hotel", "At a school", "At a restaurant"], "answer": "At a hotel" },
@@ -80,7 +80,7 @@
       "type": "interactive_listening",
       "skill": "listening",
       "instruction": "Escucha el correo y selecciona la letra que falta.",
-      "prompt": "luis.green@example.com. The unclear letter is the first letter of green.",
+      "prompt": "luis.vera@example.com. The unclear letter is the first letter of Vera.",
       "options": ["B", "V", "D"],
       "correct_answer": "V",
       "feedback_correct": "La letra es V. Escucha también la aclaración: V as in very.",

@@ -20,7 +20,20 @@
     "pronunciation": {"type": "object"},
     "activities": {"type": "array", "minItems": 8, "maxItems": 16, "items": {"$ref": "#/$defs/activity"}},
     "mastery_criteria": {"type": "object"},
-    "status": {"type": "string", "enum": ["needs_review", "approved", "imported", "published"]},
+    "status": {
+      "type": "string",
+      "enum": [
+        "planned",
+        "writing",
+        "structurally_validated",
+        "linguistic_review",
+        "pedagogical_review",
+        "cefr_review",
+        "approved",
+        "imported",
+        "published"
+      ]
+    },
     "source_file": {"type": "string"}
   },
   "$defs": {
