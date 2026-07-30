@@ -6,7 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const dir = path.join(root, 'content', 'lessons', 'A1')
 const output = path.join(root, 'content', 'A1_PEDAGOGICAL_AUDIT.json')
 const files = (await fs.readdir(dir)).filter((name) => /^A1-M\d+-T\d+\.json$/.test(name)).sort()
-const report = { generated_at: new Date().toISOString(), standard: 'GOINGRID_PEDAGOGICAL_DEPTH_STANDARD.md', topics: [], summary: {} }
+const report = { generated_at: new Date().toISOString(), standard: 'GOINGRID_LEARNING_AND_CONTENT_STANDARD.md', topics: [], summary: {} }
 
 for (const file of files) {
   const topic = JSON.parse(await fs.readFile(path.join(dir, file), 'utf8'))

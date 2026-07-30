@@ -1,20 +1,48 @@
 # GoIngrid
 
-Plataforma modular para aprender ingles desde cero hasta C2.
+Plataforma de aprendizaje de inglés para hispanohablantes, diseñada para desarrollar comprensión, vocabulario, gramática, pronunciación, lectura, escritura y conversación mediante una experiencia dinámica y adaptativa.
+
+## Prioridad actual
+
+Completar una experiencia vertical de alta calidad con A1-M1-T01 y A1-M1-T02 antes de producir el resto de A1.
+
+## Documentación vigente
+
+Lee primero:
+
+1. `GOINGRID_MASTER_SPECIFICATION.md`
+2. El documento especializado relacionado con tu cambio:
+   - `GOINGRID_PRODUCT_REQUIREMENTS.md`
+   - `GOINGRID_ENGINEERING_STANDARD.md`
+   - `GOINGRID_LEARNING_AND_CONTENT_STANDARD.md`
+   - `GOINGRID_DEVELOPMENT_ROADMAP.md`
+
+Los documentos de `docs/archive/` son históricos y no establecen reglas vigentes.
+
+## Fuentes de verdad
+
+```text
+content/curriculum/  → estructura curricular
+content/canonical/   → contenido pedagógico oficial
+supabase/seeds/      → artefactos generados
+Supabase             → datos publicados y estado operativo
+```
+
+`content/lessons/`, `content/rebuild/` y `content/normalized/` contienen material preliminar o de transición.
+
+## Tecnología
+
+- React y Vite
+- Supabase y PostgreSQL
+- Docker Compose
+- Caddy
+- n8n
+- OpenAI para funciones de tutoría, conversación y evaluación asistida
 
 ## Estado
 
-La infraestructura inicial y el esquema de datos estan desplegados en el servidor. El contenido final A1-C2 aun esta en produccion y no se considera publicado hasta pasar las validaciones obligatorias.
-
-## Documentos de referencia
-
-- `GOINGRID_MASTER_SPECIFICATION.md`: coordinación, jerarquía y fuentes de verdad.
-- `PRODUCT_REQUIREMENTS.md`: requisitos del producto.
-- `GOINGRID_DEVELOPMENT_PLAN.md`: fases y orden de implementacion.
-- `GOINGRID_CONTENT_MASTER_PLAN.md`: metodologia y especificacion del contenido.
-- `GOINGRID_ENGINEERING_RULES.md`: reglas permanentes de arquitectura y calidad.
-- `GOINGRID_STARTUP_CHECKLIST.md`: estado operativo y pasos verificables.
-
-## Fuente curricular
-
-Los archivos finales reconstruidos dentro de `content/rebuild/` son actualmente la fuente de verdad del contenido A1. El contenido antiguo permanece congelado y no publicable. La base de datos se sincroniza mediante importadores validados.
+- Infraestructura y frontend desplegados.
+- Catálogo A1 creado.
+- Lote preliminar de 120 lecciones importado, pero no aprobado como contenido final.
+- T01 y T02 cuentan con especificaciones canónicas de tema.
+- El próximo objetivo es implementar el motor de aprendizaje dinámico.
